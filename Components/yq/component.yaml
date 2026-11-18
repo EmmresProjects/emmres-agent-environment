@@ -1,0 +1,10 @@
+id: yq
+name: yq
+version: UNSET
+source_url: UNSET
+license: UNSET
+target_directory: tools/yq
+profiles: []
+verification_command: UNSET
+sha256: UNSET
+bundled: false

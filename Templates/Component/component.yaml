@@ -1,0 +1,10 @@
+id: component-id
+name: Component Name
+version: UNSET
+source_url: UNSET
+license: UNSET
+target_directory: tools/component-id
+profiles: []
+verification_command: UNSET
+sha256: UNSET
+bundled: false

@@ -1,0 +1,7 @@
+schema_version: 1
+environment:
+  name: Emmre's Agent Environment
+  platform: Windows
+  architecture: [x64]
+  portable: true
+components: {}

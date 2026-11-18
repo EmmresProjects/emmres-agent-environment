@@ -1,0 +1,10 @@
+id: apktool
+name: APKTool
+version: UNSET
+source_url: UNSET
+license: UNSET
+target_directory: tools/apktool
+profiles: []
+verification_command: UNSET
+sha256: UNSET
+bundled: false

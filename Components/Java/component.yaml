@@ -1,0 +1,10 @@
+id: java
+name: Java
+version: UNSET
+source_url: UNSET
+license: UNSET
+target_directory: tools/java
+profiles: []
+verification_command: UNSET
+sha256: UNSET
+bundled: false
