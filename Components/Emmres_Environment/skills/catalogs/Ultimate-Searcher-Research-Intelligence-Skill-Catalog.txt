@@ -1,0 +1,1495 @@
+A comprehensive catalog of composable agent skills for broad discovery, deep searching, website traversal, evidence gathering, source verification, structured extraction, synthesis, monitoring, and reproducible research.
+
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Catalog purpose. This document proposes focused skills for later implementation. It does not contain implemented skills or promise literal exhaustive coverage of the internet. Strong implementations should maximize relevant coverage through bounded, lawful, privacy-aware methods and should report unresolved gaps honestly.
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Search and Research Principles
+
+- Define the question, scope, freshness, audience, evidence standard, and stop conditions before searching.
+
+- Use multiple query families, source classes, languages, dates, and viewpoints when the topic requires broad coverage.
+
+- Prioritize primary and authoritative sources, then use secondary and community sources for context, discovery, and lived experience.
+
+- Open and verify underlying sources. Search snippets, reposts, and summaries are leads, not final evidence.
+
+- Track provenance, contradictions, missing evidence, inaccessible sources, and remaining uncertainty.
+
+- Stop when declared coverage is met or additional searching has low expected value, then deliver a clear, source-grounded synthesis.
+
+Catalog scope: 35 categories and 350 proposed skills.
+
+Catalog
+
+Category 1: Search Strategy and Query Architecture
+
+1. Skill Name: Research Objective Interpreter
+
+  Description: Transforms a prompt into answerable questions, evidence needs, freshness rules, scope boundaries, and completion criteria.
+
+2. Skill Name: Query Decomposition Architect
+
+  Description: Breaks broad topics into nonredundant searches for entities, dates, locations, methods, controversies, and source types.
+
+3. Skill Name: Query Expansion Specialist
+
+  Description: Generates synonyms, acronyms, alternate spellings, translations, technical terms, historical names, and related concepts.
+
+4. Skill Name: Search Intent Classifier
+
+  Description: Distinguishes factual, navigational, comparative, investigative, exploratory, transactional, and source-seeking intent.
+
+5. Skill Name: Boolean Query Engineer
+
+  Description: Builds precise AND, OR, NOT, phrase, wildcard, proximity, and field-limited queries for supported search systems.
+
+6. Skill Name: Advanced Search Operator Specialist
+
+  Description: Uses site, filetype, intitle, inurl, date, language, region, author, and domain filters where supported.
+
+7. Skill Name: Search Funnel Designer
+
+  Description: Moves from broad discovery to focused verification while preserving useful leads and avoiding premature narrowing.
+
+8. Skill Name: Negative Keyword Designer
+
+  Description: Removes recurring noise, ambiguous meanings, duplicate markets, unrelated products, and low-value result types.
+
+9. Skill Name: Query Portfolio Manager
+
+  Description: Maintains diverse query families so one wording, language, platform, or ranking system does not control the evidence.
+
+10. Skill Name: Search Stop-Condition Designer
+
+  Description: Defines bounded saturation, unresolved contradiction, freshness, coverage, and diminishing-return conditions.
+
+Category 2: General Web Discovery
+
+1. Skill Name: General Web Search Operator
+
+  Description: Finds relevant public pages, opens results, follows useful links, and records source context and dates.
+
+2. Skill Name: Deep Web Research Navigator
+
+  Description: Explores multi-page sites, documentation hubs, archives, catalogs, and less visible but lawfully accessible resources.
+
+3. Skill Name: Domain-Restricted Searcher
+
+  Description: Searches within a specified organization, government, university, publisher, repository, or website.
+
+4. Skill Name: Exact Phrase and Quote Searcher
+
+  Description: Locates precise wording, quotations, titles, error messages, policy clauses, and distinctive text fragments.
+
+5. Skill Name: Entity Disambiguation Searcher
+
+  Description: Separates similarly named people, companies, products, places, projects, and publications before synthesis.
+
+6. Skill Name: Related Site and Competitor Finder
+
+  Description: Finds comparable organizations, technologies, services, publications, and communities using evidence-based relationships.
+
+7. Skill Name: URL Pattern Explorer
+
+  Description: Uses predictable paths, sitemaps, categories, feeds, and pagination to discover related public content.
+
+8. Skill Name: Search Snippet Skeptic
+
+  Description: Treats result snippets as leads and verifies claims in the underlying page before using them.
+
+9. Skill Name: Search Result Deduplicator
+
+  Description: Clusters mirrors, syndication, reposts, aliases, tracking URLs, and near-duplicate pages.
+
+10. Skill Name: Discovery Gap Detector
+
+  Description: Identifies missing perspectives, dates, regions, source classes, or primary evidence and plans the next search.
+
+Category 3: Webpage Reading, Scrolling, and Site Traversal
+
+1. Skill Name: Long-Page Scroll Researcher
+
+  Description: Traverses long and infinite-scroll pages with checkpoints, duplicate detection, loading waits, and bounded stopping.
+
+2. Skill Name: Website Navigation Mapper
+
+  Description: Maps menus, subpages, breadcrumbs, categories, tags, search tools, and internal link relationships.
+
+3. Skill Name: Article Deep Reader
+
+  Description: Extracts thesis, claims, evidence, methods, examples, caveats, dates, and conclusions from an article.
+
+4. Skill Name: Documentation Portal Navigator
+
+  Description: Finds version-specific instructions across sidebars, anchors, references, examples, changelogs, and FAQs.
+
+5. Skill Name: Expandable Content Reader
+
+  Description: Opens tabs, accordions, comments, footnotes, related panels, and lazy-loaded sections needed for context.
+
+6. Skill Name: Pagination Traversal Specialist
+
+  Description: Moves through bounded result pages while tracking position, filters, duplicates, and missing records.
+
+7. Skill Name: Reader-Mode Noise Filter
+
+  Description: Separates primary content from menus, advertisements, cookie banners, repeated chrome, and recommendations.
+
+8. Skill Name: Web Table and List Reader
+
+  Description: Captures headers, units, filters, notes, pagination, and row relationships from visible structured content.
+
+9. Skill Name: Broken Link Recovery Searcher
+
+  Description: Uses titles, URLs, archives, mirrors, citations, and surrounding references to locate lawful replacements.
+
+10. Skill Name: Site Coverage Auditor
+
+  Description: Checks whether all relevant sections, result pages, dates, and content types within the declared scope were reviewed.
+
+Category 4: Primary and Official Source Research
+
+1. Skill Name: Government Source Researcher
+
+  Description: Prioritizes official laws, regulations, notices, statistics, forms, agencies, and public records for jurisdictional claims.
+
+2. Skill Name: Company Primary Source Researcher
+
+  Description: Finds official filings, reports, product pages, press releases, documentation, policies, and investor materials.
+
+3. Skill Name: Standards and Specifications Researcher
+
+  Description: Locates authoritative standards, RFCs, technical specifications, profiles, and implementation guidance.
+
+4. Skill Name: Official Documentation Searcher
+
+  Description: Finds current vendor manuals, support pages, API references, compatibility tables, and release notes.
+
+5. Skill Name: Public Filing Researcher
+
+  Description: Searches company registries, securities filings, procurement records, patent databases, and disclosed reports.
+
+6. Skill Name: Institutional Repository Searcher
+
+  Description: Finds university, museum, archive, library, laboratory, and research-institute materials.
+
+7. Skill Name: Primary Dataset Locator
+
+  Description: Finds original datasets, codebooks, collection methods, licenses, versions, and download formats.
+
+8. Skill Name: Direct Statement Verifier
+
+  Description: Finds the original speech, transcript, filing, post, decision, or publication behind a quoted claim.
+
+9. Skill Name: Official Source Version Tracker
+
+  Description: Compares current, superseded, archived, and jurisdiction-specific versions of official material.
+
+10. Skill Name: Primary Source Sufficiency Auditor
+
+  Description: Checks whether a material claim has direct authoritative support or still relies only on secondary reporting.
+
+Category 5: Academic Literature and Study Search
+
+1. Skill Name: Scholarly Database Searcher
+
+  Description: Builds database-specific searches for journals, conferences, dissertations, preprints, and technical reports.
+
+2. Skill Name: Systematic Literature Search Designer
+
+  Description: Defines databases, dates, languages, concepts, inclusion criteria, exclusions, and reproducible query strings.
+
+3. Skill Name: Citation Chaining Researcher
+
+  Description: Uses backward references and forward citations to find foundations, replications, critiques, and later developments.
+
+4. Skill Name: Review Article Locator
+
+  Description: Finds systematic reviews, meta-analyses, scoping reviews, and authoritative field overviews.
+
+5. Skill Name: Preprint and Published Version Matcher
+
+  Description: Links preprints to peer-reviewed versions, corrections, retractions, and supplementary material.
+
+6. Skill Name: Study Method Extractor
+
+  Description: Captures design, sample, measures, intervention, comparator, statistics, outcomes, and limitations.
+
+7. Skill Name: Evidence Hierarchy Classifier
+
+  Description: Distinguishes experimental, observational, qualitative, modeling, review, commentary, and expert-opinion evidence.
+
+8. Skill Name: Study Population Fit Analyst
+
+  Description: Checks whether sample, setting, geography, age, and time period match the question.
+
+9. Skill Name: Research Replication Finder
+
+  Description: Searches for direct and conceptual replications, failed replications, registered reports, and robustness checks.
+
+10. Skill Name: Literature Search Reproducibility Auditor
+
+  Description: Records databases, dates, queries, filters, deduplication, screening, and unresolved access limits.
+
+Category 6: News, Events, and Current Affairs Research
+
+1. Skill Name: Breaking News Source Triangulator
+
+  Description: Compares official statements, direct evidence, local reporting, wire services, and reputable outlets before summarizing.
+
+2. Skill Name: Event Timeline Reconstructor
+
+  Description: Orders dated developments, corrections, statements, actions, and unresolved gaps from multiple sources.
+
+3. Skill Name: Local News Specialist
+
+  Description: Finds credible local-language and regional reporting that broader searches may miss.
+
+4. Skill Name: Press Conference and Transcript Finder
+
+  Description: Locates complete remarks, briefings, interviews, and transcripts behind reported excerpts.
+
+5. Skill Name: Correction and Update Tracker
+
+  Description: Checks live blogs, editor notes, corrections, retractions, and later official updates.
+
+6. Skill Name: Incident Claim Verifier
+
+  Description: Separates confirmed facts, sourced allegations, eyewitness reports, estimates, and unknowns.
+
+7. Skill Name: Media Framing Comparator
+
+  Description: Compares emphasis, terminology, sourcing, omissions, and uncertainty across outlets without equating all sources.
+
+8. Skill Name: News Archive Researcher
+
+  Description: Finds historical coverage to trace how an event, claim, or organization developed over time.
+
+9. Skill Name: Current Status Verifier
+
+  Description: Checks the freshest authoritative status for schedules, closures, releases, disputes, and ongoing events.
+
+10. Skill Name: News Coverage Saturation Auditor
+
+  Description: Confirms major viewpoints and primary updates were covered without endlessly repeating syndicated stories.
+
+Category 7: Historical and Archival Search
+
+1. Skill Name: Historical Source Searcher
+
+  Description: Finds books, newspapers, records, maps, photographs, catalogs, and institutional collections relevant to a period.
+
+2. Skill Name: Web Archive Navigator
+
+  Description: Uses lawful snapshots to examine changed, removed, or earlier versions of public webpages.
+
+3. Skill Name: Newspaper Archive Researcher
+
+  Description: Searches historical reporting by date, location, names, aliases, events, and OCR variants.
+
+4. Skill Name: Primary Record Finder
+
+  Description: Locates letters, diaries, minutes, registers, government records, oral histories, and period documents.
+
+5. Skill Name: Historical Name Variant Searcher
+
+  Description: Tracks old spellings, renamed places, former organizations, transliterations, titles, and aliases.
+
+6. Skill Name: Chronology Consistency Checker
+
+  Description: Tests dates, ages, sequences, contemporaneous knowledge, and claimed causal order.
+
+7. Skill Name: Archive Catalog Interpreter
+
+  Description: Reads finding aids, collection hierarchies, boxes, folders, series, restrictions, and digitization notes.
+
+8. Skill Name: Image and Map Provenance Researcher
+
+  Description: Finds creator, date, collection, rights, caption, location, and original context for historical visuals.
+
+9. Skill Name: OCR Error Recovery Searcher
+
+  Description: Uses spelling variants, partial phrases, date filters, and neighboring terms to overcome poor digitization.
+
+10. Skill Name: Historical Evidence Context Auditor
+
+  Description: Checks whether later retellings are being confused with contemporary or primary evidence.
+
+Category 8: Multilingual and Cross-Regional Search
+
+1. Skill Name: Multilingual Query Translator
+
+  Description: Creates meaning-preserving search terms in target languages with local terminology and script variants.
+
+2. Skill Name: Native Terminology Researcher
+
+  Description: Finds terms actually used by local institutions, communities, professionals, and media.
+
+3. Skill Name: Transliteration Variant Searcher
+
+  Description: Searches multiple romanization, script, diacritic, spacing, and historical spelling systems.
+
+4. Skill Name: Regional Search Engine Router
+
+  Description: Uses appropriate country, language, and domain-specific search systems and directories.
+
+5. Skill Name: Cross-Language Source Comparator
+
+  Description: Checks whether translated summaries preserve the source’s claims, limits, dates, and tone.
+
+6. Skill Name: Locale-Specific Date and Number Interpreter
+
+  Description: Normalizes dates, decimal separators, currencies, units, calendars, and addresses.
+
+7. Skill Name: Regional Law and Policy Searcher
+
+  Description: Finds jurisdiction-specific official rules rather than assuming one country’s framework is universal.
+
+8. Skill Name: Local Academic Source Finder
+
+  Description: Finds regional journals, repositories, theses, proceedings, and institutional publications.
+
+9. Skill Name: Cultural Context Searcher
+
+  Description: Finds credible context for local concepts, practices, names, symbols, and disputed interpretations.
+
+10. Skill Name: Cross-Regional Coverage Auditor
+
+  Description: Checks whether evidence overrepresents English-language, high-income, or highly indexed sources.
+
+Category 9: People, Organization, and Entity Research
+
+1. Skill Name: Public Person Researcher
+
+  Description: Finds authoritative public biographies, roles, publications, statements, and dated affiliations without collecting unnecessary private data.
+
+2. Skill Name: Organization Profile Researcher
+
+  Description: Finds legal identity, ownership, leadership, products, locations, filings, policies, and major public developments.
+
+3. Skill Name: Affiliation and Role Verifier
+
+  Description: Confirms titles, dates, employers, memberships, credentials, and changes through suitable primary sources.
+
+4. Skill Name: Corporate Relationship Mapper
+
+  Description: Finds parent, subsidiary, brand, investor, partner, vendor, and acquisition relationships.
+
+5. Skill Name: Public Contact Source Finder
+
+  Description: Finds official public contact pages and role-based channels without exposing private personal details.
+
+6. Skill Name: Author and Researcher Identifier
+
+  Description: Disambiguates authors using affiliation, ORCID, topics, coauthors, dates, and publication history.
+
+7. Skill Name: Entity Alias and Rename Tracker
+
+  Description: Tracks former names, mergers, reorganizations, acronyms, brands, and legal-name variants.
+
+8. Skill Name: Public Reputation Evidence Researcher
+
+  Description: Finds documented recognition, criticism, disputes, investigations, and responses with dates and attribution.
+
+9. Skill Name: Conflict of Interest Researcher
+
+  Description: Searches disclosed funding, employment, board roles, sponsorship, and declared competing interests.
+
+10. Skill Name: Entity Profile Evidence Auditor
+
+  Description: Checks each profile statement for source, date, potential ambiguity, and unnecessary personal information.
+
+Category 10: Products, Services, and Market Search
+
+1. Skill Name: Product Specification Researcher
+
+  Description: Finds official model numbers, dimensions, features, compatibility, warranty, manuals, and release status.
+
+2. Skill Name: Price and Availability Researcher
+
+  Description: Compares current prices, sellers, region, stock, variants, taxes, shipping, and effective dates.
+
+3. Skill Name: Compatibility Evidence Searcher
+
+  Description: Finds official compatibility matrices, supported versions, required accessories, and verified limitations.
+
+4. Skill Name: Review Evidence Synthesizer
+
+  Description: Compares professional tests, long-term reviews, user reports, return patterns, and methodology differences.
+
+5. Skill Name: Product Recall and Safety Searcher
+
+  Description: Checks official recalls, safety notices, advisories, defects, and affected serial or model ranges.
+
+6. Skill Name: Service Plan and Pricing Researcher
+
+  Description: Finds current tiers, limits, contracts, trials, billing, cancellation, regional availability, and hidden dependencies.
+
+7. Skill Name: Vendor Comparison Researcher
+
+  Description: Compares features, support, reliability, integration, security, pricing, and switching costs under one rubric.
+
+8. Skill Name: Marketplace Listing Verifier
+
+  Description: Checks seller identity, condition, return terms, shipping, authenticity claims, and listing inconsistencies.
+
+9. Skill Name: Product Lifecycle Tracker
+
+  Description: Finds launch, revisions, discontinuation, support end, replacement models, and resale implications.
+
+10. Skill Name: Commercial Evidence Freshness Auditor
+
+  Description: Checks that price, availability, terms, and specifications are current for the user’s region and date.
+
+Category 11: Technical Documentation and Developer Search
+
+1. Skill Name: API Documentation Searcher
+
+  Description: Finds current endpoints, authentication, parameters, limits, schemas, errors, SDKs, and examples.
+
+2. Skill Name: Version-Specific Documentation Finder
+
+  Description: Matches instructions to exact software, operating system, framework, device, and release version.
+
+3. Skill Name: Error Message Search Specialist
+
+  Description: Uses exact strings, stack frames, environment details, and reduced symptoms to find relevant fixes.
+
+4. Skill Name: Code Example Researcher
+
+  Description: Finds minimal, licensed, version-compatible examples and checks associated documentation and issues.
+
+5. Skill Name: Changelog and Release Note Searcher
+
+  Description: Tracks features, breaking changes, deprecations, migrations, fixes, and known issues.
+
+6. Skill Name: Standards and Protocol Researcher
+
+  Description: Finds normative specifications, registries, extensions, errata, and implementation notes.
+
+7. Skill Name: Vendor Support Knowledge Searcher
+
+  Description: Searches official support articles, troubleshooting guides, forums, advisories, and compatibility notices.
+
+8. Skill Name: Technical Forum Evidence Researcher
+
+  Description: Uses community answers as leads while checking versions, reproducibility, authority, and later corrections.
+
+9. Skill Name: Implementation Constraint Finder
+
+  Description: Finds quotas, performance bounds, platform restrictions, license conditions, and unsupported behavior.
+
+10. Skill Name: Technical Search Validation Auditor
+
+  Description: Confirms that a proposed solution matches the user’s actual environment and current documentation.
+
+Category 12: Open Source, GitHub, and Repository Search
+
+1. Skill Name: Repository Discovery Searcher
+
+  Description: Finds relevant public repositories by topic, language, activity, license, stars, forks, and recent maintenance.
+
+2. Skill Name: Source Code Searcher
+
+  Description: Searches symbols, strings, patterns, configurations, tests, comments, and usage across authorized repositories.
+
+3. Skill Name: Issue and Discussion Researcher
+
+  Description: Finds bug reports, reproductions, maintainer comments, workarounds, milestones, and unresolved cases.
+
+4. Skill Name: Pull Request History Researcher
+
+  Description: Finds implementation rationale, review debate, changed files, tests, and related issues.
+
+5. Skill Name: Release Asset Searcher
+
+  Description: Finds tags, binaries, source archives, checksums, signatures, and platform-specific packages.
+
+6. Skill Name: License and Attribution Researcher
+
+  Description: Finds repository licenses, file-level exceptions, third-party notices, and reuse obligations.
+
+7. Skill Name: Fork and Mirror Comparator
+
+  Description: Distinguishes canonical projects, active forks, abandoned mirrors, and incompatible variants.
+
+8. Skill Name: Commit History Investigator
+
+  Description: Finds when and why behavior changed through blame, commits, release branches, and migration notes.
+
+9. Skill Name: Dependency Source Researcher
+
+  Description: Finds package origin, versions, transitive dependencies, provenance, and supply-chain advisories.
+
+10. Skill Name: Repository Evidence Auditor
+
+  Description: Checks branch, tag, commit date, file path, and version before citing code behavior.
+
+Category 13: Datasets, Statistics, and Quantitative Sources
+
+1. Skill Name: Official Statistics Searcher
+
+  Description: Finds national statistical offices, international organizations, regulators, and administrative datasets.
+
+2. Skill Name: Dataset Catalog Navigator
+
+  Description: Searches CKAN, data portals, repositories, registries, and institutional catalogs by field and geography.
+
+3. Skill Name: Data Dictionary and Codebook Finder
+
+  Description: Locates field definitions, units, categories, missing-value rules, and identifier documentation.
+
+4. Skill Name: Time-Series Source Researcher
+
+  Description: Finds consistent historical series, revision histories, frequency, seasonal adjustment, and methodological breaks.
+
+5. Skill Name: Geospatial Dataset Searcher
+
+  Description: Finds boundaries, coordinates, maps, projections, coverage, resolution, and licensing.
+
+6. Skill Name: Microdata Access Researcher
+
+  Description: Finds public-use files, restricted access procedures, survey documentation, and confidentiality limits.
+
+7. Skill Name: Dataset Version and Update Tracker
+
+  Description: Compares releases, revisions, schema changes, dates, and superseded downloads.
+
+8. Skill Name: Quantitative Claim Verifier
+
+  Description: Recomputes or checks cited numbers against source tables, denominators, units, and definitions.
+
+9. Skill Name: Data License and Reuse Researcher
+
+  Description: Finds reuse terms, attribution, redistribution limits, and commercial-use conditions.
+
+10. Skill Name: Dataset Suitability Auditor
+
+  Description: Checks completeness, representativeness, timeliness, comparability, and fit to the research question.
+
+Category 14: Legal, Regulatory, and Policy Search
+
+1. Skill Name: Statute and Regulation Searcher
+
+  Description: Finds official laws, regulations, amendments, implementing rules, and effective dates for the correct jurisdiction.
+
+2. Skill Name: Case Law Researcher
+
+  Description: Finds decisions, courts, dates, citations, procedural status, and later treatment using authoritative databases.
+
+3. Skill Name: Agency Guidance Searcher
+
+  Description: Finds circulars, memoranda, advisories, FAQs, enforcement guidance, and consultation papers.
+
+4. Skill Name: Legislative History Researcher
+
+  Description: Finds bills, debates, committee reports, amendments, votes, and explanatory materials.
+
+5. Skill Name: Policy Version Comparator
+
+  Description: Compares current and prior policy language, scope, obligations, exemptions, and transition dates.
+
+6. Skill Name: Compliance Requirement Extractor
+
+  Description: Maps obligations, responsible parties, deadlines, thresholds, records, penalties, and exceptions.
+
+7. Skill Name: Public Consultation Researcher
+
+  Description: Finds proposed rules, stakeholder comments, impact assessments, and final responses.
+
+8. Skill Name: Treaty and International Instrument Searcher
+
+  Description: Finds official texts, parties, reservations, ratification status, and implementation material.
+
+9. Skill Name: Legal Citation Verifier
+
+  Description: Checks exact title, section, court, date, docket, reporter, and official source.
+
+10. Skill Name: Legal Research Limitation Reporter
+
+  Description: Separates located authority from legal interpretation and flags jurisdictional or update uncertainty.
+
+Category 15: Medical, Health, and Scientific Evidence Search
+
+1. Skill Name: Clinical Guideline Searcher
+
+  Description: Finds current guidelines from recognized professional bodies and official public-health institutions.
+
+2. Skill Name: Systematic Health Evidence Searcher
+
+  Description: Finds trials, reviews, meta-analyses, safety data, and guideline evidence for a defined population and intervention.
+
+3. Skill Name: Drug and Device Information Searcher
+
+  Description: Checks regulatory labels, approvals, contraindications, interactions, safety notices, and device instructions.
+
+4. Skill Name: Public Health Statistics Researcher
+
+  Description: Finds surveillance, prevalence, incidence, mortality, risk factors, and methodology from authoritative sources.
+
+5. Skill Name: Diagnostic Evidence Researcher
+
+  Description: Finds sensitivity, specificity, predictive values, reference standards, and population limitations.
+
+6. Skill Name: Treatment Comparison Researcher
+
+  Description: Compares benefits, harms, alternatives, certainty, and applicability without individual diagnosis.
+
+7. Skill Name: Adverse Event and Recall Searcher
+
+  Description: Finds official safety communications, recalls, warnings, and reporting databases.
+
+8. Skill Name: Scientific Consensus Mapper
+
+  Description: Compares academy reports, reviews, guidelines, and active scientific disputes.
+
+9. Skill Name: Health Misinformation Fact Checker
+
+  Description: Traces medical claims to original evidence and identifies misleading extrapolation or missing context.
+
+10. Skill Name: Health Evidence Applicability Auditor
+
+  Description: Checks population, setting, dosage, duration, outcomes, conflicts, and certainty before summarizing.
+
+Category 16: Financial, Economic, and Business Research
+
+1. Skill Name: Financial Filing Researcher
+
+  Description: Finds audited statements, annual reports, earnings releases, notes, risk factors, and segment information.
+
+2. Skill Name: Market Data Source Searcher
+
+  Description: Finds current and historical prices, indices, rates, volumes, and methodology from suitable providers.
+
+3. Skill Name: Economic Indicator Researcher
+
+  Description: Finds inflation, employment, GDP, trade, population, and productivity series with definitions and revisions.
+
+4. Skill Name: Company Fundamentals Verifier
+
+  Description: Checks revenue, profit, debt, cash flow, shares, guidance, and dates against primary filings.
+
+5. Skill Name: Industry Research Searcher
+
+  Description: Finds market size, structure, competitors, regulation, technology, supply chain, and demand drivers.
+
+6. Skill Name: Funding and Investment Researcher
+
+  Description: Finds disclosed funding rounds, investors, valuations, acquisitions, and official transaction announcements.
+
+7. Skill Name: Tax and Benefits Source Researcher
+
+  Description: Finds official rules, thresholds, forms, deadlines, and jurisdiction-specific guidance.
+
+8. Skill Name: Financial Product Terms Searcher
+
+  Description: Finds fees, rates, risks, eligibility, lockups, insurance, disclosure documents, and current terms.
+
+9. Skill Name: Economic Claim Fact Checker
+
+  Description: Verifies denominators, nominal versus real values, seasonality, base years, revisions, and causal overclaims.
+
+10. Skill Name: Financial Research Risk Auditor
+
+  Description: Flags stale data, non-GAAP definitions, promotional sources, survivorship bias, and unsuitable individual advice.
+
+Category 17: Social Media, Forums, and Community Search
+
+1. Skill Name: Public Social Searcher
+
+  Description: Finds public posts, threads, accounts, hashtags, links, and dated discussions within platform rules.
+
+2. Skill Name: Forum Thread Researcher
+
+  Description: Finds solved and unsolved cases, accepted answers, version context, edits, and follow-up outcomes.
+
+3. Skill Name: Community Terminology Miner
+
+  Description: Identifies slang, aliases, recurring issue names, hashtags, and user vocabulary for better searches.
+
+4. Skill Name: User Experience Theme Collector
+
+  Description: Groups publicly expressed experiences while preserving sampling limits and not inferring private traits.
+
+5. Skill Name: Expert Community Identifier
+
+  Description: Finds active moderators, maintainers, professional groups, and knowledgeable contributors through public evidence.
+
+6. Skill Name: Thread Context Reconstructor
+
+  Description: Orders posts, replies, quotes, edits, linked media, and visible deletions to avoid quote isolation.
+
+7. Skill Name: Social Claim Origin Tracer
+
+  Description: Finds the earliest accessible post or source behind a viral claim, image, or quotation.
+
+8. Skill Name: Rumor and Misinformation Tracker
+
+  Description: Compares viral claims with primary evidence, fact checks, corrections, and official updates.
+
+9. Skill Name: Platform Export Searcher
+
+  Description: Interprets user-provided social exports and searches them by date, participant, topic, and attachment.
+
+10. Skill Name: Community Evidence Caution Auditor
+
+  Description: Checks representativeness, coordinated activity, bot risk, deletion bias, and unverifiable anecdotes.
+
+Category 18: Images, Video, Audio, and Media Search
+
+1. Skill Name: Image Source Researcher
+
+  Description: Finds original or earliest accessible image sources, captions, creators, dates, and context.
+
+2. Skill Name: Reverse Image Research Planner
+
+  Description: Uses visual similarity, crops, text, metadata, and contextual terms to trace images lawfully.
+
+3. Skill Name: Video Source Searcher
+
+  Description: Finds official uploads, mirrors, transcripts, chapters, dates, clips, and complete versions.
+
+4. Skill Name: Audio and Podcast Searcher
+
+  Description: Finds episodes, transcripts, show notes, guests, timestamps, and referenced resources.
+
+5. Skill Name: Media Transcript Researcher
+
+  Description: Searches captions or transcripts for exact statements, topics, names, and time-coded evidence.
+
+6. Skill Name: Stock and Licensed Media Finder
+
+  Description: Finds visuals or audio with suitable licenses, releases, attribution, resolution, and usage rights.
+
+7. Skill Name: Chart and Infographic Source Tracer
+
+  Description: Finds the underlying dataset, methodology, creator, publication date, and original chart context.
+
+8. Skill Name: Visual Text Searcher
+
+  Description: Uses visible titles, logos, labels, landmarks, and quoted text to identify the source without identifying people.
+
+9. Skill Name: Media Version Comparator
+
+  Description: Compares edits, durations, captions, framing, audio, missing segments, and publication history.
+
+10. Skill Name: Media Rights and Provenance Auditor
+
+  Description: Checks ownership, license, attribution, model or property releases, and permitted reuse.
+
+Category 19: Patents, Standards, and Technical Prior Art
+
+1. Skill Name: Patent Search Strategist
+
+  Description: Searches titles, abstracts, claims, classifications, inventors, assignees, citations, and family members.
+
+2. Skill Name: Patent Family Mapper
+
+  Description: Links priority filings, continuations, international applications, grants, expirations, and jurisdictional status.
+
+3. Skill Name: Prior Art Researcher
+
+  Description: Finds earlier patents, papers, products, manuals, standards, and public demonstrations relevant to a technical feature.
+
+4. Skill Name: Standards Catalog Searcher
+
+  Description: Finds official standard numbers, editions, amendments, corrigenda, profiles, and adoption status.
+
+5. Skill Name: Technical Classification Searcher
+
+  Description: Uses CPC, IPC, industry taxonomies, and controlled vocabularies to improve discovery.
+
+6. Skill Name: Claim Element Researcher
+
+  Description: Breaks a technical claim into searchable elements and finds evidence for each element.
+
+7. Skill Name: Inventor and Assignee Researcher
+
+  Description: Disambiguates names and tracks ownership, assignments, mergers, and portfolio relationships.
+
+8. Skill Name: Patent Citation Network Analyst
+
+  Description: Uses backward and forward citations to find foundational, competing, and later technology.
+
+9. Skill Name: Patent Status Verifier
+
+  Description: Checks official registers for application, grant, lapse, expiration, opposition, and assignment status.
+
+10. Skill Name: Prior Art Limitation Reporter
+
+  Description: Distinguishes discovery from legal conclusions and documents search scope and inaccessible material.
+
+Category 20: Libraries, Books, and Reference Works
+
+1. Skill Name: Library Catalog Searcher
+
+  Description: Searches titles, authors, subjects, editions, ISBNs, holdings, and formats across public catalogs.
+
+2. Skill Name: Book Edition and Translation Matcher
+
+  Description: Distinguishes editions, revisions, volumes, translations, reprints, and authoritative texts.
+
+3. Skill Name: Reference Work Researcher
+
+  Description: Finds encyclopedias, handbooks, dictionaries, atlases, directories, and specialist reference works.
+
+4. Skill Name: Book Preview and Index Searcher
+
+  Description: Uses lawful previews, tables of contents, indexes, snippets, and citations to locate relevant chapters.
+
+5. Skill Name: Bibliography Miner
+
+  Description: Extracts useful references from books, theses, reports, and review articles for follow-up searches.
+
+6. Skill Name: Rare Book and Special Collection Searcher
+
+  Description: Finds digitized collections, catalog records, provenance, access restrictions, and archival descriptions.
+
+7. Skill Name: Quotation Source Verifier
+
+  Description: Finds the original work, edition, page, speaker context, and reliable transcription for a quotation.
+
+8. Skill Name: Terminology History Researcher
+
+  Description: Uses dictionaries, corpora, and dated publications to trace term meanings and first uses cautiously.
+
+9. Skill Name: Subject Heading Expander
+
+  Description: Uses library subject headings and controlled vocabularies to discover alternate conceptual routes.
+
+10. Skill Name: Book Source Accessibility Auditor
+
+  Description: Checks full text, lending, purchase, archive access, language, edition, and citation completeness.
+
+Category 21: Local, Geographic, and Place Search
+
+1. Skill Name: Location Search Specialist
+
+  Description: Finds places by category, proximity, hours, services, accessibility, and current status.
+
+2. Skill Name: Map and Geospatial Searcher
+
+  Description: Finds maps, boundaries, routes, coordinates, layers, projections, and geographic datasets.
+
+3. Skill Name: Local Government Information Searcher
+
+  Description: Finds city, municipal, provincial, and barangay-level rules, notices, services, and records.
+
+4. Skill Name: Address and Place Name Disambiguator
+
+  Description: Distinguishes duplicate names, former names, administrative levels, districts, and postal conventions.
+
+5. Skill Name: Local Business Verifier
+
+  Description: Checks official pages, listings, hours, contacts, services, reviews, and recent closure indicators.
+
+6. Skill Name: Transport and Route Researcher
+
+  Description: Finds schedules, operators, fares, transfers, road rules, accessibility, and disruption notices.
+
+7. Skill Name: Event and Venue Searcher
+
+  Description: Finds official dates, tickets, rules, locations, schedules, accessibility, and cancellation updates.
+
+8. Skill Name: Environmental and Hazard Source Searcher
+
+  Description: Finds weather, flood, earthquake, air-quality, hazard maps, and official advisories.
+
+9. Skill Name: Regional Demographic Researcher
+
+  Description: Finds population, language, economy, education, health, and administrative statistics.
+
+10. Skill Name: Location Freshness and Safety Auditor
+
+  Description: Checks timestamps, seasonal changes, closures, jurisdiction, and sensitive-location privacy.
+
+Category 22: Education, Courses, and Learning Resource Search
+
+1. Skill Name: Course and Curriculum Searcher
+
+  Description: Finds syllabi, course descriptions, prerequisites, learning outcomes, schedules, and official curricula.
+
+2. Skill Name: Open Educational Resource Finder
+
+  Description: Finds openly licensed textbooks, modules, lectures, simulations, exercises, and teacher resources.
+
+3. Skill Name: Credential and Program Verifier
+
+  Description: Checks official institution, accreditation, curriculum, cost, duration, entry, and recognition.
+
+4. Skill Name: Tutorial Quality Researcher
+
+  Description: Finds current, complete, version-compatible tutorials with exercises and community validation.
+
+5. Skill Name: Lecture and Seminar Searcher
+
+  Description: Finds recordings, slides, notes, speakers, dates, and supporting readings.
+
+6. Skill Name: Practice Dataset and Exercise Finder
+
+  Description: Finds lawful exercises, benchmark datasets, solutions, and difficulty-appropriate practice.
+
+7. Skill Name: Learning Path Resource Curator
+
+  Description: Orders resources by prerequisite, depth, format, practice, feedback, and project value.
+
+8. Skill Name: Academic Calendar and Deadline Searcher
+
+  Description: Finds official enrollment, examination, scholarship, submission, and application dates.
+
+9. Skill Name: Scholarship and Financial Aid Searcher
+
+  Description: Finds official eligibility, benefits, deadlines, obligations, and application procedures.
+
+10. Skill Name: Learning Resource Quality Auditor
+
+  Description: Checks authority, currency, accessibility, licensing, prerequisites, and alignment to the learning goal.
+
+Category 23: Jobs, Careers, and Professional Search
+
+1. Skill Name: Job Market Searcher
+
+  Description: Finds current roles, employers, locations, remote options, requirements, salary disclosures, and application paths.
+
+2. Skill Name: Occupation Requirements Researcher
+
+  Description: Finds duties, skills, education, licenses, working conditions, and progression from authoritative sources.
+
+3. Skill Name: Employer Career Page Searcher
+
+  Description: Prioritizes official openings and verifies role status, location, team, and application destination.
+
+4. Skill Name: Professional Credential Researcher
+
+  Description: Finds issuing bodies, prerequisites, exams, costs, renewal, continuing education, and recognition.
+
+5. Skill Name: Salary Evidence Researcher
+
+  Description: Compares government statistics, employer disclosures, surveys, role levels, locations, and total-compensation caveats.
+
+6. Skill Name: Industry Skill Demand Analyst
+
+  Description: Extracts recurring skills, tools, certifications, responsibilities, and experience from current postings.
+
+7. Skill Name: Internship and Graduate Program Searcher
+
+  Description: Finds official student programs, eligibility, dates, location, requirements, and conversion opportunities.
+
+8. Skill Name: Professional Association Searcher
+
+  Description: Finds recognized associations, standards, events, directories, and educational resources.
+
+9. Skill Name: Remote Work Legitimacy Verifier
+
+  Description: Checks official domains, recruiter identity, fee requests, job duplication, and scam warnings.
+
+10. Skill Name: Career Evidence Freshness Auditor
+
+  Description: Checks role status, posting date, regional applicability, salary period, and source reliability.
+
+Category 24: Procurement, Grants, and Opportunities Search
+
+1. Skill Name: Tender and Procurement Searcher
+
+  Description: Finds official bidding notices, specifications, eligibility, deadlines, amendments, awards, and contact channels.
+
+2. Skill Name: Grant Opportunity Researcher
+
+  Description: Finds official funding calls, priorities, eligibility, amounts, dates, obligations, and application material.
+
+3. Skill Name: Scholarship Opportunity Researcher
+
+  Description: Finds verified scholarships, coverage, criteria, deadlines, service conditions, and official submission portals.
+
+4. Skill Name: Competition and Award Searcher
+
+  Description: Finds recognized contests, categories, rules, judging, dates, fees, rights, and prior winners.
+
+5. Skill Name: Request for Proposal Analyzer
+
+  Description: Extracts scope, deliverables, criteria, compliance items, schedule, budget signals, and submission method.
+
+6. Skill Name: Procurement Amendment Tracker
+
+  Description: Checks addenda, clarifications, deadline changes, cancellations, and revised documents.
+
+7. Skill Name: Award and Contract Result Researcher
+
+  Description: Finds official awards, values, suppliers, dates, and evaluation notices.
+
+8. Skill Name: Eligibility Evidence Searcher
+
+  Description: Finds exact geographic, organizational, financial, technical, and status requirements.
+
+9. Skill Name: Opportunity Calendar Builder
+
+  Description: Consolidates verified deadlines, lead times, documents, dependencies, and decision dates.
+
+10. Skill Name: Opportunity Legitimacy Auditor
+
+  Description: Checks official issuer, domain, fees, rights, privacy, conflicts, and scam indicators.
+
+Category 25: Competitive Intelligence and Landscape Research
+
+1. Skill Name: Market Landscape Mapper
+
+  Description: Identifies organizations, offerings, segments, geographies, technologies, and customer groups from public evidence.
+
+2. Skill Name: Competitor Product Researcher
+
+  Description: Compares official features, positioning, pricing, integrations, customers, and release direction.
+
+3. Skill Name: Strategic Movement Tracker
+
+  Description: Monitors launches, hiring, partnerships, acquisitions, patents, filings, and geographic expansion.
+
+4. Skill Name: Customer and Use-Case Researcher
+
+  Description: Finds published case studies, reviews, contracts, testimonials, and implementation evidence.
+
+5. Skill Name: Positioning and Messaging Analyzer
+
+  Description: Compares public claims, target audiences, category language, proof points, and differentiation.
+
+6. Skill Name: Partnership Network Researcher
+
+  Description: Finds alliances, resellers, platform integrations, suppliers, investors, and ecosystem programs.
+
+7. Skill Name: Competitive Hiring Signal Researcher
+
+  Description: Uses public job postings to identify capabilities, regions, tools, and likely priorities cautiously.
+
+8. Skill Name: Competitive Technology Stack Researcher
+
+  Description: Finds disclosed frameworks, infrastructure, APIs, security claims, and engineering publications.
+
+9. Skill Name: White-Space Evidence Finder
+
+  Description: Identifies underserved needs and missing features from public comparisons and user evidence.
+
+10. Skill Name: Competitive Intelligence Ethics Auditor
+
+  Description: Uses lawful public sources, respects access limits, and separates evidence from speculation.
+
+Category 26: Fact Checking and Claim Verification
+
+1. Skill Name: Claim Decomposition Fact Checker
+
+  Description: Breaks a complex statement into separately verifiable entities, dates, numbers, causes, and quotations.
+
+2. Skill Name: Original Source Tracer
+
+  Description: Finds the earliest authoritative source behind a statistic, quote, image, chart, or repeated claim.
+
+3. Skill Name: Date and Chronology Verifier
+
+  Description: Checks publication, occurrence, update, access, and effective dates and resolves timeline confusion.
+
+4. Skill Name: Number and Denominator Verifier
+
+  Description: Checks units, baselines, population, percentage points, inflation, rounding, and source tables.
+
+5. Skill Name: Quotation Context Verifier
+
+  Description: Finds full surrounding text, speaker, date, audience, translation, and whether wording was altered.
+
+6. Skill Name: Image and Video Context Verifier
+
+  Description: Checks date, place, source, edit history, caption, and whether media was reused from another event.
+
+7. Skill Name: Causal Claim Auditor
+
+  Description: Checks whether evidence supports causation, association, prediction, or only temporal sequence.
+
+8. Skill Name: Consensus and Dispute Mapper
+
+  Description: Shows what is established, contested, uncertain, outdated, or unsupported and by whom.
+
+9. Skill Name: Correction and Retraction Searcher
+
+  Description: Checks retractions, expressions of concern, official corrections, debunks, and updated datasets.
+
+10. Skill Name: Fact-Check Conclusion Calibrator
+
+  Description: Uses supported, unsupported, misleading, outdated, disputed, or unverifiable labels with evidence and dates.
+
+Category 27: Source Quality, Bias, and Credibility Assessment
+
+1. Skill Name: Source Authority Assessor
+
+  Description: Evaluates authorship, institution, expertise, editorial process, primary access, and accountability.
+
+2. Skill Name: Methodology Quality Reviewer
+
+  Description: Checks sampling, measurement, controls, analysis, transparency, preregistration, and limitations.
+
+3. Skill Name: Conflict and Funding Reviewer
+
+  Description: Finds disclosed sponsorship, employment, advocacy, commercial interest, and competing interests.
+
+4. Skill Name: Publication Integrity Checker
+
+  Description: Checks peer review, corrections, retractions, predatory indicators, and journal or outlet transparency.
+
+5. Skill Name: Bias and Framing Analyst
+
+  Description: Examines selection, wording, omitted context, incentives, ideology, and asymmetric skepticism.
+
+6. Skill Name: Source Independence Analyzer
+
+  Description: Detects when multiple reports trace back to one press release, dataset, witness, or study.
+
+7. Skill Name: Evidence Recency Assessor
+
+  Description: Evaluates whether age matters and whether later versions or changes supersede the source.
+
+8. Skill Name: Expertise Relevance Checker
+
+  Description: Checks whether credentials and experience match the specific claim rather than a broad adjacent field.
+
+9. Skill Name: Citation Support Auditor
+
+  Description: Checks whether cited material actually supports the sentence and not merely the general topic.
+
+10. Skill Name: Credibility Rating Calibrator
+
+  Description: Produces transparent, claim-specific credibility judgments rather than permanent labels for whole sources.
+
+Category 28: Information Extraction and Structured Capture
+
+1. Skill Name: Web Evidence Extractor
+
+  Description: Captures relevant passages, fields, tables, dates, authors, links, and context from authorized pages.
+
+2. Skill Name: Structured Research Schema Designer
+
+  Description: Defines fields, types, identifiers, provenance, null meaning, and validation before collection.
+
+3. Skill Name: Entity and Relationship Extractor
+
+  Description: Identifies people, organizations, products, places, events, dates, and supported relationships.
+
+4. Skill Name: Timeline Event Extractor
+
+  Description: Captures dated actions, statements, publications, releases, and status changes with sources.
+
+5. Skill Name: Table and List Normalizer
+
+  Description: Converts visible structured data into consistent rows while preserving headers, units, notes, and source links.
+
+6. Skill Name: Quotation and Passage Collector
+
+  Description: Stores brief relevant quotations with exact source location and surrounding context.
+
+7. Skill Name: Metadata Capture Specialist
+
+  Description: Records title, creator, publisher, date, version, language, license, canonical URL, and access date.
+
+8. Skill Name: Research Note Deduplicator
+
+  Description: Merges repeated facts while preserving all independent sources and meaningful differences.
+
+9. Skill Name: Evidence Tagging Specialist
+
+  Description: Tags evidence by question, claim, source type, date, geography, confidence, and unresolved issue.
+
+10. Skill Name: Extraction Quality Auditor
+
+  Description: Checks omissions, truncation, field shifts, encoding, duplicates, and provenance before synthesis.
+
+Category 29: Citation, Provenance, and Research Logging
+
+1. Skill Name: Citation Record Builder
+
+  Description: Creates consistent source records with title, author, publisher, date, URL, version, and access information.
+
+2. Skill Name: Claim-Level Citation Mapper
+
+  Description: Attaches sources directly to the statements, numbers, and conclusions they support.
+
+3. Skill Name: Research Search Log Manager
+
+  Description: Records queries, systems, filters, dates, result decisions, and unresolved searches for reproducibility.
+
+4. Skill Name: Source Snapshot Planner
+
+  Description: Preserves lawful snapshots or archive references when public pages may change.
+
+5. Skill Name: Dataset Provenance Recorder
+
+  Description: Tracks dataset creator, release, method, license, download, transformation, and derived outputs.
+
+6. Skill Name: Media Provenance Recorder
+
+  Description: Tracks creator, original upload, date, caption, license, edits, and reuse permissions.
+
+7. Skill Name: Citation Style Formatter
+
+  Description: Formats sources in APA, MLA, Chicago, IEEE, legal, or user-specified styles without altering source facts.
+
+8. Skill Name: Broken Citation Repairer
+
+  Description: Finds corrected URLs, DOIs, archived pages, updated editions, and complete bibliographic details.
+
+9. Skill Name: Citation Consistency Auditor
+
+  Description: Checks duplicates, missing fields, uncited claims, unused references, and mismatched dates or authors.
+
+10. Skill Name: Research Provenance Package Curator
+
+  Description: Packages sources, notes, query logs, datasets, and limitations for handoff when requested.
+
+Category 30: Coverage, Saturation, and Missing-Information Control
+
+1. Skill Name: Coverage Matrix Builder
+
+  Description: Maps research questions against source types, time periods, regions, viewpoints, and evidence status.
+
+2. Skill Name: Source Diversity Auditor
+
+  Description: Checks balance across primary, academic, official, local, technical, community, and critical sources.
+
+3. Skill Name: Temporal Coverage Auditor
+
+  Description: Checks historical foundations, recent developments, revisions, and future-dated announcements.
+
+4. Skill Name: Geographic Coverage Auditor
+
+  Description: Checks local, national, regional, and international evidence according to the question.
+
+5. Skill Name: Stakeholder Coverage Auditor
+
+  Description: Checks affected users, experts, institutions, critics, implementers, and decision-makers.
+
+6. Skill Name: Missing Primary Evidence Detector
+
+  Description: Finds conclusions supported only by summaries, reposts, or commentary and plans original-source searches.
+
+7. Skill Name: Search Saturation Analyst
+
+  Description: Measures whether new searches produce genuinely new evidence or only repeated information.
+
+8. Skill Name: Long-Tail Source Finder
+
+  Description: Searches niche repositories, local archives, specialist forums, conference material, and less-indexed sources.
+
+9. Skill Name: Known-Unknown Register
+
+  Description: Maintains unresolved questions, inaccessible sources, contradictory evidence, and reasons for stopping.
+
+10. Skill Name: Coverage Completion Gatekeeper
+
+  Description: Allows completion only when the declared scope is covered or remaining gaps are explicitly reported.
+
+Category 31: Synthesis, Comparison, and Interpretation
+
+1. Skill Name: Evidence Synthesis Architect
+
+  Description: Organizes findings by question, claim, chronology, mechanism, theme, or decision rather than by source order.
+
+2. Skill Name: Agreement and Disagreement Synthesizer
+
+  Description: Separates consensus, partial agreement, definitional conflict, method differences, and unresolved dispute.
+
+3. Skill Name: Comparative Research Analyst
+
+  Description: Compares entities under common criteria, aligned dates, equivalent units, and transparent missing data.
+
+4. Skill Name: Research Theme Analyst
+
+  Description: Identifies recurring concepts, relationships, evidence clusters, and meaningful exceptions.
+
+5. Skill Name: Causal Mechanism Synthesizer
+
+  Description: Combines evidence about how and why an outcome occurs while preserving alternative explanations.
+
+6. Skill Name: Quantitative Evidence Integrator
+
+  Description: Combines numbers only when definitions, populations, periods, units, and methods are compatible.
+
+7. Skill Name: Qualitative Evidence Integrator
+
+  Description: Synthesizes interviews, observations, texts, and case studies without erasing context or variation.
+
+8. Skill Name: Source Conflict Explainer
+
+  Description: Explains disagreement through time, definitions, population, method, incentives, access, or error.
+
+9. Skill Name: Research-to-Decision Translator
+
+  Description: Converts evidence into options, implications, risks, and next actions without exceeding what sources support.
+
+10. Skill Name: Synthesis Integrity Auditor
+
+  Description: Checks that summaries preserve source meaning, uncertainty, attribution, and important counterevidence.
+
+Category 32: Research Automation, Monitoring, and Alerts
+
+1. Skill Name: Scheduled Search Monitor
+
+  Description: Runs bounded recurring searches for updates, releases, policy changes, prices, publications, or incidents.
+
+2. Skill Name: Webpage Change Detector
+
+  Description: Tracks meaningful text, metadata, link, table, policy, or version changes while suppressing layout noise.
+
+3. Skill Name: Feed and Newsletter Monitor
+
+  Description: Collects RSS, Atom, mailing-list, release, and publication updates with deduplication.
+
+4. Skill Name: Repository Release Watcher
+
+  Description: Monitors tags, releases, changelogs, advisories, issues, and documentation updates.
+
+5. Skill Name: Citation Alert Designer
+
+  Description: Tracks new works citing a key paper, patent, standard, or report where supported.
+
+6. Skill Name: Dataset Update Monitor
+
+  Description: Detects new releases, revised values, schema changes, licenses, and methodology updates.
+
+7. Skill Name: News and Event Alert Router
+
+  Description: Routes verified updates by topic, urgency, geography, source authority, and user interest.
+
+8. Skill Name: Monitoring Noise Reducer
+
+  Description: Clusters duplicates, distinguishes substantive changes, and suppresses repeated low-value alerts.
+
+9. Skill Name: Monitor Failure Tester
+
+  Description: Checks credentials, rate limits, missed updates, false positives, schedule drift, and alert delivery.
+
+10. Skill Name: Research Watchlist Manager
+
+  Description: Maintains entities, queries, sources, indicators, review dates, and retirement rules for ongoing research.
+
+Category 33: Privacy, Ethics, Rights, and Safe Search
+
+1. Skill Name: Privacy-Preserving Query Designer
+
+  Description: Avoids placing confidential, personal, or tenant-derived information into public search queries.
+
+2. Skill Name: Personal Data Minimization Researcher
+
+  Description: Collects only necessary public information and avoids aggregating sensitive details without legitimate need.
+
+3. Skill Name: Terms and Access Policy Reviewer
+
+  Description: Checks platform terms, robots directives, API policies, licensing, and technical access limits before automation.
+
+4. Skill Name: Copyright-Aware Researcher
+
+  Description: Uses summaries and brief quotations, records rights, and avoids reproducing protected works excessively.
+
+5. Skill Name: Sensitive Community Research Reviewer
+
+  Description: Checks potential harm, stigmatization, exposure, consent, and context when researching vulnerable groups.
+
+6. Skill Name: Doxxing and Targeting Prevention Gatekeeper
+
+  Description: Rejects unnecessary collection or disclosure of private identifying, location, or contact information.
+
+7. Skill Name: Responsible Archive Use Reviewer
+
+  Description: Balances historical access, privacy, takedown context, and lawful public-interest use.
+
+8. Skill Name: Research Conflict-of-Interest Discloser
+
+  Description: Reports material sponsorship, advocacy, commercial interest, and researcher relationships when relevant.
+
+9. Skill Name: Ethical Search Scope Auditor
+
+  Description: Checks that the research method is proportionate, lawful, necessary, and aligned with the user’s legitimate purpose.
+
+10. Skill Name: Sensitive Findings Handoff Planner
+
+  Description: Uses redaction, access controls, minimum detail, and appropriate escalation for sensitive results.
+
+Category 34: Research Quality Assurance and Verification
+
+1. Skill Name: Requirement Coverage Tester
+
+  Description: Checks every requested topic, entity, date, source class, output, and constraint against the finished research.
+
+2. Skill Name: Source Reopen Tester
+
+  Description: Reopens cited pages and confirms that links, passages, dates, and claims still match.
+
+3. Skill Name: Independent Claim Cross-Checker
+
+  Description: Uses alternate sources or methods to verify high-impact claims and important numbers.
+
+4. Skill Name: Boundary Search Tester
+
+  Description: Checks alternate spellings, languages, older dates, local sources, and contrary viewpoints for missed evidence.
+
+5. Skill Name: Citation Accuracy Tester
+
+  Description: Confirms every citation supports the nearby sentence and points to the correct source.
+
+6. Skill Name: Freshness Verification Tester
+
+  Description: Rechecks time-sensitive facts immediately before delivery using primary or authoritative sources.
+
+7. Skill Name: Research Reproducibility Tester
+
+  Description: Reruns representative queries and verifies that the search log can recover the core evidence.
+
+8. Skill Name: Contradiction Resolution Tester
+
+  Description: Checks whether unresolved conflicts are visible and whether the synthesis represents competing evidence fairly.
+
+9. Skill Name: Handoff Usability Tester
+
+  Description: Confirms the recipient can locate sources, understand conclusions, inspect limitations, and continue the research.
+
+10. Skill Name: Final Research Integrity Gatekeeper
+
+  Description: Blocks completion when material claims are unsupported, sources are misrepresented, or required coverage is missing.
+
+Category 35: Ultimate Integrated Search Operations
+
+1. Skill Name: Universal Search Task Framer
+
+  Description: Combines prompt interpretation, scope, freshness, privacy, source needs, and completion tests.
+
+2. Skill Name: Multi-Engine Search Orchestrator
+
+  Description: Routes complementary queries across general search, official sites, repositories, literature databases, archives, and local sources.
+
+3. Skill Name: Deep Traversal Research Director
+
+  Description: Coordinates scrolling, pagination, link following, site maps, archives, and bounded long-tail discovery.
+
+4. Skill Name: Evidence Acquisition Steward
+
+  Description: Collects only relevant facts, passages, datasets, media, and metadata with provenance.
+
+5. Skill Name: Search Breadth and Depth Balancer
+
+  Description: Allocates effort across wide discovery, focused verification, counterevidence, and diminishing returns.
+
+6. Skill Name: Nothing-Material-Missed Controller
+
+  Description: Uses coverage matrices, alternate terms, source diversity, date ranges, languages, and gap checks to reduce blind spots.
+
+7. Skill Name: Adaptive Query Learning Controller
+
+  Description: Updates terms, filters, engines, and source priorities based on observed results and failed searches.
+
+8. Skill Name: Whole-Research Verification Architect
+
+  Description: Links questions and conclusions to source, contradiction, freshness, coverage, and handoff checks.
+
+9. Skill Name: Search Resume and Continuity Manager
+
+  Description: Saves queries, sources, decisions, gaps, and next actions so interrupted research can continue cleanly.
+
+10. Skill Name: Ultimate Searcher Coordinator
+
+  Description: Integrates discovery, traversal, extraction, verification, synthesis, monitoring, ethics, and clean delivery into one governed capability.

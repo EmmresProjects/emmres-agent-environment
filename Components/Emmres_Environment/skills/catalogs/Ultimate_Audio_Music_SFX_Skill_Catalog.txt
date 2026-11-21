@@ -1,0 +1,1066 @@
+ULTIMATE
+AUDIO, MUSIC, AND SFX
+SKILL CATALOG
+
+A comprehensive capability catalog for composition, instruments, voices, speech, sound effects, recording, editing, restoration, mixing, mastering, spatial audio, and every major audio format
+
+28 categories | 280 specialized skills
+
+Prepared for Emmanuel Angelo De Castro
+
+How to Use This Catalog
+
+This catalog is a capability blueprint for a powerful audio production agent or coordinated family of specialist agents. It does not implement the skills.
+
+Focused skills can be combined to create songs, scores, instruments, voices, speech, podcasts, SFX libraries, game audio, live shows, immersive works, repairs, mixes, masters, and delivery packages.
+
+Each future skill should preserve sources, identify assumptions, expose controls, produce editable outputs when practical, and include checks for ordinary, boundary, and recovery cases.
+
+Recommended Contract for Every Future Skill
+
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Contract Area                       Expected Design
+  ----------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------
+  Inputs                              Goal, audience, references, source audio, tempo, key, duration, format, rights, performers, platform, constraints, and delivery specifications.
+
+  Outputs                             Editable session or score, review render, final masters, stems or assets, version label, dependencies, and handoff notes.
+
+  Controls                            Composition, tempo, tuning, instruments, voice, timing, dynamics, timbre, processing, space, variation, quality, and compute limits.
+
+  Checks                              Musical intent, intelligibility, timing, tuning, noise, artifacts, phase, loudness, rights, accessibility, metadata, and format integrity.
+
+  Recovery                            Locate the earliest failing layer, preserve approved work, repair only the responsible component, and rerun linked checks.
+
+  Interoperability                    Document sample rate, bit depth, channels, loudness, timecode, tempo map, tuning, naming, metadata, and interchange formats.
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Category Index
+
+1.  Creative Direction, Production Strategy, and Orchestration (10 skills)
+
+2.  Musical Ideation, Theory, and Song Architecture (10 skills)
+
+3.  Melody, Harmony, Bass, and Rhythm Composition (10 skills)
+
+4.  Lyrics, Topline, and Vocal Songwriting (10 skills)
+
+5.  Arrangement, Orchestration, and Instrumentation (10 skills)
+
+6.  Genre and Style Production (10 skills)
+
+7.  Film, Television, Trailer, and Narrative Scoring (10 skills)
+
+8.  Game, Interactive, XR, and Adaptive Audio (10 skills)
+
+9.  Sound Effects, Foley, and Sonic Worldbuilding (10 skills)
+
+10. Field Recording, Sampling, and Source Capture (10 skills)
+
+11. Synthesis, Sampling, and Instrument Creation (10 skills)
+
+12. MIDI, Sequencing, Notation, and Performance Data (10 skills)
+
+13. Recording Engineering and Studio Production (10 skills)
+
+14. Voice, Speech, Dialogue, and Spoken Audio Creation (10 skills)
+
+15. Vocal Production, Tuning, and Choir Design (10 skills)
+
+16. Audio Editing, Cleanup, Restoration, and Forensics (10 skills)
+
+17. Mixing, Dynamics, EQ, and Spatial Production (10 skills)
+
+18. Mastering, Loudness, Sequencing, and Release Preparation (10 skills)
+
+19. Podcasts, Radio, Broadcast, and Long-Form Speech (10 skills)
+
+20. Live Sound, Performance, and Event Audio (10 skills)
+
+21. Spatial, Immersive, Acoustic, and Installation Audio (10 skills)
+
+22. Audio Software, Plugins, Hardware, and Automation (10 skills)
+
+23. Audio Analysis, Transcription, Search, and Intelligence (10 skills)
+
+24. Generative Audio, Music, Voice, and Transformation (10 skills)
+
+25. Accessibility, Localization, Safety, Rights, and Ethics (10 skills)
+
+26. Formats, Encoding, Metadata, Delivery, and Archival (10 skills)
+
+27. Quality Assurance, Testing, Collaboration, and Recovery (10 skills)
+
+28. Advanced Autonomous Audio Systems (10 skills)
+
+Category 1: Creative Direction, Production Strategy, and Orchestration
+
+10 specialized capabilities for creative direction, production strategy, and orchestration.
+
+1. Skill Name: Audio Creative Director
+Description: Turns purpose, audience, format, emotional arc, sonic references, and constraints into a unified audio vision and production brief.
+
+2. Skill Name: Music Production Showrunner
+Description: Coordinates composition, arrangement, recording, sound design, editing, mixing, mastering, review, rights, and delivery across a complete project.
+
+3. Skill Name: Audio Scope Architect
+Description: Defines deliverables, track counts, cue counts, durations, versions, stems, milestones, dependencies, complexity tiers, and acceptance criteria.
+
+4. Skill Name: Sonic Brand Strategist
+Description: Creates repeatable musical, vocal, tonal, mnemonic, instrument, and mix rules that make a creator, product, game, or organization recognizable by sound.
+
+5. Skill Name: Reference Track Analyst
+Description: Breaks references into tempo, key, harmony, melody, instrumentation, groove, form, dynamics, spatial design, production choices, and transferable intent.
+
+6. Skill Name: Audio Feasibility Analyst
+Description: Tests whether a request is practical for the available sources, performers, synthesis methods, hardware, software, rights, time, and quality target.
+
+7. Skill Name: Mood and Emotion Mapper
+Description: Translates narrative beats and desired responses into harmony, contour, rhythm, timbre, register, density, dynamics, space, and silence.
+
+8. Skill Name: Platform and Listening Context Adapter
+Description: Adapts audio for headphones, phones, smart speakers, clubs, cinema, broadcast, games, installations, accessibility, and noisy real-world environments.
+
+9. Skill Name: Audio Quality Bar Designer
+Description: Creates measurable review standards for musicality, intelligibility, timing, noise, distortion, translation, loudness, phase, metadata, and delivery completeness.
+
+10. Skill Name: End-to-End Audio Production Orchestrator
+Description: Routes work among specialist skills, preserves approved material, validates handoffs, manages recovery, and delivers editable sessions plus final masters.
+
+Category 2: Musical Ideation, Theory, and Song Architecture
+
+10 specialized capabilities for musical ideation, theory, and song architecture.
+
+1. Skill Name: Musical Concept Generator
+Description: Creates original musical premises, moods, motifs, sound worlds, structures, and production approaches from a brief or visual reference.
+
+2. Skill Name: Key, Scale, and Mode Designer
+Description: Chooses and manipulates tonal centers, modes, scales, tuning systems, modulation paths, borrowed harmony, and chromatic color.
+
+3. Skill Name: Chord Progression Composer
+Description: Builds functional, modal, chromatic, extended, suspended, pedal, ostinato, and nonfunctional progressions suited to the desired style.
+
+4. Skill Name: Song Form Architect
+Description: Designs intros, verses, pre-choruses, choruses, drops, bridges, breakdowns, solos, transitions, finales, and alternate forms with clear energy flow.
+
+5. Skill Name: Motif and Leitmotif Designer
+Description: Creates memorable musical ideas and develops them through variation, inversion, augmentation, diminution, reharmonization, orchestration, and recurrence.
+
+6. Skill Name: Counterpoint and Voice-Leading Specialist
+Description: Writes independent lines with controlled motion, spacing, tendency-tone resolution, dissonance treatment, and register balance.
+
+7. Skill Name: Rhythmic Concept Designer
+Description: Builds meter, subdivision, syncopation, polyrhythm, polymeter, swing, groove, accent, and rhythmic transformation systems.
+
+8. Skill Name: Dynamic Arc Planner
+Description: Maps density, register, tension, loudness, orchestration, silence, and contrast across a song, cue, album, scene, or interactive state.
+
+9. Skill Name: Musical Constraint Composer
+Description: Creates strong music within fixed notes, instruments, durations, tempos, loop lengths, brand rules, performer limits, or technical systems.
+
+10. Skill Name: Composition Variant Explorer
+Description: Produces genuinely different harmonic, melodic, rhythmic, structural, and timbral options while preserving the requested function and identity.
+
+Category 3: Melody, Harmony, Bass, and Rhythm Composition
+
+10 specialized capabilities for melody, harmony, bass, and rhythm composition.
+
+1. Skill Name: Lead Melody Composer
+Description: Writes singable or instrumental melodies with clear contour, phrasing, range, repetition, development, climax, and cadence.
+
+2. Skill Name: Hook and Earworm Designer
+Description: Creates concise, memorable melodic, rhythmic, lyrical, or sonic hooks without copying existing protected material.
+
+3. Skill Name: Harmony and Reharmonization Artist
+Description: Adds supporting harmony and creates alternate chord treatments using substitutions, extensions, inversions, modal interchange, and altered dominants.
+
+4. Skill Name: Bass Line Composer
+Description: Writes bass parts that define harmony, groove, motion, weight, counterpoint, and transitions across acoustic, electronic, and hybrid styles.
+
+5. Skill Name: Drum Pattern Composer
+Description: Creates kick, snare, clap, hat, percussion, fill, ghost-note, and accent patterns with style-correct feel and controlled variation.
+
+6. Skill Name: Polyrhythm and Advanced Meter Composer
+Description: Builds coherent music in odd meters, mixed meters, nested tuplets, cross-rhythms, metric modulation, and layered pulse systems.
+
+7. Skill Name: Arpeggio and Ostinato Designer
+Description: Creates repeating figures with voice-leading, register, accent, articulation, automation, and evolution over time.
+
+8. Skill Name: Call-and-Response Composer
+Description: Designs musical conversations among voices, instruments, sections, spatial positions, and sound effects.
+
+9. Skill Name: Transition and Fill Composer
+Description: Writes pickups, turnarounds, risers, drum fills, harmonic pivots, breaks, impacts, and connective phrases between sections.
+
+10. Skill Name: Cadence and Ending Designer
+Description: Creates conclusive, open, deceptive, loopable, abrupt, decaying, button, sting, and cinematic endings appropriate to the medium.
+
+Category 4: Lyrics, Topline, and Vocal Songwriting
+
+10 specialized capabilities for lyrics, topline, and vocal songwriting.
+
+1. Skill Name: Lyric Concept and Theme Writer
+Description: Develops central themes, perspectives, imagery, narrative arcs, emotional stakes, and recurring lyrical devices.
+
+2. Skill Name: Verse Lyric Writer
+Description: Writes verses with progression, detail, rhyme, meter, natural stress, imagery, and setup for later sections.
+
+3. Skill Name: Chorus and Refrain Writer
+Description: Creates concise, memorable, singable choruses and refrains that deliver the song premise and emotional payoff.
+
+4. Skill Name: Topline Melody Writer
+Description: Writes vocal melodies over existing harmony and rhythm with suitable range, phrasing, breath, diction, hooks, and section contrast.
+
+5. Skill Name: Rhyme, Meter, and Prosody Editor
+Description: Aligns syllable count, stress, rhyme schemes, vowel shape, consonant flow, and musical emphasis without making language unnatural.
+
+6. Skill Name: Rap and Spoken-Flow Writer
+Description: Designs cadence, pocket, internal rhyme, multisyllabic patterns, breath points, emphasis, and sectional flow for spoken rhythmic performance.
+
+7. Skill Name: Multilingual Song Adaptation Writer
+Description: Adapts meaning, singability, rhyme, stress, cultural context, and mouth timing across languages rather than translating literally.
+
+8. Skill Name: Character and Narrative Songwriter
+Description: Writes songs from a defined voice with consistent worldview, vocabulary, subtext, development, and dramatic purpose.
+
+9. Skill Name: Vocal Harmony Arranger
+Description: Creates unison, octave, third, sixth, cluster, call-response, choir, counterline, and layered vocal arrangements.
+
+10. Skill Name: Lyric Sensitivity and Originality Reviewer
+Description: Flags cliches, unintended meanings, cultural risks, weak specificity, excessive similarity, pronunciation problems, and performance obstacles.
+
+Category 5: Arrangement, Orchestration, and Instrumentation
+
+10 specialized capabilities for arrangement, orchestration, and instrumentation.
+
+1. Skill Name: Pop and Contemporary Arranger
+Description: Builds rhythm section, hooks, layers, drops, builds, breakdowns, transitions, and section contrast for contemporary songs.
+
+2. Skill Name: Orchestral Arranger
+Description: Assigns musical material across strings, woodwinds, brass, percussion, keyboards, harp, choir, and soloists with playable balance.
+
+3. Skill Name: Jazz and Big Band Arranger
+Description: Creates voicings, sax solis, brass figures, rhythm-section direction, backgrounds, shout sections, and improvisation space.
+
+4. Skill Name: Electronic Music Arranger
+Description: Develops loops into complete tracks through layering, subtraction, automation, fills, tension, drops, and evolving sound design.
+
+5. Skill Name: Acoustic and Folk Arranger
+Description: Creates natural arrangements for strings, winds, percussion, voices, and regional or traditional instruments with room for performance nuance.
+
+6. Skill Name: Rock and Metal Arranger
+Description: Designs guitar layers, riffs, bass support, drums, vocal space, breakdowns, dynamics, and transitions with controlled density.
+
+7. Skill Name: Choral Arranger
+Description: Writes practical SATB and expanded vocal textures with range, breathing, diction, divisi, balance, and accompaniment awareness.
+
+8. Skill Name: Hybrid Score Orchestrator
+Description: Combines orchestra, synths, percussion, processed instruments, sound design, and vocals into a coherent cinematic palette.
+
+9. Skill Name: Instrument Substitution Specialist
+Description: Revoices arrangements for available performers or virtual instruments while preserving musical function, register, and impact.
+
+10. Skill Name: Playable Part and Range Validator
+Description: Checks ranges, transpositions, articulations, breathing, bowing, sticking, fingering, doubling, balance, and performer practicality.
+
+Category 6: Genre and Style Production
+
+10 specialized capabilities for genre and style production.
+
+1. Skill Name: Pop Music Producer
+Description: Creates polished pop songs with strong hooks, modern arrangement, vocal focus, tight editing, impactful low end, and competitive dynamics.
+
+2. Skill Name: Hip-Hop and Trap Producer
+Description: Builds drums, 808s, samples, melodic loops, transitions, vocal pockets, drops, and arrangement variations across hip-hop substyles.
+
+3. Skill Name: Electronic Dance Music Producer
+Description: Creates house, techno, trance, drum and bass, dubstep, garage, ambient, and related electronic productions with controlled energy and club translation.
+
+4. Skill Name: Rock, Punk, and Metal Producer
+Description: Produces guitars, bass, drums, vocals, reamping, editing, arrangement, and aggressive yet intelligible mixes across heavy and alternative styles.
+
+5. Skill Name: Jazz, Soul, Funk, and R&B Producer
+Description: Builds groove-centered productions with expressive harmony, pocket, improvisation, vocal nuance, live feel, and modern or vintage sonics.
+
+6. Skill Name: Classical and Contemporary Concert Producer
+Description: Supports notation, rehearsal, acoustic recording, editing, ensemble balance, score fidelity, and natural dynamic range.
+
+7. Skill Name: Folk, Country, and Americana Producer
+Description: Creates song-led recordings with acoustic detail, vocal storytelling, roots instrumentation, ensemble interaction, and genre-appropriate space.
+
+8. Skill Name: World and Regional Music Producer
+Description: Works with culturally specific instruments, rhythms, tunings, forms, language, and consultation while avoiding unsupported imitation.
+
+9. Skill Name: Ambient, Experimental, and Noise Producer
+Description: Creates evolving textures, drones, generative systems, electroacoustic material, silence, field sound, and unconventional structures.
+
+10. Skill Name: Genre Fusion Designer
+Description: Combines traditions through compatible rhythm, harmony, instrumentation, form, production, and cultural context rather than superficial layering.
+
+Category 7: Film, Television, Trailer, and Narrative Scoring
+
+10 specialized capabilities for film, television, trailer, and narrative scoring.
+
+1. Skill Name: Film Score Composer
+Description: Creates thematic, emotional, dramatic, atmospheric, and transitional music synchronized to picture and narrative intent.
+
+2. Skill Name: Television and Episodic Composer
+Description: Builds reusable themes, palettes, cue systems, recaps, act-outs, stings, and fast-turnaround episode variants.
+
+3. Skill Name: Trailer Music Composer
+Description: Creates escalating structures, pulses, rises, breaks, impacts, reveals, choir, sound design, and edit-friendly sectional endings.
+
+4. Skill Name: Documentary Score Composer
+Description: Supports fact-based storytelling with restraint, thematic continuity, cultural care, emotional clarity, and room for dialogue.
+
+5. Skill Name: Comedy Score Specialist
+Description: Uses timing, contrast, instrumentation, silence, stingers, misdirection, and reaction cues without over-explaining jokes.
+
+6. Skill Name: Horror and Suspense Composer
+Description: Builds dread, uncertainty, tension, shocks, dissonance, texture, silence, and spatial threat while controlling fatigue.
+
+7. Skill Name: Action and Adventure Composer
+Description: Creates propulsive rhythm, thematic heroism, danger, scale, momentum, and synchronized action accents.
+
+8. Skill Name: Animation Score Composer
+Description: Supports exaggerated motion, character themes, visual timing, transformations, emotional shifts, and precise hit points.
+
+9. Skill Name: Source Music and Diegetic Cue Designer
+Description: Creates music that plausibly exists inside a scene, including radios, clubs, bands, devices, eras, spaces, and degraded playback.
+
+10. Skill Name: Picture Conform and Cue Revision Specialist
+Description: Tracks editorial changes, reconforms sessions, updates hit points, protects musical phrases, and documents revised cue timings.
+
+Category 8: Game, Interactive, XR, and Adaptive Audio
+
+10 specialized capabilities for game, interactive, xr, and adaptive audio.
+
+1. Skill Name: Game Music Composer
+Description: Creates thematic and functional music for gameplay, menus, exploration, combat, cinematics, failure, victory, and progression.
+
+2. Skill Name: Horizontal Resequencing Designer
+Description: Builds musical segments that branch, loop, transition, and rejoin cleanly according to game states.
+
+3. Skill Name: Vertical Remixing Designer
+Description: Creates synchronized stems and intensity layers that can enter, leave, or transform without breaking harmony or groove.
+
+4. Skill Name: Interactive Music Logic Architect
+Description: Defines states, parameters, transition rules, priorities, cooldowns, randomization, and fallback behavior for adaptive scores.
+
+5. Skill Name: Game Sound Effects Designer
+Description: Creates responsive UI, footsteps, weapons, vehicles, abilities, impacts, creatures, ambience, and feedback sounds with variation systems.
+
+6. Skill Name: Spatial Game Audio Designer
+Description: Builds distance, direction, obstruction, occlusion, zones, reverberation, propagation, and listener-relative behavior.
+
+7. Skill Name: Procedural Audio Designer
+Description: Creates real-time sound from synthesis, physical models, granular systems, parameter mapping, and event data.
+
+8. Skill Name: VR and AR Audio Designer
+Description: Designs head-tracked, world-anchored, near-field, embodied, interactive, and comfort-aware spatial sound for immersive experiences.
+
+9. Skill Name: Middleware Integration Specialist
+Description: Implements events, buses, snapshots, states, switches, RTPCs, banks, and profiling workflows in tools such as Wwise or FMOD.
+
+10. Skill Name: Interactive Audio Performance Optimizer
+Description: Controls voices, memory, streaming, CPU, disk access, codecs, priorities, virtualization, and platform-specific resource budgets.
+
+Category 9: Sound Effects, Foley, and Sonic Worldbuilding
+
+10 specialized capabilities for sound effects, foley, and sonic worldbuilding.
+
+1. Skill Name: General Sound Effects Designer
+Description: Creates original impacts, movements, interfaces, machines, environments, transitions, and signature effects from recordings and synthesis.
+
+2. Skill Name: Cinematic Impact and Whoosh Designer
+Description: Builds hits, booms, slams, braams, whooshes, swishes, suck-backs, downers, and transition accents with layered frequency and duration.
+
+3. Skill Name: Foley Performance Designer
+Description: Creates synchronized footsteps, cloth, handling, body movement, props, surfaces, and tactile details matched to character and action.
+
+4. Skill Name: Creature and Monster Sound Designer
+Description: Combines voice, animals, synthesis, processing, breath, movement, and environments into expressive nonhuman vocal systems.
+
+5. Skill Name: Weapon and Combat Sound Designer
+Description: Builds layers for mechanisms, attacks, transients, bodies, tails, debris, distances, perspectives, and fictional energy while preserving intelligibility.
+
+6. Skill Name: Vehicle and Machinery Sound Designer
+Description: Creates engines, motors, servos, gears, hydraulics, interiors, pass-bys, strain, failure, and speed-dependent behavior.
+
+7. Skill Name: Magic, Sci-Fi, and Technology Sound Designer
+Description: Designs powers, portals, holograms, robots, interfaces, energy, transformations, and speculative technology with coherent sonic rules.
+
+8. Skill Name: Nature and Environmental Sound Designer
+Description: Creates wind, water, weather, forests, cities, rooms, crowds, wildlife, and evolving environmental beds.
+
+9. Skill Name: Cartoon and Stylized SFX Designer
+Description: Builds expressive boings, zips, pops, smears, impacts, vocalized effects, and exaggerated physical cues synchronized to action.
+
+10. Skill Name: SFX Variation and Anti-Repetition Designer
+Description: Creates round robins, alternates, pitch and timing ranges, layers, distance sets, and contextual variants that prevent repetition fatigue.
+
+Category 10: Field Recording, Sampling, and Source Capture
+
+10 specialized capabilities for field recording, sampling, and source capture.
+
+1. Skill Name: Field Recording Planner
+Description: Defines locations, permissions, safety, microphones, recorders, weather limits, coverage, metadata, and backup strategies before capture.
+
+2. Skill Name: Stereo and Multichannel Field Recordist
+Description: Captures mono, stereo, surround, ambisonic, contact, hydrophone, electromagnetic, and specialized perspectives with controlled noise.
+
+3. Skill Name: Foley Recording Engineer
+Description: Selects surfaces, props, microphone positions, gain, room treatment, and performance coverage for clean synchronized effects.
+
+4. Skill Name: Instrument Sampling Producer
+Description: Records notes, velocities, round robins, articulations, releases, noise, legato, pedal, and performance variations for playable libraries.
+
+5. Skill Name: Impulse Response Capture Specialist
+Description: Records and processes rooms, halls, devices, speakers, cabinets, and resonant objects for convolution and acoustic recreation.
+
+6. Skill Name: Location Dialogue Recordist
+Description: Captures intelligible production speech using booms, lavaliers, plant microphones, timecode, wireless coordination, and mix tracks.
+
+7. Skill Name: Ambience and Room Tone Recordist
+Description: Captures stable beds, room tone, wild tracks, transitions, perspectives, and time-of-day changes for editorial continuity.
+
+8. Skill Name: Sampling Rights and Provenance Logger
+Description: Records source, creator, location, consent, license, permitted uses, restrictions, attribution, and chain of custody for every recording.
+
+9. Skill Name: Recording Metadata and Catalog Builder
+Description: Creates searchable filenames, descriptions, microphone details, location, date, timecode, take quality, keywords, and technical metadata.
+
+10. Skill Name: Capture Quality and Backup Verifier
+Description: Checks clipping, noise, interference, phase, channel integrity, storage, checksums, redundant copies, and recoverability before leaving the location.
+
+Category 11: Synthesis, Sampling, and Instrument Creation
+
+10 specialized capabilities for synthesis, sampling, and instrument creation.
+
+1. Skill Name: Subtractive Synthesis Designer
+Description: Creates patches using oscillators, filters, envelopes, modulation, unison, drive, noise, and performance controls.
+
+2. Skill Name: FM and Phase-Distortion Synthesis Designer
+Description: Builds harmonic, metallic, percussive, bass, bell, pad, and evolving sounds through operator ratios and modulation structure.
+
+3. Skill Name: Wavetable and Vector Synthesis Designer
+Description: Creates morphing timbres with tables, scanning, interpolation, multi-axis mixing, modulation, and controlled aliasing.
+
+4. Skill Name: Granular Synthesis Designer
+Description: Builds clouds, textures, transformations, time-stretched material, particles, and playable instruments from grain-level controls.
+
+5. Skill Name: Physical Modeling Instrument Designer
+Description: Creates string, wind, percussion, resonator, membrane, and hybrid instruments from excitation, body, damping, and interaction models.
+
+6. Skill Name: Modular Synthesis Patch Designer
+Description: Builds signal and control networks for sequenced, generative, expressive, audio-rate, feedback, and experimental synthesis.
+
+7. Skill Name: Sampler Instrument Builder
+Description: Maps samples by pitch, velocity, articulation, round robin, key switch, release, loop, envelope, filter, and performance control.
+
+8. Skill Name: Drum Kit and Percussion Instrument Builder
+Description: Creates coherent kits with layer alignment, velocity response, choke groups, alternates, tuning, envelopes, and mix-ready routing.
+
+9. Skill Name: Preset and Macro Designer
+Description: Creates useful parameter ranges, labeled controls, snapshots, modulation assignments, randomization limits, and performance-safe presets.
+
+10. Skill Name: Synthetic Instrument Validation Specialist
+Description: Checks tuning, aliasing, clicks, phase, CPU use, voice stealing, envelope behavior, controller response, and consistency across registers.
+
+Category 12: MIDI, Sequencing, Notation, and Performance Data
+
+10 specialized capabilities for midi, sequencing, notation, and performance data.
+
+1. Skill Name: MIDI Performance Programmer
+Description: Creates expressive timing, velocity, duration, articulation, controller, pitch-bend, aftertouch, and pedal data for virtual instruments.
+
+2. Skill Name: Groove and Humanization Designer
+Description: Adds style-aware timing and dynamics while preserving pocket, ensemble relationship, accents, and intentional precision.
+
+3. Skill Name: Drum MIDI Editor
+Description: Programs and cleans drum parts with limb-aware playability, flams, rolls, ghost notes, fills, cymbal logic, and velocity layers.
+
+4. Skill Name: MPE and Expressive Controller Designer
+Description: Maps per-note pitch, pressure, slide, timbre, release, and multidimensional performance data into responsive instruments.
+
+5. Skill Name: Tempo and Meter Map Builder
+Description: Creates tempo ramps, rubato, meter changes, beat grids, bar alignment, count-ins, and synchronization anchors.
+
+6. Skill Name: Audio-to-MIDI Transcriber
+Description: Extracts notes, rhythm, velocity, chords, drums, or contours from audio while marking uncertain and polyphonic regions.
+
+7. Skill Name: Score Engraver
+Description: Creates readable notation, parts, cues, dynamics, articulations, lyrics, repeats, page turns, rehearsal marks, and conductor scores.
+
+8. Skill Name: Tablature and Lead Sheet Creator
+Description: Produces chord charts, Nashville numbers, tablature, lyric sheets, melody notation, and performance instructions.
+
+9. Skill Name: MIDI Routing and Synchronization Specialist
+Description: Configures ports, channels, clock, MTC, MMC, latency, loopback prevention, program changes, and external hardware control.
+
+10. Skill Name: Performance Data Cleanup Specialist
+Description: Removes stuck notes, duplicate events, unintended overlaps, bad controller data, timing glitches, and inconsistent naming without flattening expression.
+
+Category 13: Recording Engineering and Studio Production
+
+10 specialized capabilities for recording engineering and studio production.
+
+1. Skill Name: Studio Session Planner
+Description: Creates input lists, stage plots, cue mixes, routing, microphone plans, session templates, schedules, backups, and take documentation.
+
+2. Skill Name: Microphone Selection and Placement Engineer
+Description: Chooses polar pattern, transducer, distance, angle, stereo technique, room position, and phase relationship for each source.
+
+3. Skill Name: Gain Staging and Signal Flow Engineer
+Description: Sets preamp, converter, insert, bus, monitor, and recording levels to preserve headroom, noise performance, and repeatability.
+
+4. Skill Name: Multitrack Recording Engineer
+Description: Captures synchronized instruments and voices with reliable routing, monitoring, markers, playlists, timecode, and redundant recording where required.
+
+5. Skill Name: Live Band Recording Engineer
+Description: Manages bleed, sight lines, cue mixes, isolation, phase, tempo, communication, and performance energy during ensemble capture.
+
+6. Skill Name: Acoustic Instrument Recording Specialist
+Description: Captures piano, strings, winds, brass, percussion, guitars, and regional instruments with appropriate detail, body, room, and articulation.
+
+7. Skill Name: Amplifier and Reamping Specialist
+Description: Records amplifiers, direct signals, cabinets, load boxes, room paths, and later reamping chains with documented settings.
+
+8. Skill Name: Studio Monitoring and Calibration Specialist
+Description: Configures speaker placement, levels, subwoofers, room correction, listening positions, reference levels, and translation checks.
+
+9. Skill Name: Take and Playlist Manager
+Description: Labels, rates, groups, comps, documents, and preserves takes, alternates, punches, rehearsals, and approvals.
+
+10. Skill Name: Recording Session Recovery Specialist
+Description: Diagnoses dropouts, clock errors, corrupt files, missing takes, bad routing, latency, and phase failures, then preserves the largest valid capture.
+
+Category 14: Voice, Speech, Dialogue, and Spoken Audio Creation
+
+10 specialized capabilities for voice, speech, dialogue, and spoken audio creation.
+
+1. Skill Name: Voice Casting and Profile Designer
+Description: Defines permitted vocal qualities, language, accent, age range when relevant, style, energy, pacing, and performance needs without relying on identity imitation.
+
+2. Skill Name: Voice Direction Planner
+Description: Creates pronunciation, intention, beat, emphasis, pace, breath, pickup, alternate-read, and session coverage instructions.
+
+3. Skill Name: Narration and Voiceover Producer
+Description: Coordinates script preparation, recording, performance selection, editing, cleanup, timing, and delivery for narration.
+
+4. Skill Name: Dialogue Performance Editor
+Description: Selects and combines takes while preserving meaning, natural cadence, breath, room continuity, and emotional progression.
+
+5. Skill Name: ADR and Dubbing Producer
+Description: Re-records dialogue to picture with cueing, synchronization, performance matching, room matching, and alternate-language workflows.
+
+6. Skill Name: Synthetic Speech Generator
+Description: Creates authorized spoken audio with controlled language, pronunciation, pacing, emphasis, style, consistency, and disclosure.
+
+7. Skill Name: Singing Voice Synthesis Designer
+Description: Creates authorized synthetic singing with melody, lyrics, phonemes, pitch transitions, vibrato, dynamics, expression, and harmony control.
+
+8. Skill Name: Pronunciation and Phoneme Specialist
+Description: Builds lexicons, stress patterns, phoneme sequences, regional variants, names, abbreviations, and technical-term pronunciations.
+
+9. Skill Name: Podcast and Audiobook Voice Producer
+Description: Creates long-form spoken productions with consistent tone, edits, chapters, pickups, breaths, room sound, loudness, and metadata.
+
+10. Skill Name: Voice Consent and Identity Safety Manager
+Description: Tracks performer permission, model or voice rights, allowed uses, restrictions, disclosure, revocation, and protection from unauthorized impersonation.
+
+Category 15: Vocal Production, Tuning, and Choir Design
+
+10 specialized capabilities for vocal production, tuning, and choir design.
+
+1. Skill Name: Lead Vocal Producer
+Description: Guides interpretation, phrasing, pitch, rhythm, diction, dynamics, emotion, microphone technique, and take coverage.
+
+2. Skill Name: Vocal Comping Editor
+Description: Builds a seamless master performance from multiple takes while preserving breaths, tone, continuity, and believable phrasing.
+
+3. Skill Name: Pitch Correction Specialist
+Description: Corrects pitch centers and transitions with scale awareness, note intention, vibrato protection, formant control, and transparent or stylized results.
+
+4. Skill Name: Vocal Timing Editor
+Description: Aligns consonants, vowels, phrases, doubles, harmonies, and ad-libs while avoiding mechanical timing and phase artifacts.
+
+5. Skill Name: Vocal Cleanup Specialist
+Description: Repairs clicks, mouth noise, plosives, sibilance, breaths, clipping, background noise, headphone bleed, and inconsistent proximity.
+
+6. Skill Name: Vocal Layering and Double Designer
+Description: Creates natural doubles, octaves, stacks, whispers, gang parts, ad-libs, textures, and width without masking the lead.
+
+7. Skill Name: Choir and Ensemble Builder
+Description: Designs section sizes, ranges, divisi, vowels, consonants, dynamics, seating, room, timing, and blend for real or virtual ensembles.
+
+8. Skill Name: Vocal Effects Designer
+Description: Creates telephone, radio, vocoder, harmonizer, formant, distortion, granular, reverse, spectral, and spatial vocal treatments.
+
+9. Skill Name: De-Essing and Presence Specialist
+Description: Controls sibilance, harshness, intelligibility, brightness, proximity, and air through dynamic and frequency-selective processing.
+
+10. Skill Name: Vocal Production QA Reviewer
+Description: Checks lyrics, pronunciation, edits, tuning, timing, noise, phase, artifacts, consistency, intelligibility, and required clean versions.
+
+Category 16: Audio Editing, Cleanup, Restoration, and Forensics
+
+10 specialized capabilities for audio editing, cleanup, restoration, and forensics.
+
+1. Skill Name: Waveform and Clip Editor
+Description: Performs sample-accurate cuts, fades, crossfades, gain, polarity, channel, timing, and clip organization without unintended clicks.
+
+2. Skill Name: Noise Reduction Specialist
+Description: Reduces steady noise, hiss, hum, buzz, fan, wind, traffic, and broadband contamination while protecting speech and musical detail.
+
+3. Skill Name: De-Reverb and Room Reduction Specialist
+Description: Reduces excessive room reflections and reverberation while controlling phasey, watery, or gated artifacts.
+
+4. Skill Name: Click, Crackle, and Dropout Repairer
+Description: Repairs digital clicks, vinyl crackle, lip noise, electrical spikes, short dropouts, and isolated corrupt samples.
+
+5. Skill Name: Clipping and Distortion Repairer
+Description: Reconstructs clipped peaks and reduces certain distortion artifacts while documenting unrecoverable damage.
+
+6. Skill Name: Spectral Repair Artist
+Description: Uses time-frequency editing to remove coughs, sirens, chair noise, bleed, tones, and localized interference.
+
+7. Skill Name: Phase and Polarity Repair Specialist
+Description: Detects and corrects polarity inversions, arrival-time mismatch, comb filtering, stereo cancellation, and multi-microphone phase problems.
+
+8. Skill Name: Wow, Flutter, and Speed Repair Specialist
+Description: Corrects tape, disc, clock, and transfer instability using musical or tonal references when available.
+
+9. Skill Name: Archive Audio Restoration Specialist
+Description: Restores historical recordings with conservative noise, speed, EQ, damage, and level treatment while preserving authenticity.
+
+10. Skill Name: Audio Forensic Authenticity Reviewer
+Description: Separates observable signal facts from interpretation, documents edits, avoids unsupported identification, and preserves original evidence copies.
+
+Category 17: Mixing, Dynamics, EQ, and Spatial Production
+
+10 specialized capabilities for mixing, dynamics, eq, and spatial production.
+
+1. Skill Name: Static Mix and Balance Engineer
+Description: Builds level, pan, mute, routing, polarity, and initial balance decisions that make the arrangement readable before heavy processing.
+
+2. Skill Name: Equalization Specialist
+Description: Uses corrective, tonal, dynamic, minimum-phase, linear-phase, mid-side, and resonant control techniques with context-aware decisions.
+
+3. Skill Name: Compression and Dynamics Specialist
+Description: Controls peaks, sustain, punch, density, movement, and consistency using compression, limiting, expansion, gating, and parallel paths.
+
+4. Skill Name: Saturation and Harmonic Color Designer
+Description: Adds tape, tube, transformer, console, clipping, excitation, and distortion character with level-matched evaluation.
+
+5. Skill Name: Reverb and Delay Designer
+Description: Creates depth, size, rhythm, glue, contrast, and transitions using algorithmic, convolution, plate, spring, chamber, echo, and modulation effects.
+
+6. Skill Name: Stereo Image and Depth Designer
+Description: Controls width, center strength, mono compatibility, front-back placement, early reflections, ambience, and frequency-dependent space.
+
+7. Skill Name: Bus and Parallel Processing Engineer
+Description: Builds subgroup, stem, parallel compression, distortion, reverb, sidechain, and mix-bus systems with gain and latency control.
+
+8. Skill Name: Automation and Movement Mixer
+Description: Writes volume, pan, send, mute, effect, parameter, and scene automation that follows phrases and narrative changes.
+
+9. Skill Name: Immersive and Surround Mixer
+Description: Places and moves sound across stereo, 5.1, 7.1, binaural, Ambisonics, and object-based immersive formats with downmix checks.
+
+10. Skill Name: Mix Translation and Revision Specialist
+Description: Tests multiple speakers, headphones, loudness levels, mono, noisy environments, and references, then converts findings into targeted revisions.
+
+Category 18: Mastering, Loudness, Sequencing, and Release Preparation
+
+10 specialized capabilities for mastering, loudness, sequencing, and release preparation.
+
+1. Skill Name: Stereo Mastering Engineer
+Description: Optimizes tonal balance, dynamics, stereo image, peak control, consistency, and translation while preserving mix intent.
+
+2. Skill Name: Album Sequencing Specialist
+Description: Orders tracks, sets gaps, crossfades, transitions, levels, tonal flow, and narrative progression across an album or collection.
+
+3. Skill Name: Loudness and True-Peak Specialist
+Description: Targets platform, broadcast, cinema, podcast, game, and archive requirements using integrated loudness, short-term behavior, and true-peak control.
+
+4. Skill Name: Stem Mastering Engineer
+Description: Masters grouped stems when mix revisions or alternate versions are needed, while controlling reconstruction and interaction risks.
+
+5. Skill Name: Vinyl Pre-Mastering Specialist
+Description: Prepares side lengths, low-frequency compatibility, sibilance, level, sequencing, spacing, and cutting notes for lacquer production.
+
+6. Skill Name: Digital and Streaming Mastering Specialist
+Description: Creates high-resolution and distribution masters with suitable headroom, sample rate, bit depth, dithering, metadata, and codec-aware checks.
+
+7. Skill Name: Broadcast and Podcast Mastering Specialist
+Description: Meets program loudness, peak, channel, duration, speech intelligibility, ad, and delivery requirements for spoken and broadcast content.
+
+8. Skill Name: Mastering Quality Control Reviewer
+Description: Checks clicks, clipping, distortion, gaps, starts, tails, channel order, phase, loudness, fades, metadata, and version completeness.
+
+9. Skill Name: Alternate Master and Clean Version Builder
+Description: Creates instrumental, a cappella, performance, clean, explicit, radio, TV, karaoke, loop, and shortened masters from approved sources.
+
+10. Skill Name: Release Master Manifest Builder
+Description: Records filenames, versions, formats, sample rates, bit depths, loudness, IDs, credits, rights, checksums, and delivery destinations.
+
+Category 19: Podcasts, Radio, Broadcast, and Long-Form Speech
+
+10 specialized capabilities for podcasts, radio, broadcast, and long-form speech.
+
+1. Skill Name: Podcast Format and Episode Producer
+Description: Designs show structure, segments, intros, interviews, ads, transitions, music, credits, and repeatable production templates.
+
+2. Skill Name: Interview Podcast Editor
+Description: Shapes conversations for clarity and pace while protecting meaning, context, speaker intent, and natural interaction.
+
+3. Skill Name: Narrative Podcast Producer
+Description: Combines reporting, narration, archive, interviews, scenes, music, and sound design into structured audio storytelling.
+
+4. Skill Name: Radio Imaging and Jingle Producer
+Description: Creates station IDs, sweepers, beds, stagers, promos, sonic logos, and format-consistent voice and music packages.
+
+5. Skill Name: Broadcast Delay and Compliance Editor
+Description: Prepares bleep, mute, replacement, delay, legal ID, duration, and standards-compliant versions while preserving timing.
+
+6. Skill Name: Audiobook Producer
+Description: Coordinates narration, character continuity, chapter flow, pickups, editing, proofing, mastering, and retailer specifications.
+
+7. Skill Name: Speech Intelligibility Optimizer
+Description: Improves diction, level, spectral balance, noise, dynamics, pauses, and listening comfort across devices and environments.
+
+8. Skill Name: Chaptering and Searchable Transcript Builder
+Description: Creates time-aligned transcripts, chapters, speaker labels, summaries, keywords, and navigation metadata.
+
+9. Skill Name: Ad Insertion and Segment Versioning Producer
+Description: Builds clean insertion points, regional ads, sponsor reads, dynamic segments, timing variants, and replacement-safe masters.
+
+10. Skill Name: Long-Form Consistency Reviewer
+Description: Checks voice tone, room sound, edits, names, pronunciations, chapter order, loudness, metadata, and missing content across long programs.
+
+Category 20: Live Sound, Performance, and Event Audio
+
+10 specialized capabilities for live sound, performance, and event audio.
+
+1. Skill Name: Live Sound System Designer
+Description: Designs loudspeaker coverage, subwoofer deployment, amplification, processing, power, rigging inputs, control, and redundancy for a venue.
+
+2. Skill Name: Front-of-House Mix Engineer
+Description: Builds the audience mix with gain, EQ, dynamics, effects, groups, scenes, feedback control, and musical balance.
+
+3. Skill Name: Monitor Mix Engineer
+Description: Creates performer cue mixes with low latency, clear communication, safe levels, talkback, personal systems, and rapid revisions.
+
+4. Skill Name: Stage Patch and Input Coordinator
+Description: Manages channel lists, snakes, stage boxes, splits, labeling, phantom power, DI boxes, wireless, and line checks.
+
+5. Skill Name: Live Broadcast and Stream Audio Mixer
+Description: Produces dedicated remote mixes, commentary, ambience, intercom, delay, redundancy, loudness, and transmission-safe output.
+
+6. Skill Name: Wireless Frequency Coordinator
+Description: Plans legal spectrum use, scans, intermodulation-safe frequencies, antenna distribution, backups, batteries, and interference response.
+
+7. Skill Name: Feedback Detection and Suppression Specialist
+Description: Identifies unstable loops, resonant modes, gain-before-feedback limits, microphone placement problems, and corrective processing.
+
+8. Skill Name: Show Control and Playback Operator
+Description: Runs cues, stems, click, timecode, redundancy, MIDI, network, automation, emergency stops, and rehearsed recovery paths.
+
+9. Skill Name: Live Multitrack Capture Engineer
+Description: Records isolated channels, mixes, room microphones, timecode, backups, and show metadata for later release or archive.
+
+10. Skill Name: Event Audio Safety and Contingency Manager
+Description: Controls hearing risk, rig and cable hazards, weather, power, redundancy, communication, failure scenarios, and evacuation audio priorities.
+
+Category 21: Spatial, Immersive, Acoustic, and Installation Audio
+
+10 specialized capabilities for spatial, immersive, acoustic, and installation audio.
+
+1. Skill Name: Binaural Audio Designer
+Description: Creates headphone spatial scenes using HRTF-aware positioning, movement, room cues, externalization, and compatibility checks.
+
+2. Skill Name: Ambisonic Recording and Mixing Specialist
+Description: Captures, rotates, decodes, processes, and delivers spherical audio across orders and playback formats.
+
+3. Skill Name: Object-Based Immersive Mixer
+Description: Builds beds and moving objects for formats such as Dolby Atmos with renderer, fold-down, loudness, and metadata validation.
+
+4. Skill Name: Acoustic Space Simulation Designer
+Description: Models reflections, decay, absorption, diffusion, occlusion, distance, and listener position for virtual or reconstructed environments.
+
+5. Skill Name: Sound Installation Composer
+Description: Creates site-specific multichannel works with routing, synchronization, looping, zoning, sensing, scheduling, and failure recovery.
+
+6. Skill Name: Museum and Exhibition Audio Designer
+Description: Designs focused, directional, accessible, durable, low-maintenance audio experiences with bleed and visitor-flow control.
+
+7. Skill Name: Projection and Performance Spatial Audio Designer
+Description: Synchronizes sound movement, speakers, performers, visuals, tracking, timecode, and venue geometry.
+
+8. Skill Name: Architectural Acoustics Review Assistant
+Description: Analyzes room dimensions, use, reverberation goals, isolation needs, noise paths, and treatment concepts for qualified expert review.
+
+9. Skill Name: Head-Tracked Audio Designer
+Description: Updates auditory scenes from listener orientation and position with low latency, stable anchoring, and smooth interpolation.
+
+10. Skill Name: Immersive Downmix and Compatibility Reviewer
+Description: Checks stereo, mono, binaural, surround, speaker-layout, fold-down, phase, level, and important-object preservation.
+
+Category 22: Audio Software, Plugins, Hardware, and Automation
+
+10 specialized capabilities for audio software, plugins, hardware, and automation.
+
+1. Skill Name: DAW Session Template Architect
+Description: Builds organized tracks, buses, folders, markers, routing, colors, naming, sends, print paths, and delivery layouts for repeatable work.
+
+2. Skill Name: Audio Plugin and DSP Developer
+Description: Designs signal-processing algorithms, parameters, state behavior, oversampling, latency, metering, presets, and plugin interfaces.
+
+3. Skill Name: Audio Unit and Format Integration Specialist
+Description: Validates VST3, Audio Unit, AAX, CLAP, standalone, and platform builds for discovery, automation, recall, and compatibility.
+
+4. Skill Name: Batch Audio Processing Engineer
+Description: Automates conversion, normalization, trimming, splitting, tagging, resampling, channel mapping, silence detection, and quality checks.
+
+5. Skill Name: Audio Scripting and Macro Developer
+Description: Creates scripts, macros, control surfaces, shortcuts, and repeatable editing or export operations for production environments.
+
+6. Skill Name: Hardware Synth and Studio Integration Specialist
+Description: Configures MIDI, audio, clock, patching, recall, SysEx, controllers, latency, and hybrid analog-digital workflows.
+
+7. Skill Name: Network Audio Engineer
+Description: Designs and troubleshoots Dante, AES67, AVB, Ravenna, clocking, multicast, QoS, redundancy, addressing, and monitoring.
+
+8. Skill Name: Audio Test Signal and Measurement Tool Builder
+Description: Creates sweeps, noise, tones, impulses, channel IDs, latency tests, null tests, and analysis workflows.
+
+9. Skill Name: Plugin Preset and Asset Manager
+Description: Indexes presets, samples, impulse responses, licenses, versions, dependencies, tags, favorites, and migration paths.
+
+10. Skill Name: Audio Pipeline Health Monitor
+Description: Detects missing plugins, sample paths, clock errors, buffer failures, CPU overload, corrupt files, wrong routing, and render inconsistencies.
+
+Category 23: Audio Analysis, Transcription, Search, and Intelligence
+
+10 specialized capabilities for audio analysis, transcription, search, and intelligence.
+
+1. Skill Name: Beat, Downbeat, and Tempo Detector
+Description: Finds tempo, beat positions, downbeats, meter, tempo changes, and confidence ranges for editing and synchronization.
+
+2. Skill Name: Key, Chord, and Scale Analyzer
+Description: Estimates tonal center, chord sequence, modulation, mode, tuning, and ambiguous regions with uncertainty labels.
+
+3. Skill Name: Melody and Polyphonic Transcriber
+Description: Converts audio into notation or MIDI for melody, bass, chords, drums, and ensembles while flagging low-confidence passages.
+
+4. Skill Name: Instrument and Sound Event Classifier
+Description: Labels instruments, voices, environments, effects, speech, music, silence, and overlapping events for search and organization.
+
+5. Skill Name: Speaker Diarization and Transcript Aligner
+Description: Separates speakers when possible and links words, phonemes, sentences, and corrections to exact audio ranges.
+
+6. Skill Name: Audio Similarity and Duplicate Finder
+Description: Finds exact duplicates, alternate masters, edited versions, covers, stems, near-matches, and repeated effects while preserving distinct sources.
+
+7. Skill Name: Sample and SFX Search Engine
+Description: Retrieves sounds by text, acoustic similarity, pitch, duration, envelope, brightness, loudness, category, rights, and project context.
+
+8. Skill Name: Mix and Master Diagnostic Analyzer
+Description: Measures spectrum, dynamics, stereo correlation, peaks, loudness, crest factor, phase, noise, clipping, and reference differences.
+
+9. Skill Name: Musical Structure and Section Detector
+Description: Identifies intros, verses, choruses, drops, solos, transitions, repeated sections, boundaries, and energy changes.
+
+10. Skill Name: Audio Insight and Recommendation Agent
+Description: Combines measurements with listening context to propose targeted actions while distinguishing objective findings from creative choices.
+
+Category 24: Generative Audio, Music, Voice, and Transformation
+
+10 specialized capabilities for generative audio, music, voice, and transformation.
+
+1. Skill Name: Text-to-Music Director
+Description: Converts a brief into controlled musical generation settings for style, tempo, key, form, instruments, emotion, duration, and variation.
+
+2. Skill Name: Text-to-SFX Designer
+Description: Generates or assembles requested effects with controlled source character, action, material, perspective, environment, duration, and intensity.
+
+3. Skill Name: Text-to-Speech Director
+Description: Creates authorized spoken audio with language, pronunciation, pace, emphasis, tone, pause, and delivery controls.
+
+4. Skill Name: Text-to-Singing Director
+Description: Creates authorized sung performances with lyrics, melody, harmony, phrasing, articulation, dynamics, vibrato, and style controls.
+
+5. Skill Name: Audio-to-Audio Style Transformer
+Description: Changes timbre, instrument, space, performance character, production treatment, or genre while preserving selected content.
+
+6. Skill Name: Music Continuation and Extension Artist
+Description: Extends a supplied musical idea with compatible harmony, groove, instrumentation, form, and ending while avoiding protected imitation.
+
+7. Skill Name: Stem and Source Separation Specialist
+Description: Separates vocals, drums, bass, instruments, dialogue, music, effects, and ambience with artifact and leakage checks.
+
+8. Skill Name: Voice Conversion Safety Specialist
+Description: Transforms authorized voices with consent, identity protection, permitted-use controls, disclosure, and anti-impersonation safeguards.
+
+9. Skill Name: Generative Consistency and Artifact Reviewer
+Description: Checks musical coherence, timing, identity drift, phonemes, clicks, phase, texture, repetition, structure, and unnatural transitions.
+
+10. Skill Name: Generated Audio Provenance Manager
+Description: Records model, prompt, source, performer consent, edits, rights, restrictions, disclosures, and approval status for generated material.
+
+Category 25: Accessibility, Localization, Safety, Rights, and Ethics
+
+10 specialized capabilities for accessibility, localization, safety, rights, and ethics.
+
+1. Skill Name: Audio Accessibility Producer
+Description: Creates transcripts, captions, descriptions, clean speech versions, visual alerts, alternate mixes, and accessible navigation assets.
+
+2. Skill Name: Multilingual Dubbing and Localization Producer
+Description: Coordinates translation, casting or authorized synthesis, pronunciation, timing, cultural adaptation, recording, editing, and regional masters.
+
+3. Skill Name: Hearing Safety and Exposure Reviewer
+Description: Evaluates level, duration, peaks, headphone risk, venue exposure, alarms, and listener warnings using relevant occupational and event guidance.
+
+4. Skill Name: Photosensitivity-Adjacent Audio Safety Reviewer
+Description: Flags sudden extreme sound, distressing frequencies, unsafe playback levels, and synchronized sensory intensity that may require warnings or moderation.
+
+5. Skill Name: Music and Sample Rights Checker
+Description: Tracks composition, master, sample, interpolation, performer, publisher, label, library, synchronization, mechanical, and territory permissions.
+
+6. Skill Name: Voice and Likeness Consent Manager
+Description: Documents consent, intended uses, duration, territory, edits, synthetic processing, revocation, and prohibited impersonation.
+
+7. Skill Name: Cultural and Sacred Audio Reviewer
+Description: Flags culturally specific, ceremonial, sacred, historical, or community-owned material requiring context, permission, or consultation.
+
+8. Skill Name: Explicit and Clean Content Versioning Specialist
+Description: Creates accurate alternate words, mutes, reverses, bleeps, edits, and metadata without breaking rhythm or meaning.
+
+9. Skill Name: Content Authenticity and Disclosure Reviewer
+Description: Checks whether generated, reconstructed, reenacted, enhanced, or materially altered audio needs clear labeling.
+
+10. Skill Name: Privacy and Sensitive Audio Editor
+Description: Detects and removes or obscures names, addresses, account details, private conversations, confidential speech, and other protected information.
+
+Category 26: Formats, Encoding, Metadata, Delivery, and Archival
+
+10 specialized capabilities for formats, encoding, metadata, delivery, and archival.
+
+1. Skill Name: Audio Format and Codec Specialist
+Description: Selects PCM, WAV, BWF, AIFF, FLAC, ALAC, MP3, AAC, Opus, Ogg Vorbis, DSD, ADM BWF, and other formats according to use.
+
+2. Skill Name: Sample Rate and Bit Depth Conversion Specialist
+Description: Performs high-quality resampling, bit-depth reduction, dithering, noise shaping, and conversion checks without unintended clipping.
+
+3. Skill Name: Channel Layout and Mapping Specialist
+Description: Builds and validates mono, stereo, dual mono, mid-side, 5.1, 7.1, Ambisonic, and immersive channel orders and labels.
+
+4. Skill Name: Metadata and Tagging Specialist
+Description: Writes titles, artists, albums, composers, performers, ISRC, UPC, BWF, ID3, artwork, chapters, comments, and technical metadata.
+
+5. Skill Name: Broadcast Wave and Timecode Specialist
+Description: Manages BWF metadata, timestamps, originator data, frame-rate relationships, pull-up or pull-down, and production synchronization.
+
+6. Skill Name: Streaming and Download Encoding Specialist
+Description: Balances codec, bitrate, VBR or CBR, sample rate, loudness, gapless playback, compatibility, size, and network conditions.
+
+7. Skill Name: Game Audio Asset Exporter
+Description: Creates correctly named, trimmed, looped, normalized, channel-mapped, metadata-ready assets and banks for interactive implementation.
+
+8. Skill Name: Audio Delivery Package Builder
+Description: Packages masters, stems, alternates, MIDI, notation, lyrics, cue sheets, metadata, licenses, session notes, and checksums.
+
+9. Skill Name: Long-Term Audio Archivist
+Description: Preserves open or sustainable formats, source sessions, assets, dependencies, documentation, checksums, redundant storage, and tested restore procedures.
+
+10. Skill Name: Playback and Import Compatibility Tester
+Description: Reopens files in representative DAWs, players, devices, engines, browsers, and operating systems to validate sound, metadata, looping, and channel behavior.
+
+Category 27: Quality Assurance, Testing, Collaboration, and Recovery
+
+10 specialized capabilities for quality assurance, testing, collaboration, and recovery.
+
+1. Skill Name: Critical Listening QA Reviewer
+Description: Performs focused passes for clicks, edits, noise, distortion, tonal problems, dynamics, stereo, depth, timing, tuning, and unwanted artifacts.
+
+2. Skill Name: Musical Accuracy Reviewer
+Description: Checks notes, chords, lyrics, tempo, meter, tuning, arrangement, score, form, transposition, and requested stylistic constraints.
+
+3. Skill Name: Audio File Structural Validator
+Description: Checks headers, duration, sample rate, bit depth, channels, truncation, corruption, metadata, and decoder compatibility.
+
+4. Skill Name: Loudness and Compliance Validator
+Description: Measures integrated, short-term, momentary loudness, true peak, loudness range, dialogue intelligence, and target-specific compliance.
+
+5. Skill Name: Phase, Mono, and Polarity Validator
+Description: Tests correlation, cancellation, low-frequency coherence, stereo effects, channel polarity, and mono fold-down behavior.
+
+6. Skill Name: Automated Audio Regression Tester
+Description: Compares approved and current renders, waveforms, loudness, spectral metrics, duration, metadata, null results, and cue boundaries.
+
+7. Skill Name: Collaborative Review Manager
+Description: Routes timestamped notes, versions, assignments, approvals, references, and conflicts without mixing stale or mismatched files.
+
+8. Skill Name: Session Dependency and Relink Resolver
+Description: Finds missing audio, samples, presets, plugins, impulse responses, fonts, notation assets, and incompatible versions.
+
+9. Skill Name: Audio Disaster Recovery Specialist
+Description: Restores autosaves, backups, projects, recordings, playlists, edits, databases, and media links while preserving the latest valid work.
+
+10. Skill Name: Final Approval and Handoff Coordinator
+Description: Confirms sign-off, exact deliverables, filenames, metadata, permissions, documentation, editable sources, and recipient opening tests.
+
+Category 28: Advanced Autonomous Audio Systems
+
+10 specialized capabilities for advanced autonomous audio systems.
+
+1. Skill Name: Prompt-to-Production Audio Planner
+Description: Expands a short request into assumptions, musical plan, recording or generation method, assets, session structure, review gates, and final formats.
+
+2. Skill Name: Multimodal Sonic Brief Interpreter
+Description: Extracts audio intent from text, images, video, storyboards, timelines, documents, gestures, reference tracks, and supplied sounds.
+
+3. Skill Name: Autonomous Composition Builder
+Description: Creates themes, harmony, melody, rhythm, arrangement, instrumentation, structure, notation or MIDI, and review renders from a validated brief.
+
+4. Skill Name: Autonomous SFX Asset Builder
+Description: Designs, records or synthesizes, edits, layers, processes, versions, loops, tags, and exports complete effect families.
+
+5. Skill Name: Autonomous Voice Production Builder
+Description: Prepares scripts, pronunciation, authorized voice generation or recording, performance, edits, cleanup, timing, metadata, and alternate versions.
+
+6. Skill Name: Audio Capability Router
+Description: Chooses among composition, recording, synthesis, sampling, editing, restoration, mixing, mastering, spatial, generative, and live methods for each requirement.
+
+7. Skill Name: Audio Repair Agent
+Description: Finds the earliest responsible layer, protects passing work, repairs the smallest failing component, and reruns linked musical and technical checks.
+
+8. Skill Name: Adaptive Quality and Compute Manager
+Description: Selects real-time, preview, oversampling, offline, stem, render, analysis, and restoration settings according to complexity and deadline.
+
+9. Skill Name: Human Review and Approval Coordinator
+Description: Presents the right musical, performance, mix, rights, and delivery decisions, records approvals, and prevents stale feedback from overwriting locked work.
+
+10. Skill Name: End-to-End Audio Intelligence Orchestrator
+Description: Coordinates every specialist from brief through archive, validates joins, handles recovery, and delivers complete editable and finished audio packages.
+
+Implementation Priority Blueprint
+
+Phase 1: Foundation
+Brief interpretation, composition structure, recording, editing, voice, SFX, session organization, exports, and core QA.
+
+Phase 2: Professional Production
+Arrangement, synthesis, vocal production, dialogue repair, mixing, mastering, metadata, and delivery versions.
+
+Phase 3: Advanced Audio
+Scoring, game audio, immersive sound, procedural systems, restoration, generative audio, live sound, and installations.
+
+Phase 4: Scale and Trust
+Automation, collaboration, localization, accessibility, rights, consent, regression testing, archival, and disaster recovery.
+
+Phase 5: Autonomous Production
+Multimodal briefs, autonomous composition, SFX and voice builders, capability routing, repair agents, approvals, and orchestration.
+
+Catalog Completion Note
+
+The catalog covers the full audio lifecycle from musical idea and sound capture through synthesis, speech, SFX, editing, restoration, mixing, mastering, interactive implementation, live performance, accessibility, rights, format delivery, and long-term archive. Future additions should be separate skills only when they require meaningfully different inputs, controls, outputs, or validation methods.

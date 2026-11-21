@@ -1,0 +1,960 @@
+ULTIMATE
+VIDEO MAKER
+SKILL CATALOG
+
+A comprehensive capability catalog for creating, editing, transforming, enhancing, animating, scoring, mastering, and delivering virtually every kind of video
+
+25 categories | 250 specialized skills
+
+Prepared for Emmanuel Angelo De Castro
+
+How to Use This Catalog
+
+This catalog is a blueprint for a powerful video-making agent or a coordinated family of specialist agents. It names capabilities and expected outcomes. It does not implement the skills.
+
+Combine focused skills through an orchestrator for complete productions. A typical workflow can accept raw clips, images, PNGs, logos, documents, music, sound effects, voice recordings, and instructions, then produce editable projects, review previews, and final masters.
+
+Every implemented skill should preserve source links, identify assumptions, expose controls, produce editable outputs when practical, and validate normal, boundary, and recovery cases.
+
+Recommended Contract for Every Future Skill
+
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Contract Area                       Expected Design
+  ----------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------
+  Inputs                              Goal, audience, platform, duration, source media, brand rules, references, rights, constraints, and delivery specifications.
+
+  Outputs                             Editable source, review preview, final media or package, version label, dependency list, and concise handoff notes.
+
+  Controls                            Timing, camera, crop, motion, typography, transition, effect intensity, color, audio, realism, variation, quality, and compute limits.
+
+  Checks                              Requirement coverage, continuity, sync, visual artifacts, audio integrity, rights, accessibility, technical validity, and export integrity.
+
+  Recovery                            Find the earliest failing layer, preserve valid work, repair only the responsible part, and rerun linked checks.
+
+  Interoperability                    Document frame rate, resolution, pixel aspect, timecode, color space, audio layout, alpha mode, naming, units, and interchange formats.
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Category Index
+
+1.  Creative Direction, Strategy, and Production Planning (10 skills)
+
+2.  Research, Scripts, Story, and Messaging (10 skills)
+
+3.  Storyboarding, Shot Design, and Previsualization (10 skills)
+
+4.  Media Ingest, Organization, and Preparation (10 skills)
+
+5.  Editing, Assembly, and Narrative Shaping (10 skills)
+
+6.  Transitions, Motion, and Temporal Design (10 skills)
+
+7.  Speed, Time, Stabilization, and Camera Manipulation (10 skills)
+
+8.  Text, Titles, Captions, and Typography (10 skills)
+
+9.  Motion Graphics, Infographics, and Visual Explanation (10 skills)
+
+10. Compositing, Layering, and Asset Integration (10 skills)
+
+11. Visual Effects and Image Manipulation (10 skills)
+
+12. Generative Video and AI-Assisted Creation (10 skills)
+
+13. Animation Inside Video (10 skills)
+
+14. Color Correction, Grading, and Image Finishing (10 skills)
+
+15. Audio Editing, Music, SFX, Foley, and Mixing (10 skills)
+
+16. Image, Photo, PNG, and Graphic Asset Manipulation (10 skills)
+
+17. Restoration, Enhancement, and Technical Repair (10 skills)
+
+18. Specialized Video Formats and Genres (10 skills)
+
+19. Screen Recording, Tutorials, Presentations, and Work Video (10 skills)
+
+20. Localization, Accessibility, and Inclusive Delivery (10 skills)
+
+21. Aspect Ratios, Reframing, and Platform Versioning (10 skills)
+
+22. Encoding, Mastering, and Delivery (10 skills)
+
+23. Quality Assurance, Review, Rights, and Safety (10 skills)
+
+24. Pipeline, Automation, Collaboration, and Recovery (10 skills)
+
+25. Advanced Autonomous Video Systems (10 skills)
+
+Category 1: Creative Direction, Strategy, and Production Planning
+
+10 specialized capabilities for creative direction, strategy, and production planning.
+
+1. Skill Name: Video Creative Director
+Description: Turns a goal, audience, message, platform, and emotional target into a coherent visual concept, production brief, and approval-ready creative direction.
+
+2. Skill Name: Video Concept Generator
+Description: Develops original video premises, hooks, formats, visual devices, narratives, and campaign variations suited to the available materials and intended outcome.
+
+3. Skill Name: Treatment and Pitch Builder
+Description: Creates concise treatments, pitch decks, references, tone descriptions, sample frames, production approaches, and stakeholder-ready creative rationales.
+
+4. Skill Name: Production Scope Architect
+Description: Translates a concept into runtimes, shot counts, asset needs, crew or agent roles, milestones, dependencies, complexity levels, and acceptance criteria.
+
+5. Skill Name: Video Feasibility Analyst
+Description: Tests whether the requested video is achievable within the available time, media, hardware, software, rights, budget, and quality target, then proposes safe alternatives.
+
+6. Skill Name: Audience and Platform Strategist
+Description: Adapts concepts for cinema, television, YouTube, TikTok, Instagram, Facebook, LinkedIn, websites, learning platforms, events, and internal communications.
+
+7. Skill Name: Visual Style System Designer
+Description: Defines reusable rules for color, framing, lenses, lighting, typography, motion, transitions, graphics, textures, effects, and sound treatment.
+
+8. Skill Name: Reference and Moodboard Curator
+Description: Organizes supplied and permitted references by composition, camera, movement, lighting, edit rhythm, effects, grade, typography, music, and emotional function.
+
+9. Skill Name: Production Risk Planner
+Description: Identifies missing assets, unclear approvals, rights issues, difficult effects, continuity hazards, schedule bottlenecks, and delivery risks before work begins.
+
+10. Skill Name: End-to-End Video Producer
+Description: Coordinates concept through final masters, maintains status and dependencies, routes review decisions, and keeps editable sources linked to approved outputs.
+
+Category 2: Research, Scripts, Story, and Messaging
+
+10 specialized capabilities for research, scripts, story, and messaging.
+
+1. Skill Name: Video Research Synthesizer
+Description: Converts reliable source material into accurate, production-ready findings, separates facts from interpretation, and records claims that require on-screen attribution.
+
+2. Skill Name: Video Script Writer
+Description: Writes narration, dialogue, action, visual directions, transitions, timing estimates, and production-aware scene descriptions for the requested format.
+
+3. Skill Name: Short-Form Hook Writer
+Description: Creates opening seconds designed for immediate clarity and retention without misleading the viewer or delaying the main value.
+
+4. Skill Name: Long-Form Narrative Architect
+Description: Structures chapters, reveals, callbacks, tension, evidence, examples, and conclusions across documentaries, essays, courses, interviews, and feature-length work.
+
+5. Skill Name: Explainer Script Designer
+Description: Transforms complex ideas into sequenced explanations, demonstrations, analogies, examples, and summaries that can be shown visually.
+
+6. Skill Name: Advertising Copy and CTA Writer
+Description: Creates benefit-led, compliant video copy, offers, calls to action, proof points, disclaimers, and platform-specific variations.
+
+7. Skill Name: Interview Question Designer
+Description: Builds open, follow-up, clarification, challenge, and closing questions that elicit usable statements and complete story coverage.
+
+8. Skill Name: Dialogue and Voice Characterizer
+Description: Creates distinct speaking styles, natural phrasing, subtext, pacing, interruptions, and performance notes for characters or presenters.
+
+9. Skill Name: Storyboard Narration Mapper
+Description: Links each spoken line to planned visuals, graphics, demonstrations, evidence, and edit opportunities to avoid unsupported talking-head footage.
+
+10. Skill Name: Fact and Claim Review Coordinator
+Description: Flags claims that need verification, updates, legal review, source labels, uncertainty language, or removal before picture lock.
+
+Category 3: Storyboarding, Shot Design, and Previsualization
+
+10 specialized capabilities for storyboarding, shot design, and previsualization.
+
+1. Skill Name: Storyboard Artist
+Description: Converts scripts into shot-by-shot panels showing composition, action, camera behavior, transitions, graphics, and continuity.
+
+2. Skill Name: Shot List Generator
+Description: Creates shot identifiers, durations, framing, movement, subjects, locations, props, audio, effects, and dependencies for production.
+
+3. Skill Name: Coverage Planner
+Description: Designs wide, medium, close, insert, cutaway, reaction, establishing, pickup, and safety coverage that supports flexible editing.
+
+4. Skill Name: Previsualization Builder
+Description: Blocks timing, staging, cameras, effects, and rough sound in 2D or 3D before expensive shooting or final generation.
+
+5. Skill Name: Animatic Editor
+Description: Produces timed boards with temporary dialogue, music, effects, motion, transitions, and duration checks.
+
+6. Skill Name: Camera and Lens Planner
+Description: Selects shot size, focal length, perspective, depth of field, focus behavior, sensor movement, and stabilization style.
+
+7. Skill Name: Screen Direction and Eyeline Checker
+Description: Prevents axis breaks, mismatched looks, confusing entrances, reversed movement, and spatially incoherent coverage.
+
+8. Skill Name: B-Roll and Insert Planner
+Description: Maps supporting images, details, demonstrations, environments, documents, screens, and objects to exact edit needs.
+
+9. Skill Name: Complex Sequence Planner
+Description: Previses fights, chases, stunts, transformations, product builds, multi-camera events, and effects-heavy sequences with clear cause and effect.
+
+10. Skill Name: Preproduction Handoff Builder
+Description: Packages scripts, boards, shot lists, schedules, asset needs, references, technical settings, and approval notes for execution.
+
+Category 4: Media Ingest, Organization, and Preparation
+
+10 specialized capabilities for media ingest, organization, and preparation.
+
+1. Skill Name: Media Ingest Manager
+Description: Copies, verifies, labels, and organizes camera media, audio, images, graphics, screen recordings, generated assets, and project files without altering originals.
+
+2. Skill Name: Checksum and Backup Verifier
+Description: Uses checksums and redundant copies to confirm source integrity before cards, drives, or temporary storage are cleared.
+
+3. Skill Name: Proxy Media Generator
+Description: Creates edit-friendly proxies with correct names, timecode, frame rate, audio channels, and relink metadata.
+
+4. Skill Name: Metadata and Logging Specialist
+Description: Records scene, take, camera, date, location, subject, rights, quality, content, and keyword metadata for fast retrieval.
+
+5. Skill Name: Automatic Scene and Shot Detector
+Description: Splits long clips at cuts or scene changes, identifies repeated takes, and produces review-ready subclips.
+
+6. Skill Name: Transcript and Speaker Indexer
+Description: Creates time-aligned transcripts, distinguishes speakers when possible, and links words to source ranges for text-based editing.
+
+7. Skill Name: Asset Deduplicator
+Description: Finds exact and near-duplicate media while protecting intentional versions, camera angles, grades, and approved exports.
+
+8. Skill Name: Frame Rate and Timecode Normalizer
+Description: Detects mixed frame rates, variable-rate recordings, drop-frame issues, and timecode mismatches, then prepares a safe conform plan.
+
+9. Skill Name: Media Repair and Rewrap Specialist
+Description: Repairs indexes, rewraps compatible streams, extracts usable media, and isolates corrupt ranges without unnecessary recompression.
+
+10. Skill Name: Project Bin and Naming Architect
+Description: Creates scalable naming, folder, bin, label, marker, sequence, and version conventions for reliable collaboration and relinking.
+
+Category 5: Editing, Assembly, and Narrative Shaping
+
+10 specialized capabilities for editing, assembly, and narrative shaping.
+
+1. Skill Name: Rough Cut Editor
+Description: Builds the first complete sequence from selected material, prioritizing story, clarity, coverage, continuity, and usable pacing.
+
+2. Skill Name: Fine Cut Editor
+Description: Refines frame-accurate timing, reactions, emphasis, transitions, shot choice, motion continuity, and emotional rhythm.
+
+3. Skill Name: Text-Based Video Editor
+Description: Builds and revises spoken-content edits from transcripts while preserving natural cadence, context, and source synchronization.
+
+4. Skill Name: Multicam Editor
+Description: Synchronizes and edits multiple cameras and audio sources, manages angle groups, and preserves continuous event coverage.
+
+5. Skill Name: Dialogue Scene Editor
+Description: Shapes conversations through performance selection, eyelines, reactions, pauses, overlaps, and spatial continuity.
+
+6. Skill Name: Montage Builder
+Description: Combines images, video, graphics, music, and sound into rhythmic sequences that compress time or communicate progression.
+
+7. Skill Name: Documentary Story Editor
+Description: Finds themes and narrative structure in interviews, observation, archive, evidence, and actuality without distorting meaning.
+
+8. Skill Name: Continuity Editor
+Description: Tracks action, position, props, wardrobe, lighting, direction, time, and spoken details across cuts.
+
+9. Skill Name: Pacing and Retention Optimizer
+Description: Adjusts density, pauses, pattern changes, payoffs, chapter length, and visual refresh intervals while protecting comprehension.
+
+10. Skill Name: Picture Lock and Change Manager
+Description: Controls approved sequence versions, tracks notes and trims, prevents stale exports, and communicates downstream changes.
+
+Category 6: Transitions, Motion, and Temporal Design
+
+10 specialized capabilities for transitions, motion, and temporal design.
+
+1. Skill Name: Cut Transition Designer
+Description: Chooses hard cuts, match cuts, cutaways, jump cuts, smash cuts, L-cuts, J-cuts, parallel cuts, and invisible cuts based on story function.
+
+2. Skill Name: Dissolve and Fade Designer
+Description: Uses cross dissolves, dip-to-color, fade-in, fade-out, film dissolves, and luminance dissolves with controlled duration and intent.
+
+3. Skill Name: Wipe and Reveal Transition Builder
+Description: Creates directional, radial, shape, object, matte, track, and environment-driven wipes that follow composition and motion.
+
+4. Skill Name: Motion Match Transition Artist
+Description: Connects shots through matched subject, camera, gesture, direction, scale, rotation, color, shape, or speed.
+
+5. Skill Name: Whip, Zoom, and Spin Transition Artist
+Description: Builds fast movement transitions using blur, directional continuity, reframing, impact sound, and safe motion intensity.
+
+6. Skill Name: Morph Transition Designer
+Description: Creates controlled object, face, logo, shape, environment, or pose transformations with stable intermediate forms.
+
+7. Skill Name: Mask and Portal Transition Artist
+Description: Uses animated masks, foreground objects, doors, screens, tunnels, particles, and dimensional portals to bridge scenes.
+
+8. Skill Name: Glitch and Datamosh Transition Designer
+Description: Creates deliberate digital disruption, displacement, channel offsets, compression behavior, scan effects, and signal breaks without unreadable artifacts.
+
+9. Skill Name: Time Transition Designer
+Description: Uses speed changes, freeze frames, frame skipping, time displacement, trails, echoes, reverse motion, and time-lapse cues to show temporal change.
+
+10. Skill Name: Transition Continuity Reviewer
+Description: Checks whether every transition preserves orientation, focal attention, audio flow, accessibility, and narrative meaning rather than being decorative noise.
+
+Category 7: Speed, Time, Stabilization, and Camera Manipulation
+
+10 specialized capabilities for speed, time, stabilization, and camera manipulation.
+
+1. Skill Name: Speed Ramping Specialist
+Description: Creates smooth acceleration and deceleration around action beats while maintaining motion readability and audio intent.
+
+2. Skill Name: Slow Motion and Retiming Artist
+Description: Uses optical flow, frame blending, interpolation, or source high-frame-rate media to create controlled slow motion with artifact checks.
+
+3. Skill Name: Time-Lapse and Hyperlapse Editor
+Description: Stabilizes, deflickers, retimes, reframes, and sequences long-duration captures into smooth compressed-time shots.
+
+4. Skill Name: Freeze Frame and Hold Designer
+Description: Creates purposeful frame holds, freeze titles, photo moments, graphical extensions, and audio-supported pauses.
+
+5. Skill Name: Reverse and Loop Designer
+Description: Builds seamless reversals, boomerangs, cinemagraph loops, ambient loops, and hidden loop points.
+
+6. Skill Name: Video Stabilization Specialist
+Description: Corrects unwanted translation, rotation, scale, and rolling movement while preserving intentional camera energy and avoiding excessive crop.
+
+7. Skill Name: Camera Shake Designer
+Description: Adds controllable handheld, impact, vehicle, earthquake, recoil, and environmental shake with realistic frequency and falloff.
+
+8. Skill Name: Digital Pan, Tilt, and Zoom Artist
+Description: Creates motivated Ken Burns moves, reframes, push-ins, pull-outs, and focus shifts from stills or oversized footage.
+
+9. Skill Name: Horizon and Perspective Corrector
+Description: Repairs tilted horizons, vertical convergence, lens distortion, skew, and framing imbalance.
+
+10. Skill Name: Rolling Shutter Repair Specialist
+Description: Reduces wobble, skew, and partial-frame distortion from fast motion or sensor readout while flagging unrecoverable cases.
+
+Category 8: Text, Titles, Captions, and Typography
+
+10 specialized capabilities for text, titles, captions, and typography.
+
+1. Skill Name: Title Sequence Designer
+Description: Creates opening and closing title systems that establish identity, tone, hierarchy, timing, and visual motifs.
+
+2. Skill Name: Kinetic Typography Animator
+Description: Animates words, letters, and phrases according to speech, rhythm, meaning, emphasis, and readability.
+
+3. Skill Name: Lower Thirds Designer
+Description: Builds reusable names, roles, locations, scores, identifiers, and information straps with safe-zone and duration controls.
+
+4. Skill Name: Caption and Subtitle Creator
+Description: Produces synchronized, readable captions with correct line breaks, speaker labels, sound cues, timing, and export formats.
+
+5. Skill Name: Burned-In Caption Stylist
+Description: Designs platform-ready open captions with contrast, backgrounds, highlighting, animation, and collision avoidance.
+
+6. Skill Name: On-Screen Callout Designer
+Description: Adds labels, arrows, measurements, highlights, annotations, and tracked explanations to exact objects or actions.
+
+7. Skill Name: End Card and CTA Designer
+Description: Creates final cards with branding, links, offers, next steps, legal text, and platform-safe timing.
+
+8. Skill Name: Credits Builder
+Description: Generates readable rolling, card, or animated credits with role consistency, music timing, and delivery-safe speed.
+
+9. Skill Name: Text Replacement and Localization Artist
+Description: Replaces signs, screens, packaging, interfaces, and embedded graphics while matching perspective, motion, lighting, and texture.
+
+10. Skill Name: Typography QA Reviewer
+Description: Checks spelling, names, line breaks, hierarchy, contrast, safe areas, duration, capitalization, fonts, and localization overflow.
+
+Category 9: Motion Graphics, Infographics, and Visual Explanation
+
+10 specialized capabilities for motion graphics, infographics, and visual explanation.
+
+1. Skill Name: Motion Graphics Designer
+Description: Creates animated graphic systems, promos, explainers, interstitials, branding, abstract sequences, and reusable templates.
+
+2. Skill Name: Infographic Animator
+Description: Turns comparisons, processes, timelines, maps, statistics, and systems into sequenced, understandable motion.
+
+3. Skill Name: Chart and Data Animation Specialist
+Description: Animates bars, lines, areas, scatterplots, maps, networks, and uncertainty without changing the underlying meaning.
+
+4. Skill Name: Icon and Symbol Animator
+Description: Builds clear icon reveals, loops, state changes, morphs, and symbolic sequences consistent with the visual system.
+
+5. Skill Name: Logo Animation Designer
+Description: Creates logo builds, reveals, stings, transformations, loops, and responsive variants without weakening brand recognition.
+
+6. Skill Name: UI and Screen Motion Designer
+Description: Animates interfaces, cursor paths, taps, swipes, state changes, highlights, and guided demonstrations.
+
+7. Skill Name: Map and Route Animator
+Description: Creates geographic flyovers, paths, markers, regions, zoom levels, labels, and temporal change while preserving accuracy.
+
+8. Skill Name: Exploded View and Process Animator
+Description: Separates products, mechanisms, layers, buildings, or systems to explain parts, assembly, flow, and function.
+
+9. Skill Name: Audio-Reactive Graphics Designer
+Description: Maps amplitude, rhythm, frequency, onset, or musical sections to controlled visual parameters.
+
+10. Skill Name: Template Automation Designer
+Description: Builds safe, editable masters that generate multiple names, languages, products, dates, dimensions, and campaign versions.
+
+Category 10: Compositing, Layering, and Asset Integration
+
+10 specialized capabilities for compositing, layering, and asset integration.
+
+1. Skill Name: Video Compositing Artist
+Description: Combines footage, images, PNGs, graphics, renders, particles, text, and effects into a visually unified shot.
+
+2. Skill Name: Green and Blue Screen Keyer
+Description: Produces clean keys, preserves hair and transparency, removes spill, handles shadows, and integrates subjects into new environments.
+
+3. Skill Name: Rotoscoping Artist
+Description: Creates detailed animated mattes for people, objects, limbs, hair, and overlapping action when automatic isolation is insufficient.
+
+4. Skill Name: Masking and Matte Specialist
+Description: Builds shape, luminance, channel, depth, garbage, holdout, and difference mattes for controlled layer interaction.
+
+5. Skill Name: 2D Motion Tracking Artist
+Description: Tracks points, planes, corners, surfaces, and transforms to attach graphics or stabilize moving details.
+
+6. Skill Name: 3D Camera Tracking and Matchmove Artist
+Description: Reconstructs camera movement, lens behavior, scene scale, and tracking geometry for realistic 3D integration.
+
+7. Skill Name: Object and Surface Replacement Artist
+Description: Replaces screens, signs, labels, textures, products, skies, windows, and moving surfaces with correct perspective and occlusion.
+
+8. Skill Name: Depth and Parallax Composer
+Description: Builds dimensional motion from layered stills, depth maps, camera projections, atmospheric separation, and controlled focus.
+
+9. Skill Name: Shadow, Reflection, and Light Wrap Artist
+Description: Creates contact shadows, reflected imagery, environmental response, edge integration, and interactive lighting.
+
+10. Skill Name: Layer and Alpha Pipeline Manager
+Description: Controls premultiplication, straight alpha, blend modes, color space, bit depth, channels, and edge behavior across applications.
+
+Category 11: Visual Effects and Image Manipulation
+
+10 specialized capabilities for visual effects and image manipulation.
+
+1. Skill Name: VFX Shot Designer
+Description: Breaks a desired effect into plates, elements, tracking, simulation, compositing, lighting, sound, and cleanup requirements.
+
+2. Skill Name: Object Removal Artist
+Description: Removes unwanted people, rigs, wires, logos, microphones, reflections, vehicles, or background objects across moving frames.
+
+3. Skill Name: Object Addition and Duplication Artist
+Description: Adds or multiplies props, crowds, screens, signs, products, lights, and environmental elements with correct interaction.
+
+4. Skill Name: Digital Makeup and Appearance Artist
+Description: Applies permitted skin cleanup, wounds, aging, de-aging, tattoos, dirt, sweat, cosmetics, and character effects with temporal stability.
+
+5. Skill Name: Environment Extension Artist
+Description: Extends sets, landscapes, skies, architecture, crowds, and backgrounds beyond the captured frame.
+
+6. Skill Name: Weather and Atmosphere Artist
+Description: Adds rain, snow, fog, clouds, mist, wind, heat haze, lightning, and environmental depth.
+
+7. Skill Name: Fire, Smoke, Explosion, and Energy Artist
+Description: Creates and integrates pyro, sparks, embers, shockwaves, magic, electricity, lasers, glows, and energy effects.
+
+8. Skill Name: Destruction and Debris Artist
+Description: Builds fractures, impacts, collapses, dust, particles, secondary debris, and continuity-aware damage.
+
+9. Skill Name: Disintegration and Transformation Artist
+Description: Creates dissolve, vaporize, assemble, grow, shrink, teleport, mutate, and material-change effects with controlled masks and particles.
+
+10. Skill Name: VFX Integration Reviewer
+Description: Checks scale, perspective, edge quality, grain, blur, color, lens response, lighting, contact, occlusion, and temporal consistency.
+
+Category 12: Generative Video and AI-Assisted Creation
+
+10 specialized capabilities for generative video and ai-assisted creation.
+
+1. Skill Name: Text-to-Video Director
+Description: Converts a written brief into shot-specific instructions controlling subject, action, camera, lighting, style, duration, and continuity.
+
+2. Skill Name: Image-to-Video Animator
+Description: Turns still images into controlled camera movement, depth, facial or object motion, environmental motion, and stable secondary action.
+
+3. Skill Name: Video-to-Video Transformer
+Description: Changes style, environment, materials, appearance, or rendering treatment while preserving selected motion and structure.
+
+4. Skill Name: Generative Character Consistency Manager
+Description: Maintains identity, clothing, proportions, props, expressions, lighting, and recognizable features across generated shots.
+
+5. Skill Name: Generative Scene Continuity Manager
+Description: Preserves geography, screen direction, environment, time of day, weather, camera logic, and object state between shots.
+
+6. Skill Name: Prompt and Control Signal Designer
+Description: Combines text, reference images, masks, depth, pose, motion, edges, camera paths, and negative constraints for predictable generation.
+
+7. Skill Name: Generative Inpainting and Outpainting Artist
+Description: Edits or extends moving frames while maintaining texture, lighting, occlusion, identity, and temporal coherence.
+
+8. Skill Name: Synthetic B-Roll Generator
+Description: Creates clearly labeled, rights-aware illustrative footage when real capture is unavailable and factual representation is not misleading.
+
+9. Skill Name: Generative Artifact Repair Artist
+Description: Corrects unstable anatomy, morphing, texture crawl, identity drift, flicker, broken motion, and inconsistent objects using targeted regeneration or compositing.
+
+10. Skill Name: Generated Media Provenance Manager
+Description: Records models, prompts, sources, permissions, edits, disclosures, and approval status for generated video elements.
+
+Category 13: Animation Inside Video
+
+10 specialized capabilities for animation inside video.
+
+1. Skill Name: 2D Character Animator
+Description: Creates frame-by-frame or rigged character performance, locomotion, facial acting, lip sync, and interaction for video sequences.
+
+2. Skill Name: 3D Character Animator
+Description: Creates keyframed, captured, or hybrid body and facial performance with weight, contact, thought, and expressive timing.
+
+3. Skill Name: Object and Product Animator
+Description: Animates products, props, vehicles, mechanisms, interfaces, and assemblies with clear function and controlled motion.
+
+4. Skill Name: Photo and Collage Animator
+Description: Adds layered motion, cutout behavior, camera depth, texture, replacement parts, and graphic transitions to still assets.
+
+5. Skill Name: Stop-Motion Sequence Builder
+Description: Plans and assembles frame-by-frame physical animation with exposure stability, cleanup, rig removal, and timing control.
+
+6. Skill Name: Lip-Sync Animator
+Description: Maps dialogue to visemes, jaw, lips, cheeks, eyes, head movement, and emotional performance in 2D or 3D.
+
+7. Skill Name: Secondary Motion Animator
+Description: Adds follow-through, overlap, drag, hair, cloth, accessories, particles, and environmental reaction.
+
+8. Skill Name: Crowd and Background Animator
+Description: Creates varied cycles, behaviors, paths, reactions, density, and hero moments for background populations.
+
+9. Skill Name: Procedural Motion Designer
+Description: Builds reusable motion from rules, expressions, constraints, fields, effectors, and audio or data inputs.
+
+10. Skill Name: Animation-to-Live-Action Integrator
+Description: Matches frame rate, camera, lighting, grain, blur, perspective, shadows, and interaction between animation and footage.
+
+Category 14: Color Correction, Grading, and Image Finishing
+
+10 specialized capabilities for color correction, grading, and image finishing.
+
+1. Skill Name: Primary Color Correction Artist
+Description: Balances exposure, contrast, white balance, saturation, black level, highlight rolloff, and neutral references.
+
+2. Skill Name: Shot Matching Specialist
+Description: Matches adjacent shots and cameras for exposure, color, contrast, skin or subject tone, and environmental continuity.
+
+3. Skill Name: Creative Color Grading Artist
+Description: Builds scene and project looks that support genre, period, emotion, hierarchy, and brand direction.
+
+4. Skill Name: Secondary Color Isolation Artist
+Description: Uses keys, windows, masks, and tracked corrections to adjust selected colors, subjects, skies, products, or regions.
+
+5. Skill Name: Day-for-Night and Time-of-Day Artist
+Description: Transforms lighting and color cues for dawn, day, dusk, night, overcast, interior, and stylized temporal states.
+
+6. Skill Name: HDR and SDR Finishing Specialist
+Description: Manages highlight intent, display transforms, trims, metadata, legal ranges, and consistent viewing across target displays.
+
+7. Skill Name: Film Emulation and Texture Artist
+Description: Adds controlled tone curves, halation, bloom, grain, gate behavior, weave, print response, and film-like color separation.
+
+8. Skill Name: Deflicker and Exposure Repair Artist
+Description: Reduces lighting flicker, aperture changes, timelapse variation, banding, and inconsistent exposure over time.
+
+9. Skill Name: Noise Reduction and Sharpening Artist
+Description: Balances temporal or spatial denoising, detail recovery, edge protection, texture, and artifact avoidance.
+
+10. Skill Name: Color Pipeline and LUT Manager
+Description: Controls input transforms, working color space, monitoring, LUT purpose, render transforms, bit depth, and handoff consistency.
+
+Category 15: Audio Editing, Music, SFX, Foley, and Mixing
+
+10 specialized capabilities for audio editing, music, sfx, foley, and mixing.
+
+1. Skill Name: Dialogue Editor
+Description: Selects, cleans, repairs, aligns, and levels spoken audio while preserving natural tone and performance.
+
+2. Skill Name: Noise and Reverb Repair Specialist
+Description: Reduces hum, hiss, clicks, plosives, wind, room noise, clipping, harshness, and excessive reverberation with restrained processing.
+
+3. Skill Name: Music Supervisor and Cue Planner
+Description: Selects permitted music by tone, structure, tempo, instrumentation, rights, edit points, stems, and narrative role.
+
+4. Skill Name: Music Editor
+Description: Cuts, extends, loops, restructures, transitions, and conforms music to picture while protecting musical phrasing.
+
+5. Skill Name: Sound Effects Designer
+Description: Builds impacts, whooshes, transitions, technology, environments, creatures, magic, interfaces, and stylized signature sounds.
+
+6. Skill Name: Foley Editor
+Description: Creates and synchronizes footsteps, cloth, handling, contact, movement, and object detail for believable physical presence.
+
+7. Skill Name: Audio Sync Specialist
+Description: Synchronizes camera audio, external recorders, timecode, waveforms, claps, music playback, and performance references.
+
+8. Skill Name: Spatial Audio and Panning Designer
+Description: Positions sounds across stereo, surround, binaural, or immersive fields with motion, depth, and environmental response.
+
+9. Skill Name: Voiceover Production Specialist
+Description: Prepares scripts, pronunciation, recording direction, takes, pickups, cleanup, timing, and integration for narration.
+
+10. Skill Name: Final Mix and Loudness Engineer
+Description: Balances dialogue, music, effects, dynamics, true peak, loudness, stems, and platform-specific delivery requirements.
+
+Category 16: Image, Photo, PNG, and Graphic Asset Manipulation
+
+10 specialized capabilities for image, photo, png, and graphic asset manipulation.
+
+1. Skill Name: Image Preparation Specialist
+Description: Resizes, crops, cleans, color-corrects, converts, and organizes photos, illustrations, PNGs, logos, and graphics for video use.
+
+2. Skill Name: Background Removal and Cutout Artist
+Description: Creates clean transparent subjects, handles hair and soft edges, and prepares masks for animation and compositing.
+
+3. Skill Name: Photo Restoration Artist
+Description: Repairs scratches, dust, fading, noise, tears, missing regions, color casts, and uneven exposure before video animation.
+
+4. Skill Name: Image Extension and Recomposition Artist
+Description: Expands backgrounds, reconstructs missing regions, changes crop, and repositions elements for new aspect ratios or camera moves.
+
+5. Skill Name: Layer Separation Artist
+Description: Separates foreground, midground, background, subjects, shadows, and objects from flat images for independent movement.
+
+6. Skill Name: Product and Logo Cleanup Artist
+Description: Removes artifacts, rebuilds edges, corrects perspective, creates transparent variants, and prepares brand assets at suitable resolution.
+
+7. Skill Name: Texture and Overlay Designer
+Description: Creates grain, light leaks, dust, scratches, paper, paint, glass, bokeh, flares, and surface overlays with controllable blending.
+
+8. Skill Name: Contact Sheet and Selects Builder
+Description: Creates labeled visual indexes for fast comparison, approval, and source identification.
+
+9. Skill Name: Asset Rights and Source Tracker
+Description: Records creator, source, license, permission, attribution, restrictions, and expiration for every imported image or graphic.
+
+10. Skill Name: Still Asset Motion Planner
+Description: Determines how each image should pan, zoom, parallax, crop, transition, appear, disappear, and interact with text or sound.
+
+Category 17: Restoration, Enhancement, and Technical Repair
+
+10 specialized capabilities for restoration, enhancement, and technical repair.
+
+1. Skill Name: Video Upscaling Specialist
+Description: Improves resolution and perceived detail while controlling ringing, false texture, unstable edges, and identity changes.
+
+2. Skill Name: Frame Interpolation Specialist
+Description: Creates intermediate frames for frame-rate conversion or slow motion while detecting warps, duplicates, and occlusion errors.
+
+3. Skill Name: Compression Artifact Repair Artist
+Description: Reduces blocking, mosquito noise, banding, ringing, chroma damage, and low-bitrate smearing.
+
+4. Skill Name: Deinterlacing and Field Repair Specialist
+Description: Converts interlaced sources, resolves field order, handles mixed cadence, and minimizes combing or motion loss.
+
+5. Skill Name: Film and Tape Restoration Specialist
+Description: Repairs dirt, scratches, weave, flicker, dropouts, tears, color fading, instability, and analog noise while preserving authentic detail.
+
+6. Skill Name: Dropped and Duplicate Frame Repairer
+Description: Detects cadence problems, gaps, repeats, freezes, and timing discontinuities, then reconstructs or flags affected ranges.
+
+7. Skill Name: Lens Defect Repair Specialist
+Description: Reduces vignetting, chromatic aberration, distortion, dust spots, flare contamination, and uneven sharpness.
+
+8. Skill Name: Flicker and Temporal Consistency Repairer
+Description: Stabilizes brightness, color, texture, grain, generated detail, and effect intensity across frames.
+
+9. Skill Name: Audio-Video Drift Corrector
+Description: Finds and corrects progressive sync drift caused by clocks, sample rates, variable frame rates, or incorrect interpretation.
+
+10. Skill Name: Restoration Ethics and Authenticity Reviewer
+Description: Separates repair from invention, preserves originals, documents material changes, and prevents restored footage from being presented misleadingly.
+
+Category 18: Specialized Video Formats and Genres
+
+10 specialized capabilities for specialized video formats and genres.
+
+1. Skill Name: Social Short Video Producer
+Description: Creates vertical or square short videos with immediate hooks, captions, safe zones, fast clarity, loops, and platform-specific endings.
+
+2. Skill Name: YouTube Long-Form Producer
+Description: Builds structured intros, chapters, demonstrations, B-roll, graphics, retention resets, sponsor segments, and end screens.
+
+3. Skill Name: Commercial and Product Video Producer
+Description: Creates product reveals, benefits, demonstrations, lifestyle integration, proof, offers, disclaimers, and brand-safe masters.
+
+4. Skill Name: Documentary Video Producer
+Description: Combines research, interviews, archive, observation, evidence, narration, and ethical context into truthful long-form storytelling.
+
+5. Skill Name: Music Video Director
+Description: Develops performance, narrative, visual motif, rhythm, choreography, effects, and grade around the music and artist identity.
+
+6. Skill Name: Educational Course Video Producer
+Description: Creates lesson structure, presenter edits, screen demonstrations, diagrams, checks for understanding, captions, and modular exports.
+
+7. Skill Name: Event Highlight and Recap Editor
+Description: Builds chronological or thematic coverage from multicam footage, speeches, reactions, details, music, and branded summaries.
+
+8. Skill Name: Trailer and Teaser Editor
+Description: Creates anticipation, escalation, clarity, reveals, title cards, sound design, and multiple lengths without misrepresenting content.
+
+9. Skill Name: News and Information Package Producer
+Description: Builds accurate, timely packages with interviews, voiceover, B-roll, graphics, maps, citations, captions, and corrections.
+
+10. Skill Name: Cinematic Short and Feature Editor
+Description: Coordinates scene construction, performance, continuity, visual grammar, sound, VFX turnovers, color, and final mastering for narrative film.
+
+Category 19: Screen Recording, Tutorials, Presentations, and Work Video
+
+10 specialized capabilities for screen recording, tutorials, presentations, and work video.
+
+1. Skill Name: Screen Recording Producer
+Description: Captures clean interfaces at readable scale with controlled cursor behavior, notifications, privacy, resolution, and audio.
+
+2. Skill Name: Software Tutorial Editor
+Description: Removes mistakes and waits, magnifies relevant regions, adds step labels, shortcuts, chapters, and accurate narration.
+
+3. Skill Name: Presentation-to-Video Producer
+Description: Turns slides and speaker content into a paced video with layouts, camera framing, graphics, chapters, and accessible captions.
+
+4. Skill Name: Webinar and Meeting Editor
+Description: Creates clean recordings, speaker layouts, topic chapters, summaries, Q&A sections, privacy edits, and short highlights.
+
+5. Skill Name: Corporate Communications Producer
+Description: Builds leadership messages, internal updates, training, announcements, culture videos, and policy explainers with consistent branding.
+
+6. Skill Name: Remote Interview Producer
+Description: Aligns separate recordings, repairs inconsistent audio or lighting, creates speaker layouts, and manages connection interruptions.
+
+7. Skill Name: Demo and Walkthrough Producer
+Description: Combines screen, camera, product, closeups, annotations, voiceover, and before-after proof into a clear demonstration.
+
+8. Skill Name: Talking-Head Enhancement Editor
+Description: Uses reframing, jump-cut control, B-roll, captions, graphics, punch-ins, audio repair, and background treatment to sustain clarity.
+
+9. Skill Name: Slide and Document Callout Animator
+Description: Highlights specific cells, passages, diagrams, controls, and steps while keeping the source legible and context intact.
+
+10. Skill Name: Knowledge Video Chaptering Specialist
+Description: Creates navigable titles, timestamps, summaries, searchable transcripts, clips, and linked resources for reuse.
+
+Category 20: Localization, Accessibility, and Inclusive Delivery
+
+10 specialized capabilities for localization, accessibility, and inclusive delivery.
+
+1. Skill Name: Subtitle Localization Producer
+Description: Coordinates transcription, translation, timing, line breaks, speaker labels, terminology, and subtitle file validation.
+
+2. Skill Name: Dubbing and ADR Coordinator
+Description: Manages translated scripts, casting or authorized voices, performance, synchronization, pickups, and mix integration.
+
+3. Skill Name: Multilingual Lip-Sync Adapter
+Description: Adjusts dialogue timing, mouth performance, pauses, cuts, and reaction shots to fit translated speech naturally.
+
+4. Skill Name: On-Screen Text Localization Artist
+Description: Rebuilds titles, labels, signs, interfaces, and graphics while preserving design, motion, reading order, and safe areas.
+
+5. Skill Name: Audio Description Writer and Editor
+Description: Creates concise descriptions of essential visual information and places narration without masking important dialogue or sound.
+
+6. Skill Name: Caption Accessibility Reviewer
+Description: Checks accuracy, completeness, speaker identification, sound cues, timing, contrast, placement, and reading speed.
+
+7. Skill Name: Photosensitivity and Motion Safety Reviewer
+Description: Flags dangerous flashes, high-contrast patterns, intense strobing, rapid motion, and visually overwhelming effects.
+
+8. Skill Name: Cognitive Clarity Reviewer
+Description: Checks information density, pacing, jargon, visual competition, instruction order, and necessary repetition for broad comprehension.
+
+9. Skill Name: Sign Language Video Integrator
+Description: Places interpreter video with appropriate scale, contrast, framing, timing, and protection from graphics or crops.
+
+10. Skill Name: Accessible Player Package Designer
+Description: Prepares captions, transcripts, chapters, descriptions, thumbnails, keyboard-ready metadata, and alternate versions for accessible publishing.
+
+Category 21: Aspect Ratios, Reframing, and Platform Versioning
+
+10 specialized capabilities for aspect ratios, reframing, and platform versioning.
+
+1. Skill Name: Smart Reframing Specialist
+Description: Tracks important subjects and recomposes footage for vertical, square, widescreen, cinema, and custom frames.
+
+2. Skill Name: Safe-Area and Overlay Planner
+Description: Protects faces, captions, logos, controls, and calls to action from platform interfaces, crops, and device cutouts.
+
+3. Skill Name: Versioning Producer
+Description: Creates controlled variants by duration, language, market, product, offer, presenter, date, and platform from approved sources.
+
+4. Skill Name: Cutdown Editor
+Description: Reduces long videos into shorter versions while retaining the central message, proof, continuity, and required legal content.
+
+5. Skill Name: Loop and Autoplay Optimizer
+Description: Creates seamless openings and endings, silent-first clarity, early branding, and motion suited to autoplay contexts.
+
+6. Skill Name: Thumbnail and Poster Frame Selector
+Description: Finds or builds clear, high-contrast representative frames that match the actual content and remain legible at small size.
+
+7. Skill Name: Platform Upload Package Builder
+Description: Prepares correctly named masters, captions, thumbnails, titles, descriptions, chapters, metadata, and supporting assets.
+
+8. Skill Name: Mobile Viewing Optimizer
+Description: Checks small-screen text, subject scale, contrast, audio intelligibility, data rate, and vertical composition.
+
+9. Skill Name: Large Screen and Projection Optimizer
+Description: Checks resolution, viewing distance, brightness, black levels, frame rate, seams, overscan, and multi-screen synchronization.
+
+10. Skill Name: Cross-Platform Consistency Reviewer
+Description: Confirms that every version retains approved message, identity, color, audio, captions, disclosures, and timing intent.
+
+Category 22: Encoding, Mastering, and Delivery
+
+10 specialized capabilities for encoding, mastering, and delivery.
+
+1. Skill Name: Codec and Container Specialist
+Description: Chooses suitable mezzanine, distribution, archive, alpha, image sequence, and audio formats based on quality and compatibility.
+
+2. Skill Name: Master Export Builder
+Description: Creates clean final masters with correct frame size, frame rate, color, bit depth, audio channels, timecode, and metadata.
+
+3. Skill Name: Streaming Encode Optimizer
+Description: Balances codec, bitrate, resolution, frame rate, keyframes, segmenting, quality, and device playback for online delivery.
+
+4. Skill Name: Broadcast Delivery Specialist
+Description: Prepares legal-range video, required audio layouts, captions, timecode, slates, bars, tones, and network-specific packages.
+
+5. Skill Name: Cinema Package Specialist
+Description: Prepares screening masters, image or sound packages, subtitles, frame rates, color targets, and quality checks for theatrical use.
+
+6. Skill Name: Alpha and Transparency Export Specialist
+Description: Creates correct premultiplied or straight-alpha deliverables, mattes, image sequences, and edge-safe assets.
+
+7. Skill Name: Image Sequence Manager
+Description: Handles frame numbering, missing frames, channels, compression, color metadata, storage, and reliable sequence reconstruction.
+
+8. Skill Name: Audio Stem and Mix Exporter
+Description: Creates full mix, dialogue, music, effects, M&E, narration, and alternate-language stems with matching duration and sync.
+
+9. Skill Name: Delivery Manifest Builder
+Description: Records every file, version, specification, checksum, approval, dependency, caption, audio layout, and known constraint.
+
+10. Skill Name: Playback Compatibility Tester
+Description: Tests masters in representative players, browsers, devices, displays, and platforms for decoding, sync, color, audio, and caption behavior.
+
+Category 23: Quality Assurance, Review, Rights, and Safety
+
+10 specialized capabilities for quality assurance, review, rights, and safety.
+
+1. Skill Name: Frame-Level Video QA Reviewer
+Description: Finds black frames, missing media, bad cuts, flash frames, frozen sections, dropped frames, corrupt images, and visible edit mistakes.
+
+2. Skill Name: Audio QA Reviewer
+Description: Detects clipping, silence, noise, abrupt cuts, sync errors, channel problems, phase issues, loudness inconsistency, and missing stems.
+
+3. Skill Name: Visual Artifact Detector
+Description: Finds flicker, warping, halos, matte chatter, tracking drift, unstable textures, interpolation errors, banding, and compression damage.
+
+4. Skill Name: Continuity and Accuracy Reviewer
+Description: Checks visual continuity, spoken facts, labels, dates, names, numbers, demonstrations, graphics, and source correspondence.
+
+5. Skill Name: Brand Compliance Reviewer
+Description: Checks logos, colors, typography, voice, claims, safe areas, legal lines, product appearance, and approved templates.
+
+6. Skill Name: Rights and License Checker
+Description: Tracks video, image, music, SFX, font, logo, likeness, location, archive, stock, and generated-media permissions.
+
+7. Skill Name: Privacy and Sensitive Information Editor
+Description: Detects and removes or obscures faces when required, documents, addresses, screens, plates, account details, and confidential material.
+
+8. Skill Name: Content Authenticity and Disclosure Reviewer
+Description: Checks that reenactments, composites, generated media, restored footage, and altered statements are labeled when context requires.
+
+9. Skill Name: Automated Render Regression Tester
+Description: Compares current outputs with approved references to detect unintended changes in picture, timing, audio, captions, and metadata.
+
+10. Skill Name: Final Approval and Handoff Coordinator
+Description: Routes the correct version to reviewers, records decisions, resolves conflicting notes, confirms sign-off, and prevents unapproved delivery.
+
+Category 24: Pipeline, Automation, Collaboration, and Recovery
+
+10 specialized capabilities for pipeline, automation, collaboration, and recovery.
+
+1. Skill Name: Video Pipeline Architect
+Description: Defines project structure, naming, media flow, color, audio, graphics, VFX, review, versioning, export, and archival interfaces.
+
+2. Skill Name: Nonlinear Editor Automation Engineer
+Description: Builds scripts, panels, macros, templates, and batch actions for repetitive editing, sequence, marker, caption, and export work.
+
+3. Skill Name: Render Queue Orchestrator
+Description: Schedules previews and finals, manages dependencies, priorities, retries, machines, costs, logs, and failed ranges.
+
+4. Skill Name: Asset Dependency Resolver
+Description: Finds missing media, fonts, plugins, LUTs, effects, linked graphics, caches, and version conflicts before render or handoff.
+
+5. Skill Name: Collaborative Review Manager
+Description: Creates review links, frame-accurate notes, assignments, statuses, comparisons, and approval history without mixing versions.
+
+6. Skill Name: Project Consolidation and Relink Specialist
+Description: Collects only required media, preserves handles and metadata, verifies relinking, and prepares portable project packages.
+
+7. Skill Name: Batch Variant Generator
+Description: Produces multiple sizes, lengths, languages, captions, thumbnails, slates, and destinations from a controlled master configuration.
+
+8. Skill Name: Pipeline Health Monitor
+Description: Detects heavy timelines, broken links, mismatched settings, unavailable effects, corrupt caches, storage pressure, and render instability.
+
+9. Skill Name: Crash and Corruption Recovery Specialist
+Description: Restores autosaves, backups, project databases, sequence versions, caches, and media links while preserving the latest valid work.
+
+10. Skill Name: Archive and Reconstruction Manager
+Description: Stores sources, projects, fonts, licenses, masters, checksums, documentation, and restore instructions for future reopening.
+
+Category 25: Advanced Autonomous Video Systems
+
+10 specialized capabilities for advanced autonomous video systems.
+
+1. Skill Name: Prompt-to-Video Production Planner
+Description: Expands a short request into assumptions, script, asset plan, shots, edit structure, graphics, audio, effects, quality gates, and delivery versions.
+
+2. Skill Name: Multimodal Material Interpreter
+Description: Understands supplied video, audio, images, PNGs, documents, scripts, brand assets, and references, then maps each item to production use.
+
+3. Skill Name: Automatic Selects and Highlight Finder
+Description: Finds strong statements, actions, reactions, demonstrations, visual moments, and audio peaks while retaining source context.
+
+4. Skill Name: Autonomous Rough Cut Builder
+Description: Creates a reviewable first cut from goals and available materials, exposes assumptions, and preserves links to every source segment.
+
+5. Skill Name: Video Capability Router
+Description: Chooses among editing, animation, VFX, compositing, generation, restoration, graphics, audio, or capture methods for each requirement.
+
+6. Skill Name: Video Repair Agent
+Description: Diagnoses a defect at the earliest responsible layer, protects passing work, repairs the smallest affected component, and reruns linked checks.
+
+7. Skill Name: Creative Variant Explorer
+Description: Produces meaningfully different hooks, structures, shot choices, pacing, visual styles, transitions, graphics, music, and endings without losing requirements.
+
+8. Skill Name: Adaptive Quality and Compute Manager
+Description: Selects proxy, preview, and final settings according to shot complexity, deadline, hardware, cost, and approval stage.
+
+9. Skill Name: Human Review and Approval Coordinator
+Description: Presents the right questions and versions to reviewers, records decisions, resolves stale notes, and protects locked elements.
+
+10. Skill Name: End-to-End Video Production Orchestrator
+Description: Coordinates all specialist skills from brief and materials through final masters, validates joins, handles recovery, and delivers a clean editable package.
+
+Implementation Priority Blueprint
+
+A practical build order that reduces rework and creates useful end-to-end capability early:
+
+Phase 1: Reliable Foundation
+Ingest, organization, scripts, shot planning, basic editing, audio sync, captions, exports, versioning, and quality checks.
+
+Phase 2: Professional Finishing
+Motion graphics, transitions, color, dialogue repair, music, SFX, compositing, reframing, mastering, and platform versions.
+
+Phase 3: Advanced Creation
+Animation, VFX, tracking, keying, restoration, generative video, specialized genres, and high-complexity effects.
+
+Phase 4: Scale and Safety
+Automation, collaboration, rights, privacy, accessibility, localization, regression checks, delivery manifests, and archival.
+
+Phase 5: Autonomous Production
+Multimodal interpretation, selects, rough cuts, capability routing, repair agents, adaptive compute, approvals, and full orchestration.
+
+Catalog Completion Note
+
+The catalog covers planning through archival for original creation, supplied-material editing, image and PNG integration, text and graphics, transitions, animation, VFX, music, sound effects, voice, restoration, generated video, localization, accessibility, platform delivery, automation, and recovery. Add future variants only when they require meaningfully different inputs, controls, outputs, or validation methods.

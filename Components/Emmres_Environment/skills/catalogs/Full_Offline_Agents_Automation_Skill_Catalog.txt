@@ -1,0 +1,1915 @@
+FULL OFFLINE AGENTS
+AND AUTOMATION
+Comprehensive Skill Catalog
+
+A capability blueprint for air-gapped local agents, model serving, retrieval, memory, workflows, automation, security, evaluation, observability, recovery, and reproducible operations.
+
+Catalog edition: November 2026
+
+Purpose and Scope
+
+This document is a planning catalog for future reusable skills. It does not implement the listed skills. Each entry is designed so a stronger agent can later convert it into a standalone skill or a coordinated module. The target environment is fully offline or air-gapped, with local model weights, explicit permissions, durable state, deterministic validation, strong recovery, and auditable handoff.
+
+Design Principles for Future Skill Builders
+
+- Default to local execution, least privilege, network denial, explicit data scope, and reversible actions.
+
+- Treat prompts, models, tools, schemas, policies, workflows, datasets, and infrastructure as versioned production dependencies.
+
+- Use durable state, idempotency, checkpoints, and compensation for any long-running or consequential workflow.
+
+- Require evidence-grounded answers, explicit abstention, deterministic validation, and human approval where consequences are material.
+
+- Use security scanning and isolation before untrusted content, code, packages, models, or artifacts reach privileged tools.
+
+- Test normal, boundary, adversarial, failure, recovery, privacy, permission, and clean-state conditions.
+
+- Block release when critical authorization, grounding, safety, recovery, audit, or package-completeness checks fail.
+
+Catalog Summary
+
+32 categories • 450 proposed skills • full offline agent and automation coverage
+
+The catalog includes every requested capability and expands into serving, multimodal systems, durable orchestration, action safety, privacy, operations, disaster recovery, training, and catalog governance.
+
+1. Offline Installation and Environment Reproduction
+
+1. Skill Name: Air-Gapped Agent Stack Installer
+
+  Description: Packages model runtimes, Python wheels, system libraries, databases, workflow services, sandbox tools, documentation, checksums, and valid offline licenses.
+
+2. Skill Name: Offline Model and Package Repository Builder
+
+  Description: Creates a local immutable repository for model weights, tokenizers, adapters, containers, wheels, binaries, and signed manifests.
+
+3. Skill Name: Clean-State Agent Installation Tester
+
+  Description: Installs the complete stack in a fresh operating-system profile or virtual machine and executes a reference agent workflow.
+
+4. Skill Name: Offline-Only Acceptance Tester
+
+  Description: Disables all network interfaces and verifies inference, retrieval, tool execution, memory, scheduling, observability, and recovery.
+
+5. Skill Name: Dependency Lockfile Manager
+
+  Description: Pins operating-system packages, Python dependencies, runtime libraries, database versions, model revisions, and tool binaries.
+
+6. Skill Name: Portable Runtime Packager
+
+  Description: Builds relocatable launch scripts, environment variables, configuration files, certificates, and approved dependencies.
+
+7. Skill Name: Multi-OS Deployment Planner
+
+  Description: Maps Windows, Linux, and macOS runtime differences, paths, permissions, GPU backends, services, and limitations.
+
+8. Skill Name: Update Staging and Rollback Manager
+
+  Description: Tests model, runtime, driver, database, workflow, and security updates against reference cases before promotion.
+
+9. Skill Name: Environment Baseline Recorder
+
+  Description: Captures hardware, drivers, runtimes, models, prompts, tools, schemas, policies, and service configurations.
+
+10. Skill Name: Offline License Activation Planner
+
+  Description: Documents permitted offline activation, local license servers, borrowed seats, expirations, and emergency fallback.
+
+11. Skill Name: Installation Integrity Verifier
+
+  Description: Validates hashes, signatures, package inventory, executable permissions, model shards, and configuration completeness.
+
+12. Skill Name: Unattended Provisioning Builder
+
+  Description: Creates deterministic scripts for repeatable installation, initialization, migration, smoke testing, and rollback.
+
+13. Skill Name: Golden Image Builder
+
+  Description: Creates a hardened reusable workstation or server image with the passing stack and no transient secrets.
+
+14. Skill Name: Environment Drift Detector
+
+  Description: Compares a running host with the approved baseline and reports changed packages, policies, models, drivers, and services.
+
+2. Local Language Models and Inference
+
+1. Skill Name: Local LLM Runtime Manager
+
+  Description: Configures llama.cpp, vLLM, Ollama, TensorRT-LLM, MLX, or equivalent local serving with explicit model and hardware settings.
+
+2. Skill Name: Model Weight Registry
+
+  Description: Indexes local base models, instruct models, reasoning models, adapters, quantizations, licenses, hashes, and compatibility.
+
+3. Skill Name: Model Format Converter
+
+  Description: Converts supported checkpoints among safetensors, GGUF, ONNX, TensorRT, MLX, or runtime-native formats with parity tests.
+
+4. Skill Name: Model Quantization Planner
+
+  Description: Selects FP16, BF16, FP8, INT8, INT4, GPTQ, AWQ, GGUF, or supported quantization from quality and memory constraints.
+
+5. Skill Name: Context Window Budgeter
+
+  Description: Allocates tokens among instructions, retrieved evidence, tool results, history, memory, and output with overflow handling.
+
+6. Skill Name: Prompt Cache Manager
+
+  Description: Creates and invalidates reusable prefix or KV caches without mixing users, permissions, model versions, or policies.
+
+7. Skill Name: Batch Inference Scheduler
+
+  Description: Groups compatible requests by model, sequence length, priority, deadline, and memory while preserving isolation.
+
+8. Skill Name: Speculative Decoding Configurator
+
+  Description: Pairs draft and target models, measures acceptance, and disables speculation when quality or latency regresses.
+
+9. Skill Name: Model Routing Engine
+
+  Description: Selects a local model by task, language, modality, context, latency, memory, quality evidence, and tool requirements.
+
+10. Skill Name: Inference Parameter Registry
+
+  Description: Versions temperature, top-p, top-k, penalties, seeds, stop rules, grammar constraints, and maximum tokens.
+
+11. Skill Name: Structured Generation Enforcer
+
+  Description: Uses JSON Schema, grammars, constrained decoding, validation, and repair limits to produce machine-consumable output.
+
+12. Skill Name: Long-Context Reliability Tester
+
+  Description: Measures retrieval position, instruction retention, distractor resistance, citation accuracy, and degradation by context length.
+
+13. Skill Name: Model Warmup and Residency Manager
+
+  Description: Preloads models, manages idle eviction, monitors fragmentation, and prevents latency spikes from uncontrolled reloads.
+
+14. Skill Name: Inference Regression Tester
+
+  Description: Runs fixed prompts and tool traces after changes and compares correctness, latency, memory, format, and refusal behavior.
+
+3. Embeddings, Reranking, and Semantic Indexing
+
+1. Skill Name: Local Embedding Runtime Manager
+
+  Description: Serves local text, code, image, or multimodal embedding models with pinned preprocessing and dimensions.
+
+2. Skill Name: Embedding Model Registry
+
+  Description: Records model, revision, tokenizer, pooling, normalization, dimensions, language coverage, license, and evaluation results.
+
+3. Skill Name: Document Chunking Strategist
+
+  Description: Selects semantic, structural, sentence, token, code-aware, table-aware, or sliding-window chunking by source type.
+
+4. Skill Name: Chunk Boundary Validator
+
+  Description: Checks broken headings, split tables, orphaned captions, truncated code, duplicated overlap, and missing source identifiers.
+
+5. Skill Name: Embedding Corpus Builder
+
+  Description: Extracts, normalizes, chunks, embeds, and indexes approved local documents with deterministic IDs and provenance.
+
+6. Skill Name: Local Reranker Runtime Manager
+
+  Description: Serves cross-encoder or late-interaction rerankers locally and manages candidate count, batching, and latency.
+
+7. Skill Name: Hybrid Retrieval Builder
+
+  Description: Combines BM25, dense vectors, metadata filters, graph links, and reranking with calibrated score fusion.
+
+8. Skill Name: Retrieval Threshold Calibrator
+
+  Description: Sets similarity, rank, abstention, and fallback thresholds using labeled relevant and irrelevant examples.
+
+9. Skill Name: Embedding Drift Detector
+
+  Description: Compares neighborhood, recall, score distributions, and downstream answers after model or preprocessing changes.
+
+10. Skill Name: Multilingual Retrieval Optimizer
+
+  Description: Tests cross-language queries, transliteration, language-specific chunking, and reranking across approved languages.
+
+11. Skill Name: Code Retrieval Indexer
+
+  Description: Indexes symbols, files, call graphs, comments, tests, errors, and repository structure using code-aware embeddings.
+
+12. Skill Name: Image and Diagram Retrieval Indexer
+
+  Description: Indexes local images, screenshots, figures, OCR text, captions, and multimodal embeddings with rights metadata.
+
+13. Skill Name: Semantic Deduplication Operator
+
+  Description: Clusters near-duplicate chunks or files while preserving canonical sources, versions, and materially different clauses.
+
+14. Skill Name: Retrieval Evaluation Runner
+
+  Description: Measures recall@k, precision@k, MRR, nDCG, answer support, latency, and abstention on labeled queries.
+
+4. Vision, Speech, and Multimodal Models
+
+1. Skill Name: Local Vision-Language Runtime Manager
+
+  Description: Serves local VLMs with pinned image preprocessing, resolution, tiling, context, quantization, and device settings.
+
+2. Skill Name: Image Understanding Router
+
+  Description: Selects OCR, object detection, segmentation, captioning, document vision, chart reading, or general VLM analysis.
+
+3. Skill Name: Offline OCR Pipeline Builder
+
+  Description: Runs local OCR with orientation, layout, language, confidence, table, handwriting, and reading-order handling.
+
+4. Skill Name: Visual Grounding Validator
+
+  Description: Checks that object, region, text, count, and spatial claims are tied to visible evidence or bounding regions.
+
+5. Skill Name: Local Speech Recognition Manager
+
+  Description: Serves Whisper or equivalent offline ASR with language, diarization, timestamps, vocabulary, and hardware settings.
+
+6. Skill Name: Speech Diarization Operator
+
+  Description: Separates local speakers, handles overlap, merges segments, and exposes confidence without inferring identity.
+
+7. Skill Name: Speech Timestamp Aligner
+
+  Description: Creates word or phoneme timing and validates drift against the original waveform.
+
+8. Skill Name: Local Text-to-Speech Manager
+
+  Description: Serves authorized offline neural voices with pronunciation, pace, style, consent, and provenance controls.
+
+9. Skill Name: Audio Event Classifier
+
+  Description: Detects approved sound classes, silence, clipping, alarms, music, speech, and environmental events locally.
+
+10. Skill Name: Multimodal Input Normalizer
+
+  Description: Converts images, audio, video, PDFs, and office files into stable local representations with metadata and checksums.
+
+11. Skill Name: Cross-Modal Evidence Joiner
+
+  Description: Links transcript segments, video frames, document pages, image regions, and timestamps into one evidence graph.
+
+12. Skill Name: Multimodal Safety Filter
+
+  Description: Screens images, audio, video, and extracted text before models or tools consume them.
+
+13. Skill Name: Modality Fallback Manager
+
+  Description: Routes to OCR, ASR, deterministic parsers, or human review when a general multimodal model is unreliable.
+
+14. Skill Name: Multimodal Regression Suite
+
+  Description: Tests image, audio, document, and mixed-input tasks after model, codec, or preprocessing changes.
+
+5. Model Serving, Capacity, and Hardware Control
+
+1. Skill Name: Model Serving Gateway
+
+  Description: Exposes stable local APIs for chat, completion, embeddings, reranking, vision, speech, and structured generation.
+
+2. Skill Name: GPU Backend Router
+
+  Description: Selects CUDA, ROCm, DirectML, Metal, oneAPI, CPU, or supported acceleration and verifies actual device use.
+
+3. Skill Name: VRAM Admission Controller
+
+  Description: Estimates model, KV cache, batch, adapter, and multimodal memory before accepting or queueing a request.
+
+4. Skill Name: RAM and Swap Guard
+
+  Description: Limits host memory use, detects pressure, prevents destructive swapping, and applies controlled model eviction.
+
+5. Skill Name: Concurrency Limit Manager
+
+  Description: Sets per-model, per-user, per-workflow, and global request limits with queues and backpressure.
+
+6. Skill Name: Latency Service-Level Monitor
+
+  Description: Tracks queue, preprocessing, first-token, generation, tool, retrieval, and end-to-end latency against local objectives.
+
+7. Skill Name: Throughput Benchmark Runner
+
+  Description: Measures tokens per second, requests per second, batch efficiency, GPU utilization, and tail latency.
+
+8. Skill Name: Model Replica Coordinator
+
+  Description: Starts, health-checks, drains, replaces, and balances local model replicas without dropping durable work.
+
+9. Skill Name: Graceful Degradation Manager
+
+  Description: Falls back to smaller models, reduced context, lower resolution, delayed jobs, or human review under resource pressure.
+
+10. Skill Name: Hardware Failure Detector
+
+  Description: Identifies GPU resets, ECC errors, thermal throttling, disk faults, out-of-memory events, and driver failures.
+
+11. Skill Name: Energy and Thermal Budget Manager
+
+  Description: Caps device power, concurrency, and job duration to protect workstation stability and thermal limits.
+
+12. Skill Name: Serving Health Check Builder
+
+  Description: Tests model load, tokenizer parity, deterministic probes, structured output, tool schema, and representative inference.
+
+13. Skill Name: Capacity Forecast Planner
+
+  Description: Projects storage, RAM, VRAM, compute, queue time, and growth from users, workflows, models, and context sizes.
+
+14. Skill Name: Inference Resource Accounting
+
+  Description: Records actual CPU, GPU, memory, storage, and wall time by model, agent, workflow, user, and job.
+
+6. Agent Runtime and State Machines
+
+1. Skill Name: Agent Runtime Architect
+
+  Description: Defines the perceive, plan, act, observe, verify, persist, and terminate states with explicit transition rules.
+
+2. Skill Name: Agent State Persistence Manager
+
+  Description: Stores durable task, step, tool, memory, approval, artifact, and error state for restartable execution.
+
+3. Skill Name: Finite-State Workflow Builder
+
+  Description: Implements deterministic states and guards where unrestricted model planning would be unsafe or hard to recover.
+
+4. Skill Name: Plan Compiler
+
+  Description: Converts accepted model plans into typed executable steps with dependencies, inputs, outputs, permissions, and checks.
+
+5. Skill Name: Step Result Validator
+
+  Description: Validates schema, meaning, artifact existence, side effects, and expected state before advancing.
+
+6. Skill Name: Agent Termination Controller
+
+  Description: Stops on success, refusal, cancellation, deadline, budget, repeated failure, unsafe state, or unresolved human decision.
+
+7. Skill Name: Checkpoint and Resume Manager
+
+  Description: Creates consistent checkpoints and resumes from the last verified step rather than repeating completed side effects.
+
+8. Skill Name: Idempotency Key Manager
+
+  Description: Prevents duplicate sends, writes, purchases, deployments, or mutations during retries and restarts.
+
+9. Skill Name: Side-Effect Ledger
+
+  Description: Records intended, attempted, confirmed, reversed, and uncertain changes made by tools or external processes.
+
+10. Skill Name: Agent Loop Detector
+
+  Description: Detects repeated plans, tool calls, observations, or unchanged failures and forces alternate handling or escalation.
+
+11. Skill Name: State Migration Manager
+
+  Description: Upgrades persisted agent state across schema, prompt, tool, and workflow versions with rollback.
+
+12. Skill Name: Task Cancellation Coordinator
+
+  Description: Propagates cancellation to queued, running, child, and external jobs while preserving audit and recoverable state.
+
+13. Skill Name: Agent Session Isolation Manager
+
+  Description: Separates users, projects, permissions, memory, files, tools, and model contexts.
+
+14. Skill Name: Deterministic Replay Runner
+
+  Description: Replays recorded model outputs or fixed stubs to test workflow logic and side effects without nondeterministic inference.
+
+7. Tool Registry, Schemas, and Execution Adapters
+
+1. Skill Name: Tool Schema Registry
+
+  Description: Versions tool names, descriptions, JSON Schemas, permissions, side effects, timeouts, costs, and deprecation state.
+
+2. Skill Name: Tool Adapter Builder
+
+  Description: Wraps local CLI, Python, database, filesystem, application, or service operations behind typed inputs and outputs.
+
+3. Skill Name: Tool Capability Router
+
+  Description: Selects the smallest capable tool by task, permissions, data locality, format fidelity, reliability, and cost.
+
+4. Skill Name: Tool Input Validator
+
+  Description: Rejects malformed, ambiguous, out-of-range, unauthorized, or dangerous arguments before execution.
+
+5. Skill Name: Tool Output Normalizer
+
+  Description: Converts stdout, files, tables, images, errors, and metadata into stable result envelopes.
+
+6. Skill Name: Tool Side-Effect Classifier
+
+  Description: Labels read-only, reversible, destructive, external, privileged, costly, and approval-required operations.
+
+7. Skill Name: Tool Timeout and Cancellation Manager
+
+  Description: Sets soft and hard deadlines, kills child processes safely, and preserves partial diagnostics.
+
+8. Skill Name: Tool Version Compatibility Checker
+
+  Description: Tests adapters against exact tool versions, flags changed flags or schemas, and maintains migration notes.
+
+9. Skill Name: Tool Mock and Stub Generator
+
+  Description: Creates deterministic substitutes for testing workflow logic without real side effects or unavailable systems.
+
+10. Skill Name: Tool Contract Test Runner
+
+  Description: Verifies schemas, exit codes, artifacts, side effects, errors, idempotency, timeouts, and cleanup.
+
+11. Skill Name: Tool Deprecation Manager
+
+  Description: Marks replacements, warns callers, blocks unsafe old versions, and tracks removal deadlines.
+
+12. Skill Name: Tool Documentation Generator
+
+  Description: Creates concise usage, examples, permissions, failure modes, rollback, and validation guidance from the registry.
+
+13. Skill Name: Tool Result Provenance Recorder
+
+  Description: Links every result to tool version, arguments, input hashes, runtime, host, permissions, and produced artifacts.
+
+14. Skill Name: Tool Availability Health Monitor
+
+  Description: Periodically tests launch, permissions, dependencies, disk access, database access, and representative operations.
+
+8. Sandboxing and Code Execution
+
+1. Skill Name: Tool Execution Sandbox
+
+  Description: Runs untrusted or generated code in isolated containers, virtual machines, or restricted processes with explicit mounts and limits.
+
+2. Skill Name: Filesystem Sandbox Policy Manager
+
+  Description: Exposes only approved read and write paths and blocks traversal, symlink escape, device access, and hidden mounts.
+
+3. Skill Name: Process Isolation Controller
+
+  Description: Limits users, namespaces, capabilities, system calls, child processes, signals, and process lifetime.
+
+4. Skill Name: Network Isolation Controller
+
+  Description: Blocks network access by default and allows only explicit destinations, protocols, ports, and time windows when authorized.
+
+5. Skill Name: Resource Quota Enforcer
+
+  Description: Limits CPU, GPU, RAM, process count, disk, file size, runtime, and output volume per execution.
+
+6. Skill Name: Generated Code Static Analyzer
+
+  Description: Scans syntax, imports, dangerous APIs, obfuscation, secrets, injection, and suspicious persistence before execution.
+
+7. Skill Name: Generated Code Dynamic Monitor
+
+  Description: Observes file, process, network, registry, environment, and system-call behavior during execution.
+
+8. Skill Name: Package Installation Gate
+
+  Description: Allows only approved local packages with pinned hashes, licenses, vulnerability status, and sandbox-compatible dependencies.
+
+9. Skill Name: Ephemeral Workspace Manager
+
+  Description: Creates isolated working directories, copies approved inputs, collects declared outputs, and destroys residual state.
+
+10. Skill Name: Sandbox Escape Probe Suite
+
+  Description: Tests path traversal, privilege escalation, container escape, socket access, device access, and unsafe mounts.
+
+11. Skill Name: Code Execution Result Validator
+
+  Description: Checks exit status, expected files, schemas, tests, side effects, logs, and cleanup before accepting output.
+
+12. Skill Name: Executable Allowlist Manager
+
+  Description: Permits only approved binaries, interpreters, libraries, and arguments for restricted workflows.
+
+13. Skill Name: Artifact Quarantine Manager
+
+  Description: Isolates executable, macro-enabled, archive, model, and unknown outputs until security and format checks pass.
+
+14. Skill Name: Reproducible Execution Recorder
+
+  Description: Stores code, dependencies, environment, command, limits, inputs, outputs, hashes, and test results.
+
+9. Permission, Identity, and Policy Enforcement
+
+1. Skill Name: Role-Based Access Controller
+
+  Description: Maps users, agents, services, projects, and tools to roles and least-privilege permissions.
+
+2. Skill Name: Attribute-Based Policy Engine
+
+  Description: Evaluates user, data, project, location, time, risk, tool, and action attributes before authorization.
+
+3. Skill Name: Capability Token Manager
+
+  Description: Issues scoped, short-lived, nontransferable permissions for specific tools, resources, actions, and jobs.
+
+4. Skill Name: Privilege Elevation Workflow
+
+  Description: Requires explicit reason, approval, duration, scope, and post-use review for elevated operations.
+
+5. Skill Name: Permission Inheritance Auditor
+
+  Description: Detects accidental access caused by groups, nested roles, shared folders, service accounts, or default policies.
+
+6. Skill Name: Agent Impersonation Guard
+
+  Description: Prevents an agent from claiming another user, service, authority, approval, or identity.
+
+7. Skill Name: Data Classification Policy Enforcer
+
+  Description: Applies public, internal, confidential, restricted, licensed, and personal-data handling rules.
+
+8. Skill Name: Purpose Limitation Gate
+
+  Description: Allows sensitive data and tools only for the approved task purpose and blocks unrelated reuse.
+
+9. Skill Name: Policy Decision Logger
+
+  Description: Records policy inputs, rule version, decision, reason, obligations, and enforcement outcome.
+
+10. Skill Name: Confused Deputy Defense
+
+  Description: Checks that tool authority matches the requesting principal and that retrieved content cannot grant permissions.
+
+11. Skill Name: Cross-Tenant Isolation Tester
+
+  Description: Tests that users, projects, memory, vectors, files, logs, and caches cannot leak across isolation boundaries.
+
+12. Skill Name: Permission Regression Suite
+
+  Description: Replays allow and deny cases after policy, role, workflow, or tool changes.
+
+13. Skill Name: Emergency Access Manager
+
+  Description: Provides controlled break-glass access with strong authentication, narrow scope, expiry, audit, and review.
+
+14. Skill Name: Policy Version Registry
+
+  Description: Versions authorization and safety policies and binds every decision to the exact active revision.
+
+10. Secrets, Keys, and Cryptographic Material
+
+1. Skill Name: Offline Secret Vault Manager
+
+  Description: Stores passwords, tokens, certificates, license keys, and encryption keys using local encryption and access controls.
+
+2. Skill Name: Secret Injection Controller
+
+  Description: Provides secrets to approved processes through short-lived files, handles, or environment channels without exposing them to prompts.
+
+3. Skill Name: Secret Rotation Manager
+
+  Description: Rotates credentials, updates dependents, validates access, and revokes old material without losing durable jobs.
+
+4. Skill Name: Secret Scope Minimizer
+
+  Description: Creates separate credentials by tool, environment, project, user, and action with only needed permissions.
+
+5. Skill Name: Prompt and Log Secret Redactor
+
+  Description: Detects and masks credentials, private keys, tokens, connection strings, and sensitive configuration before persistence.
+
+6. Skill Name: Secret Leak Scanner
+
+  Description: Searches files, repositories, model context, tool outputs, archives, and generated artifacts for exposed secrets.
+
+7. Skill Name: Certificate Lifecycle Manager
+
+  Description: Tracks issuance, trust roots, expiry, revocation, offline renewal, and service restart requirements.
+
+8. Skill Name: Encryption Key Custodian
+
+  Description: Manages key generation, wrapping, backup, recovery, rotation, separation of duties, and destruction.
+
+9. Skill Name: Local TLS Configurator
+
+  Description: Enables authenticated encryption among local services and validates certificates, ciphers, hostnames, and expiry.
+
+10. Skill Name: Secret Access Audit
+
+  Description: Records principal, secret identifier, purpose, tool, time, outcome, and policy without recording the secret value.
+
+11. Skill Name: Break-Glass Secret Recovery
+
+  Description: Restores access through approved recovery shares, dual control, audit, and immediate rotation.
+
+12. Skill Name: Secret Material Destruction Operator
+
+  Description: Securely removes retired secrets from active stores, backups where policy permits, caches, logs, and temporary files.
+
+11. Durable Memory and Knowledge Stores
+
+1. Skill Name: Durable Memory Database Architect
+
+  Description: Defines schemas for facts, preferences, decisions, tasks, episodes, artifacts, provenance, confidence, scope, and expiry.
+
+2. Skill Name: Memory Write Gate
+
+  Description: Accepts only validated, useful, scoped, nontransient information and rejects guesses, duplicates, secrets, and unsupported claims.
+
+3. Skill Name: Memory Retrieval Router
+
+  Description: Selects semantic, keyword, structured, temporal, graph, or exact lookup based on the query and memory type.
+
+4. Skill Name: Memory Scope Manager
+
+  Description: Separates user, team, project, agent, workflow, session, and global memory with explicit visibility.
+
+5. Skill Name: Memory Conflict Resolver
+
+  Description: Resolves contradictions using source authority, scope, specificity, recency, evidence, and human decisions.
+
+6. Skill Name: Memory Consolidation Operator
+
+  Description: Merges repeated episodes into durable rules while preserving exceptions, provenance, and supporting examples.
+
+7. Skill Name: Memory Expiry and Retention Manager
+
+  Description: Applies time-to-live, legal hold, retention, archival, and deletion policies by memory class.
+
+8. Skill Name: Memory Correction Workflow
+
+  Description: Updates or retracts bad memory, records the reason, invalidates dependent indexes, and prevents resurrection.
+
+9. Skill Name: Memory Privacy Filter
+
+  Description: Detects personal, confidential, licensed, and secret material before storage and applies minimization or approval.
+
+10. Skill Name: Memory Provenance Recorder
+
+  Description: Links every memory item to source, author, timestamp, extraction method, evidence, and confidence.
+
+11. Skill Name: Memory Quality Evaluator
+
+  Description: Tests precision, recall, conflict handling, stale retrieval, privacy, leakage, and usefulness on labeled cases.
+
+12. Skill Name: Memory Backup and Restore Manager
+
+  Description: Creates consistent snapshots, validates restoration, and rebuilds vector or search indexes.
+
+13. Skill Name: Memory Migration Manager
+
+  Description: Upgrades schemas and embeddings while preserving identifiers, provenance, permissions, and rollback.
+
+14. Skill Name: Memory Deletion Verifier
+
+  Description: Confirms removal from primary tables, vectors, caches, replicas, exports, and derived summaries as policy requires.
+
+12. Vector, Search, Graph, and Metadata Databases
+
+1. Skill Name: Vector Database Architect
+
+  Description: Configures local Qdrant, Milvus, Weaviate, pgvector, FAISS, or equivalent storage with collections and isolation.
+
+2. Skill Name: Vector Index Tuner
+
+  Description: Selects HNSW, IVF, flat, product quantization, distance metric, parameters, and memory layout from recall and latency tests.
+
+3. Skill Name: Metadata Filter Designer
+
+  Description: Defines typed filters for project, source, date, version, permissions, language, document type, status, and retention.
+
+4. Skill Name: Keyword Search Indexer
+
+  Description: Builds local BM25 or full-text indexes with analyzers, stemming, stop words, fields, and access filters.
+
+5. Skill Name: Knowledge Graph Builder
+
+  Description: Extracts approved entities and relations, preserves source links, and avoids treating inferred edges as verified facts.
+
+6. Skill Name: Graph Query Planner
+
+  Description: Uses paths, neighborhoods, temporal edges, and constraints for dependency, provenance, ownership, and impact questions.
+
+7. Skill Name: Database Schema Registry
+
+  Description: Versions tables, indexes, constraints, migrations, views, retention, and compatibility requirements.
+
+8. Skill Name: Database Migration Runner
+
+  Description: Applies transactional migrations with backups, prechecks, postchecks, rollback, and version locks.
+
+9. Skill Name: Database Integrity Checker
+
+  Description: Checks constraints, orphan records, duplicate IDs, invalid vectors, missing provenance, permissions, and corruption.
+
+10. Skill Name: Index Rebuild Coordinator
+
+  Description: Rebuilds search, vector, graph, and metadata indexes from authoritative stores and verifies counts and sampled results.
+
+11. Skill Name: Database Backup Verifier
+
+  Description: Creates consistent backups, restores them into a clean instance, and runs functional queries.
+
+12. Skill Name: Query Performance Profiler
+
+  Description: Captures slow queries, plans, lock waits, cache behavior, index use, and resource consumption.
+
+13. Skill Name: Database Access Policy Enforcer
+
+  Description: Applies row, collection, tenant, project, and field-level controls before retrieval.
+
+14. Skill Name: Storage Compaction and Retention Manager
+
+  Description: Reclaims space and expires data without breaking identifiers, provenance, backups, or active jobs.
+
+13. Retrieval-Augmented Generation and Grounding
+
+1. Skill Name: RAG Pipeline Architect
+
+  Description: Defines ingestion, chunking, indexing, retrieval, reranking, context assembly, citation, answer, and abstention stages.
+
+2. Skill Name: Source Eligibility Filter
+
+  Description: Allows only approved, current, permission-compatible, nonquarantined sources into retrieval.
+
+3. Skill Name: Query Rewriter
+
+  Description: Creates constrained alternate queries, entity expansions, time filters, and vocabulary mappings without changing user intent.
+
+4. Skill Name: Retrieval Fusion Operator
+
+  Description: Combines keyword, vector, graph, metadata, and curated sources with calibrated reciprocal-rank or score fusion.
+
+5. Skill Name: Context Assembly Manager
+
+  Description: Orders evidence by relevance, authority, diversity, recency, and token budget while preserving source boundaries.
+
+6. Skill Name: Citation Anchor Builder
+
+  Description: Attaches answer claims to exact source, page, section, chunk, line, timestamp, or region identifiers.
+
+7. Skill Name: Claim-to-Evidence Validator
+
+  Description: Checks whether each factual claim is entailed, contradicted, unsupported, or only partially supported by retrieved evidence.
+
+8. Skill Name: Grounded Abstention Controller
+
+  Description: Returns a clear unknown, asks for missing input, or routes to human review when evidence does not support an answer.
+
+9. Skill Name: Conflicting Source Resolver
+
+  Description: Surfaces disagreement, authority, date, scope, and uncertainty instead of silently selecting a convenient source.
+
+10. Skill Name: RAG Prompt Injection Defender
+
+  Description: Treats retrieved content as data, strips active instructions, applies trust labels, and blocks permission escalation.
+
+11. Skill Name: Retrieval Leakage Tester
+
+  Description: Tests whether access filters, metadata, caches, and rerankers expose unauthorized chunks or document existence.
+
+12. Skill Name: RAG Evaluation Runner
+
+  Description: Measures retrieval recall, context precision, citation accuracy, answer faithfulness, completeness, latency, and abstention.
+
+13. Skill Name: RAG Regression Tester
+
+  Description: Replays labeled questions after index, embedding, reranker, prompt, or model changes.
+
+14. Skill Name: Evidence Package Exporter
+
+  Description: Produces an offline bundle of answer, claims, citations, retrieved excerpts, source identifiers, versions, and validation results.
+
+14. Workflow Engines and Durable Orchestration
+
+1. Skill Name: Workflow Engine Architect
+
+  Description: Defines durable steps, activities, events, timers, compensation, child workflows, signals, and deterministic replay.
+
+2. Skill Name: Workflow Definition Registry
+
+  Description: Versions workflow schemas, inputs, outputs, permissions, retries, timeouts, owners, and migration rules.
+
+3. Skill Name: DAG Workflow Builder
+
+  Description: Creates dependency graphs with fan-out, fan-in, conditional branches, artifacts, gates, and failure propagation.
+
+4. Skill Name: Long-Running Workflow Manager
+
+  Description: Supports hours-to-months execution with durable timers, resumable state, human waits, and service restarts.
+
+5. Skill Name: Compensation Workflow Builder
+
+  Description: Defines reverse or mitigating actions for completed side effects when later steps fail.
+
+6. Skill Name: Workflow Idempotency Auditor
+
+  Description: Tests duplicate events, retries, restarts, and race conditions against state and external side effects.
+
+7. Skill Name: Workflow Migration Manager
+
+  Description: Moves in-flight instances to compatible definitions or preserves old workers until completion.
+
+8. Skill Name: Workflow Cancellation Handler
+
+  Description: Stops safe future work, compensates where approved, and records unfinished or uncertain side effects.
+
+9. Skill Name: Workflow Input Contract Validator
+
+  Description: Checks schema, permissions, references, required artifacts, and version compatibility before start.
+
+10. Skill Name: Workflow Output Publisher
+
+  Description: Validates and records final artifacts, summaries, provenance, approvals, and downstream events.
+
+11. Skill Name: Workflow Replay Tester
+
+  Description: Replays histories under code changes and detects nondeterminism or incompatible behavior.
+
+12. Skill Name: Workflow Visualization Builder
+
+  Description: Creates offline state, dependency, timeline, error, and approval views for operators.
+
+13. Skill Name: Workflow Stuck-State Detector
+
+  Description: Finds missing events, dead workers, expired leases, unresolved approvals, and impossible transitions.
+
+14. Skill Name: Workflow Recovery Operator
+
+  Description: Resumes, retries, compensates, forks, or terminates instances from the last verified state.
+
+15. Scheduling, Queues, and Event Processing
+
+1. Skill Name: Job Scheduler
+
+  Description: Runs immediate, delayed, periodic, calendar, dependency, and resource-aware jobs with durable state.
+
+2. Skill Name: Priority Queue Manager
+
+  Description: Orders work by criticality, deadline, user tier, dependency, age, and fairness without starving low-priority jobs.
+
+3. Skill Name: Event Queue Architect
+
+  Description: Defines durable topics, partitions, ordering, retention, acknowledgement, redelivery, and dead-letter behavior.
+
+4. Skill Name: Event Schema Registry
+
+  Description: Versions event names, payloads, compatibility, ownership, privacy class, and consumer contracts.
+
+5. Skill Name: Event Deduplication Operator
+
+  Description: Uses stable event IDs and processing records to prevent repeated side effects.
+
+6. Skill Name: Dead-Letter Queue Manager
+
+  Description: Captures exhausted or malformed messages with diagnostics, replay controls, and quarantine.
+
+7. Skill Name: Backpressure Controller
+
+  Description: Slows producers, limits consumers, sheds optional work, and protects databases and model servers under load.
+
+8. Skill Name: Worker Lease Manager
+
+  Description: Assigns jobs with heartbeats, expiry, renewal, ownership transfer, and duplicate-execution protection.
+
+9. Skill Name: Cron and Calendar Validator
+
+  Description: Tests time zones, daylight-saving changes, month boundaries, holidays, missed runs, and clock drift.
+
+10. Skill Name: Job Dependency Resolver
+
+  Description: Starts jobs only when required artifacts, approvals, services, and upstream states are satisfied.
+
+11. Skill Name: Queue Fairness Auditor
+
+  Description: Measures starvation, head-of-line blocking, tenant imbalance, and priority inversion.
+
+12. Skill Name: Event Replay Operator
+
+  Description: Reprocesses bounded historical events safely with idempotency, destination isolation, and progress checkpoints.
+
+13. Skill Name: Clock and Time Synchronization Monitor
+
+  Description: Detects host drift that could corrupt leases, schedules, ordering, certificates, or audit timestamps.
+
+14. Skill Name: Scheduler Disaster Recovery Tester
+
+  Description: Restores jobs, timers, queues, leases, and dead letters after service or database loss.
+
+16. Retry, Recovery, and Fault Tolerance
+
+1. Skill Name: Retry Policy Designer
+
+  Description: Sets retryable errors, maximum attempts, exponential backoff, jitter, deadlines, and nonretryable conditions by operation.
+
+2. Skill Name: Failure Classifier
+
+  Description: Separates input, permission, policy, dependency, timeout, resource, tool, model, data, schema, and external-state failures.
+
+3. Skill Name: Circuit Breaker Manager
+
+  Description: Opens, tests, and closes circuits around failing models, tools, databases, and services to prevent cascading failure.
+
+4. Skill Name: Bulkhead Isolation Designer
+
+  Description: Separates pools, queues, memory, workers, and quotas so one workload cannot exhaust the whole agent system.
+
+5. Skill Name: Checkpoint Recovery Manager
+
+  Description: Restarts from the latest verified checkpoint and avoids repeating completed or uncertain side effects.
+
+6. Skill Name: Saga Compensation Coordinator
+
+  Description: Runs approved compensations in correct order and records actions that cannot be reversed.
+
+7. Skill Name: Partial Result Preserver
+
+  Description: Retains independent successful branches and reruns only failed dependent work.
+
+8. Skill Name: Crash Recovery Tester
+
+  Description: Kills model servers, workers, databases, and orchestrators during execution and verifies durable continuation.
+
+9. Skill Name: Power-Loss Recovery Tester
+
+  Description: Simulates abrupt host shutdown and validates journals, databases, queues, files, locks, and job state.
+
+10. Skill Name: Network Partition Simulator
+
+  Description: Tests local service isolation, delayed events, split-brain protection, timeouts, and reconciliation.
+
+11. Skill Name: Data Corruption Recovery Drill
+
+  Description: Injects damaged indexes, model shards, state records, caches, and artifacts and verifies detection and restoration.
+
+12. Skill Name: Recovery Point and Time Objective Manager
+
+  Description: Defines and measures acceptable data loss and restoration time for each subsystem.
+
+13. Skill Name: Uncertain Side-Effect Resolver
+
+  Description: Detects operations whose result is unknown after timeout and verifies external state before retrying.
+
+14. Skill Name: Failure Recovery Evidence Builder
+
+  Description: Records trigger, affected state, repair, restored artifacts, replay results, and confirming tests.
+
+17. Human Approval and Oversight
+
+1. Skill Name: Human Approval Gate Builder
+
+  Description: Pauses consequential actions and presents request, evidence, risk, alternatives, scope, and exact proposed side effects.
+
+2. Skill Name: Approval Policy Engine
+
+  Description: Routes approval by action type, risk, data class, destination, amount, environment, and separation-of-duties rules.
+
+3. Skill Name: Dual-Control Approval Manager
+
+  Description: Requires two independent authorized reviewers for high-risk changes, secrets, releases, or destructive actions.
+
+4. Skill Name: Approval Timeout Handler
+
+  Description: Expires stale approvals, prevents execution under changed state, and requires refreshed evidence.
+
+5. Skill Name: Approval Context Packager
+
+  Description: Shows inputs, plan, diffs, model and tool versions, permissions, validation, and rollback before decision.
+
+6. Skill Name: Approval Decision Recorder
+
+  Description: Stores reviewer, authority, decision, scope, conditions, timestamp, version, and rationale.
+
+7. Skill Name: Conditional Approval Enforcer
+
+  Description: Checks required modifications, limits, time windows, destinations, and follow-up verification before execution.
+
+8. Skill Name: Revocation and Recall Manager
+
+  Description: Stops queued work, revokes granted capability, and identifies completed side effects when approval is withdrawn.
+
+9. Skill Name: Human Escalation Router
+
+  Description: Selects the correct reviewer by domain, project, risk, availability, and conflict-of-interest rules.
+
+10. Skill Name: Operator Intervention Console
+
+  Description: Supports pause, inspect, edit safe parameters, retry, skip, compensate, terminate, and export evidence.
+
+11. Skill Name: Approval Bypass Detector
+
+  Description: Finds direct tool calls, alternate workflows, replay paths, or stale tokens that avoid required human review.
+
+12. Skill Name: Approval Regression Suite
+
+  Description: Tests allow, deny, condition, expiry, changed-state, duplicate, and unauthorized-reviewer cases.
+
+13. Skill Name: Post-Action Human Review Gate
+
+  Description: Requires review of outcomes and side effects for actions that cannot be fully predicted before execution.
+
+14. Skill Name: Human Feedback Capture Manager
+
+  Description: Records corrections and outcomes for evaluation without silently turning unreviewed feedback into policy.
+
+18. Multi-Agent Coordination and Delegation
+
+1. Skill Name: Multi-Agent Coordinator
+
+  Description: Decomposes work into bounded tasks with owners, inputs, outputs, dependencies, permissions, deadlines, and acceptance checks.
+
+2. Skill Name: Agent Capability Registry
+
+  Description: Records each agent model, tools, modalities, permissions, limits, quality evidence, cost, and supported task types.
+
+3. Skill Name: Delegation Policy Engine
+
+  Description: Selects agents by competence, data access, risk, workload, latency, and independence requirements.
+
+4. Skill Name: Agent Message Schema Registry
+
+  Description: Versions task, status, result, evidence, error, cancellation, and escalation messages.
+
+5. Skill Name: Shared Artifact Manager
+
+  Description: Provides versioned files, tables, plans, and evidence without relying on ambiguous conversational state.
+
+6. Skill Name: Agent Dependency Planner
+
+  Description: Builds fan-out and fan-in graphs and prevents downstream work before prerequisites pass.
+
+7. Skill Name: Agent Result Merger
+
+  Description: Combines independent outputs, resolves conflicts, deduplicates evidence, and preserves dissent or uncertainty.
+
+8. Skill Name: Consensus and Adjudication Manager
+
+  Description: Uses independent attempts, critique, judge rules, or human review without mistaking agreement for correctness.
+
+9. Skill Name: Agent Loop and Ping-Pong Detector
+
+  Description: Stops repeated delegation, circular critique, unresolved handoffs, and duplicate work.
+
+10. Skill Name: Agent Budget Allocator
+
+  Description: Assigns token, time, tool, memory, and compute limits across agents and reclaims unused capacity.
+
+11. Skill Name: Agent Isolation Controller
+
+  Description: Separates prompts, files, memory, permissions, tools, and secrets among specialist agents.
+
+12. Skill Name: Agent Failure Substitution Manager
+
+  Description: Reassigns failed work to a compatible agent while preserving state, evidence, and idempotency.
+
+13. Skill Name: Multi-Agent Trace Builder
+
+  Description: Records delegation, messages, artifacts, decisions, approvals, and final synthesis as one causal trace.
+
+14. Skill Name: Multi-Agent Benchmark Runner
+
+  Description: Compares single-agent, parallel, debate, planner-executor, and hierarchical patterns under identical tasks and limits.
+
+19. Prompt, Template, and Version Registries
+
+1. Skill Name: Prompt Registry
+
+  Description: Versions system, agent, retrieval, tool, evaluation, and repair prompts with owners, status, hashes, and compatibility.
+
+2. Skill Name: Prompt Template Compiler
+
+  Description: Validates variables, types, defaults, escaping, required evidence, tool schemas, and output contracts.
+
+3. Skill Name: Prompt Injection Hardening Reviewer
+
+  Description: Checks instruction hierarchy, untrusted content boundaries, tool permissions, data exfiltration, and indirect injection.
+
+4. Skill Name: Prompt A-B Evaluation Runner
+
+  Description: Compares prompt versions under identical models, tools, datasets, seeds, limits, and scoring guides.
+
+5. Skill Name: Prompt Regression Gate
+
+  Description: Blocks promotion when correctness, grounding, safety, format, latency, or refusal behavior materially worsens.
+
+6. Skill Name: Prompt Rollback Manager
+
+  Description: Restores the last approved prompt set and rebinds workflows, agents, and evaluations safely.
+
+7. Skill Name: Template Localization Manager
+
+  Description: Versions language, terminology, cultural, formatting, and right-to-left variants without drifting core policy.
+
+8. Skill Name: Prompt Dependency Graph
+
+  Description: Maps which agents, workflows, benchmarks, tools, schemas, and policies depend on each prompt version.
+
+9. Skill Name: Prompt Variable Security Filter
+
+  Description: Prevents secrets, unsafe markup, instructions, or oversized untrusted values from entering privileged prompt sections.
+
+10. Skill Name: Prompt Size and Token Auditor
+
+  Description: Measures static and dynamic prompt cost, redundancy, truncation risk, and context competition.
+
+11. Skill Name: Few-Shot Example Curator
+
+  Description: Maintains representative positive, boundary, failure, refusal, and repair examples with provenance.
+
+12. Skill Name: Prompt Change Approval Workflow
+
+  Description: Requires diff, motivation, evaluation evidence, risk assessment, owner, and rollback before production promotion.
+
+13. Skill Name: Prompt Provenance Recorder
+
+  Description: Links each execution to exact prompt, variables, model, retrieval context, tool schemas, and policies.
+
+14. Skill Name: Prompt Dead-Code Cleaner
+
+  Description: Finds unused templates, stale variables, contradictory instructions, and obsolete examples.
+
+20. Evaluation Datasets and Benchmarking
+
+1. Skill Name: Evaluation Dataset Registry
+
+  Description: Versions cases, inputs, expected properties, labels, provenance, licenses, splits, and sensitive-data restrictions.
+
+2. Skill Name: Benchmark Suite Architect
+
+  Description: Combines normal, boundary, adversarial, failure, recovery, long-context, multimodal, and tool-use tests.
+
+3. Skill Name: Golden Answer Curator
+
+  Description: Maintains accepted answers, scoring rubrics, evidence, acceptable variants, and abstention conditions.
+
+4. Skill Name: Tool-Use Benchmark Builder
+
+  Description: Tests tool selection, argument accuracy, schema compliance, side effects, validation, retries, and cleanup.
+
+5. Skill Name: Agentic Task Benchmark Builder
+
+  Description: Tests planning, state persistence, long-running execution, approvals, recovery, and artifact delivery.
+
+6. Skill Name: Grounding Benchmark Builder
+
+  Description: Tests citation, entailment, conflict handling, unknown answers, and unsupported claim detection.
+
+7. Skill Name: Safety and Permission Benchmark Builder
+
+  Description: Tests authorization, secret handling, injection, malware, destructive actions, and escalation.
+
+8. Skill Name: Memory Benchmark Builder
+
+  Description: Tests write quality, retrieval, conflict resolution, correction, deletion, privacy, and stale information.
+
+9. Skill Name: Multimodal Benchmark Builder
+
+  Description: Tests images, documents, audio, video, OCR, region grounding, and cross-modal evidence.
+
+10. Skill Name: Benchmark Harness Runner
+
+  Description: Executes cases with fixed models, tools, limits, seeds, environments, and trace capture.
+
+11. Skill Name: Automatic Scoring Pipeline
+
+  Description: Combines exact match, schema checks, tests, retrieval metrics, model judges, deterministic validators, and human review.
+
+12. Skill Name: Judge Calibration Manager
+
+  Description: Measures model-judge bias, order effects, verbosity preference, self-preference, and agreement with human labels.
+
+13. Skill Name: Evaluation Contamination Checker
+
+  Description: Detects overlap between test cases, prompts, fine-tuning data, retrieved corpora, and public examples.
+
+14. Skill Name: Benchmark Report Builder
+
+  Description: Summarizes pass rates, severity, confidence intervals, latency, resources, regressions, and representative failures.
+
+15. Skill Name: Promotion Quality Gate
+
+  Description: Requires predefined thresholds by critical capability and prevents averages from hiding severe failures.
+
+16. Skill Name: Evaluation Reproducibility Packager
+
+  Description: Stores datasets, harness, prompts, models, tools, environment, seeds, outputs, and reports for offline rerun.
+
+21. Hallucination, Grounding, and Factuality Controls
+
+1. Skill Name: Claim Extractor
+
+  Description: Breaks model output into factual, procedural, predictive, subjective, and unverifiable claims for targeted checks.
+
+2. Skill Name: Evidence Entailment Checker
+
+  Description: Classifies each factual claim as supported, contradicted, insufficient, or not applicable against approved evidence.
+
+3. Skill Name: Citation Completeness Checker
+
+  Description: Detects factual claims that require citations but lack valid source anchors.
+
+4. Skill Name: Citation Accuracy Validator
+
+  Description: Verifies that cited passages actually support the nearby claim and match source version and scope.
+
+5. Skill Name: Unsupported Specificity Detector
+
+  Description: Flags invented names, dates, numbers, credentials, file paths, identifiers, quotes, and technical settings.
+
+6. Skill Name: Entity Consistency Checker
+
+  Description: Checks names, relationships, dates, versions, units, and identifiers across answer, sources, memory, and tools.
+
+7. Skill Name: Numerical Verification Operator
+
+  Description: Recomputes arithmetic, units, totals, ranges, percentages, and tolerances using deterministic code.
+
+8. Skill Name: Contradiction Detector
+
+  Description: Finds conflicts within the answer and against evidence, policy, memory, tool output, or prior verified decisions.
+
+9. Skill Name: Uncertainty Calibrator
+
+  Description: Maps evidence quality and model confidence to clear language, abstention, verification, or escalation behavior.
+
+10. Skill Name: Source Freshness Validator
+
+  Description: Checks whether a source version or date is suitable for the claim and target decision.
+
+11. Skill Name: Answer Scope Guard
+
+  Description: Prevents conclusions beyond the user request, available evidence, permissions, or tested environment.
+
+12. Skill Name: Factual Repair Workflow
+
+  Description: Removes unsupported claims, retrieves better evidence, recalculates, or abstains while preserving supported content.
+
+13. Skill Name: Grounding Regression Suite
+
+  Description: Replays claim-evidence cases after model, prompt, retrieval, reranker, or citation changes.
+
+14. Skill Name: High-Stakes Verification Gate
+
+  Description: Requires authoritative sources, deterministic checks, or qualified human approval before consequential advice or action.
+
+22. Security, Malware, and Unsafe-Code Screening
+
+1. Skill Name: Malware File Scanner
+
+  Description: Scans executables, scripts, archives, documents, models, and generated artifacts with local engines and signatures.
+
+2. Skill Name: Static Code Security Analyzer
+
+  Description: Detects injection, command execution, unsafe deserialization, path traversal, weak cryptography, credential exposure, and persistence.
+
+3. Skill Name: Dependency Vulnerability Auditor
+
+  Description: Matches local package and binary inventories against an offline vulnerability database and remediation policy.
+
+4. Skill Name: Software Bill of Materials Builder
+
+  Description: Creates SPDX or CycloneDX inventories for applications, libraries, containers, models, and packaged tools.
+
+5. Skill Name: Archive Bomb Detector
+
+  Description: Checks nested archives, decompression ratios, file counts, path traversal, symlinks, and unsupported formats before extraction.
+
+6. Skill Name: Model File Security Scanner
+
+  Description: Checks pickle or executable model formats, custom code, unexpected tensors, metadata, licenses, and hashes before load.
+
+7. Skill Name: Prompt Injection Detector
+
+  Description: Identifies direct and indirect attempts to override instructions, exfiltrate data, use tools, or grant permissions.
+
+8. Skill Name: Command Injection Guard
+
+  Description: Uses typed arguments, allowlists, escaping, no-shell execution, and policy checks before local process launch.
+
+9. Skill Name: Unsafe Deserialization Blocker
+
+  Description: Rejects untrusted pickle, marshal, object streams, macros, and custom loaders unless isolated and explicitly approved.
+
+10. Skill Name: Supply Chain Integrity Verifier
+
+  Description: Validates signatures, hashes, provenance, maintainers, expected contents, and offline source of packages and models.
+
+11. Skill Name: Security Quarantine Workflow
+
+  Description: Isolates suspicious inputs, prevents model and tool access, records evidence, and routes authorized review.
+
+12. Skill Name: Sandbox Behavior Analyzer
+
+  Description: Detects file encryption, mass deletion, persistence, process injection, device access, credential search, and network attempts.
+
+13. Skill Name: Security Regression Suite
+
+  Description: Tests malicious files, prompts, code, archives, dependencies, and tool arguments after stack changes.
+
+14. Skill Name: Incident Evidence Packager
+
+  Description: Preserves hashes, logs, state, artifacts, timelines, affected permissions, and containment actions without executing suspicious content.
+
+23. Network Isolation and Offline Governance
+
+1. Skill Name: Default-Deny Network Policy Manager
+
+  Description: Blocks outbound and inbound network access except explicitly approved local services and temporary rules.
+
+2. Skill Name: Local Service Allowlist Builder
+
+  Description: Defines exact hosts, ports, protocols, certificates, identities, and purposes for model, database, queue, and workflow services.
+
+3. Skill Name: DNS and Proxy Blocker
+
+  Description: Prevents hidden name resolution, proxy fallback, telemetry, update checks, and covert network paths.
+
+4. Skill Name: Offline Telemetry Auditor
+
+  Description: Detects attempted analytics, crash reporting, model downloads, license checks, and remote feature calls.
+
+5. Skill Name: Egress Attempt Monitor
+
+  Description: Records blocked connection attempts with process, destination, time, user, job, and relevant stack trace.
+
+6. Skill Name: Network Namespace Manager
+
+  Description: Places agents, sandboxes, databases, and model servers in separate local network zones with explicit routes.
+
+7. Skill Name: One-Way Transfer Workflow
+
+  Description: Supports controlled import or export through scanned removable media, data diodes, or staged transfer stations.
+
+8. Skill Name: Offline Certificate Authority Manager
+
+  Description: Issues and rotates local service certificates without external dependency.
+
+9. Skill Name: Time Synchronization Planner
+
+  Description: Maintains trusted local time for certificates, leases, schedules, and audit logs without public NTP.
+
+10. Skill Name: Air-Gap Compliance Tester
+
+  Description: Probes interfaces, routes, DNS, proxies, sockets, package managers, model runtimes, and applications for external reachability.
+
+11. Skill Name: Temporary Network Exception Gate
+
+  Description: Requires reason, destination, duration, owner, approval, monitoring, and post-use cleanup.
+
+12. Skill Name: Disconnected License Resilience Tester
+
+  Description: Verifies that approved offline licenses remain valid and that expiry or clock behavior fails safely.
+
+13. Skill Name: Offline Update Import Validator
+
+  Description: Scans, verifies, inventories, stages, tests, and approves updates brought across the boundary.
+
+14. Skill Name: Network Policy Regression Suite
+
+  Description: Tests blocked and allowed traffic after operating-system, firewall, container, service, or application changes.
+
+24. Audit Logs, Traces, and Provenance
+
+1. Skill Name: Audit Log Architect
+
+  Description: Defines immutable events for authentication, authorization, tool use, model calls, memory, approvals, state changes, and artifacts.
+
+2. Skill Name: Distributed Trace Builder
+
+  Description: Links user request, agent steps, model inference, retrieval, tools, workflows, queues, and outputs with one trace identifier.
+
+3. Skill Name: Model Invocation Recorder
+
+  Description: Stores model, revision, quantization, parameters, prompt hash, context sources, timing, resources, and output hash.
+
+4. Skill Name: Artifact Provenance Recorder
+
+  Description: Links each file, dataset, report, or action to inputs, tools, versions, code, approvals, and validation results.
+
+5. Skill Name: Causal Event Sequencer
+
+  Description: Orders events across hosts and services using stable IDs, local clocks, monotonic time, and parent-child relationships.
+
+6. Skill Name: Tamper-Evident Log Manager
+
+  Description: Uses append-only storage, hash chains, signatures, access control, backups, and verification.
+
+7. Skill Name: Sensitive Log Redactor
+
+  Description: Removes secrets and minimizes personal or licensed data while preserving diagnostic value and audit linkage.
+
+8. Skill Name: Audit Retention Manager
+
+  Description: Applies retention, legal hold, archive, compression, deletion, and access rules by event class.
+
+9. Skill Name: Trace Sampling Policy Manager
+
+  Description: Keeps complete traces for high-risk or failed work and controlled samples for routine high-volume work.
+
+10. Skill Name: Audit Query and Timeline Builder
+
+  Description: Reconstructs who requested, approved, executed, changed, observed, and validated an operation.
+
+11. Skill Name: Provenance Completeness Checker
+
+  Description: Finds outputs lacking source, model, tool, prompt, permission, approval, or validation lineage.
+
+12. Skill Name: Audit Export Packager
+
+  Description: Creates a permission-filtered offline evidence package with logs, traces, artifacts, schemas, and verification.
+
+13. Skill Name: Clock Skew Auditor
+
+  Description: Detects timestamp inconsistencies that could misorder approvals, leases, retries, or evidence.
+
+14. Skill Name: Audit Recovery Tester
+
+  Description: Restores logs and trace indexes from backup and verifies hash chains, queryability, and retention rules.
+
+25. Resource, Cost, and Budget Controls
+
+1. Skill Name: Agent Budget Manager
+
+  Description: Sets per-user, per-project, per-workflow, and per-agent limits for tokens, time, GPU, CPU, memory, storage, and tool calls.
+
+2. Skill Name: Token Usage Accountant
+
+  Description: Records prompt, retrieved context, tool context, output, retries, and child-agent token use by model and task.
+
+3. Skill Name: Compute Quota Enforcer
+
+  Description: Limits GPU-seconds, CPU-seconds, concurrency, batch size, and high-memory model access.
+
+4. Skill Name: Storage Quota Manager
+
+  Description: Controls model, vector, memory, trace, artifact, cache, temporary, and backup growth with reserved safety margins.
+
+5. Skill Name: Time Deadline Controller
+
+  Description: Sets step, tool, model, workflow, approval, and end-to-end deadlines with graceful cancellation.
+
+6. Skill Name: Tool Call Budget Guard
+
+  Description: Limits repeated, expensive, destructive, or external tool calls and requires escalation before overrun.
+
+7. Skill Name: Dynamic Budget Reallocator
+
+  Description: Moves unused capacity to blocked critical work without violating hard limits or fairness.
+
+8. Skill Name: Budget-Aware Model Router
+
+  Description: Selects smaller or faster local models when quality evidence shows they satisfy the task.
+
+9. Skill Name: Runaway Agent Detector
+
+  Description: Stops loops, exploding delegation, context growth, queue amplification, and repeated retries.
+
+10. Skill Name: Resource Forecast Planner
+
+  Description: Projects capacity from users, arrival rates, context size, model mix, retraining, indexing, and retention.
+
+11. Skill Name: Budget Exception Workflow
+
+  Description: Requires reason, scope, expiry, approver, expected benefit, and post-run review for temporary increases.
+
+12. Skill Name: Resource Utilization Dashboard Builder
+
+  Description: Summarizes queue, model, agent, tool, GPU, CPU, memory, disk, and failure utilization offline.
+
+13. Skill Name: Cost Attribution Reporter
+
+  Description: Maps local hardware and operational cost estimates to agents, workflows, projects, models, and artifacts.
+
+14. Skill Name: Budget Regression Tester
+
+  Description: Compares resource use after model, prompt, retrieval, tool, workflow, and batching changes.
+
+26. Data Ingest, Documents, and Local Connectors
+
+1. Skill Name: Offline Connector Registry
+
+  Description: Versions local filesystem, database, mail archive, issue tracker export, source repository, and document connector definitions.
+
+2. Skill Name: Connector Permission Enforcer
+
+  Description: Applies source-specific identities, paths, filters, row-level rules, and purpose limitations before access.
+
+3. Skill Name: File Ingest Pipeline
+
+  Description: Identifies formats, scans security, extracts metadata and content, deduplicates, classifies, and records provenance.
+
+4. Skill Name: PDF and Document Extractor
+
+  Description: Extracts text, layout, tables, images, forms, headings, and page anchors from local PDF and office files.
+
+5. Skill Name: Spreadsheet Ingest Operator
+
+  Description: Extracts sheets, tables, formulas, values, types, named ranges, comments, and provenance without silently flattening meaning.
+
+6. Skill Name: Email Archive Ingestor
+
+  Description: Indexes approved local mail exports with threading, participants, attachments, dates, permissions, and redaction.
+
+7. Skill Name: Database Snapshot Connector
+
+  Description: Reads consistent local snapshots using typed schemas, query limits, audit, and no mutation by default.
+
+8. Skill Name: Source Repository Ingestor
+
+  Description: Indexes code, history, branches, symbols, dependencies, tests, issues, and licenses from local repositories.
+
+9. Skill Name: Incremental Change Detector
+
+  Description: Processes only new, changed, moved, deleted, or permission-modified records using stable identifiers and hashes.
+
+10. Skill Name: Content Classification Operator
+
+  Description: Labels source type, sensitivity, rights, retention, authority, freshness, and indexing eligibility.
+
+11. Skill Name: Ingest Error Quarantine
+
+  Description: Isolates corrupt, malicious, unsupported, encrypted, or policy-blocked items with diagnostics.
+
+12. Skill Name: Connector Drift Detector
+
+  Description: Detects schema, path, export format, permissions, or source-version changes that could corrupt ingestion.
+
+13. Skill Name: Ingest Completeness Validator
+
+  Description: Compares source counts, hashes, pages, rows, attachments, and error reports against the indexed corpus.
+
+14. Skill Name: Connector Regression Suite
+
+  Description: Tests normal, empty, large, malformed, moved, deleted, unauthorized, and changed-schema inputs.
+
+27. Automation Actions and Transaction Safety
+
+1. Skill Name: Action Plan Diff Builder
+
+  Description: Shows exact proposed file, database, configuration, message, or workflow changes before execution.
+
+2. Skill Name: Read-Only Dry Run Operator
+
+  Description: Simulates an action, validates prerequisites, estimates side effects, and produces a reviewable plan.
+
+3. Skill Name: Transactional Action Coordinator
+
+  Description: Groups supported changes into atomic commits and rolls back when validation fails.
+
+4. Skill Name: File Mutation Safety Manager
+
+  Description: Uses temp files, atomic rename, backups, permissions, collision checks, and post-write reopen validation.
+
+5. Skill Name: Database Mutation Guard
+
+  Description: Requires parameterized statements, row limits, transaction boundaries, expected row counts, and rollback.
+
+6. Skill Name: Bulk Operation Throttler
+
+  Description: Limits batch size, rate, concurrency, and blast radius with checkpoints and stop conditions.
+
+7. Skill Name: External Action Approval Gate
+
+  Description: Requires human authorization for messages, deployments, account changes, purchases, deletions, and other consequential operations.
+
+8. Skill Name: Two-Phase Action Committer
+
+  Description: Separates prepare and commit so state can be reviewed and revalidated before irreversible change.
+
+9. Skill Name: Compensating Action Builder
+
+  Description: Defines undo or mitigation for actions that cannot participate in atomic transactions.
+
+10. Skill Name: Post-Action Verification Operator
+
+  Description: Reads the recipient system or artifact to confirm the intended effect rather than trusting a success response.
+
+11. Skill Name: Mutation Reconciliation Manager
+
+  Description: Compares intended, attempted, observed, and audited state and resolves discrepancies.
+
+12. Skill Name: Blast Radius Limiter
+
+  Description: Restricts targets, rows, files, accounts, projects, duration, and permissions for automation runs.
+
+13. Skill Name: Action Idempotency Tester
+
+  Description: Repeats requests under controlled conditions and verifies no duplicate side effects.
+
+14. Skill Name: Action Evidence Packager
+
+  Description: Records plan, approval, inputs, exact changes, tool versions, results, validation, and rollback information.
+
+28. Privacy, Retention, and Data Governance
+
+1. Skill Name: Data Inventory Builder
+
+  Description: Catalogs local sources, fields, classifications, owners, purposes, permissions, retention, and derived stores.
+
+2. Skill Name: Personal Data Minimizer
+
+  Description: Removes or masks unnecessary personal information before prompts, embeddings, memory, logs, and evaluation.
+
+3. Skill Name: Consent and Purpose Registry
+
+  Description: Records permitted uses, restrictions, withdrawal, expiry, and affected datasets or models.
+
+4. Skill Name: Retention Policy Engine
+
+  Description: Applies time-based, event-based, legal-hold, project, and user deletion rules across primary and derived data.
+
+5. Skill Name: Right-to-Delete Workflow
+
+  Description: Finds and removes approved records from documents, database, vectors, memory, caches, logs, exports, and backups according to policy.
+
+6. Skill Name: Data Lineage Mapper
+
+  Description: Tracks source-to-chunk-to-vector-to-answer-to-artifact relationships for correction, deletion, and audit.
+
+7. Skill Name: Deidentification Operator
+
+  Description: Removes direct identifiers and reduces quasi-identifier risk using project-approved transformations.
+
+8. Skill Name: Synthetic Test Data Builder
+
+  Description: Creates clearly labeled nonproduction datasets for development and evaluation without copying sensitive records.
+
+9. Skill Name: Data Access Review Manager
+
+  Description: Periodically reviews users, agents, service accounts, tools, collections, and exceptional grants.
+
+10. Skill Name: Cross-Border and Jurisdiction Tagger
+
+  Description: Labels data-handling constraints where projects span legal or contractual regions.
+
+11. Skill Name: Privacy Leakage Tester
+
+  Description: Tests prompts, retrieval, memory, model outputs, logs, caches, and agent coordination for unauthorized disclosure.
+
+12. Skill Name: Data Export Gate
+
+  Description: Checks authority, minimization, encryption, package contents, recipient, purpose, and retention before transfer.
+
+13. Skill Name: Secure Data Disposal Operator
+
+  Description: Removes expired or revoked data from active stores and verifies deletion within policy limits.
+
+14. Skill Name: Governance Evidence Builder
+
+  Description: Produces offline records of policies, inventories, access reviews, deletions, exceptions, and validating tests.
+
+29. Monitoring, Observability, and Operations
+
+1. Skill Name: Offline Operations Dashboard
+
+  Description: Summarizes health, queues, models, agents, workflows, databases, sandboxes, resources, approvals, and failures.
+
+2. Skill Name: Metrics Registry
+
+  Description: Defines names, units, labels, owners, cardinality limits, retention, and alert thresholds.
+
+3. Skill Name: Log Aggregation Pipeline
+
+  Description: Collects local application, model, workflow, queue, database, security, and system logs with access controls.
+
+4. Skill Name: Alert Rule Manager
+
+  Description: Creates severity, threshold, anomaly, absence, rate, and composite alerts with ownership and suppression rules.
+
+5. Skill Name: Service Health Monitor
+
+  Description: Checks process, port, API, model, database, queue, disk, certificate, permission, and representative workflow health.
+
+6. Skill Name: Synthetic Transaction Monitor
+
+  Description: Runs safe end-to-end reference tasks and verifies retrieval, tool use, memory, approvals, artifacts, and audit.
+
+7. Skill Name: Anomaly Detection Operator
+
+  Description: Identifies unusual latency, resource use, failure rate, tool selection, permission denials, memory writes, or output volume.
+
+8. Skill Name: On-Call Runbook Builder
+
+  Description: Provides detection, diagnosis, containment, repair, rollback, verification, and escalation for operational incidents.
+
+9. Skill Name: Incident Timeline Builder
+
+  Description: Assembles alerts, traces, logs, changes, approvals, actions, and affected jobs into a causal sequence.
+
+10. Skill Name: Change Correlation Analyzer
+
+  Description: Links regressions to recent model, prompt, tool, policy, data, workflow, driver, or infrastructure changes.
+
+11. Skill Name: Maintenance Window Manager
+
+  Description: Drains work, creates backups, applies changes, runs smoke and regression tests, and reopens service.
+
+12. Skill Name: Operational Readiness Review
+
+  Description: Checks ownership, monitoring, backup, recovery, capacity, security, documentation, and clean-state deployment before release.
+
+13. Skill Name: SLO and Error Budget Manager
+
+  Description: Defines reliability targets and limits risky changes when failure budgets are exhausted.
+
+14. Skill Name: Post-Incident Review Manager
+
+  Description: Records impact, timeline, root cause, contributing conditions, repair, tests, owners, and prevention work.
+
+30. Clean-State, Failure, and Disaster Testing
+
+1. Skill Name: Clean-State Agent Test Suite
+
+  Description: Provisions a fresh host and verifies install, model load, retrieval, tool use, memory, workflow, approval, audit, and package delivery.
+
+2. Skill Name: Cold-Start Model Test
+
+  Description: Loads each model from local storage with empty caches and verifies tokenizer, inference, structured output, and checksum.
+
+3. Skill Name: Service Restart Continuity Test
+
+  Description: Restarts model, database, queue, workflow, and agent services during durable work and verifies continuation.
+
+4. Skill Name: Worker Crash Recovery Test
+
+  Description: Kills workers during model, tool, retrieval, and side-effect steps and verifies leases, retries, idempotency, and state.
+
+5. Skill Name: Database Restore Drill
+
+  Description: Restores metadata, memory, vectors, prompts, workflows, evaluation, and audit stores into a clean environment.
+
+6. Skill Name: Corrupt Model Recovery Test
+
+  Description: Damages a model shard or tokenizer and verifies detection, quarantine, replacement, and no silent fallback.
+
+7. Skill Name: Queue Loss Recovery Drill
+
+  Description: Restores queues and dead letters from durable storage and reconciles jobs with workflow state.
+
+8. Skill Name: Permission Failure Test
+
+  Description: Revokes access mid-workflow and verifies safe stop, no data leakage, clear diagnostics, and approved resume.
+
+9. Skill Name: Resource Exhaustion Test
+
+  Description: Forces CPU, GPU, VRAM, RAM, disk, file descriptor, and process limits and checks graceful degradation.
+
+10. Skill Name: Time and Clock Failure Test
+
+  Description: Simulates clock jumps, expired certificates, lease skew, schedule boundaries, and stale approvals.
+
+11. Skill Name: Malicious Input Recovery Test
+
+  Description: Injects malware, prompt injection, archive bombs, hostile documents, and unsafe code and verifies quarantine.
+
+12. Skill Name: Partial Write and Power Loss Test
+
+  Description: Interrupts file and database writes and verifies atomicity, journals, checksums, and recovery.
+
+13. Skill Name: Disaster Recovery Exercise
+
+  Description: Rebuilds the complete stack from offline installers, backups, registries, manifests, and documented procedures.
+
+14. Skill Name: Recovery Evidence Packager
+
+  Description: Records objective recovery time, data loss, failed checks, repairs, restored state, and remaining risks.
+
+31. Packaging, Backup, and Operational Continuity
+
+1. Skill Name: Reproducible Agent System Packager
+
+  Description: Collects runtimes, models, prompts, tools, schemas, workflows, policies, databases, tests, docs, licenses, and manifests.
+
+2. Skill Name: Dependency and Artifact Collector
+
+  Description: Finds every required local binary, model, tokenizer, adapter, package, configuration, dataset, certificate, and test fixture.
+
+3. Skill Name: Bundle Completeness Validator
+
+  Description: Installs and runs the package from a clean path with network disabled and reports any hidden dependency.
+
+4. Skill Name: System Checksum Manifest Builder
+
+  Description: Generates and verifies hashes for installers, packages, models, prompts, tools, schemas, datasets, and documentation.
+
+5. Skill Name: Configuration Backup Manager
+
+  Description: Backs up prompts, policies, tool registry, workflow definitions, schedules, dashboards, alerts, and service settings.
+
+6. Skill Name: Database Backup Coordinator
+
+  Description: Creates consistent snapshots across memory, vectors, metadata, queues, workflows, evaluations, and audit stores.
+
+7. Skill Name: 3-2-1 Backup Planner
+
+  Description: Defines three copies on two media types with one offline or off-site copy and tested restoration.
+
+8. Skill Name: Archive Tier Manager
+
+  Description: Separates active, nearline, cold, legal-hold, replaceable cache, and disposable data with manifests.
+
+9. Skill Name: Offline Transfer Package Builder
+
+  Description: Creates scanned, encrypted, checksummed import or export bundles with exact inventory and instructions.
+
+10. Skill Name: Recipient Handoff Guide Writer
+
+  Description: Documents setup, start, stop, update, operate, monitor, recover, evaluate, and troubleshoot procedures.
+
+11. Skill Name: Continuity Role Matrix Builder
+
+  Description: Assigns owners and backups for models, security, databases, workflows, operations, approvals, and disaster recovery.
+
+12. Skill Name: Long-Term Format Migration Planner
+
+  Description: Preserves registries and records in durable formats such as JSON, YAML, SQL, Parquet, CSV, Markdown, and signed manifests.
+
+13. Skill Name: Decommissioning Operator
+
+  Description: Archives required state, revokes secrets, removes sensitive data, retires models and services, and verifies disposal.
+
+14. Skill Name: Operational Continuity Drill
+
+  Description: Tests team handoff, missing maintainers, expired licenses, unavailable hardware, and restoration from documentation alone.
+
+32. Documentation, Training, and Catalog Governance
+
+1. Skill Name: Offline Agent Operations Handbook Builder
+
+  Description: Creates a searchable local handbook for installation, models, tools, workflows, memory, security, evaluation, monitoring, and recovery.
+
+2. Skill Name: Role-Based Quick Start Author
+
+  Description: Writes concise instructions for operators, developers, evaluators, security reviewers, data stewards, approvers, and administrators.
+
+3. Skill Name: Standard Operating Procedure Generator
+
+  Description: Turns an approved workflow into prerequisites, exact steps, expected outputs, checks, rollback, failure states, and ownership.
+
+4. Skill Name: Architecture Decision Record Manager
+
+  Description: Captures decisions, constraints, alternatives, evidence, consequences, review date, and replacement conditions.
+
+5. Skill Name: Configuration Reference Generator
+
+  Description: Documents every model, service, database, queue, policy, prompt, tool, workflow, and environment setting.
+
+6. Skill Name: Troubleshooting Decision Tree Builder
+
+  Description: Routes inference, retrieval, tool, workflow, queue, memory, permission, security, and resource failures to confirming tests.
+
+7. Skill Name: Known-Issue Register Manager
+
+  Description: Records affected versions, symptoms, scope, workaround, permanent fix, owner, and regression test.
+
+8. Skill Name: Reference Agent Project Maintainer
+
+  Description: Keeps a small end-to-end agent that exercises the passing production spine and expected artifacts.
+
+9. Skill Name: Training Exercise Generator
+
+  Description: Creates offline exercises for tool use, grounding, memory, approvals, recovery, security, evaluation, and operations.
+
+10. Skill Name: Operator Competency Checklist Builder
+
+  Description: Defines observable pass criteria for installation, monitoring, incident response, backup, recovery, and release.
+
+11. Skill Name: Shift and Team Handoff Writer
+
+  Description: Captures active jobs, incidents, degraded services, approvals, model changes, queues, backups, and next actions.
+
+12. Skill Name: Skill Interface Standard Author
+
+  Description: Defines required triggers, inputs, outputs, permissions, errors, validation, provenance, and packaging for future skills.
+
+13. Skill Name: Skill Dependency Graph Manager
+
+  Description: Maps which skills call, wrap, validate, approve, or depend on other skills and shared resources.
+
+14. Skill Name: Skill Catalog Governance Manager
+
+  Description: Tracks proposed, active, merged, deprecated, replaced, and blocked skills and prevents conflicting capability definitions.
+
+15. Skill Name: Postmortem and Lessons-Learned Manager
+
+  Description: Turns incidents and failed evaluations into condition, cause, repair, confirming test, owner, and updated standard.
+
+16. Skill Name: Catalog Coverage Auditor
+
+  Description: Maps system requirements, risks, workflows, tests, and owners to catalog entries and reports missing or redundant capabilities.
+
+Recommended Catalog-to-Skill Package
+
+When converting an entry into an executable skill, keep the control plane compact and place repeatable detail in supporting resources:
+
+- SKILL.md: precise trigger description, workflow, decision rules, permissions, failure conditions, validation, and completion behavior.
+
+- agents/ui_metadata.yaml: display name, short description, icon, and brand color.
+
+- scripts/: deterministic offline automation, adapters, validators, evaluators, migrations, smoke tests, and recovery tools.
+
+- references/: schemas, policies, threat models, benchmark rubrics, compatibility matrices, runbooks, and troubleshooting.
+
+- assets/: permitted templates, fixtures, test datasets, reference traces, configuration samples, and offline packages.
+
+Final Acceptance Standard
+
+A future implementation should be considered complete only when it runs without network access, declares dependencies and authority, preserves durable state and rollback, enforces permissions and budgets, grounds factual output, survives tested failures, records provenance and audit evidence, and can be installed, operated, evaluated, recovered, and continued from a clean offline package.

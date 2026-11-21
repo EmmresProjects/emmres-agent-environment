@@ -1,0 +1,1583 @@
+ROBLOX
+SKILL CATALOG
+
+A comprehensive capability blueprint for advanced Roblox creator agents
+
+34 categories | 340 specialized skills
+Coverage: Studio, objects, Luau, avatars, games, art, systems, cloud, safety, production, and creator operations
+
+Catalog edition: November 2026
+
+How to Use This Catalog
+
+Each entry is a candidate agent skill, not an implemented tool. A future skill builder can turn an entry into instructions, tools, schemas, tests, examples, safeguards, and acceptance checks.
+
+Use one primary skill for a focused task, or compose several skills for an end-to-end workflow. For example, Layered Clothing Modeler can pair with Cage Debugging Specialist, Avatar Import Validator, Marketplace Compliance Preflight, and Asset Thumbnail Director.
+
+The catalog deliberately separates creation, validation, optimization, safety, publishing, and operations. This makes execution easier to test and repair than a single oversized Roblox skill.
+
+Platform features change. Before implementation, verify APIs, limits, policies, eligibility, and release status against current Roblox Creator documentation.
+
+Recommended Skill Specification
+
+- Purpose and trigger conditions
+
+- Required inputs and supported asset types
+
+- Tools, Roblox services, and external dependencies
+
+- Step-by-step execution workflow
+
+- Client-server trust and safety rules
+
+- Normal, boundary, failure, and recovery tests
+
+- Editable outputs and validation report
+
+- Version, deprecation, and platform-change notes
+
+Category Index
+
+1.  1. Roblox Studio Foundations
+
+2.  2. Instances, Objects, and DataModel
+
+3.  3. Luau Programming and Architecture
+
+4.  4. Client-Server Networking and Remotes
+
+5.  5. Data Persistence and Player Profiles
+
+6.  6. Avatar, Character, and Rig Creation
+
+7.  7. Clothing, Accessories, and Marketplace Assets
+
+8.  8. Animation, Emotes, and Cinematics
+
+9.  9. 3D Modeling, Meshes, and Content Pipeline
+
+10. 10. World Building, Terrain, and Environment
+
+11. 11. Physics, Constraints, and Vehicles
+
+12. 12. Player Movement, Camera, and Input
+
+13. 13. User Interface and Experience Design
+
+14. 14. Accessibility, Localization, and Inclusivity
+
+15. 15. Audio, Voice, and Music
+
+16. 16. Visual Effects, Lighting, and Rendering
+
+17. 17. Gameplay Systems and Core Loops
+
+18. 18. Combat, Weapons, and Abilities
+
+19. 19. NPCs, AI, and Pathfinding
+
+20. 20. Social, Chat, Parties, and Community
+
+21. 21. Matchmaking, Teleportation, and Servers
+
+22. 22. Economy, Monetization, and Commerce
+
+23. 23. Analytics, Experiments, and Live Operations
+
+24. 24. Security, Anti-Cheat, and Abuse Prevention
+
+25. 25. Safety, Moderation, and Policy
+
+26. 26. Performance and Optimization
+
+27. 27. Testing, Debugging, and Quality Assurance
+
+28. 28. Plugins, Tools, and Creator Automation
+
+29. 29. Packages, Collaboration, and Source Control
+
+30. 30. CI/CD, Publishing, and Release Engineering
+
+31. 31. Open Cloud, Web APIs, and External Services
+
+32. 32. Discovery, Marketing, and Creator Business
+
+33. 33. Genre Production Kits
+
+34. 34. Documentation, Education, and Support
+
+1. Roblox Studio Foundations
+
+1. Skill Name: Studio Project Bootstrapper
+
+Description: Creates a clean Roblox Studio project structure with named folders, starter scripts, configuration modules, collision groups, tags, and environment settings suitable for team development.
+
+2. Skill Name: Explorer Hierarchy Architect
+
+Description: Designs and audits the DataModel hierarchy across Workspace, ReplicatedStorage, ServerStorage, ServerScriptService, StarterPlayer, StarterGui, Lighting, SoundService, and related services.
+
+3. Skill Name: Property Configuration Specialist
+
+Description: Selects safe, performance-aware Instance properties and explains how property changes affect replication, physics, rendering, input, and gameplay.
+
+4. Skill Name: Template and Place Generator
+
+Description: Builds reusable place templates for lobbies, rounds, worlds, test maps, social spaces, obbies, simulators, tycoons, and narrative experiences.
+
+5. Skill Name: Studio Settings Auditor
+
+Description: Reviews game, place, security, streaming, avatar, physics, and publishing settings for conflicts, unsafe defaults, or missing production configuration.
+
+6. Skill Name: Object Insertion and Wiring
+
+Description: Adds Instances and connects references, attributes, CollectionService tags, events, constraints, and scripts without leaving broken dependencies.
+
+7. Skill Name: Multi-Place Universe Planner
+
+Description: Plans universes with multiple places, teleport routes, reserved servers, shared data, access rules, and graceful return paths.
+
+8. Skill Name: Team Create Workflow Designer
+
+Description: Defines collaboration conventions for Team Create, ownership boundaries, script locations, naming, review, and conflict reduction.
+
+9. Skill Name: Studio Productivity Automator
+
+Description: Automates repetitive Studio work through command-bar utilities, plugins, selection tools, batch edits, and validation scripts.
+
+10. Skill Name: Experience Configuration Manager
+
+Description: Maintains experience metadata, icons, thumbnails, permissions, localization, supported devices, private servers, and release settings.
+
+2. Instances, Objects, and DataModel
+
+1. Skill Name: Instance API Navigator
+
+Description: Finds appropriate Roblox classes, properties, methods, events, callbacks, inheritance relationships, and service access patterns for a requested feature.
+
+2. Skill Name: Object Factory Builder
+
+Description: Creates configurable object factories for Parts, Models, Attachments, GUI objects, effects, sounds, constraints, and gameplay entities.
+
+3. Skill Name: Attribute Schema Designer
+
+Description: Defines typed attribute conventions for tunable object state, designer settings, runtime flags, versioning, and debugging.
+
+4. Skill Name: CollectionService Tag Architect
+
+Description: Uses tags to discover, initialize, update, and clean up groups of objects without fragile hierarchy searches.
+
+5. Skill Name: Object Lifecycle Manager
+
+Description: Controls creation, parenting, activation, pooling, cleanup, destruction, and reconnection of runtime Instances.
+
+6. Skill Name: Clone and Template Safety Auditor
+
+Description: Prevents duplicate scripts, stale references, accidental Archivable behavior, and unsafe cloning of stateful objects.
+
+7. Skill Name: Reference Resolver
+
+Description: Builds robust dependency lookup using WaitForChild timeouts, tags, attributes, ObjectValues, exported references, and explicit initialization.
+
+8. Skill Name: Pivot and Model Coordinator
+
+Description: Handles Model pivots, PrimaryPart alternatives, bounding boxes, world transforms, placement previews, and grouped movement.
+
+9. Skill Name: Folder and Container Organizer
+
+Description: Creates a predictable container taxonomy for remotes, assets, modules, maps, NPCs, tools, effects, and temporary objects.
+
+10. Skill Name: Object Diff and Migration Tool
+
+Description: Compares object trees or template versions and produces safe migrations for renamed instances, changed properties, and updated schemas.
+
+3. Luau Programming and Architecture
+
+1. Skill Name: Luau Code Generator
+
+Description: Produces idiomatic Luau with clear types, guarded inputs, deterministic behavior, and Roblox-compatible APIs.
+
+2. Skill Name: Strict Type System Specialist
+
+Description: Adds --!strict typing, exported types, generics, unions, intersections, type guards, and typed module interfaces.
+
+3. Skill Name: ModuleScript API Designer
+
+Description: Creates small, composable ModuleScripts with explicit ownership, initialization, teardown, and dependency boundaries.
+
+4. Skill Name: Object-Oriented Luau Builder
+
+Description: Implements class-like patterns with metatables, constructors, inheritance alternatives, composition, and typed methods.
+
+5. Skill Name: Functional Luau Designer
+
+Description: Uses pure functions, immutable transformations, table utilities, reducers, and data-oriented pipelines where they improve reliability.
+
+6. Skill Name: Async Task and Promise Architect
+
+Description: Designs cancellable asynchronous workflows around task scheduling, signals, timeouts, retries, and optional promise libraries.
+
+7. Skill Name: State Machine Engineer
+
+Description: Creates finite, hierarchical, or event-driven state machines for rounds, NPCs, UI, tools, quests, and player flows.
+
+8. Skill Name: Signal and Event Bus Designer
+
+Description: Builds typed signals and scoped event buses while avoiding connection leaks, hidden coupling, and recursive event storms.
+
+9. Skill Name: Dependency Injection Planner
+
+Description: Separates services and modules through explicit dependencies, test doubles, interfaces, and predictable startup order.
+
+10. Skill Name: Luau Refactoring Specialist
+
+Description: Reorganizes large scripts, removes duplication, names concepts clearly, isolates side effects, and preserves behavior through focused tests.
+
+4. Client-Server Networking and Remotes
+
+1. Skill Name: RemoteEvent Contract Designer
+
+Description: Defines typed client-server messages, direction, payload schemas, rate expectations, authorization, and error behavior.
+
+2. Skill Name: RemoteFunction Risk Auditor
+
+Description: Identifies yield, timeout, trust, and deadlock risks in synchronous remoting and recommends safer request-response patterns.
+
+3. Skill Name: Server Authority Architect
+
+Description: Moves critical decisions to the server and treats client input as an untrusted request rather than confirmed game state.
+
+4. Skill Name: Network Payload Optimizer
+
+Description: Reduces remote frequency and payload size through batching, delta updates, compression-friendly schemas, and relevance filtering.
+
+5. Skill Name: Prediction and Reconciliation Designer
+
+Description: Creates responsive client prediction with server validation, correction, smoothing, and tolerance rules.
+
+6. Skill Name: Replication Boundary Planner
+
+Description: Determines what belongs in replicated containers, server-only storage, client-only state, or streamed regions.
+
+7. Skill Name: Remote Rate Limiter
+
+Description: Implements token buckets, cooldowns, per-action budgets, burst handling, and security logging for player requests.
+
+8. Skill Name: Network Ownership Specialist
+
+Description: Assigns and validates physics network ownership for vehicles, projectiles, characters, and movable assemblies.
+
+9. Skill Name: Cross-Server Messaging Designer
+
+Description: Coordinates live servers through MessagingService topics, idempotent handlers, expiry, and failure-tolerant processing.
+
+10. Skill Name: Protocol Versioning Manager
+
+Description: Versions remote contracts and introduces backward-compatible message migration for staged client and server releases.
+
+5. Data Persistence and Player Profiles
+
+1. Skill Name: DataStore Schema Architect
+
+Description: Designs durable player and world data schemas with defaults, version fields, normalization, and forward migrations.
+
+2. Skill Name: Profile Session Lock Manager
+
+Description: Prevents duplicate server ownership of the same player profile and handles takeover, timeout, shutdown, and recovery safely.
+
+3. Skill Name: DataStore Budget Coordinator
+
+Description: Schedules reads and writes around request budgets, queues, shutdown limits, retries, and backoff.
+
+4. Skill Name: Atomic Update Specialist
+
+Description: Uses UpdateAsync-style transformations to prevent lost updates and enforce invariants under concurrent writes.
+
+5. Skill Name: Ordered Leaderboard Data Designer
+
+Description: Stores and retrieves sortable numeric rankings with paging, tie handling, season keys, and display caching.
+
+6. Skill Name: MemoryStore Queue Engineer
+
+Description: Builds temporary queues and matchmaking pipelines using expiry, invisibility windows, retries, and idempotency.
+
+7. Skill Name: MemoryStore Sorted Map Specialist
+
+Description: Implements fast ephemeral rankings, reservations, leases, and server registries with bounded lifetime.
+
+8. Skill Name: Data Migration Runner
+
+Description: Applies resumable, observable migrations across player schemas while preserving backups and handling partial failures.
+
+9. Skill Name: Save Failure Recovery Designer
+
+Description: Handles unavailable services, exhausted retries, player exit, BindToClose, reconciliation, and user-facing recovery states.
+
+10. Skill Name: Privacy-Aware Data Retention Planner
+
+Description: Minimizes stored personal data, separates operational identifiers, and supports deletion, export, and retention workflows.
+
+6. Avatar, Character, and Rig Creation
+
+1. Skill Name: Avatar Body Modeler
+
+Description: Plans Roblox-compatible body geometry, proportions, topology, naming, scale, and import preparation for avatar bodies.
+
+2. Skill Name: R15 Rig Builder
+
+Description: Creates and validates R15-compatible parts, joints, attachments, hierarchy, humanoid configuration, and animation readiness.
+
+3. Skill Name: Custom Character Controller
+
+Description: Builds nonstandard playable characters while preserving movement, camera, input, animation, health, and replication behavior.
+
+4. Skill Name: HumanoidDescription Specialist
+
+Description: Applies body colors, scales, clothing, accessories, animations, emotes, and bundles through HumanoidDescription workflows.
+
+5. Skill Name: Dynamic Head Creator
+
+Description: Prepares facial rigs, poses, masks, skinning, and expression-compatible assets for dynamic heads.
+
+6. Skill Name: Avatar Auto-Setup Operator
+
+Description: Uses avatar setup and validation workflows to convert imported meshes into functional Roblox avatar assets.
+
+7. Skill Name: Automatic Skinning Transfer Specialist
+
+Description: Transfers skinning to compatible clothing or body assets and diagnoses deformation around joints.
+
+8. Skill Name: Avatar Import Validator
+
+Description: Checks hierarchy, mesh integrity, scale, cage data, attachments, skin weights, textures, and naming before upload.
+
+9. Skill Name: NPC Rig Generator
+
+Description: Creates humanoid or AnimationController-based NPC rigs with collision, navigation, animation, and interaction hooks.
+
+10. Skill Name: Avatar Preview and Fitting Tool
+
+Description: Builds in-experience preview, try-on, camera framing, outfit comparison, and fit validation interfaces.
+
+7. Clothing, Accessories, and Marketplace Assets
+
+1. Skill Name: Classic Clothing Designer
+
+Description: Creates and validates classic shirts, pants, and T-shirts using correct templates, seams, transparency, and preview workflows.
+
+2. Skill Name: Layered Clothing Modeler
+
+Description: Builds layered garments with inner and outer cages, skinning, deformation testing, and multi-body fit checks.
+
+3. Skill Name: Rigid Accessory Creator
+
+Description: Creates hats, hair, glasses, shoulder items, back items, waist items, and other rigid accessories with correct attachments.
+
+4. Skill Name: Accessory Fitting Specialist
+
+Description: Uses fitting tools and attachment adjustments to correct position, orientation, scale, and cross-avatar compatibility.
+
+5. Skill Name: Cage Debugging Specialist
+
+Description: Diagnoses cage intersections, inflation, clipping, wrapping, and deformation problems in layered accessories.
+
+6. Skill Name: Texture and Surface Author
+
+Description: Creates efficient color, normal, roughness, metalness, and opacity textures with consistent UV use.
+
+7. Skill Name: Marketplace Compliance Preflight
+
+Description: Checks asset type, geometry, metadata, thumbnails, technical limits, and policy-sensitive content before submission.
+
+8. Skill Name: Asset Thumbnail Director
+
+Description: Plans readable catalog thumbnails, neutral posing, camera framing, lighting, and asset-focused presentation.
+
+9. Skill Name: Outfit and Bundle Composer
+
+Description: Combines bodies, clothing, accessories, animations, and presentation into coherent avatar collections.
+
+10. Skill Name: In-Experience Avatar Item Creator
+
+Description: Designs platform-supported flows for players to create, preview, validate, save, and optionally publish avatar items.
+
+8. Animation, Emotes, and Cinematics
+
+1. Skill Name: Animation Editor Operator
+
+Description: Creates keyframed character and object animations with clean timing, easing, loop behavior, and export settings.
+
+2. Skill Name: Animation Rigging Specialist
+
+Description: Builds Motor6D, bone, attachment, and control setups that animate predictably at runtime.
+
+3. Skill Name: Animator Runtime Engineer
+
+Description: Loads, prioritizes, blends, stops, and cleans AnimationTracks across humanoids and AnimationControllers.
+
+4. Skill Name: Procedural Animation Designer
+
+Description: Adds runtime look-at, recoil, sway, foot placement, leaning, and secondary motion on top of authored tracks.
+
+5. Skill Name: Inverse Kinematics Specialist
+
+Description: Configures IK controls and targets for hands, feet, aiming, climbing, interaction, and constrained posing.
+
+6. Skill Name: Facial Animation Director
+
+Description: Coordinates facial poses, lip sync, expressions, and performance capture with body animation.
+
+7. Skill Name: Emote System Builder
+
+Description: Creates emote wheels, ownership checks, playback rules, cancellation, camera behavior, and social synchronization.
+
+8. Skill Name: Cutscene Sequencer
+
+Description: Coordinates cameras, character animation, dialogue, effects, audio, UI, skip logic, and multiplayer state.
+
+9. Skill Name: Animation Retargeting Specialist
+
+Description: Adapts animations between compatible rigs while correcting proportions, joint orientation, and contact points.
+
+10. Skill Name: Animation Optimization Auditor
+
+Description: Finds excess tracks, conflicting priorities, replication waste, keyframe density, and lifecycle leaks.
+
+9. 3D Modeling, Meshes, and Content Pipeline
+
+1. Skill Name: Mesh Asset Pipeline Designer
+
+Description: Defines export, import, naming, scale, pivot, material, texture, collision, LOD, and versioning conventions.
+
+2. Skill Name: Blender-to-Roblox Specialist
+
+Description: Prepares Blender scenes for Roblox using clean transforms, topology, UVs, armatures, materials, and FBX or supported interchange.
+
+3. Skill Name: Maya-to-Roblox Specialist
+
+Description: Prepares Maya models, rigs, skin weights, animation clips, units, and export settings for Roblox import.
+
+4. Skill Name: Topology and Poly Budget Auditor
+
+Description: Reviews silhouette, deformation loops, hidden geometry, triangle cost, and mobile-friendly asset density.
+
+5. Skill Name: UV Unwrap Planner
+
+Description: Creates efficient UV layouts with consistent texel density, minimal distortion, padding, and reusable materials.
+
+6. Skill Name: PBR Material Author
+
+Description: Builds SurfaceAppearance-ready maps and tunes physically based results under Roblox lighting.
+
+7. Skill Name: Collision Mesh Designer
+
+Description: Creates accurate or simplified collision strategies using primitives, decomposition, CanCollide groups, and query settings.
+
+8. Skill Name: LOD and Impostor Planner
+
+Description: Designs distance-aware model variants and visual substitutes to reduce render cost in large worlds.
+
+9. Skill Name: Mesh Deformation Debugger
+
+Description: Diagnoses bad normals, incorrect weights, bone transforms, scale, bind pose, and runtime deformation artifacts.
+
+10. Skill Name: Asset Version and Dependency Manager
+
+Description: Tracks source files, imported assets, package versions, texture links, ownership, and downstream usage.
+
+10. World Building, Terrain, and Environment
+
+1. Skill Name: Biome World Generator
+
+Description: Designs procedural or authored biomes with terrain materials, elevation, vegetation, landmarks, and traversal goals.
+
+2. Skill Name: Terrain Sculpting Specialist
+
+Description: Uses terrain tools and scripts for mountains, caves, rivers, coastlines, erosion-like forms, and cleanup.
+
+3. Skill Name: Procedural Map Generator
+
+Description: Creates seeded rooms, roads, islands, dungeons, arenas, or resource fields with validation and replayable generation.
+
+4. Skill Name: Modular Environment Kit Designer
+
+Description: Builds grid-aware, pivot-consistent kits for walls, floors, roofs, props, and snap-based assembly.
+
+5. Skill Name: Lighting and Atmosphere Artist
+
+Description: Configures Lighting, Atmosphere, clouds, sky, color correction, bloom, depth of field, and time-of-day mood.
+
+6. Skill Name: Vegetation Placement System
+
+Description: Distributes trees, grass, rocks, and biome props with slope, density, spacing, and performance constraints.
+
+7. Skill Name: Water and Weather Designer
+
+Description: Creates water behavior, rain, snow, wind, lightning, fog, wetness cues, and synchronized ambience.
+
+8. Skill Name: Destruction and Rebuild System
+
+Description: Implements breakable environments with staged damage, debris control, server authority, and restoration.
+
+9. Skill Name: World Streaming Planner
+
+Description: Partitions large environments around StreamingEnabled, persistent regions, model streaming modes, and gameplay dependencies.
+
+10. Skill Name: Environmental Storytelling Designer
+
+Description: Uses layout, props, lighting, sound, signage, and traces of activity to communicate history and objectives.
+
+11. Physics, Constraints, and Vehicles
+
+1. Skill Name: Assembly Physics Engineer
+
+Description: Designs stable assemblies with correct mass, anchoring, center of mass, collision, and network ownership.
+
+2. Skill Name: Constraint System Builder
+
+Description: Configures hinges, springs, ropes, rods, prismatic constraints, aligners, motors, limits, and attachments.
+
+3. Skill Name: Vehicle Chassis Engineer
+
+Description: Builds cars and wheeled vehicles with suspension, steering, traction, braking, gearing, seats, and server checks.
+
+4. Skill Name: Aircraft Flight Model Designer
+
+Description: Creates arcade or simulation-style lift, drag, thrust, control surfaces, stabilization, and camera behavior.
+
+5. Skill Name: Boat and Buoyancy Engineer
+
+Description: Implements buoyancy, propulsion, steering, wave response, occupancy, and water interaction.
+
+6. Skill Name: Projectile Physics Specialist
+
+Description: Creates hitscan, raycast, ballistic, guided, bouncing, or area projectiles with authoritative hit validation.
+
+7. Skill Name: Ragdoll System Builder
+
+Description: Switches characters between animated and physical states using constraints, collision groups, recovery, and cleanup.
+
+8. Skill Name: Physics Stability Auditor
+
+Description: Finds tunneling, jitter, explosive constraints, excessive velocity, ownership churn, and solver-heavy assemblies.
+
+9. Skill Name: Interaction Physics Designer
+
+Description: Builds pushing, carrying, dragging, grabbing, stacking, and jointed interactive objects.
+
+10. Skill Name: Physics Test Harness
+
+Description: Creates repeatable scenarios for slopes, impacts, latency, ownership, extreme mass ratios, and server load.
+
+12. Player Movement, Camera, and Input
+
+1. Skill Name: Character Movement Controller
+
+Description: Builds walk, sprint, crouch, jump, dash, slide, vault, climb, swim, fly, or custom locomotion.
+
+2. Skill Name: Parkour System Designer
+
+Description: Combines ledge detection, mantling, wall runs, vaults, stamina, animation, and prediction into responsive traversal.
+
+3. Skill Name: Camera Controller Engineer
+
+Description: Creates first-person, third-person, shoulder, top-down, side-view, orbit, cinematic, and spectator cameras.
+
+4. Skill Name: Camera Collision Specialist
+
+Description: Prevents cameras entering walls while preserving composition, zoom, transparency, and comfort.
+
+5. Skill Name: Cross-Platform Input Mapper
+
+Description: Maps keyboard, mouse, touch, controller, and contextual actions through device-aware abstractions.
+
+6. Skill Name: Mobile Controls Designer
+
+Description: Creates touch controls with safe zones, scalable buttons, gesture handling, sensitivity, and thumb reach.
+
+7. Skill Name: Gamepad Navigation Specialist
+
+Description: Supports focus selection, prompts, rebinding, deadzones, and console-friendly menu navigation.
+
+8. Skill Name: VR Interaction Designer
+
+Description: Plans comfortable VR locomotion, hand interaction, world-space UI, scale, and motion-sickness safeguards.
+
+9. Skill Name: Accessibility Controls Builder
+
+Description: Adds remapping, hold-versus-toggle options, sensitivity, camera shake controls, and motor-friendly alternatives.
+
+10. Skill Name: Movement Anti-Cheat Validator
+
+Description: Checks impossible speed, teleport, flight, acceleration, cooldown, and state transitions without punishing normal latency.
+
+13. User Interface and Experience Design
+
+1. Skill Name: ScreenGui Layout Architect
+
+Description: Builds responsive UI with anchors, scale, offsets, constraints, safe areas, and reusable components.
+
+2. Skill Name: Design System Builder
+
+Description: Defines color, typography, spacing, iconography, components, states, tokens, and accessibility rules.
+
+3. Skill Name: HUD Designer
+
+Description: Creates clear health, resources, objectives, cooldowns, navigation, and status feedback without obstructing play.
+
+4. Skill Name: Menu Flow Architect
+
+Description: Designs title, lobby, inventory, store, settings, matchmaking, results, and return navigation flows.
+
+5. Skill Name: Inventory UI Builder
+
+Description: Implements grid, list, search, filter, sort, compare, equip, favorite, and drag interactions for item collections.
+
+6. Skill Name: World-Space UI Specialist
+
+Description: Uses SurfaceGui, BillboardGui, adornee tracking, visibility rules, distance scaling, and occlusion-aware presentation.
+
+7. Skill Name: UI Animation and Microinteraction Designer
+
+Description: Adds purposeful transitions, hover, press, loading, success, error, reward, and attention cues.
+
+8. Skill Name: Responsive Device Adapter
+
+Description: Adapts one interface to phone, tablet, desktop, console, and varied aspect ratios without overlapping controls.
+
+9. Skill Name: UI State Management Engineer
+
+Description: Separates view state, server data, navigation, async loading, optimistic updates, and cleanup.
+
+10. Skill Name: Usability Review Specialist
+
+Description: Audits hierarchy, readability, task steps, feedback, error recovery, touch targets, and cognitive load.
+
+14. Accessibility, Localization, and Inclusivity
+
+1. Skill Name: Localization Table Manager
+
+Description: Extracts, organizes, translates, reviews, and updates interface and content strings through localization tables.
+
+2. Skill Name: Context-Aware Translation Designer
+
+Description: Adds translator notes, placeholders, grammatical context, plural handling, and length expectations.
+
+3. Skill Name: Right-to-Left UI Adapter
+
+Description: Plans mirrored layout, alignment, icon direction, mixed-script display, and testing for right-to-left languages.
+
+4. Skill Name: Color Accessibility Auditor
+
+Description: Checks contrast, color-only meaning, color vision deficiencies, outlined text, and effect visibility.
+
+5. Skill Name: Subtitle and Caption System
+
+Description: Creates timed captions for dialogue, sound cues, speaker identity, readability, and player preferences.
+
+6. Skill Name: Screen Reader Semantics Planner
+
+Description: Structures labels, descriptions, order, focus, and status communication for accessible interfaces.
+
+7. Skill Name: Photosensitivity Safety Reviewer
+
+Description: Identifies rapid flashing, high-contrast pulses, strobing effects, and provides reduced-effects alternatives.
+
+8. Skill Name: Reduced Motion Mode Builder
+
+Description: Disables or softens camera shake, parallax, large transitions, motion blur, and repetitive movement.
+
+9. Skill Name: Cognitive Accessibility Designer
+
+Description: Improves plain language, predictable navigation, reminders, pacing, tutorials, and error recovery.
+
+10. Skill Name: Inclusive Avatar and Social UX Reviewer
+
+Description: Reviews body, clothing, identity, communication, and moderation flows for respectful player choice.
+
+15. Audio, Voice, and Music
+
+1. Skill Name: Soundscape Designer
+
+Description: Builds layered ambience, one-shots, loops, zones, transitions, occlusion cues, and environmental variation.
+
+2. Skill Name: SFX Implementation Specialist
+
+Description: Connects gameplay events to pooled, randomized, distance-aware sounds with volume and pitch discipline.
+
+3. Skill Name: Music State System
+
+Description: Transitions music by location, danger, round phase, narrative beat, or player state without abrupt cuts.
+
+4. Skill Name: 3D Audio Spatialization Designer
+
+Description: Tunes emitter size, rolloff, listener context, occlusion approximations, and spatial clarity.
+
+5. Skill Name: Voice Chat Integration Planner
+
+Description: Designs spatial voice use, eligibility handling, UI status, mute controls, safety, and non-voice alternatives.
+
+6. Skill Name: Audio Asset Pipeline Manager
+
+Description: Organizes source, edit, loudness, looping, metadata, ownership, upload, and replacement workflows.
+
+7. Skill Name: Adaptive Footstep System
+
+Description: Selects footsteps by terrain material, movement state, character type, speed, and local acoustics.
+
+8. Skill Name: Dialogue Playback Manager
+
+Description: Coordinates voice lines, subtitles, interruption, priority, localization, and replay.
+
+9. Skill Name: Audio Performance Auditor
+
+Description: Finds excessive concurrent sounds, long assets, unused instances, loudness imbalance, and streaming problems.
+
+10. Skill Name: Creator Music Compliance Reviewer
+
+Description: Tracks licenses, permitted uses, attribution, ownership, and replacement plans for music assets.
+
+16. Visual Effects, Lighting, and Rendering
+
+1. Skill Name: Particle Effect Designer
+
+Description: Builds readable particles for impacts, magic, weather, ambience, rewards, and movement with bounded emission cost.
+
+2. Skill Name: Beam and Trail Specialist
+
+Description: Creates beams and trails with attachments, curves, texture flow, width, lifetime, and gameplay readability.
+
+3. Skill Name: Post-Processing Director
+
+Description: Uses bloom, blur, depth of field, color correction, sun rays, and atmosphere without harming clarity.
+
+4. Skill Name: Combat VFX Choreographer
+
+Description: Coordinates anticipation, hit confirmation, area boundaries, damage timing, screen effects, and cleanup.
+
+5. Skill Name: Material and Surface Stylist
+
+Description: Selects materials, textures, reflectance, PBR response, and palette for a coherent visual language.
+
+6. Skill Name: Day-Night Cycle Engineer
+
+Description: Animates time, sun, moon, lighting, atmosphere, ambience, NPC schedules, and gameplay rules.
+
+7. Skill Name: VFX Pooling Manager
+
+Description: Reuses effect objects and safely resets emitters, attachments, sounds, tweens, and delayed cleanup.
+
+8. Skill Name: Render Cost Auditor
+
+Description: Reviews transparency, particles, lights, shadows, mesh complexity, overdraw, and view distance.
+
+9. Skill Name: Quality-Level Adapter
+
+Description: Scales effects, shadows, detail, particles, and post-processing according to device capability and user settings.
+
+10. Skill Name: Screenshot and Trailer Scene Director
+
+Description: Builds polished in-engine scenes for thumbnails, promotional captures, and cinematic footage.
+
+17. Gameplay Systems and Core Loops
+
+1. Skill Name: Core Loop Designer
+
+Description: Defines repeatable player actions, feedback, rewards, rising challenge, session goals, and long-term motivation.
+
+2. Skill Name: Round System Engineer
+
+Description: Implements intermission, map selection, player assignment, countdown, active play, results, rewards, and recovery.
+
+3. Skill Name: Checkpoint and Respawn System
+
+Description: Creates checkpoints, lives, spawn selection, state restoration, invulnerability, and anti-abuse rules.
+
+4. Skill Name: Quest System Architect
+
+Description: Models objectives, prerequisites, progress, branching, rewards, persistence, tracking, and localization.
+
+5. Skill Name: Inventory and Equipment Backend
+
+Description: Manages item ownership, stacks, slots, durability, loadouts, validation, and synchronization.
+
+6. Skill Name: Crafting System Designer
+
+Description: Defines recipes, stations, ingredients, discovery, queues, success rules, and server-authoritative outputs.
+
+7. Skill Name: Building and Placement System
+
+Description: Creates previews, grid snapping, rotation, collision checks, cost validation, ownership, and persistence.
+
+8. Skill Name: Interaction Framework
+
+Description: Standardizes prompts, distance, line of sight, hold duration, permissions, animation, and callbacks.
+
+9. Skill Name: Progression System Designer
+
+Description: Builds levels, mastery, unlocks, prestige, skill trees, milestones, and catch-up mechanics.
+
+10. Skill Name: Tutorial and Onboarding Builder
+
+Description: Guides first-time players through short, interactive steps with detection, recovery, and skip-safe design.
+
+18. Combat, Weapons, and Abilities
+
+1. Skill Name: Melee Combat Engineer
+
+Description: Implements attacks, combos, hitboxes, blocking, parrying, stamina, animation windows, and authoritative damage.
+
+2. Skill Name: Ranged Weapon System
+
+Description: Builds aiming, recoil, spread, reload, ammunition, projectile or raycast hits, and server validation.
+
+3. Skill Name: Ability Framework Designer
+
+Description: Creates reusable abilities with targeting, cooldowns, costs, casting, interruption, effects, and replication.
+
+4. Skill Name: Damage and Health Modeler
+
+Description: Defines damage types, armor, shields, resistances, critical hits, healing, assists, and death attribution.
+
+5. Skill Name: Hit Detection Specialist
+
+Description: Chooses raycasts, shapecasts, spatial queries, server rewinds, or hybrid hitboxes for the combat style.
+
+6. Skill Name: Status Effect System
+
+Description: Manages buffs, debuffs, stacking, duration, cleansing, immunity, visualization, and persistence rules.
+
+7. Skill Name: Combat Targeting Designer
+
+Description: Builds lock-on, aim assist, target priority, line-of-sight, team filters, and accessibility options.
+
+8. Skill Name: Boss Encounter Scripter
+
+Description: Creates telegraphed phases, patterns, adds, arena hazards, fail recovery, scaling, and rewards.
+
+9. Skill Name: PvP Balance Analyst
+
+Description: Evaluates time-to-defeat, range, mobility, cooldowns, counters, team composition, and skill expression.
+
+10. Skill Name: Combat Exploit Auditor
+
+Description: Validates fire rate, ammunition, range, hit claims, cooldowns, state, team, and impossible damage patterns.
+
+19. NPCs, AI, and Pathfinding
+
+1. Skill Name: NPC Behavior Tree Designer
+
+Description: Builds reusable selectors, sequences, conditions, actions, cooldowns, and fallback behavior.
+
+2. Skill Name: PathfindingService Specialist
+
+Description: Computes, follows, repairs, and throttles paths with agent parameters, waypoint actions, and stuck recovery.
+
+3. Skill Name: Perception System Engineer
+
+Description: Implements vision cones, hearing, line of sight, memory, suspicion, faction, and target selection.
+
+4. Skill Name: NPC Combat AI
+
+Description: Coordinates positioning, attacks, cover, retreat, support actions, telegraphs, and difficulty scaling.
+
+5. Skill Name: Crowd Simulation Planner
+
+Description: Manages many agents with simplified updates, local avoidance, region activation, and animation budgets.
+
+6. Skill Name: Companion AI Builder
+
+Description: Creates follow, assist, wait, teleport catch-up, command, inventory, and ownership behavior.
+
+7. Skill Name: Dialogue NPC System
+
+Description: Combines proximity, conversation trees, quests, shops, expressions, voice, and persistence.
+
+8. Skill Name: Utility AI Designer
+
+Description: Scores possible actions from context and selects behavior based on dynamic needs and priorities.
+
+9. Skill Name: AI Director
+
+Description: Adjusts encounters, pacing, spawns, resources, and pressure according to team state and session progress.
+
+10. Skill Name: NPC Debug Visualization
+
+Description: Displays paths, targets, state, perception, decisions, cooldowns, and performance for diagnosis.
+
+20. Social, Chat, Parties, and Community
+
+1. Skill Name: TextChatService Integrator
+
+Description: Configures channels, commands, message formatting, filtering-safe display, permissions, and system messages.
+
+2. Skill Name: Party System Architect
+
+Description: Builds invites, membership, leaders, readiness, cross-server travel, recovery, and privacy controls.
+
+3. Skill Name: Friends and Join Flow Designer
+
+Description: Creates social join, follow, server selection, teleport, and fallback experiences.
+
+4. Skill Name: Guild and Clan System
+
+Description: Implements membership, roles, permissions, shared progression, announcements, logs, and moderation.
+
+5. Skill Name: Trading System Engineer
+
+Description: Builds two-sided offers, confirmation, inventory locks, cancellation, atomic exchange, and abuse logging.
+
+6. Skill Name: Social Deduction Framework
+
+Description: Handles hidden roles, private information, voting, phases, elimination, reconnect, and anti-collusion constraints.
+
+7. Skill Name: Player Reputation System
+
+Description: Aggregates positive and negative signals with decay, appeals, safeguards, and limited surface exposure.
+
+8. Skill Name: Community Event Orchestrator
+
+Description: Runs scheduled goals, global progress, server contributions, rewards, announcements, and late joining.
+
+9. Skill Name: Safe User-Generated Text Workflow
+
+Description: Routes player text through platform filtering and designs safe display, reporting, and fallback behavior.
+
+10. Skill Name: Invite and Referral Experience
+
+Description: Creates invitation prompts, attribution, reward eligibility, fraud checks, and recipient-friendly onboarding.
+
+21. Matchmaking, Teleportation, and Servers
+
+1. Skill Name: Matchmaking Queue Designer
+
+Description: Groups players by mode, region, skill, party, latency, and wait time using temporary queue state.
+
+2. Skill Name: Skill Rating System
+
+Description: Implements Elo-like, Glicko-like, or custom ratings with uncertainty, placement, decay, and team adjustment.
+
+3. Skill Name: TeleportService Workflow Engineer
+
+Description: Handles public, reserved, and specific-server teleports with data, retries, failure UI, and return routes.
+
+4. Skill Name: Reserved Server Coordinator
+
+Description: Creates and manages private match servers, access codes, party assignment, and orphan recovery.
+
+5. Skill Name: Server Browser Builder
+
+Description: Publishes server metadata and lets players filter, inspect, join, and handle stale listings.
+
+6. Skill Name: Region and Latency Matcher
+
+Description: Uses available regional and latency signals to reduce poor connections while respecting party cohesion.
+
+7. Skill Name: Server Lifecycle Manager
+
+Description: Controls startup readiness, player admission, draining, shutdown saves, migration, and maintenance messages.
+
+8. Skill Name: Reconnect and Session Recovery
+
+Description: Restores players after disconnects using session tokens, reserved destinations, state snapshots, and expiry.
+
+9. Skill Name: Cross-Server Global State
+
+Description: Coordinates rotations, boss status, announcements, and live operations with idempotent messaging.
+
+10. Skill Name: Match Integrity Auditor
+
+Description: Checks team balance, duplicate entries, queue manipulation, abandoned matches, and result submission.
+
+22. Economy, Monetization, and Commerce
+
+1. Skill Name: Virtual Economy Designer
+
+Description: Models currency sources, sinks, balances, inflation, progression, exchange boundaries, and abuse resistance.
+
+2. Skill Name: MarketplaceService Purchase Handler
+
+Description: Implements safe prompts, receipt processing, duplicate protection, retries, grants, and purchase UI.
+
+3. Skill Name: Developer Product System
+
+Description: Designs repeatable purchases with idempotent receipt grants and clear delivery confirmation.
+
+4. Skill Name: Game Pass Entitlement Manager
+
+Description: Checks ownership, grants permanent benefits, handles delayed updates, and avoids client-trusted entitlement.
+
+5. Skill Name: Subscription Benefit Designer
+
+Description: Plans recurring benefits, entitlement checks, grace behavior, clear value, and non-punitive cancellation effects.
+
+6. Skill Name: Dynamic Pricing Experiment Planner
+
+Description: Tests price and offer presentation with controlled cohorts, guardrails, and business metrics.
+
+7. Skill Name: Shop and Offer UI Builder
+
+Description: Creates browsable, transparent storefronts with previews, comparisons, ownership state, and purchase recovery.
+
+8. Skill Name: Reward Calendar Designer
+
+Description: Builds daily and streak rewards with timezone rules, missed-day policy, anti-clock abuse, and catch-up design.
+
+9. Skill Name: Loot and Drop Table Engineer
+
+Description: Defines weighted rewards, pity systems, guarantees, duplicates, disclosure, and simulation-based balance checks.
+
+10. Skill Name: Economy Telemetry Analyst
+
+Description: Tracks earning, spending, balances, conversion, item flow, cohort inflation, and suspicious transactions.
+
+23. Analytics, Experiments, and Live Operations
+
+1. Skill Name: Analytics Event Taxonomy Designer
+
+Description: Defines consistent event names, properties, identifiers, funnels, outcomes, and privacy-aware collection.
+
+2. Skill Name: Funnel Analysis Builder
+
+Description: Measures onboarding, matchmaking, purchase, quest, and return funnels with clear entry and completion rules.
+
+3. Skill Name: Retention Cohort Analyst
+
+Description: Examines new-player and returning-player retention by acquisition date, device, region, and experience version.
+
+4. Skill Name: Experiment Design Specialist
+
+Description: Creates hypotheses, variants, assignment, success metrics, guardrails, duration, and interpretation plans.
+
+5. Skill Name: Feature Flag Manager
+
+Description: Controls staged rollout, targeting, kill switches, defaults, expiry, and auditability for live features.
+
+6. Skill Name: Live Event Scheduler
+
+Description: Coordinates start and end times, content activation, announcements, rewards, server compatibility, and rollback.
+
+7. Skill Name: Remote Configuration Designer
+
+Description: Moves safe tuning values into validated configuration that can change without code duplication.
+
+8. Skill Name: KPI Dashboard Planner
+
+Description: Defines actionable dashboards for engagement, retention, conversion, stability, performance, and moderation.
+
+9. Skill Name: Anomaly Detection Operator
+
+Description: Flags unexpected changes in errors, economy flow, purchases, matchmaking, retention, or server health.
+
+10. Skill Name: Post-Launch Review Analyst
+
+Description: Compares intended and observed outcomes, segments results, identifies regressions, and produces prioritized follow-up.
+
+24. Security, Anti-Cheat, and Abuse Prevention
+
+1. Skill Name: Threat Model Builder
+
+Description: Maps valuable assets, trust boundaries, attacker goals, entry points, detection, mitigation, and recovery.
+
+2. Skill Name: Server Validation Engineer
+
+Description: Validates type, range, ownership, proximity, state, timing, inventory, entitlement, and business rules.
+
+3. Skill Name: Remote Exploit Auditor
+
+Description: Reviews every remote for spoofing, spam, oversized payloads, unauthorized targets, and hidden client trust.
+
+4. Skill Name: Economy Fraud Detector
+
+Description: Finds impossible grants, duplicate receipts, trade duplication, rollback abuse, and suspicious currency flow.
+
+5. Skill Name: Movement Exploit Detector
+
+Description: Combines server movement checks, state context, latency tolerance, and escalating responses.
+
+6. Skill Name: Combat Cheat Detector
+
+Description: Identifies impossible aim, fire rate, hit rate, range, cooldown, or damage while limiting false positives.
+
+7. Skill Name: Secure Admin Command System
+
+Description: Restricts commands by server-verified identity and role, validates arguments, logs actions, and supports revocation.
+
+8. Skill Name: Secret and Credential Manager
+
+Description: Keeps API keys and secrets out of replicated scripts and uses platform-supported secret storage for cloud workflows.
+
+9. Skill Name: Abuse Logging and Evidence Pipeline
+
+Description: Records minimal, structured evidence for investigation without leaking sensitive internals to players.
+
+10. Skill Name: Incident Response Playbook
+
+Description: Defines detection, containment, feature shutdown, rollback, player communication, repair, and retrospective steps.
+
+25. Safety, Moderation, and Policy
+
+1. Skill Name: Experience Safety Reviewer
+
+Description: Reviews gameplay, social features, purchases, user content, and presentation for foreseeable player safety risks.
+
+2. Skill Name: Content Moderation Workflow Designer
+
+Description: Creates submission, automated checks, human review, rejection reasons, appeals, and removal paths.
+
+3. Skill Name: Reporting System Builder
+
+Description: Lets players report users, chat, creations, trades, or incidents with structured context and confirmation.
+
+4. Skill Name: Block and Mute Controls
+
+Description: Implements clear local controls around communication, invitations, visibility, and repeated contact.
+
+5. Skill Name: User-Generated Content Gatekeeper
+
+Description: Validates asset type, text, images, ownership, dimensions, limits, and moderation state before display.
+
+6. Skill Name: Age-Aware Feature Planner
+
+Description: Adapts communication, content, commerce, and social features to platform eligibility and policy constraints.
+
+7. Skill Name: Private Server Safety Designer
+
+Description: Preserves reporting, blocking, moderation, access control, and owner boundaries in private spaces.
+
+8. Skill Name: Policy Change Impact Auditor
+
+Description: Maps new Roblox rules or API changes to affected systems, assets, UI, data, and operational procedures.
+
+9. Skill Name: Creator Rights and IP Reviewer
+
+Description: Tracks ownership, permissions, licenses, trademarks, music rights, and takedown readiness for uploaded content.
+
+10. Skill Name: Safety UX Writer
+
+Description: Writes concise, non-accusatory warnings, errors, consent prompts, reporting steps, and appeal messages.
+
+26. Performance and Optimization
+
+1. Skill Name: MicroProfiler Performance Analyst
+
+Description: Uses profiling captures to locate expensive scripts, rendering, physics, networking, and frame spikes.
+
+2. Skill Name: Script Performance Optimizer
+
+Description: Reduces hot-loop work, allocations, repeated searches, connection growth, and unnecessary event traffic.
+
+3. Skill Name: Instance Count Auditor
+
+Description: Finds excessive objects, duplicated decorations, hidden geometry, stale effects, and avoidable runtime creation.
+
+4. Skill Name: Memory Leak Investigator
+
+Description: Tracks retained connections, tables, closures, Instances, animation tracks, sounds, and caches across repeated play.
+
+5. Skill Name: Rendering Optimization Specialist
+
+Description: Optimizes geometry, materials, transparency, lights, shadows, particles, and distance behavior.
+
+6. Skill Name: Physics Budget Optimizer
+
+Description: Reduces moving assemblies, active constraints, collision complexity, awake parts, and ownership churn.
+
+7. Skill Name: Network Bandwidth Analyst
+
+Description: Measures remote traffic, replication, physics updates, payload size, and update frequency.
+
+8. Skill Name: StreamingEnabled Optimizer
+
+Description: Tunes streaming targets, persistent content, atomic models, preload behavior, and scripts that tolerate missing regions.
+
+9. Skill Name: Mobile Performance Tuner
+
+Description: Targets memory, thermal load, controls, rendering, asset size, and frame stability on lower-end devices.
+
+10. Skill Name: Performance Regression Gate
+
+Description: Defines representative benchmarks and blocks releases when frame time, memory, load time, or network cost regresses.
+
+27. Testing, Debugging, and Quality Assurance
+
+1. Skill Name: TestService Unit Test Builder
+
+Description: Creates repeatable tests for modules, pure logic, validation, state transitions, and data migrations.
+
+2. Skill Name: Integration Test Harness
+
+Description: Tests connected client-server, persistence, teleport, purchase, matchmaking, and gameplay flows with controlled dependencies.
+
+3. Skill Name: Multiplayer Simulation Planner
+
+Description: Uses local servers and multiple clients to reproduce replication, ownership, race, and late-join failures.
+
+4. Skill Name: Bug Reproduction Specialist
+
+Description: Turns reports into minimal steps, expected versus actual behavior, environment details, and a repeatable failing case.
+
+5. Skill Name: Runtime Assertion Designer
+
+Description: Adds development-time invariants, type checks, state checks, and actionable failures without exposing internals to players.
+
+6. Skill Name: Edge Case Test Generator
+
+Description: Covers empty data, duplicate actions, disconnects, latency, timeouts, full inventories, missing assets, and shutdown.
+
+7. Skill Name: Regression Test Curator
+
+Description: Preserves tests for repaired bugs and runs them against future changes to prevent recurrence.
+
+8. Skill Name: Visual QA Checklist Builder
+
+Description: Checks UI scaling, clipping, text overflow, lighting, animation, effects, avatars, and device differences.
+
+9. Skill Name: Chaos and Failure Injection Tester
+
+Description: Simulates service failure, dropped messages, delayed responses, save errors, and partial initialization.
+
+10. Skill Name: Release Acceptance Tester
+
+Description: Executes a full player path from join through progression, purchase-safe flows, saving, reconnect, and exit.
+
+28. Plugins, Tools, and Creator Automation
+
+1. Skill Name: Studio Plugin Architect
+
+Description: Builds dock widgets, toolbars, selections, settings, undo support, permissions, and safe edit-mode automation.
+
+2. Skill Name: Custom Inspector Plugin
+
+Description: Creates specialized editors for attributes, tags, configs, dialogue, quests, maps, or gameplay data.
+
+3. Skill Name: Batch Property Editor
+
+Description: Applies validated property, tag, attribute, collision, naming, or material changes to many selected objects.
+
+4. Skill Name: Map Validation Plugin
+
+Description: Scans maps for missing spawns, invalid tags, blocked paths, oversized objects, unsafe scripts, and performance hazards.
+
+5. Skill Name: Asset Import Automation
+
+Description: Standardizes imported model placement, naming, material setup, collision, metadata, and source tracking.
+
+6. Skill Name: Code Generation Plugin
+
+Description: Generates typed ModuleScripts, service wrappers, remote contracts, data schemas, and tests from structured definitions.
+
+7. Skill Name: Localization Extraction Tool
+
+Description: Finds player-facing strings and prepares them for localization review and table updates.
+
+8. Skill Name: Content Browser Plugin
+
+Description: Indexes project assets, templates, packages, dependencies, ownership, and usage locations.
+
+9. Skill Name: Plugin Security Reviewer
+
+Description: Audits permissions, network access, code insertion, source trust, updates, and destructive actions.
+
+10. Skill Name: Creator Workflow CLI Designer
+
+Description: Builds external scripts for validation, file transformation, publishing support, and repeatable project checks.
+
+29. Packages, Collaboration, and Source Control
+
+1. Skill Name: Package Architecture Designer
+
+Description: Identifies reusable Roblox packages, ownership, configuration boundaries, update strategy, and dependency rules.
+
+2. Skill Name: Package Update Manager
+
+Description: Reviews linked source changes, safe updates, modified descendants, version notes, and rollback strategy.
+
+3. Skill Name: Rojo Project Architect
+
+Description: Maps filesystem source to Roblox containers with maintainable project configuration and clear generated-file boundaries.
+
+4. Skill Name: Git Workflow Designer
+
+Description: Defines branches, pull requests, reviews, code ownership, commits, tags, releases, and binary asset handling.
+
+5. Skill Name: Merge Conflict Resolver
+
+Description: Repairs script and project-file conflicts while preserving intended logic and Roblox hierarchy.
+
+6. Skill Name: Code Review Specialist
+
+Description: Reviews correctness, security, replication, performance, typing, API clarity, tests, and maintainability.
+
+7. Skill Name: Project Convention Enforcer
+
+Description: Applies naming, formatting, linting, directory, dependency, and documentation standards.
+
+8. Skill Name: Dependency License Auditor
+
+Description: Tracks third-party modules, plugin sources, licenses, notices, update risk, and replacement options.
+
+9. Skill Name: Team Ownership Mapper
+
+Description: Assigns code, art, UI, systems, data, releases, and incidents to clear maintainers and reviewers.
+
+10. Skill Name: Change Impact Analyzer
+
+Description: Finds affected scripts, assets, packages, remotes, data schemas, UI, and places before a modification ships.
+
+30. CI/CD, Publishing, and Release Engineering
+
+1. Skill Name: Automated Validation Pipeline
+
+Description: Runs formatting, linting, type checks, tests, asset checks, and project validation before release.
+
+2. Skill Name: Place Publishing Automator
+
+Description: Publishes approved place versions through supported creator workflows with environment and version safeguards.
+
+3. Skill Name: Asset API Integration Builder
+
+Description: Uses Roblox Open Cloud asset capabilities for supported uploads, updates, metadata, version inspection, and rollback workflows.
+
+4. Skill Name: Release Channel Manager
+
+Description: Separates development, staging, canary, and production configurations with controlled promotion.
+
+5. Skill Name: Canary Rollout Planner
+
+Description: Releases to a limited audience or server population, monitors guardrails, and expands or rolls back.
+
+6. Skill Name: Rollback and Recovery Engineer
+
+Description: Preserves known-good place, package, config, and data migration paths for rapid recovery.
+
+7. Skill Name: Release Notes Generator
+
+Description: Produces player-facing and team-facing notes from approved changes, fixes, known issues, and migration steps.
+
+8. Skill Name: Environment Configuration Manager
+
+Description: Separates identifiers, endpoints, feature flags, economy settings, and secrets across environments.
+
+9. Skill Name: Open Cloud Authentication Specialist
+
+Description: Configures API keys or supported OAuth flows, scopes, permissions, rotation, and least-privilege access.
+
+10. Skill Name: Deployment Verification Runner
+
+Description: Joins the published experience and verifies critical gameplay, remotes, assets, data, commerce, and telemetry.
+
+31. Open Cloud, Web APIs, and External Services
+
+1. Skill Name: Open Cloud API Client Builder
+
+Description: Generates resilient clients from Roblox OpenAPI descriptions with authentication, pagination, errors, and rate handling.
+
+2. Skill Name: Data Stores API Integrator
+
+Description: Builds authorized external tools to inspect or modify supported experience data with schema and concurrency safeguards.
+
+3. Skill Name: Universe and Place API Operator
+
+Description: Automates supported universe and place administration, publishing, metadata, and operational workflows.
+
+4. Skill Name: Messaging API Integrator
+
+Description: Publishes controlled external messages to live servers with topic conventions, validation, idempotency, and audit logs.
+
+5. Skill Name: Asset Management API Client
+
+Description: Uploads or updates supported assets, tracks operations, manages versions, and records ownership and metadata.
+
+6. Skill Name: Webhook Receiver Architect
+
+Description: Validates Roblox webhook events, prevents duplicate processing, stores delivery state, and retries internal work.
+
+7. Skill Name: OAuth Application Designer
+
+Description: Implements consent, redirect, token storage, scope selection, refresh, revocation, and user-facing permission clarity.
+
+8. Skill Name: Creator Operations Dashboard
+
+Description: Builds a secure web dashboard for releases, configuration, server health, content, and live operations.
+
+9. Skill Name: API Rate and Retry Manager
+
+Description: Handles quotas, backoff, jitter, idempotency, pagination, timeouts, and partial failures across cloud tools.
+
+10. Skill Name: External Service Boundary Reviewer
+
+Description: Evaluates privacy, latency, availability, credentials, cost, terms, and fallback when connecting outside Roblox.
+
+32. Discovery, Marketing, and Creator Business
+
+1. Skill Name: Experience Positioning Strategist
+
+Description: Defines audience, fantasy, differentiators, session promise, and recognizable visual identity for a Roblox experience.
+
+2. Skill Name: Icon and Thumbnail Brief Writer
+
+Description: Creates precise briefs for readable icons and thumbnails with subject, composition, contrast, mood, and variant goals.
+
+3. Skill Name: Experience Page Copywriter
+
+Description: Writes concise titles and descriptions that accurately communicate gameplay, audience, updates, and expectations.
+
+4. Skill Name: Discovery Funnel Optimizer
+
+Description: Analyzes impression, click, qualified play, onboarding, retention, and return behavior without misleading presentation.
+
+5. Skill Name: Update Campaign Planner
+
+Description: Coordinates content reveal, changelog, thumbnails, social posts, event timing, and in-experience messaging.
+
+6. Skill Name: Creator Community Manager
+
+Description: Plans feedback channels, moderation, announcements, playtests, issue triage, and respectful responses.
+
+7. Skill Name: Playtest Recruitment Planner
+
+Description: Selects representative player groups, test goals, session scripts, incentives, consent, and feedback capture.
+
+8. Skill Name: Creator Revenue Forecaster
+
+Description: Builds scenario-based estimates from audience, retention, conversion, pricing, platform dynamics, and uncertainty.
+
+9. Skill Name: Portfolio and Case Study Builder
+
+Description: Documents design goals, responsibilities, technical choices, visuals, outcomes, and lessons for creator portfolios.
+
+10. Skill Name: Brand Partnership Integration Designer
+
+Description: Plans authentic, policy-aware branded content with clear objectives, asset approvals, measurement, and player value.
+
+33. Genre Production Kits
+
+1. Skill Name: Obby Production Specialist
+
+Description: Builds checkpoints, hazards, moving platforms, timers, difficulty curves, respawn, skips, and mobile-friendly traversal.
+
+2. Skill Name: Tycoon System Specialist
+
+Description: Creates droppers, collectors, purchases, unlock trees, rebirth, persistence, plot assignment, and anti-theft rules.
+
+3. Skill Name: Simulator System Specialist
+
+Description: Builds action loops, capacity, selling, upgrades, pets, zones, rebirth, quests, and economy balancing.
+
+4. Skill Name: Roleplay World Specialist
+
+Description: Creates jobs, housing, vehicles, customization, social spaces, permissions, and safe player expression.
+
+5. Skill Name: Tower Defense Specialist
+
+Description: Implements path lanes, waves, enemies, towers, targeting, upgrades, status effects, rewards, and co-op scaling.
+
+6. Skill Name: Round-Based Survival Specialist
+
+Description: Builds map rotation, hazards, elimination, spectating, late joining, rewards, and short-session pacing.
+
+7. Skill Name: RPG Systems Specialist
+
+Description: Combines stats, classes, quests, loot, combat, NPCs, dungeons, parties, progression, and robust saving.
+
+8. Skill Name: Horror Experience Specialist
+
+Description: Designs tension, lighting, sound, pursuit, puzzles, checkpoints, accessibility, and multiplayer synchronization.
+
+9. Skill Name: Social Hangout Specialist
+
+Description: Creates expressive avatars, emotes, spaces, activities, voice-aware zones, props, moderation, and low-friction joining.
+
+10. Skill Name: Sandbox Building Specialist
+
+Description: Implements creative tools, permissions, undo, saving, discovery, moderation, limits, and collaborative construction.
+
+34. Documentation, Education, and Support
+
+1. Skill Name: Technical Design Document Writer
+
+Description: Produces implementable Roblox design documents with architecture, data, remotes, states, edge cases, and acceptance criteria.
+
+2. Skill Name: API Documentation Generator
+
+Description: Documents ModuleScripts, functions, parameters, return values, errors, types, ownership, examples, and lifecycle.
+
+3. Skill Name: Creator Tutorial Author
+
+Description: Creates step-by-step Studio and Luau tutorials with prerequisites, checks, troubleshooting, and extension tasks.
+
+4. Skill Name: Lua-to-Luau Learning Guide
+
+Description: Teaches Roblox-specific Luau types, tables, services, events, modules, client-server boundaries, and safe patterns.
+
+5. Skill Name: System Runbook Writer
+
+Description: Documents deployment, configuration, monitoring, common failures, recovery, ownership, and escalation.
+
+6. Skill Name: Player Help Center Writer
+
+Description: Creates clear support content for controls, accounts, save issues, purchases, safety, accessibility, and known problems.
+
+7. Skill Name: Error Message Designer
+
+Description: Writes actionable errors that explain what happened, what was preserved, and what the player or creator can do next.
+
+8. Skill Name: Code Example Curator
+
+Description: Builds minimal, correct, secure examples that demonstrate one Roblox concept without hidden dependencies.
+
+9. Skill Name: Architecture Diagram Specifier
+
+Description: Describes client, server, Studio, Open Cloud, data, remotes, and external-system relationships for diagramming.
+
+10. Skill Name: Skill Catalog Maintainer
+
+Description: Adds, merges, splits, deprecates, tags, versions, and cross-references Roblox capabilities as the platform evolves.
+
+Implementation Quality Standard
+
+Requirement coverage
+
+The implemented skill must map every promised capability to an observable output and a check that can fail.
+
+Roblox correctness
+
+Use current Roblox classes, services, security boundaries, asset requirements, platform rules, and supported cloud interfaces.
+
+Safe authority
+
+Treat clients as untrusted. Validate identity, ownership, timing, state, values, and permissions on the server.
+
+Robust execution
+
+Handle missing assets, latency, service failure, duplicate calls, disconnects, shutdown, retries, rollback, and cleanup.
+
+Performance
+
+Set measurable budgets for frame time, memory, network traffic, instances, physics, asset size, and load time when relevant.
+
+Cross-device quality
+
+Test phone, tablet, desktop, console, and other supported input or display modes relevant to the experience.
+
+Verification
+
+Include unit, integration, multiplayer, boundary, regression, visual, and release-path checks appropriate to the skill.
+
+Handoff
+
+Return editable artifacts, clear file locations, configuration, dependencies, limitations, and the next safe action.
+
+Reference Foundation
+
+Roblox Creator Documentation: https://create.roblox.com/docs
+
+Roblox Creator Documentation source repository: https://github.com/Roblox/creator-docs
+
+Roblox Engine API reference: https://create.roblox.com/docs/reference/engine
+
+Roblox Open Cloud documentation: https://create.roblox.com/docs/cloud
+
+Roblox Avatar documentation: https://create.roblox.com/docs/avatar
+
+Note: Alpha, beta, early-access, eligibility-limited, and policy-sensitive capabilities should be rechecked before implementation or release.

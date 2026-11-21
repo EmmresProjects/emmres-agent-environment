@@ -2,7 +2,6 @@
 *.sh text eol=lf
 *.ps1 text eol=crlf
 *.cmd text eol=crlf
-
 # Uncomment only patterns that you intentionally want Git LFS to manage.
 # *.jar filter=lfs diff=lfs merge=lfs -text
 # *.apk filter=lfs diff=lfs merge=lfs -text
@@ -11,3 +10,9 @@
 # *.safetensors filter=lfs diff=lfs merge=lfs -text
 # *.7z filter=lfs diff=lfs merge=lfs -text
 # *.zip filter=lfs diff=lfs merge=lfs -text
+Components/Emmres_Environment/models/**/*.onnx filter=lfs diff=lfs merge=lfs -text
+Components/Emmres_Environment/tools/ffmpeg/bin/*.exe filter=lfs diff=lfs merge=lfs -text
+Components/Emmres_Environment/**/*.onnx filter=lfs diff=lfs merge=lfs -text
+Components/Emmres_Environment/**/*.exe filter=lfs diff=lfs merge=lfs -text
+Components/Emmres_Environment/**/*.dll filter=lfs diff=lfs merge=lfs -text
+Components/Emmres_Environment/**/*.pyd filter=lfs diff=lfs merge=lfs -text

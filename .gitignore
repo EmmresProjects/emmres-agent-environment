@@ -42,3 +42,5 @@ temp/
 .DS_Store
 Thumbs.db
 desktop.ini
+Components/Emmres_Environment/cache/
+Components/Emmres_Environment/venv/

@@ -1,0 +1,1270 @@
+GOOGLE SHEETS
+AGENT SKILL CATALOG
+
+280 Capabilities for Spreadsheet Creation, Analysis, Automation, Governance, and Delivery
+
+Source-aligned with Google_Sheets_Features.txt and expanded beyond the provided feature list.
+
+Powered by Emmre's GPT (1.3 Aphelion)
+
+Catalog Purpose
+
+This catalog defines reusable skill concepts for an agent that can use and work around the capabilities described in the supplied Google Sheets feature reference. It is a catalog only. It does not claim that the skills have already been implemented.
+
+The skills cover the native menu system, formatting, formulas, arrays, charts, pivots, validation, cleanup, collaboration, import and export, Apps Script, add-ons, external data, accessibility, security, testing, templates, and cross-tool orchestration.
+
+Each entry is written as a distinct capability that can later become a standalone skill, a sub-skill, or part of a larger spreadsheet skill pack.
+
+Coverage Summary
+
+  --------------------------------------------------------------------------------------------------------------------------------------------------
+  Measure                             Coverage
+  ----------------------------------- --------------------------------------------------------------------------------------------------------------
+  Categories                          28
+
+  Skills                              280
+
+  Primary platform                    Google Sheets web editor
+
+  Extended systems                    Google Drive, Forms, Apps Script, Gmail, Calendar, BigQuery, Looker, Docs, Slides, and approved integrations
+  --------------------------------------------------------------------------------------------------------------------------------------------------
+
+Category Index
+
+1.  Spreadsheet File Lifecycle and Workspace Operations
+
+2.  Sharing, Permissions, and Collaboration
+
+3.  Editing, Clipboard, and Range Manipulation
+
+4.  View, Navigation, and Workspace Ergonomics
+
+5.  Cell and Range Formatting
+
+6.  Number, Date, Time, and Custom Formats
+
+7.  Conditional Formatting and Visual Rules
+
+8.  Data Validation, Dropdowns, and Controlled Inputs
+
+9.  Sorting, Filtering, Filter Views, and Slicers
+
+10. Data Cleanup, Parsing, and Standardization
+
+11. Formula Fundamentals and Reference Engineering
+
+12. Logical, Lookup, and Decision Formulas
+
+13. Array, Dynamic Data, and Query Skills
+
+14. Text, Date, Statistical, Financial, and Engineering Functions
+
+15. Named Ranges and Named Functions
+
+16. Charts and Data Visualization
+
+17. Pivot Tables, Summaries, and Interactive Analysis
+
+18. External Data, Import Functions, and Connected Sheets
+
+19. Google Forms and Data Collection
+
+20. Apps Script, Macros, and Spreadsheet Automation
+
+21. Add-ons, Extensions, and Integration Governance
+
+22. Dashboards, Reports, and Decision Support
+
+23. Printing, Export, and Cross-Format Publishing
+
+24. Accessibility, Localization, and Inclusive Design
+
+25. Security, Privacy, Protection, and Governance
+
+26. Testing, Auditing, Troubleshooting, and Performance
+
+27. Templates and Domain Solutions
+
+28. Advanced Agent Reasoning and Spreadsheet Orchestration
+
+1. Spreadsheet File Lifecycle and Workspace Operations
+
+1. Skill Name: Spreadsheet Creation Architect
+
+Description: Creates new Google Sheets workbooks with intentional sheet structure, naming conventions, starter ranges, frozen headers, and workspace-ready defaults.
+
+2. Skill Name: Multi-Format Spreadsheet Opener
+
+Description: Interprets and prepares XLSX, ODS, CSV, TSV, and compatible tabular files for reliable use in Google Sheets while preserving the most important values and structure.
+
+3. Skill Name: Import Strategy Planner
+
+Description: Chooses between creating a new spreadsheet, inserting a new sheet, replacing a sheet, replacing the workbook, or appending rows based on source shape and risk.
+
+4. Skill Name: Workbook Copy and Branch Manager
+
+Description: Creates controlled copies for scenarios, review rounds, classroom submissions, client versions, and safe experimentation without damaging the source.
+
+5. Skill Name: Drive Workspace Organizer
+
+Description: Renames, moves, shortcuts, labels, and organizes spreadsheet assets in Google Drive using clear project and retention conventions.
+
+6. Skill Name: Offline Availability Coordinator
+
+Description: Prepares supported spreadsheets for offline access and explains limitations for cached files, formulas, add-ons, external data, and simultaneous collaboration.
+
+7. Skill Name: Version History Curator
+
+Description: Names important versions, identifies restoration points, compares historical states, and restores earlier workbook versions without losing the current copy.
+
+8. Skill Name: Spreadsheet Settings Controller
+
+Description: Configures locale, time zone, calculation behavior, iterative calculation, and function language to prevent date, currency, separator, and recalculation errors.
+
+9. Skill Name: Workbook Archival Specialist
+
+Description: Packages stable spreadsheet snapshots in suitable formats for audit, handoff, records retention, or long-term access.
+
+10. Skill Name: Spreadsheet Recovery Operator
+
+Description: Recovers work through version history, copied files, Drive activity, protected source data, and reconstruction from exports when direct restoration is unavailable.
+
+2. Sharing, Permissions, and Collaboration
+
+1. Skill Name: Permission Design Specialist
+
+Description: Assigns viewer, commenter, and editor access according to least privilege, collaboration needs, and external-sharing constraints.
+
+2. Skill Name: Link Sharing Risk Controller
+
+Description: Configures restricted, organization-only, or link-based access and checks whether the selected sharing mode exposes sensitive workbook content.
+
+3. Skill Name: Collaborator Onboarding Designer
+
+Description: Creates instructions, sheet navigation, protected inputs, notes, and conventions so new collaborators can contribute safely.
+
+4. Skill Name: Comment Workflow Manager
+
+Description: Creates threaded comments, @mentions, assignments, replies, resolutions, and follow-up routines for reviewable spreadsheet work.
+
+5. Skill Name: Edit Notification Planner
+
+Description: Configures appropriate notifications for edits or form submissions, balancing awareness against alert fatigue.
+
+6. Skill Name: Presence and Conflict Coordinator
+
+Description: Guides simultaneous editors, detects overlapping edits, and uses comments, protected ranges, filter views, and version history to reduce conflicts.
+
+7. Skill Name: External Guest Collaboration Guard
+
+Description: Prepares sanitized views, limited ranges, copies, and clear access boundaries for vendors, classmates, clients, or public reviewers.
+
+8. Skill Name: Activity Review Analyst
+
+Description: Uses available activity and version signals to understand viewing, editing, and collaboration patterns while respecting account policy.
+
+9. Skill Name: Handoff and Ownership Planner
+
+Description: Prepares workbook documentation, permissions, named ranges, scripts, triggers, and Drive locations for transfer to another owner or team.
+
+10. Skill Name: Collaboration Audit Specialist
+
+Description: Reviews access, comments, assignments, protections, links, hidden sheets, and external dependencies before publication or handoff.
+
+3. Editing, Clipboard, and Range Manipulation
+
+1. Skill Name: Precision Paste Specialist
+
+Description: Selects values-only, format-only, formula-only, validation-only, conditional-format-only, transposed, column-width, or all-except-borders pasting to preserve intended behavior.
+
+2. Skill Name: Range Move and Copy Operator
+
+Description: Moves or duplicates data while protecting formulas, references, notes, comments, validations, merged cells, and formatting.
+
+3. Skill Name: Find and Replace Engineer
+
+Description: Builds safe searches across values, formulas, links, and notes using case sensitivity, whole-cell checks, and regular expressions.
+
+4. Skill Name: Fill Series Generator
+
+Description: Extends numeric, date, weekday, month, identifier, and custom patterns with predictable fill behavior.
+
+5. Skill Name: Autofill Formula Controller
+
+Description: Propagates formulas while checking relative, absolute, and mixed references to prevent silent reference drift.
+
+6. Skill Name: Range Deletion Planner
+
+Description: Chooses among clearing values, clearing formatting, deleting cells with shifts, removing rows, and removing columns based on downstream impact.
+
+7. Skill Name: Transpose Workflow Specialist
+
+Description: Reorients row-based and column-based datasets using Paste Special, TRANSPOSE, or array workflows while preserving headers and relationships.
+
+8. Skill Name: Bulk Range Refactoring Specialist
+
+Description: Reorganizes large ranges into normalized layouts using helper columns, arrays, sorted outputs, and staged validation.
+
+9. Skill Name: Undo-Safe Change Sequencer
+
+Description: Breaks risky edits into reversible steps, adds checkpoints, and preserves source ranges before large operations.
+
+10. Skill Name: Spreadsheet Selection Expert
+
+Description: Selects visible cells, contiguous blocks, entire rows or columns, named ranges, filtered data, and disjoint ranges efficiently for editing.
+
+4. View, Navigation, and Workspace Ergonomics
+
+1. Skill Name: Freeze Pane Designer
+
+Description: Freezes logical header rows and key identifier columns so large sheets remain understandable while scrolling.
+
+2. Skill Name: Gridline and Visual Aid Controller
+
+Description: Shows or hides gridlines, protected ranges, formula bar, and group controls according to editing, presentation, or print needs.
+
+3. Skill Name: Formula Inspection Mode Operator
+
+Description: Uses formula display, dependency tracing methods, and side-by-side checks to audit complex calculations.
+
+4. Skill Name: Hidden Sheet Governance Specialist
+
+Description: Hides, reveals, documents, and protects helper sheets without treating hiding as a security boundary.
+
+5. Skill Name: Zoom and Display Optimizer
+
+Description: Selects zoom, full-screen, row heights, column widths, and frozen areas for laptops, classrooms, meetings, and large monitors.
+
+6. Skill Name: Right-to-Left Sheet Layout Specialist
+
+Description: Configures supported right-to-left sheet direction and checks formulas, labels, charts, and print layout for appropriate reading order.
+
+7. Skill Name: Named Range Navigator
+
+Description: Creates clear named ranges and uses the name box for rapid movement, formula readability, and reusable references.
+
+8. Skill Name: Workbook Navigation Designer
+
+Description: Builds index sheets, internal links, color-coded tabs, consistent ordering, and clear section boundaries for multi-sheet workbooks.
+
+9. Skill Name: Group and Outline Designer
+
+Description: Groups rows and columns into collapsible levels for summaries, detail sections, schedules, and financial statements.
+
+10. Skill Name: Focus Mode Workspace Planner
+
+Description: Creates reduced-clutter editing views by combining full screen, filters, frozen panes, hidden helpers, and restrained formatting.
+
+5. Cell and Range Formatting
+
+1. Skill Name: Cell Typography Specialist
+
+Description: Applies font family, point size, bold, italic, underline, strikethrough, text color, and mixed rich-text formatting for hierarchy and readability.
+
+2. Skill Name: Fill and Emphasis Designer
+
+Description: Uses cell fills, text contrast, restrained accent colors, and status conventions without creating inaccessible or misleading color dependence.
+
+3. Skill Name: Border System Designer
+
+Description: Creates outer, inner, horizontal, vertical, subtotal, section, and selected-edge borders using appropriate colors and line styles.
+
+4. Skill Name: Alignment and Rotation Specialist
+
+Description: Controls horizontal alignment, vertical alignment, text rotation, stacked text, and label orientation for dense or specialized layouts.
+
+5. Skill Name: Text Wrapping Controller
+
+Description: Chooses overflow, wrap, or clip behavior and coordinates it with row height and column width.
+
+6. Skill Name: Merge Risk Manager
+
+Description: Uses merge-all, horizontal merge, vertical merge, and unmerge only where structurally safe, avoiding harm to sorting, filtering, formulas, and accessibility.
+
+7. Skill Name: Row and Column Sizing Specialist
+
+Description: Sets exact pixel sizes, fit-to-data behavior, hidden state, and consistent dimensions across selected rows or columns.
+
+8. Skill Name: Paint Format Operator
+
+Description: Copies visual formatting between compatible ranges while avoiding unintended value, formula, or validation changes.
+
+9. Skill Name: Clear Formatting Specialist
+
+Description: Removes direct formatting while preserving values and formulas, then reapplies a clean theme or style system.
+
+10. Skill Name: Formatting Consistency Auditor
+
+Description: Detects inconsistent fonts, colors, borders, number formats, alignment, row heights, and conditional rules across a workbook.
+
+6. Number, Date, Time, and Custom Formats
+
+1. Skill Name: Number Format Architect
+
+Description: Chooses automatic, number, percent, scientific, currency, accounting, or plain-text formats based on data meaning rather than appearance alone.
+
+2. Skill Name: Currency and Accounting Formatter
+
+Description: Applies locale-correct symbols, negative conventions, decimal precision, zero display, and alignment for financial workbooks.
+
+3. Skill Name: Date and Time Format Specialist
+
+Description: Builds readable date, time, date-time, month, quarter, weekday, and timestamp displays while preserving true serial values.
+
+4. Skill Name: Duration and Elapsed Time Specialist
+
+Description: Formats hours beyond 24, minutes, seconds, and elapsed durations correctly for attendance, operations, and service metrics.
+
+5. Skill Name: Custom Number Format Engineer
+
+Description: Creates positive, negative, zero, and text sections with placeholders, literals, colors, conditions, percentages, scientific notation, and units.
+
+6. Skill Name: Decimal Precision Controller
+
+Description: Separates stored value from displayed precision and prevents rounding displays from being mistaken for changed data.
+
+7. Skill Name: Identifier Preservation Specialist
+
+Description: Protects leading zeros, long numbers, codes, postal codes, phone-like identifiers, and account strings by using plain-text or tailored formats.
+
+8. Skill Name: Locale Conversion Specialist
+
+Description: Repairs dates, decimal separators, currency, and function behavior when spreadsheets move between locales.
+
+9. Skill Name: Human-Readable Unit Formatter
+
+Description: Displays units such as kg, km, hours, percentages, and currency through formats while retaining numeric values for calculation.
+
+10. Skill Name: Number Format Audit Specialist
+
+Description: Finds mixed formats, text-stored numbers, inconsistent dates, accidental percentages, and misleading rounding across datasets.
+
+7. Conditional Formatting and Visual Rules
+
+1. Skill Name: Conditional Rule Designer
+
+Description: Builds single-color rules for numeric thresholds, text, blanks, dates, duplicates, and custom formulas.
+
+2. Skill Name: Color Scale Designer
+
+Description: Sets minimum, midpoint, and maximum types, values, and colors for meaningful heatmaps without distorting interpretation.
+
+3. Skill Name: Custom Formula Rule Engineer
+
+Description: Creates row-level and cross-column formatting rules using anchored references and logical conditions.
+
+4. Skill Name: Duplicate and Uniqueness Highlighter
+
+Description: Highlights duplicate, unique, repeated-key, and conflicting records for cleanup and review.
+
+5. Skill Name: Deadline Status Visualizer
+
+Description: Formats overdue, due-soon, on-time, and completed items using dates, status fields, and non-color cues.
+
+6. Skill Name: Exception and Outlier Highlighter
+
+Description: Marks values outside expected ranges, statistical bounds, policy thresholds, or peer patterns.
+
+7. Skill Name: Alternating Color System Designer
+
+Description: Creates banded tables with header and footer treatment while coordinating with filters and conditional rules.
+
+8. Skill Name: Conditional Formatting Precedence Auditor
+
+Description: Reviews overlapping ranges and rule order to resolve unexpected display behavior.
+
+9. Skill Name: Accessible Status Formatting Specialist
+
+Description: Combines color with text, symbols, checkboxes, or labels so status remains understandable for color-vision deficiencies.
+
+10. Skill Name: Formatting Performance Optimizer
+
+Description: Consolidates duplicated rules and narrows excessive ranges to improve workbook responsiveness and maintainability.
+
+8. Data Validation, Dropdowns, and Controlled Inputs
+
+1. Skill Name: Dropdown Workflow Designer
+
+Description: Creates dropdown chips, arrows, or plain lists with meaningful choices, colors, defaults, and help text.
+
+2. Skill Name: Range-Backed List Manager
+
+Description: Builds maintainable dropdown sources from named ranges, helper tables, and dynamically expanding lists.
+
+3. Skill Name: Checkbox Logic Designer
+
+Description: Uses TRUE/FALSE or custom checked and unchecked values to drive tasks, approvals, formulas, filters, and conditional formatting.
+
+4. Skill Name: Numeric Input Validator
+
+Description: Restricts values by minimum, maximum, interval, integer, decimal, percentage, or custom formula.
+
+5. Skill Name: Date Input Validator
+
+Description: Restricts dates before, after, between, or relative to other dates for schedules, deadlines, and reporting periods.
+
+6. Skill Name: Text Input Validator
+
+Description: Controls text length, pattern, content, and uniqueness through validation and regular-expression formulas.
+
+7. Skill Name: Custom Formula Validation Engineer
+
+Description: Builds row-aware and cross-field rules for complex business logic such as valid date order, matching totals, or mandatory conditional fields.
+
+8. Skill Name: Invalid Data Response Planner
+
+Description: Chooses rejection, warning, explanatory help text, and correction workflows appropriate to risk.
+
+9. Skill Name: Validation Coverage Auditor
+
+Description: Finds missing, inconsistent, overwritten, or misaligned validation rules across expected input areas.
+
+10. Skill Name: Form-Like Sheet Designer
+
+Description: Combines validation, protected cells, instructions, checkboxes, merged-free layouts, and error messages into controlled spreadsheet interfaces.
+
+9. Sorting, Filtering, Filter Views, and Slicers
+
+1. Skill Name: Single and Multi-Key Sort Specialist
+
+Description: Sorts ranges or whole sheets by one or more columns while preserving header recognition and row integrity.
+
+2. Skill Name: Custom Order Sort Designer
+
+Description: Implements status, priority, month, class, or workflow orders through helper ranks or custom logic.
+
+3. Skill Name: Standard Filter Builder
+
+Description: Creates filters by values, conditions, text, dates, numbers, and colors for shared data exploration.
+
+4. Skill Name: Filter View Architect
+
+Description: Creates named, personal or shareable views that do not disrupt other collaborators.
+
+5. Skill Name: Slicer Dashboard Designer
+
+Description: Adds slicers for charts, pivot tables, and analysis ranges with clear titles, target columns, and user-friendly placement.
+
+6. Skill Name: Filter State Troubleshooter
+
+Description: Diagnoses missing rows, conflicting filter settings, partial ranges, hidden rows, and copied filter states.
+
+7. Skill Name: Top-Bottom and Threshold Filter Specialist
+
+Description: Builds analytical filters for top values, bottom values, above-average records, ranges, and exception lists.
+
+8. Skill Name: Date Period Filter Designer
+
+Description: Creates current week, month, quarter, year, rolling-window, and custom period views.
+
+9. Skill Name: Color Filter Governance Specialist
+
+Description: Uses filter-by-color cautiously and documents the rule that created the color when color encodes logic.
+
+10. Skill Name: Filtered Export Specialist
+
+Description: Produces clean exports, reports, or copies from filtered results while verifying that hidden or excluded data is handled intentionally.
+
+10. Data Cleanup, Parsing, and Standardization
+
+1. Skill Name: Duplicate Removal Specialist
+
+Description: Identifies the correct key columns, previews duplicate logic, preserves a backup, and removes repeated records safely.
+
+2. Skill Name: Whitespace Cleanup Specialist
+
+Description: Trims leading, trailing, and repeated spaces and handles nonbreaking or hidden characters when ordinary trimming is insufficient.
+
+3. Skill Name: Split Text to Columns Specialist
+
+Description: Separates delimited values using automatic or chosen separators and verifies that destination columns are clear.
+
+4. Skill Name: SPLIT Formula Engineer
+
+Description: Creates dynamic formula-based parsing that updates with source changes and handles variable delimiters.
+
+5. Skill Name: Regular Expression Extractor
+
+Description: Uses REGEXEXTRACT to capture structured patterns such as codes, emails, identifiers, and tagged text.
+
+6. Skill Name: Regular Expression Cleaner
+
+Description: Uses REGEXREPLACE to remove or normalize unwanted characters, prefixes, suffixes, spacing, and pattern-based noise.
+
+7. Skill Name: Case and Text Normalization Specialist
+
+Description: Standardizes uppercase, lowercase, title case, capitalization, punctuation, and common labels.
+
+8. Skill Name: Data Type Repair Specialist
+
+Description: Converts text-stored numbers, malformed dates, mixed booleans, and inconsistent blanks into usable types.
+
+9. Skill Name: Category Standardization Specialist
+
+Description: Maps spelling variants, abbreviations, aliases, and legacy labels into controlled categories.
+
+10. Skill Name: Data Quality Report Builder
+
+Description: Profiles completeness, validity, uniqueness, consistency, ranges, and exceptions before analysis or migration.
+
+11. Formula Fundamentals and Reference Engineering
+
+1. Skill Name: Formula Construction Specialist
+
+Description: Builds clear arithmetic, comparison, text, date, and logical formulas with correct precedence and parentheses.
+
+2. Skill Name: Relative Reference Specialist
+
+Description: Uses relative references intentionally for formulas designed to copy across rows or columns.
+
+3. Skill Name: Absolute Reference Specialist
+
+Description: Locks rows and columns with dollar signs for constants, lookup tables, rates, and fixed assumptions.
+
+4. Skill Name: Mixed Reference Specialist
+
+Description: Combines locked rows or columns for two-dimensional schedules, multiplication grids, and copied models.
+
+5. Skill Name: Range Reference Architect
+
+Description: Selects contiguous, disjoint, full-column, open-ended, named, cross-sheet, and cross-workbook references appropriately.
+
+6. Skill Name: Formula Error Handler
+
+Description: Uses IFERROR, IFNA, checks, and diagnostic formulas without hiding material data problems.
+
+7. Skill Name: Formula Readability Refactorer
+
+Description: Replaces repeated fragments with helper cells, named ranges, named functions, LET-style patterns where supported, and documented assumptions.
+
+8. Skill Name: Circular Reference Resolver
+
+Description: Finds unintended cycles and distinguishes them from deliberate iterative-calculation models.
+
+9. Skill Name: Formula Dependency Auditor
+
+Description: Traces inputs, outputs, helper ranges, lookup keys, and volatile dependencies to explain calculation behavior.
+
+10. Skill Name: Formula Copy Integrity Tester
+
+Description: Tests edge rows, blank inputs, missing keys, new records, and copied formulas for reference drift and boundary failures.
+
+12. Logical, Lookup, and Decision Formulas
+
+1. Skill Name: IF Logic Designer
+
+Description: Builds readable IF, IFS, SWITCH, AND, OR, and NOT logic with explicit default and error cases.
+
+2. Skill Name: Conditional Aggregation Specialist
+
+Description: Uses SUMIF/SUMIFS, COUNTIF/COUNTIFS, and AVERAGEIF/AVERAGEIFS for criteria-driven summaries.
+
+3. Skill Name: XLOOKUP Solution Designer
+
+Description: Builds exact or fallback lookups with explicit missing-value handling and suitable search behavior.
+
+4. Skill Name: INDEX-MATCH Engineering Specialist
+
+Description: Creates flexible row, column, and two-way lookups when direct lookup functions are insufficient.
+
+5. Skill Name: VLOOKUP Migration Specialist
+
+Description: Audits legacy VLOOKUP formulas and replaces fragile column-index logic with safer alternatives when appropriate.
+
+6. Skill Name: Multi-Criteria Lookup Engineer
+
+Description: Finds records using combined keys, FILTER, INDEX/MATCH, or array logic with duplicate handling.
+
+7. Skill Name: Approximate Match Specialist
+
+Description: Implements bracket, rate, grade, commission, and threshold lookups using sorted reference tables and tested boundary conditions.
+
+8. Skill Name: Decision Table Architect
+
+Description: Moves large nested formulas into readable rule tables with priorities, conditions, and outputs.
+
+9. Skill Name: Missing-Key Diagnostic Specialist
+
+Description: Separates blank keys, malformed keys, duplicate keys, missing matches, and permission failures in lookup workflows.
+
+10. Skill Name: Lookup Performance Optimizer
+
+Description: Reduces repeated full-column scans, volatile constructs, and duplicated lookup work in large spreadsheets.
+
+13. Array, Dynamic Data, and Query Skills
+
+1. Skill Name: ARRAYFORMULA Engineer
+
+Description: Expands row formulas across ranges while controlling headers, blanks, mixed data, and overwrite collisions.
+
+2. Skill Name: FILTER Formula Designer
+
+Description: Returns dynamic subsets using single or multiple conditions with graceful empty-result handling.
+
+3. Skill Name: SORT and SORTN Specialist
+
+Description: Creates ordered dynamic outputs, top-N lists, uniqueness-aware rankings, and multi-key sorts.
+
+4. Skill Name: UNIQUE Dataset Builder
+
+Description: Produces distinct rows or keys and explains how blanks, case, and whole-row uniqueness affect results.
+
+5. Skill Name: SEQUENCE Generator
+
+Description: Creates numeric, date, calendar, index, and schedule sequences without manual filling.
+
+6. Skill Name: QUERY Language Specialist
+
+Description: Uses select, where, group by, pivot, order by, label, format, limit, offset, and aggregation clauses over ranges.
+
+7. Skill Name: Dynamic Report Range Architect
+
+Description: Combines arrays, filters, queries, and named ranges into self-expanding reporting outputs.
+
+8. Skill Name: Stacking and Reshaping Specialist
+
+Description: Uses array literals and supported stack/reshape functions to combine, reorganize, and normalize data.
+
+9. Skill Name: Lambda-Style Helper Specialist
+
+Description: Uses supported helper and lambda-style functions to express repeated array transformations cleanly.
+
+10. Skill Name: Array Spill Troubleshooter
+
+Description: Diagnoses blocked outputs, mismatched dimensions, inconsistent array literals, unexpected blanks, and range expansion conflicts.
+
+14. Text, Date, Statistical, Financial, and Engineering Functions
+
+1. Skill Name: Text Function Specialist
+
+Description: Uses LEFT, RIGHT, MID, LEN, TRIM, CLEAN, SUBSTITUTE, REPLACE, FIND, SEARCH, TEXTJOIN, JOIN, and related functions for robust text workflows.
+
+2. Skill Name: Date Arithmetic Specialist
+
+Description: Uses DATE, YEAR, MONTH, DAY, EDATE, EOMONTH, WORKDAY, NETWORKDAYS, and date subtraction for calendars and deadlines.
+
+3. Skill Name: Time and Timestamp Specialist
+
+Description: Manages NOW, TODAY, TIME, HOUR, MINUTE, SECOND, durations, time zones, and volatile recalculation expectations.
+
+4. Skill Name: Descriptive Statistics Analyst
+
+Description: Calculates count, mean, median, mode, min, max, variance, standard deviation, quartiles, percentiles, and distributions.
+
+5. Skill Name: Statistical Testing Specialist
+
+Description: Applies correlation, regression, probability distributions, confidence concepts, and supported hypothesis-test functions with clear assumptions.
+
+6. Skill Name: Financial Function Specialist
+
+Description: Uses PV, FV, NPV, IRR, PMT, RATE, depreciation, interest, and cash-flow functions with correct timing and sign conventions.
+
+7. Skill Name: Forecasting and Trend Specialist
+
+Description: Creates trend lines, moving measures, FORECAST-style calculations, seasonality-aware outputs where supported, and scenario ranges.
+
+8. Skill Name: Engineering Function Specialist
+
+Description: Uses base conversion, complex numbers, unit conversion, bit operations, and supported engineering functions.
+
+9. Skill Name: Database Function Specialist
+
+Description: Uses database-style criteria ranges and functions when structured criteria are clearer than nested conditional formulas.
+
+10. Skill Name: Function Selection Advisor
+
+Description: Chooses the simplest reliable function family for a task and explains trade-offs in readability, scale, and compatibility.
+
+15. Named Ranges and Named Functions
+
+1. Skill Name: Named Range Taxonomy Designer
+
+Description: Creates consistent names for inputs, reference tables, outputs, dates, rates, and reusable blocks.
+
+2. Skill Name: Named Range Scope Manager
+
+Description: Prevents collisions, stale ranges, and ambiguous names across sheets and copied workbooks.
+
+3. Skill Name: Dynamic Named Range Specialist
+
+Description: Builds ranges that expand based on nonblank data, tables, arrays, or calculated boundaries.
+
+4. Skill Name: Named Function Designer
+
+Description: Defines reusable formulas with clear parameters, descriptions, examples, validation expectations, and output behavior.
+
+5. Skill Name: Named Function Library Curator
+
+Description: Organizes custom functions by domain such as cleaning, finance, education, operations, and reporting.
+
+6. Skill Name: Named Function Test Engineer
+
+Description: Tests normal values, blanks, text, errors, extremes, arrays, and invalid inputs before reuse.
+
+7. Skill Name: Named Range Migration Specialist
+
+Description: Replaces fragile literal references with names while checking formulas, charts, validations, and scripts.
+
+8. Skill Name: Documentation Generator for Names
+
+Description: Builds an index of names, definitions, locations, owners, and usage examples.
+
+9. Skill Name: Orphaned Name Auditor
+
+Description: Finds names that point to deleted areas, unused names, overlapping names, and names with unclear purpose.
+
+10. Skill Name: Cross-Workbook Naming Standard Specialist
+
+Description: Creates naming conventions that survive copying, template use, and team collaboration.
+
+16. Charts and Data Visualization
+
+1. Skill Name: Chart Type Selection Specialist
+
+Description: Chooses column, bar, line, area, pie, donut, scatter, bubble, histogram, combo, candlestick, waterfall, treemap, geo, gauge, scorecard, table, or organizational charts based on the analytical question.
+
+2. Skill Name: Chart Data Range Architect
+
+Description: Builds clean ranges, helper series, headers, categories, and aggregation settings for stable charts.
+
+3. Skill Name: Chart Style Designer
+
+Description: Configures background, border, font, palette, maximize behavior, and compare mode to match the workbook’s visual system.
+
+4. Skill Name: Series Formatting Specialist
+
+Description: Controls series color, line, point, marker, axis assignment, data labels, trendlines, error bars, and type-specific options.
+
+5. Skill Name: Axis Configuration Specialist
+
+Description: Sets bounds, scale, titles, labels, number formats, gridlines, tick marks, log behavior where available, and crossing choices.
+
+6. Skill Name: Dashboard Chart Composer
+
+Description: Combines scorecards, trend charts, comparisons, filters, and explanatory labels into a coherent dashboard.
+
+7. Skill Name: Accessible Chart Designer
+
+Description: Uses descriptive titles, readable labels, high contrast, non-color distinctions, source notes, and nearby data summaries.
+
+8. Skill Name: Chart Annotation Specialist
+
+Description: Adds reference lines, labels, notes, targets, event markers, and contextual explanations without obscuring data.
+
+9. Skill Name: Chart Integrity Auditor
+
+Description: Checks truncated axes, inappropriate chart types, misleading scales, distorted proportions, omitted categories, and stale ranges.
+
+10. Skill Name: Chart Export and Embed Specialist
+
+Description: Prepares charts for Docs, Slides, PDF, images, websites, and linked reporting while preserving readability.
+
+17. Pivot Tables, Summaries, and Interactive Analysis
+
+1. Skill Name: Pivot Table Architect
+
+Description: Designs row, column, value, and filter fields to answer a defined analytical question.
+
+2. Skill Name: Pivot Aggregation Specialist
+
+Description: Selects sum, count, count unique, average, min, max, standard deviation, variance, and calculated fields appropriately.
+
+3. Skill Name: Pivot Grouping Specialist
+
+Description: Groups dates, numbers, categories, and time periods into useful analytical levels.
+
+4. Skill Name: Pivot Sorting and Ranking Specialist
+
+Description: Sorts summaries by labels, totals, or calculated measures and creates ranked views.
+
+5. Skill Name: Pivot Filter Designer
+
+Description: Uses value, condition, and manual filters together with slicers for interactive analysis.
+
+6. Skill Name: Calculated Field Engineer
+
+Description: Builds pivot calculations with documented assumptions and verifies totals against source formulas.
+
+7. Skill Name: Drill-Down Analysis Specialist
+
+Description: Moves from summary cells to underlying records and preserves traceability back to source data.
+
+8. Skill Name: Pivot Refresh and Source Manager
+
+Description: Maintains source ranges, connected data, new rows, and refresh expectations so pivots remain current.
+
+9. Skill Name: Pivot Formatting Specialist
+
+Description: Applies number formats, totals, headers, spacing, conditional formatting, and layout choices for readable output.
+
+10. Skill Name: Pivot Reconciliation Auditor
+
+Description: Reconciles pivot totals to source counts and sums, checking filters, blanks, duplicates, and excluded records.
+
+18. External Data, Import Functions, and Connected Sheets
+
+1. Skill Name: IMPORTRANGE Integration Specialist
+
+Description: Connects permitted spreadsheets, establishes access, narrows imported ranges, and handles latency and dependency chains.
+
+2. Skill Name: Web Import Function Specialist
+
+Description: Uses supported import functions for HTML tables, feeds, XML paths, and data endpoints while accounting for volatility and source changes.
+
+3. Skill Name: External Data Permission Troubleshooter
+
+Description: Diagnoses blocked access, expired permissions, ownership constraints, private sources, and organizational restrictions.
+
+4. Skill Name: Connected Sheets Planner
+
+Description: Designs eligible BigQuery or supported data-source workflows for large datasets without importing every row into ordinary cells.
+
+5. Skill Name: BigQuery Analysis Coordinator
+
+Description: Defines queries, extracts, refresh schedules, permissions, and summarized outputs for Sheets-based analysis.
+
+6. Skill Name: Looker Data Integration Specialist
+
+Description: Connects permitted Looker content and prepares governed outputs for spreadsheet users where supported.
+
+7. Skill Name: Refresh Strategy Designer
+
+Description: Sets manual or scheduled refresh expectations and communicates staleness, cache, and dependency risks.
+
+8. Skill Name: External Data Schema Drift Monitor
+
+Description: Detects changed columns, types, labels, missing fields, and source-layout changes that break formulas or charts.
+
+9. Skill Name: Import Dependency Map Builder
+
+Description: Documents upstream files, URLs, owners, refresh paths, permissions, and downstream formulas.
+
+10. Skill Name: External Data Fallback Designer
+
+Description: Creates cached snapshots, error states, last-updated indicators, and manual input paths when live data is unavailable.
+
+19. Google Forms and Data Collection
+
+1. Skill Name: Linked Form Builder
+
+Description: Creates a Google Form connected to Sheets with appropriate question types, response destinations, and ownership.
+
+2. Skill Name: Response Sheet Schema Planner
+
+Description: Designs stable downstream columns without altering protected form-generated structure in ways that break incoming responses.
+
+3. Skill Name: Form Response Cleanup Specialist
+
+Description: Normalizes timestamps, checkbox lists, free text, optional answers, file references, and duplicated submissions.
+
+4. Skill Name: Submission Notification Designer
+
+Description: Configures suitable form-submission alerts or automation without overwhelming recipients.
+
+5. Skill Name: Response Validation Analyst
+
+Description: Builds post-submission checks for required logic, conflicting answers, invalid identifiers, and missing evidence.
+
+6. Skill Name: Survey Coding Specialist
+
+Description: Converts qualitative and multiple-choice responses into analysis-ready categories, indicators, and themes.
+
+7. Skill Name: Attendance and Registration Workflow Designer
+
+Description: Builds forms and Sheets logic for sign-ups, attendance, capacity, waiting lists, confirmations, and duplicates.
+
+8. Skill Name: Assessment Response Analyzer
+
+Description: Scores objective items, summarizes results, identifies item difficulty, and prepares review outputs while respecting educational context.
+
+9. Skill Name: Form-to-Workflow Automation Specialist
+
+Description: Routes new responses into tasks, emails, documents, approvals, or dashboards using Apps Script or supported automation tools.
+
+10. Skill Name: Form Privacy and Retention Planner
+
+Description: Minimizes collected data, controls access, separates identifiers from analysis, and defines retention and deletion steps.
+
+20. Apps Script, Macros, and Spreadsheet Automation
+
+1. Skill Name: Macro Recorder Specialist
+
+Description: Records repetitive actions, reviews generated scripts, assigns practical macros, and documents assumptions and limits.
+
+2. Skill Name: Apps Script Custom Function Developer
+
+Description: Builds deterministic custom functions that transform inputs without relying on unsupported side effects.
+
+3. Skill Name: Spreadsheet Automation Developer
+
+Description: Automates sheet creation, data movement, formatting, validation, charts, pivots, cleanup, and reporting through Apps Script.
+
+4. Skill Name: Custom Menu and Sidebar Builder
+
+Description: Creates menus, dialogs, and sidebars for guided spreadsheet workflows and user-friendly actions.
+
+5. Skill Name: Trigger Automation Engineer
+
+Description: Configures simple or installable triggers for open, edit, form submit, time schedules, and calendar-driven workflows.
+
+6. Skill Name: Email Automation Specialist
+
+Description: Sends personalized notifications, reports, reminders, and alerts with quotas, permissions, templates, and duplicate-send protection.
+
+7. Skill Name: Document Generation Automator
+
+Description: Creates Docs, PDFs, emails, folders, and Drive files from spreadsheet records using templates and controlled naming.
+
+8. Skill Name: Apps Script Error and Logging Engineer
+
+Description: Adds structured logging, error handling, retry logic, state checkpoints, and actionable failure messages.
+
+9. Skill Name: Apps Script Performance Optimizer
+
+Description: Uses batched reads/writes, arrays, caching, locking, and reduced service calls to avoid slow cell-by-cell execution.
+
+10. Skill Name: Apps Script Security Reviewer
+
+Description: Audits OAuth scopes, secrets, web app access, external calls, triggers, ownership, deployment permissions, and data exposure.
+
+21. Add-ons, Extensions, and Integration Governance
+
+1. Skill Name: Add-on Selection Analyst
+
+Description: Evaluates Marketplace add-ons for capability fit, permissions, publisher credibility, data handling, support, cost, and exit strategy.
+
+2. Skill Name: Add-on Permission Auditor
+
+Description: Reviews requested scopes and determines whether an extension can read, modify, export, or share sensitive spreadsheet content.
+
+3. Skill Name: Extension Deployment Coordinator
+
+Description: Plans user access, administrator approval, testing, rollout, documentation, and rollback for team extensions.
+
+4. Skill Name: Third-Party Integration Designer
+
+Description: Connects Sheets with supported CRM, project, finance, communication, and data tools through governed workflows.
+
+5. Skill Name: Webhook and API Integration Specialist
+
+Description: Uses Apps Script or approved connectors to send and receive structured data with authentication, validation, idempotency, and error handling.
+
+6. Skill Name: Integration Data Mapper
+
+Description: Maps source fields to destination columns, data types, identifiers, defaults, and transformation rules.
+
+7. Skill Name: Integration Failure Recovery Specialist
+
+Description: Handles timeouts, quotas, duplicate delivery, partial updates, schema drift, and replay of failed records.
+
+8. Skill Name: Connector Cost and Quota Analyst
+
+Description: Monitors API quotas, refresh volume, add-on limits, subscription constraints, and scaling thresholds.
+
+9. Skill Name: Integration Documentation Builder
+
+Description: Documents credentials ownership, endpoints, triggers, schedules, field maps, dependencies, and support procedures.
+
+10. Skill Name: Extension Offboarding Specialist
+
+Description: Removes add-ons, triggers, tokens, scripts, external access, residual data, and broken formulas during decommissioning.
+
+22. Dashboards, Reports, and Decision Support
+
+1. Skill Name: KPI Definition Specialist
+
+Description: Defines each metric’s formula, source, owner, frequency, target, exclusions, and interpretation before visualization.
+
+2. Skill Name: Executive Dashboard Architect
+
+Description: Builds focused dashboards with scorecards, trends, comparisons, filters, targets, exceptions, and explanatory notes.
+
+3. Skill Name: Operational Dashboard Designer
+
+Description: Creates daily or weekly monitoring views for workload, service levels, inventory, queues, attendance, or delivery status.
+
+4. Skill Name: Financial Reporting Builder
+
+Description: Constructs budget, actual, variance, forecast, cash flow, and summary views with controlled assumptions and reconciliation.
+
+5. Skill Name: Academic Performance Dashboard Designer
+
+Description: Builds student, class, subject, assessment, and attendance summaries with privacy-conscious access and clear caveats.
+
+6. Skill Name: Project Portfolio Dashboard Designer
+
+Description: Summarizes milestones, owners, deadlines, risk, status, dependencies, workload, and completion across projects.
+
+7. Skill Name: Scenario and Sensitivity Modeler
+
+Description: Builds base, best, worst, and user-selected scenarios with isolated assumptions and clearly labeled outputs.
+
+8. Skill Name: Report Refresh and Publication Manager
+
+Description: Coordinates data refresh, timestamping, review, frozen snapshots, sharing, PDF export, and distribution.
+
+9. Skill Name: Decision Memo Generator
+
+Description: Converts spreadsheet findings into concise recommendations, supporting numbers, assumptions, uncertainties, and next actions.
+
+10. Skill Name: Dashboard Usability Tester
+
+Description: Tests loading, controls, labels, filters, mobile/desktop readability, accessibility, and stakeholder interpretation.
+
+23. Printing, Export, and Cross-Format Publishing
+
+1. Skill Name: Print Layout Specialist
+
+Description: Configures current sheet, workbook, or selected-cell printing with paper size, orientation, scale, margins, alignment, and page order.
+
+2. Skill Name: Page Break Designer
+
+Description: Places and adjusts custom page breaks so tables and sections print logically.
+
+3. Skill Name: Repeat Header Print Specialist
+
+Description: Uses frozen rows and columns appropriately for repeated headers in printed output where supported.
+
+4. Skill Name: Header and Footer Composer
+
+Description: Adds page numbers, workbook or sheet names, dates, times, titles, and custom text to printed pages.
+
+5. Skill Name: Gridline and Notes Print Controller
+
+Description: Chooses whether to print gridlines, notes, repeated headers, and other sheet elements based on output purpose.
+
+6. Skill Name: PDF Export Specialist
+
+Description: Creates readable PDF output with suitable scale, margins, page order, headers, and selected ranges.
+
+7. Skill Name: Excel Compatibility Exporter
+
+Description: Prepares XLSX files while checking formulas, formatting, charts, tables, smart chips, scripts, and Google-specific features for conversion risks.
+
+8. Skill Name: CSV and TSV Export Specialist
+
+Description: Exports the correct current sheet with explicit encoding, delimiter, header, newline, quoting, and data-type expectations.
+
+9. Skill Name: HTML and Web Publication Specialist
+
+Description: Prepares downloadable HTML ZIP or published content while checking links, visibility, update behavior, and privacy.
+
+10. Skill Name: Cross-Format Quality Auditor
+
+Description: Compares exported spreadsheets, PDFs, tables, charts, and text against the source for lost formulas, layout drift, fonts, clipping, and inaccessible content.
+
+24. Accessibility, Localization, and Inclusive Design
+
+1. Skill Name: Screen Reader Spreadsheet Designer
+
+Description: Uses clear sheet names, meaningful headings, simple tables, logical order, and restrained merged cells for better screen-reader navigation.
+
+2. Skill Name: Braille Support Coordinator
+
+Description: Enables supported braille features and structures sheets so labels, inputs, and outputs are understandable without visual layout alone.
+
+3. Skill Name: Color Accessibility Specialist
+
+Description: Uses sufficient contrast and does not communicate status with color alone.
+
+4. Skill Name: Plain Language Labeling Specialist
+
+Description: Writes concise headers, instructions, validation help, errors, and notes understandable to intended users.
+
+5. Skill Name: Keyboard-First Workflow Designer
+
+Description: Creates ranges, controls, and navigation patterns usable without precise mouse interaction.
+
+6. Skill Name: Locale-Aware Spreadsheet Designer
+
+Description: Adapts dates, numbers, currency, separators, time zones, writing direction, and examples to user locale.
+
+7. Skill Name: Multilingual Workbook Planner
+
+Description: Separates labels from data, creates translation tables, preserves identifiers, and avoids formulas that depend on translated display text.
+
+8. Skill Name: Accessible Chart and Dashboard Specialist
+
+Description: Adds meaningful titles, labels, tabular companions, contrast, and non-color distinctions to visual summaries.
+
+9. Skill Name: Cognitive Load Reduction Specialist
+
+Description: Simplifies workbooks using progressive disclosure, grouped sections, clear instructions, limited colors, and consistent layouts.
+
+10. Skill Name: Accessibility Audit Specialist
+
+Description: Reviews structure, names, contrast, merged cells, links, charts, protected inputs, comments, and export formats for barriers.
+
+25. Security, Privacy, Protection, and Governance
+
+1. Skill Name: Protected Range Architect
+
+Description: Protects formulas, reference tables, configuration cells, and critical outputs while leaving intended input areas editable.
+
+2. Skill Name: Sheet Protection Specialist
+
+Description: Applies sheet-level protections with explicit editors and warning-only rules where appropriate.
+
+3. Skill Name: Sensitive Data Minimization Specialist
+
+Description: Removes unnecessary personal, financial, educational, or confidential fields before sharing or analysis.
+
+4. Skill Name: De-Identification Specialist
+
+Description: Pseudonymizes or aggregates identifiers and separates re-identification keys from analytical workbooks.
+
+5. Skill Name: Sharing Exposure Auditor
+
+Description: Checks public links, external users, groups, inherited Drive permissions, published views, embedded content, and copied files.
+
+6. Skill Name: Formula and Hidden Data Leak Auditor
+
+Description: Finds sensitive values in formulas, notes, comments, hidden sheets, named ranges, charts, scripts, and exports.
+
+7. Skill Name: Script and Add-on Risk Reviewer
+
+Description: Reviews permissions, tokens, external requests, triggers, web apps, properties, and third-party data handling.
+
+8. Skill Name: Retention and Disposal Planner
+
+Description: Defines how long source data, snapshots, exports, form responses, backups, and logs are retained and how they are deleted.
+
+9. Skill Name: Change Control Specialist
+
+Description: Uses protected source areas, named versions, review steps, test copies, and approval records for important models.
+
+10. Skill Name: Spreadsheet Governance Framework Designer
+
+Description: Defines ownership, naming, access, documentation, review cadence, testing, incident response, and archival rules.
+
+26. Testing, Auditing, Troubleshooting, and Performance
+
+1. Skill Name: Spreadsheet Test Case Designer
+
+Description: Creates normal, boundary, blank, invalid, duplicate, extreme, and failure cases for formulas and workflows.
+
+2. Skill Name: Formula Reconciliation Specialist
+
+Description: Uses independent totals, counts, control balances, and sample calculations to verify results.
+
+3. Skill Name: Error Taxonomy Diagnostician
+
+Description: Diagnoses #N/A, #VALUE!, #REF!, #DIV/0!, #NAME?, #NUM!, #ERROR!, array expansion, and permission-related errors.
+
+4. Skill Name: Broken Reference Repair Specialist
+
+Description: Finds deleted ranges, moved sheets, invalid named ranges, missing source files, and copied-reference failures.
+
+5. Skill Name: Calculation Performance Analyst
+
+Description: Identifies full-column scans, volatile functions, repeated imports, excessive arrays, duplicated conditional formats, and heavy scripts.
+
+6. Skill Name: Large Workbook Optimizer
+
+Description: Reduces unused rows and columns, consolidates formulas, separates archives, narrows imports, batches scripts, and simplifies dashboards.
+
+7. Skill Name: Regression Test Specialist
+
+Description: Retests critical calculations and outputs after formula, script, source, layout, or permission changes.
+
+8. Skill Name: Data Lineage Auditor
+
+Description: Maps source, transformations, formulas, pivots, charts, exports, and owners for traceable results.
+
+9. Skill Name: Workbook Health Report Builder
+
+Description: Produces a prioritized report of formula errors, data-quality issues, access risks, performance bottlenecks, and documentation gaps.
+
+10. Skill Name: Clean-State Verification Specialist
+
+Description: Tests a copied or newly opened workbook as a fresh user to confirm permissions, instructions, triggers, links, and outputs work.
+
+27. Templates and Domain Solutions
+
+1. Skill Name: Budget Template Designer
+
+Description: Builds income, expense, category, variance, monthly, annual, and forecast structures with validation and reconciliation.
+
+2. Skill Name: Inventory Tracker Designer
+
+Description: Creates item master, movements, stock balance, reorder point, supplier, count, and exception workflows.
+
+3. Skill Name: Attendance Tracker Designer
+
+Description: Builds roster, date, status, late, absence, summary, and privacy-conscious reporting features.
+
+4. Skill Name: Gradebook Designer
+
+Description: Creates weighted assessments, missing work, categories, final grades, distributions, and protected student views with transparent rules.
+
+5. Skill Name: Project Tracker Designer
+
+Description: Builds task, owner, status, priority, start, due date, dependency, milestone, risk, and progress systems.
+
+6. Skill Name: CRM Lite Designer
+
+Description: Creates contact, organization, opportunity, stage, owner, next action, activity, and pipeline summaries for small teams.
+
+7. Skill Name: Sales Tracker Designer
+
+Description: Tracks transactions, products, customers, targets, commissions, returns, and period summaries.
+
+8. Skill Name: Schedule and Roster Designer
+
+Description: Builds shifts, availability, assignments, conflict checks, hours, coverage, and printable schedules.
+
+9. Skill Name: Survey Analysis Template Designer
+
+Description: Creates codebooks, cleaned responses, frequency tables, cross-tabs, charts, open-text coding, and summary views.
+
+10. Skill Name: Content Calendar Designer
+
+Description: Builds channel, asset, owner, status, due date, publish date, campaign, links, approvals, and performance tracking.
+
+28. Advanced Agent Reasoning and Spreadsheet Orchestration
+
+1. Skill Name: Spreadsheet Intent Interpreter
+
+Description: Translates a user’s goal into data structure, formulas, validation, visualizations, automation, permissions, and output requirements.
+
+2. Skill Name: Workbook Architecture Planner
+
+Description: Chooses sheet boundaries, source layers, transformation layers, reporting layers, helper ranges, and interfaces before implementation.
+
+3. Skill Name: Feature Routing Specialist
+
+Description: Maps each task to the best native Sheets feature, formula, pivot, chart, Apps Script action, add-on, or external system.
+
+4. Skill Name: Spreadsheet Build Sequencer
+
+Description: Constructs a thin working path first, then adds validations, formatting, automation, tests, documentation, and publishing in controlled stages.
+
+5. Skill Name: Ambiguity and Assumption Manager
+
+Description: Identifies missing definitions, chooses safe provisional assumptions, labels them, and creates configurable inputs instead of hard-coded guesses.
+
+6. Skill Name: Human-in-the-Loop Review Designer
+
+Description: Places approvals and review checkpoints around sensitive imports, bulk changes, notifications, publishing, and destructive actions.
+
+7. Skill Name: Spreadsheet Repair Orchestrator
+
+Description: Preserves a passing copy, isolates the failing layer, runs minimal probes, repairs the smallest responsible cause, and retests dependent outputs.
+
+8. Skill Name: Cross-Tool Workflow Orchestrator
+
+Description: Coordinates Sheets with Drive, Forms, Docs, Slides, Gmail, Calendar, BigQuery, Looker, Apps Script, and approved third-party tools.
+
+9. Skill Name: Artifact Packaging Specialist
+
+Description: Packages templates, instructions, sample data, configuration notes, scripts, exports, and handoff documentation for reliable reuse.
+
+10. Skill Name: Spreadsheet Quality Gatekeeper
+
+Description: Checks coverage, correctness, usability, accessibility, security, performance, clean-state use, and handoff before declaring completion.
+
+Catalog Use Note
+
+Use these entries as a planning catalog. When turning an entry into an executable skill, define its trigger, inputs, outputs, dependencies, permissions, failure behavior, tests, and packaging rules. Combine entries only when they share a clear workflow, data model, or output type.
+
+Feature availability can vary by Google Workspace edition, browser, locale, administrator policy, data source, and staged rollout. Implemented skills should detect unavailable functions and provide a supported fallback rather than pretending the feature exists.

@@ -1,0 +1,1463 @@
+SHARED 2D AND 3D
+ANIMATION PRODUCTION
+Comprehensive Skill Catalog
+
+A shared capability blueprint for offline animation production, from story development and version control through voice, sound, music, color, rendering, quality control, rights, playback, and delivery.
+
+Catalog edition: November 2026
+
+Purpose and Scope
+
+This catalog defines reusable capabilities shared by 2D and 3D animation pipelines. It is a planning catalog, not a package of implemented skills. Every entry is scoped so a stronger agent can later convert the entry into an independent skill or a coordinated module. The design assumes offline or air-gapped execution, editable sources, reproducible outputs, explicit rights, and validation that can fail.
+
+Catalog Design Principles
+
+- Use one source of truth for project standards, names, versions, approvals, rights, and delivery requirements.
+
+- Prefer deterministic scripts and manifests for fragile, repeated, or high-volume operations.
+
+- Preserve editable sources, approved references, rollback points, and exact provenance.
+
+- Test from clean state and with network access disabled. Hidden cloud dependencies are production defects.
+
+- Validate technical structure, visual and audio quality, accessibility, playback, and handoff separately.
+
+- Keep shared skills application-neutral, with adapters for specific DCC, editorial, audio, and finishing tools.
+
+- Block final release when critical QC, rights, approval, or package-completeness requirements fail.
+
+Catalog Summary
+
+30 categories • 338 proposed skills • shared 2D and 3D production coverage
+
+The catalog includes every requested area and expands into deployment, templates, editorial, synchronization, libraries, exchange, render operations, accessibility, localization, security, optimization, documentation, and recovery.
+
+1. Offline Platform and Clean-State Deployment
+
+1. Skill Name: Air-Gapped Production Installer
+
+  Description: Packages DCC applications, audio utilities, codecs, fonts, plugins, runtime libraries, drivers, documentation, and checksums for installation without network access. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+2. Skill Name: Clean-State Installation Tester
+
+  Description: Installs the approved stack in a fresh operating-system profile or virtual machine and verifies launch, project open, render, audio, subtitle, and export workflows. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+3. Skill Name: Offline-Only Production Tester
+
+  Description: Disconnects all network interfaces and executes a representative storyboard-to-delivery job to expose hidden cloud calls, license checks, missing caches, or external URLs. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+4. Skill Name: Dependency Lockfile Builder
+
+  Description: Records exact application, plugin, Python, codec, driver, model, and library versions required to reproduce the workstation. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+5. Skill Name: Portable Toolchain Packager
+
+  Description: Creates a relocatable tools folder with relative paths, launch scripts, environment variables, presets, and permitted redistributables. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+6. Skill Name: Workstation Readiness Auditor
+
+  Description: Checks CPU, GPU, VRAM, RAM, storage, scratch space, display, audio devices, input devices, drivers, and supported operating-system versions. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+7. Skill Name: GPU Runtime Router
+
+  Description: Selects CUDA, ROCm, DirectML, Metal, CPU, or software fallback by job type, memory requirement, driver support, and determinism needs. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+8. Skill Name: Offline License Activation Planner
+
+  Description: Documents permitted offline activation, floating-license borrowing, local license servers, grace periods, and emergency fallback procedures. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+9. Skill Name: Environment Health Monitor
+
+  Description: Runs scheduled local smoke tests for application launch, scripting, render engines, encoders, audio playback, fonts, and shared storage. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+10. Skill Name: Update Staging and Rollback Manager
+
+  Description: Tests patches in a cloned environment, compares reference outputs, records compatibility changes, and restores the last approved stack after failure. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+11. Skill Name: Multi-OS Compatibility Planner
+
+  Description: Maps equivalent Windows, Linux, and macOS tools, paths, scripts, codecs, and known feature gaps. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+12. Skill Name: Production Configuration Baseline Manager
+
+  Description: Stores approved preferences, color settings, shortcuts, render devices, cache locations, environment variables, and security restrictions. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+2. Project Architecture and Production Templates
+
+1. Skill Name: Unified 2D-3D Project Scaffolder
+
+  Description: Creates standard folders for development, boards, editorial, assets, shots, scenes, audio, caches, renders, review, delivery, licenses, and archives. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+2. Skill Name: Production Template Publisher
+
+  Description: Maintains approved scene, shot, storyboard, audio, subtitle, render, and delivery templates with versioned release notes. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+3. Skill Name: Project Configuration Author
+
+  Description: Writes machine-readable project settings for frame rate, resolution, aspect ratio, color space, handles, naming, paths, and delivery targets. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+4. Skill Name: Sequence and Shot Folder Generator
+
+  Description: Builds production folders from a shot list and prevents duplicate IDs, missing ranges, and unsafe names. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+5. Skill Name: Workspace Relinker
+
+  Description: Repairs moved projects by resolving relative assets, textures, references, fonts, audio, caches, and libraries from approved roots. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+6. Skill Name: Cross-DCC Path Mapper
+
+  Description: Translates path conventions among Blender, Maya, Unreal Engine, Krita, OpenToonz, After Effects, Nuke, Resolve, and equivalent tools. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+7. Skill Name: Project Bootstrap Validator
+
+  Description: Opens the project from a clean location, creates a test shot, renders it, exports review media, and confirms that no undocumented setup is required. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+8. Skill Name: Department Handoff Template Builder
+
+  Description: Creates consistent input, output, notes, status, dependencies, approval, and rollback fields for every department transfer. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+9. Skill Name: Show-Wide Settings Synchronizer
+
+  Description: Propagates approved color, frame rate, resolution, naming, render, audio, and review settings without overwriting shot-specific values. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+10. Skill Name: Project Decommissioning Planner
+
+  Description: Separates masters, sources, caches, licenses, tools, documentation, and disposable data at the end of production. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+3. Asset Naming, Identity, and Metadata
+
+1. Skill Name: Asset Naming Standard Designer
+
+  Description: Defines parseable names for projects, sequences, shots, characters, props, sets, rigs, materials, textures, audio, subtitles, renders, and versions. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+2. Skill Name: Filename Compliance Validator
+
+  Description: Detects illegal characters, case conflicts, ambiguous tokens, missing versions, excessive length, and platform-incompatible names. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+3. Skill Name: Unique Asset Identifier Manager
+
+  Description: Assigns stable IDs that survive renaming, relocation, publication, and cross-application exchange. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+4. Skill Name: Shot Identifier Registrar
+
+  Description: Prevents duplicate sequence and shot codes and maps legacy IDs to the approved production scheme. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+5. Skill Name: Asset Metadata Schema Builder
+
+  Description: Defines required fields for type, owner, source, version, status, license, dependencies, dimensions, frame rate, color space, and approval. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+6. Skill Name: Metadata Sidecar Writer
+
+  Description: Writes JSON, YAML, CSV, or XML sidecars for formats that cannot safely store all required production metadata. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+7. Skill Name: Tagging Vocabulary Curator
+
+  Description: Maintains controlled tags for characters, locations, actions, materials, moods, audio, effects, rights, and delivery use. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+8. Skill Name: Metadata Integrity Checker
+
+  Description: Compares embedded metadata, sidecars, databases, manifests, and filenames and reports conflicting values. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+9. Skill Name: Asset Search Index Builder
+
+  Description: Creates an offline searchable index of approved assets, thumbnails, tags, versions, rights, and storage locations. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+10. Skill Name: Legacy Naming Migration Operator
+
+  Description: Renames older assets safely, updates references, creates redirects or mapping tables, and verifies that scenes still open. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+4. Version Control and Change Management
+
+1. Skill Name: Git Repository Architect
+
+  Description: Configures Git branches, ignore rules, hooks, tags, release conventions, and protected production baselines for scripts, documents, and lightweight assets. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+2. Skill Name: Large File Storage Manager
+
+  Description: Configures Git LFS or an equivalent local large-file system for scene files, textures, audio, caches, images, and media while controlling storage growth. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+3. Skill Name: Binary Asset Lock Coordinator
+
+  Description: Prevents conflicting edits to non-mergeable scene, rig, board, audio, and design files through checkout and lock rules. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+4. Skill Name: Version Publication Manager
+
+  Description: Promotes work-in-progress assets into review, approved, deprecated, and final states with immutable version identifiers. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+5. Skill Name: Change Log Generator
+
+  Description: Summarizes changed files, settings, dependencies, frame ranges, visual impact, and required downstream rebuilds. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+6. Skill Name: Scene Difference Reporter
+
+  Description: Extracts comparable scene structure and reports object, layer, node, material, animation, camera, light, and setting changes. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+7. Skill Name: Rollback and Recovery Operator
+
+  Description: Restores a selected known-good asset or project state without discarding unrelated passing work. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+8. Skill Name: Merge Conflict Triage Assistant
+
+  Description: Classifies text, metadata, timeline, manifest, and generated-file conflicts and selects safe manual or automated resolution. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+9. Skill Name: Release Tag and Baseline Manager
+
+  Description: Creates signed or checksummed milestones for edit lock, animation lock, lighting lock, final mix, and delivery. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+10. Skill Name: Version Retention Policy Enforcer
+
+  Description: Keeps required milestones and recent work while pruning redundant local copies, previews, and replaceable caches. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+11. Skill Name: Change Impact Analyzer
+
+  Description: Maps an edit to affected shots, simulations, renders, subtitles, audio conforms, review files, and deliveries. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+12. Skill Name: Offline Repository Mirror Manager
+
+  Description: Maintains verified local mirrors and transfer bundles for teams without continuous network access. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+5. Backup, Storage, and Disaster Recovery
+
+1. Skill Name: 3-2-1 Backup Planner
+
+  Description: Defines three copies on two storage types with one offline or off-site copy, including frequency, ownership, encryption, and restoration targets. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+2. Skill Name: Incremental Project Backup Operator
+
+  Description: Captures changed project data on a schedule while excluding rebuildable caches and preserving open-file consistency. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+3. Skill Name: Snapshot and Restore-Point Manager
+
+  Description: Creates labeled filesystem or repository snapshots before risky upgrades, publishes, retimes, and deliveries. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+4. Skill Name: Backup Integrity Verifier
+
+  Description: Checks archive readability, hashes, file counts, permissions, and random restoration samples rather than trusting copy completion. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+5. Skill Name: Disaster Recovery Drill Runner
+
+  Description: Simulates workstation loss, corrupted storage, deleted assets, failed updates, and unavailable shared drives and measures recovery time. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+6. Skill Name: Storage Capacity Forecaster
+
+  Description: Projects source, cache, render, review, archive, and backup growth by shot count, resolution, frame rate, bit depth, and revision rate. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+7. Skill Name: Cache Retention Optimizer
+
+  Description: Classifies caches as reproducible, expensive, approved, or irreplaceable and assigns retention and eviction rules. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+8. Skill Name: Archive Tier Manager
+
+  Description: Moves active, nearline, cold, and legal-hold data among storage tiers while preserving manifests and checksums. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+9. Skill Name: Removable Media Transfer Validator
+
+  Description: Scans transfer drives for filesystem limits, corruption, incomplete copies, malware risk, and path-length problems. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+10. Skill Name: Emergency Continuity Packager
+
+  Description: Creates a minimal package containing current edit, approved assets, critical tools, licenses, manifests, and restart instructions. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+11. Skill Name: Ransomware-Resilient Backup Designer
+
+  Description: Uses immutable snapshots, offline rotation, least privilege, and tested restores to reduce correlated loss. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+12. Skill Name: Long-Term Archive Refresher
+
+  Description: Periodically verifies media health, migrates endangered formats, and rewrites archives before storage degradation. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+6. Story Development and Storyboard Systems
+
+1. Skill Name: Storyboard Template Designer
+
+  Description: Creates reusable panel, page, sequence, dialogue, action, camera, timing, revision, and approval templates for both 2D and 3D pipelines. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+2. Skill Name: Thumbnail Sequence Planner
+
+  Description: Produces fast low-detail staging alternatives before detailed boards or previs begin. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+3. Skill Name: Storyboard Composition Auditor
+
+  Description: Checks staging, silhouette, eye trace, depth, screen direction, continuity, focal hierarchy, and readability. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+4. Skill Name: Storyboard Revision Tracker
+
+  Description: Compares board versions, highlights changed panels, carries notes forward, and removes obsolete panels from downstream packages. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+5. Skill Name: Panel and Shot ID Synchronizer
+
+  Description: Keeps storyboard panels aligned with shot-list IDs, editorial clips, scene names, and review notes. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+6. Skill Name: Storyboard Export Packager
+
+  Description: Exports panel images, PDFs, contact sheets, dialogue text, timing, and machine-readable metadata. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+7. Skill Name: Storyboard Accessibility Reviewer
+
+  Description: Checks text size, contrast, reading order, panel labels, and alternate descriptions for accessible review. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+8. Skill Name: Board-to-Previs Handoff Builder
+
+  Description: Packages approved boards with camera intent, timing, action notes, lens guidance, dialogue, and asset requirements. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+9. Skill Name: Continuity Annotation Manager
+
+  Description: Records eyelines, entrances, exits, prop states, costume states, time of day, lighting direction, and geography. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+10. Skill Name: Storyboard Approval Gate
+
+  Description: Requires resolved notes, valid IDs, current dialogue, approved timing, and complete exports before editorial handoff. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+7. Shot Lists, Scheduling, and Production Tracking
+
+1. Skill Name: Shot List Builder
+
+  Description: Creates a structured list of sequences, shots, descriptions, frame ranges, handles, assets, effects, audio, owners, status, and dependencies. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+2. Skill Name: Shot List Validator
+
+  Description: Detects duplicate IDs, missing durations, invalid frame ranges, incomplete dependencies, and inconsistent standards. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+3. Skill Name: Scene Breakdown Assistant
+
+  Description: Extracts characters, props, sets, wardrobe, effects, audio, crowds, simulations, and special requirements from scripts and boards. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+4. Skill Name: Bid and Complexity Estimator
+
+  Description: Rates shots by animation, simulation, lighting, compositing, audio, rendering, and revision complexity using project-specific scales. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+5. Skill Name: Production Schedule Generator
+
+  Description: Builds dependency-aware schedules with review cycles, render time, resource limits, holidays, and contingency. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+6. Skill Name: Critical Path Analyzer
+
+  Description: Identifies blocking assets, approvals, simulations, renders, conforms, and deliveries that determine completion date. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+7. Skill Name: Workload Balancer
+
+  Description: Allocates shots by skill, capacity, complexity, hardware, continuity, and deadline while avoiding hidden overload. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+8. Skill Name: Milestone Readiness Checker
+
+  Description: Tests whether story lock, asset lock, animation lock, picture lock, final mix, and delivery prerequisites are complete. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+9. Skill Name: Status Rollup Reporter
+
+  Description: Summarizes shot and asset state from local manifests without replacing the underlying source of truth. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+10. Skill Name: Late-Change Impact Planner
+
+  Description: Estimates affected departments, rerender scope, audio and subtitle reconform, schedule shift, and rollback options. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+11. Skill Name: Review Queue Prioritizer
+
+  Description: Orders submissions by blockers, deadline, dependency impact, render cost, and reviewer availability. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+12. Skill Name: Production Risk Register Manager
+
+  Description: Tracks probability, impact, owner, trigger, mitigation, contingency, and closure evidence for production risks. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+8. Editorial, Animatics, and Conform
+
+1. Skill Name: Animatic Assembly Operator
+
+  Description: Combines boards, previs, dialogue, music, effects, camera moves, and timing into a frame-accurate editorial sequence. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+2. Skill Name: Edit Decision List Manager
+
+  Description: Exports, imports, and validates EDL, XML, AAF, OTIO, or equivalent interchange while preserving clip identity and timebase. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+3. Skill Name: Picture Lock Controller
+
+  Description: Freezes approved edit decisions, assigns a lock version, records exceptions, and prevents untracked duration changes. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+4. Skill Name: Handle and Frame Range Manager
+
+  Description: Applies consistent head and tail handles and maps editorial frames to shot-local frame numbers. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+5. Skill Name: Offline-Online Conform Validator
+
+  Description: Relinks high-quality assets to the approved edit and verifies duration, speed, transforms, transitions, and audio sync. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+6. Skill Name: Retime and Speed-Change Auditor
+
+  Description: Detects variable speed, freeze frames, reverse playback, interpolation, and optical-flow requirements. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+7. Skill Name: Reference Movie Builder
+
+  Description: Creates editorial references with slate, burn-ins, timecode, shot IDs, version, frame rate, and audio. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+8. Skill Name: Editorial Change List Generator
+
+  Description: Compares edit versions and reports added, removed, shortened, lengthened, moved, or retimed shots. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+9. Skill Name: Color and Audio Turnover Packager
+
+  Description: Creates locked references, timelines, handles, source maps, notes, and checksums for finishing departments. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+10. Skill Name: Final Conform Gate
+
+  Description: Verifies the final timeline against picture lock, approved shot versions, final mix, subtitles, titles, and delivery specifications. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+9. Natural Offline Neural Voice Production
+
+1. Skill Name: Offline Neural Voice Engine Manager
+
+  Description: Installs and configures local text-to-speech runtimes, voices, models, dictionaries, hardware modes, and deterministic inference settings. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+2. Skill Name: Natural Voice Casting Assistant
+
+  Description: Matches approved local voices to character age range, vocal quality, language, performance need, and license restrictions without impersonating unapproved people. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+3. Skill Name: Pronunciation Lexicon Builder
+
+  Description: Creates project dictionaries for names, invented words, technical terms, abbreviations, phonemes, stress, and alternate readings. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+4. Skill Name: Voice Performance Direction Builder
+
+  Description: Converts script intent into pace, emphasis, pauses, pitch range, energy, breath, and emotional direction that a local engine can express. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+5. Skill Name: Multi-Take Voice Generator
+
+  Description: Produces labeled performance variants with controlled seeds or settings and preserves prompts, model versions, and selection notes. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+6. Skill Name: Voice Consistency Validator
+
+  Description: Checks speaker identity, loudness, pace, pitch, pronunciation, room tone, and model version across sessions. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+7. Skill Name: Offline Voice Conversion Operator
+
+  Description: Transforms an authorized source performance into an approved target voice locally while retaining consent and provenance records. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+8. Skill Name: Dialogue Timing Adapter
+
+  Description: Fits generated speech to target duration through phrasing, pause, rate, and limited time-stretch changes without damaging intelligibility. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+9. Skill Name: Neural Voice Artifact Detector
+
+  Description: Flags metallic resonance, slurred consonants, repeated breaths, clicks, unstable pitch, dropped words, and unnatural pauses. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+10. Skill Name: Voice Consent and Rights Gate
+
+  Description: Requires documented authority, permitted uses, retention period, model terms, and revocation handling before voice generation or conversion. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+11. Skill Name: Multilingual Voice Localizer
+
+  Description: Generates approved language versions with pronunciation review, timing control, and speaker consistency. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+12. Skill Name: Voice Model Provenance Recorder
+
+  Description: Records model source, version, hash, license, training or consent notes, voice settings, text, and generated-file lineage. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+10. Sound Effects Libraries and Sound Design
+
+1. Skill Name: Offline Sound Effects Librarian
+
+  Description: Indexes local effects by category, description, duration, channels, sample rate, loudness, location, license, and usage restrictions. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+2. Skill Name: Sound Effects Ingest Operator
+
+  Description: Normalizes filenames, metadata, formats, peaks, and folders while preserving untouched source recordings. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+3. Skill Name: Sound Search Taxonomy Builder
+
+  Description: Creates controlled tags for actions, materials, environments, vehicles, creatures, interfaces, impacts, movement, and perspective. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+4. Skill Name: Layered Sound Effect Designer
+
+  Description: Combines transient, body, texture, tail, sweetener, and ambience layers into editable designed effects. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+5. Skill Name: Foley Cue Sheet Builder
+
+  Description: Extracts footsteps, cloth, props, body movement, and interaction cues from the locked picture. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+6. Skill Name: Footstep and Surface Designer
+
+  Description: Builds perspective-aware footsteps by performer weight, footwear, pace, surface, room, and action. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+7. Skill Name: Impact Sound Builder
+
+  Description: Constructs hits with readable attack, weight, debris, resonance, perspective, and safe peak level. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+8. Skill Name: Ambience Bed Creator
+
+  Description: Creates seamless environmental backgrounds with controlled loops, perspective, transitions, and noise floor. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+9. Skill Name: Sound Effect License Auditor
+
+  Description: Checks attribution, commercial use, modification, redistribution, synchronization, and library-specific restrictions. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+10. Skill Name: Effects Duplicate Detector
+
+  Description: Finds identical and near-identical files to reduce storage and avoid repeated use under inconsistent names. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+11. Skill Name: Effects-to-Picture Synchronizer
+
+  Description: Places and trims effects against frame-accurate action cues while preserving handles and alternate takes. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+12. Skill Name: Sound Library Backup Packager
+
+  Description: Creates verified, license-aware offline copies with indexes, previews, metadata, and restoration instructions. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+11. Offline Music Libraries and Scoring
+
+1. Skill Name: Offline Music Library Manager
+
+  Description: Indexes cues, stems, loops, themes, tempos, keys, moods, durations, instrumentation, edit points, and licenses. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+2. Skill Name: Temp Music Selector
+
+  Description: Matches local tracks to story function, pacing, tone, duration, and editorial structure while marking temporary status clearly. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+3. Skill Name: Music Cue Sheet Builder
+
+  Description: Records cue title, composer, publisher, usage, duration, territory, media, scene, and timing for clearance and reporting. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+4. Skill Name: Offline Score Sketcher
+
+  Description: Builds local mockups from MIDI, sampled instruments, notation tools, and approved sound libraries. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+5. Skill Name: Theme and Motif Tracker
+
+  Description: Maintains character, location, relationship, and narrative motifs across cues and revisions. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+6. Skill Name: Tempo Map and Beat Grid Builder
+
+  Description: Maps tempo, meter, bars, beats, hits, and tempo changes to picture timecode. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+7. Skill Name: Music Stem Manager
+
+  Description: Organizes dialogue-safe, percussion, melody, bass, ambience, and alternate stems for flexible mixing. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+8. Skill Name: Loop and Edit Point Designer
+
+  Description: Creates seamless loops, button endings, extensions, and cut-downs with verified phase and ambience continuity. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+9. Skill Name: Music License and Territory Auditor
+
+  Description: Checks synchronization rights, master rights, territory, term, platform, attribution, and prohibited uses. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+10. Skill Name: Score-to-Picture Synchronizer
+
+  Description: Aligns starts, stops, accents, transitions, and endings to story beats without over-cutting musical phrasing. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+11. Skill Name: Music Loudness and Headroom Checker
+
+  Description: Measures cue peaks, integrated loudness, true peak, dynamics, and headroom before mix integration. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+12. Skill Name: Final Music Archive Packager
+
+  Description: Preserves full mixes, stems, session files, MIDI, notation, licenses, cue sheets, and approved masters. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+12. Audio Editing, Dialogue, Mixing, and Mastering
+
+1. Skill Name: Audio Session Template Builder
+
+  Description: Creates standard tracks, buses, routing, sample rate, bit depth, naming, meters, markers, and print paths. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+2. Skill Name: Dialogue Edit Operator
+
+  Description: Selects takes, removes distractions, repairs edits, preserves natural timing, and maintains handles and alternate lines. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+3. Skill Name: Noise and Artifact Repair Specialist
+
+  Description: Reduces hum, hiss, clicks, clipping, plosives, mouth noise, and intermittent interference without over-processing. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+4. Skill Name: ADR and Replacement Dialogue Manager
+
+  Description: Tracks cue IDs, beeps, takes, selected lines, timing, performance notes, and picture references. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+5. Skill Name: Audio Sync and Drift Corrector
+
+  Description: Aligns production audio, generated voice, effects, and music to picture and fixes sample-rate or timebase drift. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+6. Skill Name: Dialogue Premix Builder
+
+  Description: Balances voices, applies conservative equalization and dynamics, and standardizes perspective before the final mix. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+7. Skill Name: Effects Premix Builder
+
+  Description: Organizes Foley, hard effects, ambience, design, and low-frequency content into controllable stems. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+8. Skill Name: Music Premix Builder
+
+  Description: Balances full mix and stems, preserves musical dynamics, and prepares automation points for dialogue interaction. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+9. Skill Name: Surround and Spatial Mix Planner
+
+  Description: Defines channel layout, speaker mapping, object use, downmix behavior, and monitoring requirements for supported formats. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+10. Skill Name: Loudness Compliance Mastering
+
+  Description: Targets the delivery platform using measured integrated loudness, loudness range, dialog level, and true peak rather than arbitrary normalization. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+11. Skill Name: Audio Stem Exporter
+
+  Description: Prints synchronized dialogue, music, effects, Foley, ambience, narration, and full-mix stems with matching start, length, and metadata. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+12. Skill Name: Mastering Quality-Control Operator
+
+  Description: Checks clipping, silence, dropouts, phase, polarity, channel order, sync, loudness, noise floor, and codec damage. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+13. Subtitle, Caption, and Timed-Text Production
+
+1. Skill Name: Subtitle Template and Style Builder
+
+  Description: Defines typography, safe area, line length, positioning, colors, outlines, backgrounds, and speaker treatment for target platforms. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+2. Skill Name: Dialogue Transcription Operator
+
+  Description: Creates an editable transcript from local audio and marks uncertain words, speakers, non-speech sounds, and time ranges. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+3. Skill Name: Subtitle Segmentation Specialist
+
+  Description: Splits text by syntax, reading speed, shot changes, and meaning while avoiding orphaned words and poor line breaks. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+4. Skill Name: Caption Timing Operator
+
+  Description: Sets frame-accurate in and out points, minimum display time, gaps, and synchronization with speech and sound cues. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+5. Skill Name: SDH Caption Author
+
+  Description: Adds speaker IDs, meaningful music, sound effects, tone, and off-screen cues needed by deaf and hard-of-hearing audiences. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+6. Skill Name: Reading-Speed Validator
+
+  Description: Measures characters or words per second and flags captions that are too brief, dense, or poorly segmented for the target specification. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+7. Skill Name: Subtitle Safe-Area Validator
+
+  Description: Checks title-safe placement, face and action obstruction, multi-speaker positioning, and device overscan risks. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+8. Skill Name: Timed-Text Format Converter
+
+  Description: Converts among SRT, WebVTT, TTML, SCC, STL, ASS, and supported platform formats while preserving timing and text. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+9. Skill Name: Subtitle Conform Operator
+
+  Description: Retimes captions after picture edits and verifies every added, removed, shifted, or retimed section. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+10. Skill Name: Multilingual Subtitle Package Manager
+
+  Description: Organizes language codes, translations, forced narratives, SDH variants, fonts, directionality, and review status. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+11. Skill Name: Burn-In Subtitle Renderer
+
+  Description: Creates review or required open-caption media with deterministic fonts, positioning, anti-aliasing, and contrast. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+12. Skill Name: Caption Delivery Validator
+
+  Description: Checks encoding, line endings, frame rate, timecode, overlaps, ordering, prohibited characters, and platform-specific rules. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+14. Color Management and Display Standards
+
+1. Skill Name: Color Management Standard Author
+
+  Description: Defines working, interchange, display, review, texture, render, and delivery color spaces using ICC or OCIO-based policy. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+2. Skill Name: OCIO Configuration Manager
+
+  Description: Packages and validates an OpenColorIO configuration, roles, displays, views, looks, file rules, and application mappings. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+3. Skill Name: Display Calibration Planner
+
+  Description: Sets calibration targets for white point, luminance, gamma or EOTF, black level, environment, instrument, and verification interval. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+4. Skill Name: Texture Color-Space Classifier
+
+  Description: Assigns correct interpretation to base color, emission, masks, normals, roughness, displacement, HDRI, and reference imagery. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+5. Skill Name: Render Color Transform Operator
+
+  Description: Applies approved scene-linear to display and output transforms without baking unintended view looks into masters. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+6. Skill Name: Color Metadata Validator
+
+  Description: Checks primaries, transfer characteristics, matrix coefficients, ICC profiles, mastering metadata, and container tags. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+7. Skill Name: Cross-Application Color Comparator
+
+  Description: Renders the same reference chart through multiple DCC, compositing, editing, and playback applications and measures mismatch. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+8. Skill Name: HDR and SDR Trim Planner
+
+  Description: Creates controlled mappings between high-dynamic-range and standard-dynamic-range deliverables with protected creative intent. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+9. Skill Name: Color Bars and Test Pattern Generator
+
+  Description: Produces approved grayscale, ramp, gamut, skin-tone reference, clipping, and alignment patterns for pipeline tests. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+10. Skill Name: Review Display Environment Auditor
+
+  Description: Checks ambient light, display mode, operating-system color management, browser behavior, and viewer transforms. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+11. Skill Name: Gamut and Clipping Analyzer
+
+  Description: Flags out-of-range, negative, illegal, or compressed colors and identifies whether clipping occurs in source, transform, codec, or display. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+12. Skill Name: Color Pipeline Regression Tester
+
+  Description: Compares known reference renders after application, plugin, driver, codec, or configuration changes. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+15. Frame Rate, Timebase, and Synchronization Standards
+
+1. Skill Name: Frame Rate Standard Author
+
+  Description: Defines approved project and delivery rates, including 23.976, 24, 25, 29.97, 30, 50, 59.94, and 60 fps where required. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+2. Skill Name: Drop-Frame Timecode Manager
+
+  Description: Applies correct drop-frame or non-drop-frame notation and validates timecode math for 29.97 and 59.94 workflows. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+3. Skill Name: Mixed-Rate Media Ingestor
+
+  Description: Identifies source rates, variable frame rate, pulldown, cadence, and audio implications before conversion. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+4. Skill Name: Frame Rate Conversion Planner
+
+  Description: Selects frame duplication, blending, optical flow, interpolation, speed change, or re-animation based on content and quality risk. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+5. Skill Name: Timebase Consistency Validator
+
+  Description: Compares project, shot, cache, render, editorial, subtitle, audio, and container timebase metadata. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+6. Skill Name: Audio Clock Drift Analyzer
+
+  Description: Measures cumulative sync drift caused by sample-rate, playback-rate, or clock mismatch. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+7. Skill Name: Frame Numbering Convention Manager
+
+  Description: Defines start frames, handle frames, zero padding, negative frames, slate frames, and shot-local versus timeline numbering. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+8. Skill Name: High-Frame-Rate Workflow Planner
+
+  Description: Manages slow motion, motion blur, simulation sampling, render cost, review conversion, and delivery for high-rate footage. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+9. Skill Name: Variable Frame Rate Normalizer
+
+  Description: Converts VFR recordings to a documented constant rate while preserving audio sync and source mapping. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+10. Skill Name: Sync Reference Generator
+
+  Description: Creates frame flashes, two-pop, tail pop, clap, timecode burn-in, and tone references for cross-department alignment. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+16. Resolution, Aspect Ratio, and Framing Standards
+
+1. Skill Name: Resolution Standard Author
+
+  Description: Defines approved working, proxy, review, render, archive, and delivery pixel dimensions and scaling rules. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+2. Skill Name: Aspect Ratio Policy Manager
+
+  Description: Defines canvas, display, pixel, crop, letterbox, pillarbox, and extraction policies for each target. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+3. Skill Name: Safe Area Template Builder
+
+  Description: Creates action-safe, title-safe, subtitle-safe, broadcast-safe, platform overlay, and device cutout guides. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+4. Skill Name: Overscan and Reframe Planner
+
+  Description: Sets extra image area for stabilization, camera moves, format extraction, and localization without exposing incomplete artwork. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+5. Skill Name: Anamorphic and Pixel Aspect Validator
+
+  Description: Detects non-square pixels, squeeze factors, display aspect mismatch, and incorrect metadata. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+6. Skill Name: Multi-Platform Framing Adapter
+
+  Description: Creates approved 16:9, 9:16, 1:1, 4:5, 2.39:1, and custom extractions from a protected master composition. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+7. Skill Name: Image Scaling Quality Controller
+
+  Description: Selects nearest, bilinear, bicubic, Lanczos, area, or specialized scaling based on pixel art, line art, texture, and photographic content. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+8. Skill Name: Crop and Padding Auditor
+
+  Description: Checks asymmetric crops, unintended borders, hidden mattes, odd dimensions, codec constraints, and subtitle collisions. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+9. Skill Name: Render Tile and Memory Planner
+
+  Description: Chooses tile size, chunking, proxy resolution, and intermediate format from resolution, bit depth, channels, and available memory. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+10. Skill Name: Resolution Metadata Validator
+
+  Description: Confirms raster dimensions, clean aperture, sample aspect ratio, display aspect ratio, orientation, and container signaling. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+17. Shared Asset Libraries and Reuse
+
+1. Skill Name: Shared Asset Library Architect
+
+  Description: Organizes approved characters, props, environments, materials, textures, brushes, rigs, motion, audio, fonts, and templates for both 2D and 3D use. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+2. Skill Name: Asset Publication Operator
+
+  Description: Packages a versioned asset with sources, dependencies, previews, metadata, license, tests, and compatibility notes. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+3. Skill Name: Asset Dependency Resolver
+
+  Description: Detects missing, circular, outdated, or machine-specific references and builds a portable dependency map. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+4. Skill Name: Asset Compatibility Matrix Manager
+
+  Description: Records which application, version, renderer, color configuration, plugin, and operating system can open or reproduce each asset. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+5. Skill Name: Thumbnail and Preview Generator
+
+  Description: Creates consistent still, turntable, wireframe, layer, waveform, or playback previews for offline browsing. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+6. Skill Name: Asset Approval Gate
+
+  Description: Verifies naming, scale, orientation, pivots, color, topology or layer structure, animation controls, licensing, and tests before publication. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+7. Skill Name: Asset Deprecation Manager
+
+  Description: Marks unsafe or obsolete assets, points users to replacements, and prevents new work from using retired versions. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+8. Skill Name: Reference and Mood Library Curator
+
+  Description: Indexes local visual and audio references with source, rights, tags, project relevance, and restricted-use markers. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+9. Skill Name: Material and Palette Bridge
+
+  Description: Maps 2D palette roles and 3D material colors to shared design references and color-management rules. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+10. Skill Name: Reusable Motion Library Manager
+
+  Description: Catalogs cycles, poses, facial shapes, camera moves, transitions, and timing references with compatibility metadata. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+11. Skill Name: Font and Graphic Element Library Manager
+
+  Description: Packages permitted fonts, logos, title cards, lower thirds, icons, and layout templates with license records. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+12. Skill Name: Library Integrity Scanner
+
+  Description: Checks hashes, missing files, corrupt previews, duplicate versions, broken dependencies, and incomplete license data. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+18. Cross-Discipline Scene and Shot Exchange
+
+1. Skill Name: Scene Interchange Planner
+
+  Description: Selects USD, Alembic, FBX, glTF, OBJ, SVG, OpenEXR, image sequences, or application-native exchange based on required fidelity. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+2. Skill Name: Coordinate System Converter
+
+  Description: Maps handedness, up axis, units, origin, camera direction, rotation order, and transform hierarchy across applications. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+3. Skill Name: Camera Exchange Validator
+
+  Description: Compares focal length, sensor or aperture, film fit, clipping, transforms, frame range, and render gate after import. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+4. Skill Name: Animation Bake and Transfer Operator
+
+  Description: Bakes constraints, procedural controls, simulations, and unsupported curves into portable animation data. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+5. Skill Name: Material and Texture Exchange Operator
+
+  Description: Packages texture sets, color-space assignments, UDIMs, transparency, displacement, and simplified material mappings. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+6. Skill Name: 2D Plane and Card Integrator
+
+  Description: Places drawings, mattes, projections, sprites, and image sequences into 3D scenes with correct alpha, scale, depth, and filtering. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+7. Skill Name: 3D Render-to-2D Handoff Builder
+
+  Description: Exports beauty, utility passes, cryptomatte, depth, motion vectors, normals, IDs, and camera metadata for compositing or paint. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+8. Skill Name: 2D Design-to-3D Reference Packager
+
+  Description: Exports orthographic views, silhouettes, scale, proportions, color references, expression sheets, and material notes. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+9. Skill Name: Scene Flattening and Proxy Builder
+
+  Description: Creates lightweight stand-ins while preserving names, transforms, bounds, timing, and replacement paths. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+10. Skill Name: Round-Trip Exchange Tester
+
+  Description: Exports, imports, re-exports, and compares reference scenes to quantify transform, animation, material, camera, and metadata loss. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+11. Skill Name: Shot Package Manifest Writer
+
+  Description: Records every transferred file, version, frame range, dependency, coordinate rule, color space, and expected output. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+12. Skill Name: Interchange Failure Recovery Operator
+
+  Description: Isolates unsupported features, selects alternate formats, bakes only necessary data, and preserves the original passing source. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+19. Render and Export Presets
+
+1. Skill Name: Render Preset Standardizer
+
+  Description: Creates versioned presets for draft, preview, final, matte, utility, stereo, and archival output across supported renderers. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+2. Skill Name: 2D Export Preset Manager
+
+  Description: Defines image sequence, sprite, layered, vector, GIF, APNG, WebP, and review-video settings. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+3. Skill Name: 3D Render Preset Manager
+
+  Description: Defines engine, device, sampling, denoising, motion blur, depth of field, passes, precision, and output settings. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+4. Skill Name: Compositing Render Preset Manager
+
+  Description: Defines cache, proxy, full-quality, precomp, plate, matte, and final-write settings with color and alpha rules. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+5. Skill Name: Audio Export Preset Manager
+
+  Description: Defines sample rate, bit depth, channels, loudness, stem layout, codec, dither, and metadata. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+6. Skill Name: Subtitle Export Preset Manager
+
+  Description: Defines format, encoding, language, frame rate, style, line endings, and platform constraints. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+7. Skill Name: Review Media Preset Builder
+
+  Description: Creates lightweight but color- and sync-reliable review outputs with slate, burn-ins, timecode, and audio. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+8. Skill Name: Master Delivery Preset Builder
+
+  Description: Creates high-quality mezzanine, lossless, image-sequence, IMF, DCP, or platform masters as required by the specification. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+9. Skill Name: Alpha Output Preset Builder
+
+  Description: Selects straight or premultiplied alpha, channel order, bit depth, codec, matte color, and validation method. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+10. Skill Name: Preset Drift Detector
+
+  Description: Compares current application settings with approved presets and flags silent changes after updates or user edits. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+11. Skill Name: Preset Portability Packager
+
+  Description: Bundles presets, LUTs, color configurations, fonts, scripts, codec notes, and import instructions. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+12. Skill Name: Render Preset Regression Tester
+
+  Description: Renders reference shots with each preset and compares dimensions, channels, color, alpha, timing, audio, and file readability. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+20. Rendering, Queues, Farms, and Resource Control
+
+1. Skill Name: Render Queue Orchestrator
+
+  Description: Orders jobs by dependency, priority, deadline, hardware, memory, license, frame range, and storage availability. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+2. Skill Name: Local Render Farm Manager
+
+  Description: Coordinates offline workstations or nodes, shared paths, application versions, plugins, retries, and result collection. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+3. Skill Name: Frame Chunking Planner
+
+  Description: Selects contiguous, interleaved, tile, wedge, or shot-level chunks based on job behavior and recovery cost. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+4. Skill Name: Render Resource Estimator
+
+  Description: Estimates CPU or GPU time, VRAM, RAM, disk, cache, network, and output size from representative test frames. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+5. Skill Name: Render Preflight Operator
+
+  Description: Checks missing assets, invalid paths, unsupported plugins, color settings, camera, frame range, resolution, passes, and output permissions. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+6. Skill Name: Render Failure Classifier
+
+  Description: Separates scene, asset, license, memory, timeout, storage, driver, plugin, and corrupted-frame failures for targeted recovery. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+7. Skill Name: Missing and Corrupt Frame Requeuer
+
+  Description: Detects incomplete outputs and reruns only affected frames after the underlying issue is corrected. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+8. Skill Name: Render Log Analyzer
+
+  Description: Extracts warnings, peak memory, timing, fallback devices, missing textures, NaNs, and crash signatures from local logs. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+9. Skill Name: Deterministic Render Validator
+
+  Description: Rerenders selected frames and checks whether procedural seeds, simulations, denoisers, and asset versions produce repeatable output. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+10. Skill Name: Render Cost Optimizer
+
+  Description: Tests sampling, subdivision, texture resolution, motion blur, denoising, caching, and proxy options against a visual reference. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+11. Skill Name: Render Result Publisher
+
+  Description: Moves validated outputs to approved locations with manifests, checksums, permissions, and version status. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+12. Skill Name: Farm Clean-State Node Tester
+
+  Description: Rebuilds or resets a worker and runs reference jobs to prove that no hidden local cache or manual fix is required. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+21. Automated Technical Quality Control
+
+1. Skill Name: Media File Opener and Decoder Test
+
+  Description: Opens every deliverable with independent local decoders and flags unreadable, truncated, unsupported, or zero-byte files. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+2. Skill Name: Missing Frame Detector
+
+  Description: Compares expected frame ranges with actual files and reports gaps, wrong padding, duplicate names, and unexpected extensions. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+3. Skill Name: Duplicate and Frozen Frame Detector
+
+  Description: Finds exact and near-duplicate frames and distinguishes intentional holds from accidental repeats. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+4. Skill Name: Black, Blank, and Solid Frame Detector
+
+  Description: Flags unexpected black, white, transparent, or single-color frames using configurable thresholds and exclusions. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+5. Skill Name: Image Dimension and Channel Validator
+
+  Description: Checks width, height, bit depth, channel count, alpha, data windows, display windows, and compression. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+6. Skill Name: Alpha Channel Quality Validator
+
+  Description: Checks alpha presence, range, premultiplication, opaque borders, holes, matte contamination, and color outside alpha. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+7. Skill Name: Color and Gamut Validator
+
+  Description: Checks color space, metadata, illegal values, clipping, NaNs, infinities, gamut excursions, and transform consistency. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+8. Skill Name: Frame Rate and Duration Validator
+
+  Description: Compares declared and decoded frame rate, frame count, timebase, start, end, and duration. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+9. Skill Name: Audio Presence and Layout Validator
+
+  Description: Checks stream count, channel order, sample rate, bit depth, duration, sync, silence, clipping, and loudness. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+10. Skill Name: Subtitle Structure Validator
+
+  Description: Checks parseability, encoding, ordering, overlap, duration, line length, language tags, and out-of-range cues. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+11. Skill Name: Container and Codec Validator
+
+  Description: Checks wrapper, codec profile, level, pixel format, GOP, bitrate mode, metadata, and target-player compatibility. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+12. Skill Name: File Naming and Package Validator
+
+  Description: Checks exact filenames, folder structure, forbidden extras, manifests, checksums, and required documents. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+22. Automated Visual and Temporal Quality Control
+
+1. Skill Name: Visual Regression Comparator
+
+  Description: Compares candidate renders with approved references using pixel, structural, edge, color, and region-aware difference methods. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+2. Skill Name: Flicker and Temporal Instability Detector
+
+  Description: Finds unintended frame-to-frame changes in lighting, texture, line weight, noise, denoising, shadows, and backgrounds. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+3. Skill Name: Animation Pop and Arc Detector
+
+  Description: Tracks landmarks or features to flag sudden position, rotation, scale, deformation, or spacing discontinuities. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+4. Skill Name: Character and Asset Consistency Checker
+
+  Description: Compares proportions, colors, costume, materials, facial features, rig state, and prop details across shots. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+5. Skill Name: Camera Continuity Validator
+
+  Description: Checks eyelines, screen direction, lens changes, horizon, camera height, move endpoints, and shot geography. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+6. Skill Name: Simulation Continuity Checker
+
+  Description: Detects resets, penetrations, popping, unstable topology, missing caches, and inconsistent seeds in cloth, hair, particles, fluids, or crowds. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+7. Skill Name: Compositing Edge and Matte Checker
+
+  Description: Detects halos, chatter, holes, hard edges, spill, bad premultiplication, and mismatched motion blur. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+8. Skill Name: Banding and Compression Artifact Detector
+
+  Description: Flags visible gradients, macroblocking, ringing, mosquito noise, chroma bleed, and posterization. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+9. Skill Name: Dead Pixel and Hot Pixel Detector
+
+  Description: Finds isolated persistent pixels or tiny clusters that survive across frames. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+10. Skill Name: Title and Subtitle Obstruction Checker
+
+  Description: Detects text outside safe areas, low contrast, clipping, overlaps, and collisions with important action. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+11. Skill Name: Flash and Photosensitivity Safety Checker
+
+  Description: Flags rapid luminance or color flashes and high-contrast patterns for human review and safer revision. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+12. Skill Name: Final Human Review Contact Sheet Builder
+
+  Description: Creates labeled key-frame, difference, waveform, subtitle, and metadata summaries for efficient sign-off. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+23. Review, Notes, Approval, and Change Control
+
+1. Skill Name: Offline Review Package Builder
+
+  Description: Creates self-contained review media, frame references, notes forms, version metadata, and playback instructions. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+2. Skill Name: Frame-Accurate Note Recorder
+
+  Description: Captures reviewer, version, shot, frame or timecode, category, severity, text, drawing, status, and resolution evidence. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+3. Skill Name: Review Note Deduplicator
+
+  Description: Merges equivalent notes while preserving authorship, scope, attachments, and conflicting interpretations. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+4. Skill Name: Note Assignment and Status Manager
+
+  Description: Routes notes to departments or owners and tracks open, in progress, answered, rejected, deferred, and resolved states. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+5. Skill Name: Approval Hierarchy Manager
+
+  Description: Defines who may approve story, assets, animation, lighting, compositing, audio, subtitles, color, master, and delivery. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+6. Skill Name: Approval Evidence Packager
+
+  Description: Stores the exact reviewed media, notes, decision, reviewer, date, and version that support an approval. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+7. Skill Name: Version Mismatch Guard
+
+  Description: Prevents notes or approvals from being applied to the wrong asset, shot, edit, audio mix, subtitle file, or master. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+8. Skill Name: Review Turnaround Monitor
+
+  Description: Tracks time awaiting review, blocked work, stale submissions, and approaching delivery deadlines. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+9. Skill Name: Exception and Waiver Register
+
+  Description: Records approved deviations, risk owner, scope, expiry, mitigation, and affected deliveries. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+10. Skill Name: Final Sign-Off Gate
+
+  Description: Requires all critical notes resolved, approvals recorded, outputs validated, licenses complete, and exact delivery versions frozen. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+24. License, Rights, Consent, and Provenance
+
+1. Skill Name: License and Provenance Manifest Builder
+
+  Description: Creates a project-wide manifest for software, plugins, models, fonts, textures, images, audio, footage, scripts, and generated assets. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+2. Skill Name: Asset License Classifier
+
+  Description: Classifies proprietary, public-domain, permissive, copyleft, attribution, noncommercial, editorial, stock, and unknown material. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+3. Skill Name: Software and Plugin License Auditor
+
+  Description: Records seats, offline activation, server requirements, redistribution limits, install media, and expiry. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+4. Skill Name: Font Rights Validator
+
+  Description: Checks desktop, application, embedding, modification, outline conversion, collaboration, and redistribution permissions. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+5. Skill Name: Music Rights Validator
+
+  Description: Checks composition, master, synchronization, territory, term, media, exclusivity, cue-sheet, and attribution obligations. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+6. Skill Name: Sound Library Rights Validator
+
+  Description: Checks synchronization, modification, redistribution, raw-file sharing, attribution, and prohibited uses. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+7. Skill Name: Voice and Likeness Consent Manager
+
+  Description: Records authority, permitted uses, generated or converted voice terms, retention, revocation, and geographic scope. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+8. Skill Name: AI Model License Auditor
+
+  Description: Records model source, version, hash, commercial rights, redistribution, output restrictions, and required notices. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+9. Skill Name: Training and Reference Data Provenance Recorder
+
+  Description: Records where local finetuning, reference, or adaptation data came from and whether its use is authorized. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+10. Skill Name: Attribution and Notices Generator
+
+  Description: Creates human-readable credits, third-party notices, open-source licenses, and required source offers. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+11. Skill Name: Rights Expiration Monitor
+
+  Description: Flags assets whose term, territory, platform, campaign, or project-specific permission is ending. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+12. Skill Name: Release Rights Gate
+
+  Description: Blocks publication when any required asset, voice, music, font, model, footage, or software right is missing or unresolved. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+25. Security, Privacy, and Offline Governance
+
+1. Skill Name: Air-Gap Security Baseline Author
+
+  Description: Defines device control, data transfer, local accounts, least privilege, patching, logging, malware scanning, and exception handling. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+2. Skill Name: Removable Media Intake Scanner
+
+  Description: Quarantines and scans drives, verifies expected manifests, strips autorun risk, and records transfer custody. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+3. Skill Name: Sensitive Metadata Sanitizer
+
+  Description: Removes user names, machine paths, GPS, comments, hidden layers, thumbnails, document history, and private notes before sharing. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+4. Skill Name: Secret and Credential Scanner
+
+  Description: Finds API keys, passwords, tokens, license files, private certificates, and server addresses in scripts and packages. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+5. Skill Name: Least-Privilege Workspace Manager
+
+  Description: Sets permissions so artists, render nodes, reviewers, and delivery operators access only required folders and actions. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+6. Skill Name: Offline Audit Log Manager
+
+  Description: Records privileged changes, publishes, approvals, transfers, deletions, and delivery events in tamper-evident local logs. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+7. Skill Name: Malware-Resistant Package Builder
+
+  Description: Uses allowlisted formats, scans executables and scripts, includes hashes, and separates active content from media. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+8. Skill Name: Data Classification and Handling Manager
+
+  Description: Labels public, internal, confidential, restricted, client-owned, licensed, and personal data and applies handling rules. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+9. Skill Name: Secure Project Disposal Operator
+
+  Description: Verifies retention obligations, wipes temporary media, revokes access, removes secrets, and preserves required archives. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+10. Skill Name: Incident Response Packager
+
+  Description: Provides offline checklists, contact paths, evidence preservation, containment steps, and recovery baselines for production incidents. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+26. Final Playback and Delivery Validation
+
+1. Skill Name: Final Playback Validation Operator
+
+  Description: Plays the complete master in real time on independent local players and checks start, end, image, sound, subtitles, sync, stutter, and corruption. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+2. Skill Name: Reference Player Compatibility Tester
+
+  Description: Tests approved players, operating systems, hardware decoders, display paths, and subtitle renderers against the exact deliverable. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+3. Skill Name: End-to-End Signal Path Validator
+
+  Description: Verifies source, render, encode, container, storage, transfer, decode, display, and audio-monitoring stages using known test content. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+4. Skill Name: Delivery Specification Parser
+
+  Description: Turns a client or platform specification into explicit filename, folder, codec, resolution, rate, color, audio, subtitle, and document checks. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+5. Skill Name: Delivery Package Assembler
+
+  Description: Creates the exact required folder tree with masters, alternates, audio stems, timed text, artwork, manifests, checksums, and documentation. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+6. Skill Name: Checksum and Transfer Validator
+
+  Description: Generates hashes before transfer and verifies them after copy, upload staging, optical media creation, or drive handoff. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+7. Skill Name: Full-Length Audio-Video Sync Reviewer
+
+  Description: Checks opening sync, periodic checkpoints, and end sync to detect constant offsets and progressive drift. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+8. Skill Name: Subtitle Playback Reviewer
+
+  Description: Plays every subtitle and caption variant on target renderers and checks timing, glyphs, positioning, line breaks, and forced narratives. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+9. Skill Name: Channel and Speaker Mapping Reviewer
+
+  Description: Verifies mono, stereo, 5.1, 7.1, or supported layouts using spoken channel IDs, tones, phase, and real program content. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+10. Skill Name: Final Frame and Tail Validator
+
+  Description: Checks first frame, last frame, slates, black, hold, fade, tail pop, audio tail, and exact duration. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+11. Skill Name: Delivery Reopen Test
+
+  Description: Copies the final package to a clean offline system, opens every file, follows the included instructions, and confirms completeness. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+12. Skill Name: Delivery Acceptance Evidence Builder
+
+  Description: Records validation results, reviewed versions, player versions, screenshots, checksums, approvals, and accepted exceptions. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+27. Accessibility and Inclusive Deliverables
+
+1. Skill Name: Accessible Review Workflow Designer
+
+  Description: Provides captioned media, readable notes, keyboard-operable documents, clear color contrast, and alternative contact sheets. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+2. Skill Name: Audio Description Cue Planner
+
+  Description: Identifies dialogue gaps and writes concise descriptions of essential visual action, setting, text, and character behavior. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+3. Skill Name: High-Contrast Graphics Validator
+
+  Description: Checks titles, interfaces, captions, diagrams, and critical visual information for value and color contrast. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+4. Skill Name: Color-Vision Distinction Checker
+
+  Description: Tests whether important states remain distinguishable under common color-vision simulations using shape, value, texture, or labels. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+5. Skill Name: Reduced-Motion Variant Planner
+
+  Description: Creates alternates that reduce flashing, shake, rapid zoom, strobing, parallax, or continuous motion while retaining meaning. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+6. Skill Name: Readable Credit and Legal Card Validator
+
+  Description: Checks type size, duration, contrast, line length, safe area, and playback compression. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+7. Skill Name: Sign-Language Insert Workflow Planner
+
+  Description: Reserves framing, timing, background, lighting, and subtitle coordination for an authorized sign-language insert. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+8. Skill Name: Accessibility Metadata Packager
+
+  Description: Records available captions, SDH, audio description, descriptive transcripts, sign-language versions, and accessibility contacts. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+9. Skill Name: Accessibility Playback Validator
+
+  Description: Tests all access tracks and menus on the target player and verifies language labels, defaults, synchronization, and completeness. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+10. Skill Name: Inclusive Delivery Matrix Builder
+
+  Description: Maps each platform and territory to required and optional subtitle, caption, audio-description, transcript, and reduced-motion deliverables. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+28. Localization and Multilingual Production
+
+1. Skill Name: Localization Source Package Builder
+
+  Description: Exports locked dialogue, on-screen text, subtitles, references, character limits, timecodes, fonts, and context notes. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+2. Skill Name: Terminology and Name Glossary Manager
+
+  Description: Maintains approved translations, pronunciations, capitalization, gender-neutral alternatives, forbidden terms, and fictional names. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+3. Skill Name: Dub Script Adaptation Assistant
+
+  Description: Adapts translated dialogue for meaning, timing, mouth movement, performance, and cultural clarity. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+4. Skill Name: Multilingual Font Coverage Validator
+
+  Description: Checks glyph support, shaping, combining marks, fallback, punctuation, numerals, and license for every target language. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+5. Skill Name: Right-to-Left Layout Validator
+
+  Description: Checks direction, alignment, mirrored composition, punctuation, numbers, mixed scripts, and subtitle placement. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+6. Skill Name: Localized On-Screen Text Replacer
+
+  Description: Updates signs, titles, interface elements, credits, and graphics while preserving style, perspective, animation, and safe area. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+7. Skill Name: Localized Audio Conform Operator
+
+  Description: Replaces dialogue tracks, preserves sync and stem layout, and manages alternate language masters. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+8. Skill Name: Localization Quality-Control Operator
+
+  Description: Checks completeness, meaning, timing, truncation, spelling, consistency, audio sync, and wrong-language assets. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+9. Skill Name: Locale Code and Filename Manager
+
+  Description: Uses consistent BCP 47 or required platform language identifiers in files, tracks, manifests, and menus. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+10. Skill Name: Localization Delivery Packager
+
+  Description: Assembles language-specific video, audio, subtitles, artwork, fonts, metadata, and validation reports without cross-language contamination. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+29. Performance, Capacity, and Cost Optimization
+
+1. Skill Name: Pipeline Benchmark Designer
+
+  Description: Creates representative 2D, 3D, audio, subtitle, render, and delivery tests with repeatable timing and quality measurements. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+2. Skill Name: Hardware Utilization Profiler
+
+  Description: Measures CPU, GPU, VRAM, RAM, disk, and network behavior during real production tasks and identifies bottlenecks. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+3. Skill Name: Proxy and Cache Strategy Optimizer
+
+  Description: Chooses proxy resolution, codec, cache level, invalidation, and retention to improve interactivity without hiding final-quality defects. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+4. Skill Name: Texture and Image Memory Optimizer
+
+  Description: Reduces unnecessary resolution, bit depth, channels, mip levels, and duplicates while preserving visible quality. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+5. Skill Name: Scene Complexity Optimizer
+
+  Description: Finds excessive geometry, layers, nodes, constraints, effects, hidden assets, and subdivisions that increase load or render time. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+6. Skill Name: Render Wedge Test Manager
+
+  Description: Tests controlled variations of samples, quality, denoising, subdivision, motion blur, and compression against an approved reference. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+7. Skill Name: Audio Session Performance Optimizer
+
+  Description: Manages buffer size, freeze or commit, sample libraries, routing, and disk streaming for reliable playback. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+8. Skill Name: Storage Throughput Tester
+
+  Description: Measures sustained and random read-write performance for scene open, cache, render, image sequence, audio, and backup workloads. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+9. Skill Name: Capacity Threshold Monitor
+
+  Description: Warns before RAM, VRAM, cache, output, inode, archive, or backup space reaches unsafe levels. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+10. Skill Name: Cost and Time Trade-Off Planner
+
+  Description: Compares quality gain, labor, render time, storage, hardware, and delivery risk for alternative production methods. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+30. Documentation, Training, and Operational Continuity
+
+1. Skill Name: Offline Production Handbook Builder
+
+  Description: Creates a searchable local handbook covering setup, standards, workflows, troubleshooting, validation, delivery, and recovery. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+2. Skill Name: Role-Based Quick Start Author
+
+  Description: Writes concise first-day instructions for storyboard, editorial, 2D, 3D, rigging, animation, lighting, compositing, audio, localization, and delivery roles. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+3. Skill Name: Standard Operating Procedure Generator
+
+  Description: Turns approved workflows into exact prerequisites, steps, checks, rollback, outputs, and ownership. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+4. Skill Name: Troubleshooting Decision Tree Builder
+
+  Description: Routes common launch, scene, render, color, audio, subtitle, storage, and delivery failures to the smallest confirming test. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+5. Skill Name: Known-Issue Register Manager
+
+  Description: Records affected versions, symptoms, scope, workaround, permanent fix, owner, and regression test. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+6. Skill Name: Reference Project Maintainer
+
+  Description: Keeps a compact project that exercises the production spine and expected outputs for clean-state and regression tests. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+7. Skill Name: Training Exercise Generator
+
+  Description: Creates practical offline exercises for naming, versioning, boards, shots, audio, color, render, QC, rights, and delivery. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+8. Skill Name: Competency Checklist Builder
+
+  Description: Defines observable pass criteria for operators who install, publish, render, mix, caption, validate, back up, or deliver work. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+9. Skill Name: Shift and Team Handoff Writer
+
+  Description: Captures current state, blockers, running jobs, selected versions, approvals, next actions, and recovery points. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+10. Skill Name: Operational Continuity Packager
+
+  Description: Bundles documentation, reference projects, installers, presets, scripts, licenses, contacts, and restoration instructions for team turnover. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+11. Skill Name: Postmortem and Lessons-Learned Manager
+
+  Description: Turns incidents and delivery defects into condition, cause, repair, confirming test, owner, and updated standard. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+12. Skill Name: Skill Catalog Governance Manager
+
+  Description: Tracks proposed, active, deprecated, merged, and replaced skills and prevents overlapping skills from drifting into contradictory behavior. The skill should expose required inputs, editable outputs, failure conditions, verification checks, and a clean handoff.
+
+Recommended Implementation Pattern
+
+When an entry is converted into a real skill, keep the core instructions short and place repeatable detail in supporting resources:
+
+- SKILL.md: precise trigger description, workflow, decision rules, required validations, and completion behavior.
+
+- agents/ui_metadata.yaml: human-readable display name, short description, icon, and brand color.
+
+- scripts/: deterministic local automation, validators, converters, manifests, and smoke tests.
+
+- references/: standards, schemas, naming rules, compatibility matrices, delivery specifications, and troubleshooting.
+
+- assets/: permitted templates, presets, test media, sample projects, fonts, icons, and reference fixtures.
+
+Shared Production Acceptance Standard
+
+A future skill implementation is complete only when it works without network access, declares dependencies and rights, preserves editability and rollback, produces reproducible outputs, validates its result through the real recipient path, records versions and provenance, handles expected failures safely, and can be installed and rerun from a clean offline state.

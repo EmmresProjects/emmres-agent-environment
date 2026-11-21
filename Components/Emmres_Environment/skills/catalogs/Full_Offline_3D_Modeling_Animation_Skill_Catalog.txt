@@ -1,0 +1,1899 @@
+FULL OFFLINE 3D MODELING
+AND ANIMATION
+Comprehensive Skill Catalog
+
+A capability blueprint for an air-gapped 3D production agent, covering installation, modeling, sculpting, texturing, rigging, animation, neural generation, simulation, rendering, interoperability, optimization, validation, licensing, packaging, and recovery.
+
+Catalog edition: November 2026
+
+Purpose and Scope
+
+This document is a planning catalog for future reusable skills. It does not install software or implement the skills. Each entry is scoped so a stronger agent can convert it into a standalone skill or a coordinated module. The intended production environment is fully offline or air-gapped, with reproducible setup, editable source files, explicit licensing, deterministic validation, and clean handoff.
+
+Design Principles for Future Skill Builders
+
+- Use Blender or an equivalent installed DCC through documented, version-pinned adapters rather than undocumented manual state.
+
+- Prefer nondestructive and editable workflows until an approved bake, cache, publish, or delivery step requires flattening.
+
+- Treat scale, units, axes, frame rate, color, naming, paths, and rights as shared contracts across every tool boundary.
+
+- Use deterministic scripts for fragile, repeated, batch, validation, and packaging operations.
+
+- Run clean-state, offline-only, round-trip, regression, and recipient-path tests that can fail.
+
+- Record exact application, add-on, model, driver, device, seed, preset, and asset versions needed to reproduce important outputs.
+
+- Block release on critical geometry, rig, shader, texture, simulation, render, legal, or package-completeness defects.
+
+Catalog Summary
+
+32 categories • 446 proposed skills • full offline 3D modeling and animation production coverage
+
+The catalog includes every requested capability and expands into topology, volumetrics, real-time optimization, fabrication, security, accessibility of handoff materials, automation, testing, and disaster recovery.
+
+1. Offline Installation, Runtime, and Workstation Readiness
+
+1. Skill Name: Offline 3D Suite Installer
+
+  Description: Packages Blender or an equivalent 3D application with exact versions, platform installers, checksums, release notes, and silent-install options for an air-gapped workstation.
+
+2. Skill Name: Clean-State Installation Tester
+
+  Description: Installs the approved 3D stack into a fresh operating-system profile or virtual machine and verifies launch, file open, viewport, scripting, simulation, rendering, and export.
+
+3. Skill Name: Offline Dependency Bundle Builder
+
+  Description: Collects Python wheels, shared libraries, redistributables, codecs, runtimes, certificates, and documentation needed without package-manager network access.
+
+4. Skill Name: Python Add-on Packager
+
+  Description: Bundles approved Blender add-ons or equivalent extensions with pinned versions, dependencies, license files, preferences, and offline installation instructions.
+
+5. Skill Name: Python Environment Lock Manager
+
+  Description: Creates reproducible lockfiles for Python, NumPy, OpenImageIO, OpenColorIO, USD bindings, render helpers, and project scripts.
+
+6. Skill Name: Add-on Compatibility Auditor
+
+  Description: Tests add-ons against the exact DCC, Python, operating-system, GPU driver, and project-file versions and records conflicts or unsupported combinations.
+
+7. Skill Name: Workstation Hardware Auditor
+
+  Description: Checks CPU, GPU, VRAM, RAM, storage, scratch space, display, tablet, input devices, drivers, and thermal limits against project requirements.
+
+8. Skill Name: VRAM Capacity Planner
+
+  Description: Estimates peak VRAM from geometry, subdivision, textures, acceleration structures, render buffers, denoising, compositing, and concurrent applications.
+
+9. Skill Name: RAM Capacity Planner
+
+  Description: Estimates system RAM for high-resolution sculpting, simulations, geometry nodes, large scenes, texture baking, compositing, and cache generation.
+
+10. Skill Name: Temporary Disk Budget Planner
+
+  Description: Estimates cache, bake, simulation, render, proxy, autosave, and intermediate storage with safety margins and cleanup rules.
+
+11. Skill Name: Air-Gapped License Activation Planner
+
+  Description: Documents valid offline activation, borrowed seats, local license servers, grace periods, renewal procedures, and emergency fallback.
+
+12. Skill Name: Offline-Only Workflow Tester
+
+  Description: Disconnects all networks and runs a representative model-to-render pipeline to expose cloud calls, missing caches, remote libraries, or online license checks.
+
+13. Skill Name: Environment Baseline Manager
+
+  Description: Freezes application preferences, add-ons, scripts, color configuration, GPU settings, cache paths, render devices, and environment variables.
+
+14. Skill Name: Update Staging and Rollback Manager
+
+  Description: Tests application, driver, add-on, and model updates in a separate clone, compares reference outputs, and restores the last passing baseline.
+
+15. Skill Name: Multi-OS Deployment Planner
+
+  Description: Maps equivalent Windows, Linux, and macOS paths, launch scripts, GPU runtimes, permissions, and feature limitations.
+
+16. Skill Name: Environment Health Monitor
+
+  Description: Runs recurring smoke tests for viewport, Python, render engines, format import-export, codecs, asset libraries, and local storage.
+
+2. Project Architecture, Standards, and Scene Templates
+
+1. Skill Name: 3D Project Scaffolder
+
+  Description: Creates standard folders for concepts, references, models, sculpts, retopology, UVs, textures, materials, rigs, animation, simulations, lighting, renders, reviews, delivery, and archives.
+
+2. Skill Name: Scene Template Publisher
+
+  Description: Maintains approved scene templates with units, axes, collections, render engine, color management, frame rate, resolution, world settings, output paths, and metadata.
+
+3. Skill Name: Asset Naming Standard Designer
+
+  Description: Defines parseable names for scenes, objects, meshes, bones, controls, materials, textures, UV sets, collections, cameras, lights, caches, and versions.
+
+4. Skill Name: Scene Naming Validator
+
+  Description: Detects duplicate, default, illegal, ambiguous, overlong, or nonportable names and can apply safe rename maps without breaking links.
+
+5. Skill Name: Unit and Scale Standard Manager
+
+  Description: Defines real-world units, character scale, prop scale, environment scale, gravity, cloth scale, camera scale, and import-export conversions.
+
+6. Skill Name: Coordinate System Standard Manager
+
+  Description: Defines handedness, up axis, forward axis, origin placement, rotation order, transform freeze policy, and system conversions.
+
+7. Skill Name: Project Configuration Author
+
+  Description: Writes machine-readable project settings for frame rate, dimensions, aspect ratio, color, handles, naming, paths, cache policy, and delivery targets.
+
+8. Skill Name: Collection and Layer Structure Architect
+
+  Description: Builds consistent scene organization for model, rig, animation, simulation, lighting, render, holdout, matte, and export content.
+
+9. Skill Name: Relative Path Enforcer
+
+  Description: Converts machine-specific paths into portable relative paths and reports dependencies that cannot be relocated.
+
+10. Skill Name: Scene Dependency Grapher
+
+  Description: Maps linked libraries, textures, caches, fonts, scripts, references, simulations, and external assets, including missing or circular dependencies.
+
+11. Skill Name: Shot Scene Generator
+
+  Description: Creates shot files from manifests with approved camera, frame range, handles, resolution, assets, audio, color settings, and output paths.
+
+12. Skill Name: Department Handoff Template Builder
+
+  Description: Creates consistent handoff fields for source version, dependencies, scale, frame range, color space, expected output, ownership, notes, and approval.
+
+13. Skill Name: Project Bootstrap Validator
+
+  Description: Opens a project from a clean location, creates a sample asset and shot, renders and exports them, and confirms no undocumented setup is required.
+
+14. Skill Name: Show-Wide Settings Synchronizer
+
+  Description: Updates approved settings across scenes while preserving documented shot-specific exceptions.
+
+15. Skill Name: Legacy Scene Migration Planner
+
+  Description: Upgrades older project files through controlled intermediate versions, backups, warnings, and side-by-side reference renders.
+
+3. Mesh Modeling and Topology Construction
+
+1. Skill Name: Primitive Blockout Builder
+
+  Description: Creates proportionally accurate blockouts with clean transforms, real-world scale, symmetry, and silhouette checks.
+
+2. Skill Name: Hard-Surface Modeling Operator
+
+  Description: Builds manufactured forms using booleans, bevels, weighted normals, subdivision, modifiers, and non-destructive part separation.
+
+3. Skill Name: Organic Base-Mesh Builder
+
+  Description: Creates animation-ready starting meshes with anatomical landmarks, balanced density, symmetry, and planned deformation zones.
+
+4. Skill Name: Polygon Modeling Specialist
+
+  Description: Uses vertex, edge, face, loop, inset, extrude, bridge, slide, merge, and dissolve operations while preserving predictable topology.
+
+5. Skill Name: Subdivision Surface Modeler
+
+  Description: Builds control cages with support loops, crease policy, pole placement, curvature continuity, and predictable high-resolution output.
+
+6. Skill Name: Boolean Workflow Manager
+
+  Description: Maintains ordered cutters, solver settings, cleanup, bevel strategy, and fallback topology for robust non-destructive modeling.
+
+7. Skill Name: Curve and Surface Modeler
+
+  Description: Builds cables, tubes, trims, profiles, paths, NURBS-like surfaces, and converted meshes with controlled resolution and normals.
+
+8. Skill Name: CAD Mesh Cleanup Operator
+
+  Description: Repairs imported CAD tessellation, part hierarchy, tiny faces, duplicate surfaces, scale, normals, and excessive density.
+
+9. Skill Name: Kitbash Assembly Manager
+
+  Description: Combines licensed parts while preserving source, scale, topology quality, material structure, naming, and modification history.
+
+10. Skill Name: Modular Environment Builder
+
+  Description: Creates grid-compatible walls, floors, corners, trims, doors, roofs, and variants with consistent pivots and dimensions.
+
+11. Skill Name: Parametric Asset Builder
+
+  Description: Creates dimension-driven models with modifiers, geometry nodes, constraints, and exposed production parameters.
+
+12. Skill Name: Topology Flow Designer
+
+  Description: Plans edge loops around joints, face features, holes, seams, panels, and silhouette-critical forms for deformation and shading.
+
+13. Skill Name: Mesh Density Balancer
+
+  Description: Redistributes polygons by curvature, deformation, silhouette, camera distance, and texture needs.
+
+14. Skill Name: Mesh Symmetry Manager
+
+  Description: Creates, applies, repairs, and intentionally breaks symmetry while preserving stable seams and vertex correspondence.
+
+15. Skill Name: Normal and Smoothing Specialist
+
+  Description: Controls custom normals, smoothing angles, sharp edges, autosmooth behavior, weighted normals, and tangent consistency.
+
+16. Skill Name: Model Variant Generator
+
+  Description: Produces approved size, damage, costume, accessory, material, and configuration variants from a shared source without uncontrolled duplication.
+
+4. Sculpting and High-Resolution Detail
+
+1. Skill Name: Digital Sculpt Setup Operator
+
+  Description: Configures voxel, multiresolution, dynamic topology, symmetry, masks, remesh, brush, and performance settings for the target asset.
+
+2. Skill Name: Primary Form Sculptor
+
+  Description: Builds large proportions, masses, planes, balance, and silhouette before secondary or tertiary detail.
+
+3. Skill Name: Anatomical Sculpting Assistant
+
+  Description: Uses skeletal, muscular, fat, skin, and landmark references to maintain plausible structure and pose.
+
+4. Skill Name: Creature Sculpting Assistant
+
+  Description: Designs nonhuman anatomy with functional joints, locomotion logic, surface transitions, and readable silhouette.
+
+5. Skill Name: Facial Likeness Sculpt Planner
+
+  Description: Measures authorized references, landmarks, planes, proportions, and asymmetry while preserving a neutral deformation-friendly base.
+
+6. Skill Name: Clothing Sculptor
+
+  Description: Creates folds from material, tension, compression, gravity, layering, seams, and pose rather than random surface noise.
+
+7. Skill Name: Hard-Surface Sculptor
+
+  Description: Builds damaged, cast, forged, carved, or hand-made surfaces with controlled edge wear and manufacturable structure.
+
+8. Skill Name: Multiresolution Sculpt Manager
+
+  Description: Maintains subdivision levels, displacement detail, base-mesh edits, projection, and safe sculpt-layer practices.
+
+9. Skill Name: Voxel Remesh Controller
+
+  Description: Selects voxel size, preserves thin parts and features, limits volume drift, and returns a stable sculpt mesh.
+
+10. Skill Name: Sculpt Layer and Morph Manager
+
+  Description: Organizes expression, age, damage, corrective, and variant sculpts into reversible layers or shape targets.
+
+11. Skill Name: Surface Detail Author
+
+  Description: Adds pores, wrinkles, scales, scratches, fabric weave, and microdamage at physically plausible scale and frequency.
+
+12. Skill Name: Sculpt Performance Optimizer
+
+  Description: Uses region isolation, lower preview levels, proxy geometry, cache control, and memory monitoring to keep high-density work responsive.
+
+13. Skill Name: Sculpt-to-Retopology Handoff Builder
+
+  Description: Freezes approved high-resolution sources, scale, transforms, symmetry, naming, projection cages, and target polygon budgets.
+
+14. Skill Name: High-Resolution Sculpt Validator
+
+  Description: Checks floating fragments, holes, nonmanifold regions, broken symmetry, self-intersections, scale, and recoverable subdivision history.
+
+5. Retopology and Production Mesh Conversion
+
+1. Skill Name: Retopology Planning Assistant
+
+  Description: Defines topology goals from deformation, silhouette, shading, subdivision, UV, baking, and platform constraints.
+
+2. Skill Name: Manual Retopology Operator
+
+  Description: Builds clean quads and necessary triangles over high-resolution sources using snapping, shrinkwrap, guides, and loop planning.
+
+3. Skill Name: Automatic Retopology Operator
+
+  Description: Runs local remeshing or auto-retopo tools, compares variants, and identifies regions requiring manual reconstruction.
+
+4. Skill Name: Character Deformation Topology Builder
+
+  Description: Creates loops for shoulders, hips, elbows, knees, hands, feet, face, eyelids, lips, and jaw deformation.
+
+5. Skill Name: Facial Topology Specialist
+
+  Description: Builds mouth, eye, nose, brow, cheek, jaw, and ear flow compatible with blendshapes, bones, and close-up deformation.
+
+6. Skill Name: Hard-Surface Retopology Specialist
+
+  Description: Converts boolean or scan meshes into clean game, subdivision, visualization, or print topology while preserving edges.
+
+7. Skill Name: Projection and Shrinkwrap Manager
+
+  Description: Controls offsets, ray direction, cages, backface behavior, and region-specific projection to avoid surface crossings.
+
+8. Skill Name: Topology Correspondence Builder
+
+  Description: Maintains vertex order across variants, LODs, corrective shapes, scans, and rig revisions where required.
+
+9. Skill Name: Polygon Budget Allocator
+
+  Description: Assigns face budgets by silhouette, deformation, camera distance, screen size, platform, and asset importance.
+
+10. Skill Name: Retopology Quality Validator
+
+  Description: Checks nonmanifold edges, lamina faces, poles, long thin triangles, density jumps, intersections, normals, and deformation loops.
+
+11. Skill Name: Subdivision Retopology Validator
+
+  Description: Tests the low-resolution cage under subdivision for pinching, waviness, volume loss, and support-loop instability.
+
+12. Skill Name: Retopology Version Transfer Operator
+
+  Description: Moves approved UVs, weights, shape keys, and material assignments onto compatible revised topology when safe.
+
+6. UV Mapping, UDIMs, and Surface Coordinates
+
+1. Skill Name: UV Strategy Planner
+
+  Description: Selects single-tile, UDIM, trim-sheet, atlas, mirrored, tiled, or procedural mapping based on asset and delivery needs.
+
+2. Skill Name: Seam Placement Specialist
+
+  Description: Places seams in hidden, natural, modular, or low-distortion regions while preserving painting access and deformation stability.
+
+3. Skill Name: UV Unwrap Operator
+
+  Description: Unwraps selected topology with controlled pinning, angle, area, island boundaries, and iterative relaxation.
+
+4. Skill Name: UV Distortion Analyzer
+
+  Description: Measures stretch, compression, shear, flipped islands, and angle distortion with threshold-based reports.
+
+5. Skill Name: Texel Density Manager
+
+  Description: Sets, measures, and normalizes pixels per unit by asset class, viewing distance, platform, and texture budget.
+
+6. Skill Name: UV Island Packing Optimizer
+
+  Description: Packs islands with required rotation, padding, grouping, tile limits, and deterministic layouts.
+
+7. Skill Name: UDIM Layout Manager
+
+  Description: Assigns tiles, naming, resolution, material sets, and cross-application conventions for multi-tile assets.
+
+8. Skill Name: Mirrored UV Policy Manager
+
+  Description: Controls intentional overlap, tangent behavior, asymmetry masks, decals, normal maps, and baking exclusions.
+
+9. Skill Name: Trim Sheet UV Mapper
+
+  Description: Aligns modular geometry to reusable trims with controlled scale, orientation, bevel, and edge continuity.
+
+10. Skill Name: Lightmap UV Generator
+
+  Description: Creates nonoverlapping secondary UVs with engine-appropriate padding, chart size, orientation, and validation.
+
+11. Skill Name: UV Set Transfer Operator
+
+  Description: Transfers UV maps between compatible meshes using topology, surface projection, landmarks, or barycentric mapping.
+
+12. Skill Name: UV Validation Gate
+
+  Description: Checks zero-area islands, overlaps, bounds, padding, flipped orientation, missing faces, wrong UV set, and UDIM naming.
+
+7. PBR Texturing and Texture Painting
+
+1. Skill Name: PBR Texture Set Architect
+
+  Description: Defines base color, roughness, metallic, normal, height, opacity, emission, subsurface, coat, specular, and engine-specific channels.
+
+2. Skill Name: Texture Painting Workspace Builder
+
+  Description: Configures paint layers, masks, channels, projection, stencils, brushes, color space, symmetry, UDIMs, and autosave.
+
+3. Skill Name: Base Material Author
+
+  Description: Builds physically plausible foundational surfaces from measured color, reflectance, roughness, scale, and reference.
+
+4. Skill Name: Wear and Aging Designer
+
+  Description: Adds edge wear, scratches, dirt, oxidation, fingerprints, fading, leaks, and damage from plausible history and contact.
+
+5. Skill Name: Skin Texture Painter
+
+  Description: Creates epidermal color, vascular variation, freckles, pores, oil, roughness, displacement, and region masks at correct scale.
+
+6. Skill Name: Fabric Texture Painter
+
+  Description: Builds weave, fuzz, stitching, seams, wrinkles, wear, and material response without baking lighting into base color.
+
+7. Skill Name: Creature Surface Painter
+
+  Description: Creates scale, fur, skin, shell, feather, wetness, and biological variation with anatomically grounded patterns.
+
+8. Skill Name: Hand-Painted Style Texturer
+
+  Description: Creates stylized light, color, form accents, gradients, edge treatment, and controlled detail while respecting the project shader model.
+
+9. Skill Name: Projection Painting Operator
+
+  Description: Projects photographs or concept art while correcting perspective, lighting, seams, resolution, and rights metadata.
+
+10. Skill Name: Texture Layer System Manager
+
+  Description: Organizes procedural, paint, decal, mask, adjustment, and export layers with stable names and non-destructive controls.
+
+11. Skill Name: Texture Channel Packer
+
+  Description: Combines grayscale maps into RGB or RGBA channels according to target engine conventions and documents the mapping.
+
+12. Skill Name: Texture Resolution Optimizer
+
+  Description: Selects per-map resolution, bit depth, compression, and reuse based on screen size, material sensitivity, and memory budget.
+
+13. Skill Name: Seam and Padding Repairer
+
+  Description: Fixes visible UV seams, insufficient dilation, mip bleeding, tangent mismatch, and inconsistent island borders.
+
+14. Skill Name: Texture Painting Validator
+
+  Description: Checks missing tiles, wrong color spaces, inverted channels, seams, clipping, banding, resolution, and export configuration.
+
+15. Skill Name: Texture Variant Generator
+
+  Description: Creates controlled clean, worn, wet, dirty, damaged, seasonal, and colorway variants from a shared layer stack.
+
+8. Baking, Projection, and Map Generation
+
+1. Skill Name: Bake Strategy Planner
+
+  Description: Selects cage, ray distance, tangent basis, supersampling, anti-aliasing, padding, match-by-name, and map types for the target renderer or engine.
+
+2. Skill Name: High-to-Low Bake Operator
+
+  Description: Bakes normals, ambient occlusion, curvature, position, thickness, ID, displacement, and other maps from approved sources.
+
+3. Skill Name: Bake Cage Builder
+
+  Description: Creates and validates cages that enclose source detail without intersecting neighboring parts or producing missed rays.
+
+4. Skill Name: Exploded Bake Manager
+
+  Description: Separates parts for clean projection, preserves transforms and naming, and restores original assembly after baking.
+
+5. Skill Name: Tangent-Space Normal Bake Specialist
+
+  Description: Matches the target tangent basis, smoothing, triangulation, UV orientation, and mesh export settings.
+
+6. Skill Name: Object-Space Normal Bake Operator
+
+  Description: Creates stable object-space maps for deformation, conversion, masking, or specialized rendering.
+
+7. Skill Name: Displacement Bake Operator
+
+  Description: Bakes scalar or vector displacement with correct midpoint, scale, precision, subdivision level, and renderer interpretation.
+
+8. Skill Name: Ambient Occlusion Bake Operator
+
+  Description: Controls distance, samples, bias, self-occlusion, transparency, and intended use without replacing real lighting.
+
+9. Skill Name: Texture Dilation Generator
+
+  Description: Adds edge padding appropriate to mip levels, compression, atlas layout, and expected minimum texture size.
+
+10. Skill Name: Batch Bake Orchestrator
+
+  Description: Processes asset lists, map sets, UDIMs, variants, and retries from a manifest with logged settings and failures.
+
+11. Skill Name: Bake Artifact Detector
+
+  Description: Finds skew, gradients, projection misses, wavy normals, cage intersections, seams, black pixels, and mismatched parts.
+
+12. Skill Name: Bake Reproducibility Recorder
+
+  Description: Stores source hashes, cage version, mesh triangulation, tangent basis, map settings, application versions, and output hashes.
+
+9. Materials, Shaders, and Procedural Surface Libraries
+
+1. Skill Name: Material Library Architect
+
+  Description: Organizes approved PBR, stylized, volumetric, skin, hair, glass, metal, fabric, terrain, decal, and utility materials with previews and licenses.
+
+2. Skill Name: Physically Based Shader Author
+
+  Description: Builds energy-conserving materials with correct base color, metallic, roughness, IOR, transmission, subsurface, coat, emission, and normal behavior.
+
+3. Skill Name: Stylized Shader Author
+
+  Description: Creates toon, ramp, outline, halftone, matcap, painterly, and nonphotoreal materials with stable lighting and render support.
+
+4. Skill Name: Skin Shader Specialist
+
+  Description: Builds multilayer skin response with subsurface scattering, micro-normal, roughness zones, specular lobes, and calibrated scale.
+
+5. Skill Name: Hair Shader Specialist
+
+  Description: Configures melanin or color, roughness, transmission, multiple scattering, root-tip variation, and renderer-compatible strand shading.
+
+6. Skill Name: Glass and Transparent Material Specialist
+
+  Description: Controls IOR, absorption, thin versus solid behavior, roughness, caustics, refraction depth, shadows, and sorting limitations.
+
+7. Skill Name: Volumetric Shader Author
+
+  Description: Builds fog, smoke, fire, clouds, dust, and atmospheric media with density, anisotropy, emission, sampling, and noise control.
+
+8. Skill Name: Procedural Material Builder
+
+  Description: Creates node-based materials with exposed scale, seed, color, wear, and pattern controls and no external texture dependency when practical.
+
+9. Skill Name: Decal and Layered Material Builder
+
+  Description: Combines labels, dirt, damage, puddles, paint, and surface layers with masks, projections, and controlled blending.
+
+10. Skill Name: Shader Variant Manager
+
+  Description: Creates renderer, quality, platform, LOD, wetness, damage, and color variants from an approved material source.
+
+11. Skill Name: Material Conversion Operator
+
+  Description: Maps shaders among renderers or real-time engines and reports unsupported lobes, texture channels, and visual differences.
+
+12. Skill Name: Material Performance Profiler
+
+  Description: Measures texture reads, node complexity, transparency, displacement, compilation time, and render cost.
+
+13. Skill Name: Material Validation Gate
+
+  Description: Checks missing textures, unsupported nodes, wrong color spaces, broken links, nonphysical values, excessive complexity, and preview mismatch.
+
+14. Skill Name: Shader Regression Tester
+
+  Description: Renders material test spheres, planes, and production assets under controlled lighting and compares to approved references.
+
+10. Lighting, HDRI, Exposure, and Look Development
+
+1. Skill Name: HDRI Library Manager
+
+  Description: Indexes local HDRIs by location, time, weather, dynamic range, resolution, license, orientation, and matching backplate availability.
+
+2. Skill Name: HDRI Quality Validator
+
+  Description: Checks clipping, seams, horizon, chromatic issues, dynamic range, color space, metadata, and usable light direction.
+
+3. Skill Name: Studio Lighting Rig Builder
+
+  Description: Creates reusable key, fill, rim, bounce, practical, cyclorama, and product-lighting setups with exposure references.
+
+4. Skill Name: Cinematic Lighting Designer
+
+  Description: Builds motivated lighting, contrast, color separation, depth, eye light, atmosphere, and shot continuity from story goals.
+
+5. Skill Name: Daylight and Sun-Sky Operator
+
+  Description: Configures geographic orientation, date, time, turbidity, atmosphere, exposure, and consistent sun direction.
+
+6. Skill Name: Interior Lighting Specialist
+
+  Description: Balances windows, practicals, bounce, portals, exposure, and denoising for efficient interior scenes.
+
+7. Skill Name: Night Lighting Specialist
+
+  Description: Creates moon, practical, city, vehicle, and atmospheric light while preserving readable exposure and controlled noise.
+
+8. Skill Name: Product Lighting Specialist
+
+  Description: Builds reflection-controlled rigs for glossy, metallic, transparent, and textured products.
+
+9. Skill Name: Character Look Development Operator
+
+  Description: Defines skin, eye, hair, cloth, and accessory response under neutral and production lighting.
+
+10. Skill Name: Light Linking and Grouping Manager
+
+  Description: Controls which lights affect specific assets, layers, passes, reflections, or volumes without hidden inconsistencies.
+
+11. Skill Name: Exposure and Dynamic Range Manager
+
+  Description: Sets view transform, exposure, highlight handling, shadow detail, and reference values using the approved color pipeline.
+
+12. Skill Name: Lighting Continuity Checker
+
+  Description: Compares direction, color temperature, intensity, shadow, reflection, and exposure across adjacent shots.
+
+13. Skill Name: Light Sampling Optimizer
+
+  Description: Tunes samples, visibility, portals, multiple importance, clamping, and render settings against a reference image.
+
+14. Skill Name: Look Development Turntable Builder
+
+  Description: Creates controlled turntables across neutral, warm, cool, indoor, outdoor, and stress-test lighting conditions.
+
+11. Rigging, Controls, and Deformation Systems
+
+1. Skill Name: Rig Architecture Planner
+
+  Description: Defines skeleton, control hierarchy, spaces, constraints, deformation systems, facial method, naming, scale, and export requirements.
+
+2. Skill Name: Biped Rig Builder
+
+  Description: Creates spine, pelvis, limbs, hands, feet, neck, head, IK, FK, stretch, twist, spaces, and animator controls.
+
+3. Skill Name: Quadruped Rig Builder
+
+  Description: Creates spine, neck, tail, limbs, paws or hooves, scapula motion, gait controls, IK, FK, and ground interaction.
+
+4. Skill Name: Creature Rig Builder
+
+  Description: Builds custom chains, wings, tentacles, tails, jaws, extra limbs, nonstandard joints, and procedural secondary controls.
+
+5. Skill Name: Mechanical Rig Builder
+
+  Description: Creates pistons, gears, hinges, sliders, aim systems, limits, hydraulic behavior, and control-driven assemblies.
+
+6. Skill Name: Prop Rig Builder
+
+  Description: Builds usable controls for tools, vehicles, weapons, doors, furniture, deformable props, and attachment points.
+
+7. Skill Name: Automatic Rigging Operator
+
+  Description: Runs local autorig tools or models, maps anatomy, generates controls and deformation, and isolates areas requiring manual repair.
+
+8. Skill Name: Control Shape and Color Standardizer
+
+  Description: Creates clear control shapes, colors, sizes, side conventions, selection groups, and visibility behavior.
+
+9. Skill Name: IK-FK System Builder
+
+  Description: Creates stable IK and FK chains, matching, snapping, stretch policy, pole controls, and switch attributes.
+
+10. Skill Name: Space Switching Manager
+
+  Description: Builds world, root, chest, head, hand, prop, camera, and custom spaces with pop-free switching and baked export paths.
+
+11. Skill Name: Constraint System Auditor
+
+  Description: Checks dependency cycles, invalid targets, unstable evaluation order, unsafe scale, and export compatibility.
+
+12. Skill Name: Corrective Deformation Builder
+
+  Description: Creates pose-space correctives, helper joints, driven shapes, and volume preservation for difficult joints.
+
+13. Skill Name: Rig Performance Optimizer
+
+  Description: Profiles constraints, drivers, modifiers, scripts, geometry nodes, and deformation cost and creates animator and render modes.
+
+14. Skill Name: Rig Version Migrator
+
+  Description: Transfers controls, animation, weights, shapes, and attachments to a compatible rig revision with explicit loss reports.
+
+15. Skill Name: Rig Documentation Builder
+
+  Description: Generates control maps, attribute guides, reset poses, space-switch instructions, known limitations, and export notes.
+
+16. Skill Name: Rig Validation Gate
+
+  Description: Checks hierarchy, naming, transforms, rest pose, controls, limits, deformation, cycles, performance, and export skeleton.
+
+12. Skin Weights, Deformation, and Shape Keys
+
+1. Skill Name: Skin Binding Operator
+
+  Description: Binds a mesh to the approved skeleton using heat, envelopes, voxel, proximity, or manual initialization suited to the asset.
+
+2. Skill Name: Weight Painting Specialist
+
+  Description: Edits vertex influences with normalization, lock rules, symmetry, smoothing, pruning, and pose-based evaluation.
+
+3. Skill Name: Weight Transfer Operator
+
+  Description: Transfers skin weights among compatible meshes, LODs, clothing, accessories, and revised topology with validation.
+
+4. Skill Name: Joint Deformation Tester
+
+  Description: Exercises shoulders, hips, elbows, knees, wrists, ankles, fingers, neck, jaw, and extreme poses for collapse or volume loss.
+
+5. Skill Name: Twist and Volume Preservation Builder
+
+  Description: Adds twist joints, dual quaternion options, helper bones, corrective shapes, and bulge or squash control.
+
+6. Skill Name: Clothing Skinning Operator
+
+  Description: Weights layered garments while controlling body penetration, rigid details, hems, straps, and simulation handoff.
+
+7. Skill Name: Facial Skin Weight Specialist
+
+  Description: Weights jaw, lips, cheeks, nose, eyelids, brows, ears, and head for joint-based or hybrid facial rigs.
+
+8. Skill Name: Shape Key Workflow Manager
+
+  Description: Creates, names, orders, mirrors, combines, masks, transfers, and validates blendshapes or shape keys.
+
+9. Skill Name: Corrective Shape Sculptor
+
+  Description: Sculpts pose-specific repairs while preserving topology, vertex order, tangent consistency, and combination behavior.
+
+10. Skill Name: Shape Key Driver Builder
+
+  Description: Connects shapes to controls, joint angles, expressions, phonemes, and corrective conditions with predictable ranges.
+
+11. Skill Name: Shape Key Combination Tester
+
+  Description: Tests simultaneous expressions, phonemes, correctives, and body poses for conflicts, overshoot, or collapse.
+
+12. Skill Name: Deformation Delta Transfer Operator
+
+  Description: Transfers sculpted deltas across compatible topology or surface correspondence and reports unmatched regions.
+
+13. Skill Name: Deformation Regression Tester
+
+  Description: Replays a standard pose set and compares silhouettes, penetrations, volume, and control response against approved rig versions.
+
+13. Facial Rigging, Eyes, Lip Sync, and Performance
+
+1. Skill Name: Facial Rig Architecture Planner
+
+  Description: Selects bones, shape keys, curves, lattices, surface controls, or hybrid systems from acting, export, LOD, and performance requirements.
+
+2. Skill Name: FACS-Informed Shape Builder
+
+  Description: Creates authorized facial action shapes with correct anatomical regions, asymmetry, intensity, and combination behavior.
+
+3. Skill Name: Facial Control Interface Designer
+
+  Description: Builds animator-friendly GUI or viewport controls for brows, lids, gaze, cheeks, nose, jaw, lips, tongue, and phonemes.
+
+4. Skill Name: Eyelid and Eye Rig Builder
+
+  Description: Creates gaze, convergence, pupil, blink, lid follow, squint, eye wetness, and eye-head coordination controls.
+
+5. Skill Name: Jaw and Mouth Rig Builder
+
+  Description: Builds jaw pivot, lips, corners, seal, roll, purse, funnel, smile, frown, tongue, teeth, and gum controls.
+
+6. Skill Name: Phoneme and Viseme Library Builder
+
+  Description: Creates a project-specific mouth-shape set for language, style, character anatomy, and shot distance.
+
+7. Skill Name: Offline Lip-Sync Solver
+
+  Description: Maps local speech analysis to editable viseme, jaw, and facial timing without requiring a network service.
+
+8. Skill Name: Offline Facial Animation Model Operator
+
+  Description: Runs local audio- or video-driven facial animation, records model settings, and converts accepted output into editable controls.
+
+9. Skill Name: Coarticulation Refiner
+
+  Description: Smooths mouth transitions across phonemes while preserving closures, expression, emphasis, and natural anticipation.
+
+10. Skill Name: Blink and Gaze Animator
+
+  Description: Creates saccades, fixations, blinks, eye leads, convergence, and eye-head relationships around performance beats.
+
+11. Skill Name: Facial Motion Capture Solver
+
+  Description: Maps authorized marker, markerless, ARKit-like, or depth-based facial capture to the production rig.
+
+12. Skill Name: Facial Capture Cleanup Operator
+
+  Description: Removes jitter, drift, occlusion errors, asymmetry noise, lip penetration, and implausible eye motion while preserving performance.
+
+13. Skill Name: Facial Delamination and Collision Checker
+
+  Description: Detects lips, eyelids, teeth, tongue, gums, and facial surfaces separating or intersecting.
+
+14. Skill Name: Facial Rig Range Validator
+
+  Description: Verifies expressions, phonemes, asymmetry, extreme combinations, LOD behavior, export, and deformation quality.
+
+15. Skill Name: Facial Performance Regression Tester
+
+  Description: Replays a standard dialogue and expression set after rig changes and compares motion, timing, and deformation.
+
+14. Motion Capture, Retargeting, and Motion Editing
+
+1. Skill Name: Motion Capture Ingest Operator
+
+  Description: Imports BVH, FBX, CSV, proprietary, optical, inertial, markerless, and supported capture formats with scale, axis, timecode, and subject metadata.
+
+2. Skill Name: Mocap Skeleton Mapper
+
+  Description: Maps source joints to the production skeleton with rest-pose, orientation, hierarchy, and translation policies.
+
+3. Skill Name: Motion Retargeting Operator
+
+  Description: Transfers body motion between proportions and rigs while preserving contacts, root motion, posture, and intended direction.
+
+4. Skill Name: Retarget Profile Library Manager
+
+  Description: Stores source-to-target mappings, scale factors, rest offsets, twist rules, finger mappings, and validation clips.
+
+5. Skill Name: Root Motion Manager
+
+  Description: Separates, edits, preserves, or bakes locomotion translation and rotation for film, simulation, or game workflows.
+
+6. Skill Name: Foot Contact and Sliding Repairer
+
+  Description: Detects plant frames, constrains contacts, repairs floor penetration, and redistributes motion without freezing natural weight shifts.
+
+7. Skill Name: Hand and Finger Retargeting Specialist
+
+  Description: Maps hand capture, gestures, grips, and finger curls while repairing occlusion, scale, and contact errors.
+
+8. Skill Name: Mocap Noise Filter
+
+  Description: Removes high-frequency jitter, spikes, dropouts, and sensor drift using joint-aware filtering and contact protection.
+
+9. Skill Name: Motion Gap Filler
+
+  Description: Reconstructs short missing segments from surrounding motion, constraints, contact, and reference while marking synthesized ranges.
+
+10. Skill Name: Motion Layering Operator
+
+  Description: Adds or subtracts posture, aim, gaze, breathing, emotion, hand action, and secondary motion over captured performance.
+
+11. Skill Name: Motion Clip Segmentation Manager
+
+  Description: Cuts long sessions into named takes, actions, loops, transitions, and discarded ranges with searchable metadata.
+
+12. Skill Name: Motion Matching Dataset Builder
+
+  Description: Prepares normalized clips, trajectories, contacts, tags, features, and licenses for offline search or runtime motion matching.
+
+13. Skill Name: Mocap License and Consent Auditor
+
+  Description: Records performer consent, capture ownership, usage scope, model-training restrictions, territory, term, and redistribution limits.
+
+14. Skill Name: Retargeting Validation Gate
+
+  Description: Checks scale, orientation, joint limits, contacts, root, hands, face, timing, penetrations, and export compatibility.
+
+15. Keyframe Animation, Graph Editing, and Nonlinear Animation
+
+1. Skill Name: Animation Blocking Assistant
+
+  Description: Creates storytelling poses, contacts, extremes, breakdowns, holds, and timing before spline polish.
+
+2. Skill Name: Pose Library Manager
+
+  Description: Stores approved body, hand, facial, prop, camera, and corrective poses with rig-version compatibility.
+
+3. Skill Name: Graph Editor Specialist
+
+  Description: Edits interpolation, handles, slopes, cycles, noise, overshoot, settling, and value continuity in animation curves.
+
+4. Skill Name: Curve Cleanup Operator
+
+  Description: Removes redundant keys, jitter, spikes, gimbal-like discontinuities, and overfiltered motion while preserving intent.
+
+5. Skill Name: Euler and Quaternion Rotation Manager
+
+  Description: Selects rotation representation, detects flips, manages continuity, and bakes conversions safely.
+
+6. Skill Name: Nonlinear Animation Editor
+
+  Description: Combines clips, strips, actions, blends, time warps, additive layers, repeats, transitions, and influence curves.
+
+7. Skill Name: Animation Layer Manager
+
+  Description: Organizes base, additive, override, correction, facial, prop, and procedural layers with clear bake and merge rules.
+
+8. Skill Name: Loop Animation Builder
+
+  Description: Creates seamless locomotion, idle, mechanical, environmental, and facial cycles with root and phase validation.
+
+9. Skill Name: Contact and Weight Animator
+
+  Description: Builds believable balance, support, anticipation, impact, recoil, overlap, and recovery from physical constraints.
+
+10. Skill Name: Secondary Motion Animator
+
+  Description: Animates tails, ears, hair, cloth, straps, accessories, and loose parts with controlled drag and follow-through.
+
+11. Skill Name: Camera Animation Operator
+
+  Description: Animates framing, lens, depth of field, focus, shake, dolly, crane, orbit, handheld, and procedural motion.
+
+12. Skill Name: Time Warp and Retime Operator
+
+  Description: Changes duration and speed while protecting contacts, dialogue, simulation, camera beats, and motion quality.
+
+13. Skill Name: Keyframe Reduction Operator
+
+  Description: Reduces dense baked or captured curves within error tolerances and protects contacts and accents.
+
+14. Skill Name: Animation Clip Exporter
+
+  Description: Packages clips with skeleton, frame range, root-motion policy, events, markers, scale, and naming for downstream use.
+
+15. Skill Name: Animation Regression Tester
+
+  Description: Replays approved actions after rig, exporter, or engine changes and compares transforms, timing, contacts, and deformation.
+
+16. Skill Name: Animation Validation Gate
+
+  Description: Checks frame range, keys, curves, unsupported constraints, root motion, contacts, penetrations, cycles, and export results.
+
+16. Camera Tracking, Object Tracking, and Matchmove
+
+1. Skill Name: Plate Preparation Operator
+
+  Description: Converts footage to a stable image sequence, preserves timecode and color metadata, and records lens, sensor, shutter, resolution, and frame rate.
+
+2. Skill Name: Lens Distortion Calibrator
+
+  Description: Solves radial and tangential lens distortion from grids, metadata, or tracked footage and generates reversible distortion maps.
+
+3. Skill Name: Camera Track Solver
+
+  Description: Tracks features, rejects outliers, solves camera motion, sets scale and orientation, and reports residual error.
+
+4. Skill Name: Object Track Solver
+
+  Description: Solves moving rigid objects independently from the camera using masks, markers, geometry, and reference dimensions.
+
+5. Skill Name: Planar Tracking Operator
+
+  Description: Tracks flat or near-flat surfaces for screens, signs, decals, patches, and set extensions with corner-pin validation.
+
+6. Skill Name: Marker Cleanup Specialist
+
+  Description: Detects slipping, jumping, occluded, clustered, or short tracks and repairs only the frames affecting the solve.
+
+7. Skill Name: Rolling Shutter Compensation Planner
+
+  Description: Identifies rolling-shutter artifacts and applies supported correction or documents residual limitations.
+
+8. Skill Name: Scene Orientation and Scale Setter
+
+  Description: Uses ground planes, vanishing directions, surveyed points, known dimensions, and gravity to establish a production coordinate system.
+
+9. Skill Name: Survey Data Integrator
+
+  Description: Imports lens, lidar, photogrammetry, total-station, GPS, or manual survey data where authorized and aligns it to the solve.
+
+10. Skill Name: Matchmove Geometry Builder
+
+  Description: Creates proxy surfaces, ground, walls, occluders, collision shapes, and shadow catchers matched to the plate.
+
+11. Skill Name: Track Solve Validator
+
+  Description: Checks reprojection error, focal behavior, horizon, parallax, contact, scale, drift, lens distortion, and rendered overlay.
+
+12. Skill Name: Matchmove Handoff Packager
+
+  Description: Exports camera, object tracks, lens data, frame range, reference plate, distortion maps, proxy geometry, and validation movies.
+
+17. Physics, Rigid Bodies, and Constraints
+
+1. Skill Name: Physics Scale and Solver Planner
+
+  Description: Sets units, gravity, substeps, iterations, collision margins, time scale, and cache strategy from the physical and visual goal.
+
+2. Skill Name: Rigid Body Simulation Builder
+
+  Description: Creates active, passive, compound, convex, and mesh colliders with mass, friction, restitution, damping, and activation rules.
+
+3. Skill Name: Rigid Body Constraint Builder
+
+  Description: Creates hinge, slider, spring, motor, fixed, point, cone, and breakable constraints with limits and stability settings.
+
+4. Skill Name: Destruction Simulation Planner
+
+  Description: Builds fracture, clustering, weakening, activation, debris, dust, and collision systems with art-directed controls.
+
+5. Skill Name: Soft Body Simulation Operator
+
+  Description: Creates deformable motion with mass, stiffness, damping, pressure, collision, pinning, and volume preservation.
+
+6. Skill Name: Dynamic Prop Simulation Operator
+
+  Description: Simulates chains, ropes, cables, pendants, accessories, machinery, and loose props with controlled handoff to animation.
+
+7. Skill Name: Collision Shape Optimizer
+
+  Description: Creates simple, stable collision representations with correct margins, scale, decomposition, and moving-object behavior.
+
+8. Skill Name: Simulation Cache Manager
+
+  Description: Bakes, versions, validates, relocates, locks, restores, and invalidates physics caches deterministically.
+
+9. Skill Name: Simulation Seed and Determinism Manager
+
+  Description: Records seeds, solver versions, evaluation order, substeps, and hardware differences affecting reproducibility.
+
+10. Skill Name: Physics Penetration Detector
+
+  Description: Finds interpenetration, tunneling, explosive separation, jitter, sleeping errors, and constraint breakage.
+
+11. Skill Name: Physics Art Direction Layer Builder
+
+  Description: Adds forces, guides, masks, proxy colliders, keyframed overrides, and blended results without losing the simulation source.
+
+12. Skill Name: Physics Validation Gate
+
+  Description: Checks scale, collisions, constraints, cache completeness, determinism, frame range, performance, and render consistency.
+
+18. Cloth, Garments, and Soft Goods
+
+1. Skill Name: Garment Pattern Builder
+
+  Description: Creates 2D patterns, seam relationships, grain, material zones, and construction allowances for simulated garments.
+
+2. Skill Name: Cloth Material Calibrator
+
+  Description: Tunes stretch, shear, bend, damping, density, thickness, friction, pressure, and shrinkage against physical references.
+
+3. Skill Name: Cloth Simulation Setup Operator
+
+  Description: Creates garment topology, pinning, seams, collision, self-collision, rest state, substeps, and cache settings.
+
+4. Skill Name: Layered Clothing Manager
+
+  Description: Handles multiple garments, body collision, contact priority, thickness, friction, and staged simulation.
+
+5. Skill Name: Cloth Character Handoff Builder
+
+  Description: Prepares animated collision proxies, rest poses, garment attachments, frame handles, and simulation ranges.
+
+6. Skill Name: Cloth Penetration Repairer
+
+  Description: Fixes body and garment intersections using collision changes, local sculpting, constraints, remeshing, or post-simulation correction.
+
+7. Skill Name: Cloth Wrinkle Art Director
+
+  Description: Guides fold scale, location, persistence, and stylization using material, seam, pose, pressure, and corrective shapes.
+
+8. Skill Name: Cloth Cache Version Manager
+
+  Description: Stores solver settings, source animation, garment version, collider version, seeds, and approved caches.
+
+9. Skill Name: Cloth LOD and Game Exporter
+
+  Description: Converts high-quality garments to skinned, baked, simplified, or runtime-cloth assets with collision and constraint data.
+
+10. Skill Name: Cloth Validation Gate
+
+  Description: Checks seam integrity, self-intersection, body penetration, popping, jitter, stretch, volume, cache, and render mesh transfer.
+
+19. Hair, Fur, Grooming, and Feathers
+
+1. Skill Name: Groom Architecture Planner
+
+  Description: Defines scalp, guides, clumps, layers, density, width, length, children, interpolation, materials, simulation, and LOD strategy.
+
+2. Skill Name: Hair Guide Groomer
+
+  Description: Creates and edits guides for silhouette, flow, parting, hairline, volume, clumps, curls, and flyaways.
+
+3. Skill Name: Fur Grooming Operator
+
+  Description: Builds short and long fur with density, direction, length, clumping, roughness, color, and region masks.
+
+4. Skill Name: Feather System Builder
+
+  Description: Creates feather geometry or curves, layering, orientation, rachis, barb behavior, color, and wing or body distribution.
+
+5. Skill Name: Hair Card Generator
+
+  Description: Converts or authors strand groups into optimized cards with alpha textures, normals, tangents, direction, and LODs.
+
+6. Skill Name: Groom Texture and Mask Builder
+
+  Description: Creates density, length, clump, direction, roughness, color, baldness, and wetness maps.
+
+7. Skill Name: Groom Simulation Operator
+
+  Description: Configures roots, stiffness, mass, damping, collisions, wind, constraints, and caches for secondary motion.
+
+8. Skill Name: Guide Transfer Operator
+
+  Description: Moves grooms between compatible scalp revisions, characters, LODs, and poses while checking root alignment.
+
+9. Skill Name: Hair Shader and Melanin Specialist
+
+  Description: Creates physically plausible or stylized strand response with root-tip and regional variation.
+
+10. Skill Name: Groom Performance Optimizer
+
+  Description: Controls guide count, children, viewport percentage, cards, curves, instancing, culling, and render LOD.
+
+11. Skill Name: Groom Cache Manager
+
+  Description: Versions guide motion, simulation settings, scalp, collisions, renderer data, and approved cache ranges.
+
+12. Skill Name: Hair and Fur Validation Gate
+
+  Description: Checks roots, bald patches, intersections, exploding guides, clump discontinuities, shading, motion, cache, and LOD transitions.
+
+20. Fluids, Smoke, Fire, Volumes, and Particles
+
+1. Skill Name: Fluid Simulation Planner
+
+  Description: Defines domain, resolution, scale, viscosity, surface tension, inflow, outflow, collision, meshing, foam, and cache strategy.
+
+2. Skill Name: Liquid Simulation Operator
+
+  Description: Creates water, viscous, pouring, splashing, flooding, and small-scale liquid simulations with art-directed forces.
+
+3. Skill Name: Ocean and Large-Water Builder
+
+  Description: Creates waves, swell, foam, wake, spray, shoreline interaction, displacement, and tiled or spectral water.
+
+4. Skill Name: Smoke Simulation Operator
+
+  Description: Builds density, temperature, fuel, velocity, turbulence, dissipation, obstacles, resolution, and cache settings.
+
+5. Skill Name: Fire Simulation Operator
+
+  Description: Creates fuel, flame, heat, soot, smoke, emission, turbulence, and shading with physically plausible scale and controlled art direction.
+
+6. Skill Name: Explosion Effects Builder
+
+  Description: Combines fire, smoke, shockwave, debris, sparks, dust, light, and camera interaction with staged timing.
+
+7. Skill Name: Particle System Builder
+
+  Description: Creates emission, forces, collisions, instancing, trails, age, events, attributes, and deterministic seeds.
+
+8. Skill Name: Dust, Debris, and Spark Designer
+
+  Description: Builds contact-aware secondary particles with scale, drag, bounce, fade, and lighting response.
+
+9. Skill Name: Volume Cache Manager
+
+  Description: Bakes, compresses, versions, transfers, validates, and prunes OpenVDB or equivalent caches.
+
+10. Skill Name: Fluid Meshing Optimizer
+
+  Description: Controls particle radius, smoothing, adaptivity, detail, normals, UVs, velocity, and mesh cleanup.
+
+11. Skill Name: Simulation Upscale and Resample Operator
+
+  Description: Increases approved detail, time sampling, or grid resolution while preserving source motion and documenting differences.
+
+12. Skill Name: Volume Rendering Optimizer
+
+  Description: Tunes step size, shadow sampling, multiple scattering, denoising, clipping, and light visibility.
+
+13. Skill Name: Effects Composite Pass Builder
+
+  Description: Exports density, flame, emission, velocity, depth, matte, ID, and holdout passes for finishing.
+
+14. Skill Name: Fluid and Volume Validation Gate
+
+  Description: Checks scale, boundaries, leaks, disappearing cells, cache gaps, unstable motion, shading, render consistency, and frame range.
+
+21. Geometry Nodes, Procedural Modeling, and Scattering
+
+1. Skill Name: Geometry Nodes Asset Architect
+
+  Description: Builds reusable node groups with clear inputs, outputs, field behavior, units, defaults, dependencies, and version metadata.
+
+2. Skill Name: Procedural Modeling System Builder
+
+  Description: Creates rule-driven buildings, cables, fences, roads, rocks, vegetation, panels, or kit assemblies from controlled inputs.
+
+3. Skill Name: Procedural Scatter System Builder
+
+  Description: Distributes assets by masks, density, slope, height, distance, collision, biome, random seed, and art-directed guides.
+
+4. Skill Name: Procedural Terrain Generator
+
+  Description: Builds terrain from noise, erosion, curves, heightfields, masks, terraces, roads, rivers, and biome rules.
+
+5. Skill Name: Curve-Based Generator
+
+  Description: Creates roads, rails, pipes, cables, walls, vines, hair, or motion paths from curves with stable orientation and profiles.
+
+6. Skill Name: Procedural Damage Generator
+
+  Description: Creates cracks, chips, erosion, dirt, variation, debris, and breakage with controllable masks and nondestructive parameters.
+
+7. Skill Name: Instance and Realization Manager
+
+  Description: Controls shared geometry, material variation, bounding boxes, realization, memory, export, and per-instance attributes.
+
+8. Skill Name: Attribute and Field Debugger
+
+  Description: Inspects domains, data types, anonymous attributes, interpolation, capture, propagation, and unexpected field evaluation.
+
+9. Skill Name: Procedural Seed Manager
+
+  Description: Records and exposes random seeds so generated environments and variants remain reproducible.
+
+10. Skill Name: Node Group Dependency Manager
+
+  Description: Tracks nested node groups, external assets, interfaces, versions, and backward compatibility.
+
+11. Skill Name: Geometry Nodes Performance Profiler
+
+  Description: Measures evaluation time, memory, instance count, realized geometry, viewport cost, and render cost.
+
+12. Skill Name: Procedural Asset Bake Operator
+
+  Description: Converts approved procedural results to portable meshes, curves, volumes, attributes, and caches for downstream use.
+
+13. Skill Name: Geometry Nodes Validation Gate
+
+  Description: Checks interface names, types, defaults, units, missing assets, unstable topology, determinism, performance, and export behavior.
+
+22. Offline Neural 3D Generation and Reconstruction
+
+1. Skill Name: Offline Model Runtime Manager
+
+  Description: Installs and configures local neural runtimes, checkpoints, precision, quantization, cache paths, device selection, and reproducible launch settings.
+
+2. Skill Name: Offline Text-to-3D Operator
+
+  Description: Generates local mesh, point-cloud, Gaussian, implicit, or multiview candidates from prompts and converts useful output into editable production references or assets.
+
+3. Skill Name: Offline Image-to-3D Operator
+
+  Description: Reconstructs local geometry and appearance from one or more authorized images, records assumptions, and separates camera, shape, texture, and visibility errors.
+
+4. Skill Name: Offline Multiview Generator
+
+  Description: Creates controlled local view candidates from an input image for reconstruction while preserving prompt, seed, model, and reference metadata.
+
+5. Skill Name: Offline Photogrammetry Operator
+
+  Description: Reconstructs meshes, cameras, textures, and point clouds from local image sets with alignment and scale validation.
+
+6. Skill Name: Offline NeRF or Gaussian Splat Operator
+
+  Description: Builds local neural scene representations, evaluates coverage and artifacts, and exports supported meshes, points, cameras, or renders.
+
+7. Skill Name: Offline Depth Estimation Operator
+
+  Description: Creates depth maps from local images, calibrates scale where possible, and flags edges, reflections, transparency, and occlusion errors.
+
+8. Skill Name: Offline Normal Map Generation Operator
+
+  Description: Creates normal or surface-orientation estimates from images and converts accepted results to a documented tangent or object space.
+
+9. Skill Name: Offline Texture Generation Operator
+
+  Description: Generates local textures, projections, fills, or material concepts while preserving UVs, seams, color-space rules, and editable source layers.
+
+10. Skill Name: Offline Material Estimation Operator
+
+  Description: Estimates base color, roughness, metallic, normal, height, lighting, and masks from local references and separates baked illumination from material response.
+
+11. Skill Name: Offline 3D Inpainting Operator
+
+  Description: Repairs geometry, texture, depth, or view gaps locally and marks generated regions for review.
+
+12. Skill Name: Offline Mesh Cleanup Model Operator
+
+  Description: Uses local learned cleanup, remesh, segmentation, or denoise models and validates topology rather than accepting model output blindly.
+
+13. Skill Name: Offline Motion Generation Operator
+
+  Description: Creates local motion candidates from text, poses, trajectories, audio, or reference clips and maps accepted results to editable animation.
+
+14. Skill Name: Offline Pose Estimation Operator
+
+  Description: Extracts body, hand, face, or object pose from authorized local images or video and records confidence and occlusion.
+
+15. Skill Name: Offline Lip-Sync and Facial Model Operator
+
+  Description: Generates local mouth or face animation from audio or video and validates consent, identity, timing, and deformation.
+
+16. Skill Name: Neural Output Provenance Recorder
+
+  Description: Stores model, version, hash, license, prompt, seed, sampler, precision, inputs, control signals, and generated-file lineage.
+
+17. Skill Name: Neural Model License Auditor
+
+  Description: Checks commercial use, redistribution, output restrictions, training or reference constraints, notices, and model-specific obligations.
+
+18. Skill Name: Neural Generation Triage
+
+  Description: Classifies outputs as concept, reference, proxy, editable source, temporary element, or approved production asset and applies the required review gate.
+
+23. Rendering Engines, GPU Support, and Denoising
+
+1. Skill Name: Render Engine Router
+
+  Description: Selects Cycles, Eevee, Arnold, RenderMan, Redshift, Octane, real-time, or equivalent engines from fidelity, feature, hardware, license, and delivery requirements.
+
+2. Skill Name: GPU Backend Configurator
+
+  Description: Configures CUDA, OptiX, HIP, Metal, oneAPI, CPU, or supported backends and verifies that the intended devices are actually used.
+
+3. Skill Name: GPU Driver Compatibility Auditor
+
+  Description: Tests driver, operating system, DCC, render engine, denoiser, and add-on combinations against reference scenes.
+
+4. Skill Name: GPU Memory Failure Planner
+
+  Description: Defines texture limits, out-of-core behavior, geometry strategies, tile sizes, device splitting, and CPU fallback for VRAM exhaustion.
+
+5. Skill Name: CPU-GPU Parity Tester
+
+  Description: Compares representative CPU and GPU renders for unsupported features, numerical differences, noise, color, and missing effects.
+
+6. Skill Name: Sampling and Noise Optimizer
+
+  Description: Tunes adaptive samples, thresholds, light sampling, caustics, bounces, clamping, and render passes against approved references.
+
+7. Skill Name: Denoising Model Manager
+
+  Description: Configures OptiX, OpenImageDenoise, temporal, albedo-normal guided, or engine-native denoisers and records model or library versions.
+
+8. Skill Name: Denoising Artifact Detector
+
+  Description: Finds detail loss, texture smearing, temporal flicker, edge halos, shadow pumping, and facial or hair degradation.
+
+9. Skill Name: Motion Blur Specialist
+
+  Description: Sets shutter, transform and deformation blur, velocity, steps, rolling shutter, and compositing vectors with artifact checks.
+
+10. Skill Name: Depth of Field Specialist
+
+  Description: Controls focus distance, aperture, blades, bokeh, anamorphism, sampling, and focus animation.
+
+11. Skill Name: Render Pass and AOV Architect
+
+  Description: Defines beauty, diffuse, glossy, transmission, emission, volume, cryptomatte, IDs, depth, normals, position, motion, and utility passes.
+
+12. Skill Name: Render Layer and Holdout Manager
+
+  Description: Builds render layers, collections, holdouts, shadow catchers, matte objects, light groups, and compositing dependencies.
+
+13. Skill Name: Render Preset Standardizer
+
+  Description: Creates versioned preview, lookdev, animation, simulation, final, matte, utility, and archival presets.
+
+14. Skill Name: Render Regression Tester
+
+  Description: Renders fixed reference scenes after updates and compares pixels, passes, timing, memory, noise, denoising, and metadata.
+
+15. Skill Name: Render Validation Gate
+
+  Description: Checks engine, devices, frame range, camera, dimensions, color, passes, missing assets, samples, output, and reproducibility.
+
+24. Render Farm, Batch Rendering, and Job Orchestration
+
+1. Skill Name: Offline Render Farm Architect
+
+  Description: Designs local manager, workers, shared paths, application versions, plugins, licenses, queues, logs, and failure isolation.
+
+2. Skill Name: Render Node Provisioner
+
+  Description: Creates repeatable worker installations with exact DCC, renderer, add-ons, fonts, color configuration, environment variables, and permissions.
+
+3. Skill Name: Farm Clean-State Node Tester
+
+  Description: Resets or rebuilds a worker and runs reference jobs to prove no hidden manual fix or local cache is required.
+
+4. Skill Name: Batch Render Manifest Builder
+
+  Description: Defines scenes, shots, cameras, layers, frame ranges, chunks, priorities, resources, dependencies, and outputs.
+
+5. Skill Name: Frame Chunking Planner
+
+  Description: Selects contiguous, interleaved, tile, wedge, simulation-aware, or shot-level chunks based on failure and storage behavior.
+
+6. Skill Name: Render Queue Orchestrator
+
+  Description: Schedules jobs by dependency, priority, deadline, hardware, VRAM, RAM, license, storage, and estimated duration.
+
+7. Skill Name: Asset Distribution Manager
+
+  Description: Packages or synchronizes required scenes, linked libraries, textures, caches, scripts, fonts, models, and color files to workers.
+
+8. Skill Name: Render Resource Estimator
+
+  Description: Predicts time, CPU, GPU, VRAM, RAM, output size, cache, and temporary storage from representative frames.
+
+9. Skill Name: Render Log Analyzer
+
+  Description: Extracts warnings, missing assets, fallbacks, peak memory, render time, NaNs, crashes, and device selection from logs.
+
+10. Skill Name: Failed Frame Requeuer
+
+  Description: Detects missing, corrupt, black, or mismatched frames and retries only the affected work after the cause is corrected.
+
+11. Skill Name: Farm Version Drift Detector
+
+  Description: Compares worker applications, plugins, scripts, models, drivers, environment, and color configurations with the approved baseline.
+
+12. Skill Name: Render Result Publisher
+
+  Description: Moves validated outputs into approved locations with checksums, manifests, permissions, version state, and review media.
+
+13. Skill Name: Farm Throughput Optimizer
+
+  Description: Measures queue wait, utilization, frame variance, I/O saturation, license bottlenecks, and stragglers and tunes scheduling.
+
+14. Skill Name: Farm Disaster Recovery Planner
+
+  Description: Backs up manager state, job definitions, presets, scripts, licenses, and node provisioning instructions for rapid rebuild.
+
+25. Color Management, Compositing, and Finishing
+
+1. Skill Name: Color Management Standard Author
+
+  Description: Defines working, texture, render, display, review, interchange, and delivery color spaces using OpenColorIO or ICC policy.
+
+2. Skill Name: OCIO Configuration Manager
+
+  Description: Packages and validates roles, displays, views, looks, file rules, context variables, and application mappings.
+
+3. Skill Name: Texture Color-Space Classifier
+
+  Description: Assigns correct interpretation to base color, emission, HDRI, masks, normals, roughness, displacement, and data maps.
+
+4. Skill Name: Linear Workflow Validator
+
+  Description: Checks that lighting, shading, compositing, blending, filtering, and file transforms operate in the intended linear domain.
+
+5. Skill Name: Render View Transform Manager
+
+  Description: Applies approved scene-linear to display and output transforms without accidentally baking the view into master data.
+
+6. Skill Name: Compositing Template Builder
+
+  Description: Creates node or layer templates for pass assembly, cryptomatte, depth, motion, color, grain, glare, atmosphere, and delivery output.
+
+7. Skill Name: Deep and Multilayer Image Manager
+
+  Description: Reads, writes, validates, and flattens multilayer EXR or deep data while preserving channels, windows, compression, and metadata.
+
+8. Skill Name: Cryptomatte and ID Validator
+
+  Description: Checks manifest, hashes, object and material names, coverage, anti-aliasing, and stable selection after scene changes.
+
+9. Skill Name: Alpha and Premultiplication Specialist
+
+  Description: Creates, repairs, premultiplies, unpremultiplies, and validates alpha without edge contamination.
+
+10. Skill Name: Motion Vector and Depth Validator
+
+  Description: Checks units, normalization, sign, range, camera behavior, deformation support, and compositing interpretation.
+
+11. Skill Name: HDR and SDR Output Planner
+
+  Description: Creates controlled output transforms and trims with protected highlight, shadow, gamut, and creative intent.
+
+12. Skill Name: Compositing Regression Tester
+
+  Description: Rebuilds reference shots after pipeline changes and compares beauty, mattes, color, edges, motion, depth, and grain.
+
+13. Skill Name: Final Image Sequence Validator
+
+  Description: Checks dimensions, channels, color, alpha, frame range, corruption, duplicates, metadata, and expected compression.
+
+26. glTF, GLB, FBX, USD, and Interchange
+
+1. Skill Name: glTF Export Operator
+
+  Description: Exports geometry, materials, textures, skinning, morph targets, animation, cameras, and lights within supported glTF constraints.
+
+2. Skill Name: GLB Package Builder
+
+  Description: Creates self-contained GLB files with embedded buffers and textures and verifies size, naming, compression, and runtime playback.
+
+3. Skill Name: glTF Validator
+
+  Description: Runs syntax, schema, buffer, accessor, animation, material, texture, extension, and conformance checks and interprets warnings.
+
+4. Skill Name: glTF PBR Material Mapper
+
+  Description: Maps production materials to metallic-roughness or supported extensions and reports unsupported shader behavior.
+
+5. Skill Name: Draco and Mesh Compression Operator
+
+  Description: Applies supported geometry compression, compares size and decode cost, and validates topology, attributes, and visual quality.
+
+6. Skill Name: KTX2 and Texture Compression Operator
+
+  Description: Creates GPU-ready textures with appropriate color or data mode, mipmaps, alpha, quality, and target support.
+
+7. Skill Name: FBX Import-Export Manager
+
+  Description: Controls version, units, axes, skeletons, animation, blendshapes, smoothing, tangents, materials, and embedded media.
+
+8. Skill Name: FBX Round-Trip Validator
+
+  Description: Exports and reimports references and compares hierarchy, transforms, animation, skin weights, shapes, cameras, and materials.
+
+9. Skill Name: USD Stage Architect
+
+  Description: Builds layers, sublayers, references, payloads, variants, purposes, kinds, meters per unit, up axis, and asset paths.
+
+10. Skill Name: USD Asset Publisher
+
+  Description: Packages geometry, materials, textures, skeletons, animation, variants, metadata, and dependencies into a portable USD asset.
+
+11. Skill Name: USD Composition Debugger
+
+  Description: Diagnoses layer strength, opinions, variants, payloads, references, paths, relocates, and stage population.
+
+12. Skill Name: USD Validation Operator
+
+  Description: Checks stage readability, paths, units, axes, schemas, prim types, assets, variants, payloads, materials, and time samples.
+
+13. Skill Name: Alembic Cache Operator
+
+  Description: Exports and validates geometry, transforms, topology changes, velocities, UVs, normals, face sets, and frame ranges.
+
+14. Skill Name: OBJ and Static Mesh Exchange Operator
+
+  Description: Exports simple static geometry with scale, axes, normals, UVs, groups, and material references and documents lost features.
+
+15. Skill Name: Interchange Format Router
+
+  Description: Selects glTF, FBX, USD, Alembic, OBJ, PLY, STL, or native formats from fidelity, editability, runtime, and recipient requirements.
+
+16. Skill Name: Cross-Application Round-Trip Tester
+
+  Description: Exports, imports, re-exports, and compares reference assets to quantify transform, animation, material, camera, and metadata loss.
+
+27. Real-Time, Game, XR, and Runtime Optimization
+
+1. Skill Name: Runtime Asset Budget Planner
+
+  Description: Defines polygon, vertex, bone, influence, texture, material, draw-call, shader, animation, memory, and load-time targets by platform.
+
+2. Skill Name: Polygon Reduction Operator
+
+  Description: Reduces geometry while preserving silhouette, deformation, UVs, normals, materials, seams, and critical landmarks.
+
+3. Skill Name: Level-of-Detail Generator
+
+  Description: Creates geometric, material, texture, animation, and effect LODs with screen-size thresholds and transition tests.
+
+4. Skill Name: LOD Chain Validator
+
+  Description: Checks silhouette, normals, UVs, skinning, material parity, pivots, bounds, transitions, and naming across all levels.
+
+5. Skill Name: Draw-Call Optimizer
+
+  Description: Reduces material slots, mesh splits, transparency, state changes, and unique shader variants without breaking batching constraints.
+
+6. Skill Name: Texture Atlas Builder
+
+  Description: Packs textures with padding, channel rules, consistent texel density, material remapping, and mip-safe borders.
+
+7. Skill Name: Texture Streaming Budgeter
+
+  Description: Assigns size, mip behavior, compression, residency, and priority from screen coverage and platform memory.
+
+8. Skill Name: Collision Mesh Generator
+
+  Description: Creates convex, primitive, compound, simplified, or per-poly collision assets with correct scale, naming, and physical behavior.
+
+9. Skill Name: Collision Validation Operator
+
+  Description: Checks gaps, excessive complexity, tunneling risk, mismatched scale, self-collision, pivot, and runtime import behavior.
+
+10. Skill Name: Occlusion and Culling Planner
+
+  Description: Creates bounds, occluders, portals, clusters, visibility cells, or runtime rules to reduce hidden rendering.
+
+11. Skill Name: Skeleton and Skin Optimizer
+
+  Description: Reduces bones and influences, prunes unused joints, preserves deformation, and validates runtime limits.
+
+12. Skill Name: Animation Compression Operator
+
+  Description: Reduces curve data with position, rotation, scale, and perceptual error tolerances and protects contacts.
+
+13. Skill Name: Runtime Shader Simplifier
+
+  Description: Converts complex offline materials into supported real-time shaders, baked maps, approximations, and quality levels.
+
+14. Skill Name: Lightmap and Baked Lighting Packager
+
+  Description: Creates secondary UVs, lightmaps, probes, reflection data, shadow masks, and runtime metadata.
+
+15. Skill Name: Engine Import Validator
+
+  Description: Tests assets in the target runtime for scale, axes, materials, textures, animation, root motion, LOD, collision, and performance.
+
+16. Skill Name: XR Asset Comfort and Performance Validator
+
+  Description: Checks stereo scale, depth, clipping, frame time, transparency, motion, LOD, texture, and interaction constraints for XR.
+
+28. Fabrication, 3D Printing, CAD, and Physical Output
+
+1. Skill Name: 3D Print Mesh Repairer
+
+  Description: Creates watertight, manifold geometry with correct normals, thickness, scale, shell structure, and no unintended internal surfaces.
+
+2. Skill Name: Wall Thickness Validator
+
+  Description: Measures minimum and maximum thickness against material, process, size, support, and durability requirements.
+
+3. Skill Name: Overhang and Support Planner
+
+  Description: Analyzes build orientation, overhangs, bridges, supports, contact marks, stability, and print time.
+
+4. Skill Name: Mesh Volume and Dimension Reporter
+
+  Description: Calculates bounds, volume, surface area, units, and material estimates for manufacturing review.
+
+5. Skill Name: STL and 3MF Export Operator
+
+  Description: Exports fabrication-ready geometry with verified units, shells, colors or materials where supported, and no corruption.
+
+6. Skill Name: CAD Interchange Operator
+
+  Description: Imports and exports STEP, IGES, DXF, or supported CAD formats while documenting tessellation and feature loss.
+
+7. Skill Name: Mesh-to-CAD Preparation Assistant
+
+  Description: Cleans, segments, fits surfaces, and organizes scan or sculpt data for reverse-engineering workflows.
+
+8. Skill Name: Part Separation and Assembly Planner
+
+  Description: Creates printable parts, keys, sockets, tolerances, fasteners, alignment features, and assembly instructions.
+
+9. Skill Name: Scale Model and Miniature Detail Optimizer
+
+  Description: Adjusts thin features, relief, gaps, exaggeration, and surface detail for a target physical scale.
+
+10. Skill Name: Fabrication License and Provenance Checker
+
+  Description: Verifies rights to manufacture, modify, sell, distribute, or share the model and embedded branding.
+
+11. Skill Name: Print Validation Gate
+
+  Description: Checks manifoldness, shells, intersections, dimensions, thickness, orientation, supports, file integrity, and recipient requirements.
+
+29. Model, Rig, Texture, and Scene Quality Control
+
+1. Skill Name: Model Integrity Checker
+
+  Description: Checks nonmanifold geometry, holes, duplicate vertices, zero-area faces, internal faces, loose components, degenerate edges, normals, and transforms.
+
+2. Skill Name: Topology Quality Auditor
+
+  Description: Checks poles, long thin triangles, n-gons, density, edge flow, subdivision behavior, and deformation regions against the asset goal.
+
+3. Skill Name: Transform and Pivot Validator
+
+  Description: Checks scale, rotation, location, origin, pivot, hierarchy, local axes, negative scale, and freeze policy.
+
+4. Skill Name: Bounding Box and Scale Validator
+
+  Description: Compares asset dimensions and placement against project standards, references, collision, and runtime assumptions.
+
+5. Skill Name: Material and Texture Validator
+
+  Description: Checks assignments, missing files, color spaces, channels, resolution, bit depth, UV sets, seams, padding, and unsupported nodes.
+
+6. Skill Name: Rig and Animation Validator
+
+  Description: Checks skeleton, controls, constraints, weights, shapes, frame ranges, keys, root motion, contacts, cycles, and export skeleton.
+
+7. Skill Name: Scene Performance Auditor
+
+  Description: Profiles object count, polygons, curves, particles, volumes, modifiers, nodes, textures, shaders, constraints, and evaluation time.
+
+8. Skill Name: Scene Dependency and Missing File Scanner
+
+  Description: Finds broken libraries, images, caches, fonts, scripts, models, and absolute paths before publication.
+
+9. Skill Name: NaN and Invalid Value Detector
+
+  Description: Finds invalid transforms, mesh coordinates, shader values, image data, simulation values, and render-pass pixels.
+
+10. Skill Name: Duplicate Asset and Data-Block Detector
+
+  Description: Finds redundant meshes, materials, images, node groups, actions, and libraries that increase size or create drift.
+
+11. Skill Name: Hidden and Unused Data Cleaner
+
+  Description: Removes or quarantines unused objects, collections, actions, materials, images, orphan data, caches, and temporary nodes after review.
+
+12. Skill Name: Visual Turntable Reviewer
+
+  Description: Creates consistent turntables and close-ups for silhouette, topology, shading, textures, rig deformation, and artifact review.
+
+13. Skill Name: Rendering Regression Tester
+
+  Description: Renders fixed cameras and frames, compares beauty and passes, and reports pixel, color, lighting, noise, timing, and metadata differences.
+
+14. Skill Name: Asset Acceptance Gate
+
+  Description: Runs project-specific modeling, UV, texture, material, rig, animation, performance, rights, and package checks and blocks critical failures.
+
+30. Licensing, Provenance, Security, and Responsible Use
+
+1. Skill Name: Model License Manifest Builder
+
+  Description: Records source, creator, version, acquisition, modification, usage rights, attribution, redistribution, and project restrictions for models.
+
+2. Skill Name: Texture and HDRI License Auditor
+
+  Description: Checks commercial use, derivative works, redistribution, attribution, resolution limits, and raw-file sharing.
+
+3. Skill Name: Motion Capture Rights Manager
+
+  Description: Records performer consent, capture ownership, usage, model-training restrictions, territory, term, and revocation.
+
+4. Skill Name: Add-on and Script License Auditor
+
+  Description: Records open-source obligations, commercial seats, redistribution, notices, source offers, and offline activation requirements.
+
+5. Skill Name: Font and Graphic License Auditor
+
+  Description: Checks rights for fonts, decals, logos, labels, reference images, and on-screen graphics used by 3D assets.
+
+6. Skill Name: AI Model License and Provenance Manager
+
+  Description: Records checkpoint source, version, hash, terms, training or reference constraints, redistribution, notices, and generated-output lineage.
+
+7. Skill Name: Reference Image Rights Classifier
+
+  Description: Separates owned, licensed, public-domain, editorial, restricted, private, and unknown reference material.
+
+8. Skill Name: Attribution and Notices Generator
+
+  Description: Builds human-readable credits, license texts, model notices, open-source notices, and required source offers.
+
+9. Skill Name: Sensitive Metadata Sanitizer
+
+  Description: Removes user names, machine paths, GPS, comments, thumbnails, hidden assets, private notes, and credentials before sharing.
+
+10. Skill Name: Secret and Credential Scanner
+
+  Description: Finds API keys, passwords, tokens, license files, certificates, private server paths, and embedded secrets in scenes and packages.
+
+11. Skill Name: Voice, Face, and Likeness Consent Gate
+
+  Description: Requires documented authority before local neural reconstruction, facial animation, voice conversion, or likeness-based asset creation.
+
+12. Skill Name: Third-Party Asset Quarantine
+
+  Description: Separates assets with uncertain rights, origin, malware risk, or incompatible licenses until review is complete.
+
+13. Skill Name: Release Rights Gate
+
+  Description: Blocks delivery when any model, texture, HDRI, mocap, voice, font, add-on, dataset, or generated asset lacks approved rights.
+
+31. Reproducibility, Packaging, Backup, and Archival
+
+1. Skill Name: Reproducible Project Packager
+
+  Description: Collects scenes, linked libraries, textures, caches, scripts, add-ons, fonts, models, color files, presets, manifests, and licenses using relative paths.
+
+2. Skill Name: Project Dependency Collector
+
+  Description: Finds every external file, resolves versions, detects duplicates, and copies or references only approved dependencies.
+
+3. Skill Name: Bundle Completeness Validator
+
+  Description: Opens the packaged project from a clean path and checks missing files, plugins, fonts, scripts, color transforms, caches, and models.
+
+4. Skill Name: Cold-Start Rebuild Tester
+
+  Description: Reconstructs representative outputs from packaged sources in a clean offline environment and compares them with approved references.
+
+5. Skill Name: Project Checksum Generator
+
+  Description: Produces and verifies hashes for installers, add-ons, models, assets, caches, scenes, renders, and delivery files.
+
+6. Skill Name: Project Version Snapshot Manager
+
+  Description: Creates labeled, recoverable snapshots before upgrades, publishes, simulation bakes, rig changes, and final renders.
+
+7. Skill Name: Incremental Backup Operator
+
+  Description: Backs up changed source and irreplaceable production data while excluding safely reproducible caches according to policy.
+
+8. Skill Name: 3-2-1 Backup Planner
+
+  Description: Defines three copies on two media types with one offline or off-site copy, restore targets, verification, and rotation.
+
+9. Skill Name: Disaster Recovery Drill Runner
+
+  Description: Simulates workstation loss, corrupted storage, deleted scenes, missing caches, failed updates, and unavailable shared storage.
+
+10. Skill Name: Archive Tier Manager
+
+  Description: Separates active, nearline, cold, legal-hold, and disposable data and preserves manifests, checksums, licenses, and restore instructions.
+
+11. Skill Name: Long-Term Format Migration Planner
+
+  Description: Creates archival companions in durable formats such as USD, Alembic, OpenEXR, PNG, TIFF, WAV, JSON, and text while retaining originals.
+
+12. Skill Name: Cache Retention Manager
+
+  Description: Classifies simulation, render, bake, neural, and geometry caches by reproducibility, cost, approval, and retention period.
+
+13. Skill Name: Recipient Handoff Guide Writer
+
+  Description: Writes exact setup, open, edit, simulate, render, export, validate, and troubleshooting steps for the receiving workstation or team.
+
+14. Skill Name: Project Decommissioning Operator
+
+  Description: Creates final archives, removes secrets and unnecessary caches, preserves rights and provenance, and documents how to reopen the work.
+
+32. Documentation, Training, Automation, and Pipeline Operations
+
+1. Skill Name: Offline 3D Production Handbook Builder
+
+  Description: Creates a searchable local handbook covering installation, modeling, texturing, rigging, animation, simulation, rendering, QC, export, licensing, and recovery.
+
+2. Skill Name: Role-Based Quick Start Author
+
+  Description: Writes concise instructions for modelers, sculptors, texture artists, riggers, animators, simulation artists, lighters, render operators, technical artists, and reviewers.
+
+3. Skill Name: Standard Operating Procedure Generator
+
+  Description: Turns an approved workflow into prerequisites, exact steps, inputs, outputs, checks, rollback, failure states, and ownership.
+
+4. Skill Name: Pipeline CLI Builder
+
+  Description: Creates command-line tools for validation, batch conversion, rendering, packaging, dependency collection, and reporting.
+
+5. Skill Name: DCC Batch Automation Builder
+
+  Description: Creates safe headless or background scripts with explicit files, scenes, frame ranges, logs, exit codes, and rollback behavior.
+
+6. Skill Name: Manifest-Driven Batch Processor
+
+  Description: Reads CSV, JSON, or YAML manifests and performs deterministic import, validation, bake, render, export, or package operations.
+
+7. Skill Name: Script Safety Sandbox
+
+  Description: Runs scripts against staged copies, limits deletion and overwrite, records changed files, and preserves the last passing source.
+
+8. Skill Name: Pipeline Smoke Test Builder
+
+  Description: Creates a compact reference project that exercises modeling, UV, textures, rigging, animation, simulation, rendering, export, packaging, and restore.
+
+9. Skill Name: Troubleshooting Decision Tree Builder
+
+  Description: Routes scene, render, GPU, driver, add-on, simulation, color, export, and package failures to the smallest confirming test.
+
+10. Skill Name: Known-Issue Register Manager
+
+  Description: Records affected versions, symptoms, scope, workaround, permanent fix, owner, and regression test.
+
+11. Skill Name: Performance Benchmark Designer
+
+  Description: Creates repeatable viewport, sculpt, geometry nodes, simulation, render, bake, export, and load tests with fixed references.
+
+12. Skill Name: Operator Competency Checklist Builder
+
+  Description: Defines observable pass criteria for installing, modeling, publishing, rigging, simulating, rendering, validating, and packaging.
+
+13. Skill Name: Shift and Team Handoff Writer
+
+  Description: Captures current scene state, running jobs, caches, selected versions, blockers, approvals, next actions, and recovery points.
+
+14. Skill Name: Postmortem and Lessons-Learned Manager
+
+  Description: Turns failures into condition, cause, repair, confirming test, owner, and updated standard.
+
+15. Skill Name: Skill Catalog Governance Manager
+
+  Description: Tracks proposed, active, merged, deprecated, and replaced skills and prevents contradictory overlap across the 3D capability system.
+
+Recommended Catalog-to-Skill Package
+
+When converting an entry into an executable skill, keep the control plane compact and place repeatable detail in supporting resources:
+
+- SKILL.md: precise trigger description, workflow, decision rules, failure conditions, required validation, and completion behavior.
+
+- agents/ui_metadata.yaml: display name, short description, icon, and brand color.
+
+- scripts/: deterministic offline automation, import-export adapters, batch tools, validators, regression tests, and packaging utilities.
+
+- references/: schemas, naming rules, geometry and texture budgets, compatibility matrices, license guidance, and troubleshooting.
+
+- assets/: permitted templates, presets, test scenes, turntables, reference renders, node groups, materials, and fixtures.
+
+Final Acceptance Standard
+
+A future implementation should be considered complete only when it runs without network access, declares dependencies and rights, preserves editable sources and rollback points, reproduces approved outputs from a clean state, passes structural and visual validation, reports failures clearly, and can be packaged, opened, rendered, exported, and continued by the intended recipient.

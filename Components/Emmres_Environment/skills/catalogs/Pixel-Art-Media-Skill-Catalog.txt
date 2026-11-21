@@ -1,0 +1,1355 @@
+A comprehensive catalog of composable agent skills for creating, editing, animating, converting, packaging, validating, preserving, and publishing pixel-based media.
+
+  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Catalog purpose. This is a design catalog, not a bundle of implemented skills. Each entry is a focused capability that can later become a reusable SKILL.md with editor guidance, scripts, templates, validation checks, and portable deliverables.
+  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Design Principles
+
+- Create intentional pixel art, not merely low-resolution or downsampled imagery.
+
+- Preserve editability through layers, frames, tags, palettes, pivots, metadata, and documented masters.
+
+- Use nearest-neighbor or deliberate pixel-aware transformations and validate at actual display size.
+
+- Prefer focused, composable skills over one oversized skill, with progressive references for editors, engines, formats, and platforms.
+
+- Reopen final files in their intended editors or engines and verify pixels, alpha, palettes, timing, metadata, and playback.
+
+- Respect originality, consent, privacy, licensing, accessibility, platform rules, and safe production practices.
+
+Catalog scope: 29 categories and 318 proposed skills.
+
+Catalog
+
+Category 1: Creative Direction and Requirement Design
+
+1. Skill Name: Pixel Art Brief Interpreter
+
+  Description: Turns an idea, reference, theme, genre, audience, platform, size, palette, and animation need into a precise production brief.
+
+2. Skill Name: Pixel Style Director
+
+  Description: Defines pixel density, silhouette language, cluster shapes, line treatment, texture, lighting, and visual consistency for a project.
+
+3. Skill Name: Reference Board Synthesizer
+
+  Description: Organizes supplied visual references into actionable notes without copying protected characters, logos, or distinctive compositions.
+
+4. Skill Name: Theme and Genre Ideator
+
+  Description: Develops original pixel concepts for fantasy, science fiction, horror, cozy, cyberpunk, historical, educational, abstract, and hybrid themes.
+
+5. Skill Name: Visual Constraint Planner
+
+  Description: Chooses canvas, tile grid, frame budget, color limit, transparency, file size, and target hardware constraints.
+
+6. Skill Name: Asset Scope Estimator
+
+  Description: Breaks a scene or game into characters, props, tiles, interfaces, effects, animations, variants, and priorities.
+
+7. Skill Name: Pixel Art Art-Bible Author
+
+  Description: Documents reusable rules for palettes, outlines, shading, proportions, animation timing, export, and naming.
+
+8. Skill Name: Originality and IP Safety Reviewer
+
+  Description: Checks concepts for excessive similarity and redirects designs toward original, licensable, and clearly differentiated results.
+
+9. Skill Name: Audience and Readability Planner
+
+  Description: Adapts visual complexity, contrast, icon clarity, and motion for children, general audiences, accessibility, or expert users.
+
+10. Skill Name: Multi-Asset Consistency Supervisor
+
+  Description: Maintains scale, perspective, palette, lighting, line weight, and naming across large asset collections.
+
+Category 2: Pixel Drawing Foundations
+
+1. Skill Name: Pixel Cluster Sculptor
+
+  Description: Builds intentional pixel clusters with clean contours, controlled stair steps, readable negative space, and minimal noise.
+
+2. Skill Name: Silhouette Designer
+
+  Description: Creates instantly readable silhouettes for characters, objects, creatures, architecture, vehicles, and effects.
+
+3. Skill Name: Pixel Linework Specialist
+
+  Description: Produces crisp straight, curved, diagonal, tapered, broken, and anti-aliased pixel lines suited to the chosen resolution.
+
+4. Skill Name: Jagged Edge and Jaggies Repairer
+
+  Description: Finds uneven contour rhythm, accidental bumps, tangencies, and banding and repairs them without blurring.
+
+5. Skill Name: Selective Anti-Aliasing Artist
+
+  Description: Applies palette-aware internal or external anti-aliasing while preserving the deliberate pixel aesthetic.
+
+6. Skill Name: Dithering Pattern Designer
+
+  Description: Uses ordered, checker, noise, texture, and custom dithering for gradients, materials, transparency, and retro display effects.
+
+7. Skill Name: Pixel Texture Painter
+
+  Description: Creates controlled textures for stone, wood, metal, fabric, skin, foliage, water, glass, soil, clouds, and synthetic surfaces.
+
+8. Skill Name: Highlight and Edge Accent Artist
+
+  Description: Places speculars, rim light, reflected light, and material accents at pixel scale.
+
+9. Skill Name: Pixel Cleanup and Polish Artist
+
+  Description: Removes orphan pixels, accidental doubles, inconsistent clusters, color noise, and unclear overlaps.
+
+10. Skill Name: Resolution-Aware Detail Editor
+
+  Description: Adds or removes details according to sprite size, viewing distance, display scaling, and gameplay readability.
+
+Category 3: Palette and Color Engineering
+
+1. Skill Name: Limited Palette Designer
+
+  Description: Builds compact color ramps with intentional hue shifting, value separation, saturation control, and reuse.
+
+2. Skill Name: Palette Extraction Analyst
+
+  Description: Extracts representative colors from user-owned references and normalizes them into editable swatches and ramps.
+
+3. Skill Name: Palette Reduction Specialist
+
+  Description: Reduces full-color artwork to 2, 4, 8, 16, 32, 64, or other controlled color counts with minimal visual loss.
+
+4. Skill Name: Retro Hardware Palette Specialist
+
+  Description: Adapts art to documented palette and color-cell constraints inspired by systems such as Game Boy, NES, SNES, Genesis, and Commodore 64.
+
+5. Skill Name: Hue Shifting Colorist
+
+  Description: Creates coherent warm-light, cool-shadow, atmospheric, magical, neon, and material-aware color ramps.
+
+6. Skill Name: Day Night Palette Variant Artist
+
+  Description: Produces morning, noon, sunset, night, storm, underwater, winter, and alternate-world palette variants.
+
+7. Skill Name: Color Accessibility Reviewer
+
+  Description: Checks value contrast, color-blind distinguishability, flashing risk, and information redundancy.
+
+8. Skill Name: Indexed Color Manager
+
+  Description: Creates and preserves indexed palettes, transparent indexes, palette order, and palette-swap compatibility.
+
+9. Skill Name: Palette Swap System Designer
+
+  Description: Plans recolors for teams, costumes, rarity, enemies, seasons, states, and localization without redrawing assets.
+
+10. Skill Name: Color Banding and Ramp Repairer
+
+  Description: Finds banding, muddy ramps, duplicate colors, weak value steps, and inconsistent material colors.
+
+Category 4: Characters, Creatures, and Avatars
+
+1. Skill Name: Pixel Character Concept Artist
+
+  Description: Designs original humanoid, robotic, alien, fantasy, historical, modern, and stylized characters at pixel scale.
+
+2. Skill Name: Chibi Pixel Character Designer
+
+  Description: Creates compact large-head characters with readable attire, expressions, accessories, and animation-ready proportions.
+
+3. Skill Name: Realistic Proportion Sprite Artist
+
+  Description: Builds taller proportioned sprites with anatomy, equipment, overlapping forms, and readable poses.
+
+4. Skill Name: Creature and Monster Designer
+
+  Description: Creates animals, beasts, monsters, cryptids, bosses, companions, and biological variants with distinct silhouettes.
+
+5. Skill Name: Robot and Mech Sprite Designer
+
+  Description: Designs robots, androids, powered suits, machinery, hard-surface joints, panels, and damage states.
+
+6. Skill Name: Character Turnaround Artist
+
+  Description: Produces front, side, back, three-quarter, isometric, and directional views with consistent proportions.
+
+7. Skill Name: Character Customization Kit Designer
+
+  Description: Creates modular hair, faces, bodies, clothing, armor, accessories, colors, and equipment layers.
+
+8. Skill Name: Facial Expression Sprite Artist
+
+  Description: Builds readable emotions and mouth or eye states at tiny resolutions using controlled feature changes.
+
+9. Skill Name: Portrait and Bust Pixel Artist
+
+  Description: Creates dialogue portraits, profile icons, busts, closeups, and animated face sets.
+
+10. Skill Name: Character Damage and State Variant Artist
+
+  Description: Produces healthy, hurt, frozen, poisoned, powered, wet, dirty, armored, transformed, and defeated states.
+
+11. Skill Name: Crowd and NPC Variation Designer
+
+  Description: Generates coherent non-player character families with reusable bases and meaningful visual variety.
+
+12. Skill Name: Character Readability QA Specialist
+
+  Description: Checks silhouette, pose, team color, equipment, facing, hit state, and background separation at play size.
+
+Category 5: Objects, Props, Items, and Icons
+
+1. Skill Name: Pixel Prop Designer
+
+  Description: Creates furniture, containers, tools, decorations, appliances, machines, and environmental storytelling props.
+
+2. Skill Name: Weapon and Equipment Sprite Artist
+
+  Description: Designs original melee, ranged, magical, improvised, futuristic, and utility equipment with readable profiles.
+
+3. Skill Name: Inventory Item Icon Artist
+
+  Description: Creates compact item icons with consistent framing, lighting, rarity cues, and transparent margins.
+
+4. Skill Name: Food and Consumable Pixel Artist
+
+  Description: Designs ingredients, meals, potions, medicine, drinks, and collectible consumables.
+
+5. Skill Name: Treasure and Collectible Designer
+
+  Description: Creates coins, gems, relics, trophies, cards, tokens, keys, and reward variants.
+
+6. Skill Name: Vehicle and Mount Sprite Artist
+
+  Description: Designs cars, ships, aircraft, spacecraft, trains, bicycles, mounts, and modular vehicle parts.
+
+7. Skill Name: Technology and Device Pixel Artist
+
+  Description: Creates computers, interfaces, laboratory equipment, sensors, weapons systems, and speculative devices.
+
+8. Skill Name: Destructible Prop State Artist
+
+  Description: Produces intact, damaged, breaking, burnt, opened, emptied, and debris states.
+
+9. Skill Name: Crafting Item Family Designer
+
+  Description: Creates material tiers and recipes with common visual grammar and distinguishable progression.
+
+10. Skill Name: Micro-Icon Legibility Specialist
+
+  Description: Optimizes 8x8, 12x12, 16x16, and similarly tiny icons for instant recognition.
+
+Category 6: Environments, Backgrounds, and Scenes
+
+1. Skill Name: Pixel Environment Concept Artist
+
+  Description: Designs complete original environments with composition, depth, focal points, lighting, and storytelling.
+
+2. Skill Name: Interior Scene Pixel Artist
+
+  Description: Creates rooms, shops, homes, laboratories, dungeons, stations, and modular interior layouts.
+
+3. Skill Name: Landscape and Biome Artist
+
+  Description: Builds forests, deserts, snowfields, swamps, coasts, mountains, caves, alien worlds, and blended biomes.
+
+4. Skill Name: City and Architecture Pixel Artist
+
+  Description: Designs streets, buildings, skylines, ruins, villages, industrial zones, and architectural sets.
+
+5. Skill Name: Pixel Background Painter
+
+  Description: Creates static or layered backgrounds for games, illustrations, visual novels, videos, and interfaces.
+
+6. Skill Name: Parallax Scene Designer
+
+  Description: Separates foreground, midground, deep background, sky, weather, and overlays for convincing scrolling depth.
+
+7. Skill Name: Lighting Scenario Artist
+
+  Description: Produces daylight, moonlight, firelight, neon, indoor, underwater, fog, storm, and dramatic lighting variants.
+
+8. Skill Name: Environmental Storytelling Artist
+
+  Description: Uses damage, arrangement, signage, traces, clutter, and landmarks to imply events and history.
+
+9. Skill Name: Seamless Panorama Artist
+
+  Description: Creates horizontally or vertically looping vistas and panoramic levels without visible seams.
+
+10. Skill Name: Scene Composition Repairer
+
+  Description: Improves focal hierarchy, perspective, scale, tangencies, depth, value grouping, and visual flow.
+
+11. Skill Name: Pixel Matte Painting Artist
+
+  Description: Builds large-scale cinematic pixel environments, establishing shots, and layered scenic plates.
+
+12. Skill Name: Weather and Atmosphere Scene Artist
+
+  Description: Adds rain, snow, wind, fog, haze, dust, lightning, heat, and ambient particles at pixel scale.
+
+Category 7: Tilesets, Maps, and Level Art
+
+1. Skill Name: Grid-Based Tileset Designer
+
+  Description: Creates reusable floor, wall, terrain, border, corner, transition, and detail tiles for a defined grid.
+
+2. Skill Name: Autotile Rule Designer
+
+  Description: Builds bitmask, Wang tile, blob, terrain, and neighbor-rule sets for automatic map painting.
+
+3. Skill Name: Top-Down Map Tile Artist
+
+  Description: Produces readable terrain, structures, paths, water, cliffs, and decorations for top-down games.
+
+4. Skill Name: Side-Scrolling Platform Tile Artist
+
+  Description: Creates ground, ledges, slopes, one-way platforms, hazards, backgrounds, and decorative tile families.
+
+5. Skill Name: Isometric Tileset Artist
+
+  Description: Builds diamond-grid floors, walls, elevations, stairs, props, and transitions with consistent projection.
+
+6. Skill Name: Hex Tile and Strategy Map Artist
+
+  Description: Creates hex terrain, borders, overlays, resources, roads, rivers, fog states, and map markers.
+
+7. Skill Name: Tile Seam and Repetition Fixer
+
+  Description: Detects visible seams, repetitive motifs, corner errors, and texture tiling patterns and corrects them.
+
+8. Skill Name: Terrain Transition Artist
+
+  Description: Creates grass-to-dirt, sand-to-water, snow-to-rock, biome, elevation, and material transitions.
+
+9. Skill Name: Tile Collision Visualization Designer
+
+  Description: Provides collision, navigation, trigger, slope, and gameplay overlay assets aligned to the art grid.
+
+10. Skill Name: World Map Pixel Artist
+
+  Description: Creates regional, continental, dungeon, transit, tactical, and stylized maps with symbols and legends.
+
+11. Skill Name: Procedural Tile Variant Designer
+
+  Description: Builds weighted variants, edge decorations, noise tiles, and placement rules for less repetitive generation.
+
+12. Skill Name: Tile Atlas Packager
+
+  Description: Assembles tiles into documented atlases with padding, spacing, IDs, metadata, and engine-ready layouts.
+
+Category 8: Perspective and Dimensional Styles
+
+1. Skill Name: Top-Down Pixel Artist
+
+  Description: Creates overhead characters, objects, maps, vehicles, effects, and directional animations.
+
+2. Skill Name: Side-View Pixel Artist
+
+  Description: Builds profile characters, environments, combat assets, platforming scenes, and layered backgrounds.
+
+3. Skill Name: Front-View Pixel Artist
+
+  Description: Creates first-person interfaces, enemies, portraits, rooms, and frontal object presentations.
+
+4. Skill Name: Isometric Pixel Artist
+
+  Description: Designs consistent 2:1 or specified isometric forms, architecture, characters, props, and animation.
+
+5. Skill Name: Oblique and Dimetric Pixel Artist
+
+  Description: Works with cabinet, dimetric, trimetric, and custom projections while preserving grid consistency.
+
+6. Skill Name: Pseudo-3D Pixel Artist
+
+  Description: Creates depth through scaling, rotation steps, parallax, perspective floors, billboards, and sprite layering.
+
+7. Skill Name: Voxel Art Designer
+
+  Description: Creates block-based 3D objects, characters, environments, and scenes intended for voxel editors or rendering pipelines.
+
+8. Skill Name: 2.5D Pixel Scene Designer
+
+  Description: Combines 2D pixel assets with depth, cameras, lights, planes, and 3D geometry while retaining crisp sampling.
+
+9. Skill Name: Pixelated 3D Texture Artist
+
+  Description: Creates low-resolution albedo, normal, emission, roughness, masks, and stylized texture sheets for 3D models.
+
+10. Skill Name: Projection Consistency Auditor
+
+  Description: Checks vanishing logic, isometric angles, object scale, verticals, depth ordering, and camera consistency.
+
+Category 9: Sprite Animation Fundamentals
+
+1. Skill Name: Idle Animation Artist
+
+  Description: Creates breathing, blinking, swaying, hovering, mechanical, and ambient idle loops with controlled motion.
+
+2. Skill Name: Walk Cycle Animator
+
+  Description: Builds readable multi-directional walk cycles with foot contact, weight shift, overlap, and loop continuity.
+
+3. Skill Name: Run and Sprint Animator
+
+  Description: Creates energetic locomotion with strong keys, anticipation, airborne phases, and readable speed.
+
+4. Skill Name: Jump and Fall Animator
+
+  Description: Produces takeoff, ascent, apex, fall, landing, and recovery states suitable for game control.
+
+5. Skill Name: Attack Animation Artist
+
+  Description: Creates melee, ranged, magic, combo, charge, recoil, and recovery sequences with clear anticipation and impact.
+
+6. Skill Name: Hit Reaction and Defeat Animator
+
+  Description: Builds damage, knockback, stun, collapse, dissolve, break, and defeat animations.
+
+7. Skill Name: Interaction Animation Artist
+
+  Description: Animates pickup, use, open, push, pull, climb, swim, sit, craft, talk, and object interactions.
+
+8. Skill Name: Secondary Motion Animator
+
+  Description: Adds hair, cloth, capes, tails, antennae, accessories, particles, and follow-through.
+
+9. Skill Name: Loop Continuity Specialist
+
+  Description: Repairs popping, drifting, inconsistent spacing, palette flicker, and endpoint mismatch in loops.
+
+10. Skill Name: Pixel Timing and Spacing Editor
+
+  Description: Adjusts frame holds, ease, arcs, smears, overshoot, impact frames, and motion cadence.
+
+11. Skill Name: Subpixel Motion Planner
+
+  Description: Simulates motion finer than one pixel through timing, shape change, dithering, and controlled anti-aliasing.
+
+12. Skill Name: Directional Animation Set Builder
+
+  Description: Creates coherent 4-way, 8-way, 16-way, or custom-direction animation families.
+
+Category 10: Advanced Animation and Effects
+
+1. Skill Name: Pixel Effects Animator
+
+  Description: Creates fire, smoke, explosions, sparks, electricity, magic, poison, healing, shields, and energy effects.
+
+2. Skill Name: Water and Fluid Animator
+
+  Description: Animates waves, waterfalls, rain, splashes, ripples, bubbles, lava, slime, and flowing liquids.
+
+3. Skill Name: Weather Animation Designer
+
+  Description: Creates looping rain, snow, fog, wind, storms, lightning, dust, leaves, and atmospheric overlays.
+
+4. Skill Name: Transformation Sequence Animator
+
+  Description: Builds morphs, power-ups, costume changes, growth, corruption, assembly, and magical transformations.
+
+5. Skill Name: Cinematic Pixel Animator
+
+  Description: Creates acting, camera-aware staging, dramatic timing, transitions, and narrative shots for pixel cinematics.
+
+6. Skill Name: Cutout Pixel Rig Animator
+
+  Description: Builds layered limbs and parts for rig-based animation while preserving pixel alignment and nearest-neighbor rendering.
+
+7. Skill Name: Pixel Particle System Designer
+
+  Description: Designs particle sprites, emitters, lifetimes, velocity, blending, sorting, and performance budgets.
+
+8. Skill Name: Screen Transition Animator
+
+  Description: Creates wipes, dissolves, iris effects, glitches, shutters, mosaic transitions, and scene changes.
+
+9. Skill Name: Impact and Juice Animator
+
+  Description: Adds hit sparks, squash, stretch, shake cues, flashes, trails, debris, and responsive feedback.
+
+10. Skill Name: Animated Environmental Prop Artist
+
+  Description: Animates doors, signs, machinery, lights, foliage, screens, traps, and ambient world objects.
+
+11. Skill Name: Palette Cycling Animator
+
+  Description: Creates water, fire, energy, signage, machinery, and ambient animation through indexed palette changes.
+
+12. Skill Name: Animation Artifact Repairer
+
+  Description: Fixes inconsistent volumes, stray pixels, boiling outlines, foot sliding, timing errors, and color flicker.
+
+Category 11: Sprite Sheets, Atlases, and Animation Data
+
+1. Skill Name: Sprite Sheet Layout Designer
+
+  Description: Arranges frames into rows, columns, strips, grids, or packed sheets with predictable spacing and origins.
+
+2. Skill Name: Texture Atlas Builder
+
+  Description: Packs many pixel assets with transparent padding, extrusion, rotation rules, power-of-two options, and metadata.
+
+3. Skill Name: Frame Extraction Specialist
+
+  Description: Separates frames from sprite sheets, GIFs, APNGs, videos, or image sequences without resampling damage.
+
+4. Skill Name: Sprite Sheet Slicer
+
+  Description: Detects grids, bounds, separators, connected components, and transparent regions to slice assets reproducibly.
+
+5. Skill Name: Pivot and Anchor Point Planner
+
+  Description: Defines consistent feet, centers, weapon grips, attachment points, hit origins, and transform pivots.
+
+6. Skill Name: Animation Tag and State Organizer
+
+  Description: Groups frame ranges into named states, directions, variants, events, and transition rules.
+
+7. Skill Name: Trim and Padding Manager
+
+  Description: Trims transparent bounds while preserving offsets, collision alignment, extrusion, and engine consistency.
+
+8. Skill Name: Atlas Metadata Exporter
+
+  Description: Produces JSON, XML, CSV, plist, Godot, Unity, Phaser, PixiJS, or custom metadata layouts.
+
+9. Skill Name: Sprite Sheet Consistency Auditor
+
+  Description: Checks frame dimensions, order, missing frames, offsets, names, alpha, color mode, and duplicate content.
+
+10. Skill Name: Animation Event Marker Designer
+
+  Description: Places footstep, hit, sound, spawn, camera, and gameplay event markers at exact frames.
+
+Category 12: Pixel Art Editing and Transformation
+
+1. Skill Name: Pixel Art Inpainter
+
+  Description: Repairs missing or unwanted regions while matching nearby clusters, palette, outline, texture, and lighting.
+
+2. Skill Name: Pixel Object Removal Editor
+
+  Description: Removes objects and reconstructs the background with seamless tile, perspective, and palette continuity.
+
+3. Skill Name: Pixel Asset Recolorist
+
+  Description: Recolors selected regions or entire assets while preserving indexes, ramps, contrast, and transparency.
+
+4. Skill Name: Pixel Pose Editor
+
+  Description: Changes limb positions, facing, gesture, expression, or action while preserving character identity and proportions.
+
+5. Skill Name: Pixel Costume and Equipment Editor
+
+  Description: Adds, removes, or swaps clothing, armor, tools, weapons, accessories, and layered parts.
+
+6. Skill Name: Pixel Background Replacement Editor
+
+  Description: Separates subjects and replaces, extends, or redesigns backgrounds with matching pixel density.
+
+7. Skill Name: Pixel Lighting Relighter
+
+  Description: Changes light direction, intensity, color, material response, shadows, and emissive areas.
+
+8. Skill Name: Pixel Perspective Transformer
+
+  Description: Converts or redraws assets between side, top-down, front, isometric, and pseudo-3D views.
+
+9. Skill Name: Pixel Scale and Proportion Editor
+
+  Description: Resizes or reshapes assets with deliberate redrawing rather than uncontrolled interpolation.
+
+10. Skill Name: Pixel Damage Restoration Artist
+
+  Description: Restores corrupted, compressed, incomplete, or poorly scaled pixel art using evidence from surviving regions.
+
+11. Skill Name: Multi-Image Style Harmonizer
+
+  Description: Makes a collection share palette, scale, outlines, lighting, perspective, and detail density.
+
+12. Skill Name: Layer Separation Specialist
+
+  Description: Splits flattened pixel art into editable character, prop, background, shadow, effect, and interface layers.
+
+Category 13: Conversion into Pixel Art
+
+1. Skill Name: Image-to-Pixel Art Converter
+
+  Description: Converts user-provided images into deliberate pixel art using controlled resolution, palette, edges, clusters, and cleanup.
+
+2. Skill Name: Illustration-to-Sprite Designer
+
+  Description: Interprets a full illustration as an animation-ready sprite with simplified silhouette and readable details.
+
+3. Skill Name: Photo-to-Pixel Portrait Artist
+
+  Description: Creates stylized pixel portraits from authorized photos while preserving recognizable non-sensitive visual features.
+
+4. Skill Name: 3D Render-to-Pixel Art Converter
+
+  Description: Transforms rendered frames into coherent pixel assets with stable edges, palette, lighting, and frame-to-frame consistency.
+
+5. Skill Name: Video-to-Pixel Animation Converter
+
+  Description: Converts authorized video into a cleaned pixel animation, reducing jitter, palette flicker, and excessive frames.
+
+6. Skill Name: Vector-to-Pixel Asset Converter
+
+  Description: Rasterizes and hand-corrects vector artwork for crisp pixel-grid alignment at target sizes.
+
+7. Skill Name: Sketch-to-Pixel Art Finisher
+
+  Description: Turns rough sketches into polished pixel silhouettes, linework, colors, shading, and export-ready assets.
+
+8. Skill Name: Logo-to-Pixel Mark Converter
+
+  Description: Adapts authorized marks to tiny pixel sizes with optical correction and multiple resolution variants.
+
+9. Skill Name: Font-to-Pixel Lettering Converter
+
+  Description: Adapts letterforms into grid-consistent bitmap lettering with spacing and readability checks.
+
+10. Skill Name: Low-Resolution Style Translator
+
+  Description: Reinterprets artwork at a new pixel density or hardware-inspired constraint without simple downsampling.
+
+11. Skill Name: Depth Map to Layered Pixel Scene Builder
+
+  Description: Uses supplied depth information to produce separated pixel planes and parallax-ready scenes.
+
+12. Skill Name: Motion Capture Reference to Pixel Animation Artist
+
+  Description: Uses authorized movement reference to create stylized hand-tuned pixel animation rather than raw tracing.
+
+Category 14: 3D Pixel, Voxel, and Hybrid Media
+
+1. Skill Name: Voxel Character Modeler
+
+  Description: Builds editable voxel characters with anatomy, costume, color, rig-friendly segmentation, and turnarounds.
+
+2. Skill Name: Voxel Prop and Environment Modeler
+
+  Description: Creates modular voxel objects, architecture, terrain, interiors, and set dressing.
+
+3. Skill Name: Voxel Scene Lighting Artist
+
+  Description: Designs lighting, shadows, emission, atmosphere, and render settings that retain block clarity.
+
+4. Skill Name: Voxel Animation Planner
+
+  Description: Creates keyframes, rigs, transformations, or frame-by-frame voxel sequences for characters and objects.
+
+5. Skill Name: Sprite Stack Designer
+
+  Description: Builds layered sprite stacks for rotatable pseudo-3D objects, vehicles, terrain, and characters.
+
+6. Skill Name: Billboard Sprite 3D Integrator
+
+  Description: Prepares camera-facing pixel sprites for 3D engines with crisp filtering, depth, and sorting settings.
+
+7. Skill Name: Low-Poly to Pixel Texture Artist
+
+  Description: Creates pixel-perfect textures, UV-aware details, palette control, and texel-density consistency.
+
+8. Skill Name: Pixel Diorama Designer
+
+  Description: Composes miniature block, voxel, or isometric scenes with lighting and display-ready framing.
+
+9. Skill Name: 3D Turntable to Directional Sprite Renderer
+
+  Description: Plans render angles, cameras, lighting, frame counts, and cleanup for multi-direction sprite generation.
+
+10. Skill Name: Hybrid 2D-3D Pixel Pipeline Designer
+
+  Description: Combines models, sprites, shaders, cameras, and postprocessing into a consistent pixel-art production workflow.
+
+Category 15: Pixel Video, Film, and Motion Graphics
+
+1. Skill Name: Pixel Short Film Designer
+
+  Description: Plans and creates original pixel narratives with shots, staging, backgrounds, characters, effects, sound cues, and final delivery.
+
+2. Skill Name: Pixel Storyboard Artist
+
+  Description: Produces shot-by-shot pixel boards with framing, action, camera notes, timing, and transitions.
+
+3. Skill Name: Pixel Animatic Editor
+
+  Description: Assembles boards, temporary motion, timing, dialogue, and sound cues into a reviewable sequence.
+
+4. Skill Name: Pixel Video Editor
+
+  Description: Cuts, sequences, retimes, crops, layers, captions, and exports pixel footage without damaging crisp sampling.
+
+5. Skill Name: Pixel Motion Graphics Designer
+
+  Description: Creates titles, lower thirds, logos, transitions, diagrams, overlays, and promotional sequences in pixel style.
+
+6. Skill Name: Pixel Music Video Artist
+
+  Description: Designs beat-synchronized scenes, loops, typography, effects, and visual motifs for authorized audio.
+
+7. Skill Name: Pixel Trailer and Teaser Editor
+
+  Description: Builds compact promotional edits with hooks, gameplay or story beats, titles, transitions, and platform variants.
+
+8. Skill Name: Pixel Loop Video Maker
+
+  Description: Creates seamless ambient, social, wallpaper, signage, and background loops with exact frame closure.
+
+9. Skill Name: Pixel Camera Movement Designer
+
+  Description: Creates pans, tracks, zoom simulations, shakes, parallax moves, and cuts while preserving integer alignment.
+
+10. Skill Name: Pixel Compositing Artist
+
+  Description: Combines characters, scenes, effects, masks, shadows, color grading, and depth layers into final shots.
+
+11. Skill Name: Pixel Video Upscale and Delivery Specialist
+
+  Description: Exports nearest-neighbor or integer-scaled masters with correct frame rate, aspect, codec, and platform dimensions.
+
+12. Skill Name: Pixel Subtitle and Caption Designer
+
+  Description: Creates readable pixel captions, speaker labels, timing, safe areas, and accessibility variants.
+
+Category 16: Game Interface and User Experience
+
+1. Skill Name: Pixel UI Art Director
+
+  Description: Defines interface palette, borders, panels, typography, icons, spacing, states, and platform scaling.
+
+2. Skill Name: Pixel HUD Designer
+
+  Description: Creates health, stamina, inventory, minimap, objective, score, status, and gameplay feedback interfaces.
+
+3. Skill Name: Pixel Menu and Screen Designer
+
+  Description: Builds title, pause, options, save, load, character, shop, crafting, map, and results screens.
+
+4. Skill Name: Pixel Button and Control State Artist
+
+  Description: Creates normal, hover, pressed, disabled, focus, selected, and controller-navigation states.
+
+5. Skill Name: Pixel Cursor and Pointer Designer
+
+  Description: Creates mouse cursors, selection markers, target reticles, drag states, and interaction indicators.
+
+6. Skill Name: Pixel Progress and Meter Designer
+
+  Description: Builds bars, gauges, radial meters, segmented counters, clocks, cooldowns, and animated indicators.
+
+7. Skill Name: Pixel Dialogue Interface Designer
+
+  Description: Creates dialogue boxes, nameplates, portraits, choices, type indicators, and text-flow states.
+
+8. Skill Name: Pixel Inventory Grid Designer
+
+  Description: Defines slots, stack counts, rarity, drag-and-drop, selection, equipment, comparison, and empty states.
+
+9. Skill Name: Pixel UI Accessibility Specialist
+
+  Description: Checks scale, contrast, focus, motion, color dependence, readability, input alternatives, and localization space.
+
+10. Skill Name: Responsive Pixel UI Integrator
+
+  Description: Adapts pixel interfaces across aspect ratios, DPI, safe areas, mobile, desktop, console, and web displays.
+
+Category 17: Pixel Typography and Symbols
+
+1. Skill Name: Bitmap Font Designer
+
+  Description: Creates original bitmap alphabets, numerals, punctuation, accents, and symbols at defined grid sizes.
+
+2. Skill Name: Pixel Font Family Designer
+
+  Description: Builds regular, bold, narrow, wide, outline, shadow, display, and UI variants with shared metrics.
+
+3. Skill Name: Bitmap Font Kerning Specialist
+
+  Description: Adjusts advance widths, bearings, kerning pairs, baselines, line gaps, and optical spacing.
+
+4. Skill Name: Multilingual Pixel Font Designer
+
+  Description: Plans glyph coverage for Latin extensions and other scripts with legibility, shaping, and fallback requirements.
+
+5. Skill Name: Pixel Lettering Artist
+
+  Description: Creates hand-lettered titles, signs, logos, emblems, posters, labels, and decorative words.
+
+6. Skill Name: Pixel Symbol and Pictogram Designer
+
+  Description: Creates compact universal symbols for controls, status, navigation, warnings, and accessibility.
+
+7. Skill Name: Icon Font and Bitmap Glyph Packager
+
+  Description: Packages symbol sets into sprite sheets, bitmap fonts, mappings, and documented code points.
+
+8. Skill Name: Pixel Text Effect Animator
+
+  Description: Animates typing, shimmer, bounce, wave, glitch, burn, dissolve, rainbow, outline, and reveal effects.
+
+9. Skill Name: Small-Text Readability Auditor
+
+  Description: Tests glyph ambiguity, spacing, contrast, scaling, localization, and common letter or digit confusion.
+
+10. Skill Name: Pixel Text Localization Layout Designer
+
+  Description: Handles expansion, wrapping, line breaks, variable-width glyphs, right-to-left needs, and fallback boxes.
+
+Category 18: Engine and Platform Integration
+
+1. Skill Name: Unity Pixel Asset Integrator
+
+  Description: Configures sprites, pixels per unit, import filtering, atlases, pivots, animation clips, tilemaps, and camera alignment.
+
+2. Skill Name: Godot Pixel Asset Integrator
+
+  Description: Configures texture filtering, sprite frames, animation players, tile sets, regions, pivots, and viewport scaling.
+
+3. Skill Name: Unreal Pixel Asset Integrator
+
+  Description: Prepares Paper 2D sprites, flipbooks, textures, materials, cameras, and nearest-neighbor presentation.
+
+4. Skill Name: GameMaker Pixel Asset Integrator
+
+  Description: Organizes sprites, origins, image speeds, tilesets, fonts, rooms, and texture groups.
+
+5. Skill Name: RPG Maker Asset Packager
+
+  Description: Formats characters, faces, battles, tiles, animations, windows, and naming layouts for the intended RPG Maker version.
+
+6. Skill Name: Web Pixel Art Integrator
+
+  Description: Prepares Canvas, WebGL, CSS image-rendering, sprite sheets, responsive scaling, and browser-safe exports.
+
+7. Skill Name: Mobile Pixel Asset Optimizer
+
+  Description: Balances atlas size, memory, texture compression, screen density, safe areas, battery, and touch readability.
+
+8. Skill Name: Retro Console Constraint Adapter
+
+  Description: Plans assets around documented color, sprite, tile, memory, scanline, and bank constraints for homebrew or simulation.
+
+9. Skill Name: Virtual Tabletop Pixel Asset Packager
+
+  Description: Creates tokens, portraits, maps, tiles, effects, grids, and transparent exports for tabletop platforms.
+
+10. Skill Name: Streaming and Overlay Pixel Designer
+
+  Description: Builds alerts, panels, chat frames, emotes, badges, transitions, and looped overlays for streaming software.
+
+11. Skill Name: Wallpaper and Display Pixel Packager
+
+  Description: Exports desktop, mobile, ultrawide, LED matrix, signage, watch face, and ambient display variants.
+
+12. Skill Name: Cross-Engine Asset Handoff Specialist
+
+  Description: Creates neutral source files, atlases, metadata, naming, and conversion notes portable across engines.
+
+Category 19: File Formats and Editor Portability
+
+1. Skill Name: PNG Pixel Export Specialist
+
+  Description: Exports lossless RGBA, indexed, grayscale, and palette PNGs with correct transparency and metadata choices.
+
+2. Skill Name: GIF Animation Export Specialist
+
+  Description: Optimizes frame timing, disposal, transparency, palette, looping, and file size for animated GIF.
+
+3. Skill Name: APNG Export Specialist
+
+  Description: Produces full-alpha animated PNGs with correct frame areas, blend, dispose, timing, and loop settings.
+
+4. Skill Name: WebP Animation Export Specialist
+
+  Description: Creates lossless or controlled-loss animated WebP while checking alpha, timing, and decoder compatibility.
+
+5. Skill Name: Image Sequence Exporter
+
+  Description: Exports numbered PNG, TIFF, BMP, TGA, or other frame sequences with consistent dimensions and naming.
+
+6. Skill Name: Aseprite File Workflow Designer
+
+  Description: Organizes layers, frames, tags, slices, cels, palettes, linked cels, and exports for Aseprite-compatible workflows.
+
+7. Skill Name: Photoshop Pixel Workflow Designer
+
+  Description: Prepares PSD layers, groups, timelines, masks, and nearest-neighbor transformations for pixel editing.
+
+8. Skill Name: Krita Pixel Workflow Designer
+
+  Description: Prepares layered documents, pixel brushes, animation frames, palettes, and exports for Krita.
+
+9. Skill Name: GIMP Pixel Workflow Designer
+
+  Description: Organizes layers, indexed color, palettes, frame naming, animation timing, and exports for GIMP.
+
+10. Skill Name: LibreSprite and Pixel Editor Handoff Designer
+
+  Description: Creates portable spritesheets, palettes, guides, layer conventions, and metadata for common pixel editors.
+
+11. Skill Name: SVG Pixel Grid Exporter
+
+  Description: Creates deliberately grid-aligned vector representations when scalable pixel blocks or tooling interoperability is required.
+
+12. Skill Name: Tilemap Data Export Specialist
+
+  Description: Exports TMX, TSX, JSON, CSV, LDtk, engine-native, or custom tile and object data with validated references.
+
+13. Skill Name: Palette File Converter
+
+  Description: Converts and validates GPL, PAL, ASE, ACT, hex lists, indexed PNG palettes, and editor-specific swatches.
+
+14. Skill Name: Master and Derivative File Packager
+
+  Description: Preserves editable masters plus documented delivery copies, previews, atlases, metadata, and licenses.
+
+Category 20: Image Scaling, Display, and Compression
+
+1. Skill Name: Nearest-Neighbor Scaling Specialist
+
+  Description: Scales pixel art by integer factors without smoothing, ringing, color contamination, or half-pixel placement.
+
+2. Skill Name: Non-Integer Scaling Repairer
+
+  Description: Uses controlled resampling, redraw, or viewport strategies when the target size is not an integer multiple.
+
+3. Skill Name: Pixel-Perfect Camera Specialist
+
+  Description: Configures world units, viewport, aspect handling, snapping, letterboxing, and camera movement for stable pixels.
+
+4. Skill Name: Texture Filtering Auditor
+
+  Description: Finds bilinear filtering, mipmaps, compression artifacts, subpixel sampling, color bleeding, and atlas edge contamination.
+
+5. Skill Name: Lossless Compression Optimizer
+
+  Description: Reduces PNG, GIF, APNG, or WebP size while preserving exact pixels, alpha, animation timing, and color values.
+
+6. Skill Name: Atlas Bleed Prevention Specialist
+
+  Description: Adds edge extrusion, padding, safe mip behavior, UV margins, and sampling settings around packed sprites.
+
+7. Skill Name: Display Simulation Analyst
+
+  Description: Previews CRT, LCD, handheld, LED matrix, low-resolution, monochrome, and color-limited display behavior.
+
+8. Skill Name: High-DPI Pixel Presentation Designer
+
+  Description: Maintains crispness and intended apparent size across operating-system scaling and high-density screens.
+
+9. Skill Name: Platform Thumbnail Optimizer
+
+  Description: Creates readable pixel thumbnails, app icons, store assets, social previews, and small promotional crops.
+
+10. Skill Name: File Size Budget Analyst
+
+  Description: Balances dimensions, colors, frames, transparency, compression, and playback needs against delivery limits.
+
+Category 21: Procedural and Generative Pixel Systems
+
+1. Skill Name: Procedural Sprite Generator Designer
+
+  Description: Defines modular parts, constraints, palettes, seeds, rarity, and validation for repeatable sprite generation.
+
+2. Skill Name: Procedural Character Assembly Designer
+
+  Description: Builds compatible bodies, heads, clothing, accessories, equipment, and animation layers.
+
+3. Skill Name: Procedural Tileset Generator Designer
+
+  Description: Creates rules for terrain, transitions, variations, decorations, adjacency, and biome blending.
+
+4. Skill Name: Procedural Dungeon Pixel Artist
+
+  Description: Designs room, corridor, wall, door, hazard, treasure, and decoration tiles for generated layouts.
+
+5. Skill Name: Procedural Pattern and Texture Maker
+
+  Description: Generates seamless pixel patterns for materials, fabrics, terrain, backgrounds, and effects.
+
+6. Skill Name: Rule-Based Palette Generator
+
+  Description: Creates constrained color ramps from target moods, values, materials, and accessibility requirements.
+
+7. Skill Name: Seeded Variation and Reproducibility Manager
+
+  Description: Records seeds, parameters, component versions, and deterministic output checks.
+
+8. Skill Name: Generative Output Curator
+
+  Description: Filters generated assets for anatomy, readability, seams, duplicates, palette errors, and style consistency.
+
+9. Skill Name: Pixel Asset Batch Variant Generator
+
+  Description: Creates controlled size, color, state, damage, team, season, and language variants from approved masters.
+
+10. Skill Name: Procedural Animation Synthesizer
+
+  Description: Generates parameterized loops, particles, timing variants, and motion families with visual QA gates.
+
+Category 22: Automation, Scripting, and Pipeline Tools
+
+1. Skill Name: Aseprite Automation Script Author
+
+  Description: Creates safe Lua automation for exports, tags, palettes, layers, slices, batch processing, and validation.
+
+2. Skill Name: Python Pixel Pipeline Developer
+
+  Description: Builds scripts for slicing, packing, palette conversion, indexing, scaling, compositing, metadata, and tests.
+
+3. Skill Name: ImageMagick Pixel Workflow Author
+
+  Description: Creates reproducible command pipelines with nearest-neighbor rules, alpha safety, palettes, and frame handling.
+
+4. Skill Name: FFmpeg Pixel Video Pipeline Author
+
+  Description: Builds commands for image sequences, frame rates, palettes, scaling, codecs, alpha, loops, and audiovisual assembly.
+
+5. Skill Name: Texture Packer Automation Engineer
+
+  Description: Automates deterministic atlas layouts, metadata exports, padding, variants, and rebuild checks.
+
+6. Skill Name: Batch Export Orchestrator
+
+  Description: Exports many assets, resolutions, platforms, languages, palettes, and formats from a single source set.
+
+7. Skill Name: Asset Naming and Versioning Enforcer
+
+  Description: Applies documented names, states, directions, frame numbers, variants, semantic versions, and deprecation rules.
+
+8. Skill Name: Pixel Asset Build System Designer
+
+  Description: Creates incremental builds with source dependencies, cached outputs, clean builds, logs, and reproducible packages.
+
+9. Skill Name: Pixel Pipeline CI Validator
+
+  Description: Runs automated checks for dimensions, colors, alpha, frame counts, naming, metadata, file size, and duplicate assets.
+
+10. Skill Name: Editor Plugin and Extension Designer
+
+  Description: Specifies or implements productivity tools for brushes, palettes, animation, export, validation, and asset browsing.
+
+11. Skill Name: Metadata Schema Designer
+
+  Description: Defines machine-readable asset records for dimensions, pivots, tags, timing, collisions, licenses, sources, and variants.
+
+12. Skill Name: Pipeline Failure Diagnostician
+
+  Description: Finds broken paths, missing frames, stale caches, color-mode changes, nondeterministic packing, and incompatible exports.
+
+Category 23: Quality Assurance and Validation
+
+1. Skill Name: Pixel Grid Integrity Auditor
+
+  Description: Detects off-grid marks, unintended smoothing, fractional transforms, inconsistent pixel scale, and resampling damage.
+
+2. Skill Name: Palette Compliance Auditor
+
+  Description: Checks allowed colors, transparent index, duplicate colors, ramp membership, and unauthorized color drift.
+
+3. Skill Name: Sprite Readability Tester
+
+  Description: Evaluates silhouettes, poses, item recognition, state readability, and background separation at actual display size.
+
+4. Skill Name: Animation Playback QA Specialist
+
+  Description: Checks timing, loops, jitter, volume, foot sliding, flicker, frame order, alpha, and event synchronization.
+
+5. Skill Name: Tileset Seam QA Specialist
+
+  Description: Tests edge combinations, corners, transitions, rotations, variants, and repeated placement for seams or rule gaps.
+
+6. Skill Name: Atlas and Metadata Validator
+
+  Description: Checks coordinates, bounds, pivots, tags, source sizes, rotations, trims, hashes, and engine import behavior.
+
+7. Skill Name: Cross-Editor Compatibility Tester
+
+  Description: Opens and round-trips assets through intended editors while checking layers, palettes, timing, alpha, and metadata.
+
+8. Skill Name: Cross-Engine Rendering Tester
+
+  Description: Compares pixel presentation in target engines and platforms for filtering, alignment, color, scale, and performance.
+
+9. Skill Name: Visual Regression Tester
+
+  Description: Compares rendered outputs against approved references and highlights changed pixels, frames, colors, and bounds.
+
+10. Skill Name: Accessibility and Flashing QA Specialist
+
+  Description: Reviews contrast, distinguishability, motion intensity, flash frequency, captions, and alternate cues.
+
+11. Skill Name: Asset Completeness Auditor
+
+  Description: Checks required directions, states, resolutions, formats, variants, metadata, previews, and source files.
+
+12. Skill Name: Final Delivery Reopen Tester
+
+  Description: Reopens, plays, imports, extracts, and verifies every final artifact from a clean environment.
+
+Category 24: Restoration, Preservation, and Migration
+
+1. Skill Name: Legacy Sprite Extraction Specialist
+
+  Description: Extracts sprites, tiles, palettes, fonts, and animations from authorized legacy resources while preserving originals.
+
+2. Skill Name: Pixel Art Restoration Artist
+
+  Description: Repairs damaged, incomplete, color-shifted, or badly converted pixel assets with documented changes.
+
+3. Skill Name: Sprite Sheet Reconstruction Specialist
+
+  Description: Rebuilds missing grids, frame order, bounds, origins, directions, and animation names from surviving evidence.
+
+4. Skill Name: Palette Recovery Analyst
+
+  Description: Recovers likely indexed palettes from screenshots, binary resources, related assets, or documented hardware constraints.
+
+5. Skill Name: Animation Timing Recovery Analyst
+
+  Description: Infers frame timing, loops, holds, events, and transitions from captures, code, or related builds.
+
+6. Skill Name: Format Migration Specialist
+
+  Description: Moves pixel projects between editors, engines, formats, and metadata schemas with explicit loss reports.
+
+7. Skill Name: Retro Asset Authenticity Analyst
+
+  Description: Distinguishes genuine constraints from modern imitation and documents palette, resolution, tile, sprite, and display evidence.
+
+8. Skill Name: Digital Pixel Art Archivist
+
+  Description: Packages masters, derivatives, palettes, fonts, metadata, licenses, documentation, previews, and checksums for long-term access.
+
+9. Skill Name: Obsolete Editor Project Recovery Specialist
+
+  Description: Recovers layers, frames, palettes, and assets from old or proprietary project files when lawful and technically possible.
+
+10. Skill Name: Preservation Emulator Presentation Designer
+
+  Description: Configures scaling, aspect, borders, shaders, and capture settings for faithful presentation of preserved pixel media.
+
+Category 25: Publishing, Marketing, and Product Assets
+
+1. Skill Name: Pixel Brand Identity Designer
+
+  Description: Creates original pixel logos, marks, patterns, colors, mascots, and usage rules for a cohesive identity.
+
+2. Skill Name: Pixel Poster and Key Art Designer
+
+  Description: Creates promotional compositions, titles, characters, scenes, and platform-ready crops.
+
+3. Skill Name: Pixel Store Page Asset Designer
+
+  Description: Produces capsules, banners, screenshots, icons, feature panels, and animated previews for distribution platforms.
+
+4. Skill Name: Pixel Social Media Asset Designer
+
+  Description: Creates profile images, headers, posts, stories, stickers, reaction graphics, and looped promotions.
+
+5. Skill Name: Pixel Emote and Badge Artist
+
+  Description: Designs readable small emotes, subscriber badges, achievement badges, and platform-safe variants.
+
+6. Skill Name: Pixel Sticker Pack Designer
+
+  Description: Creates cohesive transparent sticker sets with outlines, expressions, states, and export dimensions.
+
+7. Skill Name: Pixel Merchandise Artwork Designer
+
+  Description: Prepares designs for shirts, embroidery-style grids, pins, patches, prints, mugs, and physical products.
+
+8. Skill Name: Pixel App Icon Designer
+
+  Description: Creates recognizable multi-size icons with safe margins, adaptive variants, and store-ready exports.
+
+9. Skill Name: Pixel Presentation and Infographic Artist
+
+  Description: Creates pixel diagrams, timelines, charts, maps, callouts, and educational visuals with legible hierarchy.
+
+10. Skill Name: Pixel Asset Preview and Contact Sheet Designer
+
+  Description: Builds labeled previews, turnarounds, sheets, GIF samples, and catalog images for review or sale.
+
+Category 26: Education, Documentation, and Collaboration
+
+1. Skill Name: Pixel Art Tutorial Author
+
+  Description: Creates step-by-step lessons on clusters, palettes, shading, animation, tiles, export, and troubleshooting.
+
+2. Skill Name: Pixel Art Critique Specialist
+
+  Description: Provides concrete, respectful critique tied to silhouette, clusters, palette, lighting, anatomy, motion, and intent.
+
+3. Skill Name: Pixel Art Practice Generator
+
+  Description: Creates focused exercises, constraints, prompts, study sheets, and measurable improvement goals.
+
+4. Skill Name: Pixel Production Documentation Author
+
+  Description: Writes art bibles, naming guides, export guides, editor setup, pipeline instructions, and handoff checklists.
+
+5. Skill Name: Pixel Asset Review Coordinator
+
+  Description: Structures review rounds, annotations, approvals, revision priorities, and version comparisons.
+
+6. Skill Name: Team Style Onboarding Designer
+
+  Description: Creates examples, do-and-don’t sheets, templates, palettes, brushes, and test tasks for new contributors.
+
+7. Skill Name: Pixel Art Rubric Designer
+
+  Description: Builds scoring criteria for readability, craft, consistency, animation, technical validity, originality, and delivery quality.
+
+8. Skill Name: Asset License and Attribution Recorder
+
+  Description: Tracks creators, source references, usage rights, licenses, modifications, restrictions, and attribution text.
+
+9. Skill Name: Client Handoff Package Author
+
+  Description: Packages editable sources, exports, metadata, previews, fonts, palettes, instructions, and known limitations.
+
+10. Skill Name: Pixel Art Localization Coordinator
+
+  Description: Plans culturally appropriate symbols, text space, reading direction, colors, icons, and region-specific variants.
+
+Category 27: Specialized Themes and Applied Domains
+
+1. Skill Name: Scientific Pixel Illustration Artist
+
+  Description: Creates accurate pixel diagrams of organisms, anatomy, instruments, processes, maps, and data-driven subjects.
+
+2. Skill Name: Educational Pixel Media Designer
+
+  Description: Creates age-appropriate lessons, simulations, flashcards, diagrams, and interactive learning assets.
+
+3. Skill Name: Medical and Safety Pixel Symbol Designer
+
+  Description: Creates clear non-diagnostic health, emergency, hazard, and instruction symbols with accessibility review.
+
+4. Skill Name: Architectural Pixel Visualization Artist
+
+  Description: Creates plans, elevations, isometric rooms, city blocks, construction stages, and wayfinding visuals.
+
+5. Skill Name: Historical Pixel Scene Research Artist
+
+  Description: Builds original historically informed scenes, attire, tools, architecture, and props with source notes.
+
+6. Skill Name: Map and Transit Pixel Designer
+
+  Description: Creates transit maps, route icons, station diagrams, navigation maps, and location markers.
+
+7. Skill Name: Data Visualization Pixel Artist
+
+  Description: Creates pixel charts, heatmaps, timelines, counters, dashboards, and animated data stories without distorting values.
+
+8. Skill Name: Puzzle and Board Game Pixel Artist
+
+  Description: Designs boards, pieces, cards, tiles, tokens, clues, states, and readable interaction feedback.
+
+9. Skill Name: Virtual Pet and Companion Artist
+
+  Description: Creates growth stages, needs, actions, accessories, habitats, reactions, and looped behaviors.
+
+10. Skill Name: Pixel Fashion and Pattern Designer
+
+  Description: Creates garments, textiles, repeating patterns, colorways, avatar wearables, and outfit collections.
+
+11. Skill Name: Pixel Music and Rhythm Visual Artist
+
+  Description: Creates beat markers, note lanes, reactive scenes, instruments, equalizers, and timing-sensitive effects.
+
+12. Skill Name: Pixel Horror Atmosphere Artist
+
+  Description: Creates original unsettling environments, creatures, lighting, distortion, and suspense while respecting content limits.
+
+Category 28: Advanced Rendering and Style Systems
+
+1. Skill Name: CRT Pixel Presentation Artist
+
+  Description: Designs scanlines, phosphor masks, bloom, curvature, color bleed, and motion response as optional presentation layers.
+
+2. Skill Name: Monochrome Pixel Artist
+
+  Description: Creates one-bit, grayscale, duotone, handheld-style, and limited-value art with strong shape design.
+
+3. Skill Name: High-Color Pixel Painter
+
+  Description: Creates detailed pixel illustrations with rich palettes while preserving cluster discipline and hard edges.
+
+4. Skill Name: Painterly Pixel Hybrid Artist
+
+  Description: Combines intentional pixel structure with controlled soft atmosphere, texture, or high-resolution finishing.
+
+5. Skill Name: Glitch Pixel Artist
+
+  Description: Creates controlled datamosh-inspired, scan, displacement, corruption, chromatic, and signal effects without accidental file damage.
+
+6. Skill Name: Neon and Emissive Pixel Artist
+
+  Description: Designs glow, signage, energy, holograms, reflections, and dark-environment readability.
+
+7. Skill Name: Material Rendering Specialist
+
+  Description: Develops consistent pixel rendering for metal, glass, water, cloth, skin, stone, wood, plastic, crystal, and energy.
+
+8. Skill Name: Dynamic Shadow Sprite Artist
+
+  Description: Creates blob, projected, contact, directional, soft-step, and animated shadow assets.
+
+9. Skill Name: Normal Map Pixel Artist
+
+  Description: Creates pixel-aware normal maps and tests lighting without introducing noisy or inverted surface cues.
+
+10. Skill Name: Pixel Shader Look Designer
+
+  Description: Specifies outline, palette swap, dissolve, water, heat, lighting, CRT, and postprocess effects that preserve crisp art.
+
+Category 29: Agent Safety, Reliability, and Governance
+
+1. Skill Name: Pixel Asset Source Provenance Manager
+
+  Description: Records prompts, references, supplied assets, transformations, creators, licenses, and approval status.
+
+2. Skill Name: Copyright-Safe Pixel Concept Designer
+
+  Description: Creates original alternatives when a request would imitate protected characters, brands, or living artists too closely.
+
+3. Skill Name: Sensitive Content Pixel Art Gatekeeper
+
+  Description: Applies age, platform, workplace, privacy, and safety constraints before production or publication.
+
+4. Skill Name: Portrait Consent and Privacy Reviewer
+
+  Description: Checks authorization, avoids sensitive inference, and limits identifying detail in pixel portraits of real people.
+
+5. Skill Name: Destructive Edit Prevention Guardian
+
+  Description: Uses copies, versioning, reversible operations, dry runs, and explicit overwrite controls.
+
+6. Skill Name: Automated Output Claim Validator
+
+  Description: Verifies dimensions, colors, frames, formats, playback, imports, and package contents before claiming completion.
+
+7. Skill Name: Tool Capability and Limitation Reporter
+
+  Description: States which editors, codecs, formats, metadata, or effects were actually tested and documents unsupported claims.
+
+8. Skill Name: Content Accessibility Governance Planner
+
+  Description: Builds required contrast, captions, motion alternatives, control states, and readability checks into production.
+
+9. Skill Name: Asset Security and Secret Scanner
+
+  Description: Checks source packages and automation files for credentials, private data, unsafe paths, or unintended embedded content.
+
+10. Skill Name: Pixel Production Recovery Coordinator
+
+  Description: Preserves passing work, isolates failures, repairs the smallest responsible layer, and reruns affected checks from clean state.

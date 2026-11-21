@@ -1,0 +1,766 @@
+SPRITEFORGE
+MASTER SKILL CATALOG
+Sprite, Sprite Sheet, Animation, Editing, 2D, 3D, Game, and General Media Skills
+
++--------------------------------------------------------------------------------------------------------------------------+
+| 154 reusable skill ideas across 17 categories                                                                            |
+|                                                                                                                          |
+| Catalog only. Each entry is a focused capability that can later become its own Skill or join a larger production system. |
++==========================================================================================================================+
++--------------------------------------------------------------------------------------------------------------------------+
+
+Purpose
+
+This catalog gives a strong builder a wide set of reusable skill ideas for sprite production. The set covers creation, animation, editing, packing, game integration, quality checks, automation, handoff, and safe team use. The entries are written as separate capabilities so an agent can route work to the right tool instead of forcing one large skill to do every task.
+
+Catalog design rules
+
+- Use one clear responsibility per skill.
+
+- Keep source files editable and final files ready to use.
+
+- Support batch work, repair, checking, and clean handoff.
+
+- Preserve frame order, pivots, timing, transparency, palette, camera, and style.
+
+- Choose output rules based on the target engine, runtime, platform, or media use.
+
+Category Map
+
+1. Core Sprite Creation | 8 skills
+
+2. Character and Creature Design | 8 skills
+
+3. Sprite Sheet Layout and Packing | 8 skills
+
+4. Animation and Motion | 10 skills
+
+5. Direction, Camera, and Perspective | 8 skills
+
+6. Style and Art Direction | 10 skills
+
+7. Editing, Cleanup, and Repair | 10 skills
+
+8. Rigging, Parts, and Layer Systems | 8 skills
+
+9. Effects and Environment Sprites | 10 skills
+
+10. Game Engine and Runtime Integration | 10 skills
+
+11. Format, Export, and Conversion | 8 skills
+
+12. Quality Assurance and Validation | 10 skills
+
+13. Automation, Batch Work, and Pipelines | 10 skills
+
+14. Reference, Search, and Asset Intelligence | 8 skills
+
+15. Specialized Production Scenarios | 10 skills
+
+16. Advanced Image and Multi-Modal Work | 10 skills
+
+17. Governance, Safety, and Team Standards | 8 skills
+
+1. Core Sprite Creation
+
+Skills for making approved source sprites from scratch or from a structured brief.
+
+1. Skill Name: Universal Sprite Creator
+
+  Description: Creates original 2D, 2.5D, voxel, isometric, and 3D-rendered sprites from a clear brief. Handles characters, creatures, props, vehicles, effects, and environment pieces.
+
+2. Skill Name: Pixel Art Sprite Maker
+
+  Description: Builds clean pixel art with controlled canvas size, color count, outline style, clusters, and readable silhouettes. Supports retro and modern pixel styles.
+
+3. Skill Name: High-Resolution Sprite Painter
+
+  Description: Creates painted or illustrated sprites for games, animation, stickers, motion graphics, and general media while keeping edges, lighting, and scale consistent.
+
+4. Skill Name: Vector Sprite Builder
+
+  Description: Creates resolution-safe vector sprites with reusable paths, layers, fills, strokes, and export presets for SVG, PDF, PNG, and engine-ready raster files.
+
+5. Skill Name: Voxel Sprite Designer
+
+  Description: Builds voxel characters and objects, then renders them into fixed gameplay views or frame sequences with stable lighting and camera settings.
+
+6. Skill Name: 3D-to-2D Sprite Renderer
+
+  Description: Turns 3D models into 2D sprites from set cameras, angles, poses, and lighting. Produces repeatable frames for pre-rendered game art.
+
+7. Skill Name: Silhouette Concept Generator
+
+  Description: Creates fast silhouette sets for early design choices. Scores shape clarity, role readability, visual balance, and distance recognition.
+
+8. Skill Name: Sprite Variant Generator
+
+  Description: Creates controlled variants of one approved sprite, such as armor, color, damage, age, faction, biome, rarity, or seasonal versions.
+
+2. Character and Creature Design
+
+Focused skills for this part of the sprite production workflow.
+
+9. Skill Name: Character Sprite Architect
+
+  Description: Designs full sprite characters from role, body shape, clothing, equipment, scale, and animation needs. Keeps front, side, back, and action views consistent.
+
+10. Skill Name: Creature Sprite Architect
+
+  Description: Designs animals, monsters, robots, spirits, and fantasy creatures with clear anatomy, movement rules, attack parts, and readable poses.
+
+11. Skill Name: Boss Sprite Designer
+
+  Description: Creates large multi-part bosses with attack zones, weak points, phase changes, breakable parts, and screen-safe silhouettes.
+
+12. Skill Name: NPC Crowd Generator
+
+  Description: Creates related but varied non-player characters with shared world style, role tags, color rules, and controlled visual differences.
+
+13. Skill Name: Avatar and Portrait Sprite Maker
+
+  Description: Creates profile sprites, busts, face icons, dialogue portraits, and expression sets matched to a main character design.
+
+14. Skill Name: Paper Doll Character Builder
+
+  Description: Creates modular bodies, heads, hair, clothing, armor, and items that line up through shared anchors and layer order.
+
+15. Skill Name: Anatomy Consistency Checker
+
+  Description: Checks limb length, joint placement, volume, perspective, and pose stability across frames and views.
+
+16. Skill Name: Design Language Keeper
+
+  Description: Maintains repeated shape, color, material, line, and detail rules across a cast or faction.
+
+3. Sprite Sheet Layout and Packing
+
+Skills for turning frames into organized, extractable, and engine-ready sheets.
+
+17. Skill Name: Sprite Sheet Composer
+
+  Description: Places frames into rows, columns, strips, grids, or grouped blocks with exact spacing, margins, labels, and transparent backgrounds.
+
+18. Skill Name: Multi-Sheet Set Builder
+
+  Description: Splits large animation libraries into several linked sheets by state, action, direction, size, theme, or memory budget.
+
+19. Skill Name: Texture Atlas Packer
+
+  Description: Packs many sprites into compact atlases using trim, rotation rules, padding, power-of-two sizing, and engine-safe edge handling.
+
+20. Skill Name: Grid and Cell Planner
+
+  Description: Chooses cell size, frame count, row order, sheet size, and naming before assets are created. Prevents later rework.
+
+21. Skill Name: Frame Extractor
+
+  Description: Detects and extracts frames from existing sprite sheets, contact sheets, GIFs, APNGs, videos, or image sequences.
+
+22. Skill Name: Frame Repacker
+
+  Description: Reorders, resizes, trims, pads, and repacks frames without changing their visual timing or anchor alignment.
+
+23. Skill Name: Atlas Metadata Writer
+
+  Description: Creates JSON, XML, CSV, plist, ASEPRITE, or engine-specific frame maps with bounds, pivots, source size, and tags.
+
+24. Skill Name: Sheet Index and Contact Sheet Maker
+
+  Description: Creates preview sheets with frame numbers, action names, timing, direction labels, and quick review notes.
+
+4. Animation and Motion
+
+Skills for frame-by-frame motion, loops, transitions, timing, and action quality.
+
+25. Skill Name: Idle Animation Builder
+
+  Description: Creates breathing, hovering, blinking, looking, swaying, machine hum, and other seamless idle loops.
+
+26. Skill Name: Movement Cycle Animator
+
+  Description: Creates walk, run, sprint, crawl, climb, swim, fly, roll, slide, and mounted movement cycles.
+
+27. Skill Name: Combat Action Animator
+
+  Description: Creates attacks, blocks, parries, dodges, reloads, casts, charges, throws, counters, and finishing moves.
+
+28. Skill Name: Interaction Animation Builder
+
+  Description: Creates pickup, open, push, pull, carry, talk, craft, repair, harvest, build, and use-object actions.
+
+29. Skill Name: Damage and Death Animator
+
+  Description: Creates hit reactions, stagger, knockback, stun, fall, death, dissolve, break, and recover sequences.
+
+30. Skill Name: Transition Frame Generator
+
+  Description: Creates clean in-between frames between states such as idle to run, run to stop, attack to recover, and ground to air.
+
+31. Skill Name: Loop Seam Optimizer
+
+  Description: Finds visible jumps in loops and repairs pose, spacing, lighting, and timing so the first and last frames connect.
+
+32. Skill Name: Motion Arc and Timing Editor
+
+  Description: Adjusts arcs, spacing, anticipation, impact, follow-through, holds, easing, and frame duration for better motion.
+
+33. Skill Name: Secondary Motion Animator
+
+  Description: Adds hair, cloth, tails, wings, straps, shadows, particles, and loose parts after the main body motion is approved.
+
+34. Skill Name: Procedural Animation Synthesizer
+
+  Description: Builds repeatable motion from rules, bones, paths, noise, physics, or pose targets, then bakes it into frames.
+
+5. Direction, Camera, and Perspective
+
+Focused skills for this part of the sprite production workflow.
+
+35. Skill Name: Directional Sprite Set Maker
+
+  Description: Creates 4, 6, 8, 16, or custom direction sets with stable proportions and action coverage.
+
+36. Skill Name: Isometric Sprite Builder
+
+  Description: Creates isometric sprites with fixed projection, shared ground plane, tile fit, and direction-safe shadows.
+
+37. Skill Name: Top-Down Sprite Maker
+
+  Description: Creates readable top-down units, buildings, props, projectiles, and effects with clear team and facing markers.
+
+38. Skill Name: Side-View Sprite Maker
+
+  Description: Creates platformer, fighter, beat-em-up, and side-scroller sprites with stable ground contact and readable motion arcs.
+
+39. Skill Name: Front-Facing Battler Maker
+
+  Description: Creates front or rear battlers for turn-based combat, card battles, and menu-driven games.
+
+40. Skill Name: Camera Match Controller
+
+  Description: Locks lens, angle, distance, crop, field of view, and target placement across a whole sprite set.
+
+41. Skill Name: Perspective Repair Tool
+
+  Description: Corrects mismatched vanishing lines, foreshortening, camera tilt, and scale drift across frames.
+
+42. Skill Name: Rotation Turntable Generator
+
+  Description: Creates complete object or character turntables at fixed angle steps for previews, choices, or rotation animation.
+
+6. Style and Art Direction
+
+Focused skills for this part of the sprite production workflow.
+
+43. Skill Name: Style Bible Builder
+
+  Description: Defines the project rules for shape, line, palette, materials, light, detail, camera, animation, and export.
+
+44. Skill Name: Style Transfer for Sprites
+
+  Description: Restyles approved sprites while protecting pose, silhouette, anchors, frame size, and animation timing.
+
+45. Skill Name: Cross-Sheet Style Harmonizer
+
+  Description: Finds and fixes style drift across sheets made at different times or by different creators.
+
+46. Skill Name: Palette Designer
+
+  Description: Builds named palettes with base, shade, highlight, outline, effect, team, and accessibility colors.
+
+47. Skill Name: Palette Swap Generator
+
+  Description: Creates skin, team, rarity, biome, mood, or faction color sets while preserving value contrast.
+
+48. Skill Name: Material Rendering Specialist
+
+  Description: Renders metal, cloth, skin, stone, glass, water, wood, energy, slime, and other materials in the selected style.
+
+49. Skill Name: Outline and Edge Controller
+
+  Description: Applies clean outlines, selective outlines, colored edges, anti-aliasing, hard edges, or no-outline rules.
+
+50. Skill Name: Detail Level Controller
+
+  Description: Creates low, medium, and high detail versions matched to screen size, camera distance, or device limits.
+
+51. Skill Name: Genre Art Director
+
+  Description: Adapts sprite design to fantasy, sci-fi, horror, comedy, military, cyberpunk, mythology, sports, education, or other genres.
+
+52. Skill Name: Theme Fusion Designer
+
+  Description: Combines two or more themes while keeping one clear visual system and avoiding random detail mixing.
+
+7. Editing, Cleanup, and Repair
+
+Focused skills for this part of the sprite production workflow.
+
+53. Skill Name: Sprite Image Editor
+
+  Description: Performs local edits such as repainting parts, changing colors, replacing gear, reshaping forms, or removing unwanted details.
+
+54. Skill Name: Multi-Image Sprite Editor
+
+  Description: Applies one controlled change across many frames while protecting motion, layout, and unchanged parts.
+
+55. Skill Name: Background and Matte Cleaner
+
+  Description: Removes backgrounds, halos, color spill, rough masks, and unwanted matte pixels while preserving fine edges.
+
+56. Skill Name: Pixel Cleanup Specialist
+
+  Description: Repairs stray pixels, broken clusters, stair-step errors, banding, jagged curves, and accidental color noise.
+
+57. Skill Name: Frame Consistency Repairer
+
+  Description: Fixes flicker, size drift, color drift, missing parts, lighting shifts, and changing outlines across frames.
+
+58. Skill Name: Sprite Upscaler
+
+  Description: Enlarges sprites with selectable nearest-neighbor, pixel-aware, vector-like, or detail-aware methods.
+
+59. Skill Name: Sprite Downscaler
+
+  Description: Reduces sprites while protecting silhouettes, key features, palette, edge clarity, and animation readability.
+
+60. Skill Name: Artifact Removal Tool
+
+  Description: Repairs compression blocks, blur, ringing, resampling damage, transparency errors, and generation artifacts.
+
+61. Skill Name: Missing Frame Reconstructor
+
+  Description: Creates a missing or damaged frame from nearby frames and movement rules.
+
+62. Skill Name: Symmetry and Asymmetry Editor
+
+  Description: Uses symmetry for fast construction, then preserves needed asymmetrical gear, damage, pose, or lighting.
+
+8. Rigging, Parts, and Layer Systems
+
+Focused skills for this part of the sprite production workflow.
+
+63. Skill Name: 2D Bone Rig Builder
+
+  Description: Creates a bone hierarchy, mesh binding, pivot points, constraints, and export setup for cutout animation.
+
+64. Skill Name: Sprite Part Separator
+
+  Description: Separates a flat sprite into head, torso, limbs, gear, effects, shadows, and other reusable layers.
+
+65. Skill Name: Anchor and Pivot Manager
+
+  Description: Sets stable feet, hand, weapon, muzzle, hit, origin, center, mount, and effect anchors across frames.
+
+66. Skill Name: Layer Order Controller
+
+  Description: Defines safe draw order rules for body parts, equipment, front and back limbs, shadows, and effects.
+
+67. Skill Name: Attachment Slot Builder
+
+  Description: Creates sockets for weapons, hats, backpacks, mounts, tools, projectiles, and visual effects.
+
+68. Skill Name: Equipment Fit Generator
+
+  Description: Fits shared gear across body types, views, poses, and animations without clipping or floating.
+
+69. Skill Name: Cutout Animation Exporter
+
+  Description: Exports layered rigs and frame sequences for Spine, DragonBones, Unity 2D Animation, Godot, or custom runtimes.
+
+70. Skill Name: Rig-to-Frame Baker
+
+  Description: Turns rig animation into clean transparent frames and sprite sheets with exact timing and bounds.
+
+9. Effects and Environment Sprites
+
+Focused skills for this part of the sprite production workflow.
+
+71. Skill Name: Visual Effects Sprite Maker
+
+  Description: Creates fire, smoke, sparks, magic, electricity, water, dust, explosions, impacts, and status effects.
+
+72. Skill Name: Projectile Sprite Builder
+
+  Description: Creates projectiles, trails, charge states, flight frames, hits, and impact bursts with matching anchors.
+
+73. Skill Name: Weather Sprite Animator
+
+  Description: Creates rain, snow, fog, wind, leaves, ash, sand, lightning, and other loopable weather layers.
+
+74. Skill Name: Environment Prop Sprite Maker
+
+  Description: Creates furniture, plants, rocks, machines, signs, loot, debris, and interactive world props.
+
+75. Skill Name: Tile and Terrain Sprite Builder
+
+  Description: Creates seamless ground, wall, cliff, roof, road, water, and transition tiles for tile maps.
+
+76. Skill Name: Autotile Rule Designer
+
+  Description: Builds terrain connection sets and rule maps for 4-bit, 8-bit, Wang tile, blob, and custom systems.
+
+77. Skill Name: Destruction State Generator
+
+  Description: Creates intact, damaged, broken, burned, frozen, ruined, and debris states for world objects.
+
+78. Skill Name: Lighting and Shadow Sprite Maker
+
+  Description: Creates blob, soft, hard, directional, contact, and animated shadow sprites plus light overlays.
+
+79. Skill Name: UI Effect Sprite Maker
+
+  Description: Creates cursors, highlights, selection rings, cooldown effects, pings, markers, and menu animations.
+
+80. Skill Name: Particle Sheet Builder
+
+  Description: Creates particle families with controlled size, life stage, rotation, color, and blend mode.
+
+10. Game Engine and Runtime Integration
+
+Focused skills for this part of the sprite production workflow.
+
+81. Skill Name: Unity Sprite Import Preparer
+
+  Description: Creates Unity-ready files, pixels-per-unit settings, slicing data, pivots, animation clips, and atlas plans.
+
+82. Skill Name: Godot Sprite Import Preparer
+
+  Description: Creates Godot-ready spritesheets, SpriteFrames plans, region data, offsets, loop settings, and import notes.
+
+83. Skill Name: Unreal Paper2D Preparer
+
+  Description: Creates Paper2D-ready sprite sheets, flipbook plans, pivots, collision notes, and texture settings.
+
+84. Skill Name: GameMaker Sprite Preparer
+
+  Description: Creates GameMaker sequences with origin rules, image speed, collision masks, and naming.
+
+85. Skill Name: RPG Maker Asset Preparer
+
+  Description: Builds character, battler, face, icon, tile, and animation sheets that follow version-specific grids.
+
+86. Skill Name: Web Canvas Sprite Preparer
+
+  Description: Exports atlases and metadata for HTML Canvas, Phaser, PixiJS, Three.js, and custom web runtimes.
+
+87. Skill Name: Mobile Sprite Optimizer
+
+  Description: Balances atlas size, memory, texture format, scale variants, draw calls, and visual quality for phones and tablets.
+
+88. Skill Name: Retro Hardware Sprite Planner
+
+  Description: Designs sprites within hardware limits such as palette count, tile size, sprite count, scanline load, and memory.
+
+89. Skill Name: Collision Mask Generator
+
+  Description: Creates box, circle, capsule, polygon, per-frame, hurtbox, hitbox, and interaction masks from sprite shapes.
+
+90. Skill Name: Animation State Machine Builder
+
+  Description: Maps sprite clips into states, transitions, conditions, interrupts, priorities, and fallback behavior.
+
+11. Format, Export, and Conversion
+
+Focused skills for this part of the sprite production workflow.
+
+91. Skill Name: Sprite Format Converter
+
+  Description: Converts among PNG, WebP, GIF, APNG, SVG, TIFF, BMP, PSD, EXR, image sequences, and engine-specific formats where supported.
+
+92. Skill Name: Animated Image Exporter
+
+  Description: Builds GIF, APNG, animated WebP, or video previews with frame timing, loop count, scale, and background options.
+
+93. Skill Name: Color Mode and Bit Depth Manager
+
+  Description: Converts indexed, grayscale, RGB, RGBA, 8-bit, 16-bit, and HDR-related assets without hidden color damage.
+
+94. Skill Name: Transparency and Alpha Manager
+
+  Description: Checks straight and premultiplied alpha, edge bleed, transparent RGB, cutout thresholds, and blend behavior.
+
+95. Skill Name: Naming and Folder Standardizer
+
+  Description: Applies stable file names, tags, action names, directions, version labels, and folder structure.
+
+96. Skill Name: Batch Export Controller
+
+  Description: Exports many actions, scales, palettes, formats, and platforms from one approved source set.
+
+97. Skill Name: Source File Preserver
+
+  Description: Keeps editable master files, linked assets, fonts, palettes, rigs, and export settings separate from final files.
+
+98. Skill Name: Archive and Handoff Packager
+
+  Description: Creates a clean handoff folder with sources, exports, previews, metadata, readme, license notes, and checks.
+
+12. Quality Assurance and Validation
+
+Focused skills for this part of the sprite production workflow.
+
+99. Skill Name: Sprite Sheet Validator
+
+  Description: Checks dimensions, frame count, cell fit, alpha, padding, naming, metadata, and missing files.
+
+100. Skill Name: Animation Playback Reviewer
+
+  Description: Builds previews at several speeds and detects pops, frozen frames, uneven timing, and broken loops.
+
+101. Skill Name: Flicker and Drift Detector
+
+  Description: Measures frame-to-frame color, scale, position, outline, and part changes to find visual instability.
+
+102. Skill Name: Silhouette Readability Tester
+
+  Description: Tests sprites at target size, grayscale, blur, dark background, light background, and fast gameplay viewing.
+
+103. Skill Name: Palette Compliance Checker
+
+  Description: Finds off-palette colors, duplicate colors, poor ramps, weak contrast, and unsafe team-color overlap.
+
+104. Skill Name: Seam and Tile Tester
+
+  Description: Repeats tiles and loops effects to reveal seams, jumps, edge gaps, and mismatched borders.
+
+105. Skill Name: Anchor Consistency Auditor
+
+  Description: Checks feet, pivots, sockets, hit points, and ground contact across all frames and actions.
+
+106. Skill Name: Engine Import Smoke Tester
+
+  Description: Imports a small sample into the target engine and checks slicing, frame order, pivots, playback, and texture settings.
+
+107. Skill Name: Regression Image Comparator
+
+  Description: Compares new exports with approved files and reports only changed pixels, bounds, timing, or metadata.
+
+108. Skill Name: Accessibility Readability Checker
+
+  Description: Checks color contrast, flashing risk, small-size readability, status markers, and color-only communication.
+
+13. Automation, Batch Work, and Pipelines
+
+Skills for repeatable production, batch work, recovery, and large asset libraries.
+
+109. Skill Name: Sprite Production Orchestrator
+
+  Description: Runs the full path from brief to concept, approved design, actions, sheets, checks, export, and handoff.
+
+110. Skill Name: Batch Sprite Generator
+
+  Description: Creates many related sprites from structured rows, tags, templates, or item lists while keeping art rules stable.
+
+111. Skill Name: Action Coverage Planner
+
+  Description: Builds an action matrix for each unit and marks required, optional, blocked, approved, and missing clips.
+
+112. Skill Name: Render Farm Sprite Controller
+
+  Description: Splits 3D sprite renders across workers and joins outputs while preserving camera, seed, lights, and file order.
+
+113. Skill Name: Incremental Rebuild Manager
+
+  Description: Rebuilds only changed sprites, sheets, atlases, metadata, or previews instead of the full library.
+
+114. Skill Name: Asset Dependency Tracker
+
+  Description: Tracks which sheets, animations, palettes, rigs, models, and engine files depend on each source asset.
+
+115. Skill Name: Version and Approval Manager
+
+  Description: Stores versions, reviewer notes, approval state, lock state, and final-file identity for each asset.
+
+116. Skill Name: Deterministic Reproduction Manager
+
+  Description: Records seeds, prompts, model settings, scripts, colors, cameras, and tool versions needed to rebuild an asset.
+
+117. Skill Name: Folder Watch Exporter
+
+  Description: Watches source folders and runs safe validation and export when approved files change.
+
+118. Skill Name: Failure Recovery Coordinator
+
+  Description: Keeps valid work, finds the earliest failed stage, reruns only affected steps, and writes a clear repair report.
+
+14. Reference, Search, and Asset Intelligence
+
+Focused skills for this part of the sprite production workflow.
+
+119. Skill Name: Visual Reference Board Builder
+
+  Description: Collects and groups reference images by pose, anatomy, material, palette, camera, motion, and mood.
+
+120. Skill Name: Reference Rights Tracker
+
+  Description: Records source, creator, license, allowed use, credit text, and restrictions for each reference or asset.
+
+121. Skill Name: Pose Reference Matcher
+
+  Description: Finds or creates pose references that fit the requested action, camera, body plan, and frame purpose.
+
+122. Skill Name: Motion Study Extractor
+
+  Description: Breaks video or animation reference into key poses, arcs, contacts, timing, and secondary motion notes.
+
+123. Skill Name: Existing Asset Cataloger
+
+  Description: Scans sprite folders and builds a searchable catalog by subject, action, direction, size, format, and status.
+
+124. Skill Name: Duplicate and Near-Duplicate Finder
+
+  Description: Finds exact and visually similar sprites, frames, palettes, and effects to reduce waste.
+
+125. Skill Name: Style Reference Analyzer
+
+  Description: Extracts practical rules from approved examples without copying protected characters or exact artwork.
+
+126. Skill Name: Asset Gap Analyzer
+
+  Description: Compares the project plan with existing files and lists missing actions, variants, directions, formats, and metadata.
+
+15. Specialized Production Scenarios
+
+Focused skills for this part of the sprite production workflow.
+
+127. Skill Name: Fighting Game Sprite Suite
+
+  Description: Plans and creates normals, specials, throws, blocks, hits, knockdowns, cancels, hitboxes, and frame data views.
+
+128. Skill Name: Platformer Sprite Suite
+
+  Description: Creates ground, air, wall, ladder, ledge, damage, item, and environment interaction sets.
+
+129. Skill Name: Strategy Unit Sprite Suite
+
+  Description: Creates unit movement, attack, selection, team color, damage, death, construction, and upgrade states for RTS and tactics games.
+
+130. Skill Name: RPG Character Sprite Suite
+
+  Description: Creates map movement, battle actions, portraits, equipment, status, casting, victory, and defeat assets.
+
+131. Skill Name: Card Game Animation Suite
+
+  Description: Creates card art motion, foil effects, summons, attacks, reveals, transitions, and board tokens.
+
+132. Skill Name: Visual Novel Sprite Suite
+
+  Description: Creates layered character poses, expressions, clothing, mouth shapes, eye states, and scene-safe exports.
+
+133. Skill Name: Educational Animation Sprite Suite
+
+  Description: Creates clear step-by-step characters, objects, diagrams, gestures, and safe classroom visuals.
+
+134. Skill Name: Streaming Avatar Sprite Suite
+
+  Description: Creates PNG-tuber, reactive avatar, emote, alert, expression, mouth, blink, and scene assets.
+
+135. Skill Name: Icon and Micro-Sprite Suite
+
+  Description: Creates tiny items, status icons, inventory art, map markers, cursors, and low-resolution animated symbols.
+
+136. Skill Name: Cinematic Previsualization Sprite Suite
+
+  Description: Creates storyboard sprites, pose keys, effect layers, camera thumbnails, and timing sheets for later video work.
+
+16. Advanced Image and Multi-Modal Work
+
+Focused skills for this part of the sprite production workflow.
+
+137. Skill Name: Text-to-Sprite Director
+
+  Description: Turns a written brief into a structured sprite plan and stable visual outputs with controlled variants.
+
+138. Skill Name: Image-to-Sprite Converter
+
+  Description: Turns photos, drawings, renders, or concept art into clean sprites while keeping the main design readable.
+
+139. Skill Name: Multi-Image Fusion Builder
+
+  Description: Combines approved parts from several references into one new sprite without carrying over accidental style conflicts.
+
+140. Skill Name: Sketch-to-Sheet Builder
+
+  Description: Turns rough sketches into cleaned views, action poses, frames, and packed sheets.
+
+141. Skill Name: Video-to-Sprite Extractor
+
+  Description: Selects useful frames from video, removes the background, stabilizes the subject, reduces the frame set, and packs a sheet.
+
+142. Skill Name: Sprite-to-Video Previewer
+
+  Description: Turns sprite actions into clean preview videos with labels, speed choices, background choices, and side-by-side comparisons.
+
+143. Skill Name: Depth and Normal Map Generator
+
+  Description: Creates depth, normal, emission, mask, and material helper maps for lit 2D or 2.5D workflows.
+
+144. Skill Name: Scene-to-Sprite Isolator
+
+  Description: Finds and separates objects or characters from a larger image or scene into reusable sprite assets.
+
+145. Skill Name: Prompt and Seed Librarian
+
+  Description: Stores prompt parts, negative rules, seeds, reference weights, and successful settings for repeatable generation.
+
+146. Skill Name: Human Review Package Builder
+
+  Description: Creates review pages that show source, frames, motion, scale, variants, issues, and approval choices.
+
+17. Governance, Safety, and Team Standards
+
+Focused skills for this part of the sprite production workflow.
+
+147. Skill Name: Originality and Similarity Reviewer
+
+  Description: Checks whether new sprites are too close to protected or supplied designs and recommends safer design changes.
+
+148. Skill Name: License and Attribution Manager
+
+  Description: Tracks licenses for models, textures, fonts, brushes, references, and generated assets and prepares needed credits.
+
+149. Skill Name: Content Safety Reviewer
+
+  Description: Checks sprite content against the project age rating, platform rules, workplace limits, and requested audience.
+
+150. Skill Name: Cultural Design Review Helper
+
+  Description: Flags mixed symbols, weak context, stereotypes, or unsupported claims and calls for trusted review when needed.
+
+151. Skill Name: Team Style Gatekeeper
+
+  Description: Blocks exports that break approved size, palette, outline, naming, animation, or file rules.
+
+152. Skill Name: Change Request Translator
+
+  Description: Turns reviewer comments into exact frame, layer, color, timing, and export tasks.
+
+153. Skill Name: Production Estimate Builder
+
+  Description: Estimates frame count, sheet count, review rounds, storage, and work stages from the requested action list.
+
+154. Skill Name: Skill Catalog Router
+
+  Description: Chooses the smallest set of sprite skills needed for a request and defines the handoff between them.
+
+Suggested Catalog Use
+
+A future agent can treat this catalog as a routing map. A single request may use several focused skills in order. For example, a new eight-direction game character may use Character Sprite Architect, Directional Sprite Set Maker, Movement Cycle Animator, Anchor and Pivot Manager, Sprite Sheet Composer, Atlas Metadata Writer, Engine Import Preparer, and Sprite Sheet Validator.
+
+Recommended Skill Bundle Pattern
+
+1.  Planning: brief, style bible, action matrix, camera, and export target.
+
+2.  Creation: source sprite, views, parts, animation, effects, and variants.
+
+3.  Assembly: frame cleanup, sheet layout, atlas packing, metadata, and previews.
+
+4.  Validation: visual review, loop checks, anchors, palette, engine import, and regression checks.
+
+5.  Handoff: editable masters, final exports, readme, license notes, and version record.
+
+Build Note
+
+When these ideas are turned into real Skills, each Skill should define its trigger, accepted inputs, exact outputs, tool needs, failure states, quality checks, and handoff format. Large references, templates, scripts, and assets should live in separate resource folders so the main instructions stay short and easy to load.
