@@ -1,0 +1,17 @@
+name: validate-environment-docs
+on: [push, pull_request]
+jobs:
+  validate:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Rebuild GitHub Pages index
+        shell: powershell
+        run: ./Scripts/Update_Environment_Docs.ps1
+      - name: Confirm required outputs
+        shell: powershell
+        run: |
+          if (!(Test-Path ./docs/index.html)) { throw 'docs/index.html missing' }
+          if (!(Test-Path ./docs/catalog.json)) { throw 'docs/catalog.json missing' }
+          $c = Get-Content ./docs/catalog.json -Raw | ConvertFrom-Json
+          if ($c.resources.Count -lt 1) { throw 'No readable resources indexed' }

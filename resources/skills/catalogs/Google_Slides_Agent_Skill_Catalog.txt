@@ -1,0 +1,1900 @@
+GOOGLE SLIDES AGENT
+SKILL CATALOG
+
+408 candidate skills across 34 categories
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  Source basis                        Google_Slides_Features.txt
+  ----------------------------------- ----------------------------------------------------------------------------------------
+  Coverage                            Google Slides web editor features plus expanded workarounds and production scenarios
+
+  Scope                               Catalog only. Entries describe candidate capabilities, not implemented skill packages.
+  ----------------------------------------------------------------------------------------------------------------------------
+
+This catalog is designed as source material for a stronger catalog-building system. The entries emphasize complete execution, safe workarounds, editability, collaboration, accessibility, verification, recovery, and recipient-ready delivery.
+
+Source: Google_Slides_Features.txt, supplied by the user.
+
+How to Use This Catalog
+
+- Treat every entry as an independent candidate skill or as a component that a future orchestrator may combine with adjacent skills.
+
+- When implementing a skill, define triggers, exclusions, exact inputs, outputs, permissions, account dependencies, failure meanings, fallback routes, and tests.
+
+- Because Google Slides changes by account, edition, browser, language, administrator policy, and staged rollout, implemented skills should detect capability availability before acting.
+
+- Prefer native editable Slides objects and reversible workflows. Use named versions before risky edits and verify real recipient access after sharing or publishing.
+
+Catalog Index
+
+1. File Lifecycle and Drive Operations (12 skills)
+
+2. Sharing, Permissions, and Collaboration (12 skills)
+
+3. Email, Links, Publishing, and Distribution (12 skills)
+
+4. Page Setup, Print, and Handouts (12 skills)
+
+5. Editing, Clipboard, and Selection (12 skills)
+
+6. View, Navigation, and Workspace Control (12 skills)
+
+7. Theme Builder, Masters, and Layouts (12 skills)
+
+8. Slides, Layouts, Backgrounds, and Ordering (12 skills)
+
+9. Text Boxes and Typography (12 skills)
+
+10. Images and Image Formatting (12 skills)
+
+11. Shapes, Word Art, and Visual Components (12 skills)
+
+12. Lines, Arrows, Curves, and Connectors (12 skills)
+
+13. Tables and Structured Content (12 skills)
+
+14. Charts and Linked Google Sheets Data (12 skills)
+
+15. Preset Diagrams and Custom Diagram Systems (12 skills)
+
+16. Arrange, Alignment, Distribution, and Layers (12 skills)
+
+17. Guides, Rulers, Snapping, and Precision (12 skills)
+
+18. Format Options and Object Effects (12 skills)
+
+19. Audio and Video (12 skills)
+
+20. Motion, Animation, and Transitions (12 skills)
+
+21. Presenter View and Live Delivery (12 skills)
+
+22. Accessibility and Inclusive Design (12 skills)
+
+23. Spelling, Dictionary, Voice Typing, and Preferences (12 skills)
+
+24. Linked Objects and Cross-File Workflows (12 skills)
+
+25. Apps Script and Automation (12 skills)
+
+26. Add-ons and Third-Party Integrations (12 skills)
+
+27. Import and PowerPoint Compatibility (12 skills)
+
+28. Export and Static Output (12 skills)
+
+29. Search, Help, Training, and Feature Discovery (12 skills)
+
+30. Quality Assurance and Regression (12 skills)
+
+31. Repair, Recovery, and Workarounds (12 skills)
+
+32. Security, Privacy, and Governance (12 skills)
+
+33. Localization and Multilingual Slides (12 skills)
+
+34. Evaluation, Benchmarking, and Skill Management (12 skills)
+
+Category 1: File Lifecycle and Drive Operations
+
+Category purpose: Control presentation files safely from creation through archiving.
+
+1. Skill Name: Presentation Creation Router
+
+  Description: Creates a new presentation in the correct Drive location, naming convention, ownership context, and page setup.
+
+2. Skill Name: Open and Recovery Handler
+
+  Description: Opens existing presentations, detects access or loading issues, and selects a safe recovery path.
+
+3. Skill Name: Slide Import Orchestrator
+
+  Description: Imports selected slides from another presentation while managing theme, layout, link, and duplicate-content implications.
+
+4. Skill Name: Presentation Copy Manager
+
+  Description: Creates full-file or selected-slide copies with explicit destination, sharing, and version intent.
+
+5. Skill Name: Drive Move and Rename Coordinator
+
+  Description: Moves and renames presentations while preserving links, ownership expectations, and dependent workflows.
+
+6. Skill Name: Offline Availability Planner
+
+  Description: Enables and verifies supported offline use, identifies unavailable online-only features, and prepares reconnection behavior.
+
+7. Skill Name: Version History Checkpoint Manager
+
+  Description: Names, inspects, restores, and copies versions before risky changes or large automation runs.
+
+8. Skill Name: Presentation Archive Builder
+
+  Description: Creates a clean archival package containing the approved presentation and required static exports.
+
+9. Skill Name: File Ownership Transfer Planner
+
+  Description: Evaluates ownership, shared-drive placement, permissions, and continuity before organizational handoff.
+
+10. Skill Name: Duplicate Deck Reconciler
+
+  Description: Compares near-duplicate presentations and selects, merges, or retires versions without losing approved work.
+
+11. Skill Name: Drive Location Policy Enforcer
+
+  Description: Checks that files reside in approved My Drive, shared drive, project, or class locations.
+
+12. Skill Name: Presentation Naming Standardizer
+
+  Description: Applies stable project, audience, date, status, and version naming without breaking discoverability.
+
+Category 2: Sharing, Permissions, and Collaboration
+
+Category purpose: Enable collaboration without exposing or blocking the work.
+
+1. Skill Name: Viewer Commenter Editor Policy Manager
+
+  Description: Assigns the least-permissive role that still supports each collaborator’s task.
+
+2. Skill Name: Link Sharing Risk Auditor
+
+  Description: Reviews domain, anyone-with-link, restricted, and public access settings before release.
+
+3. Skill Name: Collaborator Invitation Composer
+
+  Description: Invites collaborators with clear scope, expected action, deadline, and permission level.
+
+4. Skill Name: Live Coediting Coordinator
+
+  Description: Partitions slides or components so simultaneous editors avoid collisions and duplicate work.
+
+5. Skill Name: Presence and Edit Conflict Resolver
+
+  Description: Detects concurrent edits, resolves conflicting changes, and protects the last approved state.
+
+6. Skill Name: Comment Thread Manager
+
+  Description: Creates, replies to, resolves, and reopens comments while maintaining an actionable review trail.
+
+7. Skill Name: Assignment and Mention Router
+
+  Description: Assigns comments to responsible collaborators and verifies that mentions can access the file.
+
+8. Skill Name: Activity Dashboard Interpreter
+
+  Description: Uses permitted viewing activity to understand reach while respecting policy and privacy limits.
+
+9. Skill Name: External Collaborator Access Tester
+
+  Description: Verifies that recipients outside the organization can open the intended file and linked assets.
+
+10. Skill Name: Collaboration Freeze Controller
+
+  Description: Temporarily limits editing during final QA, export, or live delivery.
+
+11. Skill Name: Permission Inheritance Analyzer
+
+  Description: Checks shared-drive, folder, group, and file-level permission interactions.
+
+12. Skill Name: Review Completion Gate
+
+  Description: Confirms required comments, assignments, approvals, and unresolved issues before publication.
+
+Category 3: Email, Links, Publishing, and Distribution
+
+Category purpose: Deliver presentations through controlled channels.
+
+1. Skill Name: Collaborator Email Dispatcher
+
+  Description: Uses Slides email options to notify collaborators without exposing unintended recipients.
+
+2. Skill Name: Presentation Attachment Sender
+
+  Description: Sends the deck in an appropriate attachment format after checking size, compatibility, and sensitivity.
+
+3. Skill Name: Deep Link Builder
+
+  Description: Creates links to the presentation, a specific slide, a Drive file, an email address, or an approved website.
+
+4. Skill Name: Internal Slide Navigation Linker
+
+  Description: Builds next, previous, home, appendix, and section navigation using slide links.
+
+5. Skill Name: Publish-to-Web Privacy Auditor
+
+  Description: Distinguishes publishing from ordinary sharing and blocks accidental public exposure.
+
+6. Skill Name: Published Playback Configurator
+
+  Description: Sets advance intervals, looping, restart behavior, and embed parameters for published presentations.
+
+7. Skill Name: Embed Code Packager
+
+  Description: Produces a website-ready embed with dimensions, privacy notes, and responsive-container guidance.
+
+8. Skill Name: Distribution Format Selector
+
+  Description: Chooses editable Slides, PPTX, PDF, ODP, TXT, PNG, JPEG, or SVG according to recipient needs.
+
+9. Skill Name: Post-Publication Revocation Planner
+
+  Description: Removes or replaces published access and verifies that old distribution paths no longer expose content.
+
+10. Skill Name: QR and Short-Link Handoff Planner
+
+  Description: Creates a reliable audience access path while retaining the canonical unmodified URL in records.
+
+11. Skill Name: Audience Download Policy Manager
+
+  Description: Balances convenience, editability, and data protection when recipients need local copies.
+
+12. Skill Name: Distribution Integrity Tester
+
+  Description: Opens every shared, emailed, linked, published, or embedded route as the intended recipient.
+
+Category 4: Page Setup, Print, and Handouts
+
+Category purpose: Adapt the deck to screens, paper, and custom canvases.
+
+1. Skill Name: Aspect Ratio Selector
+
+  Description: Chooses 4:3, 16:9, 16:10, or custom dimensions based on display, platform, and output requirements.
+
+2. Skill Name: Custom Canvas Calculator
+
+  Description: Converts physical, pixel, and aspect-ratio requirements into valid Slides page dimensions.
+
+3. Skill Name: Page Resize Reflow Planner
+
+  Description: Predicts and repairs object shifts after changing page setup.
+
+4. Skill Name: Print Layout Configurator
+
+  Description: Selects one-slide, notes, or handout printing with correct orientation and background behavior.
+
+5. Skill Name: Skipped Slide Print Controller
+
+  Description: Determines whether skipped slides should appear in print or PDF workflows.
+
+6. Skill Name: Speaker Notes Print Preparer
+
+  Description: Cleans and formats notes so printed notes pages remain readable and appropriate.
+
+7. Skill Name: Handout Legibility Auditor
+
+  Description: Checks whether thumbnails, page margins, and annotations remain useful on paper.
+
+8. Skill Name: Grayscale Print Tester
+
+  Description: Verifies contrast and meaning when color output is unavailable.
+
+9. Skill Name: PDF Print Proof Generator
+
+  Description: Creates a static proof and inspects every page before physical printing.
+
+10. Skill Name: Custom Poster Slide Designer
+
+  Description: Uses custom dimensions for posters or signage while controlling effective image resolution.
+
+11. Skill Name: Social Canvas Variant Builder
+
+  Description: Creates square, portrait, or platform-specific derivatives without distorting the original.
+
+12. Skill Name: Print Cost and Ink Simplifier
+
+  Description: Reduces full-bleed backgrounds and unnecessary ink while preserving hierarchy.
+
+Category 5: Editing, Clipboard, and Selection
+
+Category purpose: Perform precise everyday edits with predictable results.
+
+1. Skill Name: Undo Redo State Guardian
+
+  Description: Uses reversible edit sequences and checkpoints to avoid losing valid work.
+
+2. Skill Name: Cut Copy Paste Controller
+
+  Description: Moves or duplicates objects and slides while preserving intended formatting and links.
+
+3. Skill Name: Paste Without Formatting Specialist
+
+  Description: Imports text cleanly into the destination theme and reapplies only required semantic emphasis.
+
+4. Skill Name: Rich Clipboard Compatibility Handler
+
+  Description: Works around browser clipboard permissions and unsupported rich-content transfers.
+
+5. Skill Name: Duplicate Object and Slide Manager
+
+  Description: Creates controlled duplicates that retain geometry but receive unique content and identifiers.
+
+6. Skill Name: Safe Delete Resolver
+
+  Description: Determines whether selected content should be deleted, skipped, archived, or restored from history.
+
+7. Skill Name: Select All Scope Interpreter
+
+  Description: Distinguishes selection inside text, on a slide, in the filmstrip, and across grouped objects.
+
+8. Skill Name: Tab Selection Navigator
+
+  Description: Uses keyboard object traversal to reach overlapped or difficult elements without a persistent Selection Pane.
+
+9. Skill Name: Click-Cycle Layer Selector
+
+  Description: Selects stacked objects through repeated clicking and layer-aware tactics.
+
+10. Skill Name: Find and Replace Operator
+
+  Description: Performs presentation-wide terminology updates while protecting URLs, formulas, names, and exceptions.
+
+11. Skill Name: Paint Format Replicator
+
+  Description: Copies compatible styling across text or objects without transferring unwanted content.
+
+12. Skill Name: Reset Layout Repair
+
+  Description: Reapplies placeholder geometry and formatting without deleting ordinary slide content.
+
+Category 6: View, Navigation, and Workspace Control
+
+Category purpose: Control the editor environment for efficient work.
+
+1. Skill Name: Filmstrip Workflow Optimizer
+
+  Description: Uses filmstrip view for sequence editing, section movement, and slide-level selection.
+
+2. Skill Name: Grid View Organizer
+
+  Description: Uses grid view to compare slide families, density, order, and visual consistency.
+
+3. Skill Name: Canvas Zoom Controller
+
+  Description: Chooses fit, percentage, and detail zoom levels for layout and precision tasks.
+
+4. Skill Name: Full-Screen Editing Manager
+
+  Description: Maximizes workspace while preserving access to essential controls and browser behavior.
+
+5. Skill Name: Ruler and Guide Visibility Controller
+
+  Description: Shows only the layout aids needed for the current precision task.
+
+6. Skill Name: Speaker Notes Visibility Manager
+
+  Description: Switches notes visibility according to writing, review, and final-delivery needs.
+
+7. Skill Name: Dynamic Toolbar Interpreter
+
+  Description: Adapts actions to selection-dependent controls and reduced-window toolbar changes.
+
+8. Skill Name: Context Menu Capability Explorer
+
+  Description: Uses object-specific right-click actions to expose otherwise hidden operations.
+
+9. Skill Name: Keyboard Shortcut Navigator
+
+  Description: Selects reliable shortcuts for creation, editing, arranging, and presentation tasks.
+
+10. Skill Name: Slide Overview Density Reviewer
+
+  Description: Scans the whole deck at thumbnail scale for abrupt density and style changes.
+
+11. Skill Name: Workspace State Restorer
+
+  Description: Returns panels, zoom, guides, and notes to an approved working configuration.
+
+12. Skill Name: Browser Environment Compatibility Checker
+
+  Description: Accounts for browser, operating system, extensions, and permission differences affecting Slides.
+
+Category 7: Theme Builder, Masters, and Layouts
+
+Category purpose: Build reusable presentation systems in Google Slides.
+
+1. Skill Name: Theme Builder Intake Auditor
+
+  Description: Inspects master backgrounds, layouts, placeholders, fonts, colors, and recurring objects.
+
+2. Skill Name: Master Background Designer
+
+  Description: Creates reusable master backgrounds that do not interfere with editable slide content.
+
+3. Skill Name: Layout Family Architect
+
+  Description: Defines the smallest complete set of title, section, content, media, comparison, diagram, and closing layouts.
+
+4. Skill Name: Placeholder Geometry Designer
+
+  Description: Positions title, subtitle, body, image, and other placeholders with consistent safe zones.
+
+5. Skill Name: Theme Font Mapper
+
+  Description: Assigns approved heading and body fonts with compatible fallbacks.
+
+6. Skill Name: Theme Color Tokenizer
+
+  Description: Maps brand and semantic colors into controlled theme roles.
+
+7. Skill Name: Recurring Object Manager
+
+  Description: Places logos, footer labels, legal marks, and navigation elements at the master level where appropriate.
+
+8. Skill Name: Layout Propagation Auditor
+
+  Description: Verifies how Theme builder changes affect slides using each layout.
+
+9. Skill Name: Layout Override Detector
+
+  Description: Finds slides whose local edits prevent expected theme propagation.
+
+10. Skill Name: Imported Theme Harmonizer
+
+  Description: Imports a theme and resolves mismatched fonts, colors, backgrounds, and placeholder behavior.
+
+11. Skill Name: Organization Theme Applicator
+
+  Description: Applies an approved organizational theme while preserving content and presentation intent.
+
+12. Skill Name: Template Starter Deck Builder
+
+  Description: Creates example slides demonstrating every approved layout and reusable component.
+
+Category 8: Slides, Layouts, Backgrounds, and Ordering
+
+Category purpose: Manage slide-level structure and state.
+
+1. Skill Name: New Slide Layout Chooser
+
+  Description: Creates each slide with the layout that best matches its content role.
+
+2. Skill Name: Apply Layout Migrator
+
+  Description: Changes a slide layout while preserving content and repairing displacement or placeholder mismatch.
+
+3. Skill Name: Slide Duplicate Refiner
+
+  Description: Duplicates a slide as a structural starting point and removes inherited content that should not persist.
+
+4. Skill Name: Slide Delete and Recovery Manager
+
+  Description: Deletes obsolete slides and protects recoverable history before irreversible cleanup.
+
+5. Skill Name: Skipped Slide Controller
+
+  Description: Uses skip state for optional, backup, or audience-specific slides and verifies print and export behavior.
+
+6. Skill Name: Slide Reorder Planner
+
+  Description: Moves slides by dependency, narrative, section, or delivery sequence.
+
+7. Skill Name: Move-to-Beginning or End Operator
+
+  Description: Repositions selected slides without disturbing internal section order.
+
+8. Skill Name: Background Color Designer
+
+  Description: Chooses background colors with adequate contrast and theme consistency.
+
+9. Skill Name: Background Image Manager
+
+  Description: Adds, replaces, resets, or promotes background images while maintaining legibility.
+
+10. Skill Name: Theme Application Impact Checker
+
+  Description: Previews and repairs changes caused by switching themes.
+
+11. Skill Name: Title Slide Exclusion Manager
+
+  Description: Controls whether numbering, footers, and recurring elements appear on the title slide.
+
+12. Skill Name: Slide State Inventory
+
+  Description: Records layout, background, skip state, transition, notes, links, and permissions relevant to each slide.
+
+Category 9: Text Boxes and Typography
+
+Category purpose: Create readable text with dependable fitting behavior.
+
+1. Skill Name: Freeform Text Box Builder
+
+  Description: Places editable text independently of placeholders with controlled geometry and reading order.
+
+2. Skill Name: Text Style System Designer
+
+  Description: Defines role-based font, size, weight, color, highlight, and capitalization rules.
+
+3. Skill Name: Bold Italic Underline Governance
+
+  Description: Uses emphasis consistently and prevents decorative or contradictory styling.
+
+4. Skill Name: Strikethrough Revision Communicator
+
+  Description: Uses strikethrough only when showing intentional removal or comparison.
+
+5. Skill Name: Superscript and Subscript Formatter
+
+  Description: Formats scientific, mathematical, legal, and reference notation correctly.
+
+6. Skill Name: Text Color and Highlight Controller
+
+  Description: Applies color and highlighting with sufficient contrast and semantic purpose.
+
+7. Skill Name: Alignment and Justification Advisor
+
+  Description: Chooses left, center, right, or justified text based on content and readability.
+
+8. Skill Name: Indent and List Hierarchy Builder
+
+  Description: Creates stable bullet and numbered-list levels with consistent spacing.
+
+9. Skill Name: Line and Paragraph Spacing Optimizer
+
+  Description: Balances line spacing and paragraph spacing for projection and dense content.
+
+10. Skill Name: Text Fitting Mode Selector
+
+  Description: Chooses overflow, shrink-on-overflow, or resize-shape-to-fit according to the component.
+
+11. Skill Name: Text Overflow Repair
+
+  Description: Detects clipping or unreadable shrinkage and repairs the layout before delivery.
+
+12. Skill Name: Text Box Padding Workaround
+
+  Description: Uses shape size, paragraph spacing, and line spacing to compensate for limited internal-margin controls.
+
+Category 10: Images and Image Formatting
+
+Category purpose: Use and transform image assets safely.
+
+1. Skill Name: Multi-Source Image Inserter
+
+  Description: Adds images from upload, Drive, Photos, camera, URL, or supported search sources with source tracking.
+
+2. Skill Name: Image Crop Specialist
+
+  Description: Crops images to emphasize relevant content while retaining recoverability.
+
+3. Skill Name: Shape Mask Designer
+
+  Description: Masks images into circles, rectangles, and other shapes without distorting the source.
+
+4. Skill Name: Image Replace Preserver
+
+  Description: Replaces an image while retaining the intended frame, crop, and layout where supported.
+
+5. Skill Name: Image Reset Operator
+
+  Description: Restores original image adjustments and crop when editing has degraded quality.
+
+6. Skill Name: Image Recolor Planner
+
+  Description: Uses recolor mappings to harmonize assets without obscuring information.
+
+7. Skill Name: Transparency Brightness Contrast Tuner
+
+  Description: Adjusts image appearance within ranges that preserve meaningful detail.
+
+8. Skill Name: Image Shadow and Reflection Auditor
+
+  Description: Uses effects sparingly and normalizes inconsistent settings.
+
+9. Skill Name: Image Rotation and Position Controller
+
+  Description: Sets exact dimensions, position, rotation, and aspect-ratio behavior.
+
+10. Skill Name: Image Quality and Resolution Inspector
+
+  Description: Detects insufficient source resolution, scaling artifacts, and compression damage.
+
+11. Skill Name: Image Alt Text Author
+
+  Description: Writes concise purpose-based title and description for screen-reader users.
+
+12. Skill Name: Image Source and Rights Recorder
+
+  Description: Tracks origin, license, creator, transformation, and required attribution.
+
+Category 11: Shapes, Word Art, and Visual Components
+
+Category purpose: Construct editable visual systems.
+
+1. Skill Name: Shape Library Selector
+
+  Description: Chooses appropriate shapes, arrows, callouts, equation shapes, and replacements.
+
+2. Skill Name: Solid and Gradient Fill Designer
+
+  Description: Applies fills with controlled color, transparency, and hierarchy.
+
+3. Skill Name: Border Style Controller
+
+  Description: Standardizes border color, weight, and dash by component role.
+
+4. Skill Name: Shape Replacement Operator
+
+  Description: Changes a shape type while preserving content and checking geometry.
+
+5. Skill Name: Callout Component Builder
+
+  Description: Creates editable callouts with clear target relationships and readable text.
+
+6. Skill Name: Equation Shape Composer
+
+  Description: Uses equation-oriented shapes for mathematical and scientific diagrams.
+
+7. Skill Name: Word Art Display Designer
+
+  Description: Creates stylized display text while avoiding inaccessible or compatibility-sensitive treatments.
+
+8. Skill Name: Reusable Card Builder
+
+  Description: Combines shapes and text into consistent editable cards.
+
+9. Skill Name: Badge and Label Generator
+
+  Description: Creates compact status, version, category, and owner labels.
+
+10. Skill Name: Visual Component Grouping Manager
+
+  Description: Groups multi-object components without preventing necessary edits.
+
+11. Skill Name: Shape Effect Consistency Auditor
+
+  Description: Normalizes shadows, reflections, transparency, and visual depth.
+
+12. Skill Name: Native Editability Preserver
+
+  Description: Prefers editable Slides objects over flattened composites when future changes are expected.
+
+Category 12: Lines, Arrows, Curves, and Connectors
+
+Category purpose: Explain relationships with precise line systems.
+
+1. Skill Name: Straight Line Builder
+
+  Description: Creates clean rules, separators, and simple relationships.
+
+2. Skill Name: Arrow Relationship Designer
+
+  Description: Sets start and end markers that accurately show direction.
+
+3. Skill Name: Elbow Connector Router
+
+  Description: Builds orthogonal connections that remain readable around rectangular components.
+
+4. Skill Name: Curved Connector Router
+
+  Description: Uses curved connections when orthogonal routes create excessive crossings.
+
+5. Skill Name: Curve and Polyline Illustrator
+
+  Description: Constructs custom paths for diagrams and annotated visuals.
+
+6. Skill Name: Scribble Annotation Controller
+
+  Description: Uses freehand marks only when appropriate for temporary or presenter-led emphasis.
+
+7. Skill Name: Line Color Weight Dash Tokenizer
+
+  Description: Defines stable line styles for hierarchy, state, dependency, and optional relationships.
+
+8. Skill Name: Connector Endpoint Validator
+
+  Description: Checks that connectors visually attach to their intended objects.
+
+9. Skill Name: Crossing Minimizer
+
+  Description: Reroutes lines and repositions components to reduce ambiguous intersections.
+
+10. Skill Name: Relationship Label Placer
+
+  Description: Positions labels near lines without collisions or detachment.
+
+11. Skill Name: Diagram Arrow Consistency Auditor
+
+  Description: Checks marker direction, size, color, and meaning across the deck.
+
+12. Skill Name: Connector Compatibility Tester
+
+  Description: Checks how line types and markers survive PPTX export and alternate viewing environments.
+
+Category 13: Tables and Structured Content
+
+Category purpose: Build and maintain editable presentation tables.
+
+1. Skill Name: Table Structure Designer
+
+  Description: Chooses row and column structure that fits the slide and audience.
+
+2. Skill Name: Row and Column Inserter
+
+  Description: Adds structural capacity without breaking alignment or header meaning.
+
+3. Skill Name: Row and Column Deletion Guard
+
+  Description: Removes data safely while preserving merged-cell and border logic.
+
+4. Skill Name: Cell Merge and Unmerge Manager
+
+  Description: Uses merged cells only when they improve hierarchical understanding.
+
+5. Skill Name: Cell Fill and Border Styler
+
+  Description: Applies table color and rules consistently with the theme.
+
+6. Skill Name: Horizontal and Vertical Alignment Controller
+
+  Description: Aligns text appropriately within cells.
+
+7. Skill Name: Row and Column Distribution Equalizer
+
+  Description: Creates consistent dimensions for comparable data.
+
+8. Skill Name: Table Typography Optimizer
+
+  Description: Controls font, paragraph, and spacing choices for projector readability.
+
+9. Skill Name: Large Table Splitter
+
+  Description: Divides oversized tables across slides with repeated context and headers.
+
+10. Skill Name: Table-to-Chart Recommender
+
+  Description: Identifies when a chart or cards would communicate the pattern more clearly.
+
+11. Skill Name: Table Accessibility Companion
+
+  Description: Creates a logical text summary and avoids visually complex structures where possible.
+
+12. Skill Name: Table Export Fidelity Tester
+
+  Description: Checks borders, merges, fonts, and spacing after PPTX and PDF export.
+
+Category 14: Charts and Linked Google Sheets Data
+
+Category purpose: Keep data visuals accurate and updateable.
+
+1. Skill Name: Native Chart Inserter
+
+  Description: Creates bar, column, line, or pie charts with the correct analytical purpose.
+
+2. Skill Name: Linked Sheets Chart Inserter
+
+  Description: Adds a chart linked to its source spreadsheet and records the source relationship.
+
+3. Skill Name: Linked Chart Update Manager
+
+  Description: Refreshes linked charts and verifies that source changes are intended.
+
+4. Skill Name: Chart Unlink Decision Maker
+
+  Description: Unlinks only when a static snapshot is required and provenance is preserved.
+
+5. Skill Name: Chart Editing Handoff to Sheets
+
+  Description: Routes chart design and data changes to Google Sheets, then refreshes Slides.
+
+6. Skill Name: Chart Type Integrity Auditor
+
+  Description: Checks that the chosen chart type fits the comparison, trend, composition, or distribution.
+
+7. Skill Name: Axis Scale and Unit Auditor
+
+  Description: Checks baselines, intervals, units, dates, and numeric formats.
+
+8. Skill Name: Chart Label Density Optimizer
+
+  Description: Removes unnecessary labels and emphasizes the intended finding.
+
+9. Skill Name: Series Color Consistency Manager
+
+  Description: Uses stable theme-aware colors across linked and native charts.
+
+10. Skill Name: Chart Source Freshness Monitor
+
+  Description: Flags stale linked objects and records the last refresh state.
+
+11. Skill Name: Chart Accessibility Summary Writer
+
+  Description: Adds a concise description of the key pattern and important values.
+
+12. Skill Name: Chart Export Parity Tester
+
+  Description: Checks whether chart appearance changes in PPTX, PDF, and published playback.
+
+Category 15: Preset Diagrams and Custom Diagram Systems
+
+Category purpose: Use built-in diagrams and extend beyond presets.
+
+1. Skill Name: Process Diagram Generator
+
+  Description: Creates and refines preset process structures with suitable levels and colors.
+
+2. Skill Name: Hierarchy Diagram Generator
+
+  Description: Builds organization, classification, and dependency hierarchies.
+
+3. Skill Name: Timeline Diagram Generator
+
+  Description: Creates preset timelines and adjusts labels, levels, spacing, and color.
+
+4. Skill Name: Relationship Diagram Generator
+
+  Description: Builds relationship structures and clarifies direction and meaning.
+
+5. Skill Name: Cycle Diagram Generator
+
+  Description: Creates recurring-process diagrams with clear entry, exit, and feedback logic.
+
+6. Skill Name: Grid Diagram Generator
+
+  Description: Uses grid presets for categories, matrices, or modular comparisons.
+
+7. Skill Name: Preset Diagram Decomposer
+
+  Description: Edits individual generated elements after insertion while preserving consistency.
+
+8. Skill Name: Diagram Level Selector
+
+  Description: Chooses the minimum number of levels needed for comprehension.
+
+9. Skill Name: Diagram Color Harmonizer
+
+  Description: Maps preset colors into the deck theme and accessibility requirements.
+
+10. Skill Name: Custom Diagram Upgrade Planner
+
+  Description: Replaces preset structures with custom editable shapes when the preset cannot express the needed logic.
+
+11. Skill Name: Diagram Legend Builder
+
+  Description: Explains symbol, color, line, and abbreviation meanings.
+
+12. Skill Name: Diagram Text Alternative Writer
+
+  Description: Creates a structured nonvisual description of the diagram.
+
+Category 16: Arrange, Alignment, Distribution, and Layers
+
+Category purpose: Control spatial relationships and stacking.
+
+1. Skill Name: Bring-to-Front Operator
+
+  Description: Moves selected objects to the top only when the visual hierarchy requires it.
+
+2. Skill Name: Bring-Forward Operator
+
+  Description: Moves an object one layer while preserving intentional overlays.
+
+3. Skill Name: Send-Backward Operator
+
+  Description: Moves an object one layer to resolve overlap without hiding it completely.
+
+4. Skill Name: Send-to-Back Operator
+
+  Description: Places backgrounds and supporting elements behind interactive content.
+
+5. Skill Name: Edge Alignment Manager
+
+  Description: Aligns selected objects left, right, top, or bottom.
+
+6. Skill Name: Center and Middle Alignment Manager
+
+  Description: Aligns object centers horizontally or vertically.
+
+7. Skill Name: Horizontal Distribution Equalizer
+
+  Description: Creates consistent horizontal spacing among three or more objects.
+
+8. Skill Name: Vertical Distribution Equalizer
+
+  Description: Creates consistent vertical spacing among three or more objects.
+
+9. Skill Name: Center-on-Page Operator
+
+  Description: Centers selected objects on the slide horizontally or vertically.
+
+10. Skill Name: Rotate and Flip Controller
+
+  Description: Rotates 90 degrees or flips objects while checking text, arrows, and semantics.
+
+11. Skill Name: Group and Ungroup Manager
+
+  Description: Groups coherent components and ungroups only when component-level edits are required.
+
+12. Skill Name: Layer Collision Auditor
+
+  Description: Detects hidden objects, covered links, inaccessible content, and accidental overlaps.
+
+Category 17: Guides, Rulers, Snapping, and Precision
+
+Category purpose: Create repeatable precise layouts despite editor limits.
+
+1. Skill Name: Guide System Designer
+
+  Description: Adds guides for margins, title zones, columns, baselines, gutters, and footer zones.
+
+2. Skill Name: Guide Editor
+
+  Description: Moves and removes guides while preserving approved layout geometry.
+
+3. Skill Name: Snap-to-Guide Layout Builder
+
+  Description: Positions objects against stable guide intersections.
+
+4. Skill Name: Snap-to-Object Alignment User
+
+  Description: Uses visual alignment indicators for local object relationships.
+
+5. Skill Name: Ruler-Based Text Indent Controller
+
+  Description: Sets list and paragraph indents with the ruler.
+
+6. Skill Name: Arrow-Key Nudge Operator
+
+  Description: Uses fine movement for precise object positioning.
+
+7. Skill Name: Large-Step Nudge Operator
+
+  Description: Uses supported modifier-key movement for faster controlled repositioning.
+
+8. Skill Name: Exact Size and Position Setter
+
+  Description: Applies width, height, X, Y, and rotation values where exposed.
+
+9. Skill Name: Aspect Ratio Lock Manager
+
+  Description: Preserves image and object proportions during resizing.
+
+10. Skill Name: Optical Alignment Corrector
+
+  Description: Applies small perceptual corrections after geometric alignment.
+
+11. Skill Name: Guide Template Exporter
+
+  Description: Documents approved guide coordinates for reuse across decks.
+
+12. Skill Name: Precision Regression Auditor
+
+  Description: Finds elements that have drifted from guides or repeated measurements.
+
+Category 18: Format Options and Object Effects
+
+Category purpose: Use detailed formatting controls deliberately.
+
+1. Skill Name: Size and Rotation Panel Operator
+
+  Description: Sets exact object dimensions, angle, and aspect-ratio constraints.
+
+2. Skill Name: Position Panel Operator
+
+  Description: Sets precise X and Y placement and verifies coordinate assumptions.
+
+3. Skill Name: Drop Shadow Designer
+
+  Description: Controls shadow color, transparency, angle, distance, and blur radius.
+
+4. Skill Name: Shadow Restraint Auditor
+
+  Description: Removes inconsistent or unnecessary shadows that reduce clarity.
+
+5. Skill Name: Reflection Designer
+
+  Description: Controls reflection transparency, distance, and size where supported.
+
+6. Skill Name: Reflection Compatibility Auditor
+
+  Description: Flags reflections likely to render inconsistently or harm readability.
+
+7. Skill Name: Recolor Mapping Specialist
+
+  Description: Applies image recolor options and checks information loss.
+
+8. Skill Name: Image Adjustment Tuner
+
+  Description: Balances transparency, brightness, and contrast with objective visual checks.
+
+9. Skill Name: Alt Text Panel Operator
+
+  Description: Adds and verifies accessibility title and description fields.
+
+10. Skill Name: Object-Type Option Router
+
+  Description: Selects formatting actions based on whether the selection is text, shape, image, table, chart, audio, or video.
+
+11. Skill Name: Format Reset Specialist
+
+  Description: Returns damaged objects to a clean baseline before reapplying controlled styles.
+
+12. Skill Name: Cross-Object Style Normalizer
+
+  Description: Aligns effect settings among objects serving the same role.
+
+Category 19: Audio and Video
+
+Category purpose: Create media slides that work during real delivery.
+
+1. Skill Name: Drive Audio Inserter
+
+  Description: Selects supported audio from Drive and verifies access for the audience context.
+
+2. Skill Name: Audio Start Behavior Configurator
+
+  Description: Sets click or automatic start behavior when available.
+
+3. Skill Name: Audio Volume and Loop Controller
+
+  Description: Configures volume, looping, and stop-on-slide-change behavior.
+
+4. Skill Name: Audio Icon Visibility Designer
+
+  Description: Shows, hides, recolors, sizes, and positions the audio icon intentionally.
+
+5. Skill Name: YouTube Video Inserter
+
+  Description: Embeds an approved YouTube video and verifies availability and playback context.
+
+6. Skill Name: Drive Video Inserter
+
+  Description: Embeds Drive video with correct sharing permissions.
+
+7. Skill Name: Video Start End Trimmer
+
+  Description: Sets start and end times to the relevant segment.
+
+8. Skill Name: Video Autoplay and Mute Controller
+
+  Description: Configures playback behavior without surprising the audience.
+
+9. Skill Name: Video Frame and Shadow Designer
+
+  Description: Sizes, positions, and styles the visual video container.
+
+10. Skill Name: Media Permission Tester
+
+  Description: Tests playback as a recipient rather than only as the owner.
+
+11. Skill Name: Media Failure Fallback Builder
+
+  Description: Provides a local file, link, screenshot sequence, summary, or transcript.
+
+12. Skill Name: Media Export Limitation Reporter
+
+  Description: Explains and mitigates loss of interactivity in PDF, image, or PPTX outputs.
+
+Category 20: Motion, Animation, and Transitions
+
+Category purpose: Use movement to explain rather than distract.
+
+1. Skill Name: Slide Transition Selector
+
+  Description: Chooses a restrained transition appropriate to the narrative and environment.
+
+2. Skill Name: Apply-to-All Transition Manager
+
+  Description: Applies one transition consistently and audits exceptions.
+
+3. Skill Name: Transition Timing Controller
+
+  Description: Sets advance behavior and timing for manual, autoplay, or published playback.
+
+4. Skill Name: Entrance Animation Designer
+
+  Description: Reveals objects in a meaningful order.
+
+5. Skill Name: Exit Animation Designer
+
+  Description: Removes content only when disappearance communicates process or focus.
+
+6. Skill Name: Emphasis Animation Designer
+
+  Description: Highlights an object without creating unnecessary motion.
+
+7. Skill Name: On-Click Sequence Builder
+
+  Description: Creates presenter-controlled builds.
+
+8. Skill Name: After-Previous Sequence Builder
+
+  Description: Creates timed dependent animation chains.
+
+9. Skill Name: With-Previous Sequence Builder
+
+  Description: Coordinates simultaneous animations.
+
+10. Skill Name: Animation Order Auditor
+
+  Description: Checks object order, trigger logic, speed, and narrative coherence.
+
+11. Skill Name: Motion Accessibility Auditor
+
+  Description: Flags flashing, rapid movement, or essential information available only through motion.
+
+12. Skill Name: Animation Export Compatibility Tester
+
+  Description: Checks how motion survives PPTX export, publishing, recording, and static formats.
+
+Category 21: Presenter View and Live Delivery
+
+Category purpose: Operate the presentation confidently in front of an audience.
+
+1. Skill Name: Presenter View Launcher
+
+  Description: Opens separate presenter and audience windows with the correct display arrangement.
+
+2. Skill Name: Speaker Notes Delivery Manager
+
+  Description: Uses notes as prompts without exposing author-only content.
+
+3. Skill Name: Presentation Timer Operator
+
+  Description: Tracks elapsed and remaining time against the delivery plan.
+
+4. Skill Name: Slide Navigation Controller
+
+  Description: Moves directly or sequentially without revealing unintended slides.
+
+5. Skill Name: Live Caption Configurator
+
+  Description: Enables supported automatic captions and verifies microphone, browser, language, and account conditions.
+
+6. Skill Name: Laser Pointer Operator
+
+  Description: Uses the pointer to guide attention without altering slide content.
+
+7. Skill Name: Pen Annotation Operator
+
+  Description: Uses temporary pen marks appropriately and manages whether annotations persist.
+
+8. Skill Name: Audience Q-and-A Moderator
+
+  Description: Enables, communicates, reviews, and responds to audience questions.
+
+9. Skill Name: Q-and-A History Manager
+
+  Description: Reviews and manages prior audience questions where available.
+
+10. Skill Name: Presenter Display Failure Recovery
+
+  Description: Recovers from wrong-screen, window, network, or full-screen issues.
+
+11. Skill Name: Live Media Playback Rehearsal
+
+  Description: Tests network, permissions, volume, captions, start time, and fallback before presenting.
+
+12. Skill Name: Delivery Runbook Builder
+
+  Description: Creates a concise sequence for setup, start, interaction, failure recovery, and shutdown.
+
+Category 22: Accessibility and Inclusive Design
+
+Category purpose: Make Google Slides usable by more people.
+
+1. Skill Name: Screen Reader Support Configurator
+
+  Description: Enables supported screen-reader features and verifies editor and presentation behavior.
+
+2. Skill Name: Braille Support Configurator
+
+  Description: Enables braille support where available and tests navigation expectations.
+
+3. Skill Name: Accessibility Announcement Interpreter
+
+  Description: Uses editor announcements to understand selection and action state.
+
+4. Skill Name: Keyboard Navigation Auditor
+
+  Description: Confirms that core editing and presentation actions can be completed without a mouse.
+
+5. Skill Name: Object Reading Order Planner
+
+  Description: Uses object creation and layer order to support a logical assistive-technology reading sequence.
+
+6. Skill Name: Alt Text Coverage Auditor
+
+  Description: Finds informative images and objects missing accessible descriptions.
+
+7. Skill Name: Color Contrast Checker
+
+  Description: Checks text and essential graphics for sufficient contrast.
+
+8. Skill Name: Color Independence Checker
+
+  Description: Ensures that meaning is not communicated by color alone.
+
+9. Skill Name: Caption Availability Planner
+
+  Description: Provides live captions, prepared captions, transcript, or summary as appropriate.
+
+10. Skill Name: Accessible Link Text Writer
+
+  Description: Uses descriptive link labels instead of raw or ambiguous URLs.
+
+11. Skill Name: Accessible Table and Chart Companion
+
+  Description: Adds concise summaries for structured and quantitative visuals.
+
+12. Skill Name: Accessibility Exception Reporter
+
+  Description: Documents limitations, impact, mitigation, and an accessible alternative.
+
+Category 23: Spelling, Dictionary, Voice Typing, and Preferences
+
+Category purpose: Improve language quality and authoring efficiency.
+
+1. Skill Name: Presentation Spelling Auditor
+
+  Description: Runs spell check and distinguishes real errors from domain terms.
+
+2. Skill Name: Ignored Word Governance
+
+  Description: Manages approved product names, abbreviations, and specialized words.
+
+3. Skill Name: Dictionary Lookup Assistant
+
+  Description: Uses available definitions to resolve word meaning and consistency.
+
+4. Skill Name: Speaker Notes Voice Typing Operator
+
+  Description: Dictates notes in supported browser and language conditions.
+
+5. Skill Name: Voice Typing Cleanup Editor
+
+  Description: Corrects punctuation, terminology, and recognition errors after dictation.
+
+6. Skill Name: Automatic Substitution Manager
+
+  Description: Configures substitutions that improve typing without corrupting code, names, or notation.
+
+7. Skill Name: Smart Quote and Symbol Preference Auditor
+
+  Description: Checks automatic character changes for compatibility and meaning.
+
+8. Skill Name: Language Proofing Setter
+
+  Description: Applies the appropriate language for spelling and accessibility.
+
+9. Skill Name: Terminology Consistency Checker
+
+  Description: Finds inconsistent names, capitalization, abbreviations, and labels.
+
+10. Skill Name: Find-and-Replace Proofing Companion
+
+  Description: Performs controlled global corrections with exception review.
+
+11. Skill Name: Speaker Note Script Editor
+
+  Description: Transforms dictated notes into concise delivery cues.
+
+12. Skill Name: Language Quality Gate
+
+  Description: Blocks release when visible text still contains unresolved spelling or terminology defects.
+
+Category 24: Linked Objects and Cross-File Workflows
+
+Category purpose: Maintain live relationships across Google Workspace files.
+
+1. Skill Name: Linked Object Inventory
+
+  Description: Lists linked charts, tables, and slides with their source files.
+
+2. Skill Name: Linked Object Refresh Coordinator
+
+  Description: Updates linked objects and verifies each changed result.
+
+3. Skill Name: Source Permission Validator
+
+  Description: Confirms editors and recipients have appropriate access to linked sources.
+
+4. Skill Name: Stale Link Detector
+
+  Description: Flags linked content that has not been refreshed or whose source changed unexpectedly.
+
+5. Skill Name: Linked Slide Import Manager
+
+  Description: Imports slides while deciding whether to preserve source-theme links or use destination styling.
+
+6. Skill Name: Link Break Impact Analyzer
+
+  Description: Explains what editability, freshness, and provenance are lost when unlinking.
+
+7. Skill Name: Source File Move Recovery
+
+  Description: Repairs or replaces relationships after source files move, duplicate, or change ownership.
+
+8. Skill Name: Cross-File Version Checkpoint
+
+  Description: Coordinates named versions across Slides and linked Sheets before a release.
+
+9. Skill Name: Linked Data Approval Gate
+
+  Description: Requires source owner approval and refresh verification for high-impact data.
+
+10. Skill Name: Static Snapshot Producer
+
+  Description: Creates a deliberate static copy with source date and provenance.
+
+11. Skill Name: Cross-Workspace Link Auditor
+
+  Description: Checks organization and sharing boundaries that may block updates.
+
+12. Skill Name: Linked Object Failure Fallback
+
+  Description: Replaces broken live content with a verified snapshot and documented source.
+
+Category 25: Apps Script and Automation
+
+Category purpose: Automate Slides with explicit interfaces and safeguards.
+
+1. Skill Name: Apps Script Presentation Creator
+
+  Description: Creates presentations, slides, and elements from structured input.
+
+2. Skill Name: Custom Menu Builder
+
+  Description: Adds a clear custom menu for approved automation actions.
+
+3. Skill Name: Dialog and Sidebar Builder
+
+  Description: Creates task-focused interfaces for user input, preview, and status.
+
+4. Skill Name: Batch Text Style Applier
+
+  Description: Applies role-based typography across selected slides or the whole deck.
+
+5. Skill Name: Batch Position and Size Normalizer
+
+  Description: Sets element geometry from reusable layout tokens.
+
+6. Skill Name: Background Automation Manager
+
+  Description: Applies approved backgrounds by slide family or section.
+
+7. Skill Name: Slide Content Generator
+
+  Description: Creates slides from rows, forms, documents, or structured data while preserving editability.
+
+8. Skill Name: Linked Service Integrator
+
+  Description: Connects Slides workflows to Drive, Sheets, Docs, Forms, Gmail, Calendar, or approved APIs.
+
+9. Skill Name: Trigger Safety Designer
+
+  Description: Uses manual, time-driven, or event triggers without causing duplicate or unauthorized changes.
+
+10. Skill Name: Quota and Runtime Planner
+
+  Description: Designs automation around Apps Script execution time, service quotas, and batch size.
+
+11. Skill Name: API Coverage Workaround Planner
+
+  Description: Detects editor features not exposed by Apps Script and selects a safe manual or alternate route.
+
+12. Skill Name: Idempotent Slides Automation
+
+  Description: Ensures repeated runs update intended elements instead of duplicating or drifting them.
+
+Category 26: Add-ons and Third-Party Integrations
+
+Category purpose: Extend Slides while controlling dependencies.
+
+1. Skill Name: Marketplace Add-on Evaluator
+
+  Description: Reviews publisher, permissions, data handling, support, and fit before installation.
+
+2. Skill Name: Add-on Installation Manager
+
+  Description: Installs and configures approved add-ons at user or organizational scope.
+
+3. Skill Name: Add-on Permission Auditor
+
+  Description: Checks OAuth scopes and blocks excessive access.
+
+4. Skill Name: Stock Media Add-on Operator
+
+  Description: Uses approved media libraries while preserving licensing and attribution.
+
+5. Skill Name: Diagram Add-on Operator
+
+  Description: Creates specialized diagrams and tests editability and export behavior.
+
+6. Skill Name: Brand System Add-on Integrator
+
+  Description: Applies governed templates and assets without overriding necessary local content.
+
+7. Skill Name: AI Generation Add-on Reviewer
+
+  Description: Evaluates generated text or visuals for accuracy, rights, privacy, and style consistency.
+
+8. Skill Name: Chart and Data Add-on Integrator
+
+  Description: Connects approved data sources and validates refresh behavior.
+
+9. Skill Name: Publishing Add-on Operator
+
+  Description: Uses supported publishing workflows with privacy and accessibility checks.
+
+10. Skill Name: Add-on Failure Isolation
+
+  Description: Disables or replaces malfunctioning extensions without damaging the deck.
+
+11. Skill Name: Dependency Exit Planner
+
+  Description: Maintains a path to editable native content if an add-on is removed.
+
+12. Skill Name: Third-Party Integration Register
+
+  Description: Records purpose, owner, version, permissions, data access, and deprecation plan.
+
+Category 27: Import and PowerPoint Compatibility
+
+Category purpose: Exchange files without hidden damage.
+
+1. Skill Name: PPTX Import Preflight
+
+  Description: Inspects fonts, masters, animations, media, diagrams, macros, and links before import.
+
+2. Skill Name: Imported Font Substitution Auditor
+
+  Description: Finds font replacements and resulting text reflow.
+
+3. Skill Name: PowerPoint Layout Mapping Repair
+
+  Description: Maps imported masters and placeholders to workable Google Slides layouts.
+
+4. Skill Name: Animation Compatibility Reviewer
+
+  Description: Identifies motion effects that were simplified, removed, or reordered.
+
+5. Skill Name: Media Compatibility Reviewer
+
+  Description: Checks whether imported audio and video remain accessible and playable.
+
+6. Skill Name: Macro Loss Reporter
+
+  Description: Detects macro-enabled workflows that cannot operate in Google Slides.
+
+7. Skill Name: Diagram Editability Auditor
+
+  Description: Determines whether imported diagrams remain native, grouped, or flattened.
+
+8. Skill Name: Spacing and Pagination Comparator
+
+  Description: Compares imported slide renders to the source PPTX.
+
+9. Skill Name: PPTX Export Preflight
+
+  Description: Simplifies or documents features likely to change when exported back to PowerPoint.
+
+10. Skill Name: Round-Trip Fidelity Tester
+
+  Description: Imports, exports, reopens, and visually compares representative slides.
+
+11. Skill Name: ODP Compatibility Planner
+
+  Description: Tests structure, typography, media, and formatting when exchanging OpenDocument presentations.
+
+12. Skill Name: Compatibility Exception Report
+
+  Description: Documents unavoidable differences and provides a static reference export.
+
+Category 28: Export and Static Output
+
+Category purpose: Produce dependable PDF, image, text, and office outputs.
+
+1. Skill Name: PPTX Exporter
+
+  Description: Exports an editable PowerPoint copy and tests layout, fonts, media, links, animation, and notes.
+
+2. Skill Name: ODP Exporter
+
+  Description: Produces an OpenDocument Presentation and checks cross-suite behavior.
+
+3. Skill Name: PDF Exporter
+
+  Description: Creates a static PDF and verifies every rendered page.
+
+4. Skill Name: Plain Text Exporter
+
+  Description: Exports presentation text for review, indexing, or accessibility workflows.
+
+5. Skill Name: PNG Current-Slide Exporter
+
+  Description: Creates a high-quality raster image of the selected slide.
+
+6. Skill Name: JPEG Current-Slide Exporter
+
+  Description: Creates a smaller photographic raster export when appropriate.
+
+7. Skill Name: SVG Current-Slide Exporter
+
+  Description: Creates a vector current-slide export where the interface supports it.
+
+8. Skill Name: Notes and Handout PDF Producer
+
+  Description: Generates static notes or handout layouts through the print workflow.
+
+9. Skill Name: Interactive Feature Loss Mapper
+
+  Description: Lists links, animation, media, Q&A, comments, and live data lost in static output.
+
+10. Skill Name: Export Filename and Version Manager
+
+  Description: Names outputs consistently by project, audience, locale, date, and version.
+
+11. Skill Name: Export Visual Regression Tester
+
+  Description: Compares the exported artifact with Slides playback and editor renders.
+
+12. Skill Name: Recipient Format Bundle Builder
+
+  Description: Packages the minimum correct set of editable and static outputs for the recipient.
+
+Category 29: Search, Help, Training, and Feature Discovery
+
+Category purpose: Find reliable routes through a changing product.
+
+1. Skill Name: Slides Help Query Builder
+
+  Description: Searches official help using the exact task, object type, account context, and interface wording.
+
+2. Skill Name: Keyboard Shortcut Reference User
+
+  Description: Finds and applies the correct shortcut for the active browser and operating system.
+
+3. Skill Name: Feature Update Monitor
+
+  Description: Checks newly released or staged features before assuming availability.
+
+4. Skill Name: Training Resource Curator
+
+  Description: Selects concise official learning resources for the required workflow.
+
+5. Skill Name: Report-a-Problem Composer
+
+  Description: Creates a reproducible issue report with environment, steps, expected result, and observed result.
+
+6. Skill Name: Interface Rename Resolver
+
+  Description: Maps older feature names to current controls without guessing.
+
+7. Skill Name: Account Entitlement Checker
+
+  Description: Distinguishes standard, Workspace edition, administrator, and rollout-dependent availability.
+
+8. Skill Name: Regional and Language Variation Interpreter
+
+  Description: Accounts for controls that differ by locale, language, or region.
+
+9. Skill Name: Mobile versus Web Capability Router
+
+  Description: Chooses the web editor or mobile app according to feature availability.
+
+10. Skill Name: Dynamic Interface Locator
+
+  Description: Finds controls hidden by selection state, window width, or contextual menus.
+
+11. Skill Name: Official Documentation Freshness Checker
+
+  Description: Prefers current product documentation for changing behavior.
+
+12. Skill Name: Feature Fallback Recommender
+
+  Description: Provides an alternate route when a control is unavailable in the user’s environment.
+
+Category 30: Quality Assurance and Regression
+
+Category purpose: Verify the result rather than trusting the edit.
+
+1. Skill Name: Slide-by-Slide Render Inspector
+
+  Description: Reviews every slide for clipping, overlap, missing assets, unreadable text, and inconsistent effects.
+
+2. Skill Name: Presentation Playback Walkthrough
+
+  Description: Tests slide order, skipped slides, links, motion, media, captions, and presenter controls end to end.
+
+3. Skill Name: Theme Propagation Test
+
+  Description: Checks representative slides after master, layout, font, color, or background changes.
+
+4. Skill Name: Text Overflow and Shrink Test
+
+  Description: Finds overflow and text reduced below readable thresholds.
+
+5. Skill Name: Alignment and Distribution Test
+
+  Description: Checks repeated objects against guides and spacing tokens.
+
+6. Skill Name: Linked Object Freshness Test
+
+  Description: Verifies all linked charts, tables, and slides are current.
+
+7. Skill Name: Sharing and Recipient Access Test
+
+  Description: Opens the deck, links, and media using recipient-equivalent permissions.
+
+8. Skill Name: Export Fidelity Test
+
+  Description: Compares Slides with PPTX, PDF, ODP, and image outputs.
+
+9. Skill Name: Accessibility QA Test
+
+  Description: Checks alt text, reading order, contrast, captions, keyboard operation, and language.
+
+10. Skill Name: Performance and Load Test
+
+  Description: Identifies oversized media, excessive objects, or add-ons that slow editing and playback.
+
+11. Skill Name: Clean Browser Test
+
+  Description: Tests essential workflows in a supported browser profile without local assumptions.
+
+12. Skill Name: Defect Queue Prioritizer
+
+  Description: Ranks issues by audience impact, frequency, recoverability, and release risk.
+
+Category 31: Repair, Recovery, and Workarounds
+
+Category purpose: Recover from editor and compatibility limitations.
+
+1. Skill Name: Named Version Rollback
+
+  Description: Restores a known-good version and preserves the failed state for diagnosis.
+
+2. Skill Name: Broken Layout Recovery
+
+  Description: Reapplies or rebuilds a damaged layout without deleting ordinary content.
+
+3. Skill Name: Clipboard Failure Workaround
+
+  Description: Uses alternate paste, import, download, or browser routes when rich clipboard behavior fails.
+
+4. Skill Name: Missing Feature Workaround
+
+  Description: Combines native controls, Apps Script, add-ons, or static alternatives when a feature is unavailable.
+
+5. Skill Name: Selection Pane Limitation Workaround
+
+  Description: Uses Tab order, click cycling, grouping, ordering, and temporary movement to manage layers.
+
+6. Skill Name: Text Padding Limitation Workaround
+
+  Description: Uses geometry and paragraph spacing to simulate controlled internal margins.
+
+7. Skill Name: Broken Linked Object Recovery
+
+  Description: Reconnects, replaces, updates, or snapshots unavailable linked content.
+
+8. Skill Name: Media Playback Recovery
+
+  Description: Repairs access, source, format, timing, or network conditions and supplies a fallback.
+
+9. Skill Name: Font Reflow Repair
+
+  Description: Substitutes fonts and repairs changed line breaks, overflow, and alignment.
+
+10. Skill Name: Import Damage Repair
+
+  Description: Rebuilds unsupported PowerPoint features using native Slides elements.
+
+11. Skill Name: Browser-Specific Failure Isolation
+
+  Description: Reproduces the issue in a clean supported browser and identifies extension or permission causes.
+
+12. Skill Name: Smallest Responsible Repair
+
+  Description: Changes only the earliest confirmed cause and reruns dependent quality checks.
+
+Category 32: Security, Privacy, and Governance
+
+Category purpose: Keep content, access, and integrations controlled.
+
+1. Skill Name: Public Publishing Gate
+
+  Description: Requires explicit approval before Publish to web or public sharing.
+
+2. Skill Name: Sensitive Slide Scanner
+
+  Description: Finds personal data, credentials, internal URLs, confidential numbers, and restricted images.
+
+3. Skill Name: Speaker Notes Privacy Auditor
+
+  Description: Finds author-only or sensitive notes before sharing and export.
+
+4. Skill Name: Comment Privacy Auditor
+
+  Description: Reviews unresolved and resolved discussion for information that should not leave the team.
+
+5. Skill Name: Version History Exposure Reviewer
+
+  Description: Considers whether past content remains visible to editors with version access.
+
+6. Skill Name: Third-Party OAuth Governance
+
+  Description: Approves add-on and script permissions according to least privilege.
+
+7. Skill Name: Published Embed Inventory
+
+  Description: Tracks where public embeds exist and who owns retirement.
+
+8. Skill Name: External Link Security Checker
+
+  Description: Reviews target domains, redirects, permissions, and link purpose.
+
+9. Skill Name: Drive Media Sharing Auditor
+
+  Description: Ensures embedded audio and video permissions match presentation access.
+
+10. Skill Name: Data Minimization Packager
+
+  Description: Includes only required slides, notes, files, and recipient permissions.
+
+11. Skill Name: External Redacted Copy Builder
+
+  Description: Creates a separate verified external version rather than covering sensitive content visually.
+
+12. Skill Name: Governed Release Gate
+
+  Description: Blocks release until access, privacy, accessibility, sources, and final-state checks pass.
+
+Category 33: Localization and Multilingual Slides
+
+Category purpose: Adapt content and layout for languages and regions.
+
+1. Skill Name: Slide Text Extraction for Translation
+
+  Description: Extracts text with slide, object, note, and placeholder context.
+
+2. Skill Name: Terminology-Controlled Translator
+
+  Description: Uses an approved glossary for product, technical, academic, or organizational terms.
+
+3. Skill Name: Text Expansion Reflow Manager
+
+  Description: Repairs layouts after translation changes text length.
+
+4. Skill Name: Right-to-Left Layout Adapter
+
+  Description: Adjusts paragraph direction, alignment, object order, and visual flow for RTL languages.
+
+5. Skill Name: CJK Font and Line Break Adapter
+
+  Description: Selects suitable fonts and punctuation behavior for Chinese, Japanese, and Korean.
+
+6. Skill Name: Locale Number and Date Formatter
+
+  Description: Adapts dates, time, decimal separators, currency, and measurement units.
+
+7. Skill Name: Multilingual Font Coverage Tester
+
+  Description: Confirms all target glyphs render in Slides and exported formats.
+
+8. Skill Name: Bilingual Slide Composer
+
+  Description: Balances two languages without doubling clutter.
+
+9. Skill Name: Embedded Image Text Detector
+
+  Description: Finds visual text that requires localization outside ordinary text boxes.
+
+10. Skill Name: Live Caption Language Planner
+
+  Description: Checks whether presentation captions support the required language and environment.
+
+11. Skill Name: Localized Export Packager
+
+  Description: Produces clearly named language variants and preserves version parity.
+
+12. Skill Name: Translation Visual QA
+
+  Description: Checks omissions, number mismatches, overflow, font substitution, and reading direction.
+
+Category 34: Evaluation, Benchmarking, and Skill Management
+
+Category purpose: Measure and maintain the capability system.
+
+1. Skill Name: Google Slides Feature Coverage Scorer
+
+  Description: Maps implemented skills to every menu, toolbar, object, presenter, accessibility, collaboration, and export feature.
+
+2. Skill Name: Workflow Success Benchmark
+
+  Description: Tests normal, boundary, failure, recovery, and clean-state use for each skill.
+
+3. Skill Name: Compatibility Benchmark
+
+  Description: Measures fidelity among Google Slides, PowerPoint, ODP, PDF, image, and published playback.
+
+4. Skill Name: Collaboration Benchmark
+
+  Description: Measures access correctness, comment resolution, concurrent editing, and recipient effort.
+
+5. Skill Name: Accessibility Benchmark
+
+  Description: Measures keyboard operation, reading order, alt text, captions, contrast, and language support.
+
+6. Skill Name: Automation Reliability Benchmark
+
+  Description: Measures idempotence, quotas, runtime, duplicate prevention, and repairability.
+
+7. Skill Name: Skill Trigger Disambiguator
+
+  Description: Defines when a skill should and should not run when multiple features overlap.
+
+8. Skill Name: Skill Dependency Mapper
+
+  Description: Records required Workspace services, browser capabilities, permissions, scripts, add-ons, and assets.
+
+9. Skill Name: Skill Test Case Generator
+
+  Description: Produces representative and adversarial presentations for each capability.
+
+10. Skill Name: Feature Rollout Compatibility Register
+
+  Description: Tracks account, edition, region, browser, and staged-rollout dependencies.
+
+11. Skill Name: Skill Version and Deprecation Manager
+
+  Description: Maintains compatibility, migration, and retirement paths as Slides changes.
+
+12. Skill Name: Catalog Gap Finder
+
+  Description: Finds unsupported Slides features, scenarios, and workarounds and proposes new skills.
+
+Implementation Specification Template
+
+Use this schema when converting any catalog entry into an actual agent skill.
+
+1.  Stable skill name and identifier
+
+2.  Purpose and success conditions
+
+3.  Explicit triggers and non-triggers
+
+4.  Accepted inputs and account prerequisites
+
+5.  Produced outputs and side effects
+
+6.  Google Slides controls, APIs, Apps Script services, add-ons, or connected sources used
+
+7.  Permissions and privacy boundaries
+
+8.  Execution sequence and reversible checkpoints
+
+9.  Feature-availability detection and fallback route
+
+10. Validation, recipient access, and export checks
+
+11. Normal, boundary, failure, repair, and regression cases
+
+12. Version, compatibility, ownership, and deprecation policy
+
+Catalog Summary
+
+Total categories: 34
+
+Total candidate skills: 408
+
+Design intent: enable an agent to use the complete Google Slides feature surface, work around editor and compatibility limits, and produce editable, accessible, verified, and safely distributed presentations.

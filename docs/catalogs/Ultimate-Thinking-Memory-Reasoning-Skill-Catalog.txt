@@ -1,0 +1,1495 @@
+A comprehensive catalog of composable agent skills for stronger thinking, planning, evidence use, memory, progress continuity, learning, verification, recovery, practical judgment, and responsible action.
+
+  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Catalog purpose. This document proposes focused skills for later implementation. It does not contain implemented skills and does not expose private chain-of-thought. Strong implementations should preserve concise evidence, decisions, state, reusable lessons, and verification while keeping hidden reasoning private and protecting sensitive information.
+  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Thinking and Memory Principles
+
+- Turn ambition into observable success, then prove the smallest complete path before expanding.
+
+- Separate facts, evidence, assumptions, choices, hypotheses, unknowns, and simulated data.
+
+- Use external logs, files, summaries, decision records, and checkpoints for continuity without exposing private chain-of-thought.
+
+- Allocate deeper reasoning to high-stakes, uncertain, complex, or irreversible work and use simpler methods for routine tasks.
+
+- Learn from verified outcomes: record the condition, cause, repair, confirming check, and reusable pattern.
+
+- Finish only when requirements, artifacts, checks, presentation, and recipient handoff are complete within available access.
+
+Catalog scope: 35 categories and 350 proposed skills.
+
+Catalog
+
+Category 1: Goal Framing and Requirement Intelligence
+
+1. Skill Name: Objective Clarifier
+
+  Description: Converts an ambiguous request into a precise target, audience, use path, outputs, limits, and observable completion conditions.
+
+2. Skill Name: Requirement Map Builder
+
+  Description: Links every direct requirement to a planned deliverable, dependency, and check that can fail.
+
+3. Skill Name: Success Criteria Engineer
+
+  Description: Defines measurable correctness, usefulness, quality, robustness, presentation, and handoff standards before execution.
+
+4. Skill Name: Constraint and Freedom Analyzer
+
+  Description: Separates hard limits, compatibility requirements, preferences, assumptions, and open design choices.
+
+5. Skill Name: Recipient Use-Path Modeler
+
+  Description: Models how the final result will be opened, run, edited, reviewed, continued, or acted upon by the recipient.
+
+6. Skill Name: Unknowns and Ambiguity Classifier
+
+  Description: Ranks missing information by impact and resolves low-risk gaps with reversible assumptions while escalating material uncertainty.
+
+7. Skill Name: Scope Boundary Designer
+
+  Description: Defines what is included, excluded, deferred, optional, or dependent on unavailable access.
+
+8. Skill Name: Completion Definition Auditor
+
+  Description: Prevents premature completion by checking that every claimed result exists and has observed support.
+
+9. Skill Name: Outcome Decomposition Specialist
+
+  Description: Breaks ambitious goals into independent outputs, joined workflows, checkpoints, and final acceptance tests.
+
+10. Skill Name: Request Change Integrator
+
+  Description: Incorporates new instructions while preserving compatible prior work and clearly superseding outdated requirements.
+
+Category 2: Problem Decomposition and Systems Thinking
+
+1. Skill Name: Complex Problem Decomposer
+
+  Description: Breaks difficult problems into state, inputs, transformations, interfaces, dependencies, risks, and outputs.
+
+2. Skill Name: System Boundary Mapper
+
+  Description: Identifies actors, components, external systems, feedback loops, resources, and environmental constraints.
+
+3. Skill Name: Dependency Graph Architect
+
+  Description: Maps prerequisite relationships, critical paths, parallel work, blockers, and downstream impact.
+
+4. Skill Name: Interface Contract Designer
+
+  Description: Defines what connected parts exchange, accept, reject, guarantee, and report on failure.
+
+5. Skill Name: Layered Causality Analyzer
+
+  Description: Separates symptoms from causes across input, state, structure, logic, interface, environment, and output layers.
+
+6. Skill Name: Constraint Propagation Analyst
+
+  Description: Tracks how one limit influences architecture, quality, cost, schedule, compatibility, and verification.
+
+7. Skill Name: Feedback Loop Investigator
+
+  Description: Finds reinforcing and balancing loops, delayed effects, incentives, drift, and unintended consequences.
+
+8. Skill Name: Bottleneck Identification Specialist
+
+  Description: Locates the limiting dependency, scarce resource, slowest stage, or highest-uncertainty assumption.
+
+9. Skill Name: Modularity and Coupling Analyst
+
+  Description: Finds opportunities to isolate responsibilities, reduce shared state, and make repairs local.
+
+10. Skill Name: Whole-System Coherence Auditor
+
+  Description: Checks whether individually sound parts combine into a consistent end-to-end system.
+
+Category 3: Planning, Sequencing, and Execution Strategy
+
+1. Skill Name: Execution Plan Architect
+
+  Description: Creates an ordered workflow from inspection through design, proof, expansion, integration, refinement, and delivery.
+
+2. Skill Name: Thin-Slice Proof Designer
+
+  Description: Builds the smallest complete path that reaches a real output and tests the central claim.
+
+3. Skill Name: Critical Path Planner
+
+  Description: Prioritizes the hardest dependency and sequences work to expose failure early.
+
+4. Skill Name: Parallel Work Scheduler
+
+  Description: Parallelizes only independent tasks and protects shared resources, state, and joins.
+
+5. Skill Name: Checkpoint Strategy Designer
+
+  Description: Places resumable milestones after meaningful verified progress rather than arbitrary time intervals.
+
+6. Skill Name: Effort and Value Allocator
+
+  Description: Directs time and tools toward the highest-impact uncertainty, defect, or missing requirement.
+
+7. Skill Name: Stop Condition Designer
+
+  Description: Bounds loops, searches, retries, simulations, and refinements with explicit pass, fail, or diminishing-value criteria.
+
+8. Skill Name: Fallback Path Planner
+
+  Description: Defines safe alternate tools, reduced scopes, compatible formats, and recovery routes before critical failures.
+
+9. Skill Name: Plan Adaptation Controller
+
+  Description: Updates sequence and resource allocation when new evidence changes risk, feasibility, or expected value.
+
+10. Skill Name: Execution Readiness Auditor
+
+  Description: Checks inputs, permissions, environment, dependencies, resources, and acceptance criteria before starting costly work.
+
+Category 4: Evidence, Facts, Assumptions, and Uncertainty
+
+1. Skill Name: Fact Assumption Choice Ledger
+
+  Description: Separates observed facts, user-provided facts, assumptions, design choices, hypotheses, and unknowns.
+
+2. Skill Name: Evidence Quality Evaluator
+
+  Description: Ranks direct observation, primary sources, measured results, authoritative references, secondary reports, and unsupported claims.
+
+3. Skill Name: Claim-to-Evidence Mapper
+
+  Description: Links each material conclusion to the exact file, source, output, measurement, or test that supports it.
+
+4. Skill Name: Uncertainty Quantifier
+
+  Description: Expresses uncertainty through ranges, scenarios, confidence levels, sensitivity, and missing evidence where appropriate.
+
+5. Skill Name: Contradiction Resolver
+
+  Description: Identifies conflicting evidence, compares authority and context, and preserves unresolved disagreement rather than hiding it.
+
+6. Skill Name: Inference Boundary Guardian
+
+  Description: Prevents plausible interpretations from being reported as directly observed facts.
+
+7. Skill Name: Evidence Gap Planner
+
+  Description: Finds the minimum additional observation, experiment, file, or source needed to resolve a material unknown.
+
+8. Skill Name: Source Freshness Analyst
+
+  Description: Checks whether evidence is current enough for the decision and distinguishes stable facts from changeable information.
+
+9. Skill Name: Measurement Validity Reviewer
+
+  Description: Checks whether the metric, instrument, sample, and procedure actually measure the intended concept.
+
+10. Skill Name: Unsupported Claim Detector
+
+  Description: Finds invented facts, simulated results presented as real, false completion claims, and unjustified certainty.
+
+Category 5: Analytical Reasoning and Logic
+
+1. Skill Name: Deductive Reasoning Specialist
+
+  Description: Applies explicit premises and valid inference rules while checking hidden assumptions and invalid conclusions.
+
+2. Skill Name: Inductive Pattern Analyst
+
+  Description: Generalizes cautiously from examples while considering sample coverage, variation, and counterexamples.
+
+3. Skill Name: Abductive Explanation Designer
+
+  Description: Generates the best candidate explanations and distinguishes fit from proof.
+
+4. Skill Name: Analogical Reasoning Analyst
+
+  Description: Transfers structure from comparable cases while checking where the analogy breaks.
+
+5. Skill Name: Counterexample Generator
+
+  Description: Searches for cases that violate a proposed rule, design, claim, or solution.
+
+6. Skill Name: Logical Fallacy Auditor
+
+  Description: Detects circular reasoning, false dilemmas, equivocation, non sequiturs, correlation errors, and unsupported appeals.
+
+7. Skill Name: Conditional Logic Mapper
+
+  Description: Models if-then rules, prerequisites, exceptions, precedence, fallbacks, and mutually exclusive states.
+
+8. Skill Name: Consistency Proofreader
+
+  Description: Checks that conclusions, definitions, numbers, terminology, and decisions do not contradict one another.
+
+9. Skill Name: Alternative Explanation Analyst
+
+  Description: Maintains competing hypotheses and identifies observations that would discriminate among them.
+
+10. Skill Name: Reasoning Compression Specialist
+
+  Description: Condenses complex argument into clear premises, transformations, conclusions, and limitations without losing validity.
+
+Category 6: Common Sense and Practical Judgment
+
+1. Skill Name: Real-World Plausibility Checker
+
+  Description: Tests whether a proposal fits ordinary physical, social, organizational, temporal, and resource constraints.
+
+2. Skill Name: Practical Consequence Forecaster
+
+  Description: Identifies likely second-order effects, maintenance burden, user effort, operational friction, and failure recovery needs.
+
+3. Skill Name: Human Behavior Context Analyst
+
+  Description: Accounts for incentives, habits, misunderstanding, fatigue, trust, coordination, and likely user shortcuts.
+
+4. Skill Name: Usability Judgment Specialist
+
+  Description: Evaluates whether an output is discoverable, understandable, efficient, forgiving, and appropriate for the recipient.
+
+5. Skill Name: Proportionality Decision Analyst
+
+  Description: Matches effort, rigor, tooling, and safeguards to the stakes and reversibility of the task.
+
+6. Skill Name: Everyday Edge-Case Finder
+
+  Description: Checks missing inputs, interruptions, duplicates, wrong formats, low resources, long content, and accidental actions.
+
+7. Skill Name: Maintenance Reality Reviewer
+
+  Description: Considers who will own, update, troubleshoot, pay for, and eventually retire the result.
+
+8. Skill Name: Context Appropriate Detail Controller
+
+  Description: Provides enough precision for action without overwhelming the audience with irrelevant complexity.
+
+9. Skill Name: Friction Reduction Designer
+
+  Description: Removes unnecessary steps, repeated input, avoidable decisions, and preventable handoffs.
+
+10. Skill Name: Practical Wisdom Auditor
+
+  Description: Checks whether the technically correct answer is also safe, humane, affordable, timely, and useful.
+
+Category 7: Decision Making and Trade-Off Analysis
+
+1. Skill Name: Decision Frame Designer
+
+  Description: Defines the decision, alternatives, criteria, constraints, stakeholders, timing, and consequences.
+
+2. Skill Name: Multi-Criteria Decision Analyst
+
+  Description: Scores alternatives across weighted criteria while exposing assumptions and sensitivity to weights.
+
+3. Skill Name: Trade-Off Surface Mapper
+
+  Description: Shows how quality, time, cost, risk, flexibility, and maintainability change across options.
+
+4. Skill Name: Reversibility and Optionality Analyst
+
+  Description: Prefers decisions that preserve future choices when uncertainty is high.
+
+5. Skill Name: Expected Value Reasoner
+
+  Description: Compares outcomes by probability, benefit, cost, and downside while marking speculative inputs.
+
+6. Skill Name: Risk-Adjusted Choice Planner
+
+  Description: Balances upside with failure severity, detectability, recovery cost, and exposure.
+
+7. Skill Name: Pareto Improvement Finder
+
+  Description: Searches for options that improve one important dimension without materially worsening others.
+
+8. Skill Name: Decision Sensitivity Tester
+
+  Description: Checks whether small changes in assumptions, estimates, or preferences reverse the preferred option.
+
+9. Skill Name: Decision Record Author
+
+  Description: Documents context, options, evidence, reasoning, decision, owner, date, and triggers for reconsideration.
+
+10. Skill Name: Post-Decision Review Analyst
+
+  Description: Compares expected and actual outcomes and extracts transferable lessons without hindsight distortion.
+
+Category 8: Risk, Safety, and Failure Prevention
+
+1. Skill Name: Risk Register Builder
+
+  Description: Identifies hazards, causes, likelihood, impact, detectability, owner, mitigation, trigger, and contingency.
+
+2. Skill Name: Pre-Mortem Facilitator
+
+  Description: Imagines a failed outcome and works backward to discover preventable causes and weak controls.
+
+3. Skill Name: Blast Radius Assessor
+
+  Description: Estimates which users, files, systems, accounts, finances, or decisions could be affected by an action.
+
+4. Skill Name: Reversibility Gatekeeper
+
+  Description: Requires backups, previews, test environments, or confirmation before high-impact or irreversible actions.
+
+5. Skill Name: Failure Mode and Effects Analyst
+
+  Description: Analyzes component failures, effects, severity, occurrence, detection, and controls.
+
+6. Skill Name: Safety Margin Designer
+
+  Description: Adds appropriate buffers for capacity, time, uncertainty, environment variation, and user error.
+
+7. Skill Name: Stop-Loss and Abort Controller
+
+  Description: Defines conditions that halt execution before damage, wasted effort, or misleading results expand.
+
+8. Skill Name: Privacy and Confidentiality Reasoner
+
+  Description: Minimizes sensitive data, access, exposure, retention, and dissemination.
+
+9. Skill Name: Ethical Consequence Reviewer
+
+  Description: Checks manipulation, discrimination, autonomy, consent, fairness, welfare, and accountability.
+
+10. Skill Name: Residual Risk Reporter
+
+  Description: Documents remaining risks, untested conditions, dependencies, and monitoring needs after mitigation.
+
+Category 9: Creative Thinking and Idea Generation
+
+1. Skill Name: Divergent Idea Generator
+
+  Description: Produces substantially different concepts by changing assumptions, mechanisms, perspectives, media, and constraints.
+
+2. Skill Name: Convergent Idea Selector
+
+  Description: Narrows ideas using requirement fit, originality, feasibility, evidence, risk, and expected impact.
+
+3. Skill Name: Constraint-Driven Creativity Designer
+
+  Description: Uses strict limits as prompts for novel structure, simplification, and distinctive solutions.
+
+4. Skill Name: Cross-Domain Synthesis Thinker
+
+  Description: Combines mechanisms from distant fields while validating compatibility and avoiding superficial analogy.
+
+5. Skill Name: Concept Recombination Engine
+
+  Description: Reassembles known elements into original configurations, roles, sequences, and interfaces.
+
+6. Skill Name: Perspective Shift Generator
+
+  Description: Reframes a problem through user, operator, adversary, maintainer, beginner, expert, and future-state viewpoints.
+
+7. Skill Name: Assumption Reversal Explorer
+
+  Description: Inverts default assumptions to expose hidden alternatives and design space.
+
+8. Skill Name: Idea Mutation and Variation Designer
+
+  Description: Creates controlled variations in scale, timing, audience, medium, function, tone, and architecture.
+
+9. Skill Name: Novelty Usefulness Balancer
+
+  Description: Rejects originality that reduces clarity, safety, feasibility, or recipient value.
+
+10. Skill Name: Creative Concept Stress Tester
+
+  Description: Challenges ideas with edge cases, production constraints, audience needs, and real use paths.
+
+Category 10: Strategic Thinking and Long-Horizon Planning
+
+1. Skill Name: Strategic Objective Architect
+
+  Description: Connects immediate work to longer-term outcomes, capabilities, constraints, and competitive or mission context.
+
+2. Skill Name: Scenario Planning Specialist
+
+  Description: Builds plausible future scenarios, indicators, implications, and robust actions rather than single-point predictions.
+
+3. Skill Name: Capability Roadmap Designer
+
+  Description: Sequences foundations, reusable assets, integrations, maturity gates, and measurable outcomes over time.
+
+4. Skill Name: Path Dependency Analyst
+
+  Description: Identifies early choices that constrain future options, migration cost, compatibility, and organizational behavior.
+
+5. Skill Name: Strategic Leverage Finder
+
+  Description: Locates small interventions that improve many downstream tasks, teams, products, or decisions.
+
+6. Skill Name: Portfolio Balance Analyst
+
+  Description: Balances exploration, exploitation, maintenance, risk reduction, and near-term delivery across initiatives.
+
+7. Skill Name: Strategic Assumption Monitor
+
+  Description: Tracks assumptions whose failure would invalidate a plan and defines early warning indicators.
+
+8. Skill Name: Long-Term Maintenance Forecaster
+
+  Description: Estimates update burden, dependency decay, knowledge loss, staffing, cost, and retirement needs.
+
+9. Skill Name: Robust Strategy Designer
+
+  Description: Selects approaches that remain useful across multiple plausible futures and changing constraints.
+
+10. Skill Name: Strategy-to-Execution Translator
+
+  Description: Converts strategic intent into owners, milestones, resources, interfaces, metrics, and review cadence.
+
+Category 11: Learning, Adaptation, and Skill Improvement
+
+1. Skill Name: Experience-to-Lesson Extractor
+
+  Description: Converts outcomes into condition, action, result, cause, repair, and confirming check.
+
+2. Skill Name: Assumption Performance Tracker
+
+  Description: Records which assumptions held, failed, or remained untested and updates future defaults.
+
+3. Skill Name: Tool Learning Specialist
+
+  Description: Learns a tool through inputs, outputs, dependencies, effects, limits, failure signals, and best uses.
+
+4. Skill Name: Error Pattern Learner
+
+  Description: Clusters repeated failures and updates routing, checks, interfaces, and prevention rules.
+
+5. Skill Name: Successful Pattern Generalizer
+
+  Description: Extracts reusable mechanisms from successful tasks without copying irrelevant details.
+
+6. Skill Name: Adaptive Workflow Optimizer
+
+  Description: Changes sequence, tool choice, validation, and resource allocation based on observed task performance.
+
+7. Skill Name: Feedback Integration Analyst
+
+  Description: Separates preference, defect, misunderstanding, and new requirement before revising work.
+
+8. Skill Name: Learning Experiment Designer
+
+  Description: Creates small reversible trials with explicit hypotheses, measures, stop conditions, and interpretation rules.
+
+9. Skill Name: Capability Gap Detector
+
+  Description: Identifies missing knowledge, tools, data, access, examples, or checks that limit performance.
+
+10. Skill Name: Continuous Improvement Backlog Manager
+
+  Description: Ranks transferable improvements by frequency, impact, effort, evidence, and implementation readiness.
+
+Category 12: Memory Architecture and Knowledge Retention
+
+1. Skill Name: Memory Scope Designer
+
+  Description: Defines what should be remembered, for whom, for how long, at what sensitivity, and for which future tasks.
+
+2. Skill Name: Episodic Task Memory Recorder
+
+  Description: Stores task context, inputs, decisions, outputs, failures, repairs, and completion state in a concise reusable record.
+
+3. Skill Name: Semantic Knowledge Organizer
+
+  Description: Converts repeated observations into stable concepts, definitions, relationships, rules, and references.
+
+4. Skill Name: Procedural Memory Author
+
+  Description: Records repeatable workflows, commands, templates, prerequisites, checks, and recovery steps.
+
+5. Skill Name: Preference Memory Manager
+
+  Description: Stores user-approved preferences with context, confidence, source, and exceptions rather than universalizing them.
+
+6. Skill Name: Memory Importance Ranker
+
+  Description: Prioritizes durable, high-impact, frequently useful information over transient details and noise.
+
+7. Skill Name: Memory Consolidation Specialist
+
+  Description: Merges duplicate or overlapping memories, preserves provenance, and updates superseded knowledge.
+
+8. Skill Name: Memory Expiration and Decay Manager
+
+  Description: Applies freshness, review dates, retention, and deletion rules to changeable or sensitive memory.
+
+9. Skill Name: Memory Conflict Resolver
+
+  Description: Detects contradictory memories and uses recency, authority, specificity, and evidence to resolve or preserve uncertainty.
+
+10. Skill Name: Memory Retrieval Router
+
+  Description: Finds the smallest relevant memory set for the current task without flooding context.
+
+Category 13: Progress Logging and Resume Intelligence
+
+1. Skill Name: Task Progress Ledger
+
+  Description: Records completed stages, current state, outputs, pending work, blockers, and next safe action.
+
+2. Skill Name: Checkpoint State Packager
+
+  Description: Saves enough files, configuration, decisions, and context to resume work after interruption.
+
+3. Skill Name: Pause and Resume Coordinator
+
+  Description: Stops at a stable boundary, preserves active work, and restarts without repeating consequential actions.
+
+4. Skill Name: Action Input Output Logger
+
+  Description: Tracks material inputs, actions, tool outputs, transformations, and produced artifacts with timestamps and relationships.
+
+5. Skill Name: Progress Verification Auditor
+
+  Description: Confirms that logged steps actually produced the claimed files, state changes, or test results.
+
+6. Skill Name: Interrupted Workflow Reconstructor
+
+  Description: Uses files, logs, timestamps, manifests, and checkpoints to identify the last verified state.
+
+7. Skill Name: Next-Step Recommendation Engine
+
+  Description: Chooses the most valuable safe next step from current state, remaining requirements, risk, and dependencies.
+
+8. Skill Name: Stale Progress Detector
+
+  Description: Identifies outdated checkpoints, superseded outputs, changed dependencies, and assumptions that require revalidation.
+
+9. Skill Name: Resume Environment Validator
+
+  Description: Checks tools, versions, paths, permissions, inputs, and resources before continuing from saved state.
+
+10. Skill Name: Completion Handoff Memory Author
+
+  Description: Creates a concise continuation record for future agents or sessions when work may need expansion.
+
+Category 14: Knowledge Representation and Organization
+
+1. Skill Name: Concept Map Builder
+
+  Description: Represents concepts, definitions, examples, dependencies, contradictions, and evidence as a navigable map.
+
+2. Skill Name: Knowledge Graph Designer
+
+  Description: Models entities, relations, events, sources, confidence, time, and provenance for structured retrieval.
+
+3. Skill Name: Taxonomy and Ontology Architect
+
+  Description: Creates clear categories, properties, boundaries, synonyms, and hierarchical relationships.
+
+4. Skill Name: Glossary and Terminology Manager
+
+  Description: Maintains definitions, aliases, capitalization, abbreviations, translations, and domain-specific usage.
+
+5. Skill Name: Information Architecture Designer
+
+  Description: Organizes knowledge for findability, progressive detail, cross-reference, and audience use.
+
+6. Skill Name: Structured Note System Designer
+
+  Description: Creates reusable note formats for decisions, research, tasks, experiments, incidents, and lessons.
+
+7. Skill Name: Relationship and Dependency Indexer
+
+  Description: Builds cross-references among files, people, projects, concepts, requirements, and outputs.
+
+8. Skill Name: Knowledge Version Manager
+
+  Description: Tracks changes, source updates, superseded claims, migrations, and effective dates.
+
+9. Skill Name: Knowledge Completeness Auditor
+
+  Description: Finds missing definitions, disconnected concepts, unreferenced claims, duplicate categories, and unresolved conflicts.
+
+10. Skill Name: Knowledge Export and Handoff Specialist
+
+  Description: Packages knowledge into human-readable and machine-readable formats with provenance and usage guidance.
+
+Category 15: Attention, Focus, and Context Management
+
+1. Skill Name: Attention Priority Controller
+
+  Description: Keeps high-impact requirements, risks, dependencies, and blockers visible while suppressing low-value distraction.
+
+2. Skill Name: Context Window Budgeter
+
+  Description: Allocates limited context to current evidence, active interfaces, critical constraints, and necessary memory.
+
+3. Skill Name: Noise and Redundancy Filter
+
+  Description: Removes duplicated instructions, irrelevant history, verbose logs, and repeated evidence from active working context.
+
+4. Skill Name: Task Switching Coordinator
+
+  Description: Saves state, boundaries, and next action before switching and restores only relevant context when returning.
+
+5. Skill Name: Deep Work Session Planner
+
+  Description: Creates bounded periods for concentrated analysis with clear target, inputs, stop conditions, and checkpoint output.
+
+6. Skill Name: Interruption Recovery Specialist
+
+  Description: Reconstructs intent and current state quickly after a break without relying on vague recollection.
+
+7. Skill Name: Context Drift Detector
+
+  Description: Finds when work has moved away from the current request, audience, constraints, or success conditions.
+
+8. Skill Name: Focus Versus Exploration Balancer
+
+  Description: Controls when to broaden possibilities and when to commit to a selected path.
+
+9. Skill Name: High-Risk Detail Pinning Manager
+
+  Description: Keeps exact names, paths, versions, numbers, interfaces, and constraints from being lost during long work.
+
+10. Skill Name: Context Compression Specialist
+
+  Description: Summarizes stable information while preserving decision-critical details and unresolved uncertainty.
+
+Category 16: Research and Information Synthesis
+
+1. Skill Name: Research Question Architect
+
+  Description: Turns a broad topic into answerable subquestions, source needs, freshness requirements, and evidence standards.
+
+2. Skill Name: Source Discovery Strategist
+
+  Description: Finds authoritative, current, diverse, and directly relevant sources with minimal redundant searching.
+
+3. Skill Name: Comparative Source Synthesizer
+
+  Description: Combines agreements, differences, methods, dates, and limitations without flattening disagreement.
+
+4. Skill Name: Primary Source Prioritizer
+
+  Description: Uses official documentation, direct data, original research, or firsthand records whenever the claim requires it.
+
+5. Skill Name: Citation and Provenance Manager
+
+  Description: Tracks exact source locations and attaches them to claims, data, quotations, and derived artifacts.
+
+6. Skill Name: Research Saturation Detector
+
+  Description: Stops searching when additional sources have low expected value and the material question is adequately supported.
+
+7. Skill Name: Research Contradiction Analyst
+
+  Description: Explains why sources disagree through definitions, time, sample, method, incentives, or uncertainty.
+
+8. Skill Name: Evidence Synthesis Writer
+
+  Description: Transforms research into a clear answer that separates source facts, interpretation, and recommendations.
+
+9. Skill Name: Research Bias Reviewer
+
+  Description: Checks selection, publication, survivorship, confirmation, funding, and geographic or demographic bias.
+
+10. Skill Name: Research Reproducibility Packager
+
+  Description: Records queries, sources, dates, datasets, transformations, and limits required to repeat the research.
+
+Category 17: Mathematical and Quantitative Reasoning
+
+1. Skill Name: Quantitative Problem Formulator
+
+  Description: Defines variables, units, equations, constraints, objectives, and required precision before calculation.
+
+2. Skill Name: Dimensional Analysis Checker
+
+  Description: Uses units to validate equations, conversions, assumptions, and result plausibility.
+
+3. Skill Name: Estimation and Order-of-Magnitude Thinker
+
+  Description: Creates bounded estimates with explicit assumptions and sensitivity instead of false precision.
+
+4. Skill Name: Statistical Reasoning Analyst
+
+  Description: Chooses appropriate summaries, uncertainty, comparisons, tests, and caveats based on data and design.
+
+5. Skill Name: Probability and Bayesian Reasoner
+
+  Description: Updates beliefs from prior information and evidence while avoiding base-rate neglect and certainty inflation.
+
+6. Skill Name: Optimization Problem Designer
+
+  Description: Defines objective, decision variables, constraints, feasible region, trade-offs, and solution validation.
+
+7. Skill Name: Numerical Stability Reviewer
+
+  Description: Checks rounding, scaling, conditioning, overflow, convergence, and sensitivity to implementation choices.
+
+8. Skill Name: Calculation Cross-Validator
+
+  Description: Verifies important results through independent methods, inverse operations, bounds, or simulation.
+
+9. Skill Name: Quantitative Visualization Planner
+
+  Description: Selects charts, scales, labels, uncertainty displays, and comparisons that accurately represent the result.
+
+10. Skill Name: Model Assumption Auditor
+
+  Description: Checks whether mathematical assumptions fit the real system and documents where the model can fail.
+
+Category 18: Causal Reasoning and Experimentation
+
+1. Skill Name: Causal Question Designer
+
+  Description: Defines treatment, outcome, population, time, mechanism, alternatives, and the decision the causal answer supports.
+
+2. Skill Name: Causal Diagram Builder
+
+  Description: Maps variables, confounders, mediators, colliders, selection, and measurement relationships.
+
+3. Skill Name: Experiment Design Specialist
+
+  Description: Creates controls, randomization, assignment, sample considerations, measures, stopping rules, and analysis plans.
+
+4. Skill Name: Quasi-Experimental Reasoner
+
+  Description: Evaluates natural experiments, difference-in-differences, discontinuity, matching, and instrumental assumptions.
+
+5. Skill Name: Confounding and Bias Detector
+
+  Description: Finds variables and selection processes that can produce misleading associations.
+
+6. Skill Name: Mechanism Evidence Analyst
+
+  Description: Tests whether observed intermediate behavior supports the proposed causal pathway.
+
+7. Skill Name: Counterfactual Scenario Designer
+
+  Description: Defines credible comparison worlds and identifies what evidence can approximate them.
+
+8. Skill Name: Experiment Integrity Auditor
+
+  Description: Checks leakage, noncompliance, attrition, multiple testing, measurement drift, and post-hoc changes.
+
+9. Skill Name: Causal Conclusion Calibrator
+
+  Description: Matches language to design strength and avoids claiming causation from unsupported correlation.
+
+10. Skill Name: Experiment Lesson Integrator
+
+  Description: Updates decisions, models, workflows, and future tests based on observed results and limitations.
+
+Category 19: Simulation, Forecasting, and Scenario Reasoning
+
+1. Skill Name: Simulation Model Architect
+
+  Description: Defines entities, state, rules, inputs, timing, outputs, assumptions, and validation for a simulated system.
+
+2. Skill Name: Scenario Tree Designer
+
+  Description: Maps decisions, uncertain events, branches, outcomes, probabilities, and information gained over time.
+
+3. Skill Name: Forecasting Method Selector
+
+  Description: Chooses baseline, time-series, causal, judgmental, or simulation methods based on data and horizon.
+
+4. Skill Name: Forecast Calibration Analyst
+
+  Description: Measures accuracy, bias, coverage, confidence, and update behavior across repeated predictions.
+
+5. Skill Name: Sensitivity and Robustness Tester
+
+  Description: Varies assumptions and parameters to identify dominant drivers and fragile conclusions.
+
+6. Skill Name: Stress Scenario Designer
+
+  Description: Builds severe but plausible cases that test capacity, safety, resilience, and recovery.
+
+7. Skill Name: Monte Carlo Reasoning Specialist
+
+  Description: Uses repeated sampling to characterize uncertainty, tail risk, and probability distributions.
+
+8. Skill Name: Simulation Reality Checker
+
+  Description: Compares model behavior with observed reference cases and reports mismatch honestly.
+
+9. Skill Name: Forecast Update Manager
+
+  Description: Revises forecasts as new evidence arrives while preserving prior predictions for calibration.
+
+10. Skill Name: Scenario Decision Translator
+
+  Description: Converts scenario results into robust actions, triggers, contingencies, and monitoring indicators.
+
+Category 20: Root Cause Analysis and Debugging Thought
+
+1. Skill Name: Symptom Reproduction Designer
+
+  Description: Reduces a reported issue to the smallest repeatable condition with expected and actual behavior.
+
+2. Skill Name: Earliest Mismatch Finder
+
+  Description: Traces the workflow from input to output and identifies the first observed divergence.
+
+3. Skill Name: Fault Isolation Analyst
+
+  Description: Separates input, state, structure, logic, interface, environment, and output causes.
+
+4. Skill Name: Single-Factor Experimenter
+
+  Description: Changes one relevant factor at a time and uses results to narrow candidate causes.
+
+5. Skill Name: Five Whys Calibrator
+
+  Description: Uses iterative why questions while avoiding stopping at blame, vague process, or unsupported root causes.
+
+6. Skill Name: Fault Tree Analyst
+
+  Description: Maps combinations of failures and prerequisites that can produce the observed outcome.
+
+7. Skill Name: Minimal Repair Planner
+
+  Description: Targets the smallest responsible component and preserves passing behavior elsewhere.
+
+8. Skill Name: Regression Risk Mapper
+
+  Description: Identifies adjacent features, shared interfaces, edge cases, and previous guarantees affected by a repair.
+
+9. Skill Name: Repair Verification Designer
+
+  Description: Rechecks the original failure, normal behavior, boundaries, joins, and clean-state execution.
+
+10. Skill Name: Transferable Debugging Lesson Author
+
+  Description: Records condition, cause, repair, and confirming check for future recognition and prevention.
+
+Category 21: Critique, Review, and Quality Improvement
+
+1. Skill Name: Requirement Coverage Reviewer
+
+  Description: Checks every direct instruction against the result and identifies omissions, extras, and mismatches.
+
+2. Skill Name: Correctness Reviewer
+
+  Description: Checks facts, calculations, logic, behavior, and outputs against evidence and specifications.
+
+3. Skill Name: Usefulness Reviewer
+
+  Description: Evaluates whether the result enables the recipient’s actual next action with low friction.
+
+4. Skill Name: Clarity and Communication Reviewer
+
+  Description: Improves structure, wording, examples, labels, navigation, and audience fit.
+
+5. Skill Name: Robustness Reviewer
+
+  Description: Tests missing, extreme, repeated, interrupted, and joined conditions.
+
+6. Skill Name: Maintainability Reviewer
+
+  Description: Checks modularity, naming, documentation, dependency control, update path, and ownership.
+
+7. Skill Name: Artifact Quality Reviewer
+
+  Description: Checks editability, layout, rendering, integrity, accessibility, packaging, and professional finish.
+
+8. Skill Name: Weakest-Link Quality Optimizer
+
+  Description: Finds the lowest high-impact quality dimension and directs the next repair there.
+
+9. Skill Name: Independent Review Simulator
+
+  Description: Examines the work from recipient, operator, maintainer, auditor, and adversarial perspectives.
+
+10. Skill Name: Final Quality Gatekeeper
+
+  Description: Blocks delivery while any known material defect remains within available scope and access.
+
+Category 22: Communication and Explanation Intelligence
+
+1. Skill Name: Audience Model Builder
+
+  Description: Estimates relevant knowledge, goals, constraints, terminology, sensitivities, and likely questions for the recipient.
+
+2. Skill Name: Explanation Structure Designer
+
+  Description: Orders context, conclusion, evidence, method, caveat, and action according to audience needs.
+
+3. Skill Name: Complexity Translator
+
+  Description: Converts specialist concepts into accurate plain language without removing essential distinctions.
+
+4. Skill Name: Example and Analogy Designer
+
+  Description: Creates representative examples and clearly marks where analogies stop matching.
+
+5. Skill Name: Precision and Brevity Balancer
+
+  Description: Uses the shortest wording that preserves accuracy, nuance, actionability, and requested detail.
+
+6. Skill Name: Terminology Consistency Manager
+
+  Description: Maintains definitions, names, abbreviations, capitalization, and distinctions throughout long outputs.
+
+7. Skill Name: Visual Communication Planner
+
+  Description: Chooses tables, diagrams, charts, lists, or prose according to the information relationship.
+
+8. Skill Name: Uncertainty Communication Specialist
+
+  Description: Expresses confidence, limits, assumptions, alternatives, and unresolved evidence clearly.
+
+9. Skill Name: Action-Oriented Summary Writer
+
+  Description: Creates summaries that preserve decisions, owners, next steps, dependencies, and risks.
+
+10. Skill Name: Misunderstanding Prevention Reviewer
+
+  Description: Finds ambiguous references, hidden prerequisites, overloaded terms, and likely misreadings.
+
+Category 23: Collaboration and Collective Intelligence
+
+1. Skill Name: Stakeholder Perspective Mapper
+
+  Description: Identifies goals, incentives, expertise, authority, concerns, and likely conflicts among participants.
+
+2. Skill Name: Expert Input Integrator
+
+  Description: Uses domain expertise while preserving source, disagreement, uncertainty, and decision ownership.
+
+3. Skill Name: Multi-Agent Task Decomposer
+
+  Description: Assigns separable tasks with exact interfaces, inputs, outputs, quality bars, and join checks.
+
+4. Skill Name: Agent Handoff State Author
+
+  Description: Packages current state, constraints, completed work, open issues, and next actions for another agent.
+
+5. Skill Name: Independent Parallel Reviewer
+
+  Description: Requests or simulates separate reviews to reduce shared blind spots and confirmation bias.
+
+6. Skill Name: Consensus and Dissent Synthesizer
+
+  Description: Captures agreements, reasons for disagreement, unresolved evidence, and decision implications.
+
+7. Skill Name: Collaboration Conflict Resolver
+
+  Description: Separates factual, goal, role, resource, value, and communication conflicts before choosing a process.
+
+8. Skill Name: Shared Decision Record Manager
+
+  Description: Maintains approved choices, rationale, owners, dates, constraints, and reconsideration triggers.
+
+9. Skill Name: Joined Output Integrator
+
+  Description: Combines contributions only after interface, consistency, duplication, and regression checks.
+
+10. Skill Name: Collaborative Learning Curator
+
+  Description: Extracts reusable lessons from team outcomes and updates shared procedures and standards.
+
+Category 24: Time, Priority, and Effort Management
+
+1. Skill Name: Priority Matrix Analyst
+
+  Description: Ranks tasks by impact, urgency, dependency, reversibility, risk, and effort rather than urgency alone.
+
+2. Skill Name: Time Budget Allocator
+
+  Description: Distributes effort among inspection, building, verification, repair, refinement, and delivery.
+
+3. Skill Name: Estimate Range Designer
+
+  Description: Creates optimistic, likely, and conservative effort estimates with assumptions and uncertainty.
+
+4. Skill Name: Deadline Backward Planner
+
+  Description: Works backward from delivery to reviews, integration, build, research, and dependency milestones.
+
+5. Skill Name: Diminishing Returns Detector
+
+  Description: Stops polishing when expected improvement no longer justifies time or risk.
+
+6. Skill Name: Work in Progress Limiter
+
+  Description: Restricts concurrent tasks to reduce switching, stale state, and partially completed work.
+
+7. Skill Name: Urgency Distortion Reviewer
+
+  Description: Checks whether visible or recent demands are displacing more important work.
+
+8. Skill Name: Effort Recovery Planner
+
+  Description: Preserves reusable work when a path becomes blocked or the scope changes.
+
+9. Skill Name: Progress Forecast Manager
+
+  Description: Uses completed rate, remaining complexity, blockers, and uncertainty to update expected completion.
+
+10. Skill Name: Time Use Retrospective Analyst
+
+  Description: Compares planned and actual effort and improves future estimates and sequencing.
+
+Category 25: Resilience, Recovery, and Continuity of Thought
+
+1. Skill Name: Cognitive Checkpoint Manager
+
+  Description: Saves problem framing, assumptions, decisions, partial results, and next steps before risky or lengthy work.
+
+2. Skill Name: Failure Recovery Thinker
+
+  Description: Uses exact mismatch evidence to choose a new path without repeating unchanged failures.
+
+3. Skill Name: Partial Work Preservation Specialist
+
+  Description: Keeps validated outputs and isolates failed branches so recovery does not discard good work.
+
+4. Skill Name: State Reconstruction Analyst
+
+  Description: Rebuilds task state from files, logs, outputs, timestamps, and decision records after interruption.
+
+5. Skill Name: Clean Restart Planner
+
+  Description: Defines what must be reset, retained, rebuilt, or revalidated before restarting affected work.
+
+6. Skill Name: Fallback Delivery Designer
+
+  Description: Produces the strongest useful partial result and names the exact missing input that blocks the remainder.
+
+7. Skill Name: Continuity Assurance Auditor
+
+  Description: Checks that paused or handed-off work can be resumed by another session without hidden context.
+
+8. Skill Name: Recovery Cost Minimizer
+
+  Description: Designs modular checkpoints, backups, and interfaces to reduce future repair effort.
+
+9. Skill Name: Resilience Scenario Tester
+
+  Description: Tests interruption, tool failure, missing dependency, corrupted output, lost connection, and resource exhaustion.
+
+10. Skill Name: Recovery Completion Validator
+
+  Description: Confirms repaired work passes the original failure case, normal case, boundaries, joins, and handoff.
+
+Category 26: Personalization and Context Adaptation
+
+1. Skill Name: User Preference Interpreter
+
+  Description: Applies explicit preferences only within appropriate contexts and avoids turning one choice into a universal rule.
+
+2. Skill Name: Expertise-Level Adapter
+
+  Description: Adjusts terminology, explanation, examples, and assumptions to beginner, student, practitioner, or expert audiences.
+
+3. Skill Name: Cultural and Regional Context Adapter
+
+  Description: Accounts for language, locale, law, norms, dates, units, currency, and accessibility without stereotyping.
+
+4. Skill Name: Workflow Style Adapter
+
+  Description: Matches the user’s preferred tools, formats, review process, naming, and degree of control where known.
+
+5. Skill Name: Personal Constraint Planner
+
+  Description: Adapts solutions to budget, time, device, connectivity, access, ability, and available support.
+
+6. Skill Name: Communication Tone Adapter
+
+  Description: Chooses concise, formal, friendly, technical, persuasive, or sensitive communication according to the situation.
+
+7. Skill Name: Preference Conflict Resolver
+
+  Description: Balances current instructions with stored preferences and prioritizes specific, recent, and task-relevant direction.
+
+8. Skill Name: Contextual Recommendation Ranker
+
+  Description: Ranks options by actual user circumstances rather than generic popularity.
+
+9. Skill Name: Personalization Privacy Guardian
+
+  Description: Uses only necessary context and avoids storing or exposing sensitive personal information.
+
+10. Skill Name: Adaptation Effectiveness Reviewer
+
+  Description: Checks whether personalization improved outcomes without reducing correctness, fairness, or clarity.
+
+Category 27: Life Reasoning and Everyday Problem Solving
+
+1. Skill Name: Everyday Decision Supporter
+
+  Description: Structures practical choices around goals, constraints, options, costs, benefits, risks, and reversible next steps.
+
+2. Skill Name: Habit System Designer
+
+  Description: Builds cues, small actions, environment changes, tracking, recovery, and gradual progression without moral judgment.
+
+3. Skill Name: Personal Project Planner
+
+  Description: Turns a personal goal into milestones, resources, schedule, dependencies, checks, and fallback options.
+
+4. Skill Name: Learning Plan Architect
+
+  Description: Designs goals, prerequisite map, practice, feedback, retrieval, projects, and review for durable learning.
+
+5. Skill Name: Information Overload Reducer
+
+  Description: Prioritizes essential facts, decisions, and actions while archiving lower-value details for later retrieval.
+
+6. Skill Name: Conversation Preparation Analyst
+
+  Description: Helps structure goals, facts, questions, boundaries, alternatives, and respectful wording for important discussions.
+
+7. Skill Name: Resource-Constrained Solution Designer
+
+  Description: Creates feasible options under limits of money, time, equipment, access, energy, or space.
+
+8. Skill Name: Life Transition Scenario Planner
+
+  Description: Maps practical steps, uncertainties, dependencies, support, and contingencies for major changes.
+
+9. Skill Name: Everyday Troubleshooting Thinker
+
+  Description: Uses observation, simple tests, isolation, and safe escalation for ordinary device, workflow, or household problems.
+
+10. Skill Name: Practical Next-Step Selector
+
+  Description: Identifies the smallest safe action that creates useful information or progress now.
+
+Category 28: Metacognition and Thinking Process Improvement
+
+1. Skill Name: Thinking Strategy Selector
+
+  Description: Chooses analytical, creative, causal, quantitative, experimental, strategic, or practical reasoning based on the problem.
+
+2. Skill Name: Cognitive Bias Auditor
+
+  Description: Checks anchoring, confirmation, availability, sunk cost, overconfidence, framing, and motivated reasoning.
+
+3. Skill Name: Reasoning Effort Calibrator
+
+  Description: Invests deeper thought where stakes, uncertainty, complexity, or irreversibility justify it.
+
+4. Skill Name: Assumption Awareness Monitor
+
+  Description: Surfaces hidden premises and tracks which conclusions depend on them.
+
+5. Skill Name: Question Quality Improver
+
+  Description: Transforms vague or leading questions into precise, neutral, answerable forms.
+
+6. Skill Name: Self-Correction Trigger Designer
+
+  Description: Defines signals that require rechecking, changing tools, revisiting evidence, or abandoning a path.
+
+7. Skill Name: Confidence Calibration Trainer
+
+  Description: Compares predicted confidence with actual outcomes and adjusts future certainty.
+
+8. Skill Name: Cognitive Load Manager
+
+  Description: Uses external notes, diagrams, structured files, and checkpoints to reduce memory burden during complex work.
+
+9. Skill Name: Thinking Pattern Retrospective
+
+  Description: Reviews what reasoning worked, failed, or wasted effort and updates future methods.
+
+10. Skill Name: Metacognitive Quality Auditor
+
+  Description: Checks whether the chosen thinking process fits the task and whether stronger alternatives remain.
+
+Category 29: Tool-Augmented Reasoning and External Cognition
+
+1. Skill Name: External Scratchpad Designer
+
+  Description: Uses structured files, tables, graphs, and notes to hold intermediate state without exposing private chain-of-thought.
+
+2. Skill Name: Computation Tool Router
+
+  Description: Selects calculators, code, spreadsheets, solvers, simulations, or databases when mental reasoning is insufficient.
+
+3. Skill Name: Search Tool Router
+
+  Description: Determines when current external evidence is necessary and builds efficient, privacy-safe queries.
+
+4. Skill Name: Document and File Reasoning Integrator
+
+  Description: Reads real artifacts, extracts relevant evidence, and grounds conclusions in the supplied materials.
+
+5. Skill Name: Visualization-Assisted Thinker
+
+  Description: Uses diagrams, timelines, matrices, charts, and maps to reveal structure and test understanding.
+
+6. Skill Name: Automation-Assisted Reasoner
+
+  Description: Automates repeatable transformations and checks while retaining human control over goals and consequential choices.
+
+7. Skill Name: Tool Output Cross-Validator
+
+  Description: Compares independent tool results and explains disagreements instead of silently choosing one.
+
+8. Skill Name: Tool Failure Diagnostician
+
+  Description: Separates bad input, incorrect configuration, unsupported capability, environment failure, and tool defect.
+
+9. Skill Name: Smallest Capable Toolchain Designer
+
+  Description: Uses the minimum set of tools needed for quality, repeatability, repair, and compatibility.
+
+10. Skill Name: Tool-Assisted Result Handoff Specialist
+
+  Description: Packages scripts, files, parameters, versions, and instructions so the work can be rerun or continued.
+
+Category 30: Quality Scoring and Self-Evaluation
+
+1. Skill Name: Requirement Coverage Scorer
+
+  Description: Rates whether each explicit requirement is completely, partially, or not delivered and creates repair actions.
+
+2. Skill Name: Correctness Scorer
+
+  Description: Evaluates factual, logical, numerical, structural, and behavioral correctness against evidence.
+
+3. Skill Name: Usefulness Scorer
+
+  Description: Measures recipient effort, actionability, relevance, and outcome value.
+
+4. Skill Name: Clarity Scorer
+
+  Description: Evaluates organization, language, labels, examples, ambiguity, and audience fit.
+
+5. Skill Name: Robustness Scorer
+
+  Description: Measures performance under boundary, repeated, interrupted, and joined conditions.
+
+6. Skill Name: Method Fit Scorer
+
+  Description: Checks whether the chosen tools, reasoning style, and workflow match the task.
+
+7. Skill Name: Maintainability Scorer
+
+  Description: Evaluates modularity, documentation, dependencies, update path, and ownership.
+
+8. Skill Name: Artifact Quality Scorer
+
+  Description: Checks editability, presentation, accessibility, integrity, packaging, and professional polish.
+
+9. Skill Name: Verification Strength Scorer
+
+  Description: Measures whether claims are supported by checks that could genuinely fail.
+
+10. Skill Name: Critical Defect Override
+
+  Description: Prevents high average scores from hiding a single material failure in safety, correctness, or completion.
+
+Category 31: Validation and Verification Architecture
+
+1. Skill Name: Requirement Check Designer
+
+  Description: Creates direct checks for every explicit instruction, output, name, format, and limit.
+
+2. Skill Name: Structural Check Designer
+
+  Description: Validates syntax, schemas, files, interfaces, dimensions, paths, and package structure.
+
+3. Skill Name: Semantic Check Designer
+
+  Description: Tests meaning, behavior, interpretation, and real-world correctness rather than appearance alone.
+
+4. Skill Name: Boundary Check Designer
+
+  Description: Tests missing, empty, extreme, malformed, repeated, interrupted, and resource-limited cases.
+
+5. Skill Name: Join Check Designer
+
+  Description: Tests interfaces and data flow between components, files, tools, environments, and stages.
+
+6. Skill Name: Regression Check Designer
+
+  Description: Protects previously correct behavior, user edits, compatibility, and accepted outputs after changes.
+
+7. Skill Name: Presentation Check Designer
+
+  Description: Inspects layout, clarity, accessibility, visual consistency, and recipient-facing polish.
+
+8. Skill Name: Handoff Check Designer
+
+  Description: Verifies that the recipient can open, run, edit, import, extract, or continue the result.
+
+9. Skill Name: Independent Verification Planner
+
+  Description: Uses alternate methods, tools, reviewers, or inverse checks for high-impact claims.
+
+10. Skill Name: Verification Coverage Auditor
+
+  Description: Finds important claims or components that lack a meaningful passing check.
+
+Category 32: Action Governance and Responsible Autonomy
+
+1. Skill Name: Action Consequence Classifier
+
+  Description: Classifies actions by reversibility, financial impact, privacy, publication, account state, safety, and external effects.
+
+2. Skill Name: Human Confirmation Gate
+
+  Description: Requires explicit approval before purchases, sending, publishing, deleting, account changes, or other consequential actions.
+
+3. Skill Name: Least-Privilege Action Planner
+
+  Description: Uses the minimum access, data, permissions, and duration needed to complete the task.
+
+4. Skill Name: Action Preview Generator
+
+  Description: Shows intended changes, recipients, files, costs, and irreversible effects before execution where appropriate.
+
+5. Skill Name: Action Idempotency Designer
+
+  Description: Prevents retries from duplicating messages, submissions, records, charges, or file operations.
+
+6. Skill Name: Action Audit Ledger
+
+  Description: Records material actions, state changes, approvals, outputs, and rollback paths without secrets.
+
+7. Skill Name: External Side-Effect Monitor
+
+  Description: Checks whether actions created expected changes and no unintended nearby effects.
+
+8. Skill Name: Abort and Rollback Controller
+
+  Description: Stops ongoing work and restores prior state when limits, errors, or user direction require it.
+
+9. Skill Name: Responsible Escalation Specialist
+
+  Description: Hands off identity checks, legal acceptance, ambiguous authority, physical control, and material judgment to a human.
+
+10. Skill Name: Autonomy Boundary Auditor
+
+  Description: Checks that automation stayed within user intent, tool access, authorization, and safe operating constraints.
+
+Category 33: Long-Running Work and Infinite-Scope Management
+
+1. Skill Name: Open-Ended Task Segmenter
+
+  Description: Divides extremely large goals into useful completed increments with stable interfaces and continuation points.
+
+2. Skill Name: Long-Horizon State Keeper
+
+  Description: Maintains durable requirement, decision, progress, artifact, and validation state across many sessions.
+
+3. Skill Name: Iteration Value Controller
+
+  Description: Continues expansion only while the next iteration has meaningful expected value.
+
+4. Skill Name: Versioned Milestone Manager
+
+  Description: Creates independently useful releases that preserve backward compatibility and future extension.
+
+5. Skill Name: Infinite Possibility Pruner
+
+  Description: Reduces unbounded scenarios to representative normal, boundary, failure, and high-impact classes.
+
+6. Skill Name: Long-Running Resource Governor
+
+  Description: Controls time, memory, storage, network, retries, and process lifetime for extended tasks.
+
+7. Skill Name: Scope Growth Manager
+
+  Description: Evaluates new ideas against the core objective and separates required, valuable optional, and distracting additions.
+
+8. Skill Name: Long-Form Consistency Auditor
+
+  Description: Tracks terminology, decisions, interfaces, assumptions, facts, style, and unresolved work across large outputs.
+
+9. Skill Name: Continuation Package Author
+
+  Description: Creates a clean state bundle that another session can use to continue without repeating discovery.
+
+10. Skill Name: Finite Completion Designer
+
+  Description: Defines satisfying completion for work that could theoretically continue forever.
+
+Category 34: Pattern Libraries and Reusable Intelligence
+
+1. Skill Name: Reusable Solution Pattern Extractor
+
+  Description: Abstracts successful workflows into trigger, inputs, steps, outputs, checks, and failure handling.
+
+2. Skill Name: Anti-Pattern Cataloger
+
+  Description: Records repeated failure patterns, warning signs, root causes, and safer alternatives.
+
+3. Skill Name: Template Intelligence Manager
+
+  Description: Creates and improves templates for plans, research, decisions, tests, reports, handoffs, and recovery.
+
+4. Skill Name: Check Library Curator
+
+  Description: Maintains reusable requirement, structural, semantic, boundary, join, regression, presentation, and handoff checks.
+
+5. Skill Name: Tool Recipe Author
+
+  Description: Documents reliable combinations of tools, commands, inputs, outputs, and validation for recurring tasks.
+
+6. Skill Name: Domain Playbook Designer
+
+  Description: Packages domain-specific procedures, references, standards, examples, and escalation points.
+
+7. Skill Name: Pattern Applicability Reviewer
+
+  Description: Checks whether a reusable pattern fits the current context or would import bad assumptions.
+
+8. Skill Name: Pattern Version Manager
+
+  Description: Tracks revisions, compatibility, superseded guidance, evidence, and migration notes.
+
+9. Skill Name: Reuse Benefit Analyst
+
+  Description: Measures saved effort, defect reduction, consistency, maintenance cost, and adoption friction.
+
+10. Skill Name: Reusable Intelligence Handoff Curator
+
+  Description: Packages patterns into skills, references, scripts, templates, or checklists for future agents.
+
+Category 35: Ultimate Integrated Thinking Operations
+
+1. Skill Name: Universal Task Framer
+
+  Description: Combines objective clarification, context inspection, success criteria, risks, and recipient use-path modeling.
+
+2. Skill Name: Deep Reasoning Orchestrator
+
+  Description: Routes among logical, causal, quantitative, creative, strategic, practical, and tool-assisted reasoning.
+
+3. Skill Name: Memory and Progress Steward
+
+  Description: Maintains durable task state, evidence, decisions, artifacts, lessons, and safe resume points.
+
+4. Skill Name: Adaptive Execution Director
+
+  Description: Plans, proves, expands, integrates, refines, and recovers using observed task evidence.
+
+5. Skill Name: Common Sense Reality Governor
+
+  Description: Checks technical plans against human needs, physical constraints, maintenance, consequences, and recipient effort.
+
+6. Skill Name: Continuous Learning Controller
+
+  Description: Updates assumptions, tool routing, checks, patterns, and workflows from verified outcomes.
+
+7. Skill Name: Whole-Task Verification Architect
+
+  Description: Links each requirement and claim to checks across structure, semantics, boundaries, joins, regression, presentation, and handoff.
+
+8. Skill Name: Cognitive Resource Manager
+
+  Description: Allocates attention, context, tools, time, computation, and storage according to impact and uncertainty.
+
+9. Skill Name: Responsible Intelligence Gatekeeper
+
+  Description: Applies privacy, safety, authorization, evidence, and consequential-action boundaries throughout the task.
+
+10. Skill Name: Ultimate Thinker Coordinator
+
+  Description: Integrates framing, reasoning, memory, action, learning, verification, recovery, and clean delivery into one governed capability.

@@ -1,0 +1,950 @@
+ULTIMATE VOICE
+SKILL CATALOG
+
+Comprehensive capability blueprint for voice creation, performance, conversion, editing, production, safety, and automation
+
+200 proposed skills across 20 categories
+
+Prepared as a catalog for future skill creation and agent expansion
+
+Catalog Purpose
+
+This catalog defines a broad, modular voice capability system. It is intended to help a stronger skill-building agent create individual skills, coordinated tool packs, and complete AI model skills for professional voice work.
+
+The entries describe capabilities, not unrestricted impersonation. Any feature involving a recognizable real person should require verified permission, clear usage rights, provenance, disclosure, and revocation controls. Original fictional voices and authorized voice profiles are the default.
+
+Each skill should be independently testable, reusable, composable with other skills, and able to return editable outputs, settings, diagnostics, and quality checks. Implementations should preserve scripts, timecodes, pronunciation rules, voice profiles, and production metadata when available.
+
+Recommended Skill Contract
+
+- Inputs: text, script, audio, video, subtitles, timecodes, images, voice references, performance direction, pronunciation dictionaries, and project settings.
+
+- Outputs: generated or edited audio, synchronized video-ready tracks, transcripts, subtitles, phonemes or visemes, metadata, quality reports, and reusable presets.
+
+- Controls: voice identity, language, accent, age presentation, gender presentation, emotion, attitude, pace, pitch, formant, resonance, intensity, timing, pronunciation, format, and target loudness.
+
+- Validation: intelligibility, naturalness, identity consistency, pronunciation, synchronization, artifacts, rights, consent, metadata, and file integrity.
+
+- Recovery: resumable jobs, deterministic settings where possible, versioned outputs, safe fallbacks, and specific diagnostic messages.
+
+Category Index
+
+  -------------------------------------------------------------------------------------------------
+  No.                     Category                                          Skills
+  ----------------------- ------------------------------------------------- -----------------------
+  1                       Voice Creation and Identity Design                10
+
+  2                       Text-to-Speech and Script Performance             10
+
+  3                       Emotion, Attitude, and Acting                     10
+
+  4                       Pronunciation, Language, and Accent               10
+
+  5                       Voice Conversion and Transformation               10
+
+  6                       Voice Editing and Audio Repair                    10
+
+  7                       Timing, Prosody, and Delivery Control             10
+
+  8                       Dubbing, Localization, and Lip Synchronization    10
+
+  9                       Video, Animation, and Avatar Voice                10
+
+  10                      Singing, Chanting, and Musical Voice              10
+
+  11                      Accessibility and Assistive Speech                10
+
+  12                      Conversational Agents and Real-Time Interaction   10
+
+  13                      Content and Production Workflows                  10
+
+  14                      Audio Formats, Mixing, and Delivery               10
+
+  15                      Quality Assurance and Evaluation                  10
+
+  16                      Consent, Rights, Safety, and Provenance           10
+
+  17                      Voice Libraries, Memory, and Reuse                10
+
+  18                      Tooling, Integration, and Automation              10
+
+  19                      Analysis, Detection, and Reverse Engineering      10
+
+  20                      Creative and Experimental Voice Design            10
+  -------------------------------------------------------------------------------------------------
+
+Total skills: 200
+
+Category 1: Voice Creation and Identity Design
+
+1. Skill Name: Universal Voice Creator
+
+Description: Creates original synthetic voices from a detailed brief covering age range, vocal weight, pitch, resonance, pace, accent, personality, energy, and intended use.
+
+2. Skill Name: Voice Identity Architect
+
+Description: Builds a coherent voice identity with a stable timbre, signature cadence, pronunciation profile, emotional range, and recognizable speaking habits.
+
+3. Skill Name: Character Voice Designer
+
+Description: Designs distinctive voices for fictional characters, mascots, narrators, game roles, animation, and interactive agents while keeping each identity consistent.
+
+4. Skill Name: Persona-to-Voice Mapper
+
+Description: Translates a written persona, biography, behavioral profile, or brand archetype into measurable vocal characteristics and performance directions.
+
+5. Skill Name: Voice Style Composer
+
+Description: Combines multiple style attributes such as warm, elegant, playful, mysterious, commanding, youthful, cinematic, or futuristic into one controlled voice design.
+
+6. Skill Name: Gender Presentation Voice Designer
+
+Description: Creates voices across masculine, feminine, androgynous, neutral, and fluid presentation while preserving naturalness and respectful characterization.
+
+7. Skill Name: Age and Maturity Voice Designer
+
+Description: Creates age-appropriate vocal qualities ranging from youthful to mature without relying on caricatures or unsafe impersonation.
+
+8. Skill Name: Creature and Fantasy Voice Creator
+
+Description: Creates intelligible nonhuman voices for robots, aliens, monsters, spirits, animals, and fantasy beings using layered timbre and controlled effects.
+
+9. Skill Name: Voice Variation Generator
+
+Description: Produces related variants of one approved original voice for alternate moods, roles, languages, ages, or production contexts.
+
+10. Skill Name: Voice Reference Board Builder
+
+Description: Converts descriptive references into a structured voice board containing target traits, forbidden traits, sample lines, and evaluation criteria.
+
+Category 2: Text-to-Speech and Script Performance
+
+1. Skill Name: Expressive Text-to-Speech Performer
+
+Description: Turns text into natural speech with controllable pacing, emphasis, pauses, intensity, emotion, and conversational flow.
+
+2. Skill Name: Long-Form Narration Engine
+
+Description: Performs books, reports, lessons, documentaries, and podcasts with chapter-aware pacing, fatigue control, and consistent voice identity.
+
+3. Skill Name: Short-Form Voiceover Generator
+
+Description: Creates concise voiceovers for advertisements, social posts, trailers, intros, announcements, and product demonstrations.
+
+4. Skill Name: Dialogue Performance Generator
+
+Description: Renders multi-speaker conversations with clear turn-taking, distinct identities, interruptions, reactions, and realistic timing.
+
+5. Skill Name: Script Interpretation Director
+
+Description: Analyzes intent, subtext, audience, scene context, and dramatic beats before choosing how each line should be spoken.
+
+6. Skill Name: Markup-Aware Speech Renderer
+
+Description: Reads SSML or comparable control markup for phonemes, breaks, emphasis, volume, rate, pitch, and voice switching.
+
+7. Skill Name: Prompt-to-Performance Converter
+
+Description: Transforms a plain request into a performance-ready script and voice direction without requiring technical audio terminology.
+
+8. Skill Name: Dynamic Read-Aloud Assistant
+
+Description: Reads user-selected content aloud and adapts delivery for study, accessibility, entertainment, review, or presentation rehearsal.
+
+9. Skill Name: Batch Text-to-Speech Producer
+
+Description: Processes many scripts or records in one run using stable naming, metadata, voice settings, and output validation.
+
+10. Skill Name: Streaming Speech Generator
+
+Description: Produces low-latency speech in chunks while maintaining continuity, natural prosody, and recovery from interrupted generation.
+
+Category 3: Emotion, Attitude, and Acting
+
+1. Skill Name: Emotion Performance Controller
+
+Description: Applies emotions such as joy, sadness, anger, fear, relief, wonder, affection, confidence, or concern at adjustable intensity.
+
+2. Skill Name: Attitude and Personality Performer
+
+Description: Adds attitudes such as sarcastic, sincere, rebellious, authoritative, shy, curious, impatient, compassionate, or professional.
+
+3. Skill Name: Emotional Transition Director
+
+Description: Creates believable transitions between emotions within a line, scene, or conversation rather than using one fixed mood.
+
+4. Skill Name: Subtext Performance Engine
+
+Description: Speaks lines according to hidden motives, irony, uncertainty, tension, persuasion, or restrained emotion.
+
+5. Skill Name: Comedic Timing Performer
+
+Description: Controls setup, pause placement, rhythm, contrast, and punch-line delivery for humorous scripts.
+
+6. Skill Name: Dramatic Scene Performer
+
+Description: Performs dramatic scenes with escalation, breath, silence, vocal focus, and character objectives.
+
+7. Skill Name: Empathetic Support Voice
+
+Description: Delivers sensitive or supportive content with calm pacing, nonjudgmental tone, and appropriate emotional restraint.
+
+8. Skill Name: Motivational Voice Performer
+
+Description: Creates energetic and encouraging delivery for coaching, fitness, education, onboarding, and achievement content.
+
+9. Skill Name: Villain and Antagonist Voice Designer
+
+Description: Creates fictional intimidating or sinister performances while protecting intelligibility and avoiding real-person impersonation.
+
+10. Skill Name: Emotion Consistency Auditor
+
+Description: Checks whether intended emotions remain coherent across takes, speakers, scenes, and revisions.
+
+Category 4: Pronunciation, Language, and Accent
+
+1. Skill Name: Pronunciation Dictionary Builder
+
+Description: Creates reusable custom dictionaries for names, technical terms, brands, places, acronyms, and invented words.
+
+2. Skill Name: Phoneme-Level Pronunciation Editor
+
+Description: Edits pronunciation using phonetic alphabets, syllable stress, vowel length, consonant strength, and liaison controls.
+
+3. Skill Name: Multilingual Voice Performer
+
+Description: Speaks multiple languages with language-specific rhythm, pronunciation, and natural sentence melody.
+
+4. Skill Name: Code-Switching Voice Performer
+
+Description: Moves naturally between languages or dialects within a sentence while preserving identity and meaning.
+
+5. Skill Name: Accent Style Controller
+
+Description: Applies requested regional or international accent characteristics with adjustable strength and respectful, non-caricatured delivery.
+
+6. Skill Name: Accent Neutralization Assistant
+
+Description: Reduces strong regional markers when a neutral or globally understandable delivery is requested.
+
+7. Skill Name: Name and Proper-Noun Specialist
+
+Description: Detects likely pronunciation risks in names and proper nouns, then requests or applies verified pronunciations.
+
+8. Skill Name: Acronym and Number Reader
+
+Description: Handles dates, phone numbers, currency, measurements, equations, abbreviations, URLs, and alphanumeric codes according to context.
+
+9. Skill Name: Singing-Language Pronunciation Coach
+
+Description: Adapts lyrics for singable pronunciation, vowel sustain, consonant timing, and language clarity.
+
+10. Skill Name: Pronunciation Quality Auditor
+
+Description: Flags mispronunciations, inconsistent stress, awkward phrasing, and language mismatches before delivery.
+
+Category 5: Voice Conversion and Transformation
+
+1. Skill Name: Authorized Voice Converter
+
+Description: Converts a recorded performance into an approved target voice while preserving timing, emotion, and linguistic content.
+
+2. Skill Name: Timbre Transfer Editor
+
+Description: Changes vocal color and resonance while preserving the original speaker's rhythm and performance.
+
+3. Skill Name: Age Transformation Editor
+
+Description: Adjusts perceived vocal age within an authorized recording while preserving clarity and naturalness.
+
+4. Skill Name: Gender Presentation Transformer
+
+Description: Changes vocal presentation through pitch, formant, resonance, and style controls without reducing intelligibility.
+
+5. Skill Name: Accent Transformation Editor
+
+Description: Modifies accent characteristics while retaining the speaker's message, emotion, and timing.
+
+6. Skill Name: Performance Preservation Converter
+
+Description: Transfers voice identity while prioritizing the source performance's breaths, emphasis, pauses, and emotional details.
+
+7. Skill Name: Speech-to-Character Transformer
+
+Description: Transforms an actor's approved recording into a fictional character, creature, robot, or stylized voice.
+
+8. Skill Name: Real-Time Voice Changer
+
+Description: Applies low-latency voice transformation for live calls, broadcasts, games, performances, or virtual events.
+
+9. Skill Name: Voice De-Identification Transformer
+
+Description: Produces a natural but non-identifying voice for privacy-sensitive interviews, research, moderation, or case studies.
+
+10. Skill Name: Conversion Artifact Repairer
+
+Description: Detects and repairs metallic tone, pitch wobble, phoneme smearing, breath distortion, and identity drift after conversion.
+
+Category 6: Voice Editing and Audio Repair
+
+1. Skill Name: Speech Cleanup Editor
+
+Description: Removes noise, hum, clicks, pops, mouth sounds, unwanted breaths, and room problems while protecting natural speech.
+
+2. Skill Name: Dialogue Isolation Specialist
+
+Description: Separates speech from music, ambience, effects, or overlapping background content for restoration and editing.
+
+3. Skill Name: De-Reverberation Editor
+
+Description: Reduces room echo and excessive reverberation while avoiding thin or phase-damaged speech.
+
+4. Skill Name: Voice Equalization Specialist
+
+Description: Balances tone, warmth, presence, sibilance, and low-frequency buildup for the intended playback system.
+
+5. Skill Name: Dynamics and Loudness Editor
+
+Description: Controls peaks, compression, gating, and loudness for consistent delivery across clips and platforms.
+
+6. Skill Name: Breath and Mouth-Sound Editor
+
+Description: Reduces distracting breaths and mouth noises while retaining enough natural respiration for realism.
+
+7. Skill Name: Pacing and Silence Editor
+
+Description: Shortens or extends pauses, removes dead air, and improves rhythm without creating unnatural cuts.
+
+8. Skill Name: Word and Phrase Replacement Editor
+
+Description: Replaces selected words or lines with matching voice, room tone, timing, and emotion.
+
+9. Skill Name: Voice Restoration Specialist
+
+Description: Restores damaged, clipped, muffled, distorted, or low-resolution speech from legacy or difficult recordings.
+
+10. Skill Name: Audio Edit Continuity Auditor
+
+Description: Detects audible seams, room-tone jumps, mismatched takes, abrupt breaths, and loudness inconsistencies.
+
+Category 7: Timing, Prosody, and Delivery Control
+
+1. Skill Name: Prosody Designer
+
+Description: Controls pitch contour, stress, rhythm, phrasing, and melody to make speech sound intentional and expressive.
+
+2. Skill Name: Pacing Controller
+
+Description: Sets words per minute, pause density, sentence tempo, and section-level speed for comprehension and mood.
+
+3. Skill Name: Emphasis Director
+
+Description: Places emphasis on keywords, contrasts, corrections, calls to action, and emotional beats without overacting.
+
+4. Skill Name: Pause and Breath Choreographer
+
+Description: Plans silence, inhalations, hesitations, and breath groups according to meaning and performance.
+
+5. Skill Name: Whisper and Soft-Speech Performer
+
+Description: Creates controlled whisper, intimate, confidential, or soft delivery while keeping consonants understandable.
+
+6. Skill Name: Shout and High-Energy Performer
+
+Description: Creates safe-sounding high-intensity delivery with controlled distortion, projection, and intelligibility.
+
+7. Skill Name: Conversational Disfluency Designer
+
+Description: Adds optional hesitations, fillers, restarts, and thinking sounds for natural dialogue while avoiding excessive clutter.
+
+8. Skill Name: Rhythmic Speech Performer
+
+Description: Aligns speech to beats, cadence patterns, chants, slogans, or musical timing.
+
+9. Skill Name: Duration-Constrained Voiceover
+
+Description: Fits a script into an exact target duration by adjusting pacing, pauses, and wording within approved limits.
+
+10. Skill Name: Prosody Consistency Auditor
+
+Description: Compares takes for unintended changes in stress, tempo, pitch range, or line interpretation.
+
+Category 8: Dubbing, Localization, and Lip Synchronization
+
+1. Skill Name: Automated Dubbing Director
+
+Description: Creates localized voice tracks that preserve scene intent, character identity, timing, and production quality.
+
+2. Skill Name: Lip-Sync Dialogue Adapter
+
+Description: Rewrites and performs translated dialogue to match visible mouth movement and shot duration.
+
+3. Skill Name: Timecode-Aware Voice Producer
+
+Description: Generates or places lines against timecodes, cue sheets, edit decision lists, and scene markers.
+
+4. Skill Name: Subtitle-to-Voice Converter
+
+Description: Turns subtitle files such as SRT, VTT, ASS, or TTML into synchronized speech with speaker and timing awareness.
+
+5. Skill Name: Cross-Language Voice Consistency Manager
+
+Description: Keeps the same character identity and emotional profile across localized languages.
+
+6. Skill Name: Cultural Localization Voice Director
+
+Description: Adapts idioms, politeness, humor, references, delivery style, and pronunciation for the target audience.
+
+7. Skill Name: Dubbing Cast Builder
+
+Description: Assigns distinct original voices to characters according to role, age, range, and scene requirements.
+
+8. Skill Name: Dialogue Timing Retimer
+
+Description: Adjusts line timing around cuts, reactions, interruptions, and visual actions without losing meaning.
+
+9. Skill Name: Localized Pronunciation Manager
+
+Description: Maintains approved pronunciations for names, brands, fictional terms, and locations across languages.
+
+10. Skill Name: Dubbing Quality Auditor
+
+Description: Checks synchronization, translation fit, speaker identity, performance continuity, and missing or overlapping cues.
+
+Category 9: Video, Animation, and Avatar Voice
+
+1. Skill Name: Video Voiceover Producer
+
+Description: Creates finished narration tracks for tutorials, explainers, advertisements, documentaries, and social video.
+
+2. Skill Name: Image-to-Talking-Character Voice Planner
+
+Description: Selects and directs a fitting original voice for a still image, avatar, illustration, or character design.
+
+3. Skill Name: Avatar Speech Synchronizer
+
+Description: Connects generated speech to facial animation, visemes, expressions, gaze cues, and body gestures.
+
+4. Skill Name: Talking-Head Audio Replacer
+
+Description: Replaces or localizes spoken audio while preserving timing, ambience, and visual synchronization.
+
+5. Skill Name: Scene-Aware Voice Director
+
+Description: Uses visuals, motion, framing, and scene changes to adjust delivery, energy, and timing.
+
+6. Skill Name: Video Dialogue Editor
+
+Description: Edits spoken content while maintaining picture sync, room tone, and continuity across cuts.
+
+7. Skill Name: Interactive Avatar Voice Engine
+
+Description: Provides low-latency, interruptible speech for digital humans, assistants, kiosks, and virtual presenters.
+
+8. Skill Name: Animation Voice Cast Manager
+
+Description: Maintains voice identity, episode continuity, character relationships, and performance notes across an animated production.
+
+9. Skill Name: Viseme and Phoneme Exporter
+
+Description: Exports timed phonemes or visemes for facial animation systems and lip-sync pipelines.
+
+10. Skill Name: Audiovisual Sync Auditor
+
+Description: Detects drift, late starts, lip mismatch, clipped lines, missing cues, and inconsistent scene loudness.
+
+Category 10: Singing, Chanting, and Musical Voice
+
+1. Skill Name: Singing Voice Creator
+
+Description: Creates original singing voices with selectable range, timbre, register behavior, vibrato, articulation, and genre direction.
+
+2. Skill Name: Text-to-Singing Performer
+
+Description: Transforms lyrics and melody guidance into a sung performance with controlled phrasing and emotion.
+
+3. Skill Name: Vocal Melody Interpreter
+
+Description: Performs from melody, MIDI, notation, guide vocals, or pitch contours while observing lyrics and rhythm.
+
+4. Skill Name: Harmony and Choir Generator
+
+Description: Creates layered harmonies, ensembles, choirs, call-and-response, and section parts with distinct vocal placement.
+
+5. Skill Name: Rap and Rhythmic Vocal Performer
+
+Description: Performs rhythmically precise rap, spoken-word, or chant with flow, diction, attitude, and breath planning.
+
+6. Skill Name: Vocal Style Transformer
+
+Description: Changes an authorized singing performance's vocal style, register, tone, or genre while preserving musical timing.
+
+7. Skill Name: Pitch and Timing Correction Editor
+
+Description: Corrects intonation and timing transparently or applies intentional stylized tuning.
+
+8. Skill Name: Vocal Layering and Double-Track Builder
+
+Description: Creates doubles, stacks, whispers, ad-libs, harmonies, and crowd layers from an approved vocal design.
+
+9. Skill Name: Lyric Intelligibility Optimizer
+
+Description: Improves consonants, vowel placement, phrasing, and mix position so lyrics remain understandable.
+
+10. Skill Name: Singing Quality Auditor
+
+Description: Checks pitch, rhythm, range, pronunciation, breath, clipping, artifacts, and harmony alignment.
+
+Category 11: Accessibility and Assistive Speech
+
+1. Skill Name: Accessible Read-Aloud Voice
+
+Description: Reads documents, interfaces, messages, and educational material with clear navigation and adjustable speed.
+
+2. Skill Name: Screen-Reader Content Optimizer
+
+Description: Rewrites or annotates content so headings, links, tables, symbols, and abbreviations are spoken clearly.
+
+3. Skill Name: Plain-Language Speech Adapter
+
+Description: Simplifies complex content for spoken comprehension while preserving essential meaning.
+
+4. Skill Name: Dyslexia-Friendly Audio Presenter
+
+Description: Uses chunking, repetition, pacing, and signposting to support listeners who benefit from structured audio.
+
+5. Skill Name: Low-Vision Audio Description Voice
+
+Description: Performs concise visual descriptions timed around dialogue and important actions.
+
+6. Skill Name: AAC Voice Personalizer
+
+Description: Creates a respectful, age-appropriate synthetic voice for augmentative and alternative communication users.
+
+7. Skill Name: Speech Rate Accessibility Controller
+
+Description: Provides precise, user-adjustable speed without severe pitch change or loss of intelligibility.
+
+8. Skill Name: Pronunciation Learning Assistant
+
+Description: Models sounds, syllables, stress, and minimal pairs for language learning or speech practice.
+
+9. Skill Name: Caption-and-Audio Alignment Assistant
+
+Description: Keeps spoken output aligned with captions and highlights for multimodal accessibility.
+
+10. Skill Name: Accessibility Quality Auditor
+
+Description: Checks intelligibility, navigation cues, pacing, pronunciation, volume consistency, and inclusive language.
+
+Category 12: Conversational Agents and Real-Time Interaction
+
+1. Skill Name: Conversational Voice Agent
+
+Description: Speaks agent responses naturally with context-aware tone, turn-taking, and conversational memory.
+
+2. Skill Name: Barge-In and Interruption Handler
+
+Description: Stops or redirects speech gracefully when the user interrupts, then resumes with the correct context.
+
+3. Skill Name: Turn-Taking and Backchannel Manager
+
+Description: Uses acknowledgments, pauses, and timing cues so conversations feel responsive without talking over users.
+
+4. Skill Name: Adaptive User Voice Experience
+
+Description: Adjusts speed, formality, energy, language, and verbosity according to user preference and situation.
+
+5. Skill Name: Customer Service Voice
+
+Description: Delivers clear, patient, policy-aware responses for support, booking, order, account, and service workflows.
+
+6. Skill Name: Tutor and Coach Voice
+
+Description: Explains, prompts, encourages, corrects, and checks understanding using a supportive teaching style.
+
+7. Skill Name: Game NPC Voice Engine
+
+Description: Generates context-sensitive lines for non-player characters while preserving lore, identity, mood, and state.
+
+8. Skill Name: Live Event Announcer
+
+Description: Produces timely announcements, introductions, results, safety messages, and transitions for events or streams.
+
+9. Skill Name: Real-Time Translation Voice
+
+Description: Speaks translated content with low latency while preserving speaker intent and conversational rhythm.
+
+10. Skill Name: Conversation Experience Auditor
+
+Description: Measures latency, interruption behavior, repetition, clarity, emotional fit, and turn-level consistency.
+
+Category 13: Content and Production Workflows
+
+1. Skill Name: Podcast Voice Producer
+
+Description: Creates hosts, narrators, segments, promos, intros, and corrections with episode-level voice continuity.
+
+2. Skill Name: Audiobook Production Director
+
+Description: Manages narration, dialogue, chapters, character continuity, pickups, and mastering for long-form books.
+
+3. Skill Name: Education Voice Producer
+
+Description: Creates lessons, quizzes, explanations, feedback, and revision audio with learner-appropriate pacing.
+
+4. Skill Name: Advertising Voice Director
+
+Description: Creates persuasive voiceovers aligned to audience, product, brand, duration, and legal copy requirements.
+
+5. Skill Name: News and Bulletin Reader
+
+Description: Delivers factual scripts with clear names, numbers, transitions, and controlled neutrality.
+
+6. Skill Name: Corporate Training Voice Producer
+
+Description: Creates consistent onboarding, compliance, software training, and internal communication audio.
+
+7. Skill Name: Game Dialogue Production Manager
+
+Description: Organizes large dialogue sets by character, state, mission, emotion, and filename convention.
+
+8. Skill Name: IVR and Telephony Voice Producer
+
+Description: Creates phone prompts optimized for narrow-band audio, concise options, and consistent menu navigation.
+
+9. Skill Name: Public Announcement Voice Producer
+
+Description: Creates clear announcements for transport, venues, schools, offices, and emergency information systems.
+
+10. Skill Name: Content Versioning Manager
+
+Description: Tracks script, voice, language, take, revision, approval, and export versions across production.
+
+Category 14: Audio Formats, Mixing, and Delivery
+
+1. Skill Name: Voice Export Specialist
+
+Description: Exports WAV, MP3, AAC, FLAC, OGG, Opus, or platform-specific formats with appropriate sample rate and bit depth.
+
+2. Skill Name: Broadcast Loudness Mastering
+
+Description: Masters spoken audio to selected loudness and peak targets suitable for broadcast, podcast, streaming, or video.
+
+3. Skill Name: Telephony Audio Formatter
+
+Description: Prepares speech for telephone systems using correct codec, channel count, sample rate, and intelligibility checks.
+
+4. Skill Name: Spatial Voice Mixer
+
+Description: Places voices in stereo, binaural, surround, or immersive scenes with position, distance, and room cues.
+
+5. Skill Name: Voice-and-Music Mixer
+
+Description: Balances narration, dialogue, music, and effects using ducking, automation, and frequency management.
+
+6. Skill Name: Room Tone and Ambience Matcher
+
+Description: Matches generated or edited speech to the acoustic character of the surrounding scene.
+
+7. Skill Name: Stem and Track Exporter
+
+Description: Delivers isolated speech, music, effects, alternate takes, and language tracks with clear naming and alignment.
+
+8. Skill Name: Metadata and Cue Sheet Writer
+
+Description: Creates embedded metadata, speaker labels, timecodes, cue sheets, pronunciation notes, and licensing fields.
+
+9. Skill Name: Platform Delivery Preset Manager
+
+Description: Applies repeatable export presets for podcast hosts, video editors, game engines, telephony, and web playback.
+
+10. Skill Name: Delivery Package Validator
+
+Description: Checks file integrity, duration, channels, sample rate, loudness, clipping, silence, names, and expected deliverables.
+
+Category 15: Quality Assurance and Evaluation
+
+1. Skill Name: Voice Naturalness Evaluator
+
+Description: Scores realism, smoothness, prosody, breaths, artifacts, and listener fatigue using defined test scripts.
+
+2. Skill Name: Intelligibility Evaluator
+
+Description: Measures whether words, names, numbers, and critical instructions remain understandable in realistic playback conditions.
+
+3. Skill Name: Speaker Consistency Evaluator
+
+Description: Checks identity stability across lines, emotions, languages, sessions, and regenerated segments.
+
+4. Skill Name: Emotion Accuracy Evaluator
+
+Description: Compares requested emotion and intensity with perceived performance and flags mismatches.
+
+5. Skill Name: Pronunciation Regression Tester
+
+Description: Runs standard phrase lists to detect new pronunciation failures after model, dictionary, or setting changes.
+
+6. Skill Name: Audio Artifact Detector
+
+Description: Detects clicks, clipping, warble, metallic resonance, phase issues, repeated phonemes, and abrupt spectral changes.
+
+7. Skill Name: A/B Voice Test Designer
+
+Description: Builds controlled listening tests for alternative voices, takes, settings, or processing chains.
+
+8. Skill Name: Human Review Workflow Manager
+
+Description: Routes samples to reviewers, captures structured ratings, resolves disagreements, and records approval decisions.
+
+9. Skill Name: Golden Sample Comparator
+
+Description: Compares new output with approved reference samples for tone, timing, pronunciation, and technical quality.
+
+10. Skill Name: Voice Release Gate
+
+Description: Blocks delivery when required consent, quality, metadata, file, or synchronization checks have not passed.
+
+Category 16: Consent, Rights, Safety, and Provenance
+
+1. Skill Name: Voice Consent Verifier
+
+Description: Records and verifies permission before cloning, converting, or distributing a recognizable person's voice.
+
+2. Skill Name: Authorized Voice Enrollment Manager
+
+Description: Collects approved recordings, identity evidence, usage scope, expiration, and revocation terms for a voice profile.
+
+3. Skill Name: Usage Rights Policy Enforcer
+
+Description: Restricts voices by allowed users, projects, territories, platforms, durations, and commercial permissions.
+
+4. Skill Name: Real-Person Impersonation Guard
+
+Description: Detects requests to imitate a real person without authorization and redirects to original or licensed alternatives.
+
+5. Skill Name: Disclosure and Labeling Generator
+
+Description: Adds appropriate synthetic-voice notices, credits, metadata, or audible disclosures when required.
+
+6. Skill Name: Voice Provenance Recorder
+
+Description: Tracks source recordings, model version, edits, prompts, approvals, and export history for each asset.
+
+7. Skill Name: Watermark and Authenticity Marker
+
+Description: Embeds or preserves machine-readable and production-level markers that help identify synthetic or authorized audio.
+
+8. Skill Name: Revocation and Takedown Manager
+
+Description: Disables voice profiles, finds affected assets, and supports replacement or removal after consent is withdrawn.
+
+9. Skill Name: Sensitive Scenario Safety Reviewer
+
+Description: Applies stricter checks to fraud, harassment, sexual content, minors, emergencies, politics, finance, and identity-sensitive uses.
+
+10. Skill Name: Rights and Compliance Audit
+
+Description: Produces an auditable checklist of consent, ownership, license, disclosure, retention, and distribution conditions.
+
+Category 17: Voice Libraries, Memory, and Reuse
+
+1. Skill Name: Voice Profile Library Manager
+
+Description: Stores approved voice identities, parameters, samples, permissions, tags, and compatibility information.
+
+2. Skill Name: Character Voice Bible Builder
+
+Description: Creates a durable record of a character's voice, range, pronunciation, emotions, relationships, and forbidden variations.
+
+3. Skill Name: Style Preset Manager
+
+Description: Saves reusable performance presets such as warm narrator, energetic host, calm tutor, or urgent announcer.
+
+4. Skill Name: Pronunciation Memory Manager
+
+Description: Remembers approved pronunciations at project, character, brand, language, or organization level.
+
+5. Skill Name: Voice Session Recall
+
+Description: Restores the settings, takes, notes, and processing chain needed to continue a previous production.
+
+6. Skill Name: Cross-Project Voice Reuse Controller
+
+Description: Allows controlled reuse of approved voices while respecting project rights and avoiding accidental identity drift.
+
+7. Skill Name: Voice Search and Discovery
+
+Description: Finds suitable voices by attributes such as language, range, tone, role, emotion, license, and technical compatibility.
+
+8. Skill Name: Voice Similarity Deduplicator
+
+Description: Detects overly similar catalog voices and helps differentiate or consolidate them.
+
+9. Skill Name: Preset Migration Assistant
+
+Description: Updates older voice presets to new engines or schemas while preserving intended sound and documenting differences.
+
+10. Skill Name: Voice Asset Archive Manager
+
+Description: Packages source, output, metadata, approvals, scripts, and dependencies for reliable future reopening.
+
+Category 18: Tooling, Integration, and Automation
+
+1. Skill Name: Voice API Orchestrator
+
+Description: Connects speech generation, conversion, editing, storage, review, and delivery services through a stable workflow.
+
+2. Skill Name: Voice Model Router
+
+Description: Chooses the best available engine for language, latency, emotion, singing, conversion, privacy, cost, and quality requirements.
+
+3. Skill Name: Fallback and Recovery Manager
+
+Description: Retries failed jobs, switches engines, preserves state, and reports incomplete sections without duplicating finished work.
+
+4. Skill Name: Voice Job Queue Manager
+
+Description: Schedules large workloads with priorities, concurrency limits, checkpoints, cancellation, and progress reporting.
+
+5. Skill Name: Template-Driven Voice Pipeline
+
+Description: Generates repeatable projects from schemas containing scripts, speakers, directions, filenames, and export rules.
+
+6. Skill Name: Digital Audio Workstation Connector
+
+Description: Exchanges clips, tracks, markers, timecodes, takes, and revisions with common editing workflows.
+
+7. Skill Name: Game Engine Voice Connector
+
+Description: Delivers voice assets, lip-sync data, subtitles, localization keys, and event metadata to game projects.
+
+8. Skill Name: Video Editor Voice Connector
+
+Description: Places generated or revised speech into timelines using timecodes, track rules, and replacement instructions.
+
+9. Skill Name: Voice Webhook and Event Manager
+
+Description: Emits status, approval, failure, and completion events for downstream automation.
+
+10. Skill Name: Voice Pipeline Observability Monitor
+
+Description: Tracks latency, errors, model changes, cost, throughput, quality signals, and failed joins across the pipeline.
+
+Category 19: Analysis, Detection, and Reverse Engineering
+
+1. Skill Name: Voice Attribute Analyzer
+
+Description: Estimates pitch range, pace, energy, timbre, resonance, articulation, accent markers, and speaking style from audio.
+
+2. Skill Name: Speaker Segmentation and Diarization
+
+Description: Separates speakers and labels turns in interviews, meetings, shows, and mixed recordings.
+
+3. Skill Name: Speech Transcription Specialist
+
+Description: Creates accurate transcripts with timestamps, speaker labels, punctuation, confidence, and custom vocabulary.
+
+4. Skill Name: Emotion and Sentiment Analyzer
+
+Description: Estimates expressed emotion, intensity, and changes over time while distinguishing observation from certainty.
+
+5. Skill Name: Voice Activity Detector
+
+Description: Finds speech boundaries, silence, crosstalk, breaths, and non-speech vocal sounds.
+
+6. Skill Name: Acoustic Environment Analyzer
+
+Description: Identifies room tone, echo, noise, microphone traits, clipping, and processing already present in a recording.
+
+7. Skill Name: Voice Match Suitability Analyzer
+
+Description: Assesses whether source audio is clean, authorized, and sufficient for a requested conversion or voice design workflow.
+
+8. Skill Name: Synthetic Speech Artifact Analyzer
+
+Description: Flags patterns associated with generated or heavily processed speech without claiming perfect detection.
+
+9. Skill Name: Script-to-Audio Alignment Analyzer
+
+Description: Aligns transcripts to audio at sentence, word, phoneme, and cue level.
+
+10. Skill Name: Voice Production Diagnostic
+
+Description: Explains likely causes of quality problems and recommends the smallest repair step for each issue.
+
+Category 20: Creative and Experimental Voice Design
+
+1. Skill Name: Layered Hybrid Voice Designer
+
+Description: Combines multiple original vocal layers, textures, and processing styles into one coherent fictional voice.
+
+2. Skill Name: Procedural Voice Generator
+
+Description: Creates controlled variations from rules so crowds, creatures, NPCs, or systems sound related but not identical.
+
+3. Skill Name: Glitch and Cyber Voice Designer
+
+Description: Creates intentional digital, synthetic, radio, holographic, or corrupted effects while preserving chosen intelligibility.
+
+4. Skill Name: Period and Genre Voice Director
+
+Description: Designs performance direction inspired by a historical period or creative genre without copying a specific living performer.
+
+5. Skill Name: Environmental Voice Designer
+
+Description: Makes a voice sound transmitted through helmets, radios, caves, machines, dreams, underwater scenes, or supernatural spaces.
+
+6. Skill Name: Micro-Expression Voice Designer
+
+Description: Adds subtle smiles, tension, uncertainty, restrained laughter, fatigue, tears, or hesitation to individual words and breaths.
+
+7. Skill Name: Crowd and Group Voice Generator
+
+Description: Creates crowds, chants, murmurs, reactions, and background conversations using diverse original voices.
+
+8. Skill Name: Nonverbal Vocalization Creator
+
+Description: Creates safe, context-appropriate laughs, sighs, gasps, hums, efforts, reactions, and creature vocalizations.
+
+9. Skill Name: Interactive Emotional State Voice
+
+Description: Changes voice behavior continuously from agent or game state such as stress, health, trust, location, or urgency.
+
+10. Skill Name: Experimental Voice Sandbox
+
+Description: Supports reversible exploration of unusual timbres, prosody, effects, and combinations with saved settings and comparison outputs.
+
+Implementation Grouping Suggestions
+
+Core Generation Pack
+
+Voice creation, text-to-speech, pronunciation, prosody, emotion, and export.
+
+Transformation and Editing Pack
+
+Authorized conversion, cleanup, restoration, retiming, replacement, and mastering.
+
+Audiovisual Localization Pack
+
+Dubbing, subtitles, lip synchronization, video editing, visemes, and multilingual continuity.
+
+Interactive Voice Agent Pack
+
+Streaming speech, interruption handling, conversational delivery, real-time translation, and adaptive experiences.
+
+Music and Performance Pack
+
+Singing, harmony, rap, rhythmic speech, nonverbal vocals, and musical editing.
+
+Governance and Quality Pack
+
+Consent, permission, provenance, disclosure, safety review, evaluation, and release gates.
+
+Production Automation Pack
+
+APIs, routing, queues, templates, connectors, observability, archives, and delivery validation.
+
+Catalog Boundary
+
+This document is a capability catalog only. It does not implement the skills, select voice models, grant rights to any voice, or authorize imitation of a real person. Each future skill should define its own tools, schemas, permissions, tests, failure handling, and supported formats.

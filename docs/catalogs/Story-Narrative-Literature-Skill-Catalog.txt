@@ -1,0 +1,1875 @@
+A comprehensive catalog of composable agent skills for original storytelling, lore, novels, games, visual novels, sequential art, scripts, poetry, lyrics, research, revision, continuity, and publishing.
+
+  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Catalog purpose. This document proposes focused skills for later implementation. It is not a package of implemented skills. Each entry is scoped for reusable instructions, references, templates, continuity data, validation, and production-ready narrative deliverables.
+  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Narrative Design Principles
+
+- Every scene, line, image, choice, rhyme, and lore detail should serve character, theme, causality, atmosphere, or audience experience.
+
+- Create original work and treat references as context, not material to imitate or reproduce.
+
+- Track cause, effect, knowledge, time, place, relationships, promises, rules, and consequences across the complete work.
+
+- Match structure and writing technique to the actual medium, audience, genre, production path, and requested length.
+
+- Separate verified fact, source material, interpretation, invention, uncertainty, and continuity decisions.
+
+- Validate large works through outlines, scene goals, route tests, continuity audits, revision passes, and final reopen checks.
+
+Catalog scope: 37 categories and 444 proposed skills.
+
+Catalog
+
+Category 1: Story Vision and Creative Direction
+
+1. Skill Name: Story Premise Architect
+
+  Description: Turns a theme, image, question, mechanic, character, or audience need into a durable dramatic premise with conflict and transformation.
+
+2. Skill Name: Narrative North Star Designer
+
+  Description: Defines the emotional promise, thematic question, reader experience, boundaries, and completion criteria that guide an entire work.
+
+3. Skill Name: Story Concept Generator
+
+  Description: Develops original high-concept and intimate story ideas across genres, media, lengths, audiences, and production constraints.
+
+4. Skill Name: Creative Territory Explorer
+
+  Description: Produces distinct narrative directions with different worlds, tones, structures, protagonists, and risks rather than superficial variants.
+
+5. Skill Name: Narrative Brief Interpreter
+
+  Description: Converts requested genre, format, length, age range, themes, canon, content limits, and deliverables into an actionable writing brief.
+
+6. Skill Name: Audience Engagement Strategist
+
+  Description: Plans curiosity, identification, surprise, suspense, humor, wonder, empathy, and payoff for a defined readership or player base.
+
+7. Skill Name: Tone and Atmosphere Director
+
+  Description: Establishes voice, mood, intensity, sensory character, emotional temperature, and rules for tonal shifts.
+
+8. Skill Name: Narrative Constraint Designer
+
+  Description: Uses word count, page count, cast size, setting, timeline, viewpoint, budget, and platform limits to strengthen the story.
+
+9. Skill Name: Originality and Influence Reviewer
+
+  Description: Identifies excessive similarity to existing works and redirects concepts toward original combinations, structures, and expression.
+
+10. Skill Name: Story Feasibility Planner
+
+  Description: Tests whether the proposed scope, cast, arc, branching, research, art, audio, and production needs fit the intended medium.
+
+11. Skill Name: Narrative Quality Rubric Author
+
+  Description: Creates measurable criteria for coherence, character, theme, pacing, prose, originality, emotional impact, and format readiness.
+
+12. Skill Name: Long-Form Completion Architect
+
+  Description: Breaks very large or open-ended works into volumes, arcs, milestones, continuity gates, and satisfying intermediate completions.
+
+Category 2: Theme, Meaning, and Emotional Design
+
+1. Skill Name: Theme Development Specialist
+
+  Description: Builds a thematic question and competing answers that emerge through character choices, consequences, images, and outcomes.
+
+2. Skill Name: Moral Complexity Designer
+
+  Description: Creates conflicts with credible values, trade-offs, blind spots, and consequences instead of simplistic moral labeling.
+
+3. Skill Name: Emotional Arc Designer
+
+  Description: Plans the intended emotional movement of scenes, chapters, acts, episodes, routes, and the complete work.
+
+4. Skill Name: Meaningful Motif Designer
+
+  Description: Develops recurring objects, phrases, colors, places, sounds, and actions whose meaning changes with the story.
+
+5. Skill Name: Symbolism Architect
+
+  Description: Uses symbols with narrative function, cultural awareness, variation, and restraint rather than decorative obscurity.
+
+6. Skill Name: Subtext Designer
+
+  Description: Creates dialogue and action where spoken intent, hidden desire, social pressure, and audience understanding interact.
+
+7. Skill Name: Catharsis and Payoff Designer
+
+  Description: Builds earned emotional release through setup, escalation, recognition, choice, cost, and aftermath.
+
+8. Skill Name: Hope and Despair Balance Designer
+
+  Description: Controls darkness, relief, agency, connection, and possibility so intense stories remain purposeful.
+
+9. Skill Name: Philosophical Narrative Designer
+
+  Description: Dramatizes competing philosophical positions through lived decisions and consequences without turning characters into lectures.
+
+10. Skill Name: Cultural Meaning Reviewer
+
+  Description: Checks symbols, rituals, values, humor, conflict, and representation for context, specificity, and avoidable harm.
+
+11. Skill Name: Emotional Authenticity Editor
+
+  Description: Revises reactions, grief, joy, fear, intimacy, recovery, and change to fit character history and circumstance.
+
+12. Skill Name: Theme Consistency Auditor
+
+  Description: Tracks where theme is introduced, challenged, embodied, contradicted, transformed, and resolved.
+
+Category 3: Plot, Structure, and Story Architecture
+
+1. Skill Name: Plot Architecture Designer
+
+  Description: Builds causally connected goals, obstacles, reversals, revelations, choices, consequences, climax, and resolution.
+
+2. Skill Name: Three-Act Structure Specialist
+
+  Description: Uses setup, confrontation, and resolution flexibly while preserving character causality and avoiding mechanical beats.
+
+3. Skill Name: Five-Act and Dramatic Structure Specialist
+
+  Description: Designs escalation, turning points, complications, crisis, climax, and denouement for stage-like or expansive narratives.
+
+4. Skill Name: Hero Journey Adaptation Designer
+
+  Description: Uses departure, initiation, and return patterns only where appropriate, adapting them to the character and culture.
+
+5. Skill Name: Save-the-Cat Beat Analyst
+
+  Description: Uses recognizable commercial beats diagnostically without forcing every story into the same sequence.
+
+6. Skill Name: Kishotenketsu Structure Designer
+
+  Description: Builds introduction, development, twist, and reconciliation structures that can operate without conflict-centric plotting.
+
+7. Skill Name: Nonlinear Narrative Architect
+
+  Description: Designs flashbacks, flashforwards, loops, fragments, parallel times, reverse chronology, and delayed context with clear orientation.
+
+8. Skill Name: Nested Story Designer
+
+  Description: Creates stories within stories whose structure, voice, and meaning interact with the framing narrative.
+
+9. Skill Name: Parallel Plot Weaver
+
+  Description: Coordinates multiple plots so their themes, decisions, timing, and climaxes reinforce or productively contrast.
+
+10. Skill Name: Mystery Plot Engineer
+
+  Description: Plans crime or puzzle, truth, clues, red herrings, suspects, investigative steps, reversals, and fair revelation.
+
+11. Skill Name: Twist and Revelation Designer
+
+  Description: Creates surprising but retrospectively supported revelations that alter understanding and future action.
+
+12. Skill Name: Ending and Resolution Architect
+
+  Description: Builds endings that resolve the central promise, character movement, consequences, theme, and appropriate remaining ambiguity.
+
+Category 4: Scene, Sequence, and Chapter Craft
+
+1. Skill Name: Scene Purpose Designer
+
+  Description: Defines each scene by viewpoint goal, obstacle, tactic, change, new information, emotional movement, and exit condition.
+
+2. Skill Name: Scene Opening Specialist
+
+  Description: Creates openings with orientation, disturbance, voice, image, tension, or immediate purpose suited to the work.
+
+3. Skill Name: Scene Escalation Designer
+
+  Description: Raises pressure through stronger obstacles, narrowing options, cost, urgency, exposure, and irreversible decisions.
+
+4. Skill Name: Scene Turn and Reversal Designer
+
+  Description: Creates meaningful changes in power, knowledge, intention, relationship, or circumstance within a scene.
+
+5. Skill Name: Scene Ending and Hook Designer
+
+  Description: Ends on decision, revelation, threat, image, question, reversal, or emotional resonance without repetitive cliffhangers.
+
+6. Skill Name: Sequence Architect
+
+  Description: Groups scenes into purposeful sequences with setup, pursuit, complication, culmination, and consequence.
+
+7. Skill Name: Chapter Designer
+
+  Description: Builds chapters with internal shape, viewpoint control, pacing, transitions, thematic function, and reader momentum.
+
+8. Skill Name: Transition Specialist
+
+  Description: Creates clear and elegant transitions across time, place, viewpoint, tone, montage, memory, and parallel action.
+
+9. Skill Name: Montage and Compression Writer
+
+  Description: Condenses repeated effort, travel, training, investigation, or relationship growth while preserving selected vivid moments.
+
+10. Skill Name: Dramatic Expansion Writer
+
+  Description: Slows crucial moments through sensory attention, thought, action, dialogue, and micro-decisions without padding.
+
+11. Skill Name: Scene Continuity Auditor
+
+  Description: Checks entrances, exits, positions, objects, wounds, knowledge, time, weather, clothing, and causal carryover.
+
+12. Skill Name: Chapter Rhythm Auditor
+
+  Description: Reviews variation in length, intensity, viewpoint, information, action, reflection, and ending type.
+
+Category 5: Character Creation and Development
+
+1. Skill Name: Protagonist Designer
+
+  Description: Creates a central character with desire, need, contradiction, capability, vulnerability, history, and capacity for consequential choice.
+
+2. Skill Name: Antagonist Designer
+
+  Description: Builds a credible opposing force with goals, values, methods, strengths, limits, and pressure on the protagonist.
+
+3. Skill Name: Supporting Cast Designer
+
+  Description: Creates allies, rivals, mentors, dependents, foils, witnesses, and complications with independent motives and functions.
+
+4. Skill Name: Character Arc Architect
+
+  Description: Plans positive, negative, flat, disillusionment, corruption, recovery, and transformation arcs through choices and consequences.
+
+5. Skill Name: Character Backstory Designer
+
+  Description: Creates only the history needed to drive present behavior, relationships, fear, skill, belief, and unresolved conflict.
+
+6. Skill Name: Character Contradiction Designer
+
+  Description: Builds believable tensions between self-image, behavior, desire, fear, values, habits, and social role.
+
+7. Skill Name: Character Voice Designer
+
+  Description: Defines vocabulary, rhythm, imagery, formality, humor, silence, and context-dependent speech patterns.
+
+8. Skill Name: Character Relationship Architect
+
+  Description: Designs changing bonds through power, trust, intimacy, obligation, rivalry, misunderstanding, and shared history.
+
+9. Skill Name: Character Agency Auditor
+
+  Description: Checks whether major characters initiate action, make meaningful choices, and affect outcomes rather than merely receive plot.
+
+10. Skill Name: Character Consistency and Growth Auditor
+
+  Description: Tracks stable traits, pressure responses, learning, relapse, earned change, and scene-level behavior.
+
+11. Skill Name: Ensemble Cast Balancer
+
+  Description: Distributes purpose, attention, arcs, viewpoints, conflicts, and payoff across a large cast.
+
+12. Skill Name: Character Bible Author
+
+  Description: Documents identity, appearance, history, goals, fears, relationships, voice, knowledge, arc, and continuity facts.
+
+Category 6: Dialogue, Voice, and Conversation
+
+1. Skill Name: Dialogue Scene Writer
+
+  Description: Writes purposeful conversation shaped by goals, tactics, status, history, setting, interruption, and subtext.
+
+2. Skill Name: Distinct Voice Specialist
+
+  Description: Separates speakers through worldview, rhythm, vocabulary, metaphor, politeness, directness, and avoidance patterns.
+
+3. Skill Name: Subtextual Dialogue Designer
+
+  Description: Creates exchanges where characters pursue hidden goals and the audience understands more than is said.
+
+4. Skill Name: Banter and Verbal Chemistry Writer
+
+  Description: Builds playful conflict, timing, callbacks, status shifts, affection, and distinct comedic rhythm.
+
+5. Skill Name: Argument and Confrontation Writer
+
+  Description: Creates escalating disagreement with valid positions, tactical changes, emotional stakes, and consequential turns.
+
+6. Skill Name: Exposition Dialogue Repairer
+
+  Description: Moves necessary information into conflict, discovery, implication, action, or character-specific language.
+
+7. Skill Name: Monologue and Soliloquy Writer
+
+  Description: Creates sustained speech with progression, revelation, rhetoric, internal turns, and performance rhythm.
+
+8. Skill Name: Interview and Interrogation Scene Writer
+
+  Description: Designs questions, resistance, deception, leverage, silence, evidence, and changing control.
+
+9. Skill Name: Group Conversation Choreographer
+
+  Description: Manages multiple speakers, interruptions, alliances, reactions, spatial cues, and topic shifts without confusion.
+
+10. Skill Name: Dialogue Tag and Action Beat Editor
+
+  Description: Balances attribution, gesture, pacing, clarity, and subtext while avoiding repetitive or distracting tags.
+
+11. Skill Name: Speech Realism Calibrator
+
+  Description: Adjusts dialogue between naturalism and compression according to genre, medium, period, and audience.
+
+12. Skill Name: Dialogue Continuity Auditor
+
+  Description: Tracks knowledge, lies, promises, terminology, accents, relationships, and callbacks across the work.
+
+Category 7: Worldbuilding and Lore Systems
+
+1. Skill Name: World Premise Designer
+
+  Description: Defines what makes the setting fundamentally distinct and how that difference changes daily life and conflict.
+
+2. Skill Name: Lore Architecture Designer
+
+  Description: Organizes origins, eras, peoples, places, institutions, conflicts, myths, technologies, and unresolved questions.
+
+3. Skill Name: History and Timeline Builder
+
+  Description: Creates eras, causes, turning points, migrations, discoveries, disasters, reforms, and contested interpretations.
+
+4. Skill Name: Culture Designer
+
+  Description: Builds values, customs, family, work, art, food, dress, humor, etiquette, taboos, and internal diversity.
+
+5. Skill Name: Religion and Mythology Designer
+
+  Description: Creates beliefs, practices, institutions, myths, schisms, sacred places, ethics, and everyday influence.
+
+6. Skill Name: Political System Designer
+
+  Description: Builds authority, law, legitimacy, succession, factions, administration, opposition, and sources of instability.
+
+7. Skill Name: Economic and Trade System Designer
+
+  Description: Creates resources, labor, production, exchange, class, scarcity, routes, incentives, and material consequences.
+
+8. Skill Name: Technology and Infrastructure Designer
+
+  Description: Defines invention, access, maintenance, transport, communication, energy, weapons, medicine, and social effects.
+
+9. Skill Name: Ecology and Creature System Designer
+
+  Description: Creates climates, biomes, food webs, species, adaptation, domestication, hazards, and human environmental impact.
+
+10. Skill Name: Language and Naming System Designer
+
+  Description: Creates phonetic patterns, naming conventions, titles, terms, idioms, and language relationships without requiring a full conlang.
+
+11. Skill Name: Worldbuilding Consequence Auditor
+
+  Description: Tests how magic, technology, geography, history, and institutions alter economics, warfare, family, law, and daily routines.
+
+12. Skill Name: Lore Bible Author
+
+  Description: Maintains canon, dates, terms, maps, cultures, systems, unresolved mysteries, sources, and revision history.
+
+Category 8: Magic, Supernatural, and Speculative Systems
+
+1. Skill Name: Magic System Architect
+
+  Description: Defines source, access, rules, limits, costs, learning, institutions, edge cases, and narrative consequences.
+
+2. Skill Name: Soft Magic Atmosphere Designer
+
+  Description: Creates wonder, mystery, symbolism, uncertainty, and emotional logic without over-explaining the supernatural.
+
+3. Skill Name: Hard Magic Rule Designer
+
+  Description: Builds explicit capabilities, constraints, interactions, exploits, counters, and testable consistency.
+
+4. Skill Name: Power System Balancer
+
+  Description: Designs abilities, progression, drawbacks, matchups, teamwork, environment use, and escalation without arbitrary outcomes.
+
+5. Skill Name: Supernatural Entity Designer
+
+  Description: Creates spirits, gods, monsters, anomalies, curses, and other beings with rules, motives, signs, and cultural interpretations.
+
+6. Skill Name: Prophecy and Fate Designer
+
+  Description: Uses prophecy, destiny, interpretation, self-fulfillment, resistance, and ambiguity without removing agency.
+
+7. Skill Name: Time Travel Logic Designer
+
+  Description: Defines timeline model, causality, paradox handling, memory, branching, constraints, and emotional consequences.
+
+8. Skill Name: Multiverse Narrative Designer
+
+  Description: Creates meaningful alternate worlds with divergence points, thematic contrasts, travel rules, and identity consequences.
+
+9. Skill Name: Science Fiction Plausibility Designer
+
+  Description: Builds extrapolated technology and societies with stated assumptions, limits, second-order effects, and human stakes.
+
+10. Skill Name: Speculative Society Designer
+
+  Description: Explores how one altered condition reshapes institutions, relationships, language, work, identity, and conflict.
+
+11. Skill Name: System Exploit and Edge-Case Auditor
+
+  Description: Finds loopholes, contradictions, unintended capabilities, trivial solutions, and missing societal adaptations.
+
+12. Skill Name: Power Escalation Auditor
+
+  Description: Checks scale, stakes, counterplay, cost, spectacle, and continuity as abilities grow.
+
+Category 9: Places, Environments, and Spatial Narrative
+
+1. Skill Name: Location Lore Designer
+
+  Description: Creates places with history, function, inhabitants, conflict, sensory identity, and changing meaning.
+
+2. Skill Name: City and Settlement Designer
+
+  Description: Builds districts, infrastructure, power, economy, landmarks, movement, class, services, and local tensions.
+
+3. Skill Name: Dungeon and Adventure Site Designer
+
+  Description: Creates navigable spaces with purpose, history, inhabitants, hazards, puzzles, choices, and environmental storytelling.
+
+4. Skill Name: Landscape Narrative Designer
+
+  Description: Uses terrain, climate, ecology, travel, visibility, resources, and danger to shape plot and culture.
+
+5. Skill Name: Building and Interior Story Designer
+
+  Description: Creates rooms and structures whose layout, wear, objects, access, and transformation reveal story.
+
+6. Skill Name: Journey and Travel Designer
+
+  Description: Plans route, distance, obstacles, encounters, changing relationships, logistics, discovery, and arrival payoff.
+
+7. Skill Name: Place-Based Mystery Designer
+
+  Description: Embeds clues, contradictions, hidden layers, witnesses, and past events into a location.
+
+8. Skill Name: Spatial Blocking Writer
+
+  Description: Tracks character positions, movement, sightlines, objects, entrances, exits, and physical interactions in prose or scripts.
+
+9. Skill Name: Environmental Storytelling Designer
+
+  Description: Communicates events and lives through arrangement, damage, traces, objects, architecture, and absence.
+
+10. Skill Name: Map-to-Story Integrator
+
+  Description: Uses maps to test distance, routes, borders, resources, conflict, travel time, and scene geography.
+
+11. Skill Name: Location Continuity Auditor
+
+  Description: Tracks layouts, distances, access, weather, light, occupants, damage, and changes across scenes.
+
+12. Skill Name: Place Bible Author
+
+  Description: Documents maps, districts, rooms, sensory details, history, inhabitants, routes, rules, and story uses.
+
+Category 10: Factions, Societies, and Conflict Networks
+
+1. Skill Name: Faction Designer
+
+  Description: Creates groups with purpose, ideology, resources, structure, membership, rituals, rivals, fractures, and public image.
+
+2. Skill Name: Institution Designer
+
+  Description: Builds schools, militaries, guilds, corporations, governments, orders, families, and criminal organizations with operating logic.
+
+3. Skill Name: Alliance and Rivalry Mapper
+
+  Description: Tracks cooperation, leverage, debt, betrayal, competition, neutrality, and changing relationships among groups.
+
+4. Skill Name: Political Intrigue Architect
+
+  Description: Designs agendas, secrets, offices, succession, coalitions, scandals, information, and public consequences.
+
+5. Skill Name: War and Campaign Narrative Designer
+
+  Description: Creates strategic goals, logistics, command, fronts, civilian effects, morale, intelligence, and meaningful turning points.
+
+6. Skill Name: Rebellion and Revolution Designer
+
+  Description: Builds grievances, organization, factions, state response, escalation, legitimacy, sacrifice, and possible aftermaths.
+
+7. Skill Name: Criminal Underworld Designer
+
+  Description: Creates markets, crews, territory, codes, protection, corruption, enforcement, and social connections.
+
+8. Skill Name: Diplomacy and Negotiation Designer
+
+  Description: Builds interests, red lines, concessions, credibility, signaling, domestic pressure, and agreement consequences.
+
+9. Skill Name: Social Class and Power Designer
+
+  Description: Shows how wealth, status, law, education, identity, and access shape opportunity and relationships.
+
+10. Skill Name: Faction Character Integrator
+
+  Description: Connects institutions to personal loyalties, careers, family, belief, fear, betrayal, and change.
+
+11. Skill Name: Conflict Network Auditor
+
+  Description: Checks incentives, resources, communication, escalation, alliances, and unintended easy resolutions.
+
+12. Skill Name: Faction Bible Author
+
+  Description: Documents leadership, ranks, assets, ideology, methods, symbols, locations, history, members, and current goals.
+
+Category 11: Genre Design and Story Blending
+
+1. Skill Name: Fantasy Story Designer
+
+  Description: Creates wonder, myth, magic, quests, cultures, power, and consequences across epic, dark, cozy, urban, and other fantasy forms.
+
+2. Skill Name: Science Fiction Story Designer
+
+  Description: Creates technology, exploration, societies, identity, ethics, and change across hard, space opera, cyberpunk, and other forms.
+
+3. Skill Name: Mystery and Detective Story Designer
+
+  Description: Creates fair clues, investigation, suspects, motive, misdirection, discovery, and solution.
+
+4. Skill Name: Thriller and Suspense Designer
+
+  Description: Creates threat, pursuit, uncertainty, urgency, reversals, vulnerability, and accelerating consequence.
+
+5. Skill Name: Horror Story Designer
+
+  Description: Creates dread, vulnerability, violation, uncertainty, escalation, imagery, and aftermath across horror subgenres.
+
+6. Skill Name: Romance Story Designer
+
+  Description: Builds attraction, compatibility, conflict, vulnerability, trust, intimacy, choice, and an appropriate emotional ending.
+
+7. Skill Name: Comedy Story Designer
+
+  Description: Creates comic premises, character engines, timing, reversals, escalation, callbacks, and emotional grounding.
+
+8. Skill Name: Historical Fiction Designer
+
+  Description: Integrates researched period constraints, material life, language calibration, social context, and fictional drama.
+
+9. Skill Name: Adventure Story Designer
+
+  Description: Creates goals, travel, hazards, discoveries, companions, escalating trials, and transformative return.
+
+10. Skill Name: Slice-of-Life Story Designer
+
+  Description: Finds meaning, change, humor, intimacy, and theme in ordinary routines, relationships, and small decisions.
+
+11. Skill Name: Genre Hybrid Architect
+
+  Description: Combines genre promises deliberately, deciding which rules dominate each scene and how expectations interact.
+
+12. Skill Name: Genre Promise Auditor
+
+  Description: Checks whether setup, tone, conflict, pacing, imagery, and ending satisfy or purposefully transform audience expectations.
+
+Category 12: Novels, Novellas, and Long-Form Fiction
+
+1. Skill Name: Novel Architecture Designer
+
+  Description: Plans premise, acts, parts, chapters, plotlines, viewpoints, arcs, reveals, and length targets for a complete novel.
+
+2. Skill Name: Novella Designer
+
+  Description: Creates concentrated long-form fiction with limited cast, strong central movement, and proportionate worldbuilding.
+
+3. Skill Name: Light Novel Designer
+
+  Description: Builds accessible prose, strong character hooks, visual moments, chapter rhythm, illustrations, and volume-level payoff.
+
+4. Skill Name: Literary Fiction Designer
+
+  Description: Creates voice-led, psychologically precise, thematically layered stories with purposeful structure and image systems.
+
+5. Skill Name: Commercial Fiction Designer
+
+  Description: Balances concept, clarity, momentum, emotional reward, genre promise, and series potential for broad readership.
+
+6. Skill Name: Multi-Viewpoint Novel Designer
+
+  Description: Coordinates perspective selection, distribution, voice, chronology, information, and converging arcs.
+
+7. Skill Name: Epistolary Novel Designer
+
+  Description: Creates stories through letters, messages, logs, reports, transcripts, posts, and document gaps with credible provenance.
+
+8. Skill Name: Frame Narrative Novel Designer
+
+  Description: Builds framing and embedded narratives whose narrators, timelines, and meanings affect one another.
+
+9. Skill Name: Novel Chapter Drafting Specialist
+
+  Description: Drafts complete chapters from approved scene goals while preserving voice, continuity, pacing, and future setup.
+
+10. Skill Name: Long-Prose Continuity Manager
+
+  Description: Tracks canon, timeline, knowledge, objects, promises, motifs, arcs, formatting, and unresolved setups across large manuscripts.
+
+11. Skill Name: Novel Revision Planner
+
+  Description: Creates pass-based revisions for structure, character, theme, scenes, prose, continuity, and proofreading.
+
+12. Skill Name: Volume and Series Ending Specialist
+
+  Description: Creates satisfying book-level closure while preserving larger questions, arcs, and future momentum.
+
+Category 13: Short Fiction and Flash Forms
+
+1. Skill Name: Short Story Designer
+
+  Description: Creates a complete change, revelation, decision, or emotional movement within a compressed cast and world.
+
+2. Skill Name: Flash Fiction Writer
+
+  Description: Produces very short stories with precision, implication, image, compression, and resonant endings.
+
+3. Skill Name: Microfiction Writer
+
+  Description: Creates story movement in a paragraph, sentence, social post, card, caption, or other tiny form.
+
+4. Skill Name: Anthology Story Designer
+
+  Description: Creates standalone stories that contribute distinct angles to a shared theme, world, event, or constraint.
+
+5. Skill Name: Linked Story Cycle Designer
+
+  Description: Connects separate stories through place, characters, motifs, history, or consequences into a larger pattern.
+
+6. Skill Name: Twist Short Story Specialist
+
+  Description: Builds economical setups whose final turn is fair, transformative, and more than a trick.
+
+7. Skill Name: Slice Short Story Specialist
+
+  Description: Captures a decisive interval whose emotional or thematic meaning extends beyond the narrated time.
+
+8. Skill Name: Experimental Short Form Designer
+
+  Description: Uses fragments, lists, instructions, documents, constraints, or unusual viewpoints while maintaining purpose.
+
+9. Skill Name: Oral Tale and Campfire Story Writer
+
+  Description: Creates rhythmic, memorable, performable stories with repetition, escalation, audience awareness, and payoff.
+
+10. Skill Name: Children’s Short Story Writer
+
+  Description: Creates age-appropriate conflict, language, repetition, warmth, agency, imagery, and resolution.
+
+11. Skill Name: Short Fiction Compression Editor
+
+  Description: Removes redundancy while preserving clarity, voice, emotional logic, and necessary setup.
+
+12. Skill Name: Short Form Ending Editor
+
+  Description: Strengthens final images, turns, echoes, decisions, or revelations without over-explaining them.
+
+Category 14: Interactive Fiction, Games, and Player Choice
+
+1. Skill Name: Game Narrative Director
+
+  Description: Aligns story, mechanics, progression, player agency, world, characters, quests, interface, audio, and production constraints.
+
+2. Skill Name: Branching Narrative Architect
+
+  Description: Builds choices, branches, merges, variables, states, routes, consequences, and endings without uncontrolled explosion.
+
+3. Skill Name: Choice Design Specialist
+
+  Description: Creates choices with understandable stakes, distinct values, meaningful uncertainty, and visible or delayed consequence.
+
+4. Skill Name: Consequence System Designer
+
+  Description: Tracks immediate, systemic, relational, reputational, resource, and ending consequences across player actions.
+
+5. Skill Name: Player Agency Auditor
+
+  Description: Checks whether player decisions meaningfully affect strategy, relationships, information, world state, or self-definition.
+
+6. Skill Name: Narrative State Machine Designer
+
+  Description: Defines flags, variables, conditions, transitions, dependencies, fallbacks, and save-compatible story states.
+
+7. Skill Name: Quest Narrative Designer
+
+  Description: Creates quest goals, motivation, steps, complications, optional approaches, world integration, rewards, and aftermath.
+
+8. Skill Name: Side Quest Designer
+
+  Description: Creates optional stories that deepen character, place, theme, mechanics, or consequences rather than feeling disposable.
+
+9. Skill Name: Environmental Narrative Designer
+
+  Description: Places story in spaces, objects, encounters, audio, text, changes, and player discovery.
+
+10. Skill Name: Gameplay Dialogue Designer
+
+  Description: Writes responsive barks, prompts, banter, reactions, tutorials, combat lines, and state-dependent conversations.
+
+11. Skill Name: Narrative Systems QA Designer
+
+  Description: Creates tests for unreachable content, contradictory flags, broken routes, repeated dialogue, missing consequences, and save states.
+
+12. Skill Name: Game Ending Matrix Designer
+
+  Description: Builds coherent ending families from major choices, relationships, world states, themes, and player identity.
+
+Category 15: Visual Novels and Choice-Based Novels
+
+1. Skill Name: Visual Novel Route Architect
+
+  Description: Designs common route, character routes, locks, branching, bad ends, true routes, and completion flow.
+
+2. Skill Name: Visual Novel Scene Writer
+
+  Description: Writes screen-sized narration and dialogue with sprite, background, sound, transition, and choice cues.
+
+3. Skill Name: Route Romance Designer
+
+  Description: Builds distinct relationship arcs with chemistry, vulnerability, conflict, consent, trust, and route-specific payoff.
+
+4. Skill Name: Visual Novel Choice Designer
+
+  Description: Creates choices that express personality, reveal information, alter relationships, and change routes or states.
+
+5. Skill Name: Affinity and Flag System Designer
+
+  Description: Defines relationship values, hidden conditions, event gates, route locks, and readable debugging outputs.
+
+6. Skill Name: Visual Novel Pacing Specialist
+
+  Description: Balances dialogue, narration, choice frequency, saves, reveals, CG events, quiet scenes, and route length.
+
+7. Skill Name: Sprite and Expression Scriptwriter
+
+  Description: Specifies character position, pose, expression, entrance, exit, layering, and change timing.
+
+8. Skill Name: CG and Key Scene Planner
+
+  Description: Identifies major illustrated moments, compositions, character staging, emotional purpose, and alternate variants.
+
+9. Skill Name: Visual Novel Audio Cue Designer
+
+  Description: Places music, ambience, effects, silence, fades, stingers, and voice direction for dramatic function.
+
+10. Skill Name: Bad Ending and Failure Route Designer
+
+  Description: Creates meaningful failure outcomes that reveal character, world, risk, or strategy rather than arbitrary punishment.
+
+11. Skill Name: True Ending Architect
+
+  Description: Builds a culmination that recontextualizes routes, resolves central mysteries, and rewards completion.
+
+12. Skill Name: Visual Novel Continuity QA Specialist
+
+  Description: Tests route knowledge, flags, repeated scenes, sprite states, pronouns, names, saves, and ending conditions.
+
+Category 16: Role-Playing Games and Tabletop Narratives
+
+1. Skill Name: RPG Campaign Architect
+
+  Description: Designs campaign premise, tiers, locations, factions, arcs, villains, clues, sessions, and flexible conclusions.
+
+2. Skill Name: Adventure Module Writer
+
+  Description: Creates playable scenarios with hooks, locations, encounters, NPCs, secrets, choices, consequences, and referee guidance.
+
+3. Skill Name: Quest Chain Designer
+
+  Description: Builds linked quests with progression, changing contexts, recurring characters, choices, and cumulative consequences.
+
+4. Skill Name: NPC Designer
+
+  Description: Creates gameable non-player characters with goals, voice, leverage, information, behavior, relationships, and response to players.
+
+5. Skill Name: Villain Campaign Planner
+
+  Description: Designs antagonist goals, timelines, resources, reactions, mistakes, lieutenants, contingencies, and visible world effects.
+
+6. Skill Name: Faction Play Designer
+
+  Description: Creates faction goals, projects, clocks, offers, conflicts, ranks, rewards, and reactions to player behavior.
+
+7. Skill Name: Encounter Narrative Designer
+
+  Description: Gives combat, social, exploration, puzzle, and hazard encounters purpose, context, stakes, alternatives, and aftermath.
+
+8. Skill Name: Sandbox Story Designer
+
+  Description: Creates locations, factions, pressures, rumors, opportunities, and event clocks that generate story from player action.
+
+9. Skill Name: Session Arc Designer
+
+  Description: Builds a playable session with opening, choices, discoveries, escalation, climax, and next-session momentum.
+
+10. Skill Name: Game Master Support Writer
+
+  Description: Creates concise descriptions, improvisation prompts, contingency guidance, secrets, voices, and quick-reference material.
+
+11. Skill Name: Character Backstory Integration Designer
+
+  Description: Connects player histories to factions, places, threats, opportunities, revelations, and campaign decisions.
+
+12. Skill Name: Campaign Continuity Keeper
+
+  Description: Tracks sessions, choices, NPC states, locations, inventory, promises, clues, consequences, and unresolved threads.
+
+Category 17: Comics, Manga, Manhwa, and Sequential Art
+
+1. Skill Name: Sequential Story Architect
+
+  Description: Transforms a narrative into issues, chapters, scenes, pages, panels, reveals, and visual beats.
+
+2. Skill Name: Comic Script Writer
+
+  Description: Writes page-and-panel scripts with action, dialogue, captions, sound effects, setting, and essential visual direction.
+
+3. Skill Name: Manga Chapter Designer
+
+  Description: Plans pacing, page turns, spreads, panel rhythm, emotional beats, action clarity, and chapter hooks.
+
+4. Skill Name: Webtoon Episode Designer
+
+  Description: Creates vertical-scroll pacing, spacing, mobile reveals, rhythm, cliffhangers, and reusable production structure.
+
+5. Skill Name: Page Composition Designer
+
+  Description: Positions panels, characters, balloons, captions, motion, and focal points for clear reading order and impact.
+
+6. Skill Name: Panel Transition Designer
+
+  Description: Uses moment-to-moment, action-to-action, subject-to-subject, scene-to-scene, aspect, and non-sequitur transitions intentionally.
+
+7. Skill Name: Visual Blocking and Pose Director
+
+  Description: Specifies character positions, eyelines, gesture, staging, depth, movement, and continuity across panels.
+
+8. Skill Name: Action Sequence Choreographer
+
+  Description: Designs readable movement, geography, anticipation, impact, reaction, speed, and consequences across panels.
+
+9. Skill Name: Speech Balloon and Caption Planner
+
+  Description: Balances balloon placement, order, tail direction, text length, captions, sound effects, and art visibility.
+
+10. Skill Name: Page Turn and Reveal Specialist
+
+  Description: Places surprises, entrances, transformations, jokes, and emotional images on effective page or scroll reveals.
+
+11. Skill Name: Comic Continuity Auditor
+
+  Description: Tracks costumes, injuries, props, handedness, lighting, positions, backgrounds, timing, and dialogue across panels.
+
+12. Skill Name: Issue and Volume Collection Editor
+
+  Description: Ensures individual installments work alone and combine into coherent arcs, recaps, extras, and volume endings.
+
+Category 18: Screenplays, Stage, and Audio Drama
+
+1. Skill Name: Feature Screenplay Architect
+
+  Description: Builds cinematic premise, sequences, scenes, visual action, dialogue, character arcs, and production-aware structure.
+
+2. Skill Name: Television Series Story Designer
+
+  Description: Creates pilot engine, season arc, episode forms, ensemble roles, serialization, and renewal-ready possibilities.
+
+3. Skill Name: Episode Break and Beat Sheet Writer
+
+  Description: Breaks an episode into acts or sequences with story beats, turns, hooks, and runtime targets.
+
+4. Skill Name: Short Film Screenwriter
+
+  Description: Creates a filmable, visually driven story with limited time, locations, cast, and a complete emotional movement.
+
+5. Skill Name: Stage Play Writer
+
+  Description: Creates performable acts, scenes, entrances, exits, dialogue, staging opportunities, and theatrical transformation.
+
+6. Skill Name: Musical Theatre Book Writer
+
+  Description: Integrates spoken scenes, songs, reprises, transitions, character arcs, and stageable dramatic progression.
+
+7. Skill Name: Audio Drama Writer
+
+  Description: Creates stories legible through voice, sound, music, silence, spatial audio, and acoustic transitions.
+
+8. Skill Name: Radio Play Director
+
+  Description: Plans narration, dialogue, effects, ambience, music, pacing, cast differentiation, and listener orientation.
+
+9. Skill Name: Documentary Script Writer
+
+  Description: Structures verified evidence, interviews, narration, archive, uncertainty, and ethical framing.
+
+10. Skill Name: Adaptation Screenwriter
+
+  Description: Transforms source material into visual or acoustic drama while preserving core meaning and making medium-specific choices.
+
+11. Skill Name: Production Script Formatter
+
+  Description: Formats scenes, headings, action, dialogue, transitions, cues, timing, and revision marks for the intended production.
+
+12. Skill Name: Script Table-Read Editor
+
+  Description: Uses performance feedback to repair pace, exposition, voice, scene purpose, transitions, and runtime.
+
+Category 19: Poetry and Poetic Forms
+
+1. Skill Name: Lyric Poetry Writer
+
+  Description: Creates precise, image-rich poems centered on voice, perception, memory, feeling, and formal choice.
+
+2. Skill Name: Narrative Poetry Writer
+
+  Description: Tells a complete or fragmentary story through poetic compression, rhythm, image, character, and voice.
+
+3. Skill Name: Epic Poetry Designer
+
+  Description: Builds large-scale journeys, invocations, catalogues, repeated formulas, elevated stakes, and cultural memory.
+
+4. Skill Name: Sonnets and Fixed Forms Specialist
+
+  Description: Writes within sonnet, villanelle, sestina, pantoum, rondeau, ballade, ghazal, and other formal constraints.
+
+5. Skill Name: Free Verse Poet
+
+  Description: Creates deliberate lineation, rhythm, syntax, image, silence, and movement without predetermined meter or rhyme.
+
+6. Skill Name: Haiku and Short Form Poet
+
+  Description: Creates compressed observation and juxtaposition while respecting the chosen language and form rather than mechanically counting English syllables.
+
+7. Skill Name: Spoken Word Poet
+
+  Description: Writes performance-centered poetry with breath, repetition, escalation, voice, audience address, and memorable sound.
+
+8. Skill Name: Concrete and Visual Poetry Designer
+
+  Description: Uses page space, typography, arrangement, shape, and reading path as part of poetic meaning.
+
+9. Skill Name: Poetic Image and Metaphor Designer
+
+  Description: Creates fresh, coherent figurative language grounded in sensory and emotional logic.
+
+10. Skill Name: Meter and Prosody Specialist
+
+  Description: Designs and scans stress, feet, rhythm, cadence, variation, caesura, and sound pattern.
+
+11. Skill Name: Rhyme and Sound Pattern Specialist
+
+  Description: Creates meaningful end rhyme, internal rhyme, slant rhyme, alliteration, assonance, consonance, and refrain.
+
+12. Skill Name: Poetry Revision Editor
+
+  Description: Strengthens title, line breaks, diction, image, sound, compression, movement, closure, and ambiguity.
+
+Category 20: Song Lyrics, Rap, and Musical Narrative
+
+1. Skill Name: Song Concept and Hook Designer
+
+  Description: Creates a clear emotional or narrative center and a memorable hook that supports the song rather than replacing it.
+
+2. Skill Name: Verse Chorus Songwriter
+
+  Description: Builds verses, pre-chorus, chorus, bridge, intro, outro, and refrains with purposeful contrast and progression.
+
+3. Skill Name: Narrative Songwriter
+
+  Description: Tells a story through scenes, character, detail, compression, refrain, and an ending that changes the listener’s understanding.
+
+4. Skill Name: Character Song Writer
+
+  Description: Creates lyrics shaped by a specific character’s history, voice, desire, contradiction, and dramatic situation.
+
+5. Skill Name: Rap Lyricist
+
+  Description: Writes meaningful bars with flow, internal rhyme, multisyllabic rhyme, wordplay, imagery, structure, and coherent argument or story.
+
+6. Skill Name: Battle Rap and Competitive Verse Writer
+
+  Description: Creates non-hateful competitive writing with setup, angle, punchline, rebuttal, escalation, and performance rhythm.
+
+7. Skill Name: Rhyme Scheme Architect
+
+  Description: Designs end, internal, chained, multisyllabic, slant, and recurring rhyme patterns that serve tone and meaning.
+
+8. Skill Name: Flow and Cadence Designer
+
+  Description: Maps syllable density, stress, rests, syncopation, pickup, pocket, tempo, and phrase length to an instrumental concept.
+
+9. Skill Name: Melody-Aware Lyric Writer
+
+  Description: Fits vowels, consonants, stresses, phrase lengths, repetition, and emotional lift to a supplied melody or melodic plan.
+
+10. Skill Name: Instrumental Arrangement Story Planner
+
+  Description: Connects lyrical sections to instrument entrances, texture, harmony, rhythm, dynamics, breaks, solos, and final release.
+
+11. Skill Name: Concept Album Narrative Designer
+
+  Description: Creates recurring characters, motifs, musical ideas, perspectives, transitions, and a complete album-level arc.
+
+12. Skill Name: Lyric Authenticity and Cliché Editor
+
+  Description: Replaces empty abstraction, forced rhyme, filler, generic phrasing, and inconsistent voice with specific meaningful language.
+
+Category 21: Children, Middle Grade, and Young Adult Writing
+
+1. Skill Name: Picture Book Story Designer
+
+  Description: Creates read-aloud stories with page-turn rhythm, visual opportunity, repetition, emotional safety, and concise text.
+
+2. Skill Name: Early Reader Writer
+
+  Description: Controls vocabulary, sentence complexity, repetition, decoding support, chapter length, and satisfying story movement.
+
+3. Skill Name: Middle Grade Novel Designer
+
+  Description: Creates active protagonists, friendship, family, discovery, humor, stakes, and age-appropriate complexity.
+
+4. Skill Name: Young Adult Novel Designer
+
+  Description: Creates identity, autonomy, relationships, institutions, consequence, and emotionally immediate voice without talking down.
+
+5. Skill Name: Bedtime Story Writer
+
+  Description: Creates calming, rhythmic, secure stories with gentle movement, sensory comfort, and a settled ending.
+
+6. Skill Name: Educational Story Designer
+
+  Description: Integrates curriculum or factual content into character goals, discovery, conflict, and memorable consequence.
+
+7. Skill Name: Social Emotional Learning Story Designer
+
+  Description: Builds stories around naming feelings, perspective, repair, boundaries, cooperation, and realistic coping.
+
+8. Skill Name: Children’s Rhyme Writer
+
+  Description: Creates natural rhyme, rhythm, repetition, wordplay, and read-aloud clarity without distorting meaning.
+
+9. Skill Name: Age-Appropriate Content Calibrator
+
+  Description: Adjusts fear, violence, romance, vocabulary, ambiguity, humor, and explanatory support for a declared audience.
+
+10. Skill Name: Child Agency Reviewer
+
+  Description: Ensures child characters make meaningful choices and are not merely lessons for adults.
+
+11. Skill Name: Illustration Opportunity Planner
+
+  Description: Identifies scenes where pictures can carry action, humor, emotion, setting, or subtext instead of duplicating text.
+
+12. Skill Name: Youth Literature Sensitivity Reviewer
+
+  Description: Checks representation, power, trauma, family, school, identity, safety, and developmental assumptions with care.
+
+Category 22: Nonfiction, Memoir, and Narrative Journalism
+
+1. Skill Name: Narrative Nonfiction Architect
+
+  Description: Organizes verified events, people, evidence, context, scenes, and interpretation into a compelling truthful structure.
+
+2. Skill Name: Memoir Story Designer
+
+  Description: Shapes lived experience around a defined lens, period, question, transformation, and ethically handled memory limits.
+
+3. Skill Name: Biography Writer
+
+  Description: Builds a sourced life narrative from chronology, context, turning points, relationships, work, contradictions, and legacy.
+
+4. Skill Name: Profile Writer
+
+  Description: Creates a focused portrait through observation, interview, context, scene, quotation, and relevant contradiction.
+
+5. Skill Name: Longform Journalism Designer
+
+  Description: Structures reporting, scenes, evidence, sources, context, uncertainty, and reader orientation without fabricating details.
+
+6. Skill Name: True Story Scene Reconstructor
+
+  Description: Reconstructs only what sources support, clearly distinguishing record, recollection, inference, and unknowns.
+
+7. Skill Name: Oral History Editor
+
+  Description: Shapes interviews into readable narratives while preserving speaker meaning, cadence, context, and consent.
+
+8. Skill Name: Personal Essay Writer
+
+  Description: Creates reflective essays with a controlling question, scene, thought, association, turn, and earned insight.
+
+9. Skill Name: Travel Narrative Writer
+
+  Description: Combines place, movement, encounter, history, observation, ethics, and self-awareness without treating cultures as scenery.
+
+10. Skill Name: Popular History Writer
+
+  Description: Makes sourced history accessible through chronology, people, systems, stakes, scenes, and explanation.
+
+11. Skill Name: Fact and Attribution Auditor
+
+  Description: Checks names, dates, quotations, locations, sources, uncertainty, permissions, and the boundary between fact and invention.
+
+12. Skill Name: Nonfiction Ethics Reviewer
+
+  Description: Reviews privacy, vulnerable sources, consent, composite characters, reconstruction, conflicts, harm, and disclosure.
+
+Category 23: Humor, Satire, and Entertainment Writing
+
+1. Skill Name: Comedy Premise Designer
+
+  Description: Creates a repeatable comic engine from character, situation, status, contradiction, rule, and escalation.
+
+2. Skill Name: Joke Structure Writer
+
+  Description: Builds setup, assumption, misdirection, timing, punch, tag, callback, and variation without relying on harm.
+
+3. Skill Name: Situational Comedy Writer
+
+  Description: Creates intersecting goals, misunderstandings, lies, status shifts, consequences, and escalating attempts.
+
+4. Skill Name: Character Comedy Writer
+
+  Description: Generates humor from consistent worldview, flaw, desire, competence, blind spot, and relationships.
+
+5. Skill Name: Satire Designer
+
+  Description: Targets systems, ideas, hypocrisy, or power with a clear object, method, exaggeration, and ethical boundary.
+
+6. Skill Name: Parody Format Designer
+
+  Description: Creates transformative commentary on a genre or format using original content rather than reproducing protected text.
+
+7. Skill Name: Sketch Comedy Writer
+
+  Description: Creates short performable premises with game, beats, escalation, turn, and button.
+
+8. Skill Name: Comic Dialogue Specialist
+
+  Description: Writes timing, interruption, contrast, understatement, overstatement, callbacks, and reactions for distinct voices.
+
+9. Skill Name: Humorous Narrator Designer
+
+  Description: Creates a consistent comic perspective through observation, selection, phrasing, bias, and self-awareness.
+
+10. Skill Name: Entertainment Segment Writer
+
+  Description: Builds engaging intros, reveals, games, interviews, transitions, recaps, and closing beats for shows or streams.
+
+11. Skill Name: Comedy Sensitivity Reviewer
+
+  Description: Checks targets, stereotypes, protected traits, power, cruelty, context, and whether the joke has a stronger alternative.
+
+12. Skill Name: Humor Density and Rhythm Editor
+
+  Description: Balances jokes with story, emotion, clarity, tension, recovery, and tonal variety.
+
+Category 24: Mystery, Puzzle, and Revelation Systems
+
+1. Skill Name: Clue Architecture Designer
+
+  Description: Creates observable clues with source, placement, interpretation, reliability, connection, and later payoff.
+
+2. Skill Name: Red Herring Designer
+
+  Description: Creates plausible misdirection grounded in real motives or evidence without invalidating the fair solution.
+
+3. Skill Name: Suspect and Motive Designer
+
+  Description: Builds suspects with opportunity, means, motive, secrets, relationships, behavior, and non-guilty reasons for suspicion.
+
+4. Skill Name: Investigation Flow Designer
+
+  Description: Plans discoveries, interviews, searches, tests, failures, hypotheses, reversals, and narrowing possibilities.
+
+5. Skill Name: Locked-Room Mystery Designer
+
+  Description: Creates an apparently impossible event with fair physical constraints, concealed assumptions, and a coherent solution.
+
+6. Skill Name: Puzzle Narrative Integrator
+
+  Description: Connects puzzles to character, world, stakes, information, and consequence rather than inserting detached obstacles.
+
+7. Skill Name: Secret and Revelation Tracker
+
+  Description: Tracks who knows, suspects, hides, lies, discovers, reveals, misunderstands, and acts on each secret.
+
+8. Skill Name: Foreshadowing Designer
+
+  Description: Plants images, rules, behaviors, details, and contradictions that support later events without announcing them.
+
+9. Skill Name: Dramatic Irony Designer
+
+  Description: Controls when the audience knows more or less than characters and uses the gap for suspense, humor, or tragedy.
+
+10. Skill Name: Reveal Timing Specialist
+
+  Description: Places revelations according to readiness, consequence, competing questions, and the need for subsequent action.
+
+11. Skill Name: Mystery Fairness Auditor
+
+  Description: Checks clue availability, alternative explanations, withheld essentials, coincidence, solution logic, and retrospective clarity.
+
+12. Skill Name: Mystery Resolution Writer
+
+  Description: Explains the truth through action, confrontation, reconstruction, proof, and emotional consequence rather than exposition alone.
+
+Category 25: Action, Combat, and Physical Storytelling
+
+1. Skill Name: Action Scene Choreographer
+
+  Description: Designs goals, geography, capabilities, tactics, reversals, cost, and character-revealing choices in action.
+
+2. Skill Name: Fight Scene Writer
+
+  Description: Writes readable exchanges with position, rhythm, fatigue, injury, environment, intention, and consequence.
+
+3. Skill Name: Battle Narrative Designer
+
+  Description: Coordinates objectives, units, terrain, command, logistics, uncertainty, morale, viewpoints, and turning points.
+
+4. Skill Name: Chase Sequence Designer
+
+  Description: Creates pursuit geography, changing advantages, obstacles, shortcuts, choices, near misses, and resolution.
+
+5. Skill Name: Stealth Scene Designer
+
+  Description: Builds knowledge, visibility, sound, routes, timing, guards, improvisation, detection, and recovery.
+
+6. Skill Name: Heist Story Architect
+
+  Description: Designs target, crew, roles, plan, security, preparation, hidden agendas, complications, improvisation, and aftermath.
+
+7. Skill Name: Survival Narrative Designer
+
+  Description: Creates resource, environment, injury, skill, group conflict, moral choice, and changing hope.
+
+8. Skill Name: Sports Narrative Designer
+
+  Description: Builds training, competition, tactics, teamwork, rivalry, pressure, performance, result, and meaning beyond winning.
+
+9. Skill Name: Disaster Sequence Designer
+
+  Description: Creates cascading failures, limited information, evacuation, rescue, systems, individual choices, and aftermath.
+
+10. Skill Name: Physical Comedy Choreographer
+
+  Description: Designs setup, spatial logic, timing, escalation, reaction, and consequence for visual humor.
+
+11. Skill Name: Action Continuity Auditor
+
+  Description: Tracks positions, weapons, ammunition, injuries, timing, distances, objectives, and environmental changes.
+
+12. Skill Name: Violence Consequence Editor
+
+  Description: Ensures physical and psychological consequences fit tone, audience, world, character, and later scenes.
+
+Category 26: Romance, Intimacy, and Relationship Narratives
+
+1. Skill Name: Romantic Arc Architect
+
+  Description: Builds attraction, compatibility, obstacles, vulnerability, trust, intimacy, rupture, repair, choice, and emotional resolution.
+
+2. Skill Name: Meet-Cute and First Connection Designer
+
+  Description: Creates a memorable first encounter grounded in character, circumstance, conflict, and future potential.
+
+3. Skill Name: Chemistry Scene Writer
+
+  Description: Creates attention, curiosity, humor, vulnerability, tension, cooperation, and meaningful difference between characters.
+
+4. Skill Name: Slow-Burn Romance Designer
+
+  Description: Builds gradual trust and desire through changing behavior, accumulated moments, setbacks, and earned recognition.
+
+5. Skill Name: Rivals-to-Lovers Designer
+
+  Description: Creates credible rivalry, respect, changing information, shared stakes, boundaries, and transformation without excusing abuse.
+
+6. Skill Name: Friends-to-Lovers Designer
+
+  Description: Builds changed perception, risk to the friendship, communication, timing, and a believable new equilibrium.
+
+7. Skill Name: Relationship Conflict Designer
+
+  Description: Creates conflicts from needs, values, history, timing, power, or circumstance rather than avoidable silence alone.
+
+8. Skill Name: Consent and Boundary Narrative Designer
+
+  Description: Represents communication, choice, respect, uncertainty, withdrawal, and consequences clearly and appropriately.
+
+9. Skill Name: Breakup and Reconciliation Writer
+
+  Description: Creates rupture, grief, insight, accountability, change, and either credible repair or meaningful separation.
+
+10. Skill Name: Found Family Story Designer
+
+  Description: Builds belonging through mutual care, conflict, ritual, trust, sacrifice, and chosen commitment.
+
+11. Skill Name: Relationship Continuity Auditor
+
+  Description: Tracks promises, boundaries, secrets, intimacy, conflict history, repair, and changing expectations.
+
+12. Skill Name: Romance Payoff Editor
+
+  Description: Ensures declarations, reunions, commitments, or separations resolve the actual emotional questions of the arc.
+
+Category 27: Adaptation, Retelling, and Transmedia
+
+1. Skill Name: Medium Adaptation Architect
+
+  Description: Translates the core experience into the strengths and constraints of novel, comic, game, film, stage, audio, or interactive media.
+
+2. Skill Name: Public-Domain Retelling Designer
+
+  Description: Creates an original transformation of public-domain material through new viewpoint, setting, theme, structure, or genre.
+
+3. Skill Name: Myth and Folklore Adaptation Designer
+
+  Description: Retells traditional material with source awareness, cultural context, specificity, and clear creative choices.
+
+4. Skill Name: Novel-to-Screen Adapter
+
+  Description: Converts interiority, narration, scope, and subplots into visual action, performance, image, and cinematic structure.
+
+5. Skill Name: Screen-to-Novel Adapter
+
+  Description: Expands visual material through viewpoint, interiority, sensory prose, context, and novel-scale structure.
+
+6. Skill Name: Game-to-Prose Adapter
+
+  Description: Transforms player-dependent events and systems into a coherent narrative while preserving agency themes and world logic.
+
+7. Skill Name: Story-to-Comic Adapter
+
+  Description: Breaks prose or scripts into pages, panels, images, balloons, transitions, and visual reveals.
+
+8. Skill Name: Transmedia Story Architect
+
+  Description: Distributes standalone but connected stories across media without requiring every audience member to consume everything.
+
+9. Skill Name: Canon and Continuity Adapter
+
+  Description: Preserves essential canon while documenting changes required by format, audience, runtime, or production.
+
+10. Skill Name: Localization Adaptation Writer
+
+  Description: Adapts humor, idiom, rhyme, cultural references, names, and emotional intent rather than translating mechanically.
+
+11. Skill Name: Adaptation Rights and Source Reviewer
+
+  Description: Checks source status, permissions, attribution, scope, and protected expression before adaptation.
+
+12. Skill Name: Adaptation Fidelity Auditor
+
+  Description: Evaluates fidelity to theme, character, world, emotional promise, and medium rather than scene-by-scene duplication.
+
+Category 28: Prose Style, Description, and Literary Technique
+
+1. Skill Name: Narrative Voice Designer
+
+  Description: Creates a consistent narrator through distance, reliability, diction, rhythm, imagery, knowledge, judgment, and address.
+
+2. Skill Name: Point-of-View Specialist
+
+  Description: Controls first, second, close third, omniscient, objective, collective, and shifting perspective with clear rules.
+
+3. Skill Name: Free Indirect Style Writer
+
+  Description: Blends narrator and character language while preserving viewpoint, distance, and readable attribution.
+
+4. Skill Name: Sensory Description Writer
+
+  Description: Uses selective sight, sound, touch, smell, taste, proprioception, and atmosphere through character relevance.
+
+5. Skill Name: Setting Description Specialist
+
+  Description: Creates orientation, mood, function, history, movement, and story opportunity without stopping the scene.
+
+6. Skill Name: Action Prose Specialist
+
+  Description: Writes clear, rhythmic, embodied movement with cause, effect, spatial logic, and viewpoint emphasis.
+
+7. Skill Name: Interior Monologue Writer
+
+  Description: Creates thought with character-specific association, conflict, evasion, memory, and decision.
+
+8. Skill Name: Figurative Language Designer
+
+  Description: Creates metaphors, similes, personification, analogy, and image systems consistent with voice and world.
+
+9. Skill Name: Sentence Rhythm Editor
+
+  Description: Varies syntax, length, stress, punctuation, repetition, and cadence to support meaning and pace.
+
+10. Skill Name: Show-and-Tell Calibrator
+
+  Description: Chooses dramatization, summary, explanation, implication, and direct statement according to narrative purpose.
+
+11. Skill Name: Purple Prose and Flat Prose Repairer
+
+  Description: Removes ornamental excess or lifeless generality while preserving voice, precision, and emotional effect.
+
+12. Skill Name: Style Consistency Auditor
+
+  Description: Tracks viewpoint, tense, diction, imagery, formality, sentence patterns, and intentional deviations.
+
+Category 29: Pacing, Suspense, and Reader Engagement
+
+1. Skill Name: Narrative Pacing Architect
+
+  Description: Balances scene and summary, action and reflection, questions and answers, intensity and recovery across the whole work.
+
+2. Skill Name: Suspense Designer
+
+  Description: Creates uncertainty about outcome through stakes, constraints, information, threat, time, and character vulnerability.
+
+3. Skill Name: Tension Escalation Specialist
+
+  Description: Raises pressure through accumulating cost, narrowing choices, conflict, exposure, urgency, and irreversible change.
+
+4. Skill Name: Curiosity Gap Designer
+
+  Description: Creates specific unanswered questions with enough evidence and consequence to sustain attention.
+
+5. Skill Name: Cliffhanger Designer
+
+  Description: Ends installments at a meaningful decision, danger, revelation, or reversal while avoiding artificial interruption.
+
+6. Skill Name: Slow-Burn Pacing Specialist
+
+  Description: Sustains gradual development through micro-changes, layered questions, pattern, atmosphere, and increasing significance.
+
+7. Skill Name: Breather Scene Designer
+
+  Description: Creates recovery scenes that deepen character, reframe events, change relationships, and prepare the next movement.
+
+8. Skill Name: Information Release Planner
+
+  Description: Controls exposition, clues, backstory, world rules, secrets, and explanation according to need and consequence.
+
+9. Skill Name: Reader Orientation Specialist
+
+  Description: Maintains clarity of viewpoint, place, time, goal, relationship, and causal connection during complexity.
+
+10. Skill Name: Engagement Drop Diagnostician
+
+  Description: Finds repetition, stalled goals, low consequence, unclear desire, weak questions, excess explanation, and tonal monotony.
+
+11. Skill Name: Page-Turn Momentum Editor
+
+  Description: Strengthens scene launches, paragraph movement, chapter shape, unanswered questions, and consequence chains.
+
+12. Skill Name: Pacing Regression Auditor
+
+  Description: Checks whether revisions create rushed payoff, missing setup, duplicated beats, long gaps, or uneven climax timing.
+
+Category 30: Continuity, Canon, and Narrative Knowledge Management
+
+1. Skill Name: Story Bible Architect
+
+  Description: Creates a central canon system for characters, world, timeline, terminology, rules, arcs, and source references.
+
+2. Skill Name: Timeline Continuity Manager
+
+  Description: Tracks dates, ages, durations, travel, seasons, injuries, communication, sequence, and simultaneous events.
+
+3. Skill Name: Character Knowledge Tracker
+
+  Description: Records what each character knows, believes, suspects, forgets, hides, and learns at every stage.
+
+4. Skill Name: Object and Inventory Continuity Tracker
+
+  Description: Tracks ownership, location, condition, use, transfer, loss, and narrative importance of objects.
+
+5. Skill Name: Promise and Payoff Tracker
+
+  Description: Records setups, questions, motifs, prophecies, rules, debts, threats, clues, and their resolution status.
+
+6. Skill Name: Relationship State Tracker
+
+  Description: Tracks trust, power, affection, obligation, conflict, secrecy, boundaries, and unresolved conversations.
+
+7. Skill Name: Canon Change Manager
+
+  Description: Documents revisions, retcons, superseded facts, dependencies, affected scenes, and migration actions.
+
+8. Skill Name: Terminology and Naming Manager
+
+  Description: Maintains spellings, titles, capitalization, pronunciation, aliases, translations, and naming conventions.
+
+9. Skill Name: Series Recap Designer
+
+  Description: Creates concise, accurate recaps tailored to returning readers without spoiling later discoveries.
+
+10. Skill Name: Continuity Conflict Resolver
+
+  Description: Identifies contradictions, ranks source authority, proposes minimal repairs, and updates dependent material.
+
+11. Skill Name: Narrative Database Schema Designer
+
+  Description: Defines structured records and relationships for large universes, routes, scenes, characters, places, items, and events.
+
+12. Skill Name: Canon Audit Reporter
+
+  Description: Produces unresolved contradiction, missing payoff, uncertain fact, duplicate concept, and continuity-risk reports.
+
+Category 31: Editing, Revision, and Manuscript Development
+
+1. Skill Name: Developmental Story Editor
+
+  Description: Diagnoses premise, structure, character, theme, pacing, world, stakes, and ending at the manuscript level.
+
+2. Skill Name: Structural Revision Planner
+
+  Description: Creates ordered revision passes that fix root causes before scene polish or sentence editing.
+
+3. Skill Name: Scene-Level Editor
+
+  Description: Repairs scene goals, obstacles, turns, exposition, dialogue, action, pacing, and transitions.
+
+4. Skill Name: Line Editor
+
+  Description: Improves clarity, rhythm, voice, precision, emphasis, imagery, and paragraph movement while preserving intent.
+
+5. Skill Name: Copy Editor
+
+  Description: Corrects grammar, usage, spelling, punctuation, consistency, facts supplied by sources, and style-guide compliance.
+
+6. Skill Name: Proofreader
+
+  Description: Finds final typographic, spacing, punctuation, capitalization, numbering, cross-reference, and formatting errors.
+
+7. Skill Name: Continuity Editor
+
+  Description: Checks time, place, appearance, objects, knowledge, rules, injuries, relationships, and canon across the work.
+
+8. Skill Name: Sensitivity and Representation Reviewer
+
+  Description: Identifies stereotypes, harmful framing, unsupported assumptions, missing context, and opportunities for specificity.
+
+9. Skill Name: Beta Reader Synthesis Analyst
+
+  Description: Groups reader feedback by pattern, severity, cause, audience fit, and revision value without obeying every preference.
+
+10. Skill Name: Manuscript Diagnostic Reporter
+
+  Description: Produces prioritized findings with examples, affected scope, likely cause, and actionable repair options.
+
+11. Skill Name: Revision Verification Auditor
+
+  Description: Checks that revisions solved the target problem without breaking continuity, pacing, characterization, or later payoff.
+
+12. Skill Name: Final Manuscript Readiness Editor
+
+  Description: Confirms completeness, coherence, format, permissions, front matter, back matter, and production handoff readiness.
+
+Category 32: Publishing, Formatting, and Book Production
+
+1. Skill Name: Book Production Planner
+
+  Description: Defines trim, length, front matter, chapters, illustrations, typography, cover, ebook, print, schedule, and deliverables.
+
+2. Skill Name: Manuscript Formatter
+
+  Description: Applies consistent headings, paragraphs, scene breaks, quotations, notes, page breaks, and submission requirements.
+
+3. Skill Name: Print Book Interior Designer
+
+  Description: Creates readable pages with margins, type, leading, chapter openings, running heads, folios, widows, and orphans.
+
+4. Skill Name: Ebook Conversion Specialist
+
+  Description: Creates reflowable EPUB structures with semantic headings, navigation, images, metadata, accessibility, and device testing.
+
+5. Skill Name: Fixed-Layout Book Designer
+
+  Description: Creates fixed-page digital publications for illustrated books, comics, textbooks, and visually dependent material.
+
+6. Skill Name: Front and Back Matter Writer
+
+  Description: Creates title, copyright, dedication, epigraph, contents, acknowledgments, notes, glossary, bibliography, and author material.
+
+7. Skill Name: Book Blurb and Synopsis Writer
+
+  Description: Creates accurate, compelling summaries for readers, agents, publishers, retailers, and internal use at the required length.
+
+8. Skill Name: Series Packaging Designer
+
+  Description: Plans volume titles, numbering, recaps, glossaries, maps, appendices, and consistent reader orientation.
+
+9. Skill Name: Literary Submission Packager
+
+  Description: Prepares query, synopsis, sample pages, manuscript format, metadata, and requested submission materials.
+
+10. Skill Name: Accessibility Book Production Specialist
+
+  Description: Creates navigation, semantic structure, alt text, reading order, contrast, and accessible digital or large-print variants.
+
+11. Skill Name: Publication Preflight Auditor
+
+  Description: Checks fonts, images, links, page size, bleed, metadata, navigation, tables of contents, and final file integrity.
+
+12. Skill Name: Edition and Version Manager
+
+  Description: Tracks drafts, editions, corrections, formats, ISBN-related metadata supplied by the publisher, and superseded files.
+
+Category 33: Research, Authenticity, and Factual Grounding
+
+1. Skill Name: Story Research Planner
+
+  Description: Identifies what must be researched, why it matters, acceptable sources, uncertainty, and where invention is safe.
+
+2. Skill Name: Historical Context Researcher
+
+  Description: Builds sourced timelines, material culture, institutions, language context, geography, and contested interpretations.
+
+3. Skill Name: Technical Authenticity Researcher
+
+  Description: Explains relevant scientific, professional, mechanical, legal, or operational details with clear limits.
+
+4. Skill Name: Setting Research Synthesizer
+
+  Description: Organizes climate, geography, transport, architecture, economy, daily life, language, and sensory details from sources.
+
+5. Skill Name: Occupation and Procedure Researcher
+
+  Description: Builds practical understanding of roles, workflows, tools, constraints, jargon, and failure modes.
+
+6. Skill Name: Cultural Context Researcher
+
+  Description: Uses credible sources and lived-context materials while distinguishing broad patterns from individual experience.
+
+7. Skill Name: Primary Source Integration Specialist
+
+  Description: Uses letters, diaries, interviews, records, images, maps, and artifacts without exceeding what they support.
+
+8. Skill Name: Research-to-Scene Translator
+
+  Description: Turns verified material into action, setting, conflict, detail, and character behavior without info dumping.
+
+9. Skill Name: Fact and Fiction Boundary Editor
+
+  Description: Marks fictionalization, composites, uncertainty, altered chronology, and unsupported reconstruction where appropriate.
+
+10. Skill Name: Research Citation and Notes Manager
+
+  Description: Tracks sources, quotes, page locations, permissions, uncertainties, and later verification needs.
+
+11. Skill Name: Anachronism and Plausibility Auditor
+
+  Description: Checks objects, language, institutions, travel, technology, customs, and knowledge against the declared period or world.
+
+12. Skill Name: Authenticity Limitation Reporter
+
+  Description: States which details were verified, inferred, simplified, disputed, or left intentionally fictional.
+
+Category 34: Localization, Translation, and Multilingual Storytelling
+
+1. Skill Name: Literary Translation Designer
+
+  Description: Preserves meaning, voice, rhythm, implication, imagery, register, and readability while documenting difficult choices.
+
+2. Skill Name: Dialogue Localization Specialist
+
+  Description: Adapts speech, idiom, humor, politeness, dialect function, and character distinction for the target language.
+
+3. Skill Name: Poetry Translation Specialist
+
+  Description: Balances meaning, image, sound, meter, rhyme, form, and cultural context according to declared priorities.
+
+4. Skill Name: Lyric Localization Specialist
+
+  Description: Adapts singability, stress, vowel shape, rhyme, timing, meaning, and character voice to music.
+
+5. Skill Name: Game Narrative Localization Designer
+
+  Description: Handles variables, choices, gender and number, UI limits, route logic, terminology, and context notes.
+
+6. Skill Name: Comic and Manga Localization Planner
+
+  Description: Adapts balloons, captions, sound effects, reading direction, space, cultural references, and lettering needs.
+
+7. Skill Name: Cultural Reference Adapter
+
+  Description: Replaces or explains references only when needed, preserving function, tone, and audience comprehension.
+
+8. Skill Name: Name and Terminology Localization Manager
+
+  Description: Maintains names, titles, invented terms, pronunciation, transliteration, capitalization, and glossary choices.
+
+9. Skill Name: Right-to-Left Narrative Layout Planner
+
+  Description: Adapts page order, panels, balloons, typography, navigation, and mixed-direction content.
+
+10. Skill Name: Localization Style Guide Author
+
+  Description: Defines voice, terminology, punctuation, honorifics, formatting, cultural choices, and prohibited inconsistencies.
+
+11. Skill Name: Back-Translation and Meaning Auditor
+
+  Description: Checks whether localized text preserves plot facts, character intent, clues, tone, and consequential choices.
+
+12. Skill Name: Multilingual Continuity Auditor
+
+  Description: Tracks terms, names, pronouns, route variables, rhymes, callbacks, and canon across language versions.
+
+Category 35: Safety, Rights, Representation, and Narrative Ethics
+
+1. Skill Name: Story Rights and Source Reviewer
+
+  Description: Checks copyright status, permissions, public-domain claims, licenses, quotations, lyrics, trademarks, and adaptation scope.
+
+2. Skill Name: Likeness and Privacy Narrative Reviewer
+
+  Description: Checks consent, identifying detail, defamation risk, vulnerable people, minors, and fictionalization of real individuals.
+
+3. Skill Name: Representation Quality Reviewer
+
+  Description: Examines agency, diversity within groups, stereotype load, narrative punishment, voice, context, and character specificity.
+
+4. Skill Name: Trauma-Informed Story Reviewer
+
+  Description: Checks coercion, abuse, grief, violence, recovery, triggers, support, agency, and avoidable sensationalism.
+
+5. Skill Name: Age and Content Rating Planner
+
+  Description: Maps language, fear, violence, sexual content, substances, discrimination, and themes to the intended audience and platform.
+
+6. Skill Name: Content Note Designer
+
+  Description: Creates concise, useful notices that inform readers without unnecessarily spoiling the work.
+
+7. Skill Name: Ethical True Story Reviewer
+
+  Description: Checks sourcing, consent, composites, reconstruction, power, foreseeable harm, and disclosure in nonfiction narratives.
+
+8. Skill Name: Hateful Content Prevention Reviewer
+
+  Description: Rejects dehumanizing or targeted hateful treatment while preserving legitimate conflict, history, critique, and characterization.
+
+9. Skill Name: Romance and Consent Safety Reviewer
+
+  Description: Checks power, coercion, boundaries, age, communication, framing, and consequences in relationship narratives.
+
+10. Skill Name: Self-Harm and Suicide Narrative Safety Reviewer
+
+  Description: Promotes non-graphic, non-romanticized, recovery-aware handling with appropriate context and support orientation.
+
+11. Skill Name: Generative Story Provenance Manager
+
+  Description: Records prompts, source materials, references, edits, approvals, licenses, and disclosures for generated narrative content.
+
+12. Skill Name: Narrative Capability and Limitation Reporter
+
+  Description: States what was drafted, researched, verified, adapted, simulated, or left unresolved without unsupported claims.
+
+Category 36: Narrative Automation, Tools, and Production Systems
+
+1. Skill Name: Story Outline Generator Designer
+
+  Description: Creates controllable outline workflows using structured inputs, constraints, alternatives, and human approval gates.
+
+2. Skill Name: Narrative Template System Designer
+
+  Description: Builds reusable templates for premises, characters, scenes, chapters, quests, routes, poems, scripts, and editorial notes.
+
+3. Skill Name: Story Database Builder
+
+  Description: Creates structured systems for canon, scenes, characters, places, events, items, relationships, and sources.
+
+4. Skill Name: Branching Story Data Engineer
+
+  Description: Represents nodes, choices, conditions, variables, effects, routes, localization, and validation in machine-readable form.
+
+5. Skill Name: Narrative Script Conversion Specialist
+
+  Description: Converts between prose outlines, screenplay formats, comic scripts, game dialogue, Twine, Ink, Yarn, and custom schemas.
+
+6. Skill Name: Automated Continuity Checker Designer
+
+  Description: Builds checks for names, dates, ages, flags, object states, character knowledge, terminology, and unresolved promises.
+
+7. Skill Name: Word Count and Page Budget Planner
+
+  Description: Allocates target lengths across acts, chapters, scenes, routes, songs, poems, panels, and production units.
+
+8. Skill Name: Narrative Version Control Planner
+
+  Description: Defines drafts, branches, merges, approvals, canon states, changelogs, and recovery without losing author edits.
+
+9. Skill Name: Batch Story Variant Generator
+
+  Description: Creates controlled variations by viewpoint, genre, tone, audience, choice, ending, length, or platform while tracking differences.
+
+10. Skill Name: Narrative QA Test Harness Designer
+
+  Description: Defines normal, boundary, route, continuity, formatting, localization, and reopen tests for story artifacts.
+
+11. Skill Name: Writing Workflow Orchestrator
+
+  Description: Coordinates ideation, research, outline, drafting, review, revision, production, validation, and publication handoff.
+
+12. Skill Name: Narrative Production Recovery Coordinator
+
+  Description: Preserves passing work, isolates the earliest failure, repairs the smallest responsible layer, and reruns affected checks.
+
+Category 37: Experimental, Hybrid, and Emerging Narrative Forms
+
+1. Skill Name: Interactive Poetry Designer
+
+  Description: Creates poems whose order, choices, links, variables, or reader actions alter rhythm, meaning, and outcome.
+
+2. Skill Name: Procedural Narrative Designer
+
+  Description: Creates rules, content pools, constraints, states, and selection logic that generate coherent story variation.
+
+3. Skill Name: Emergent Story Systems Designer
+
+  Description: Builds characters, goals, simulation states, memory, relationships, and world events that produce unscripted narratives.
+
+4. Skill Name: Found Document Narrative Designer
+
+  Description: Tells stories through reports, messages, files, receipts, maps, evidence, marginalia, and gaps.
+
+5. Skill Name: Unreliable Interface Narrative Designer
+
+  Description: Uses menus, logs, notifications, errors, system messages, and changing interfaces as story mechanisms.
+
+6. Skill Name: Alternate Reality Story Designer
+
+  Description: Creates cross-platform clues, artifacts, websites, messages, events, communities, and real-time progression with safety boundaries.
+
+7. Skill Name: Location-Based Narrative Designer
+
+  Description: Connects story events to physical places, routes, landmarks, timing, and accessible alternatives.
+
+8. Skill Name: AI Character Conversation Designer
+
+  Description: Defines character voice, memory, boundaries, goals, canon, safety, fallback, and continuity for interactive dialogue.
+
+9. Skill Name: Dynamic Personalized Story Designer
+
+  Description: Adapts approved variables such as name, difficulty, interest, or prior choice while preserving quality and privacy.
+
+10. Skill Name: Translinear Narrative Designer
+
+  Description: Creates networks of fragments that can be entered in multiple orders yet accumulate coherent meaning.
+
+11. Skill Name: Mixed-Media Literature Designer
+
+  Description: Combines prose, image, sound, video, typography, interaction, and performance into one purposeful literary experience.
+
+12. Skill Name: Experimental Form Coherence Auditor
+
+  Description: Checks whether formal innovation strengthens meaning, orientation, accessibility, emotional effect, and completion.

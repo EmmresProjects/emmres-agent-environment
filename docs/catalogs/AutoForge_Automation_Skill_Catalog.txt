@@ -1,0 +1,964 @@
+AUTOFORGE
+MASTER AUTOMATION SKILL CATALOG
+Automation Maker, Bot Maker, Scheduler, Miner, Integration, and Tool Builder
+
++--------------------------------------------------------------------------------------------------+
+| 198 reusable skill ideas across 20 categories                                                    |
+|                                                                                                  |
+| Catalog only. Each entry can later become a focused Skill or part of a larger automation system. |
++==================================================================================================+
++--------------------------------------------------------------------------------------------------+
+
+Purpose
+
+This catalog gives a future skill builder a wide set of automation capabilities. It covers scripts, bots, schedulers, desktop actions, files, documents, browser work, data mining, APIs, cloud systems, development, business work, media, monitoring, safety, testing, and clean handoff.
+
+Core design rules
+
+- Automate only authorized actions and approved data.
+
+- Use dry runs, clear logs, bounded retries, and safe failure behavior.
+
+- Keep secrets out of code, files, prompts, and logs.
+
+- Require review before destructive, financial, public, or high-impact actions.
+
+- Make every tool installable, testable, repairable, and easy to stop.
+
+- Preserve source inputs and provide rollback or recovery when changes are made.
+
+Category Map
+
+1. Automation Planning and Architecture | 9 skills
+
+2. General Script and Tool Builders | 10 skills
+
+3. Task Scheduling and Event Automation | 9 skills
+
+4. Desktop and Device Automation | 10 skills
+
+5. File, Folder, and Storage Automation | 10 skills
+
+6. Document, Office, and Knowledge Work | 10 skills
+
+7. Email, Messaging, and Communication Bots | 10 skills
+
+8. Browser, Web, and Form Automation | 10 skills
+
+9. Data Collection, Mining, and Extraction | 10 skills
+
+10. Data Processing and Reporting Automation | 10 skills
+
+11. API, Integration, and Connector Automation | 10 skills
+
+12. Cloud, Server, and Infrastructure Automation | 10 skills
+
+13. Development, Testing, and DevOps Automation | 10 skills
+
+14. Business and Workplace Automation | 10 skills
+
+15. Personal Productivity and Information Automation | 10 skills
+
+16. Media, Creative, and Content Automation | 10 skills
+
+17. Monitoring, Alerts, and Reliability | 10 skills
+
+18. Security, Privacy, and Safe Automation | 10 skills
+
+19. Bot Frameworks and Conversational Automation | 10 skills
+
+20. Automation Quality, Testing, and Governance | 10 skills
+
+1. Automation Planning and Architecture
+
+Focused skills for this part of the automation and bot-building workflow.
+
+1. Skill Name: Automation Opportunity Finder
+
+  Description: Maps repeated work, delays, handoffs, and error points, then ranks automation ideas by value, effort, risk, and recovery cost.
+
+2. Skill Name: Workflow Automation Architect
+
+  Description: Turns a goal into triggers, inputs, steps, decisions, outputs, logs, retries, and ownership rules.
+
+3. Skill Name: Bot Solution Designer
+
+  Description: Chooses the right bot form, such as script, service, desktop helper, chat bot, browser bot, or scheduled job.
+
+4. Skill Name: Automation Requirements Writer
+
+  Description: Creates clear functional needs, limits, examples, acceptance checks, and failure behavior before building.
+
+5. Skill Name: Process Dependency Mapper
+
+  Description: Finds systems, files, accounts, APIs, people, approvals, and timing rules that the automation depends on.
+
+6. Skill Name: Human-in-the-Loop Planner
+
+  Description: Places review and approval points around uncertain, sensitive, expensive, or irreversible actions.
+
+7. Skill Name: Automation ROI Estimator
+
+  Description: Estimates time saved, run frequency, build cost, maintenance cost, failure impact, and payback period.
+
+8. Skill Name: Automation Risk Assessor
+
+  Description: Scores privacy, security, financial, legal, operational, and data-loss risks before execution.
+
+9. Skill Name: Automation Roadmap Builder
+
+  Description: Groups ideas into quick wins, core systems, later upgrades, and blocked items with clear milestones.
+
+2. General Script and Tool Builders
+
+Focused skills for this part of the automation and bot-building workflow.
+
+10. Skill Name: Python Automation Builder
+
+  Description: Creates maintainable Python tools for files, data, APIs, scheduling, reports, messaging, and local operations.
+
+11. Skill Name: PowerShell Automation Builder
+
+  Description: Creates Windows administration and workplace automation with safe parameters, logs, and rollback steps.
+
+12. Skill Name: Bash Automation Builder
+
+  Description: Creates Linux and macOS shell automation for files, services, builds, backups, and system jobs.
+
+13. Skill Name: Batch File Builder
+
+  Description: Creates Windows CMD and BAT tools for repeatable local tasks, setup, launch, conversion, and cleanup.
+
+14. Skill Name: Cross-Platform CLI Builder
+
+  Description: Creates command-line tools that run on Windows, macOS, and Linux with help text and clear exit codes.
+
+15. Skill Name: GUI Utility Builder
+
+  Description: Wraps automation in a simple desktop interface with forms, progress, logs, and safe confirmation steps.
+
+16. Skill Name: Portable Tool Packager
+
+  Description: Packages scripts with dependencies, configuration, readme files, launchers, and clean folder structure.
+
+17. Skill Name: No-Code Automation Designer
+
+  Description: Builds flows for Power Automate, Zapier, Make, n8n, IFTTT, and similar tools when code is not needed.
+
+18. Skill Name: Low-Code Extension Builder
+
+  Description: Adds custom functions, webhooks, scripts, or connectors to a low-code flow.
+
+19. Skill Name: Executable Release Builder
+
+  Description: Produces runnable bundles such as EXE, app package, container, service, or signed script where supported.
+
+3. Task Scheduling and Event Automation
+
+Focused skills for this part of the automation and bot-building workflow.
+
+20. Skill Name: Universal Task Scheduler
+
+  Description: Creates hourly, daily, weekly, monthly, event-based, and one-time jobs with time-zone rules.
+
+21. Skill Name: Windows Task Scheduler Builder
+
+  Description: Creates and maintains Windows scheduled tasks with actions, triggers, accounts, and retry settings.
+
+22. Skill Name: Cron Job Builder
+
+  Description: Creates cron schedules, wrappers, environment setup, logs, lock files, and failure alerts.
+
+23. Skill Name: Calendar Automation Bot
+
+  Description: Creates reminders, recurring events, booking actions, preparation tasks, and follow-up flows.
+
+24. Skill Name: Deadline and Reminder Bot
+
+  Description: Tracks due dates and sends staged reminders based on urgency, owner, and completion state.
+
+25. Skill Name: Event Trigger Router
+
+  Description: Starts actions from file changes, email arrival, webhook calls, form answers, database changes, or device events.
+
+26. Skill Name: Queue-Based Job Runner
+
+  Description: Places tasks in a queue, controls concurrency, retries failures, and records job state.
+
+27. Skill Name: Long-Running Job Supervisor
+
+  Description: Monitors background work, restarts failed jobs, limits resource use, and reports status.
+
+28. Skill Name: Time-Zone Safe Scheduler
+
+  Description: Handles daylight saving changes, local time, UTC, holidays, and regional work hours.
+
+4. Desktop and Device Automation
+
+Focused skills for this part of the automation and bot-building workflow.
+
+29. Skill Name: Desktop Workflow Bot
+
+  Description: Automates approved keyboard, mouse, window, clipboard, and application actions with checkpoints.
+
+30. Skill Name: Windows Desktop Automator
+
+  Description: Uses PowerShell, UI Automation, AutoHotkey, or supported APIs to simplify Windows tasks.
+
+31. Skill Name: macOS Desktop Automator
+
+  Description: Uses Shortcuts, AppleScript, Automator, shell tools, and supported app actions.
+
+32. Skill Name: Linux Desktop Automator
+
+  Description: Uses shell tools, DBus, desktop shortcuts, and supported accessibility automation.
+
+33. Skill Name: Mobile Shortcut Builder
+
+  Description: Creates iOS Shortcuts and Android Tasker-style flows for routine personal or work tasks.
+
+34. Skill Name: Device Setup Automator
+
+  Description: Applies approved apps, settings, folders, policies, and checks to new devices.
+
+35. Skill Name: Kiosk and Launch Bot
+
+  Description: Starts a fixed set of apps, tabs, dashboards, or media in a controlled display environment.
+
+36. Skill Name: Clipboard Productivity Bot
+
+  Description: Cleans, transforms, templates, stores, and routes copied text under user control.
+
+37. Skill Name: Hotkey Command Builder
+
+  Description: Creates safe keyboard shortcuts for frequent actions, templates, launchers, and workspace changes.
+
+38. Skill Name: Peripheral Action Automator
+
+  Description: Connects supported scanners, printers, cameras, storage, and input devices to routine workflows.
+
+5. File, Folder, and Storage Automation
+
+Focused skills for this part of the automation and bot-building workflow.
+
+39. Skill Name: Smart File Organizer
+
+  Description: Sorts files by type, date, project, owner, content, or naming rules with preview and undo.
+
+40. Skill Name: Bulk Rename Bot
+
+  Description: Renames large file sets using patterns, counters, dates, metadata, and collision-safe rules.
+
+41. Skill Name: Folder Watch Bot
+
+  Description: Watches folders for new or changed files, then validates, transforms, routes, or alerts.
+
+42. Skill Name: Duplicate File Finder
+
+  Description: Finds exact and near-duplicate files using hashes, size, metadata, and safe review lists.
+
+43. Skill Name: File Conversion Pipeline
+
+  Description: Converts approved documents, images, audio, video, data, and archives into target formats.
+
+44. Skill Name: Archive Builder and Extractor
+
+  Description: Creates, reads, tests, splits, and extracts ZIP, TAR, 7Z, and related archives.
+
+45. Skill Name: Backup Automation Builder
+
+  Description: Creates local, network, and cloud backups with retention, verification, and restore tests.
+
+46. Skill Name: Storage Cleanup Assistant
+
+  Description: Finds old, large, temporary, or unused files and requires review before deletion.
+
+47. Skill Name: File Integrity Monitor
+
+  Description: Tracks hashes, size, timestamps, permissions, and unexpected changes to important files.
+
+48. Skill Name: Sync and Mirror Tool Builder
+
+  Description: Synchronizes folders across approved locations and handles conflicts, exclusions, and deletion rules.
+
+6. Document, Office, and Knowledge Work
+
+Focused skills for this part of the automation and bot-building workflow.
+
+49. Skill Name: Document Generation Bot
+
+  Description: Creates Word, PDF, HTML, Markdown, and text documents from structured data and templates.
+
+50. Skill Name: Spreadsheet Automation Builder
+
+  Description: Creates Excel and CSV import, cleanup, formula, report, chart, and export workflows.
+
+51. Skill Name: PowerPoint Automation Builder
+
+  Description: Builds and updates slides from data, templates, images, and approved content blocks.
+
+52. Skill Name: PDF Processing Bot
+
+  Description: Extracts, combines, splits, converts, fills, stamps, redacts, and validates PDFs.
+
+53. Skill Name: Template Filling Bot
+
+  Description: Fills repeated forms, letters, certificates, invoices, and reports from trusted data.
+
+54. Skill Name: Document Intake Classifier
+
+  Description: Sorts incoming documents by type, subject, owner, urgency, and next action.
+
+55. Skill Name: OCR and Scanned Document Bot
+
+  Description: Turns scans and images into searchable text, then checks confidence and layout.
+
+56. Skill Name: Knowledge Base Updater
+
+  Description: Publishes approved answers, notes, and changes into a controlled knowledge system.
+
+57. Skill Name: Meeting Document Bot
+
+  Description: Creates agendas, note structures, action lists, summaries, and follow-up packets.
+
+58. Skill Name: Version Comparison Bot
+
+  Description: Compares document versions and reports meaningful text, table, image, and metadata changes.
+
+7. Email, Messaging, and Communication Bots
+
+Focused skills for this part of the automation and bot-building workflow.
+
+59. Skill Name: Email Triage Bot
+
+  Description: Labels, prioritizes, routes, and drafts responses using clear rules and review controls.
+
+60. Skill Name: Email Attachment Processor
+
+  Description: Saves, validates, renames, scans, and routes approved attachments.
+
+61. Skill Name: Follow-Up Reminder Bot
+
+  Description: Tracks sent messages and reminds the owner when a reply or action is still missing.
+
+62. Skill Name: Newsletter Assembly Bot
+
+  Description: Builds newsletters from approved content, links, images, and mailing templates.
+
+63. Skill Name: Teams Workflow Bot
+
+  Description: Posts updates, collects responses, creates cards, sends reminders, and routes approvals in Microsoft Teams.
+
+64. Skill Name: Slack Workflow Bot
+
+  Description: Runs approved Slack commands, channel updates, reminders, forms, and alert routing.
+
+65. Skill Name: Discord Utility Bot
+
+  Description: Creates moderation-safe utilities, commands, schedules, role actions, and community helpers.
+
+66. Skill Name: SMS and Notification Bot
+
+  Description: Sends consent-based messages, alerts, delivery updates, and reminders through approved providers.
+
+67. Skill Name: Communication Escalation Router
+
+  Description: Escalates unanswered or urgent items based on time, severity, owner, and business rules.
+
+68. Skill Name: Message Template Manager
+
+  Description: Maintains reusable message templates with variables, language choices, tone, and approval state.
+
+8. Browser, Web, and Form Automation
+
+Focused skills for this part of the automation and bot-building workflow.
+
+69. Skill Name: Browser Task Automator
+
+  Description: Automates approved website actions using Playwright, Selenium, or supported browser APIs.
+
+70. Skill Name: Web Form Filling Bot
+
+  Description: Completes repeated forms from validated data and pauses for CAPTCHAs, consent, or sensitive choices.
+
+71. Skill Name: Website Monitoring Bot
+
+  Description: Checks pages for availability, content changes, price changes, broken links, or visual changes.
+
+72. Skill Name: Web Data Collection Bot
+
+  Description: Collects permitted public or owned data while respecting terms, rate limits, and access controls.
+
+73. Skill Name: Download Manager Bot
+
+  Description: Finds approved downloads, records source details, checks file type, and stores files safely.
+
+74. Skill Name: Browser Session Runner
+
+  Description: Runs repeatable tests or workflows using isolated profiles, cookies, and clear teardown.
+
+75. Skill Name: Web Screenshot Bot
+
+  Description: Captures full pages, selected elements, device sizes, and time-stamped visual records.
+
+76. Skill Name: Link Audit Bot
+
+  Description: Checks links, redirects, status codes, anchors, and mixed-content problems.
+
+77. Skill Name: Form Submission Tester
+
+  Description: Tests form validation, errors, confirmation, duplicate handling, and data delivery in owned systems.
+
+78. Skill Name: Website Content Publisher
+
+  Description: Publishes approved content to supported CMS platforms with preview and rollback.
+
+9. Data Collection, Mining, and Extraction
+
+Focused skills for this part of the automation and bot-building workflow.
+
+79. Skill Name: Structured Data Miner
+
+  Description: Extracts permitted data from files, databases, APIs, logs, and owned web sources into clean tables.
+
+80. Skill Name: Document Data Extractor
+
+  Description: Pulls fields, tables, dates, names, totals, and references from documents with confidence flags.
+
+81. Skill Name: Log Mining Bot
+
+  Description: Searches logs for errors, patterns, spikes, sessions, slow events, and repeated failures.
+
+82. Skill Name: Public Data Collector
+
+  Description: Downloads and normalizes open government, research, market, weather, and public reference data.
+
+83. Skill Name: API Data Harvester
+
+  Description: Collects paginated API data with authentication, backoff, checkpoints, and schema checks.
+
+84. Skill Name: Database Query Bot
+
+  Description: Runs approved read or write queries using parameterized SQL and controlled permissions.
+
+85. Skill Name: Metadata Extraction Bot
+
+  Description: Reads image, document, audio, video, archive, and file-system metadata.
+
+86. Skill Name: Survey Response Miner
+
+  Description: Cleans, groups, tags, and summarizes form or survey responses without changing source records.
+
+87. Skill Name: Incremental Data Collector
+
+  Description: Collects only new or changed records using timestamps, IDs, cursors, or change feeds.
+
+88. Skill Name: Data Provenance Recorder
+
+  Description: Stores where data came from, when it was collected, how it changed, and which rules were applied.
+
+10. Data Processing and Reporting Automation
+
+Focused skills for this part of the automation and bot-building workflow.
+
+89. Skill Name: ETL Pipeline Builder
+
+  Description: Creates extract, transform, and load pipelines with schemas, checks, logs, and recovery points.
+
+90. Skill Name: Data Cleaning Bot
+
+  Description: Handles missing values, duplicates, formats, units, ranges, invalid records, and review queues.
+
+91. Skill Name: Data Reconciliation Bot
+
+  Description: Compares sources and reports missing, extra, changed, or conflicting records.
+
+92. Skill Name: Report Generation Bot
+
+  Description: Creates scheduled reports from trusted data and exports them to required formats.
+
+93. Skill Name: Dashboard Refresh Bot
+
+  Description: Refreshes approved data sources, records status, and alerts on stale or failed updates.
+
+94. Skill Name: KPI Monitoring Bot
+
+  Description: Calculates defined metrics, watches thresholds, and explains which records caused a change.
+
+95. Skill Name: Anomaly Detection Runner
+
+  Description: Flags unusual values, volumes, timing, or behavior for review without taking unsafe action.
+
+96. Skill Name: Data Validation Gate
+
+  Description: Blocks bad inputs using schema, type, range, uniqueness, relationship, and business-rule checks.
+
+97. Skill Name: Batch Processing Controller
+
+  Description: Splits large work into batches, limits memory, resumes from checkpoints, and records progress.
+
+98. Skill Name: Automated Report Distributor
+
+  Description: Sends approved reports to the right recipients with access checks and delivery logs.
+
+11. API, Integration, and Connector Automation
+
+Focused skills for this part of the automation and bot-building workflow.
+
+99. Skill Name: REST API Automation Builder
+
+  Description: Creates robust clients for REST services with authentication, pagination, retries, and validation.
+
+100. Skill Name: GraphQL Automation Builder
+
+  Description: Creates queries, mutations, pagination, schema checks, and error handling for GraphQL services.
+
+101. Skill Name: Webhook Builder
+
+  Description: Creates secure webhook senders and receivers with signatures, replay protection, and logs.
+
+102. Skill Name: System Integration Router
+
+  Description: Moves data and actions between approved apps using mapped fields and clear ownership.
+
+103. Skill Name: Connector Adapter Builder
+
+  Description: Wraps a service, database, file format, or command in a stable reusable interface.
+
+104. Skill Name: Authentication Flow Helper
+
+  Description: Implements supported API keys, OAuth, service accounts, and token refresh without exposing secrets.
+
+105. Skill Name: Rate Limit Manager
+
+  Description: Controls call rates, queues work, applies backoff, and preserves progress during throttling.
+
+106. Skill Name: Schema Mapping Bot
+
+  Description: Maps fields between systems, handles defaults, conversions, enums, and rejected records.
+
+107. Skill Name: Integration Contract Tester
+
+  Description: Checks requests, responses, errors, schemas, timeouts, and backward compatibility.
+
+108. Skill Name: Offline Sync Builder
+
+  Description: Queues local changes and safely synchronizes when a connection returns.
+
+12. Cloud, Server, and Infrastructure Automation
+
+Focused skills for this part of the automation and bot-building workflow.
+
+109. Skill Name: Cloud Resource Provisioner
+
+  Description: Creates repeatable cloud setups using Terraform, Bicep, CloudFormation, or provider tools.
+
+110. Skill Name: Server Setup Automator
+
+  Description: Installs and configures approved packages, services, users, folders, and firewall rules.
+
+111. Skill Name: Container Automation Builder
+
+  Description: Creates Docker images, Compose stacks, health checks, volumes, and clean startup flows.
+
+112. Skill Name: Kubernetes Task Automator
+
+  Description: Creates safe deployment, scaling, job, config, secret-reference, and rollout workflows.
+
+113. Skill Name: Infrastructure Drift Detector
+
+  Description: Compares expected and live settings and reports unapproved changes.
+
+114. Skill Name: Service Restart and Recovery Bot
+
+  Description: Checks health, restarts failed services within limits, and escalates repeated failure.
+
+115. Skill Name: Resource Cost Monitor
+
+  Description: Tracks cloud use and cost thresholds and recommends review before expensive changes.
+
+116. Skill Name: Environment Builder
+
+  Description: Creates matching development, test, staging, and production environments from versioned definitions.
+
+117. Skill Name: Certificate Renewal Automator
+
+  Description: Tracks and renews certificates with validation, deployment checks, and expiry alerts.
+
+118. Skill Name: Infrastructure Inventory Bot
+
+  Description: Catalogs approved servers, services, versions, owners, dependencies, and health state.
+
+13. Development, Testing, and DevOps Automation
+
+Focused skills for this part of the automation and bot-building workflow.
+
+119. Skill Name: Project Scaffold Builder
+
+  Description: Creates clean project structures, configuration, documentation, tests, and basic automation.
+
+120. Skill Name: Build Automation Engineer
+
+  Description: Creates repeatable compile, bundle, package, and artifact workflows.
+
+121. Skill Name: CI Pipeline Builder
+
+  Description: Creates continuous integration steps for linting, testing, security checks, builds, and artifacts.
+
+122. Skill Name: CD Release Automator
+
+  Description: Creates gated deployment workflows with approvals, phased rollout, rollback, and release notes.
+
+123. Skill Name: Test Automation Builder
+
+  Description: Creates unit, integration, API, UI, regression, performance, and smoke test suites.
+
+124. Skill Name: Code Quality Bot
+
+  Description: Runs formatters, linters, type checks, complexity checks, and project standards.
+
+125. Skill Name: Dependency Update Bot
+
+  Description: Finds updates, checks compatibility, runs tests, and prepares controlled update proposals.
+
+126. Skill Name: Issue Triage Bot
+
+  Description: Labels, groups, deduplicates, and routes issues using project rules.
+
+127. Skill Name: Release Notes Generator
+
+  Description: Builds readable release notes from approved commits, issues, and change records.
+
+128. Skill Name: Repository Maintenance Bot
+
+  Description: Checks stale branches, large files, missing owners, broken workflows, and repository health.
+
+14. Business and Workplace Automation
+
+Focused skills for this part of the automation and bot-building workflow.
+
+129. Skill Name: Approval Workflow Builder
+
+  Description: Routes requests through owner, reviewer, approver, escalation, and completion stages.
+
+130. Skill Name: Employee Onboarding Automator
+
+  Description: Coordinates approved accounts, documents, training, equipment, meetings, and status checks.
+
+131. Skill Name: Procurement Workflow Bot
+
+  Description: Collects requests, checks required fields, routes approval, tracks orders, and records delivery.
+
+132. Skill Name: Invoice Processing Bot
+
+  Description: Extracts invoice fields, checks duplicates and totals, routes review, and prepares system entries.
+
+133. Skill Name: Expense Workflow Bot
+
+  Description: Collects receipts, checks policy rules, requests missing details, and routes approval.
+
+134. Skill Name: Inventory Tracking Bot
+
+  Description: Tracks item movement, stock level, reorder points, location, and ownership.
+
+135. Skill Name: Customer Support Routing Bot
+
+  Description: Classifies requests, suggests approved answers, sets priority, and routes to the right queue.
+
+136. Skill Name: Sales Operations Bot
+
+  Description: Updates approved lead, contact, opportunity, follow-up, and forecasting workflows.
+
+137. Skill Name: Project Status Bot
+
+  Description: Collects task updates, identifies blockers, creates short status summaries, and alerts owners.
+
+138. Skill Name: Recurring Operations Checklist Bot
+
+  Description: Runs daily, weekly, monthly, and closing checklists with proof and exception tracking.
+
+15. Personal Productivity and Information Automation
+
+Focused skills for this part of the automation and bot-building workflow.
+
+139. Skill Name: Personal Task Bot
+
+  Description: Captures tasks, assigns dates and contexts, sends reminders, and produces a daily focus list.
+
+140. Skill Name: Inbox-to-Task Automator
+
+  Description: Turns selected email, messages, notes, and forms into tasks with source links.
+
+141. Skill Name: Research Collection Bot
+
+  Description: Collects permitted sources, saves citations, removes duplicates, and organizes notes.
+
+142. Skill Name: Reading Queue Automator
+
+  Description: Stores articles, extracts key details, tags topics, and tracks completion.
+
+143. Skill Name: Personal File Intake Bot
+
+  Description: Processes scans, downloads, screenshots, and documents into organized folders.
+
+144. Skill Name: Habit and Routine Scheduler
+
+  Description: Creates reminders and simple tracking for chosen routines without making medical claims.
+
+145. Skill Name: Travel Planning Automator
+
+  Description: Organizes approved bookings, schedules, checklists, documents, and update alerts.
+
+146. Skill Name: Study Workflow Bot
+
+  Description: Builds study schedules, review queues, flashcard inputs, and assignment reminders.
+
+147. Skill Name: Personal Finance Organizer
+
+  Description: Organizes user-provided transactions and documents for review without making transfers or investment decisions.
+
+148. Skill Name: Digital Declutter Bot
+
+  Description: Finds old downloads, duplicate media, stale shortcuts, and unused folders for user-approved cleanup.
+
+16. Media, Creative, and Content Automation
+
+Focused skills for this part of the automation and bot-building workflow.
+
+149. Skill Name: Image Batch Processor
+
+  Description: Resizes, crops, renames, converts, compresses, watermarks, and organizes image sets.
+
+150. Skill Name: Video Processing Pipeline
+
+  Description: Automates approved transcoding, clipping, thumbnails, subtitles, loudness checks, and delivery formats.
+
+151. Skill Name: Audio Processing Bot
+
+  Description: Automates conversion, trimming, leveling, tagging, noise checks, and batch export.
+
+152. Skill Name: Content Publishing Scheduler
+
+  Description: Schedules approved posts across supported websites and social platforms with review gates.
+
+153. Skill Name: Asset Generation Pipeline
+
+  Description: Coordinates prompts, source files, variants, naming, checks, and delivery for creative assets.
+
+154. Skill Name: Thumbnail Production Bot
+
+  Description: Builds repeatable thumbnail variants from approved templates, images, and titles.
+
+155. Skill Name: Subtitle and Caption Bot
+
+  Description: Transcribes, times, reviews, translates, and exports captions in common formats.
+
+156. Skill Name: Media Archive Cataloger
+
+  Description: Builds a searchable catalog using file metadata, transcripts, tags, and preview images.
+
+157. Skill Name: Brand Asset Compliance Bot
+
+  Description: Checks dimensions, logo use, colors, fonts, safe areas, and export rules.
+
+158. Skill Name: Content Repurposing Bot
+
+  Description: Turns approved long content into summaries, posts, clips, captions, and document drafts.
+
+17. Monitoring, Alerts, and Reliability
+
+Focused skills for this part of the automation and bot-building workflow.
+
+159. Skill Name: System Health Monitor
+
+  Description: Checks uptime, CPU, memory, disk, services, and defined health endpoints.
+
+160. Skill Name: Application Error Monitor
+
+  Description: Collects crashes and errors, groups repeats, and routes useful details to owners.
+
+161. Skill Name: Data Pipeline Monitor
+
+  Description: Tracks run status, freshness, row count, schema change, and failed records.
+
+162. Skill Name: Website Uptime Bot
+
+  Description: Checks website reachability and response time from scheduled probes.
+
+163. Skill Name: Certificate and Domain Monitor
+
+  Description: Tracks expiry, DNS changes, certificate validity, and renewal status.
+
+164. Skill Name: Alert Deduplication Bot
+
+  Description: Combines repeated alerts, suppresses noise, and preserves the first and latest evidence.
+
+165. Skill Name: Escalation Policy Bot
+
+  Description: Routes alerts by severity, time, owner, acknowledgment, and repeated failure.
+
+166. Skill Name: Self-Healing Workflow Bot
+
+  Description: Runs narrow approved fixes, confirms recovery, and stops after bounded attempts.
+
+167. Skill Name: Service Level Tracker
+
+  Description: Measures defined availability and response targets and produces history reports.
+
+168. Skill Name: Incident Timeline Builder
+
+  Description: Builds a time-ordered incident record from logs, alerts, messages, and actions.
+
+18. Security, Privacy, and Safe Automation
+
+Focused skills for this part of the automation and bot-building workflow.
+
+169. Skill Name: Secret Management Helper
+
+  Description: Stores references to secrets in approved vaults and prevents secrets from entering code or logs.
+
+170. Skill Name: Permission Review Bot
+
+  Description: Reports accounts, roles, shares, and access that should be reviewed by an owner.
+
+171. Skill Name: Privacy-Safe Data Processor
+
+  Description: Minimizes collected data, masks sensitive fields, applies retention, and records handling rules.
+
+172. Skill Name: Secure Automation Reviewer
+
+  Description: Checks commands, packages, permissions, network access, inputs, and output destinations before release.
+
+173. Skill Name: Malware-Safe File Intake Bot
+
+  Description: Quarantines untrusted files and uses approved scanning before processing.
+
+174. Skill Name: Audit Log Builder
+
+  Description: Records actor, time, input, action, result, approval, and failure without exposing sensitive values.
+
+175. Skill Name: Policy Compliance Checker
+
+  Description: Checks automation against stated organizational rules and blocks unsupported actions.
+
+176. Skill Name: Safe Command Runner
+
+  Description: Uses allowlists, argument validation, least privilege, dry runs, timeouts, and clear exit codes.
+
+177. Skill Name: Consent and Authorization Gate
+
+  Description: Confirms that the automation has permission to access data, accounts, devices, and communications.
+
+178. Skill Name: Rollback and Recovery Builder
+
+  Description: Creates backup, checkpoint, undo, restore, and recovery verification for risky changes.
+
+19. Bot Frameworks and Conversational Automation
+
+Focused skills for this part of the automation and bot-building workflow.
+
+179. Skill Name: Chat Bot Builder
+
+  Description: Creates helpful conversational bots with intents, tools, context, fallback, and clear limits.
+
+180. Skill Name: Command Bot Builder
+
+  Description: Creates slash commands, chat commands, permissions, help, and safe argument parsing.
+
+181. Skill Name: Support Assistant Bot
+
+  Description: Finds approved answers, gathers missing details, opens tickets, and hands off to a person.
+
+182. Skill Name: Workflow Conversation Bot
+
+  Description: Guides a user through forms, choices, approvals, and task progress in chat.
+
+183. Skill Name: Multi-Agent Workflow Coordinator
+
+  Description: Assigns bounded work to specialist agents, shares structured state, and checks joined results.
+
+184. Skill Name: Bot Memory Manager
+
+  Description: Stores only approved facts with scope, expiry, correction, and deletion controls.
+
+185. Skill Name: Tool-Using Agent Builder
+
+  Description: Connects a bot to approved APIs, files, search, documents, and scripts with action checks.
+
+186. Skill Name: Bot Evaluation Harness
+
+  Description: Tests normal, unclear, boundary, failure, refusal, recovery, and repeated-use cases.
+
+187. Skill Name: Conversation Analytics Bot
+
+  Description: Measures topic, completion, fallback, latency, and satisfaction signals without improper profiling.
+
+188. Skill Name: Bot Deployment Packager
+
+  Description: Packages configuration, prompts, tools, secrets references, tests, and operations notes.
+
+20. Automation Quality, Testing, and Governance
+
+Focused skills for this part of the automation and bot-building workflow.
+
+189. Skill Name: Automation Test Harness
+
+  Description: Runs normal, boundary, failure, repeat, concurrency, recovery, and clean-state tests.
+
+190. Skill Name: Dry-Run and Preview Builder
+
+  Description: Shows intended changes before writing, sending, deleting, publishing, or spending resources.
+
+191. Skill Name: Idempotency Checker
+
+  Description: Confirms repeated runs do not create duplicate records or repeat completed effects.
+
+192. Skill Name: Failure Injection Tester
+
+  Description: Simulates timeouts, bad inputs, missing files, network loss, and partial system failure.
+
+193. Skill Name: Performance and Load Tester
+
+  Description: Measures speed, memory, throughput, queue delay, and limits under expected and peak use.
+
+194. Skill Name: Automation Observability Builder
+
+  Description: Adds structured logs, metrics, traces, correlation IDs, dashboards, and useful alerts.
+
+195. Skill Name: Change Control Manager
+
+  Description: Tracks versions, approvals, environments, releases, owners, and rollback points.
+
+196. Skill Name: Automation Documentation Writer
+
+  Description: Creates install, configuration, run, recovery, troubleshooting, and maintenance guides.
+
+197. Skill Name: Maintenance and Deprecation Planner
+
+  Description: Defines update checks, owner reviews, end-of-life dates, migration, and safe shutdown.
+
+198. Skill Name: Automation Catalog Router
+
+  Description: Chooses the smallest safe set of automation skills and defines each handoff and completion check.
+
+Suggested Catalog Use
+
+A future agent can use this catalog as a router. A request such as “process new invoices every night” may combine Workflow Automation Architect, Folder Watch Bot, OCR and Scanned Document Bot, Invoice Processing Bot, Data Validation Gate, Approval Workflow Builder, Audit Log Builder, Universal Task Scheduler, and Automation Test Harness.
+
+Recommended Skill Bundle Pattern
+
+1.  Plan: define the trigger, input, result, permission, risk, owner, and acceptance checks.
+
+2.  Build: create the smallest complete automation and make the normal path work.
+
+3.  Protect: add validation, least privilege, dry run, secrets handling, and confirmation gates.
+
+4.  Test: cover normal, boundary, repeated, failure, recovery, and joined behavior.
+
+5.  Operate: add scheduling, logs, metrics, alerts, ownership, and stop controls.
+
+6.  Handoff: include source, runnable output, configuration, readme, tests, and repair steps.
+
+Build Note
+
+When these ideas become real Skills, each Skill should define exact triggers, accepted inputs, outputs, platforms, dependencies, permissions, safety limits, checks, recovery steps, and handoff format. Use separate scripts, references, templates, and assets so the main Skill instructions remain short.

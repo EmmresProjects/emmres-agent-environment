@@ -1,0 +1,1915 @@
+FULL OFFLINE AUDIO
+AND MUSIC PRODUCTION
+Comprehensive Skill Catalog
+
+A capability blueprint for air-gapped voice, speech, music, sound design, recording, editing, restoration, mixing, mastering, codecs, rights, automation, quality control, and reproducible delivery.
+
+Catalog edition: November 2026
+
+Purpose and Scope
+
+This document is a planning catalog for future reusable skills. It does not implement the listed skills. Each entry is scoped so a stronger agent can convert it into a standalone skill or coordinated module. The target environment is fully offline or air-gapped, with local models, licensed libraries, editable sessions, measured validation, explicit consent, auditable rights, and clean-state handoff.
+
+Design Principles for Future Skill Builders
+
+- Preserve untouched source recordings and editable sessions before destructive restoration, rendering, conversion, or mastering.
+
+- Treat sample rate, bit depth, timebase, channel order, loudness, true peak, naming, metadata, and rights as shared production contracts.
+
+- Use local models only with recorded versions, hashes, settings, licenses, consent, provenance, and artifact review.
+
+- Validate by listening and measurement. A successful render or inference command is not proof of acceptable audio.
+
+- Use deterministic scripts for batch conversion, loudness, metadata, stems, transcripts, checksums, and package validation.
+
+- Test plugin recall, codec round trips, clean-state reopening, offline-only operation, and recipient playback.
+
+- Block release on critical consent, licensing, clipping, sync, channel, loudness, corruption, or package-completeness defects.
+
+Catalog Summary
+
+32 categories • 450 proposed skills • full offline audio and music production coverage
+
+The catalog includes every requested capability and expands into recording, spatial audio, restoration, scoring, interactive audio, localization, archival work, automation, testing, recovery, and governance.
+
+1. Offline Installation, Dependencies, and Workstation Readiness
+
+1. Skill Name: Air-Gapped Audio Suite Installer
+
+  Description: Packages a DAW, editors, plugin hosts, codecs, drivers, model runtimes, libraries, documentation, checksums, and permitted offline licenses.
+
+2. Skill Name: Clean Offline Dependency Bundle Builder
+
+  Description: Collects VST, VST3, LV2, CLAP, AU-compatible assets where applicable, Python wheels, runtimes, codecs, and redistributables with pinned versions.
+
+3. Skill Name: Clean-State Installation Tester
+
+  Description: Installs the approved stack in a fresh operating-system profile or virtual machine and verifies recording, playback, MIDI, plugins, models, rendering, and export.
+
+4. Skill Name: Offline-Only Production Tester
+
+  Description: Disables all network interfaces and runs a representative voice, music, restoration, mixing, mastering, and delivery workflow.
+
+5. Skill Name: Audio Driver Configuration Manager
+
+  Description: Configures ASIO, WASAPI, Core Audio, ALSA, JACK, or supported drivers with sample rate, buffer, clock, channel, and latency validation.
+
+6. Skill Name: Plugin Compatibility Auditor
+
+  Description: Tests plugin format, architecture, host version, authorization, latency, recall, automation, preset, and offline operation.
+
+7. Skill Name: Model Runtime Dependency Manager
+
+  Description: Pins local neural runtimes, GPU libraries, model revisions, tokenizers, vocoders, and preprocessing packages.
+
+8. Skill Name: Workstation Readiness Auditor
+
+  Description: Checks CPU, GPU, VRAM, RAM, storage, audio interfaces, MIDI devices, monitoring, drivers, and thermal stability.
+
+9. Skill Name: Temporary Disk Budget Planner
+
+  Description: Estimates recording, cache, stem, separation, generation, render, backup, and intermediate storage with safety margins.
+
+10. Skill Name: Offline License Activation Planner
+
+  Description: Documents valid offline authorization, machine activations, dongles, local servers, grace periods, and recovery.
+
+11. Skill Name: Environment Baseline Recorder
+
+  Description: Captures DAW, plugins, models, drivers, devices, sample libraries, preferences, paths, and mastering configuration.
+
+12. Skill Name: Update Staging and Rollback Manager
+
+  Description: Tests DAW, plugin, driver, codec, model, and library updates against reference sessions before promotion.
+
+13. Skill Name: Multi-OS Deployment Planner
+
+  Description: Maps Windows, Linux, and macOS hosts, plugin formats, paths, drivers, codecs, permissions, and limitations.
+
+14. Skill Name: Audio Environment Health Monitor
+
+  Description: Runs recurring local tests for launch, device access, plugin scan, model inference, MIDI, sync, rendering, and codec support.
+
+2. Session Architecture, Templates, and File Standards
+
+1. Skill Name: Audio Project Scaffolder
+
+  Description: Creates folders for scripts, recordings, takes, edits, MIDI, instruments, samples, sessions, stems, mixes, masters, transcripts, rights, and archives.
+
+2. Skill Name: DAW Session Template Builder
+
+  Description: Creates tracks, buses, folders, routing, meters, markers, naming, colors, sample rate, bit depth, and print paths.
+
+3. Skill Name: Track Naming Standard Designer
+
+  Description: Defines parseable names for dialogue, vocals, instruments, microphones, takes, playlists, buses, stems, effects, and versions.
+
+4. Skill Name: Session Naming Validator
+
+  Description: Detects default, duplicate, illegal, ambiguous, overlong, or nonportable session, track, clip, and file names.
+
+5. Skill Name: Sample Rate Standard Manager
+
+  Description: Defines approved rates such as 44.1, 48, 88.2, 96, and 192 kHz by production and delivery requirement.
+
+6. Skill Name: Bit Depth Standard Manager
+
+  Description: Defines recording, processing, interchange, dither, and delivery rules for 16-bit, 24-bit, 32-bit integer, and 32-bit float.
+
+7. Skill Name: Channel Layout Standard Manager
+
+  Description: Defines mono, stereo, dual mono, 5.1, 7.1, ambisonic, binaural, and object-based channel order and naming.
+
+8. Skill Name: Session Timebase Manager
+
+  Description: Configures samples, seconds, bars and beats, SMPTE timecode, frame rate, tempo, meter, and pull-up or pull-down behavior.
+
+9. Skill Name: Project Configuration Author
+
+  Description: Writes machine-readable sample rate, bit depth, frame rate, loudness, naming, routing, paths, and delivery targets.
+
+10. Skill Name: Relative Media Path Enforcer
+
+  Description: Converts machine-specific media and library paths into documented portable paths and reports unresolved dependencies.
+
+11. Skill Name: Session Dependency Grapher
+
+  Description: Maps audio files, plugins, presets, impulse responses, models, samples, instruments, MIDI, video, and external clocks.
+
+12. Skill Name: Show-Wide Audio Settings Synchronizer
+
+  Description: Updates approved session standards while preserving documented episode, song, cue, or deliverable exceptions.
+
+13. Skill Name: Legacy Session Migration Planner
+
+  Description: Opens older sessions through controlled versions, freezes risky plugins, preserves originals, and creates comparison renders.
+
+14. Skill Name: Session Bootstrap Validator
+
+  Description: Creates and exports a test recording, MIDI instrument, plugin chain, neural process, mix, and master from a clean path.
+
+3. Recording, Interfaces, Microphones, and Monitoring
+
+1. Skill Name: Recording Signal-Flow Planner
+
+  Description: Defines source, microphone, preamp, converter, clock, channel, gain, monitoring, talkback, backup, and recording path.
+
+2. Skill Name: Microphone Selection Assistant
+
+  Description: Selects dynamic, condenser, ribbon, lavalier, shotgun, boundary, contact, or stereo arrays by source and environment.
+
+3. Skill Name: Microphone Placement Planner
+
+  Description: Defines distance, angle, polar pattern, phase relationship, room balance, proximity effect, and movement tolerance.
+
+4. Skill Name: Gain Staging Operator
+
+  Description: Sets analog and digital levels with adequate headroom, low noise, no clipping, and calibrated monitoring.
+
+5. Skill Name: Audio Interface Configuration Operator
+
+  Description: Maps inputs, outputs, loopback, preamps, monitor paths, clock, sample rate, buffer, and driver settings.
+
+6. Skill Name: Clock and Synchronization Manager
+
+  Description: Configures word clock, digital formats, timecode, sample rate, master clock, termination, and drift monitoring.
+
+7. Skill Name: Low-Latency Monitoring Builder
+
+  Description: Creates direct or software monitoring with cue mixes, compensation, talkback, confidence tracks, and safe levels.
+
+8. Skill Name: Redundant Recording Planner
+
+  Description: Creates independent primary and backup record paths with separate media, power, and verification.
+
+9. Skill Name: Room Noise Surveyor
+
+  Description: Measures ambient noise, hum, HVAC, traffic, reflections, isolation, and microphone self-noise before recording.
+
+10. Skill Name: Acoustic Treatment Planner
+
+  Description: Positions absorption, bass trapping, diffusion, reflection control, and portable treatment based on measured problems.
+
+11. Skill Name: Phase-Coherent Multi-Mic Operator
+
+  Description: Aligns polarity, distance, timing, and spectral interaction among multiple microphones without erasing useful space.
+
+12. Skill Name: Location Recording Packager
+
+  Description: Prepares recorder, batteries, media, microphones, wind protection, timecode, slates, logs, backups, and permissions.
+
+13. Skill Name: Recording Quality Validator
+
+  Description: Checks clipping, noise, hum, RF interference, dropouts, sample rate, channel mapping, phase, sync, and metadata.
+
+14. Skill Name: Hearing-Safe Monitoring Manager
+
+  Description: Sets calibrated levels, exposure limits, breaks, peak protection, and warnings for headphones and speakers.
+
+4. Natural Offline Neural Voice and Speech Synthesis
+
+1. Skill Name: Offline Neural Voice Runtime Manager
+
+  Description: Installs and configures local text-to-speech models, vocoders, dictionaries, precision, device settings, and deterministic presets.
+
+2. Skill Name: Natural Voice Casting Assistant
+
+  Description: Matches authorized local voices to language, age range, vocal quality, character, narration, and performance requirements.
+
+3. Skill Name: Pronunciation Lexicon Builder
+
+  Description: Creates project dictionaries for names, invented terms, abbreviations, phonemes, stress, numbers, and alternate readings.
+
+4. Skill Name: Voice Performance Direction Builder
+
+  Description: Translates intent into pace, emphasis, pauses, pitch range, energy, breath, style, and emotional direction.
+
+5. Skill Name: Multi-Take Voice Generator
+
+  Description: Produces labeled variants while preserving text, model, voice, seed, parameters, pronunciation, and selection notes.
+
+6. Skill Name: Dialogue Duration Adapter
+
+  Description: Fits synthesized speech to a target duration through phrasing, pause, rate, and limited time stretching.
+
+7. Skill Name: Neural Voice Consistency Validator
+
+  Description: Checks speaker identity, pronunciation, pace, pitch, loudness, timbre, breath, and model version across sessions.
+
+8. Skill Name: Neural Voice Artifact Detector
+
+  Description: Flags metallic resonance, slurring, clicks, repeated breaths, pitch jumps, dropped words, and unnatural pauses.
+
+9. Skill Name: Neural Voice Editing Operator
+
+  Description: Repairs selected words or phrases while preserving timing, room tone, timbre, loudness, and surrounding performance.
+
+10. Skill Name: Multilingual Voice Localizer
+
+  Description: Generates authorized language versions with pronunciation review, timing control, and consistent voice identity.
+
+11. Skill Name: Voice Model Provenance Recorder
+
+  Description: Records model source, version, hash, license, consent, text, parameters, inputs, and generated-file lineage.
+
+12. Skill Name: Voice Consent Gate
+
+  Description: Requires documented authority, permitted uses, term, territory, retention, revocation, and model restrictions.
+
+13. Skill Name: Synthetic Voice Disclosure Manager
+
+  Description: Applies project-required labels and metadata for generated or converted speech.
+
+14. Skill Name: Neural Voice Regression Suite
+
+  Description: Replays a fixed script set after model, runtime, vocoder, dictionary, or hardware changes.
+
+5. Offline Speech Recognition, Diarization, and Transcription
+
+1. Skill Name: Offline Speech-to-Text Runtime Manager
+
+  Description: Serves local ASR models with pinned language, beam, timestamps, vocabulary, device, and quantization settings.
+
+2. Skill Name: ASR Model Router
+
+  Description: Selects a local model by language, accent coverage, domain, noise level, latency, memory, and timestamp needs.
+
+3. Skill Name: Vocabulary and Hotword Manager
+
+  Description: Adds names, terminology, abbreviations, product terms, and constrained phrases without corrupting normal recognition.
+
+4. Skill Name: Speaker Diarization Runtime Manager
+
+  Description: Runs local diarization with speaker-count assumptions, overlap handling, embeddings, clustering, and confidence.
+
+5. Skill Name: Speaker Turn Editor
+
+  Description: Merges, splits, relabels, and validates speaker segments without inferring real identity.
+
+6. Skill Name: Word Timestamp Aligner
+
+  Description: Creates and repairs word or phoneme timing against the original waveform.
+
+7. Skill Name: Transcript Punctuation and Formatting Operator
+
+  Description: Adds punctuation, capitalization, paragraphs, numbers, and non-speech tags while preserving words and timing.
+
+8. Skill Name: ASR Transcript Validator
+
+  Description: Compares transcript to audio, flags uncertain words, omissions, insertions, substitutions, timing errors, and speaker errors.
+
+9. Skill Name: Transcript Confidence Calibrator
+
+  Description: Maps model confidence and audio quality to review priority and explicit uncertainty labels.
+
+10. Skill Name: Multi-Pass ASR Reconciler
+
+  Description: Compares outputs from multiple local models or settings and routes disagreements to focused review.
+
+11. Skill Name: Multilingual Transcript Manager
+
+  Description: Handles language identification, code switching, script, transliteration, terminology, and locale labels.
+
+12. Skill Name: Meeting Transcript Builder
+
+  Description: Combines diarization, timestamps, agenda markers, decisions, actions, and source-audio links.
+
+13. Skill Name: Subtitle Transcript Exporter
+
+  Description: Converts validated transcripts into caption-ready segments with frame-aware timing and speaker metadata.
+
+14. Skill Name: ASR Evaluation Runner
+
+  Description: Measures word error rate, character error rate, diarization error rate, timestamp error, and named-entity accuracy.
+
+6. Speech Enhancement, Denoising, and Restoration
+
+1. Skill Name: Offline Speech Enhancement Runtime Manager
+
+  Description: Configures local enhancement models for bandwidth, sample rate, chunking, latency, device, and artifact control.
+
+2. Skill Name: Offline Noise Removal Operator
+
+  Description: Reduces stationary and changing noise using local neural, spectral, adaptive, or profile-based methods.
+
+3. Skill Name: Broadband Denoise Specialist
+
+  Description: Balances noise reduction with consonant, ambience, texture, and breath preservation.
+
+4. Skill Name: Hum and Buzz Removal Operator
+
+  Description: Detects mains frequency, harmonics, variable hum, ground buzz, and electrical interference and applies targeted repair.
+
+5. Skill Name: De-Click and De-Crackle Operator
+
+  Description: Removes isolated clicks, mouth noises, vinyl crackle, digital spikes, and impulsive defects.
+
+6. Skill Name: De-Clip Repair Operator
+
+  Description: Reconstructs flattened peaks where possible and reports unrecoverable distortion.
+
+7. Skill Name: Spectral Repair Specialist
+
+  Description: Uses time-frequency selection, interpolation, attenuation, replacement, and ambience matching for localized defects.
+
+8. Skill Name: Reverberation Reduction Operator
+
+  Description: Reduces excessive room reflections while protecting intelligibility, timbre, transients, and natural decay.
+
+9. Skill Name: Wind and Plosive Repairer
+
+  Description: Reduces low-frequency wind, microphone buffeting, plosives, and handling noise without thinning speech.
+
+10. Skill Name: Dialogue Isolation Operator
+
+  Description: Separates speech from music, effects, crowd, room, or competing voices using local models and manual refinement.
+
+11. Skill Name: Bandwidth Extension Operator
+
+  Description: Creates an explicitly labeled enhanced high-frequency band for narrowband speech and validates artifacts.
+
+12. Skill Name: Dropout and Gap Repairer
+
+  Description: Repairs short missing or corrupted audio from surrounding context, alternate microphones, takes, or room tone.
+
+13. Skill Name: Audio Restoration Chain Builder
+
+  Description: Orders repair stages to avoid amplifying defects and preserves reversible versions and comparisons.
+
+14. Skill Name: Restoration Quality Validator
+
+  Description: Checks intelligibility, musical noise, pumping, phase, ambience, timbre, transients, and overprocessing against the source.
+
+7. Source Separation and Stem Extraction
+
+1. Skill Name: Offline Source Separation Runtime Manager
+
+  Description: Configures local models for vocals, drums, bass, music, dialogue, effects, accompaniment, or custom stems.
+
+2. Skill Name: Vocal and Accompaniment Separator
+
+  Description: Creates editable vocal and instrumental stems while evaluating bleed, transients, ambience, and phase.
+
+3. Skill Name: Music Stem Separator
+
+  Description: Extracts drums, bass, vocals, piano, guitar, and other supported parts with model and segment-aware routing.
+
+4. Skill Name: Dialogue-Music-Effects Separator
+
+  Description: Produces DME-style components from mixed program audio for restoration, localization, or analysis.
+
+5. Skill Name: Drum Component Separator
+
+  Description: Extracts kick, snare, cymbals, toms, percussion, or transient groups where supported.
+
+6. Skill Name: Segment-Adaptive Separation Operator
+
+  Description: Uses different models or settings for speech, sparse music, dense chorus, ambience, and difficult overlaps.
+
+7. Skill Name: Separation Artifact Detector
+
+  Description: Finds watery artifacts, transient smearing, musical noise, bleed, missing harmonics, and stereo instability.
+
+8. Skill Name: Stem Phase and Sum Validator
+
+  Description: Checks polarity, latency, gain, phase, and whether stems reconstruct the source within expected residual limits.
+
+9. Skill Name: Stem Cleanup Operator
+
+  Description: Repairs bleed and artifacts with spectral editing, gating, masking, replacement, and multitrack references.
+
+10. Skill Name: Separation Model Benchmark Runner
+
+  Description: Compares local models using SDR, SI-SDR, perceptual review, transient quality, bleed, and runtime.
+
+11. Skill Name: Source Separation Provenance Recorder
+
+  Description: Stores model, revision, settings, segment strategy, source hash, stem hashes, and known limitations.
+
+12. Skill Name: Rights-Aware Separation Gate
+
+  Description: Confirms authorization for derivative stems, remixing, model use, and redistribution before processing.
+
+13. Skill Name: Stem Package Builder
+
+  Description: Exports aligned stems with common start, length, sample rate, bit depth, names, metadata, and validation report.
+
+8. Voice Conversion, Singing Voice, and Vocal Production
+
+1. Skill Name: Offline Voice Conversion Runtime Manager
+
+  Description: Configures authorized local conversion models, feature extractors, pitch models, vocoders, indexes, and device settings.
+
+2. Skill Name: Voice Conversion Consent Validator
+
+  Description: Verifies performer authority, target voice rights, allowed uses, term, territory, retention, and revocation.
+
+3. Skill Name: Timbre Conversion Operator
+
+  Description: Converts an authorized performance to an approved target timbre while preserving intent, timing, and articulation.
+
+4. Skill Name: Pitch Extraction and Correction Operator
+
+  Description: Tracks pitch with confidence, preserves intentional expression, and corrects selected notes, drift, or tuning errors.
+
+5. Skill Name: Formant and Character Editor
+
+  Description: Adjusts perceived size and vocal color without unintended pitch, phase, or intelligibility changes.
+
+6. Skill Name: Offline Singing Voice Model Manager
+
+  Description: Configures local singing synthesis or conversion models, phonemes, notes, expression curves, vocoders, and languages.
+
+7. Skill Name: Singing Phoneme and Lyric Aligner
+
+  Description: Maps lyrics to notes, syllables, phonemes, breaths, consonants, melismas, and timing.
+
+8. Skill Name: Vocal Performance Synthesizer
+
+  Description: Generates authorized singing takes from score, lyrics, expression, pronunciation, and voice settings.
+
+9. Skill Name: Vocal Comping Operator
+
+  Description: Selects and combines the strongest sections from recorded or generated takes with transparent edits.
+
+10. Skill Name: Vocal Timing Editor
+
+  Description: Aligns phrases, consonants, breaths, doubles, stacks, and harmonies while preserving natural groove.
+
+11. Skill Name: Vocal Tuning Specialist
+
+  Description: Corrects pitch, scale, drift, vibrato, transitions, and harmonies with style-appropriate restraint.
+
+12. Skill Name: Vocal Layering and Harmony Builder
+
+  Description: Creates doubles, octaves, harmonies, choirs, ad-libs, and stacks with controlled timing and stereo placement.
+
+13. Skill Name: Converted Voice Artifact Detector
+
+  Description: Finds identity drift, pitch glitches, consonant damage, robotic texture, sibilance, breath errors, and phase issues.
+
+14. Skill Name: Vocal Production Validation Gate
+
+  Description: Checks consent, lyrics, tuning, timing, pronunciation, artifacts, dynamics, noise, and deliverable stems.
+
+9. Offline Music Generation and Assisted Composition
+
+1. Skill Name: Offline Music Generation Runtime Manager
+
+  Description: Configures local symbolic, audio, diffusion, transformer, or hybrid music models with pinned weights and device settings.
+
+2. Skill Name: Music Generation Brief Compiler
+
+  Description: Converts story, mood, duration, tempo, meter, key, instrumentation, structure, and reference constraints into model inputs.
+
+3. Skill Name: Text-to-Music Operator
+
+  Description: Generates local musical candidates from structured prompts and records model, seed, duration, and settings.
+
+4. Skill Name: MIDI Generation Operator
+
+  Description: Generates symbolic melody, harmony, bass, drums, accompaniment, or arrangement for editable production.
+
+5. Skill Name: Continuation and Variation Generator
+
+  Description: Creates controlled continuations, alternate endings, reharmonizations, rhythmic variations, and orchestrations.
+
+6. Skill Name: Music Inpainting Operator
+
+  Description: Repairs or replaces a selected audio or symbolic region while preserving boundary, key, tempo, and continuity.
+
+7. Skill Name: Structure-Controlled Music Generator
+
+  Description: Creates intros, verses, choruses, bridges, loops, transitions, stingers, and endings with explicit section timing.
+
+8. Skill Name: Stem-Aware Music Generator
+
+  Description: Produces separable or conditioned parts for flexible arrangement and mixing where locally supported.
+
+9. Skill Name: Reference Conditioning Manager
+
+  Description: Uses authorized local reference features while avoiding direct copying and retaining provenance.
+
+10. Skill Name: Generated Music Similarity Reviewer
+
+  Description: Checks melodic, harmonic, rhythmic, timbral, and fingerprint similarity against approved local references.
+
+11. Skill Name: Generated Music Triage
+
+  Description: Classifies outputs as concept, sketch, editable source, temp cue, production element, or rejected material.
+
+12. Skill Name: Music Model License Auditor
+
+  Description: Records checkpoint source, training or use restrictions, commercial terms, attribution, and output obligations.
+
+13. Skill Name: Music Generation Provenance Recorder
+
+  Description: Stores prompt, seed, model, revision, sampler, tempo, key, references, edits, and output hashes.
+
+14. Skill Name: Generated Music Regression Suite
+
+  Description: Runs fixed briefs after model or runtime changes and compares structure, quality, duration, and reproducibility.
+
+10. Sound-Effect Generation and Sound Design
+
+1. Skill Name: Offline Sound-Effect Generation Runtime Manager
+
+  Description: Configures local audio generation models, duration, sample rate, conditioning, seed, and device settings.
+
+2. Skill Name: Text-to-Sound Operator
+
+  Description: Generates local effect candidates from structured descriptions of source, action, environment, perspective, intensity, and duration.
+
+3. Skill Name: Impact Sound Designer
+
+  Description: Builds impacts from transient, body, resonance, debris, sweetener, tail, and low-frequency layers.
+
+4. Skill Name: Whoosh and Transition Designer
+
+  Description: Creates direction, speed, size, material, pitch, movement, and tail for transitions and motion.
+
+5. Skill Name: Creature Sound Designer
+
+  Description: Combines authorized vocal, animal, synthetic, Foley, and processed layers into original creature voices.
+
+6. Skill Name: Interface Sound Designer
+
+  Description: Creates consistent alerts, confirmations, errors, navigation, progress, and notification sounds with usability tests.
+
+7. Skill Name: Vehicle and Machine Sound Designer
+
+  Description: Builds engine, motor, movement, mechanism, load, acceleration, interior, exterior, and perspective layers.
+
+8. Skill Name: Ambience Generator
+
+  Description: Creates or assembles environmental beds with events, variation, perspective, loop continuity, and noise-floor control.
+
+9. Skill Name: Procedural Sound Effect Builder
+
+  Description: Creates parameter-driven footsteps, wind, rain, motors, impacts, weapons, or interactions from deterministic rules.
+
+10. Skill Name: Sound Effect Layering Operator
+
+  Description: Aligns transients, frequency roles, dynamics, phase, stereo, pitch, and tails across layers.
+
+11. Skill Name: Sound Effect Loop Builder
+
+  Description: Creates seamless ambience, machinery, energy, environmental, and tonal loops with cycle validation.
+
+12. Skill Name: Generated SFX Artifact Detector
+
+  Description: Flags repetition, stutter, noise bursts, spectral holes, clipped transients, unstable stereo, and unnatural decay.
+
+13. Skill Name: Sound Effect Rights and Provenance Recorder
+
+  Description: Stores source, model, sample, license, modification, attribution, prompt, seed, and output lineage.
+
+14. Skill Name: Sound Design Validation Gate
+
+  Description: Checks editorial sync, intelligibility, masking, peak, phase, loop, perspective, rights, and deliverable format.
+
+11. Licensed Instrument, Sample, and MIDI Libraries
+
+1. Skill Name: Licensed Instrument Library Manager
+
+  Description: Indexes local virtual instruments by format, version, articulation, range, tuning, storage, authorization, and license.
+
+2. Skill Name: Licensed Sample Library Manager
+
+  Description: Indexes one-shots, loops, multisamples, construction kits, Foley, ambience, and vocals with BPM, key, tags, and rights.
+
+3. Skill Name: MIDI Sound Library Manager
+
+  Description: Organizes MIDI files, grooves, chord progressions, articulations, program maps, drum maps, and compatible instruments.
+
+4. Skill Name: Sample Ingest Operator
+
+  Description: Normalizes names, tags, formats, metadata, previews, and folders while preserving untouched originals.
+
+5. Skill Name: Sample Search Taxonomy Builder
+
+  Description: Creates controlled tags for source, material, action, instrument, genre, mood, key, tempo, perspective, and quality.
+
+6. Skill Name: Duplicate Sample Detector
+
+  Description: Finds exact and near-duplicate audio using hashes, fingerprints, waveform, and metadata.
+
+7. Skill Name: Instrument Articulation Map Builder
+
+  Description: Maps keyswitches, controllers, program changes, velocity layers, round robins, and notation symbols.
+
+8. Skill Name: Multisample Instrument Builder
+
+  Description: Creates key zones, velocity layers, round robins, loops, envelopes, filters, tuning, and release samples.
+
+9. Skill Name: Sample Loop and Root-Key Validator
+
+  Description: Checks loop points, clicks, tuning, root note, tempo, beat length, phase, and metadata.
+
+10. Skill Name: Library License Auditor
+
+  Description: Checks commercial use, synchronization, redistribution, raw-sample sharing, attribution, and derivative restrictions.
+
+11. Skill Name: Library Portability Packager
+
+  Description: Collects permitted samples, presets, instruments, maps, licenses, and relative paths for offline handoff.
+
+12. Skill Name: Library Integrity Scanner
+
+  Description: Checks missing files, corruption, invalid paths, authorization, duplicates, metadata, and preview completeness.
+
+13. Skill Name: Cold-Storage Library Archivist
+
+  Description: Creates verified backups and searchable manifests for large local instrument and sample collections.
+
+14. Skill Name: Library Deprecation Manager
+
+  Description: Marks broken, expired, incompatible, or rights-uncertain assets and identifies approved replacements.
+
+12. Plugin Hosting, VST, LV2, CLAP, and Signal Chains
+
+1. Skill Name: VST and LV2 Plugin Host Manager
+
+  Description: Configures supported VST2, VST3, LV2, CLAP, AU, or standalone hosts with scan paths and isolation.
+
+2. Skill Name: Plugin Inventory Registry
+
+  Description: Records plugin name, vendor, format, version, architecture, license, latency, oversampling, and compatibility.
+
+3. Skill Name: Plugin Scan and Quarantine Operator
+
+  Description: Scans plugins in isolation, captures crashes or hangs, and quarantines unsafe or incompatible binaries.
+
+4. Skill Name: Plugin Preset Library Manager
+
+  Description: Versions factory and custom presets with plugin version, sample rate, oversampling, and intended source.
+
+5. Skill Name: Signal Chain Template Builder
+
+  Description: Creates repeatable recording, dialogue, vocal, instrument, bus, mix, restoration, and mastering chains.
+
+6. Skill Name: Plugin Latency Compensation Validator
+
+  Description: Measures reported and actual latency, parallel alignment, lookahead, oversampling, and render compensation.
+
+7. Skill Name: Plugin State Recall Tester
+
+  Description: Saves, closes, reopens, migrates, and renders sessions to verify full state recall and preset portability.
+
+8. Skill Name: Plugin Automation Validator
+
+  Description: Checks parameter names, ranges, smoothing, write, read, render, and host compatibility.
+
+9. Skill Name: Plugin Sandboxing Manager
+
+  Description: Runs unstable or third-party plugins in separate processes where supported and preserves session stability.
+
+10. Skill Name: Plugin Replacement Planner
+
+  Description: Maps unavailable plugins to approved substitutes and documents parameter and sound differences.
+
+11. Skill Name: Plugin Chain Regression Tester
+
+  Description: Renders reference material after plugin, host, operating-system, or driver changes and compares output.
+
+12. Skill Name: Plugin License and Activation Auditor
+
+  Description: Tracks seats, offline authorization, machine IDs, dongles, expiry, redistribution, and recovery.
+
+13. Skill Name: Plugin Performance Profiler
+
+  Description: Measures CPU, memory, latency, denormal behavior, oversampling, load time, and real-time stability.
+
+14. Skill Name: Plugin Freeze and Commit Operator
+
+  Description: Renders risky or heavy processing to audio while preserving editable source and exact recall notes.
+
+13. Editing, Comping, Alignment, and Time Processing
+
+1. Skill Name: Multitrack Editing Operator
+
+  Description: Performs nondestructive clip, region, take, playlist, fade, crossfade, trim, slip, and ripple edits across tracks.
+
+2. Skill Name: Dialogue Comping Operator
+
+  Description: Builds a clean performance from takes while preserving wording, timing, breath, room tone, and alternate selections.
+
+3. Skill Name: Music Take Comping Operator
+
+  Description: Combines instrumental or vocal takes with phase-aware edits, performance continuity, and reference markers.
+
+4. Skill Name: Transient Editing Specialist
+
+  Description: Detects and adjusts attacks, timing, tab-to-transient, slicing, quantization, and crossfades without clicks.
+
+5. Skill Name: Time Stretching Operator
+
+  Description: Changes duration with source-appropriate algorithms for speech, monophonic, polyphonic, rhythmic, and full-mix audio.
+
+6. Skill Name: Pitch Shifting Operator
+
+  Description: Changes pitch with controlled formants, transients, stereo, phase, and artifact validation.
+
+7. Skill Name: Elastic Audio Timing Editor
+
+  Description: Aligns notes, drums, syllables, or events to groove while preserving intentional feel and microtiming.
+
+8. Skill Name: Audio-to-Grid Aligner
+
+  Description: Maps free-time performances to tempo and meter through beat detection, tempo maps, and manual anchor points.
+
+9. Skill Name: Phase-Aligned Multitrack Editor
+
+  Description: Edits multi-mic drums, ensembles, and location recordings while preserving interchannel phase relationships.
+
+10. Skill Name: Room Tone and Ambience Editor
+
+  Description: Builds continuous backgrounds, fills edit gaps, and avoids repeating patterns or abrupt noise changes.
+
+11. Skill Name: Breath and Mouth Noise Editor
+
+  Description: Reduces distracting breaths and mouth sounds without making speech or vocals unnatural.
+
+12. Skill Name: Crossfade Quality Validator
+
+  Description: Detects clicks, comb filtering, level dips, repeated phonemes, transient doubling, and ambience discontinuity.
+
+13. Skill Name: Edit Decision List Manager
+
+  Description: Imports, exports, and validates timecode, clip identity, source reference, handles, and edit decisions.
+
+14. Skill Name: Editorial Change Conformer
+
+  Description: Updates audio edits after picture or arrangement changes and reports added, removed, moved, and retimed regions.
+
+14. MIDI Editing, Sequencing, and Performance
+
+1. Skill Name: MIDI Editor
+
+  Description: Creates and edits notes, velocities, durations, channels, controllers, aftertouch, pitch bend, program changes, and markers.
+
+2. Skill Name: MIDI Quantization Specialist
+
+  Description: Applies grid, groove, swing, strength, window, and iterative quantization while preserving human feel.
+
+3. Skill Name: MIDI Humanization Operator
+
+  Description: Adds controlled timing, velocity, articulation, controller, length, and round-robin variation without randomness that harms intent.
+
+4. Skill Name: MIDI Cleanup Operator
+
+  Description: Removes duplicate notes, stuck notes, extreme values, tiny events, invalid channels, and redundant controllers.
+
+5. Skill Name: Tempo Map Builder
+
+  Description: Creates tempo, meter, bar, beat, rubato, accelerando, ritardando, and cue changes from performance or score.
+
+6. Skill Name: MIDI Groove Extractor
+
+  Description: Extracts timing and velocity patterns from authorized performances and applies them with adjustable strength.
+
+7. Skill Name: Drum MIDI Editor
+
+  Description: Maps kits, flams, rolls, ghost notes, articulations, choke groups, velocities, and limb-aware constraints.
+
+8. Skill Name: Orchestral MIDI Programmer
+
+  Description: Programs articulations, dynamics, expression, legato, vibrato, divisi, timing, and seating for sampled ensembles.
+
+9. Skill Name: MPE and Expressive MIDI Manager
+
+  Description: Edits per-note pitch, pressure, timbre, slide, and channel allocation for MPE-compatible instruments.
+
+10. Skill Name: MIDI Articulation Manager
+
+  Description: Coordinates keyswitches, expression maps, UACC, program changes, channel changes, and notation links.
+
+11. Skill Name: MIDI Transform Builder
+
+  Description: Creates deterministic transpose, invert, retrograde, scale, chord, arpeggio, voicing, and pattern transformations.
+
+12. Skill Name: MIDI Loop and Clip Manager
+
+  Description: Builds named clips with length, pickup, tail, variation, key, tempo, markers, and compatible instrument data.
+
+13. Skill Name: MIDI Export Validator
+
+  Description: Checks type 0 or 1, tempo, meter, markers, channels, controllers, note-offs, timing, and recipient compatibility.
+
+14. Skill Name: MIDI Performance Regression Tester
+
+  Description: Renders fixed MIDI through approved instruments and compares timing, articulation, dynamics, and output.
+
+15. Composition, Harmony, Arrangement, and Orchestration
+
+1. Skill Name: Composition Brief Interpreter
+
+  Description: Turns story, function, mood, duration, audience, style, instrumentation, and rights constraints into a musical plan.
+
+2. Skill Name: Melody Development Assistant
+
+  Description: Creates and revises motifs, phrases, contour, range, rhythm, repetition, contrast, and cadential behavior.
+
+3. Skill Name: Harmony and Voice-Leading Assistant
+
+  Description: Builds chord progressions, inversions, tensions, modulations, counterpoint, and smooth independent voices.
+
+4. Skill Name: Rhythm and Groove Designer
+
+  Description: Creates meter, pulse, syncopation, swing, polymeter, subdivision, accents, and humanized groove.
+
+5. Skill Name: Song Structure Planner
+
+  Description: Designs intros, verses, pre-choruses, choruses, bridges, solos, breakdowns, transitions, and endings.
+
+6. Skill Name: Cue Structure Planner
+
+  Description: Designs hit points, builds, reveals, transitions, button endings, loops, and editorial flexibility for picture.
+
+7. Skill Name: Arrangement Density Manager
+
+  Description: Balances register, frequency, rhythm, articulation, dynamics, and silence across sections.
+
+8. Skill Name: Orchestration Assistant
+
+  Description: Assigns musical roles across instruments using range, transposition, blend, balance, technique, and playability.
+
+9. Skill Name: Counterpoint and Inner-Voice Reviewer
+
+  Description: Checks independence, parallels, crossings, spacing, dissonance treatment, and phrase direction.
+
+10. Skill Name: Motif and Theme Tracker
+
+  Description: Maintains character, location, relationship, and narrative themes across cues and variations.
+
+11. Skill Name: Transition and Modulation Builder
+
+  Description: Creates musical bridges among keys, tempos, meters, moods, sections, and cue boundaries.
+
+12. Skill Name: Arrangement Variant Generator
+
+  Description: Produces short, long, sparse, dense, acoustic, electronic, underscore, trailer, loop, and stem-friendly versions.
+
+13. Skill Name: Playability Validator
+
+  Description: Checks range, breathing, bowing, fingering, voicing, tempo, endurance, and notation practicality.
+
+14. Skill Name: Composition Revision Tracker
+
+  Description: Records structural, melodic, harmonic, rhythmic, orchestration, duration, and approval changes by version.
+
+16. Score Notation, Parts, and Music Engraving
+
+1. Skill Name: Score Notation Engine Manager
+
+  Description: Configures MuseScore, LilyPond, Dorico, Sibelius, Finale, or equivalent offline notation workflows.
+
+2. Skill Name: MIDI-to-Notation Converter
+
+  Description: Quantizes and voices MIDI into readable notation with meter, rests, tuplets, ties, articulations, and dynamics.
+
+3. Skill Name: Notation Cleanup Operator
+
+  Description: Repairs rhythms, beaming, rests, enharmonics, collisions, spacing, stems, slurs, tuplets, and page layout.
+
+4. Skill Name: Instrument Transposition Manager
+
+  Description: Applies correct written and sounding pitch, key signatures, octave transpositions, and instrument changes.
+
+5. Skill Name: Orchestral Score Engraver
+
+  Description: Formats systems, instrument order, brackets, labels, cues, divisi, percussion, page turns, and rehearsal marks.
+
+6. Skill Name: Part Extraction Operator
+
+  Description: Creates performer parts with multimeasure rests, cues, page turns, rehearsal marks, and practical spacing.
+
+7. Skill Name: Percussion Notation Specialist
+
+  Description: Maps staff positions, noteheads, articulations, rolls, instruments, multiple players, and setup notes.
+
+8. Skill Name: Guitar and Tablature Engraver
+
+  Description: Creates staff, tablature, chord symbols, bends, slides, harmonics, fingering, tunings, and capo information.
+
+9. Skill Name: Lead Sheet Builder
+
+  Description: Creates melody, lyrics, chord symbols, form, repeats, endings, rehearsal marks, and concise notation.
+
+10. Skill Name: Lyric Underlay Manager
+
+  Description: Aligns syllables, melismas, hyphens, extenders, elisions, verses, and translations to notes.
+
+11. Skill Name: Notation Playback Mapper
+
+  Description: Links notation articulations and dynamics to local instrument libraries and validates rendered interpretation.
+
+12. Skill Name: MusicXML Interchange Validator
+
+  Description: Exports and imports MusicXML and compares notes, rhythms, voices, articulations, text, layout, and metadata.
+
+13. Skill Name: PDF Score Export Validator
+
+  Description: Checks page size, margins, fonts, symbols, pagination, printability, and complete parts.
+
+14. Skill Name: Score and Parts Approval Gate
+
+  Description: Checks notation accuracy, playability, consistency, page turns, metadata, version, rights, and delivery completeness.
+
+17. Equalization and Spectral Processing
+
+1. Skill Name: Professional Equalizer Operator
+
+  Description: Uses parametric, dynamic, linear-phase, minimum-phase, shelving, tilt, notch, and filter modes for corrective and creative work.
+
+2. Skill Name: Resonance Detection Specialist
+
+  Description: Finds stable and moving resonances using listening, spectrum, dynamic EQ, automation, and narrow-band tests.
+
+3. Skill Name: Low-Frequency Cleanup Operator
+
+  Description: Controls rumble, DC, plosives, sub buildup, resonance, kick-bass masking, and headroom loss.
+
+4. Skill Name: Dialogue EQ Specialist
+
+  Description: Improves intelligibility, naturalness, consistency, proximity, room coloration, and microphone mismatch.
+
+5. Skill Name: Vocal EQ Specialist
+
+  Description: Balances body, mud, nasal tone, presence, air, sibilance, proximity, and mix placement.
+
+6. Skill Name: Instrument EQ Specialist
+
+  Description: Shapes tone according to source role, arrangement, microphone, performance, and genre.
+
+7. Skill Name: Dynamic EQ Operator
+
+  Description: Controls frequency-dependent events only when thresholds, ranges, and timing are exceeded.
+
+8. Skill Name: Mid-Side EQ Operator
+
+  Description: Adjusts center and side spectra while preserving mono compatibility and stable imaging.
+
+9. Skill Name: Linear-Phase EQ Planner
+
+  Description: Uses linear-phase processing only where pre-ringing, latency, and transient changes are acceptable.
+
+10. Skill Name: Match EQ Operator
+
+  Description: Derives controlled spectral correction from authorized references and prevents overfitting or level bias.
+
+11. Skill Name: Spectral Balance Analyzer
+
+  Description: Compares long-term and section-level balance across references, stems, channels, and delivery versions.
+
+12. Skill Name: EQ Gain-Match Validator
+
+  Description: Level-matches before and after processing so decisions are not dominated by loudness.
+
+13. Skill Name: EQ Phase and Latency Validator
+
+  Description: Checks phase shift, pre-ringing, latency, parallel alignment, mono sum, and transient behavior.
+
+18. Dynamics, Compression, De-Essing, Gating, and Limiting
+
+1. Skill Name: Compressor Operator
+
+  Description: Configures threshold, ratio, knee, attack, release, hold, detector, sidechain, topology, and makeup gain by source goal.
+
+2. Skill Name: Dialogue Compression Specialist
+
+  Description: Controls speech dynamics while preserving consonants, breaths, natural emphasis, and room consistency.
+
+3. Skill Name: Vocal Compression Specialist
+
+  Description: Builds serial, parallel, opto-like, FET-like, VCA-like, and level-riding chains according to performance.
+
+4. Skill Name: Bus Compression Operator
+
+  Description: Applies subtle cohesion while preserving transients, low-frequency stability, stereo image, and headroom.
+
+5. Skill Name: Parallel Compression Builder
+
+  Description: Creates phase-aligned crushed and dry paths with controlled blend, tone, and latency.
+
+6. Skill Name: Multiband Compression Operator
+
+  Description: Controls range-specific dynamics only where crossover, phase, and pumping risks are justified.
+
+7. Skill Name: De-Esser Operator
+
+  Description: Controls sibilance and harsh consonants using split-band, wide-band, dynamic EQ, or manual methods.
+
+8. Skill Name: Gate and Expander Operator
+
+  Description: Reduces spill or noise while preserving attacks, tails, room, sustain, and musical timing.
+
+9. Skill Name: Transient Shaper Operator
+
+  Description: Adjusts attack and sustain without excessive clipping, pumping, or phase damage.
+
+10. Skill Name: True-Peak Limiter Operator
+
+  Description: Controls intersample peaks using adequate oversampling, release, lookahead, and target ceiling.
+
+11. Skill Name: Limiter Distortion Detector
+
+  Description: Finds crunch, pumping, stereo collapse, transient loss, low-frequency modulation, and codec overs.
+
+12. Skill Name: Dynamics Gain-Staging Validator
+
+  Description: Checks input level, gain reduction, output level, headroom, noise, and downstream overload.
+
+13. Skill Name: Sidechain Routing Manager
+
+  Description: Builds filtered, external, keyed, ducking, de-essing, and frequency-conscious detector paths.
+
+14. Skill Name: Dynamics Regression Tester
+
+  Description: Renders fixed source material after plugin or setting changes and compares envelope, peaks, loudness, and artifacts.
+
+19. Reverb, Delay, Modulation, and Spatial Effects
+
+1. Skill Name: Reverb Operator
+
+  Description: Selects convolution, algorithmic, plate, hall, room, chamber, spring, or nonlinear reverb by source and space goal.
+
+2. Skill Name: Convolution Reverb Library Manager
+
+  Description: Indexes local impulse responses by room, position, microphone, sample rate, channels, decay, license, and alignment.
+
+3. Skill Name: Dialogue Reverb Matching Specialist
+
+  Description: Matches production, ADR, narration, and generated speech to the intended acoustic perspective.
+
+4. Skill Name: Music Reverb Designer
+
+  Description: Builds depth, blend, size, pre-delay, decay, damping, modulation, and send relationships across instruments.
+
+5. Skill Name: Surround Reverb Operator
+
+  Description: Places early and late energy across multichannel layouts while preserving localization and downmix.
+
+6. Skill Name: Delay Designer
+
+  Description: Creates tempo, free-time, slap, multitap, ping-pong, filtered, modulated, and feedback delays with safe gain.
+
+7. Skill Name: Chorus and Ensemble Operator
+
+  Description: Adds controlled width and motion while monitoring phase, pitch, mono compatibility, and low-frequency stability.
+
+8. Skill Name: Flanger and Phaser Operator
+
+  Description: Creates sweeping comb or phase effects with frequency range, feedback, synchronization, and mix control.
+
+9. Skill Name: Creative Modulation Builder
+
+  Description: Combines tremolo, vibrato, ring modulation, frequency shifting, granular, and spectral motion for designed sound.
+
+10. Skill Name: Reverb and Delay Automation Manager
+
+  Description: Changes perspective and emphasis across sections without abrupt tails, clicks, or inconsistent space.
+
+11. Skill Name: Effect Tail and Transition Editor
+
+  Description: Preserves, extends, prints, cuts, or crossfades effect tails through edits and scene changes.
+
+12. Skill Name: Spatial Effect Phase Validator
+
+  Description: Checks decorrelation, comb filtering, low-frequency mono, surround localization, and fold-down behavior.
+
+13. Skill Name: Impulse Response Capture Operator
+
+  Description: Records authorized spaces or hardware with calibrated sweeps, deconvolution, trimming, metadata, and validation.
+
+20. Mixing, Routing, Automation, and Stem Production
+
+1. Skill Name: Mix Architecture Planner
+
+  Description: Defines routing, buses, groups, VCAs, effects, sidechains, print paths, monitoring, references, and deliverables.
+
+2. Skill Name: Static Mix Builder
+
+  Description: Establishes balance, pan, polarity, phase, headroom, and arrangement clarity before complex processing.
+
+3. Skill Name: Dialogue Mix Operator
+
+  Description: Balances speech, ADR, narration, generated voice, room tone, and production effects with consistent intelligibility.
+
+4. Skill Name: Music Mix Operator
+
+  Description: Balances instruments, vocals, effects, dynamics, depth, width, automation, and translation for the music goal.
+
+5. Skill Name: Effects and Foley Mix Operator
+
+  Description: Balances hard effects, Foley, ambience, design, low-frequency content, perspective, and narrative priority.
+
+6. Skill Name: Automation Writing Specialist
+
+  Description: Creates level, pan, send, plugin, mute, clip, object, and spatial automation with smooth transitions.
+
+7. Skill Name: VCA and Group Control Manager
+
+  Description: Builds safe group control without changing internal balances, post-fader effects, or automation relationships.
+
+8. Skill Name: Reference Mix Comparator
+
+  Description: Level-matches approved references and compares dynamics, tone, image, depth, vocal level, and low end.
+
+9. Skill Name: Mono Compatibility Validator
+
+  Description: Checks cancellations, disappearing elements, low-frequency instability, and center buildup under mono sum.
+
+10. Skill Name: Small-Speaker Translation Tester
+
+  Description: Evaluates intelligibility, bass audibility, vocal placement, masking, and distortion on limited playback.
+
+11. Skill Name: Stem Exporter
+
+  Description: Prints aligned dialogue, music, effects, Foley, ambience, vocals, instruments, alternates, and full mixes with shared start and duration.
+
+12. Skill Name: Mix Recall Validator
+
+  Description: Closes and reopens sessions, restores plugins and media, and compares checksum or null-test references where practical.
+
+13. Skill Name: Mix Version Manager
+
+  Description: Creates clean, instrumental, a cappella, TV, radio, performance, alternate, and edit versions without version confusion.
+
+14. Skill Name: Mix Approval Gate
+
+  Description: Checks notes, routing, effects, automation, headroom, phase, translation, stems, rights, and exact approved version.
+
+21. Immersive, Surround, Binaural, and Spatial Audio
+
+1. Skill Name: Surround Session Architect
+
+  Description: Configures buses, panners, beds, objects, channel order, monitoring, downmix, and print paths for multichannel delivery.
+
+2. Skill Name: 5.1 Mix Operator
+
+  Description: Balances L, R, C, LFE, Ls, and Rs with correct routing, dialogue placement, bass management, and downmix awareness.
+
+3. Skill Name: 7.1 Mix Operator
+
+  Description: Extends surround placement and movement while preserving front focus, coverage, and fold-down behavior.
+
+4. Skill Name: Ambisonic Production Operator
+
+  Description: Records, rotates, decodes, converts, and validates first- or higher-order ambisonics using documented conventions.
+
+5. Skill Name: Binaural Renderer Manager
+
+  Description: Configures HRTF, head tracking where applicable, room model, personalization, and headphone validation.
+
+6. Skill Name: Object-Based Audio Planner
+
+  Description: Allocates beds and objects, metadata, trajectories, priorities, and fallback behavior for supported formats.
+
+7. Skill Name: Spatial Panning Automation Operator
+
+  Description: Creates smooth, physically coherent motion, distance, elevation, spread, and divergence.
+
+8. Skill Name: LFE Management Specialist
+
+  Description: Uses the low-frequency effects channel deliberately and avoids duplicating routine bass-management behavior.
+
+9. Skill Name: Downmix Compatibility Validator
+
+  Description: Tests stereo, mono, binaural, and platform fold-downs for level, phase, dialogue, bass, and surround balance.
+
+10. Skill Name: Spatial Metadata Validator
+
+  Description: Checks channel labels, object IDs, positions, gains, language, frame rate, start, duration, and renderer compatibility.
+
+11. Skill Name: Immersive Loudness Validator
+
+  Description: Measures integrated loudness, dialogue, true peak, and channel or object behavior under required render paths.
+
+12. Skill Name: Speaker Calibration Planner
+
+  Description: Sets positions, delays, trims, bass management, target curve, reference level, and periodic verification.
+
+13. Skill Name: Headphone Spatial Review Workflow
+
+  Description: Uses multiple headphone types and renderers to evaluate localization, externalization, bass, and fatigue.
+
+14. Skill Name: Immersive Delivery Package Builder
+
+  Description: Assembles masters, ADM or supported metadata, stems, binaural renders, downmixes, reports, and documentation.
+
+22. Mastering, Loudness, Metering, and Delivery Control
+
+1. Skill Name: Mastering Session Architect
+
+  Description: Creates high-resolution source lanes, reference monitoring, processing, sequencing, metadata, meters, and output paths.
+
+2. Skill Name: Mastering Equalization Operator
+
+  Description: Applies broad and surgical tonal correction with level-matched decisions and phase-aware processing.
+
+3. Skill Name: Mastering Compression Operator
+
+  Description: Controls macro and micro dynamics with transparent or character behavior appropriate to the program.
+
+4. Skill Name: Mastering Saturation and Clipping Operator
+
+  Description: Adds controlled harmonic or peak shaping while monitoring aliasing, intersample peaks, and distortion.
+
+5. Skill Name: Mastering Limiter Operator
+
+  Description: Reaches target level with documented ceiling, oversampling, lookahead, release, and distortion checks.
+
+6. Skill Name: Loudness Meter Manager
+
+  Description: Configures ITU-R BS.1770 and relevant EBU R128, ATSC A/85, streaming, broadcast, or platform measurement modes.
+
+7. Skill Name: LUFS Validation Operator
+
+  Description: Measures integrated, short-term, momentary loudness, loudness range, gating, and target tolerance.
+
+8. Skill Name: True-Peak Meter Operator
+
+  Description: Measures intersample peaks using required oversampling and validates encoded derivatives.
+
+9. Skill Name: Phase and Stereo Analyzer
+
+  Description: Uses correlation, vectorscope, goniometer, balance, width, mono sum, and frequency-dependent phase analysis.
+
+10. Skill Name: Spectrum and Tonal Balance Analyzer
+
+  Description: Measures long-term and section-level frequency distribution against references and translation goals.
+
+11. Skill Name: Album and Program Sequencing Operator
+
+  Description: Sets order, spacing, fades, crossfades, levels, metadata, and continuity across tracks or episodes.
+
+12. Skill Name: Dither and Noise-Shaping Operator
+
+  Description: Applies one final required bit-depth reduction with suitable dither and verifies no accidental repeated dithering.
+
+13. Skill Name: Codec Preview and Damage Analyzer
+
+  Description: Auditions and measures MP3, AAC, OGG, and Opus derivatives for pre-echo, smearing, stereo, and true-peak changes.
+
+14. Skill Name: Mastering Quality-Control Gate
+
+  Description: Checks clicks, dropouts, clipping, loudness, true peak, phase, channel order, silence, metadata, and exact versions.
+
+15. Skill Name: Master Delivery Set Builder
+
+  Description: Creates high-resolution masters, distribution formats, instrumentals, clean versions, stems, metadata, cue sheets, and checksums.
+
+23. Codec, Format, Conversion, and Metadata
+
+1. Skill Name: WAV Export Operator
+
+  Description: Creates PCM or float WAV files with correct sample rate, bit depth, channels, BWF metadata, and RF64 where required.
+
+2. Skill Name: FLAC Export Operator
+
+  Description: Creates lossless FLAC files with verified sample rate, bit depth, channels, tags, compression, and decode parity.
+
+3. Skill Name: MP3 Encoding Operator
+
+  Description: Selects CBR, ABR, or VBR mode, bitrate, joint stereo, tags, gapless data, and true-peak-safe source level.
+
+4. Skill Name: AAC Encoding Operator
+
+  Description: Creates LC-AAC, HE-AAC, or supported variants with target-compatible profile, bitrate, channels, metadata, and validation.
+
+5. Skill Name: OGG Vorbis Encoding Operator
+
+  Description: Creates OGG Vorbis deliverables with quality or bitrate settings, tags, channel mapping, and playback checks.
+
+6. Skill Name: Opus Encoding Operator
+
+  Description: Creates Opus files with bitrate, mode, complexity, frame size, channels, tags, and target latency or music quality.
+
+7. Skill Name: Audio Format Router
+
+  Description: Selects PCM, FLAC, MP3, AAC, OGG, Opus, ALAC, AIFF, CAF, or other approved formats by recipient need.
+
+8. Skill Name: Sample Rate Conversion Operator
+
+  Description: Uses high-quality bandlimited conversion, handles headroom, and measures aliasing, passband, and level changes.
+
+9. Skill Name: Bit Depth Conversion Operator
+
+  Description: Changes bit depth with correct float handling, clipping strategy, dither, and noise shaping.
+
+10. Skill Name: Channel Mapping Converter
+
+  Description: Converts mono, stereo, dual mono, surround, ambisonic, and alternate layouts with explicit matrices.
+
+11. Skill Name: Broadcast Wave Metadata Manager
+
+  Description: Writes and validates description, originator, time reference, coding history, UMID, and project identifiers.
+
+12. Skill Name: Music Metadata Manager
+
+  Description: Maintains title, artist, album, composer, publisher, ISRC, UPC, track, genre, artwork, and version labels.
+
+13. Skill Name: Codec Availability Auditor
+
+  Description: Verifies that offline encoders and decoders are installed, licensed, reproducible, and compatible with target players.
+
+14. Skill Name: Round-Trip Codec Validator
+
+  Description: Encodes, decodes, compares duration, channel order, metadata, loudness, true peak, gapless behavior, and audible artifacts.
+
+24. Audio Quality Control and Automated Validation
+
+1. Skill Name: Audio File Integrity Checker
+
+  Description: Opens every file with independent local decoders and flags unreadable, truncated, zero-byte, unsupported, or inconsistent files.
+
+2. Skill Name: Silence and Dropout Detector
+
+  Description: Finds unexpected silence, near-silence, missing channels, interruptions, and digital dropouts.
+
+3. Skill Name: Clipping and Over Detector
+
+  Description: Finds sample peaks, flat tops, repeated maxima, true-peak overs, and codec-induced overs.
+
+4. Skill Name: Click and Pop Detector
+
+  Description: Flags abrupt discontinuities, isolated impulses, bad edits, clock glitches, and loop-boundary clicks.
+
+5. Skill Name: Hum and Noise Detector
+
+  Description: Measures mains-related tones, broadband noise, hiss, buzz, and changing noise floor against thresholds.
+
+6. Skill Name: Phase and Polarity Validator
+
+  Description: Checks inverted channels, correlation, interchannel delay, comb filtering, and mono cancellation.
+
+7. Skill Name: Channel Layout Validator
+
+  Description: Checks count, order, labels, active content, dialogue location, LFE use, and expected silence.
+
+8. Skill Name: Sample Rate and Bit Depth Validator
+
+  Description: Compares decoded properties, headers, session standards, and delivery specifications.
+
+9. Skill Name: Duration and Sync Validator
+
+  Description: Checks start, end, timecode, frame rate, sample count, two-pop, tail pop, and picture sync.
+
+10. Skill Name: Loudness Compliance Validator
+
+  Description: Checks integrated, short-term, momentary loudness, range, gating, dialogue level, and target tolerance.
+
+11. Skill Name: True-Peak Compliance Validator
+
+  Description: Checks source and encoded derivatives against the required ceiling.
+
+12. Skill Name: Spectral Artifact Detector
+
+  Description: Flags aliasing, band limitation, excessive DC, missing frequency bands, codec holes, and unusual resonances.
+
+13. Skill Name: Duplicate Audio Detector
+
+  Description: Finds exact and near-duplicate files while distinguishing approved versions and intentional reuse.
+
+14. Skill Name: File Naming and Package Validator
+
+  Description: Checks filenames, folder structure, versions, language, stems, metadata, manifests, checksums, and forbidden extras.
+
+15. Skill Name: Full-Length Playback Reviewer
+
+  Description: Performs real-time start-to-finish playback and records clicks, sync, channel, level, subtitle, and corruption issues.
+
+16. Skill Name: Automated QC Report Builder
+
+  Description: Produces a concise report with pass, warning, fail, measurements, timestamps, affected files, and required action.
+
+25. Restoration, Archival Audio, and Forensics
+
+1. Skill Name: Archival Audio Ingest Operator
+
+  Description: Captures tapes, discs, optical media, files, and legacy formats with calibrated playback, documentation, and untouched preservation masters.
+
+2. Skill Name: Tape Transfer Specialist
+
+  Description: Sets speed, equalization, azimuth, head condition, level, channels, wow, flutter, and reference tones.
+
+3. Skill Name: Vinyl and Disc Transfer Specialist
+
+  Description: Sets cartridge, alignment, tracking, equalization, cleaning, side boundaries, and click management.
+
+4. Skill Name: Wow and Flutter Correction Operator
+
+  Description: Estimates and corrects slow and fast pitch variation while preserving intentional vibrato and performance.
+
+5. Skill Name: Azimuth and Phase Correction Operator
+
+  Description: Repairs high-frequency loss and channel misalignment from tape or multi-head playback.
+
+6. Skill Name: Legacy Codec and Container Rescue
+
+  Description: Decodes endangered or proprietary formats in an isolated environment and preserves originals and conversion notes.
+
+7. Skill Name: Forensic Audio Enhancement Operator
+
+  Description: Improves audibility with conservative, documented processing while preserving original evidence and avoiding unsupported conclusions.
+
+8. Skill Name: Audio Authenticity Screening Assistant
+
+  Description: Checks metadata, edits, discontinuities, compression, spectral anomalies, and provenance without claiming certainty beyond evidence.
+
+9. Skill Name: Preservation Master Builder
+
+  Description: Creates high-resolution, minimally processed masters with hashes, metadata, source notes, and no lossy encoding.
+
+10. Skill Name: Access Copy Builder
+
+  Description: Creates normalized listening copies, derivatives, and previews without altering preservation masters.
+
+11. Skill Name: Archival Metadata Registrar
+
+  Description: Records source, carrier, equipment, settings, operator, date, condition, processing, rights, and file relationships.
+
+12. Skill Name: Archive Integrity Verifier
+
+  Description: Checks hashes, readability, file counts, metadata, storage media, and random restoration samples.
+
+13. Skill Name: Long-Term Format Migration Planner
+
+  Description: Creates durable PCM and metadata companions while retaining original files and documenting all transformations.
+
+14. Skill Name: Restoration Provenance Recorder
+
+  Description: Links every repair, setting, plugin, model, source selection, and exported version to the preservation master.
+
+26. Rights, Licensing, Consent, and Provenance
+
+1. Skill Name: Music Rights Manifest Builder
+
+  Description: Records composition, master, performer, publisher, label, synchronization, mechanical, neighboring, territory, term, and platform rights.
+
+2. Skill Name: Voice Consent System
+
+  Description: Records authority, approved voice uses, generated or converted voice terms, retention, revocation, territory, and disclosure.
+
+3. Skill Name: Sample License Auditor
+
+  Description: Checks synchronization, commercial use, modification, redistribution, raw-sample sharing, attribution, and clearance requirements.
+
+4. Skill Name: Instrument Library License Auditor
+
+  Description: Tracks seats, offline activation, machine authorization, sample redistribution, project transfer, and archival rights.
+
+5. Skill Name: Plugin and Software License Auditor
+
+  Description: Tracks seats, dongles, offline activation, expiry, redistribution, open-source obligations, and recovery.
+
+6. Skill Name: Performance Release Manager
+
+  Description: Records performer consent, session, material, compensation, permitted edits, reuse, synthetic voice, and model-training restrictions.
+
+7. Skill Name: AI Audio Model License Auditor
+
+  Description: Records model source, version, hash, commercial rights, output restrictions, training or reference conditions, and notices.
+
+8. Skill Name: Generated Audio Provenance Recorder
+
+  Description: Stores prompt, seed, model, voice, references, source assets, edits, approvals, and output hashes.
+
+9. Skill Name: Cue Sheet Generator
+
+  Description: Creates cue title, composer, publisher, usage, duration, scene, territory, and reporting data.
+
+10. Skill Name: Attribution and Notices Generator
+
+  Description: Builds human-readable credits, sample notices, software licenses, model notices, and required source offers.
+
+11. Skill Name: Rights Expiration Monitor
+
+  Description: Flags assets whose term, territory, media, campaign, platform, or project permission is ending.
+
+12. Skill Name: Third-Party Audio Quarantine
+
+  Description: Separates sounds, music, voices, presets, samples, and models with uncertain rights or provenance.
+
+13. Skill Name: Release Rights Gate
+
+  Description: Blocks publication when any composition, master, voice, performance, sample, model, plugin, or library right is unresolved.
+
+14. Skill Name: Rights Evidence Packager
+
+  Description: Creates a permission-filtered bundle of licenses, releases, cue sheets, manifests, invoices, and approvals.
+
+27. Localization, Dubbing, Captions, and Accessibility
+
+1. Skill Name: Localization Source Package Builder
+
+  Description: Exports locked dialogue, transcripts, cue IDs, timecodes, references, character notes, pronunciation, and delivery requirements.
+
+2. Skill Name: Dub Script Adaptation Assistant
+
+  Description: Adapts translated dialogue for meaning, duration, mouth movement, performance, reading level, and cultural clarity.
+
+3. Skill Name: ADR Cue Sheet Builder
+
+  Description: Creates cue IDs, in and out points, beeps, text, character, context, reference, take, and approval fields.
+
+4. Skill Name: Dub Recording Session Manager
+
+  Description: Organizes actors, takes, cues, references, pronunciation, picture, timecode, selected lines, and rights.
+
+5. Skill Name: Dub Dialogue Editor
+
+  Description: Comps, cleans, aligns, repairs, and conforms dubbed dialogue while preserving performance and sync.
+
+6. Skill Name: Alternate Language Mix Manager
+
+  Description: Maintains common music and effects, localized dialogue, narration, titles, subtitles, and exact channel layouts.
+
+7. Skill Name: Caption Audio Cue Author
+
+  Description: Creates speaker labels, meaningful sound effects, music, tone, and off-screen cues for SDH captions.
+
+8. Skill Name: Descriptive Transcript Builder
+
+  Description: Creates a readable transcript including relevant sound, speaker, music, and timing information.
+
+9. Skill Name: Audio Description Production Planner
+
+  Description: Identifies dialogue gaps, writes visual descriptions, records narration, and mixes without obscuring essential program audio.
+
+10. Skill Name: Pronunciation and Terminology Glossary Manager
+
+  Description: Maintains approved names, phonetics, stress, abbreviations, fictional terms, and language-specific forms.
+
+11. Skill Name: Localized Audio QC Operator
+
+  Description: Checks language, script, pronunciation, sync, completeness, clipping, loudness, channel labels, and wrong-version contamination.
+
+12. Skill Name: Accessibility Track Metadata Manager
+
+  Description: Labels captions, SDH, audio description, descriptive transcripts, clean audio, and language variants correctly.
+
+13. Skill Name: Accessibility Playback Validator
+
+  Description: Tests alternate tracks and captions on target local players for defaults, labels, sync, completeness, and level.
+
+14. Skill Name: Localization Delivery Packager
+
+  Description: Assembles language-specific masters, stems, captions, transcripts, metadata, rights, and validation reports.
+
+28. Podcast, Broadcast, Film, Game, and Interactive Audio
+
+1. Skill Name: Podcast Production Template Builder
+
+  Description: Creates tracks, routing, remote recordings, ads, chapters, music, loudness, metadata, and publishing outputs.
+
+2. Skill Name: Podcast Dialogue Editor
+
+  Description: Cleans, compes, tightens, preserves intent, manages breaths, and builds natural pacing across speakers.
+
+3. Skill Name: Broadcast Audio Compliance Manager
+
+  Description: Applies required loudness, true peak, channel layout, phase, silence, metadata, and cadence standards.
+
+4. Skill Name: Film Dialogue-Music-Effects Stem Builder
+
+  Description: Creates aligned D, M, E, Foley, ambience, narration, and full-mix stems with common start and duration.
+
+5. Skill Name: Film Printmaster Operator
+
+  Description: Builds the approved theatrical, broadcast, streaming, airline, or home-video mix under the required specification.
+
+6. Skill Name: Game Audio Asset Builder
+
+  Description: Creates one-shots, loops, variations, layers, tails, attenuation, tags, and runtime-ready formats.
+
+7. Skill Name: Interactive Music System Designer
+
+  Description: Builds vertical layers, horizontal segments, transitions, stingers, states, parameters, and loop logic.
+
+8. Skill Name: Game Audio Loudness and Peak Normalizer
+
+  Description: Applies asset-class targets while preserving category balance and runtime headroom.
+
+9. Skill Name: Audio Middleware Package Builder
+
+  Description: Prepares assets, events, banks, buses, metadata, and import conventions for Wwise, FMOD, or equivalent offline middleware.
+
+10. Skill Name: Runtime Audio Memory Budgeter
+
+  Description: Estimates decoded, streaming, compressed, voice, reverb, and bank memory by platform.
+
+11. Skill Name: Adaptive Dialogue System Builder
+
+  Description: Organizes lines, variations, conditions, priorities, interruptions, subtitles, and localization IDs.
+
+12. Skill Name: Interactive Audio Regression Tester
+
+  Description: Replays states, transitions, events, priorities, loops, randomization, and platform imports.
+
+13. Skill Name: Trailer and Promo Mix Builder
+
+  Description: Creates high-impact, short-form mixes with intelligible dialogue, controlled peaks, edit points, and deliverable versions.
+
+14. Skill Name: Live Playback and Show-Control Planner
+
+  Description: Builds redundant cues, stems, timecode, MIDI, OSC where locally allowed, backups, and operator recovery.
+
+29. Performance, Latency, and Resource Optimization
+
+1. Skill Name: Audio Pipeline Benchmark Designer
+
+  Description: Creates repeatable recording, playback, plugin, model, MIDI, mix, render, codec, and storage tests.
+
+2. Skill Name: Round-Trip Latency Measurer
+
+  Description: Measures actual input-to-output latency across interface, driver, buffer, plugin, routing, and monitoring paths.
+
+3. Skill Name: Buffer Size Optimizer
+
+  Description: Balances latency, CPU headroom, dropout risk, plugin load, model processing, and recording stability.
+
+4. Skill Name: Plugin CPU Profiler
+
+  Description: Measures per-plugin CPU, thread behavior, oversampling, denormals, lookahead, and automation cost.
+
+5. Skill Name: Neural Model Performance Profiler
+
+  Description: Measures real-time factor, latency, GPU, CPU, VRAM, RAM, batch size, and quality by model and precision.
+
+6. Skill Name: Disk Streaming Optimizer
+
+  Description: Tunes sample preload, streaming buffers, library location, voice count, cache, and storage throughput.
+
+7. Skill Name: Session Freeze Strategy Planner
+
+  Description: Selects freeze, bounce, commit, stem, proxy, or disable methods without losing editability or recall.
+
+8. Skill Name: Voice Count and Polyphony Manager
+
+  Description: Controls instrument voices, releases, round robins, sustain, stealing, and CPU or memory behavior.
+
+9. Skill Name: Render Time Estimator
+
+  Description: Predicts offline bounce duration from plugins, oversampling, models, sample rate, stems, and real-time restrictions.
+
+10. Skill Name: Resource Threshold Monitor
+
+  Description: Warns before CPU, GPU, VRAM, RAM, disk, file handles, plugin slots, or streaming reaches unsafe levels.
+
+11. Skill Name: Low-Latency Neural Processing Planner
+
+  Description: Selects chunk, overlap, model, precision, device, and fallback for near-real-time enhancement or synthesis.
+
+12. Skill Name: Thermal and Power Stability Tester
+
+  Description: Runs sustained sessions and renders to detect throttling, dropouts, device resets, and unstable clocks.
+
+13. Skill Name: Performance Regression Tester
+
+  Description: Compares latency, CPU, GPU, memory, load time, playback, and render after changes.
+
+14. Skill Name: Capacity Forecast Planner
+
+  Description: Projects storage, compute, library, backup, stem, model, and session growth from workload and retention.
+
+30. Automation, Batch Processing, and Reproducibility
+
+1. Skill Name: Audio Batch Processor
+
+  Description: Runs manifest-driven conversion, normalization, trimming, metadata, analysis, codec, and naming operations.
+
+2. Skill Name: DAW Scripting Operator
+
+  Description: Uses approved local scripting or macros for session creation, routing, markers, exports, validation, and reports.
+
+3. Skill Name: Command-Line Audio Pipeline Builder
+
+  Description: Creates safe FFmpeg, SoX, Python, or equivalent local pipelines with explicit inputs, outputs, and checks.
+
+4. Skill Name: Reproducible Render Script Builder
+
+  Description: Records session, source hashes, plugin states, models, presets, sample rate, bit depth, outputs, and validation.
+
+5. Skill Name: Manifest-Driven Stem Exporter
+
+  Description: Prints defined stems, versions, languages, sample rates, bit depths, codecs, and folders from a structured manifest.
+
+6. Skill Name: Batch Loudness Normalizer
+
+  Description: Measures and adjusts files to approved targets while preserving peak ceilings and reporting gain changes.
+
+7. Skill Name: Batch Transcript Generator
+
+  Description: Runs local ASR and diarization over approved files with manifests, retries, confidence, and transcript validation.
+
+8. Skill Name: Batch Separation Orchestrator
+
+  Description: Processes source-separation jobs by model, segment, device, retry, storage, and validation policy.
+
+9. Skill Name: Batch Neural Voice Generator
+
+  Description: Creates approved lines from scripts with voice, language, pronunciation, timing, model, and provenance controls.
+
+10. Skill Name: Job Scheduler for Audio Production
+
+  Description: Runs delayed, periodic, dependency, resource-aware, and overnight renders with durable status.
+
+11. Skill Name: Failure Resume Manager
+
+  Description: Restarts batch work from the last passing item and avoids repeating validated outputs.
+
+12. Skill Name: Audio Pipeline Smoke Test Builder
+
+  Description: Creates a compact project that exercises recording, MIDI, plugins, models, mixing, mastering, codecs, and packaging.
+
+13. Skill Name: Automation Safety Sandbox
+
+  Description: Runs scripts against staged copies, limits paths and resources, and records every changed or created file.
+
+14. Skill Name: Automation Regression Suite
+
+  Description: Replays normal, empty, malformed, large, multilingual, multichannel, and failure cases after pipeline changes.
+
+31. Backup, Packaging, Archival, and Handoff
+
+1. Skill Name: Reproducible Audio Project Packager
+
+  Description: Collects sessions, audio, MIDI, scores, samples where permitted, presets, plugins list, models, transcripts, rights, and manifests.
+
+2. Skill Name: Session Dependency Collector
+
+  Description: Finds every source file, plugin, preset, impulse response, sample, instrument, model, video, and external configuration.
+
+3. Skill Name: Bundle Completeness Validator
+
+  Description: Opens the project from a clean path with network disabled and verifies playback, editing, rendering, and export.
+
+4. Skill Name: Project Checksum Manifest Builder
+
+  Description: Generates and verifies hashes for installers, models, sessions, media, stems, masters, transcripts, and documents.
+
+5. Skill Name: Audio Project Snapshot Manager
+
+  Description: Creates labeled restore points before editing, restoration, model processing, mix revisions, mastering, and delivery.
+
+6. Skill Name: Incremental Backup Operator
+
+  Description: Backs up changed sessions, source recordings, presets, rights, transcripts, and irreplaceable production data.
+
+7. Skill Name: 3-2-1 Backup Planner
+
+  Description: Defines three copies on two storage types with one offline or off-site copy and tested restoration.
+
+8. Skill Name: Sample Library Backup Manager
+
+  Description: Creates verified, indexed, license-aware backups of large local instrument and sample libraries.
+
+9. Skill Name: Archive Tier Manager
+
+  Description: Separates active, nearline, cold, legal-hold, replaceable render, and disposable cache data with manifests.
+
+10. Skill Name: Disaster Recovery Drill Runner
+
+  Description: Simulates workstation loss, drive failure, corrupt sessions, missing plugins, expired licenses, and unavailable libraries.
+
+11. Skill Name: Long-Term Session Archive Builder
+
+  Description: Preserves consolidated audio, MIDI, stems, scores, plugin lists, screenshots, presets, and open-format documentation.
+
+12. Skill Name: Recipient Handoff Guide Writer
+
+  Description: Documents setup, open, relink, edit, render, export, validate, rights, and troubleshooting steps.
+
+13. Skill Name: Master Delivery Package Builder
+
+  Description: Assembles exact masters, alternates, stems, captions, transcripts, metadata, cue sheets, licenses, checksums, and reports.
+
+14. Skill Name: Project Decommissioning Operator
+
+  Description: Creates final archives, revokes secrets, removes unnecessary caches, preserves rights, and documents reopening.
+
+32. Documentation, Training, Governance, and Final Acceptance
+
+1. Skill Name: Offline Audio Production Handbook Builder
+
+  Description: Creates a searchable local handbook for installation, recording, editing, models, MIDI, mixing, mastering, QC, rights, and recovery.
+
+2. Skill Name: Role-Based Quick Start Author
+
+  Description: Writes concise instructions for recordists, editors, composers, sound designers, mixers, mastering engineers, localization teams, and operators.
+
+3. Skill Name: Standard Operating Procedure Generator
+
+  Description: Turns an approved workflow into prerequisites, steps, inputs, outputs, checks, rollback, failure states, and ownership.
+
+4. Skill Name: Configuration Reference Generator
+
+  Description: Documents every DAW, driver, plugin, model, codec, library, meter, routing, and export setting.
+
+5. Skill Name: Troubleshooting Decision Tree Builder
+
+  Description: Routes noise, latency, dropout, plugin, model, sync, phase, loudness, codec, and recall failures to confirming tests.
+
+6. Skill Name: Known-Issue Register Manager
+
+  Description: Records affected versions, symptoms, scope, workaround, permanent fix, owner, and regression test.
+
+7. Skill Name: Reference Audio Project Maintainer
+
+  Description: Keeps a compact project that exercises the full passing production spine and expected outputs.
+
+8. Skill Name: Training Exercise Generator
+
+  Description: Creates offline exercises for recording, restoration, ASR, voice, MIDI, composition, mixing, mastering, QC, and rights.
+
+9. Skill Name: Operator Competency Checklist Builder
+
+  Description: Defines observable pass criteria for setup, recording, editing, model use, mixing, mastering, validation, and delivery.
+
+10. Skill Name: Shift and Team Handoff Writer
+
+  Description: Captures active sessions, running jobs, selected takes, plugin recalls, model versions, notes, approvals, and next actions.
+
+11. Skill Name: Audio Standards Registry
+
+  Description: Versions sample-rate, bit-depth, loudness, true-peak, channel, naming, metadata, codec, and delivery standards.
+
+12. Skill Name: Skill Interface Standard Author
+
+  Description: Defines triggers, inputs, outputs, permissions, errors, validation, provenance, and packaging for audio skills.
+
+13. Skill Name: Skill Dependency Graph Manager
+
+  Description: Maps which skills call, validate, approve, package, or depend on other audio skills and shared assets.
+
+14. Skill Name: Skill Catalog Governance Manager
+
+  Description: Tracks proposed, active, merged, deprecated, replaced, and blocked skills and prevents contradictory definitions.
+
+15. Skill Name: Postmortem and Lessons-Learned Manager
+
+  Description: Turns failures into condition, cause, repair, confirming test, owner, and updated standard.
+
+16. Skill Name: Final Audio Acceptance Gate
+
+  Description: Requires resolved critical notes, validated masters and stems, correct rights, complete provenance, clean-state reopen, and recipient-ready packaging.
+
+Recommended Catalog-to-Skill Package
+
+When converting an entry into an executable skill, keep the core control file compact and place repeatable detail in supporting resources:
+
+- SKILL.md: precise trigger description, workflow, decision rules, rights, consent, failure conditions, validation, and completion behavior.
+
+- agents/ui_metadata.yaml: display name, short description, icon, and brand color.
+
+- scripts/: deterministic offline audio processing, analysis, metadata, validation, batch, packaging, and recovery tools.
+
+- references/: standards, signal-flow diagrams, codec matrices, loudness targets, plugin maps, rights guidance, and troubleshooting.
+
+- assets/: permitted templates, presets, test tones, impulse responses, example sessions, fixtures, and evaluation clips.
+
+Final Acceptance Standard
+
+A future implementation should be considered complete only when it operates without network access, declares dependencies and rights, preserves sources and rollback, measures and listens to outputs, passes clean-state and recipient playback tests, records model and processing provenance, and provides complete editable, master, stem, transcript, metadata, license, and recovery materials required by the workflow.

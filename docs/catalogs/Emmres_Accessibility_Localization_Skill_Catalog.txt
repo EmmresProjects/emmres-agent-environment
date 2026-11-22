@@ -1,0 +1,1054 @@
+EMMRE'S
+
+Accessibility and Localization
+Skill Catalog
+
+A comprehensive capability catalog for designing, testing, localizing, remediating, and operating inclusive digital experiences
+
+220 skills across 18 categories
+
+Catalog Purpose
+
+This catalog defines a broad set of reusable agent skills for accessibility and localization work. Each entry is written as a capability that can later be implemented, tested, composed with other skills, and governed as part of a larger agent system.
+
+Coverage Principles
+
+- Accessibility is treated as a complete user-journey property, not a one-time automated scan.
+
+- Localization includes internationalization architecture, language quality, functional QA, typography, culture, release operations, and human review.
+
+- Human disabled-user testing and human translation review remain essential even when automation is strong.
+
+- Every skill should produce inspectable evidence, clear findings, actionable remediation, and repeatable verification when implemented.
+
+- The catalog covers web, mobile, desktop, documents, media, kiosks, embedded devices, and emerging interfaces.
+
+Implementation Note
+
+This is a skill catalog only. It does not claim that the listed skills are already implemented. A future Skill Catalog builder can convert entries into individual skill specifications with inputs, outputs, dependencies, test fixtures, pass criteria, failure handling, and versioned documentation.
+
+Category Index
+
+1.  1. Accessibility Governance, Strategy, and Conformance (12 skills)
+
+2.  2. Automated WCAG and Static Analysis (12 skills)
+
+3.  3. Screen Reader and Assistive Technology Testing (12 skills)
+
+4.  4. Keyboard, Focus, Voice, and Alternative Input (12 skills)
+
+5.  5. Visual Accessibility, Contrast, Reflow, and Motion (12 skills)
+
+6.  6. Forms, Authentication, Commerce, and Critical Journeys (12 skills)
+
+7.  7. Accessible Documents, PDFs, and Office Content (14 skills)
+
+8.  8. Images, Alt Text, Charts, Math, and Data Visualization (12 skills)
+
+9.  9. Audio, Video, Captions, and Descriptions (12 skills)
+
+10. 10. Mobile, Desktop, Kiosk, XR, and Embedded Accessibility (12 skills)
+
+11. 11. Cognitive, Learning, Neurodiversity, and Plain Language (12 skills)
+
+12. 12. Localization Architecture and Internationalization (12 skills)
+
+13. 13. Translation Memory, Terminology, and Language Quality (12 skills)
+
+14. 14. Filipino, English, and Philippine Locale Quality (12 skills)
+
+15. 15. Right-to-Left, Scripts, Fonts, and Typography (12 skills)
+
+16. 16. Pseudolocalization and Functional Localization QA (12 skills)
+
+17. 17. Inclusive Research and Human Validation (12 skills)
+
+18. 18. Procurement, Third Parties, Support, and Continuous Operations (14 skills)
+
+1. Accessibility Governance, Strategy, and Conformance
+
+12 skills covering this capability area.
+
+1. Skill Name: Accessibility Program Architect
+
+Description: Designs an organization-wide accessibility operating model with ownership, funding, policies, escalation paths, release gates, and measurable outcomes.
+
+2. Skill Name: WCAG 2.2 AA Requirements Mapper
+
+Description: Maps product features and user journeys to every applicable WCAG 2.2 Level A and AA success criterion, including evidence and accountable owners.
+
+3. Skill Name: Accessibility Conformance Target Planner
+
+Description: Selects defensible conformance targets for websites, mobile apps, documents, kiosks, media, and internal tools without overlooking platform-specific obligations.
+
+4. Skill Name: Accessibility Policy Author
+
+Description: Creates practical accessibility policies, engineering standards, design rules, procurement clauses, and exception procedures that teams can implement.
+
+5. Skill Name: Accessibility Maturity Assessor
+
+Description: Scores governance, design, engineering, content, testing, procurement, support, and culture, then produces a staged improvement roadmap.
+
+6. Skill Name: Accessibility Risk Register Manager
+
+Description: Tracks barriers by user impact, legal exposure, reach, severity, recurrence, owner, mitigation, and due date.
+
+7. Skill Name: Accessibility Exception Reviewer
+
+Description: Evaluates exception requests, documents constraints, requires equivalent access, defines expiry dates, and prevents permanent waivers.
+
+8. Skill Name: Accessibility Release Gatekeeper
+
+Description: Applies objective accessibility release criteria and blocks launches when critical barriers remain unresolved.
+
+9. Skill Name: Accessibility KPI and OKR Designer
+
+Description: Defines meaningful measures such as journey completion, blocker escape rate, remediation time, and disabled-user satisfaction instead of vanity counts.
+
+10. Skill Name: Accessibility Evidence Repository Manager
+
+Description: Organizes audit results, test artifacts, user research, defect history, declarations, and remediation proof for repeatable reviews.
+
+11. Skill Name: Accessibility Standards Crosswalk Builder
+
+Description: Cross-references WCAG, EN 301 549, Section 508, ISO 30071-1, platform guidance, and internal controls to reduce duplicate work.
+
+12. Skill Name: Accessibility Statement Generator
+
+Description: Produces clear public accessibility statements with scope, conformance status, known limitations, feedback channels, and review dates.
+
+2. Automated WCAG and Static Analysis
+
+12 skills covering this capability area.
+
+1. Skill Name: WCAG 2.2 AA Test Suite Orchestrator
+
+Description: Runs repeatable automated, semi-automated, and manual checks against WCAG 2.2 AA and consolidates results by page, component, journey, and criterion.
+
+2. Skill Name: Automated Accessibility Scanner
+
+Description: Scans representative pages and application states with engines such as axe-core, Accessibility Insights, Lighthouse, and Pa11y while controlling false positives.
+
+3. Skill Name: DOM Semantics Analyzer
+
+Description: Detects missing, invalid, or misleading HTML semantics, landmarks, headings, lists, labels, names, roles, states, and properties.
+
+4. Skill Name: ARIA Misuse Detector
+
+Description: Finds prohibited ARIA, redundant roles, invalid state combinations, broken ownership, and patterns that override correct native semantics.
+
+5. Skill Name: Accessible Name Computation Inspector
+
+Description: Calculates accessible names and descriptions, identifies hidden naming collisions, and explains what assistive technologies are likely to announce.
+
+6. Skill Name: Heading Hierarchy Auditor
+
+Description: Checks heading purpose and nesting across responsive states, modals, embedded content, and dynamically inserted sections.
+
+7. Skill Name: Landmark Coverage Auditor
+
+Description: Verifies page regions, unique labels, nesting, skip paths, and consistent landmark structure.
+
+8. Skill Name: Form Label and Error Scanner
+
+Description: Detects unlabeled controls, ambiguous instructions, inaccessible validation, missing error associations, and weak recovery guidance.
+
+9. Skill Name: Link Purpose Analyzer
+
+Description: Finds vague, duplicated, out-of-context, or misleading links and recommends meaningful accessible names.
+
+10. Skill Name: Dynamic State Accessibility Monitor
+
+Description: Observes client-side route changes, live regions, loading states, toasts, dialogs, expanders, and asynchronous errors for regressions.
+
+11. Skill Name: Accessibility Regression Baseline Manager
+
+Description: Stores accepted results and compares new builds to prevent recurring or newly introduced barriers.
+
+12. Skill Name: Component Accessibility Linter
+
+Description: Enforces accessible patterns in reusable UI components, templates, design tokens, and code review pipelines.
+
+3. Screen Reader and Assistive Technology Testing
+
+12 skills covering this capability area.
+
+1. Skill Name: Screen-Reader Test Environment
+
+Description: Provides reproducible environments for NVDA, JAWS, VoiceOver, TalkBack, Narrator, and selected braille displays across supported browsers and operating systems.
+
+2. Skill Name: NVDA Journey Tester
+
+Description: Tests critical Windows journeys with NVDA and documents speech output, focus behavior, browse mode, forms mode, and recovery paths.
+
+3. Skill Name: JAWS Enterprise Workflow Tester
+
+Description: Validates complex Windows and enterprise application workflows with JAWS, including virtual cursor behavior and custom widgets.
+
+4. Skill Name: VoiceOver macOS Tester
+
+Description: Tests Safari and macOS experiences with VoiceOver navigation, rotor behavior, groups, tables, forms, and announcements.
+
+5. Skill Name: VoiceOver iOS Tester
+
+Description: Validates touch exploration, swipe order, custom actions, gestures, labels, hints, traits, and focus restoration on iPhone and iPad.
+
+6. Skill Name: TalkBack Android Tester
+
+Description: Checks Android exploration, linear navigation, actions, controls, headings, links, forms, and focus behavior with TalkBack.
+
+7. Skill Name: Narrator Windows Tester
+
+Description: Validates Windows and Microsoft ecosystem experiences using Narrator scan mode, landmarks, tables, forms, and keyboard commands.
+
+8. Skill Name: Refreshable Braille Tester
+
+Description: Checks braille output, contractions, routing keys, labels, status cells, tables, math, and editable controls.
+
+9. Skill Name: Speech Output Transcript Analyzer
+
+Description: Captures and compares assistive-technology announcements to identify verbosity, missing context, duplicate speech, and inconsistent states.
+
+10. Skill Name: Assistive Technology Compatibility Matrix
+
+Description: Maintains tested combinations of operating system, browser, screen reader, version, input method, and known limitations.
+
+11. Skill Name: Screen Magnifier Workflow Tester
+
+Description: Tests zoom, tracking, focus visibility, pointer location, text clarity, and reflow with common magnification tools.
+
+12. Skill Name: Switch Access Tester
+
+Description: Validates scanning order, grouping, dwell behavior, activation targets, escape routes, and complete operation for switch users.
+
+4. Keyboard, Focus, Voice, and Alternative Input
+
+12 skills covering this capability area.
+
+1. Skill Name: Keyboard-Only Navigation Test
+
+Description: Exercises every interactive journey without a pointer, covering Tab, Shift+Tab, arrows, Enter, Space, Escape, and documented shortcuts.
+
+2. Skill Name: Focus-Order Validator
+
+Description: Compares visual, DOM, reading, and interaction order across responsive layouts, overlays, portals, and injected content.
+
+3. Skill Name: Focus Visibility Inspector
+
+Description: Checks contrast, area, persistence, clipping, occlusion, and theme consistency of keyboard focus indicators.
+
+4. Skill Name: Focus Management State Tester
+
+Description: Verifies initial focus, focus trapping, restoration, route changes, errors, deletion, and asynchronous updates.
+
+5. Skill Name: Keyboard Trap Detector
+
+Description: Finds components that capture focus or keystrokes without a reliable escape method, including editors, media players, widgets, and embeds.
+
+6. Skill Name: Shortcut Collision Analyzer
+
+Description: Detects single-character and application shortcuts that conflict with assistive technologies, browsers, operating systems, or user typing.
+
+7. Skill Name: Voice-Control Test Suite
+
+Description: Tests discoverability and activation with Voice Access, Voice Control, and Dragon-style commands using visible and accessible labels.
+
+8. Skill Name: Switch Navigation Test
+
+Description: Evaluates sequential scanning, group scanning, activation, timing tolerance, and recovery with one or more switches.
+
+9. Skill Name: Eye-Gaze Interaction Reviewer
+
+Description: Checks target size, spacing, dwell timing, accidental activation prevention, and stable layouts for eye-gaze users.
+
+10. Skill Name: Pointer Target Size Auditor
+
+Description: Measures target dimensions, spacing, overlap, drag alternatives, and cancellation behavior for mouse, touch, stylus, and tremor input.
+
+11. Skill Name: Gesture Alternative Validator
+
+Description: Ensures multipoint, path-based, device-motion, and drag gestures have simple accessible alternatives.
+
+12. Skill Name: Sticky-Key and Slow-Key Compatibility Tester
+
+Description: Confirms shortcuts and timing-sensitive interactions remain usable with modifier locks and delayed key input.
+
+5. Visual Accessibility, Contrast, Reflow, and Motion
+
+12 skills covering this capability area.
+
+1. Skill Name: Color-Contrast Checker
+
+Description: Measures text, large text, icons, focus indicators, controls, graphs, and state boundaries against applicable WCAG contrast thresholds.
+
+2. Skill Name: Non-Color Information Validator
+
+Description: Ensures errors, status, selection, trends, categories, required fields, and instructions are not communicated by color alone.
+
+3. Skill Name: Text-Resizing Test
+
+Description: Tests content and controls at 200 percent text size without loss, overlap, truncation, or hidden functionality.
+
+4. Skill Name: Responsive Reflow Tester
+
+Description: Checks content at 320 CSS pixels wide and equivalent zoom conditions without unnecessary two-dimensional scrolling.
+
+5. Skill Name: High-Contrast Mode Test
+
+Description: Validates Windows forced-colors and comparable modes so controls, focus, icons, borders, and state remain perceptible.
+
+6. Skill Name: Reduced-Motion Support Validator
+
+Description: Respects prefers-reduced-motion, removes nonessential animation, and supplies alternatives for motion-triggered or vestibular effects.
+
+7. Skill Name: Animation Pause and Control Tester
+
+Description: Checks pause, stop, hide, timing, auto-advance, blinking, flashing, and user control for moving content.
+
+8. Skill Name: Photosensitivity Safety Checker
+
+Description: Detects flash frequency, large-area flashes, high-contrast transitions, and risky animation patterns.
+
+9. Skill Name: Visual Reading Order Inspector
+
+Description: Identifies CSS reordering, masonry layouts, multi-column flows, and responsive changes that break meaningful reading order.
+
+10. Skill Name: Low-Vision Theme Designer
+
+Description: Creates high-clarity themes with strong focus, adaptable spacing, readable states, and user-controlled contrast without sacrificing semantics.
+
+11. Skill Name: Dyslexia-Friendly Typography Options
+
+Description: Provides optional readable fonts, generous spacing, stable alignment, shorter line lengths, and user preferences without claiming one universal dyslexia solution.
+
+12. Skill Name: Content Zoom and Magnification Tester
+
+Description: Validates browser zoom up to 400 percent, magnifier tracking, sticky headers, fixed widgets, and enlarged pointer or cursor settings.
+
+6. Forms, Authentication, Commerce, and Critical Journeys
+
+12 skills covering this capability area.
+
+1. Skill Name: Accessible Form Architecture
+
+Description: Designs labels, instructions, grouping, autocomplete, validation, review, and recovery for simple and complex forms.
+
+2. Skill Name: Error Identification and Recovery Tester
+
+Description: Tests inline, summary, server-side, and asynchronous errors for clear identification, association, focus, suggestions, and data preservation.
+
+3. Skill Name: Accessible Authentication Reviewer
+
+Description: Checks login, MFA, CAPTCHA alternatives, password managers, copy and paste, cognitive tests, biometrics, and account recovery.
+
+4. Skill Name: Accessible CAPTCHA Alternative Planner
+
+Description: Provides nonvisual, nonaudio-only, privacy-aware, and support-assisted alternatives when abuse prevention is required.
+
+5. Skill Name: Checkout Accessibility Tester
+
+Description: Validates product selection, cart, address, payment, confirmation, timeout, and error recovery for assistive-technology users.
+
+6. Skill Name: Accessible Data Entry Assistant
+
+Description: Adds input purpose, formats, examples, masks, tolerant parsing, and correction support without blocking assistive technology.
+
+7. Skill Name: Session Timeout Accessibility Tester
+
+Description: Verifies warnings, extension controls, preserved data, sufficient response time, and alternatives for security-driven time limits.
+
+8. Skill Name: Accessible Signature Workflow
+
+Description: Supports typed, drawn, uploaded, delegated, and assisted signatures with equivalent status and clear consent.
+
+9. Skill Name: Financial Data Accessibility Reviewer
+
+Description: Checks balances, charts, transactions, currencies, negative values, privacy masking, and confirmation flows for accessible interpretation.
+
+10. Skill Name: Healthcare Journey Accessibility Reviewer
+
+Description: Tests appointments, forms, results, medication information, consent, privacy, and urgent communication with disability-sensitive safeguards.
+
+11. Skill Name: Education Assessment Accessibility Tester
+
+Description: Validates question navigation, timing accommodations, math, diagrams, answer controls, proctoring, and review workflows.
+
+12. Skill Name: Government Service Journey Tester
+
+Description: Checks identity, eligibility, evidence upload, applications, notices, payments, status, appeals, and assisted-service alternatives.
+
+7. Accessible Documents, PDFs, and Office Content
+
+14 skills covering this capability area.
+
+1. Skill Name: Accessible PDF Checker
+
+Description: Audits tagged structure, reading order, language, headings, lists, tables, forms, links, bookmarks, metadata, artifacts, and alternate text.
+
+2. Skill Name: PDF Tagging Remediation Specialist
+
+Description: Repairs structure trees, tag types, nesting, artifacts, reading order, table headers, lists, figures, and form semantics.
+
+3. Skill Name: Scanned PDF OCR Accessibility Workflow
+
+Description: Converts image-only documents to searchable text, verifies OCR, rebuilds semantic structure, and retains visual fidelity.
+
+4. Skill Name: Accessible PDF Form Tester
+
+Description: Validates field names, tooltips, tab order, groups, required states, errors, calculations, signatures, and keyboard completion.
+
+5. Skill Name: PDF Reading Order Validator
+
+Description: Compares tag order, content order, screen-reader order, and visual order across complex layouts.
+
+6. Skill Name: Accessible Office-Document Checker
+
+Description: Audits Word, Excel, and PowerPoint files for headings, alt text, tables, reading order, links, color, language, and document metadata.
+
+7. Skill Name: Accessible Word Document Builder
+
+Description: Creates style-based headings, meaningful links, accessible tables, lists, captions, navigation, language metadata, and usable page structure.
+
+8. Skill Name: Accessible Excel Workbook Builder
+
+Description: Designs named tables, clear headers, logical sheet order, accessible charts, data validation, instructions, and screen-reader-friendly navigation.
+
+9. Skill Name: Accessible PowerPoint Deck Builder
+
+Description: Creates unique titles, logical object order, concise alt text, readable contrast, captions, accessible tables, and understandable slide layouts.
+
+10. Skill Name: Office Accessibility Checker Workflow
+
+Description: Runs Microsoft Accessibility Checker, triages findings, performs manual verification, and records unresolved limitations.
+
+11. Skill Name: Document Conversion Accessibility Guard
+
+Description: Checks that DOCX-to-PDF, PPTX-to-PDF, export, print, and archival conversions preserve tags, links, language, and reading order.
+
+12. Skill Name: Accessible Template Library Manager
+
+Description: Maintains validated templates for reports, forms, spreadsheets, presentations, letters, and notices with protected accessible styles.
+
+13. Skill Name: Accessible EPUB Validator
+
+Description: Checks EPUB navigation, semantics, reflow, media overlays, alt text, landmarks, metadata, and reading-system compatibility.
+
+14. Skill Name: Document Plain-Language Reviewer
+
+Description: Improves structure, word choice, sentence length, instructions, summaries, and definitions while preserving legal or technical meaning.
+
+8. Images, Alt Text, Charts, Math, and Data Visualization
+
+12 skills covering this capability area.
+
+1. Skill Name: Alt-Text Quality Checker
+
+Description: Evaluates purpose, context, concision, specificity, redundancy, bias, and whether an image should instead be marked decorative.
+
+2. Skill Name: Complex Image Description Author
+
+Description: Creates structured long descriptions for diagrams, maps, scientific figures, workflows, screenshots, and dense illustrations.
+
+3. Skill Name: Decorative Image Classifier
+
+Description: Distinguishes decorative, functional, informative, redundant, and complex images and applies the correct treatment.
+
+4. Skill Name: Accessible Icon Semantics Reviewer
+
+Description: Checks icon labels, visible text, tooltips, state, contrast, shape ambiguity, and decorative handling.
+
+5. Skill Name: Accessible Chart Designer
+
+Description: Builds charts with descriptive titles, direct labels, patterns, sufficient contrast, keyboard access, and equivalent data tables.
+
+6. Skill Name: Chart Description Generator
+
+Description: Explains chart purpose, axes, units, key values, trends, outliers, uncertainty, and takeaways without overwhelming the reader.
+
+7. Skill Name: Accessible Dashboard Reviewer
+
+Description: Tests reading order, filters, status, drill-down, live updates, focus, data equivalents, and responsive behavior in analytical dashboards.
+
+8. Skill Name: Accessible Map Alternative Builder
+
+Description: Provides searchable lists, directions, addresses, coordinates, region summaries, and keyboard-operable controls as equivalents to maps.
+
+9. Skill Name: Math Accessibility Formatter
+
+Description: Represents equations with MathML or supported semantic formats and verifies spoken, braille, visual, and copyable output.
+
+10. Skill Name: Chemical and Scientific Notation Accessibility
+
+Description: Creates accessible structures, names, descriptions, and reading guidance for formulas, reactions, units, and scientific symbols.
+
+11. Skill Name: Accessible Diagram Navigator
+
+Description: Breaks large diagrams into named regions, relationships, ordered explanations, and optional tactile-ready layers.
+
+12. Skill Name: Image Text Detector
+
+Description: Finds meaningful text embedded in images and recommends real text, equivalent alternatives, or accessible reconstruction.
+
+9. Audio, Video, Captions, and Descriptions
+
+12 skills covering this capability area.
+
+1. Skill Name: Captions and Subtitle Engine
+
+Description: Generates, aligns, formats, and exports accurate captions and subtitles with speaker identification, sound cues, timing, and quality checks.
+
+2. Skill Name: Live Captioning Workflow
+
+Description: Coordinates human or automatic real-time captions, latency controls, correction, terminology preparation, display, and transcript retention.
+
+3. Skill Name: Caption Quality Auditor
+
+Description: Scores accuracy, synchronization, completeness, line breaks, reading speed, speaker changes, sound effects, punctuation, and placement.
+
+4. Skill Name: Audio-Description Workflow
+
+Description: Plans, scripts, records, mixes, and validates descriptions of essential visual information without masking dialogue or critical sound.
+
+5. Skill Name: Extended Audio Description Planner
+
+Description: Creates paused or extended versions when essential visual content cannot fit into natural dialogue gaps.
+
+6. Skill Name: Descriptive Transcript Generator
+
+Description: Combines dialogue, speaker labels, sound cues, and visual descriptions into an accessible text alternative.
+
+7. Skill Name: Accessible Media Player Tester
+
+Description: Checks keyboard use, control names, focus, captions, descriptions, transcript access, speed, volume, full screen, and error handling.
+
+8. Skill Name: Sign-Language Video Workflow
+
+Description: Plans interpreter framing, lighting, timing, terminology, inset placement, quality review, and user-selectable presentation.
+
+9. Skill Name: Podcast Accessibility Packager
+
+Description: Publishes transcripts, chapters, speaker labels, show notes, links, summaries, and accessible players for audio content.
+
+10. Skill Name: Caption Translation and Localization
+
+Description: Translates subtitles while preserving timing, reading speed, tone, terminology, cultural meaning, and on-screen constraints.
+
+11. Skill Name: Media Loudness and Clarity Reviewer
+
+Description: Checks speech intelligibility, background sound, dynamic range, user controls, and alternatives for audio-dependent cues.
+
+12. Skill Name: Seizure-Safe Video Reviewer
+
+Description: Reviews flashes, rapid patterns, strobing, transitions, autoplay, and motion, then specifies edits or warnings.
+
+10. Mobile, Desktop, Kiosk, XR, and Embedded Accessibility
+
+12 skills covering this capability area.
+
+1. Skill Name: Mobile Accessibility Test Suite
+
+Description: Tests iOS and Android semantics, gestures, orientation, text scaling, dynamic type, focus, labels, touch targets, and assistive technologies.
+
+2. Skill Name: Native iOS Accessibility Reviewer
+
+Description: Validates UIKit or SwiftUI labels, traits, values, actions, grouping, rotor support, Dynamic Type, and VoiceOver behavior.
+
+3. Skill Name: Native Android Accessibility Reviewer
+
+Description: Validates Views or Compose semantics, content descriptions, traversal, actions, scaling, TalkBack, and Switch Access.
+
+4. Skill Name: Desktop Application Accessibility Tester
+
+Description: Tests Windows, macOS, and Linux application controls, platform accessibility APIs, keyboard operation, scaling, and high contrast.
+
+5. Skill Name: Electron Application Accessibility Reviewer
+
+Description: Audits Chromium semantics plus native menus, shortcuts, updates, dialogs, windows, and cross-platform assistive-technology behavior.
+
+6. Skill Name: Kiosk Accessibility Designer
+
+Description: Designs reachable hardware, private audio, tactile controls, adjustable timing, clear instructions, and staff-assisted alternatives.
+
+7. Skill Name: Self-Service Terminal Tester
+
+Description: Tests payment terminals, ticketing, check-in, queueing, and public devices for physical, sensory, cognitive, and privacy access.
+
+8. Skill Name: Smart TV Accessibility Reviewer
+
+Description: Checks remote navigation, focus, spoken feedback, captions, audio description, target clarity, and accessible setup.
+
+9. Skill Name: Wearable Accessibility Reviewer
+
+Description: Evaluates small-screen readability, haptics, speech, gesture alternatives, timing, and companion-app accessibility.
+
+10. Skill Name: Voice Assistant Accessibility Designer
+
+Description: Creates clear prompts, repair strategies, confirmations, privacy controls, multimodal equivalents, and discoverable commands.
+
+11. Skill Name: XR Accessibility Reviewer
+
+Description: Assesses locomotion, motion comfort, captions, spatial audio, reach, remapping, seated modes, perception alternatives, and safety.
+
+12. Skill Name: Embedded Hardware Accessibility Reviewer
+
+Description: Evaluates physical controls, displays, indicators, audio cues, tactile markings, ports, setup, and accessible companion interfaces.
+
+11. Cognitive, Learning, Neurodiversity, and Plain Language
+
+12 skills covering this capability area.
+
+1. Skill Name: Cognitive Accessibility Reviewer
+
+Description: Evaluates memory load, attention demands, predictability, instructions, error recovery, time pressure, complexity, and support.
+
+2. Skill Name: Plain-Language Rewriter
+
+Description: Rewrites content with familiar words, direct structure, short sentences, meaningful headings, and preserved legal or technical accuracy.
+
+3. Skill Name: Easy Read Content Designer
+
+Description: Creates symbol-supported, stepwise Easy Read materials with one idea at a time and review by intended readers.
+
+4. Skill Name: Reading-Level Analyzer
+
+Description: Flags difficult vocabulary, long sentences, dense paragraphs, unexplained terms, and excessive abstraction without treating a score as the only measure.
+
+5. Skill Name: Consistent Navigation Auditor
+
+Description: Checks labels, placement, order, behavior, and help patterns for consistency across screens and channels.
+
+6. Skill Name: Cognitive Load Journey Tester
+
+Description: Counts decisions, fields, interruptions, context switches, memory demands, and recovery steps across a complete task.
+
+7. Skill Name: Attention-Safe Notification Designer
+
+Description: Prioritizes alerts, reduces interruption, supports snooze and digest modes, and avoids excessive urgency.
+
+8. Skill Name: Autism-Inclusive Interface Reviewer
+
+Description: Checks sensory intensity, predictability, literal language, customization, clear states, and avoidance of forced social cues.
+
+9. Skill Name: ADHD-Friendly Workflow Reviewer
+
+Description: Improves task chunking, progress visibility, save and resume, reminders, distraction control, and error recovery.
+
+10. Skill Name: Dyscalculia-Aware Data Reviewer
+
+Description: Improves number grouping, units, comparisons, calendars, prices, calculations, and visual support for numeric understanding.
+
+11. Skill Name: Memory Support Pattern Designer
+
+Description: Adds summaries, history, confirmations, visible choices, saved progress, and recognition-based interaction instead of recall-heavy steps.
+
+12. Skill Name: Accessible Help and Guidance Designer
+
+Description: Provides contextual help, examples, demonstrations, searchable guidance, human support, and safe exit or retry paths.
+
+12. Localization Architecture and Internationalization
+
+12 skills covering this capability area.
+
+1. Skill Name: Localization Framework Architect
+
+Description: Designs extraction, resource files, locale negotiation, fallback, pluralization, formatting, testing, release, and ownership for multilingual products.
+
+2. Skill Name: Internationalization Readiness Auditor
+
+Description: Finds hard-coded strings, concatenation, fixed layouts, locale assumptions, encoding risks, and untranslatable assets before localization.
+
+3. Skill Name: Locale-Specific Date and Number Formatter
+
+Description: Formats dates, times, time zones, numbers, percentages, measurements, currencies, and calendars according to user locale and context.
+
+4. Skill Name: Plural and Grammatical Variation Engine
+
+Description: Supports locale-specific plural categories, gender, case, agreement, and sentence-level reordering without fragile string concatenation.
+
+5. Skill Name: Locale Negotiation and Fallback Manager
+
+Description: Selects user language safely across account settings, browser preferences, device settings, URLs, and controlled fallback chains.
+
+6. Skill Name: Unicode and Encoding Validator
+
+Description: Detects mojibake, invalid normalization, unsafe truncation, combining-mark issues, and encoding loss across storage and transport.
+
+7. Skill Name: String Externalization Scanner
+
+Description: Finds embedded user-facing text in code, images, templates, logs, notifications, and server responses.
+
+8. Skill Name: Localization Key Governance
+
+Description: Enforces stable keys, context, descriptions, screenshots, placeholders, ownership, deprecation, and reuse rules.
+
+9. Skill Name: Locale Feature-Flag Manager
+
+Description: Coordinates staged language releases, market-specific features, legal variants, fallback behavior, and rollback.
+
+10. Skill Name: Language Pack Builder
+
+Description: Packages translated resources, fonts, hyphenation, spellcheck, dictionaries, voice assets, and version metadata for deployment.
+
+11. Skill Name: Bidirectional Text Safety Auditor
+
+Description: Checks mixed-direction text, isolates, user-generated content, identifiers, punctuation, and spoofing risks.
+
+12. Skill Name: International Address and Name Designer
+
+Description: Supports flexible names, honorifics, scripts, addresses, postal codes, phone formats, and culturally appropriate field ordering.
+
+13. Translation Memory, Terminology, and Language Quality
+
+12 skills covering this capability area.
+
+1. Skill Name: Translation Memory Manager
+
+Description: Builds, cleans, aligns, deduplicates, scores, and governs reusable bilingual segments with domain and product metadata.
+
+2. Skill Name: Terminology Database Manager
+
+Description: Maintains approved terms, definitions, forbidden forms, grammar notes, usage examples, domains, owners, and language equivalents.
+
+3. Skill Name: Term Extraction and Candidate Miner
+
+Description: Finds recurring product, technical, legal, cultural, and accessibility terms for expert review.
+
+4. Skill Name: Terminology Consistency Checker
+
+Description: Detects unauthorized variants, stale product names, inconsistent capitalization, mistranslation, and term drift across channels.
+
+5. Skill Name: Machine Translation Quality Estimator
+
+Description: Flags risky machine-translated segments using confidence signals, domain mismatch, named entities, terminology, and structural anomalies.
+
+6. Skill Name: Human Translation Review
+
+Description: Performs bilingual review for meaning, completeness, terminology, grammar, fluency, tone, cultural fit, formatting, and functional constraints.
+
+7. Skill Name: Bilingual Edit and Proofread
+
+Description: Separates accuracy editing from target-language proofreading and records actionable feedback for translators.
+
+8. Skill Name: Back-Translation Risk Check
+
+Description: Uses selective back translation for high-risk consent, safety, medical, legal, and marketing content without treating it as sole proof of quality.
+
+9. Skill Name: Translation Error Taxonomy Manager
+
+Description: Classifies meaning, omission, terminology, grammar, locale, style, formatting, functional, and critical safety errors for trend analysis.
+
+10. Skill Name: Language Quality Scorecard
+
+Description: Applies severity-weighted review with acceptance rules, sampling, adjudication, and root-cause reporting.
+
+11. Skill Name: Transcreation Workflow
+
+Description: Adapts slogans, campaigns, humor, emotion, and calls to action while documenting intent and constraints.
+
+12. Skill Name: Multilingual Style Guide Author
+
+Description: Defines voice, tone, grammar, punctuation, capitalization, inclusivity, product naming, and locale exceptions for each language.
+
+14. Filipino, English, and Philippine Locale Quality
+
+12 skills covering this capability area.
+
+1. Skill Name: Filipino Language Review
+
+Description: Reviews Filipino content for natural grammar, register, spelling, clarity, cultural fit, terminology, and audience appropriateness.
+
+2. Skill Name: Philippine English Review
+
+Description: Reviews English for Philippine audiences while distinguishing acceptable local usage from errors and preserving the intended formality.
+
+3. Skill Name: Filipino-English Bilingual Consistency Checker
+
+Description: Compares Filipino and English versions for omissions, meaning shifts, feature-name inconsistencies, and mismatched calls to action.
+
+4. Skill Name: Taglish Content Policy Reviewer
+
+Description: Determines when code-switching improves clarity, when it excludes readers, and how to maintain consistent tone and terminology.
+
+5. Skill Name: Philippine Locale Formatter
+
+Description: Validates Philippine date, time, address, mobile number, peso, decimal, and official-form conventions.
+
+6. Skill Name: Filipino Terminology Curator
+
+Description: Builds approved Filipino equivalents for product, government, education, health, finance, accessibility, and technical concepts.
+
+7. Skill Name: Regional Language Expansion Planner
+
+Description: Prepares scalable support for Cebuano, Ilocano, Hiligaynon, Waray, Kapampangan, Pangasinan, and other Philippine languages.
+
+8. Skill Name: Philippine Cultural Sensitivity Reviewer
+
+Description: Checks examples, images, names, holidays, family roles, geography, class assumptions, and regional representation for respectful use.
+
+9. Skill Name: Philippine Government Content Reviewer
+
+Description: Aligns public-service content with clear local terminology, document expectations, assisted channels, and multilingual community needs.
+
+10. Skill Name: Filipino Speech and Caption Reviewer
+
+Description: Checks Filipino speech recognition, caption segmentation, names, borrowed terms, code-switching, punctuation, and timing.
+
+11. Skill Name: Philippine Address and Identity Form Tester
+
+Description: Tests compound names, suffixes, barangays, cities and municipalities, provinces, postal codes, IDs, and flexible address entry.
+
+12. Skill Name: Filipino Plain-Language Specialist
+
+Description: Simplifies Filipino instructions and notices while preserving meaning, dignity, and appropriate formality.
+
+15. Right-to-Left, Scripts, Fonts, and Typography
+
+12 skills covering this capability area.
+
+1. Skill Name: Right-to-Left Layout Support
+
+Description: Mirrors layout where appropriate and validates navigation, alignment, icons, progression, forms, tables, media controls, and mixed-direction content.
+
+2. Skill Name: RTL Interaction Tester
+
+Description: Exercises Arabic, Hebrew, Persian, and Urdu interfaces for focus order, carousels, sliders, gestures, animation direction, and spatial meaning.
+
+3. Skill Name: Bidirectional Content Debugger
+
+Description: Diagnoses punctuation jumps, number placement, neutral characters, isolates, embeddings, and unsafe direction overrides.
+
+4. Skill Name: Font Coverage for Target Languages
+
+Description: Verifies required characters, combining marks, punctuation, symbols, emoji, weights, italics, shaping, and fallback across platforms.
+
+5. Skill Name: Complex Script Shaping Tester
+
+Description: Checks joining, ligatures, reordering, mark placement, line breaking, and cursor behavior for Arabic and South or Southeast Asian scripts.
+
+6. Skill Name: CJK Typography Reviewer
+
+Description: Validates Japanese, Simplified Chinese, Traditional Chinese, and Korean font choice, punctuation, line breaking, ruby text, spacing, and vertical text when used.
+
+7. Skill Name: Indic Script Layout Reviewer
+
+Description: Checks shaping, clusters, reordering, conjuncts, matras, line breaks, and selection behavior across supported Indic languages.
+
+8. Skill Name: Southeast Asian Script Reviewer
+
+Description: Validates Thai, Lao, Khmer, Myanmar, and related scripts for segmentation, shaping, marks, wrapping, and font fallback.
+
+9. Skill Name: Webfont Performance and Fallback Planner
+
+Description: Balances language coverage, variable fonts, subsets, caching, layout stability, privacy, and offline availability.
+
+10. Skill Name: Typography Localization Tester
+
+Description: Checks expansion, line height, truncation, hyphenation, capitalization, quotation marks, ellipsis, and punctuation spacing per locale.
+
+11. Skill Name: Transliteration and Romanization Manager
+
+Description: Applies approved transliteration schemes, supports search variants, and prevents transliteration from replacing native-script access.
+
+12. Skill Name: Emoji and Symbol Accessibility Reviewer
+
+Description: Tests spoken names, cultural interpretation, skin tone, platform variation, decorative use, and symbol fallback.
+
+16. Pseudolocalization and Functional Localization QA
+
+12 skills covering this capability area.
+
+1. Skill Name: Pseudolocalization Test Suite
+
+Description: Expands strings, adds diacritics, exposes hard-coded text, preserves placeholders, and simulates right-to-left layouts before translation.
+
+2. Skill Name: String Expansion Stress Tester
+
+Description: Tests 30 to 100 percent expansion at component, page, notification, print, and small-screen levels.
+
+3. Skill Name: Truncation and Overflow Detector
+
+Description: Finds clipped labels, hidden controls, overlapping text, broken tables, inaccessible ellipses, and unscrollable regions.
+
+4. Skill Name: Placeholder and Variable Validator
+
+Description: Checks syntax, ordering, type, escaping, gender, plural rules, and translator guidance for runtime variables.
+
+5. Skill Name: Localized Build Smoke Tester
+
+Description: Launches every locale, verifies resources load, checks navigation, detects crashes, and confirms critical journeys.
+
+6. Skill Name: Screenshot Localization Reviewer
+
+Description: Compares localized screenshots for clipping, untranslated text, wrong assets, direction, spacing, and visual regressions.
+
+7. Skill Name: Locale-Specific Search Tester
+
+Description: Tests tokenization, accents, morphology, transliteration, sorting, synonyms, spelling, and result ranking for each supported language.
+
+8. Skill Name: Localized Input and Validation Tester
+
+Description: Accepts local names, addresses, digits, punctuation, decimal separators, calendars, phone numbers, and input methods.
+
+9. Skill Name: Localization Automation Harness
+
+Description: Runs locale permutations in CI across pages, components, emails, generated files, and mobile snapshots.
+
+10. Skill Name: Localized Email and Notification Tester
+
+Description: Checks subject lines, preview text, direction, wrapping, links, variables, unsubscribe, and client rendering in each locale.
+
+11. Skill Name: Localized Print and Export Tester
+
+Description: Validates PDFs, reports, invoices, labels, and print layouts for fonts, direction, pagination, line breaks, and data formatting.
+
+12. Skill Name: Untranslated String Detector
+
+Description: Finds source-language leakage, fallback keys, placeholder text, mixed locales, and unlocalized server or third-party messages.
+
+17. Inclusive Research and Human Validation
+
+12 skills covering this capability area.
+
+1. Skill Name: Human Accessibility Testing
+
+Description: Plans and conducts task-based sessions with disabled participants, compensates them fairly, protects privacy, and turns findings into prioritized product changes.
+
+2. Skill Name: Disabled Participant Recruitment Planner
+
+Description: Builds representative panels across disabilities, assistive technologies, age, language, devices, and experience without tokenizing participants.
+
+3. Skill Name: Accessible Research Protocol Designer
+
+Description: Creates consent, materials, tasks, communication, scheduling, accommodations, and withdrawal processes in accessible formats.
+
+4. Skill Name: Assistive Technology User Study Facilitator
+
+Description: Observes real strategies and barriers while avoiding interference with participant-preferred tools and workflows.
+
+5. Skill Name: Accessibility Diary Study
+
+Description: Captures recurring barriers, workarounds, fatigue, context, and longitudinal experience outside a laboratory session.
+
+6. Skill Name: Inclusive Co-Design Facilitator
+
+Description: Engages disabled people and multilingual users as design partners with decision influence, accessible materials, and clear compensation.
+
+7. Skill Name: Human Translation Review Panel
+
+Description: Coordinates translators, subject experts, local reviewers, and end users to resolve language quality and cultural issues.
+
+8. Skill Name: Community Language Validation
+
+Description: Tests localized content with target-language communities, including regional, heritage, low-literacy, and code-switching audiences.
+
+9. Skill Name: Accessibility Support Feedback Miner
+
+Description: Converts support tickets, complaints, call transcripts, app reviews, and workaround reports into testable accessibility requirements.
+
+10. Skill Name: Bias-Aware Persona Reviewer
+
+Description: Prevents disability and cultural stereotypes, separates needs from diagnoses, and grounds scenarios in research.
+
+11. Skill Name: Inclusive Survey Designer
+
+Description: Builds accessible, translatable surveys with neutral questions, flexible response modes, privacy protections, and low cognitive load.
+
+12. Skill Name: Research Finding Traceability Manager
+
+Description: Links participant evidence to barriers, requirements, designs, defects, decisions, and verified outcomes.
+
+18. Procurement, Third Parties, Support, and Continuous Operations
+
+14 skills covering this capability area.
+
+1. Skill Name: Accessible Procurement Requirements Author
+
+Description: Writes measurable accessibility requirements, evidence requests, acceptance tests, remediation terms, and renewal conditions for vendors.
+
+2. Skill Name: VPAT and ACR Reviewer
+
+Description: Evaluates Voluntary Product Accessibility Templates and Accessibility Conformance Reports for evidence quality, scope, exceptions, and testing credibility.
+
+3. Skill Name: Third-Party Component Accessibility Assessor
+
+Description: Tests embedded widgets, payment services, chat, maps, consent tools, analytics, and identity providers before adoption.
+
+4. Skill Name: Vendor Accessibility Due Diligence
+
+Description: Reviews roadmap, staffing, testing methods, defect response, documentation, legal commitments, and product history.
+
+5. Skill Name: Accessible Design System Steward
+
+Description: Maintains tokens, components, usage guidance, tests, examples, migration paths, and versioned accessibility guarantees.
+
+6. Skill Name: Accessibility CI/CD Integrator
+
+Description: Adds linting, automated tests, browser checks, artifact audits, thresholds, and approved exceptions to delivery pipelines.
+
+7. Skill Name: Accessibility Defect Triage
+
+Description: Prioritizes issues by user blockage, affected populations, frequency, journey importance, workaround quality, and release risk.
+
+8. Skill Name: Accessibility Remediation Verifier
+
+Description: Retests exact defects, normal paths, boundary cases, assistive technologies, and regressions before closure.
+
+9. Skill Name: Accessible Customer Support Designer
+
+Description: Provides voice, text, relay-compatible, captioned, asynchronous, and assisted channels with accessible authentication and escalation.
+
+10. Skill Name: Accessibility Incident Response
+
+Description: Handles accessibility outages or regressions with rapid containment, alternatives, communication, root-cause analysis, and prevention.
+
+11. Skill Name: Localization Release Manager
+
+Description: Coordinates source freeze, translation, review, functional QA, accessibility checks, deployment, monitoring, and rollback by locale.
+
+12. Skill Name: Continuous Accessibility Monitoring
+
+Description: Combines production scanning, synthetic journeys, user feedback, analytics, and scheduled manual audits without treating automation as complete coverage.
+
+13. Skill Name: Accessibility Training Curriculum Builder
+
+Description: Creates role-based learning for leadership, procurement, design, engineering, content, QA, support, and localization teams.
+
+14. Skill Name: Accessible Help Center Auditor
+
+Description: Checks knowledge articles, search, media, attachments, chat, contact paths, and localized support content for accessible completion.
+
+Appendix: Recommended Skill Specification Fields
+
+When these catalog entries are converted into executable skills, use a consistent specification so they can be evaluated, repaired, reused, and combined safely.
+
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Field                               Definition
+  ----------------------------------- ---------------------------------------------------------------------------------------------------------------------------
+  Purpose                             The exact user or system outcome the skill is responsible for.
+
+  Triggers                            Requests, files, conditions, or workflow states that should activate the skill.
+
+  Inputs                              Required and optional data, formats, versions, locales, platforms, and constraints.
+
+  Outputs                             Artifacts, reports, structured findings, fixes, evidence, and status returned.
+
+  Supported Standards                 Applicable WCAG criteria, platform guidance, document standards, or localization rules.
+
+  Toolchain                           Approved scanners, assistive technologies, browsers, devices, parsers, and review environments.
+
+  Execution Procedure                 Ordered steps with checkpoints and deterministic handoffs.
+
+  Pass and Fail Criteria              Observable conditions that determine success, failure, severity, and release blocking.
+
+  Human Review Points                 Decisions requiring disabled users, translators, linguists, subject experts, or legal owners.
+
+  Edge Cases                          Dynamic states, unusual inputs, mixed scripts, offline use, slow networks, errors, and assistive-technology combinations.
+
+  Evidence                            Screenshots, transcripts, logs, test cases, sample files, issue references, and verification results.
+
+  Repair Strategy                     How to isolate root causes, preserve passing work, implement the smallest fix, and retest regressions.
+
+  Privacy and Security                Rules for recordings, personal data, user-generated content, third parties, and secure retention.
+
+  Versioning                          Skill version, standards baseline, dependencies, supported products, and deprecation policy.
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------

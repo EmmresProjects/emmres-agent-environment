@@ -1,0 +1,1308 @@
+IMAGE CREATION AND EDITING
+SKILL CATALOG
+
+Generation, Editing, GIFs, Animation Frames, Formats, Production, and Quality
+
+A comprehensive catalog of reusable image capability concepts for creating, transforming, restoring, animating, organizing, validating, and delivering visual assets across realistic, fictional, artistic, technical, commercial, and educational uses.
+
+29 categories | 290 skill concepts
+
+Catalog Guide
+
+Each entry is a proposed reusable skill concept. This catalog describes purpose and scope only. It does not contain executable skill packages or claim that every file format is supported by every image tool. Future builders should connect each skill to the image models, editors, encoders, storage systems, and review tools available in the target environment.
+
+Recommended Fields for Future Skill Builds
+
+- Trigger conditions and example requests
+
+- Accepted inputs, references, masks, and image formats
+
+- Output contract, dimensions, color mode, transparency, and naming
+
+- Generation or editing workflow and preservation rules
+
+- Safety, consent, rights, provenance, and disclosure controls
+
+- Quality gates for composition, realism, continuity, text, and artifacts
+
+- Batch behavior, resource limits, retries, and failure recovery
+
+- Editable masters, derivatives, metadata, and handoff tests
+
+Category Index
+
+1. Core Image Creation and Direction (10 skills)
+
+2. Photorealistic and Real-World Imagery (10 skills)
+
+3. Fiction, Fantasy, and Worldbuilding (10 skills)
+
+4. Illustration and Fine Art Styles (10 skills)
+
+5. Graphic Design and Marketing Images (10 skills)
+
+6. Brand Identity and Visual Systems (10 skills)
+
+7. Product, Packaging, and Commerce (10 skills)
+
+8. Characters, Avatars, and Subject Continuity (10 skills)
+
+9. Environments, Architecture, and Spatial Design (10 skills)
+
+10. Image Editing and Retouching (10 skills)
+
+11. Portrait and People Image Editing (10 skills)
+
+12. Color, Lighting, and Atmosphere (10 skills)
+
+13. Backgrounds, Cutouts, and Transparency (10 skills)
+
+14. Restoration, Repair, and Enhancement (10 skills)
+
+15. Text, Typography, and Image Layout (10 skills)
+
+16. Icons, Symbols, Stickers, and Small Assets (10 skills)
+
+17. Patterns, Textures, and Materials (10 skills)
+
+18. Comics, Storyboards, and Sequential Art (10 skills)
+
+19. GIF, Animation Frames, and Motion Preparation (10 skills)
+
+20. Multi-Image Editing and Series Production (10 skills)
+
+21. Technical, Scientific, and Educational Images (10 skills)
+
+22. Web, App, and Interface Imagery (10 skills)
+
+23. Print, Publishing, and Large Format (10 skills)
+
+24. File Formats, Conversion, and Delivery (10 skills)
+
+25. Quality Assurance and Visual Evaluation (10 skills)
+
+26. Safety, Rights, Authenticity, and Responsible Use (10 skills)
+
+27. Automation, Pipelines, and Scalable Production (10 skills)
+
+28. Advanced Image Analysis and Transformation (10 skills)
+
+29. Image Library, Asset Management, and Handoff (10 skills)
+
+Category 1: Core Image Creation and Direction
+
+1. Skill Name: Universal Image Creator
+
+Description: Creates original images from natural-language briefs across realistic, fictional, stylized, abstract, technical, and mixed-media directions while honoring composition, subject, mood, palette, and delivery constraints.
+
+2. Skill Name: Creative Brief Interpreter
+
+Description: Transforms rough ideas into production-ready image specifications covering subject, audience, purpose, style, framing, lighting, colors, dimensions, exclusions, and acceptance criteria.
+
+3. Skill Name: Prompt Architect
+
+Description: Builds precise generation prompts with scene structure, visual hierarchy, camera language, material cues, style controls, and negative constraints.
+
+4. Skill Name: Prompt Variant Generator
+
+Description: Produces meaningfully different prompt options for composition, lens, lighting, palette, era, medium, and narrative emphasis.
+
+5. Skill Name: Art Direction Manager
+
+Description: Maintains a coherent creative direction across images, revisions, contributors, formats, and campaign assets.
+
+6. Skill Name: Visual Concept Explorer
+
+Description: Generates diverse concept directions before committing production effort and documents the strongest visual hypotheses.
+
+7. Skill Name: Composition Planner
+
+Description: Designs subject placement, focal hierarchy, balance, negative space, depth, rhythm, leading lines, and crop safety.
+
+8. Skill Name: Image Specification Builder
+
+Description: Defines resolution, aspect ratio, color mode, transparency, file format, compression, metadata, and downstream use requirements.
+
+9. Skill Name: Reference-Aware Creator
+
+Description: Uses supplied visual references for structure, palette, materials, or style while preventing unsupported identity or ownership claims.
+
+10. Skill Name: Iterative Image Refiner
+
+Description: Improves an image through controlled revisions that preserve approved elements and change only requested regions or properties.
+
+Category 2: Photorealistic and Real-World Imagery
+
+1. Skill Name: Photorealistic Scene Generator
+
+Description: Creates physically plausible real-world scenes with natural materials, light behavior, depth, camera perspective, and environmental detail.
+
+2. Skill Name: Studio Photography Simulator
+
+Description: Produces controlled product, portrait, fashion, food, or object imagery with defined backdrops, light modifiers, shadows, and lens treatment.
+
+3. Skill Name: Environmental Photography Creator
+
+Description: Builds believable indoor and outdoor scenes with weather, time of day, geography, architecture, and atmospheric perspective.
+
+4. Skill Name: Documentary Style Image Maker
+
+Description: Creates observational, candid-looking imagery with restrained styling, authentic environments, and narrative context.
+
+5. Skill Name: Editorial Photography Director
+
+Description: Produces publication-ready conceptual photography with a clear point of view and deliberate art direction.
+
+6. Skill Name: Macro Photography Generator
+
+Description: Creates close-up imagery with plausible magnification, shallow depth of field, fine texture, and controlled focus.
+
+7. Skill Name: Aerial and Drone View Creator
+
+Description: Builds top-down and oblique aerial compositions with believable terrain, scale, shadows, and spatial relationships.
+
+8. Skill Name: Architectural Visualization Creator
+
+Description: Generates interior and exterior architectural images with accurate perspective, materials, lighting, and human-scale cues.
+
+9. Skill Name: Lifestyle Scene Creator
+
+Description: Creates natural activity-based images designed around a product, service, place, or everyday situation.
+
+10. Skill Name: Photographic Continuity Checker
+
+Description: Reviews realism, anatomy, reflections, shadows, perspective, scale, and environmental consistency across a photographic set.
+
+Category 3: Fiction, Fantasy, and Worldbuilding
+
+1. Skill Name: Fantasy World Illustrator
+
+Description: Creates original magical environments, cultures, creatures, artifacts, and visual histories with coherent world rules.
+
+2. Skill Name: Science Fiction Scene Designer
+
+Description: Builds futuristic technology, vehicles, habitats, interfaces, and environments with internally consistent design language.
+
+3. Skill Name: Mythic Creature Creator
+
+Description: Designs original creatures with anatomy, silhouette, habitat, behavior, scale, and material logic.
+
+4. Skill Name: Alternate History Visualizer
+
+Description: Creates fictional historical scenarios while keeping period cues, technology boundaries, and invented divergence understandable.
+
+5. Skill Name: Surreal Image Maker
+
+Description: Combines impossible relationships, dream logic, symbolism, and visual metaphor into deliberate compositions.
+
+6. Skill Name: Post-Apocalyptic Environment Creator
+
+Description: Designs altered settlements, landscapes, infrastructure, and survival details with plausible decay and reuse.
+
+7. Skill Name: Magical Artifact Designer
+
+Description: Creates distinctive fictional objects with construction, function, symbolism, inscriptions, wear, and presentation views.
+
+8. Skill Name: Fictional Map Illustrator
+
+Description: Produces readable maps for invented worlds with terrain, settlements, routes, borders, landmarks, scale cues, and legends.
+
+9. Skill Name: World Style Bible Builder
+
+Description: Defines reusable visual rules for architecture, clothing, technology, creatures, colors, materials, and motifs.
+
+10. Skill Name: Lore-to-Image Translator
+
+Description: Converts prose lore into concrete scenes, props, locations, and character-neutral visual details without losing key narrative facts.
+
+Category 4: Illustration and Fine Art Styles
+
+1. Skill Name: Digital Illustration Creator
+
+Description: Creates polished raster or vector-like illustrations for editorial, publishing, advertising, education, or entertainment uses.
+
+2. Skill Name: Traditional Media Simulator
+
+Description: Produces visuals inspired by watercolor, gouache, ink, charcoal, pastel, acrylic, oil, collage, printmaking, or mixed media.
+
+3. Skill Name: Concept Art Painter
+
+Description: Develops exploratory paintings for environments, props, creatures, vehicles, and production design.
+
+4. Skill Name: Storybook Illustrator
+
+Description: Creates friendly, readable narrative illustrations with page composition, character continuity, and age-appropriate visual complexity.
+
+5. Skill Name: Editorial Illustration Maker
+
+Description: Turns abstract issues and ideas into concise visual metaphors suitable for articles and opinion pieces.
+
+6. Skill Name: Botanical and Natural History Illustrator
+
+Description: Creates detailed plant, animal, mineral, and ecological studies with labeled or unlabeled presentation options.
+
+7. Skill Name: Fashion Illustration Creator
+
+Description: Produces garment-focused sketches and polished looks showing silhouette, fabric behavior, details, and accessories.
+
+8. Skill Name: Line Art Generator
+
+Description: Creates clean outlines for coloring, diagrams, tattoos, craft patterns, engraving, or later rendering.
+
+9. Skill Name: Printmaking Style Creator
+
+Description: Builds woodcut, linocut, etching, screen-print, risograph, or halftone-inspired artwork with production-aware texture.
+
+10. Skill Name: Style Consistency Supervisor
+
+Description: Keeps stroke, texture, rendering density, palette, proportions, and visual vocabulary consistent through an illustration series.
+
+Category 5: Graphic Design and Marketing Images
+
+1. Skill Name: Campaign Key Visual Creator
+
+Description: Creates a central campaign image designed for adaptation across digital, print, social, retail, and presentation formats.
+
+2. Skill Name: Poster Designer
+
+Description: Produces attention-led poster artwork with image hierarchy, readable text zones, and print-safe composition.
+
+3. Skill Name: Social Media Image Maker
+
+Description: Creates platform-ready posts, stories, covers, thumbnails, and carousel panels with safe zones and mobile readability.
+
+4. Skill Name: Advertisement Visual Creator
+
+Description: Builds product- or message-centered advertising imagery with clear focal points and conversion-oriented composition.
+
+5. Skill Name: Banner and Header Designer
+
+Description: Creates wide and responsive visuals that preserve subjects and text-safe areas across crops.
+
+6. Skill Name: Brochure and Flyer Visual Maker
+
+Description: Produces supporting imagery and decorative assets suited to structured print layouts.
+
+7. Skill Name: Album and Podcast Cover Creator
+
+Description: Designs square cover art with strong small-size recognition, mood, genre cues, and title-safe placement.
+
+8. Skill Name: Event Visual Identity Maker
+
+Description: Creates event artwork, backgrounds, badges, signage elements, and coordinated promotional images.
+
+9. Skill Name: Merchandise Graphic Creator
+
+Description: Designs graphics for shirts, stickers, bags, packaging, and promotional items with production constraints in mind.
+
+10. Skill Name: Campaign Adaptation Manager
+
+Description: Reformats and re-composes approved artwork for many aspect ratios without losing message, hierarchy, or identity.
+
+Category 6: Brand Identity and Visual Systems
+
+1. Skill Name: Logo Concept Generator
+
+Description: Develops original logo directions with simple silhouettes, scalability, color variants, and distinctiveness checks.
+
+2. Skill Name: Brand Mark Refiner
+
+Description: Cleans geometry, spacing, alignment, optical balance, and reproduction behavior of an existing mark.
+
+3. Skill Name: Visual Identity System Builder
+
+Description: Defines coordinated logo use, color, typography, imagery, patterns, iconography, and layout behavior.
+
+4. Skill Name: Brand Asset Creator
+
+Description: Produces reusable backgrounds, frames, patterns, dividers, badges, textures, and social templates.
+
+5. Skill Name: Brand Image Style Director
+
+Description: Creates an image-generation style guide covering subjects, lighting, composition, palette, inclusions, and exclusions.
+
+6. Skill Name: Color Palette Developer
+
+Description: Builds accessible primary, secondary, neutral, and semantic palettes with print and screen equivalents.
+
+7. Skill Name: Pattern and Motif Designer
+
+Description: Creates seamless or placement patterns that reflect a brand theme and reproduce cleanly.
+
+8. Skill Name: Brand Consistency Auditor
+
+Description: Checks assets for incorrect colors, proportions, spacing, typography, imagery style, and logo handling.
+
+9. Skill Name: Co-Branding Layout Planner
+
+Description: Balances multiple marks and visual systems using defined hierarchy, clear space, and contrast rules.
+
+10. Skill Name: Brand Refresh Visualizer
+
+Description: Explores evolutionary updates that preserve recognition while improving clarity, flexibility, and current relevance.
+
+Category 7: Product, Packaging, and Commerce
+
+1. Skill Name: Product Image Generator
+
+Description: Creates clean product-focused imagery with accurate shape, materials, labels, shadows, and presentation context.
+
+2. Skill Name: E-Commerce Listing Image Maker
+
+Description: Produces primary, alternate-angle, detail, scale, feature, and lifestyle listing images with marketplace-safe framing.
+
+3. Skill Name: Packaging Concept Designer
+
+Description: Develops boxes, bottles, pouches, labels, sleeves, and unboxing concepts with hierarchy and production surfaces.
+
+4. Skill Name: Packaging Mockup Creator
+
+Description: Places approved artwork onto believable packaging forms while preserving perspective and print boundaries.
+
+5. Skill Name: Product Variant Visualizer
+
+Description: Creates controlled color, material, size, accessory, and configuration variants from a stable base design.
+
+6. Skill Name: Exploded Product View Creator
+
+Description: Separates components spatially to explain assembly, layers, or functionality while retaining alignment.
+
+7. Skill Name: Product Detail Enhancer
+
+Description: Improves texture, edge clarity, surface finish, small features, and visual cleanliness without changing the product design.
+
+8. Skill Name: Virtual Staging Creator
+
+Description: Places products into coordinated environments with plausible scale, contact shadows, reflections, and visual focus.
+
+9. Skill Name: Retail Display Visualizer
+
+Description: Designs shelf, kiosk, booth, window, and point-of-sale presentations around products and customer flow.
+
+10. Skill Name: Commerce Image Compliance Checker
+
+Description: Reviews backgrounds, crop, resolution, labels, claims, watermarking, and marketplace-specific image requirements.
+
+Category 8: Characters, Avatars, and Subject Continuity
+
+1. Skill Name: Original Character Designer
+
+Description: Creates fictional character concepts with silhouette, wardrobe, equipment, color language, and turnaround needs.
+
+2. Skill Name: Character Sheet Creator
+
+Description: Produces front, side, back, expression, pose, outfit, and prop views for consistent production.
+
+3. Skill Name: Avatar Creator
+
+Description: Builds profile images and digital personas in realistic, illustrated, iconographic, or stylized forms.
+
+4. Skill Name: Character Continuity Manager
+
+Description: Maintains approved face-neutral design traits, proportions, wardrobe, colors, accessories, and markings across scenes.
+
+5. Skill Name: Expression Sheet Generator
+
+Description: Creates a range of readable facial configurations for fictional characters without assigning mental states or identity.
+
+6. Skill Name: Pose Library Creator
+
+Description: Produces clearly staged body poses for animation, comics, games, reference, or composition planning.
+
+7. Skill Name: Costume and Wardrobe Designer
+
+Description: Develops outfits from narrative, era, function, climate, movement, and material requirements.
+
+8. Skill Name: Creature Turnaround Builder
+
+Description: Creates consistent multi-angle views, scale references, anatomy notes, and movement silhouettes for original creatures.
+
+9. Skill Name: Crowd Scene Composer
+
+Description: Builds readable groups with varied actions, depth, spacing, and focal hierarchy while avoiding unintended duplicates.
+
+10. Skill Name: Subject Replacement Editor
+
+Description: Replaces a fictional or authorized subject while preserving scene geometry, lighting, occlusion, and overall composition.
+
+Category 9: Environments, Architecture, and Spatial Design
+
+1. Skill Name: Environment Concept Designer
+
+Description: Creates production-ready locations that communicate function, scale, atmosphere, pathways, and story.
+
+2. Skill Name: Interior Design Visualizer
+
+Description: Generates room concepts with furniture layout, materials, lighting, décor, and practical circulation.
+
+3. Skill Name: Exterior Design Visualizer
+
+Description: Creates building and landscape exteriors with site context, weather, time, and material options.
+
+4. Skill Name: Landscape Design Illustrator
+
+Description: Visualizes gardens, public spaces, paths, planting, water, furniture, and seasonal conditions.
+
+5. Skill Name: Set Design Creator
+
+Description: Develops stage, studio, retail, exhibition, and screen sets with sightlines and production considerations.
+
+6. Skill Name: Spatial Mood Board Maker
+
+Description: Combines material, color, furniture, lighting, and architectural references into a coherent direction board.
+
+7. Skill Name: Before-and-After Space Visualizer
+
+Description: Shows controlled renovation, furnishing, cleanup, restoration, or seasonal changes from a shared viewpoint.
+
+8. Skill Name: Floor Plan Presentation Enhancer
+
+Description: Turns supplied plans into clear presentation graphics, furnished diagrams, or isometric visualizations.
+
+9. Skill Name: Isometric Scene Creator
+
+Description: Builds readable isometric rooms, buildings, systems, and miniature worlds with consistent projection.
+
+10. Skill Name: Environment Continuity Checker
+
+Description: Checks architecture, geography, sun direction, materials, scale, entrances, and landmarks across scene images.
+
+Category 10: Image Editing and Retouching
+
+1. Skill Name: General Image Editor
+
+Description: Performs crop, rotate, resize, straighten, flip, extend, transform, recolor, cleanup, and controlled content edits.
+
+2. Skill Name: Non-Destructive Edit Planner
+
+Description: Organizes reversible edit stages and preserves an untouched source plus clearly named versions.
+
+3. Skill Name: Object Removal Editor
+
+Description: Removes unwanted objects and reconstructs the occluded background with matching texture, geometry, and light.
+
+4. Skill Name: Object Addition Editor
+
+Description: Adds supplied or generated objects with correct perspective, scale, edge quality, shadows, reflections, and occlusion.
+
+5. Skill Name: Background Replacement Editor
+
+Description: Separates the foreground and installs a new background with believable color spill, depth, and contact.
+
+6. Skill Name: Sky Replacement Editor
+
+Description: Changes sky and atmosphere while updating scene color, reflections, haze, and light direction consistently.
+
+7. Skill Name: Distraction Cleanup Editor
+
+Description: Removes blemishes, dust, wires, clutter, sensor spots, stray elements, and minor visual distractions.
+
+8. Skill Name: Perspective Correction Editor
+
+Description: Corrects keystoning, horizon, lens distortion, warped geometry, and document or architecture alignment.
+
+9. Skill Name: Composite Image Builder
+
+Description: Combines multiple sources into a unified image with matched perspective, depth, lighting, color, and grain.
+
+10. Skill Name: Edit Difference Reviewer
+
+Description: Compares source and edited versions to verify requested changes, preserved regions, realism, and accidental alterations.
+
+Category 11: Portrait and People Image Editing
+
+1. Skill Name: Portrait Retoucher
+
+Description: Performs natural skin, hair, clothing, background, and tonal cleanup while preserving realistic texture and authorized likeness.
+
+2. Skill Name: Headshot Background Editor
+
+Description: Creates professional background options and balances subject separation, crop, lighting, and edge detail.
+
+3. Skill Name: Group Photo Editor
+
+Description: Combines or improves authorized group images while preserving scale, gaze direction, shadows, and natural spacing.
+
+4. Skill Name: Wardrobe Color Editor
+
+Description: Changes clothing color or material appearance while retaining folds, shading, texture, and boundaries.
+
+5. Skill Name: Hair Detail Editor
+
+Description: Refines flyaways, masks, shape, color, and edge transitions without creating helmet-like results.
+
+6. Skill Name: Eyewear and Reflection Editor
+
+Description: Reduces reflections or adjusts authorized eyewear while maintaining lens shape, transparency, and facial detail.
+
+7. Skill Name: Portrait Lighting Balancer
+
+Description: Corrects uneven exposure, color casts, distracting highlights, and background luminance.
+
+8. Skill Name: Age-Appropriate Portrait Enhancer
+
+Description: Improves a portrait without deceptive identity changes and retains natural, context-appropriate features.
+
+9. Skill Name: ID and Profile Crop Specialist
+
+Description: Creates correctly framed profile and identification crops when lawful requirements and source details are supplied.
+
+10. Skill Name: Likeness Preservation Auditor
+
+Description: Checks that authorized edits preserve defining visible features and do not introduce unintended identity drift.
+
+Category 12: Color, Lighting, and Atmosphere
+
+1. Skill Name: Color Grading Artist
+
+Description: Applies a unified color treatment that supports mood, subject separation, detail, and output medium.
+
+2. Skill Name: White Balance Corrector
+
+Description: Neutralizes unwanted color casts while protecting deliberate ambient light and skin-neutral regions.
+
+3. Skill Name: Exposure and Dynamic Range Editor
+
+Description: Recovers usable tonal detail, balances highlights and shadows, and avoids flat or artificial contrast.
+
+4. Skill Name: Relighting Editor
+
+Description: Changes apparent light direction, softness, intensity, color, and shadow behavior within plausible scene constraints.
+
+5. Skill Name: Day-to-Night Converter
+
+Description: Transforms time of day with coordinated sky, practical lights, reflections, contrast, and atmospheric changes.
+
+6. Skill Name: Season and Weather Transformer
+
+Description: Changes rain, snow, fog, sunlight, foliage, or seasonal cues while preserving scene structure.
+
+7. Skill Name: Cinematic Look Designer
+
+Description: Builds controlled filmic contrast, palette, highlight roll-off, grain, bloom, and aspect treatment.
+
+8. Skill Name: Palette Transfer Editor
+
+Description: Applies the palette relationships of a reference while retaining the target image structure and material readability.
+
+9. Skill Name: Atmospheric Depth Enhancer
+
+Description: Adds physically plausible haze, distance contrast, light shafts, and depth separation.
+
+10. Skill Name: Color Accessibility Reviewer
+
+Description: Checks contrast, hue dependence, color-vision accessibility, and grayscale readability for informational imagery.
+
+Category 13: Backgrounds, Cutouts, and Transparency
+
+1. Skill Name: Background Remover
+
+Description: Creates clean transparent cutouts with careful treatment of hair, fur, glass, smoke, fabric, and soft edges.
+
+2. Skill Name: Alpha Matte Refiner
+
+Description: Repairs halos, color contamination, edge chatter, semitransparency, and matte inconsistencies.
+
+3. Skill Name: Transparent Asset Creator
+
+Description: Produces isolated PNG, WebP, TIFF, or other supported assets with correct alpha behavior and padding.
+
+4. Skill Name: Solid Background Generator
+
+Description: Places subjects on exact neutral or branded colors with even coverage and natural contact shadows.
+
+5. Skill Name: Seamless Background Extender
+
+Description: Expands canvas edges while continuing texture, geometry, depth, and light consistently.
+
+6. Skill Name: Studio Sweep Builder
+
+Description: Creates clean cyclorama or tabletop backgrounds for products and subjects.
+
+7. Skill Name: Foreground Extraction Specialist
+
+Description: Separates complex overlapping foreground elements into reusable layers or masks.
+
+8. Skill Name: Shadow Extraction Editor
+
+Description: Creates independent natural shadow layers suitable for product compositing.
+
+9. Skill Name: Edge Decontamination Editor
+
+Description: Removes old-background color spill and reconstructs plausible edge colors.
+
+10. Skill Name: Cutout Quality Inspector
+
+Description: Checks transparent assets against light, dark, colored, and patterned backgrounds for halos and missing detail.
+
+Category 14: Restoration, Repair, and Enhancement
+
+1. Skill Name: Old Photo Restorer
+
+Description: Repairs scratches, tears, fading, stains, dust, and missing regions while preserving the historical character of the source.
+
+2. Skill Name: Image Denoiser
+
+Description: Reduces sensor, compression, scan, or low-light noise while protecting edges and real texture.
+
+3. Skill Name: Deblur and Sharpening Editor
+
+Description: Improves perceived clarity within recoverable limits and avoids halos, ringing, or invented detail claims.
+
+4. Skill Name: Resolution Upscaler
+
+Description: Increases pixel dimensions for print or display and reports when fine detail is reconstructed rather than recovered.
+
+5. Skill Name: Compression Artifact Repairer
+
+Description: Reduces blockiness, banding, mosquito noise, and ringing from heavily compressed images.
+
+6. Skill Name: Colorization Artist
+
+Description: Adds historically plausible or creatively directed color to monochrome images while labeling the result as colorized.
+
+7. Skill Name: Damage Reconstruction Editor
+
+Description: Rebuilds missing corners, torn areas, or occluded regions using surrounding evidence and disclosed inference.
+
+8. Skill Name: Scan Cleanup Specialist
+
+Description: Straightens, crops, removes borders, evens paper tone, and cleans dust from scanned photographs and artwork.
+
+9. Skill Name: Batch Restoration Manager
+
+Description: Applies consistent restoration settings across a collection while preserving per-image exceptions.
+
+10. Skill Name: Restoration Authenticity Reviewer
+
+Description: Distinguishes source-preserving repair from speculative reconstruction and flags historically uncertain details.
+
+Category 15: Text, Typography, and Image Layout
+
+1. Skill Name: Text-in-Image Designer
+
+Description: Creates images with readable, correctly spelled, well-positioned text and sufficient contrast.
+
+2. Skill Name: Typography Layout Artist
+
+Description: Balances type hierarchy, line length, spacing, alignment, scale, and image interaction.
+
+3. Skill Name: Text Replacement Editor
+
+Description: Replaces visible text while matching perspective, material, lighting, distortion, and surrounding design.
+
+4. Skill Name: Signage Mockup Creator
+
+Description: Places supplied wording onto signs, storefronts, vehicles, displays, and environmental surfaces.
+
+5. Skill Name: Infographic Visual Designer
+
+Description: Builds clear information graphics from supplied facts with hierarchy, labels, legends, and accessible encoding.
+
+6. Skill Name: Quote Card Maker
+
+Description: Creates polished text-led social or presentation images with brand-safe typography and spacing.
+
+7. Skill Name: Localization Layout Adapter
+
+Description: Reflows image text for another language, script direction, or expansion while preserving hierarchy.
+
+8. Skill Name: Caption and Label Placer
+
+Description: Adds readable annotations, callouts, arrows, legends, and labels without covering critical content.
+
+9. Skill Name: Text Legibility Checker
+
+Description: Reviews spelling, contrast, size, crowding, alignment, cropping, and readability at intended display size.
+
+10. Skill Name: Text-Free Visual Variant Creator
+
+Description: Removes text and rebuilds a clean visual base for later localization or layout work.
+
+Category 16: Icons, Symbols, Stickers, and Small Assets
+
+1. Skill Name: Icon Set Designer
+
+Description: Creates a consistent family of icons with shared grid, stroke, corner, fill, optical weight, and metaphors.
+
+2. Skill Name: App Icon Creator
+
+Description: Designs recognizable launcher icons with platform-safe margins, simplified detail, and size testing.
+
+3. Skill Name: Favicon and Micro-Asset Maker
+
+Description: Creates clear extremely small assets and exports the required resolution variants.
+
+4. Skill Name: Sticker Creator
+
+Description: Produces die-cut sticker artwork with outlines, transparency, readable shapes, and print-safe borders.
+
+5. Skill Name: Emoji-Style Asset Creator
+
+Description: Builds expressive small graphics with consistent perspective, shading, palette, and transparent backgrounds.
+
+6. Skill Name: Symbol Simplifier
+
+Description: Reduces a complex concept into a clear, culturally cautious, and scalable symbol.
+
+7. Skill Name: Badge and Seal Designer
+
+Description: Creates circular, shield, patch, or emblem-style graphics with balanced text and production detail.
+
+8. Skill Name: Pixel Art Asset Maker
+
+Description: Produces grid-consistent sprites, icons, tiles, and objects with controlled palettes and crisp scaling.
+
+9. Skill Name: UI Illustration Asset Creator
+
+Description: Creates lightweight illustrations suited to onboarding, empty states, errors, and feature education.
+
+10. Skill Name: Small-Size Readability Tester
+
+Description: Checks assets at target pixel sizes for silhouette, contrast, detail loss, and optical balance.
+
+Category 17: Patterns, Textures, and Materials
+
+1. Skill Name: Seamless Pattern Generator
+
+Description: Creates tileable repeat patterns with controlled spacing, direction, scale, and edge continuity.
+
+2. Skill Name: Surface Texture Creator
+
+Description: Produces reusable textures such as paper, stone, metal, fabric, wood, paint, and organic surfaces.
+
+3. Skill Name: Material Map Builder
+
+Description: Creates coordinated color, roughness, metallic, normal-like, height-like, and opacity reference maps where appropriate.
+
+4. Skill Name: Fabric Print Designer
+
+Description: Develops repeat artwork with color separations, motif scale, repeat logic, and textile use in mind.
+
+5. Skill Name: Wallpaper Pattern Designer
+
+Description: Builds wall-scale repeats with room preview options and production-aware rhythm.
+
+6. Skill Name: Procedural Texture Planner
+
+Description: Defines repeatable rules for generating controlled variations of a material or pattern.
+
+7. Skill Name: Grunge and Distress Creator
+
+Description: Adds controlled wear, grain, scratches, ink variation, erosion, or aging as editable overlays.
+
+8. Skill Name: Texture Cleanup Editor
+
+Description: Removes seams, lighting gradients, perspective, objects, and non-uniformity from captured material references.
+
+9. Skill Name: Pattern Recoloring Editor
+
+Description: Creates coordinated palette variants while preserving motif hierarchy and edge quality.
+
+10. Skill Name: Tiling Quality Inspector
+
+Description: Tests repeats at multiple scales and detects visible seams, unintended clusters, banding, and direction artifacts.
+
+Category 18: Comics, Storyboards, and Sequential Art
+
+1. Skill Name: Storyboard Frame Generator
+
+Description: Creates production frames that communicate shot size, camera angle, blocking, action, and continuity.
+
+2. Skill Name: Comic Page Designer
+
+Description: Builds panel layouts, gutters, reading order, speech zones, pacing, and dramatic emphasis.
+
+3. Skill Name: Sequential Art Continuity Manager
+
+Description: Maintains character, prop, setting, lighting, screen direction, and wardrobe consistency across panels.
+
+4. Skill Name: Visual Beat Planner
+
+Description: Translates a script or scene into key visual moments and assigns each beat a framing purpose.
+
+5. Skill Name: Speech Bubble Layout Editor
+
+Description: Places dialogue balloons, captions, and sound effects with clear reading order and unobstructed subjects.
+
+6. Skill Name: Manga-Inspired Page Creator
+
+Description: Creates black-and-white sequential artwork using screentones, speed lines, controlled contrast, and page rhythm.
+
+7. Skill Name: Motion Comic Asset Builder
+
+Description: Separates panels into foreground, character, effect, and background layers for later animation.
+
+8. Skill Name: Panel Recomposition Editor
+
+Description: Adapts existing approved art to new panel dimensions while protecting focal action and readability.
+
+9. Skill Name: Storyboard Revision Manager
+
+Description: Applies shot notes consistently and keeps frame numbering, versions, and scene order synchronized.
+
+10. Skill Name: Sequence Readability Reviewer
+
+Description: Checks visual continuity, axis, action clarity, pacing, text order, and scene progression.
+
+Category 19: GIF, Animation Frames, and Motion Preparation
+
+1. Skill Name: Animated GIF Creator
+
+Description: Builds short looping animations from generated or supplied frames with optimized timing, palette, dimensions, and file size.
+
+2. Skill Name: Frame-by-Frame Image Generator
+
+Description: Creates ordered animation frames with controlled pose, camera, background, lighting, and object continuity.
+
+3. Skill Name: Keyframe Designer
+
+Description: Defines the important poses or visual states that communicate an action before in-between generation.
+
+4. Skill Name: In-Between Frame Planner
+
+Description: Specifies transition frames, spacing, arcs, easing, and timing between approved keyframes.
+
+5. Skill Name: Loop Animation Designer
+
+Description: Creates seamless cycles such as walk, idle, rotation, loading, weather, glow, or texture movement.
+
+6. Skill Name: Sprite Sheet Builder
+
+Description: Arranges animation frames into consistent grids with transparent backgrounds, padding, labels, and export metadata.
+
+7. Skill Name: Cinemagraph Planner
+
+Description: Isolates a small repeating motion region while keeping the rest of the image stable.
+
+8. Skill Name: Parallax Layer Preparer
+
+Description: Separates foreground, middle, and background layers and fills hidden regions for depth animation.
+
+9. Skill Name: Frame Consistency Auditor
+
+Description: Detects flicker, shape drift, color shifts, unstable edges, background movement, and timing discontinuities.
+
+10. Skill Name: GIF Optimization Specialist
+
+Description: Reduces file size through crop, palette control, frame disposal, timing, and redundant-frame removal while protecting quality.
+
+Category 20: Multi-Image Editing and Series Production
+
+1. Skill Name: Multi-Image Style Harmonizer
+
+Description: Aligns palette, contrast, grain, lighting, crop, and rendering style across a set.
+
+2. Skill Name: Batch Image Processor
+
+Description: Applies controlled resize, crop, conversion, metadata, naming, watermark, or correction operations to many files.
+
+3. Skill Name: Contact Sheet Creator
+
+Description: Arranges image collections into labeled review sheets with consistent thumbnails and selection information.
+
+4. Skill Name: Image Set Curator
+
+Description: Selects the strongest images by brief fit, technical quality, diversity, continuity, and duplication risk.
+
+5. Skill Name: Series Continuity Manager
+
+Description: Maintains repeated subjects, environments, objects, color language, and storytelling across a collection.
+
+6. Skill Name: Multi-Image Composite Builder
+
+Description: Combines selected parts from several images into a coherent final image with traceable sources.
+
+7. Skill Name: Variant Matrix Generator
+
+Description: Creates systematic combinations of composition, color, copy space, lighting, format, and subject options.
+
+8. Skill Name: Image Deduplication Reviewer
+
+Description: Finds exact and near-duplicate assets and identifies the cleanest or most useful version.
+
+9. Skill Name: Collection Naming and Metadata Manager
+
+Description: Applies consistent filenames, sequence numbers, descriptions, keywords, rights fields, and version labels.
+
+10. Skill Name: Batch Output Validator
+
+Description: Checks every exported file for dimensions, format, color profile, transparency, naming, and corruption.
+
+Category 21: Technical, Scientific, and Educational Images
+
+1. Skill Name: Technical Diagram Creator
+
+Description: Builds clear component, process, system, and relationship diagrams from supplied specifications.
+
+2. Skill Name: Scientific Illustration Maker
+
+Description: Creates explanatory scientific imagery with controlled accuracy, labels, scale cues, and uncertainty boundaries.
+
+3. Skill Name: Medical Illustration Coordinator
+
+Description: Produces educational biological visuals from authoritative references and clearly separates illustration from diagnosis.
+
+4. Skill Name: Exploded Assembly Illustrator
+
+Description: Shows parts, order, fasteners, alignment, and assembly relationships in a readable view.
+
+5. Skill Name: Cutaway and Cross-Section Creator
+
+Description: Reveals internal structures while preserving the external form and orientation.
+
+6. Skill Name: Instructional Step Image Maker
+
+Description: Creates sequential visuals for setup, assembly, repair, safety, craft, cooking, or classroom procedures.
+
+7. Skill Name: Map and Spatial Graphic Creator
+
+Description: Produces maps, routes, zones, landmarks, scale, north reference, and legends from supplied geographic facts.
+
+8. Skill Name: Educational Poster Maker
+
+Description: Combines images, diagrams, and concise labels into a classroom- or training-ready visual.
+
+9. Skill Name: Data Visualization Image Stylist
+
+Description: Formats supplied charts and plots for readable static-image delivery without altering the underlying data.
+
+10. Skill Name: Technical Accuracy Reviewer
+
+Description: Checks labels, orientation, dimensions, sequence, component relationships, and consistency against provided evidence.
+
+Category 22: Web, App, and Interface Imagery
+
+1. Skill Name: Website Hero Image Creator
+
+Description: Creates responsive hero imagery with focal placement, overlays, accessibility, and text-safe zones.
+
+2. Skill Name: Image-to-Layout Asset Extractor
+
+Description: Separates visual elements from a supplied mockup into reusable backgrounds, illustrations, icons, and crops.
+
+3. Skill Name: Responsive Image Crop Planner
+
+Description: Defines art-directed crops for desktop, tablet, mobile, card, and thumbnail contexts.
+
+4. Skill Name: App Onboarding Illustration Maker
+
+Description: Creates coherent instructional illustrations for feature introduction and setup flows.
+
+5. Skill Name: UI Background Creator
+
+Description: Builds subtle, low-distraction backgrounds, gradients, patterns, and visual atmospheres for interfaces.
+
+6. Skill Name: Open Graph Image Designer
+
+Description: Creates share-card images with safe text, recognizable branding, and platform-appropriate dimensions.
+
+7. Skill Name: Thumbnail Optimization Designer
+
+Description: Produces small-format images with clear subjects, contrast, curiosity, and truthful representation.
+
+8. Skill Name: Web Image Performance Optimizer
+
+Description: Selects appropriate dimensions, formats, compression, responsive variants, and lazy-loading assets.
+
+9. Skill Name: Dark and Light Mode Asset Adapter
+
+Description: Creates coordinated image variants that remain legible and harmonious across interface themes.
+
+10. Skill Name: Interface Image Accessibility Reviewer
+
+Description: Checks alt-text readiness, contrast, embedded text, decorative status, animation risk, and responsive cropping.
+
+Category 23: Print, Publishing, and Large Format
+
+1. Skill Name: Print Image Preflight Specialist
+
+Description: Checks effective resolution, bleed, crop, color mode, profile, transparency, and compression for intended print size.
+
+2. Skill Name: Book Cover Image Creator
+
+Description: Produces cover artwork with spine and trim awareness, genre signaling, focal hierarchy, and typography zones.
+
+3. Skill Name: Magazine Feature Visual Maker
+
+Description: Creates editorial spreads, openers, spot illustrations, and photo treatments with layout flexibility.
+
+4. Skill Name: Large Format Visual Designer
+
+Description: Builds billboard, banner, wall, vehicle, and exhibition graphics for distance viewing and enlarged output.
+
+5. Skill Name: Fine Art Print Preparer
+
+Description: Optimizes tonal range, color management, sharpening, borders, and resolution for high-quality prints.
+
+6. Skill Name: CMYK Conversion Reviewer
+
+Description: Evaluates color changes, gamut loss, rich black behavior, and proofing needs during print conversion.
+
+7. Skill Name: Bleed and Safe Area Planner
+
+Description: Extends artwork and protects critical content according to trim and finishing requirements.
+
+8. Skill Name: Image Tiling for Large Output
+
+Description: Splits oversized artwork into aligned panels with overlap, labels, and assembly planning.
+
+9. Skill Name: Publication Image Caption Manager
+
+Description: Pairs images with accurate captions, credits, numbering, and placement references.
+
+10. Skill Name: Print Proof Comparison Reviewer
+
+Description: Compares screen artwork, proof, and final output to identify color, crop, sharpness, and material differences.
+
+Category 24: File Formats, Conversion, and Delivery
+
+1. Skill Name: Universal Image Format Converter
+
+Description: Converts among common raster, vector-compatible, animated, layered, and web image formats while preserving supported properties.
+
+2. Skill Name: Raster Export Specialist
+
+Description: Exports PNG, JPEG, WebP, AVIF, TIFF, BMP, GIF, or other supported raster formats for the intended use.
+
+3. Skill Name: Vectorization Planner
+
+Description: Converts suitable simple artwork into scalable paths and identifies areas that require manual reconstruction.
+
+4. Skill Name: Layered File Packager
+
+Description: Organizes layers, groups, masks, names, linked assets, and editable elements for handoff.
+
+5. Skill Name: Color Profile Manager
+
+Description: Embeds, converts, or removes profiles intentionally for web, office, photography, and print workflows.
+
+6. Skill Name: Metadata Editor
+
+Description: Adds or removes titles, descriptions, keywords, copyright, location, camera, and workflow metadata as authorized.
+
+7. Skill Name: Resolution and DPI Manager
+
+Description: Sets pixel dimensions and print resolution correctly without confusing metadata changes with real detail.
+
+8. Skill Name: Transparency Preservation Converter
+
+Description: Maintains alpha channels and edge quality across compatible output formats.
+
+9. Skill Name: Archive Delivery Packager
+
+Description: Bundles masters, exports, previews, fonts or links, licenses, and usage notes in a clean folder structure.
+
+10. Skill Name: File Integrity Validator
+
+Description: Opens each output, verifies dimensions and channels, and detects corruption, missing layers, or unsupported features.
+
+Category 25: Quality Assurance and Visual Evaluation
+
+1. Skill Name: Image Requirement Traceability Checker
+
+Description: Maps every requested subject, element, style, dimension, format, and constraint to the delivered image set.
+
+2. Skill Name: Visual Artifact Detector
+
+Description: Finds malformed anatomy, repeated elements, broken geometry, warped text, inconsistent reflections, and generation artifacts.
+
+3. Skill Name: Composition Quality Reviewer
+
+Description: Evaluates focal hierarchy, balance, crop, depth, clutter, tangencies, and intended negative space.
+
+4. Skill Name: Realism and Physics Reviewer
+
+Description: Checks scale, perspective, gravity, shadows, reflections, material response, and environmental interaction.
+
+5. Skill Name: Image Similarity Comparator
+
+Description: Measures and explains structural or perceptual differences among versions, references, or batches.
+
+6. Skill Name: Resolution and Sharpness Auditor
+
+Description: Checks pixel dimensions, effective detail, focus, resampling artifacts, and target-size suitability.
+
+7. Skill Name: Color and Contrast Auditor
+
+Description: Reviews clipping, banding, casts, gamut, local contrast, and accessibility.
+
+8. Skill Name: Continuity QA Manager
+
+Description: Checks recurring subjects, props, sets, style, lighting, camera, and chronology across images.
+
+9. Skill Name: Export Compliance Tester
+
+Description: Verifies file format, size, transparency, color mode, naming, metadata, and delivery structure.
+
+10. Skill Name: Final Visual Acceptance Manager
+
+Description: Runs a complete brief, technical, visual, safety, rights, and handoff review before release.
+
+Category 26: Safety, Rights, Authenticity, and Responsible Use
+
+1. Skill Name: Image Safety Reviewer
+
+Description: Checks requested and produced imagery for harmful, exploitative, illegal, or prohibited content before generation or delivery.
+
+2. Skill Name: Consent and Likeness Gate
+
+Description: Requires appropriate authorization for identity-sensitive editing, face replacement, private imagery, or deceptive impersonation risks.
+
+3. Skill Name: Copyright and License Tracker
+
+Description: Records sources, licenses, permissions, attribution, restrictions, and derivative-use conditions for supplied assets.
+
+4. Skill Name: Trademark and Brand Risk Reviewer
+
+Description: Flags unauthorized or confusing use of protected marks, packaging, characters, and trade dress.
+
+5. Skill Name: Authenticity Disclosure Manager
+
+Description: Adds appropriate disclosure when an image is synthetic, materially altered, reconstructed, colorized, or illustrative.
+
+6. Skill Name: Provenance Metadata Manager
+
+Description: Preserves available source history, edit lineage, creator information, timestamps, and content credentials.
+
+7. Skill Name: Sensitive Context Editor
+
+Description: Handles medical, disaster, conflict, intimate, or private imagery with heightened privacy and harm controls.
+
+8. Skill Name: Child Safety Image Gate
+
+Description: Applies strict safeguards to any imagery involving minors and rejects sexualization, exploitation, or unsafe transformations.
+
+9. Skill Name: Deception Risk Assessor
+
+Description: Evaluates whether realistic edits could mislead viewers about events, identity, evidence, endorsements, or product performance.
+
+10. Skill Name: Responsible Release Reviewer
+
+Description: Checks audience, context, disclosure, rights, foreseeable misuse, and distribution controls before publication.
+
+Category 27: Automation, Pipelines, and Scalable Production
+
+1. Skill Name: Image Workflow Orchestrator
+
+Description: Coordinates brief intake, generation, editing, review, export, naming, metadata, and delivery as a repeatable pipeline.
+
+2. Skill Name: Image Job Queue Manager
+
+Description: Prioritizes and schedules generation or editing jobs by urgency, complexity, resources, and dependencies.
+
+3. Skill Name: Parallel Variant Producer
+
+Description: Creates independent visual variants concurrently and gathers them for fair comparison.
+
+4. Skill Name: Template-Driven Image Generator
+
+Description: Populates controlled layouts from structured data while preserving brand and output rules.
+
+5. Skill Name: Automated Crop and Resize Pipeline
+
+Description: Creates many aspect ratios and dimensions with subject-aware framing and validation.
+
+6. Skill Name: Automated Background Processing
+
+Description: Runs approved removal, replacement, cleanup, and shadow operations across large collections.
+
+7. Skill Name: Image API Integration Planner
+
+Description: Defines request schemas, authentication, limits, retries, storage, moderation, and output handling for image services.
+
+8. Skill Name: Generation Seed and Reproducibility Manager
+
+Description: Records prompts, references, settings, seeds where supported, model versions, and edit history.
+
+9. Skill Name: Image Pipeline Failure Recovery
+
+Description: Retries transient failures, preserves completed assets, isolates corrupt outputs, and resumes from checkpoints.
+
+10. Skill Name: Production Dashboard Manager
+
+Description: Tracks image jobs, versions, approvals, costs, resolution, failures, and delivery status.
+
+Category 28: Advanced Image Analysis and Transformation
+
+1. Skill Name: Image Content Analyzer
+
+Description: Identifies visible objects, layout, text, colors, materials, spatial relationships, and technical properties for downstream work.
+
+2. Skill Name: Visual Search Preparation Manager
+
+Description: Creates embeddings, labels, thumbnails, and metadata needed to find similar or related images.
+
+3. Skill Name: Scene Relighting and Recomposition Planner
+
+Description: Separates scene structure into elements that can be safely repositioned, resized, or relit.
+
+4. Skill Name: Depth and Segmentation Asset Creator
+
+Description: Produces depth-like guides, masks, regions, or object maps for compositing and motion workflows.
+
+5. Skill Name: Multi-View Reconstruction Planner
+
+Description: Organizes authorized multi-angle images into consistent references for 3D or spatial reconstruction.
+
+6. Skill Name: Image Style Decomposer
+
+Description: Separates palette, texture, line, lighting, composition, era, and medium characteristics into reusable directions.
+
+7. Skill Name: Visual Difference Explainer
+
+Description: Describes meaningful changes between images at object, layout, color, quality, and semantic levels.
+
+8. Skill Name: Image Dataset Curator
+
+Description: Selects, labels, balances, deduplicates, and documents image collections for approved analytical or creative use.
+
+9. Skill Name: Synthetic Dataset Image Generator
+
+Description: Creates disclosed synthetic images and labels to cover controlled variations, rare cases, or privacy-preserving scenarios.
+
+10. Skill Name: Transformation Boundary Tester
+
+Description: Tests edits across difficult edges, extreme crops, low resolution, transparency, reflections, repeated patterns, and mixed lighting.
+
+Category 29: Image Library, Asset Management, and Handoff
+
+1. Skill Name: Digital Asset Librarian
+
+Description: Organizes images by project, subject, campaign, status, rights, format, date, and searchable metadata.
+
+2. Skill Name: Version Control Manager for Images
+
+Description: Tracks masters, branches, revisions, approvals, exports, and superseded assets without overwriting source work.
+
+3. Skill Name: Asset Naming Standard Builder
+
+Description: Defines stable filenames using project, content, variant, dimensions, language, version, and status.
+
+4. Skill Name: Image Rights Expiry Monitor
+
+Description: Tracks license end dates, territory, channels, usage limits, and replacement needs.
+
+5. Skill Name: Master and Derivative Manager
+
+Description: Keeps high-quality editable masters separate from optimized delivery derivatives.
+
+6. Skill Name: Asset Usage Guide Writer
+
+Description: Documents approved crops, backgrounds, clear space, minimum size, attribution, and prohibited modifications.
+
+7. Skill Name: Image Review Gallery Builder
+
+Description: Creates organized proofing sets with identifiers, comments, selections, and approval state.
+
+8. Skill Name: Duplicate and Near-Duplicate Cleaner
+
+Description: Identifies redundant assets while protecting intentional variants and approved masters.
+
+9. Skill Name: Long-Term Preservation Planner
+
+Description: Chooses durable formats, replication, checks, metadata, and migration rules for archival collections.
+
+10. Skill Name: Recipient Handoff Tester
+
+Description: Verifies that the recipient can open, preview, edit, animate, print, publish, or continue the delivered assets as intended.

@@ -1,0 +1,1327 @@
+A comprehensive catalog of composable agent skills for discovering, organizing, creating, installing, operating, validating, recovering, cleaning, and governing complete AI workspaces and execution environments.
+
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Catalog purpose. This document proposes focused skills for later implementation. It does not contain implemented skills. Each skill should preserve originals, use least privilege, prefer reversible operations, isolate risky work, record dependencies, validate actual outputs, clean temporary state, and deliver only requested artifacts.
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Workspace Management Principles
+
+- Inspect the real workspace before changing it. Build a verified map of files, tools, environments, resources, and dependencies.
+
+- Preserve source materials and user uploads. Use working copies, snapshots, backups, atomic writes, and explicit approval for destructive actions.
+
+- Install the smallest trusted dependency set into isolated, reproducible environments instead of mutating global state by default.
+
+- Separate inputs, sources, scratch work, caches, tests, builds, candidates, and final deliverables with clear ownership and lifecycle rules.
+
+- Use checks that can fail: structure, semantics, boundaries, integrations, regression, clean-state rebuild, presentation, and recipient handoff.
+
+- After completion, stop task-owned processes, remove temporary secrets and residue, retain required recovery state, and verify the final package.
+
+Catalog scope: 31 categories and 310 proposed skills.
+
+Catalog
+
+Category 1: Workspace Discovery and State Inspection
+
+1. Skill Name: Workspace Inventory Scanner
+
+  Description: Enumerates authorized files, folders, tools, runtimes, mounts, environment variables, processes, and resource limits without altering state.
+
+2. Skill Name: Current State Snapshotter
+
+  Description: Captures a reproducible summary of paths, versions, permissions, disk use, active services, and recent outputs before work begins.
+
+3. Skill Name: Hidden and System Artifact Inspector
+
+  Description: Finds hidden files, dot directories, temporary state, caches, lockfiles, metadata, and generated artifacts relevant to the task.
+
+4. Skill Name: Workspace Dependency Mapper
+
+  Description: Maps relationships among source files, generated outputs, packages, tools, configurations, datasets, and final deliverables.
+
+5. Skill Name: Recent Change Investigator
+
+  Description: Identifies recently changed files, timestamps, sizes, owners, and likely producing commands while separating evidence from inference.
+
+6. Skill Name: Workspace Health Assessor
+
+  Description: Checks disk capacity, path validity, permissions, corruption indicators, stale locks, broken links, and obvious environmental blockers.
+
+7. Skill Name: Tool Availability Surveyor
+
+  Description: Determines which CLIs, libraries, interpreters, compilers, renderers, and utilities are installed and callable.
+
+8. Skill Name: Environment Capability Matrix Builder
+
+  Description: Records supported formats, languages, tool versions, hardware features, network limits, and known incompatibilities.
+
+9. Skill Name: Workspace Search Indexer
+
+  Description: Builds a bounded index for filenames, metadata, text, symbols, hashes, and file types to support fast local discovery.
+
+10. Skill Name: State Difference Reporter
+
+  Description: Compares two workspace snapshots and reports additions, removals, modifications, permission changes, and resource drift.
+
+Category 2: File and Folder Organization
+
+1. Skill Name: Workspace Layout Architect
+
+  Description: Designs a clear project structure for inputs, sources, scripts, references, assets, builds, tests, reports, and final deliverables.
+
+2. Skill Name: File Classification Organizer
+
+  Description: Groups files by purpose, format, owner, lifecycle, project, sensitivity, and deliverable status using reversible rules.
+
+3. Skill Name: Folder Consolidation Planner
+
+  Description: Finds fragmented or duplicate project trees and proposes a safe canonical structure before moving content.
+
+4. Skill Name: Naming Convention Enforcer
+
+  Description: Applies documented names, dates, versions, identifiers, and extensions with collision checks and reversible mappings.
+
+5. Skill Name: Batch Move and Copy Operator
+
+  Description: Moves or copies approved files with preflight checks, conflict handling, progress tracking, and post-operation verification.
+
+6. Skill Name: Directory Tree Simplifier
+
+  Description: Reduces unnecessary nesting, ambiguous folders, duplicate staging areas, and orphaned output locations without losing provenance.
+
+7. Skill Name: Project Boundary Separator
+
+  Description: Separates unrelated projects, user inputs, generated files, shared assets, and temporary work to prevent accidental cross-contamination.
+
+8. Skill Name: Final Deliverable Folder Curator
+
+  Description: Ensures final output folders contain only requested deliverables with correct names, structure, and no scratch artifacts.
+
+9. Skill Name: Archive Structure Designer
+
+  Description: Packages completed or inactive work into logical, documented, searchable archives with checksums and restore instructions.
+
+10. Skill Name: Folder Integrity Auditor
+
+  Description: Checks for missing expected files, broken references, duplicate names, empty directories, permission errors, and inconsistent layout.
+
+Category 3: Safe File Operations and Preservation
+
+1. Skill Name: Original File Preservation Guardian
+
+  Description: Creates verified working copies and prevents accidental overwrite of user-supplied or source-of-truth files.
+
+2. Skill Name: Reversible File Operation Manager
+
+  Description: Uses previews, backups, transaction logs, and rollback mappings for renames, moves, conversions, and deletions.
+
+3. Skill Name: Copy Integrity Verifier
+
+  Description: Confirms file count, size, hash, metadata, and openability after copying or migration.
+
+4. Skill Name: Safe Delete Coordinator
+
+  Description: Uses explicit approval, dependency checks, quarantine or trash staging, and retention windows before permanent deletion.
+
+5. Skill Name: Overwrite Conflict Resolver
+
+  Description: Detects collisions and chooses approved skip, rename, merge, version, or replace behavior with evidence.
+
+6. Skill Name: Atomic File Writer
+
+  Description: Writes outputs through temporary files and atomic replacement to avoid partially written final artifacts.
+
+7. Skill Name: File Lock and Concurrency Manager
+
+  Description: Detects active writers, stale locks, shared access, and race conditions before modifying files.
+
+8. Skill Name: Symlink and Shortcut Safety Inspector
+
+  Description: Resolves links, detects loops or broken targets, and prevents operations from escaping authorized workspace boundaries.
+
+9. Skill Name: Metadata Preservation Specialist
+
+  Description: Preserves or deliberately normalizes timestamps, permissions, ownership, extended attributes, and document metadata.
+
+10. Skill Name: File Operation Recovery Specialist
+
+  Description: Reconstructs the earliest failed operation, preserves completed work, and resumes safely from the last verified checkpoint.
+
+Category 4: Temporary Files, Scratch Space, and Cleanup
+
+1. Skill Name: Scratch Workspace Creator
+
+  Description: Creates isolated temporary directories with clear ownership, purpose, quotas, and automatic cleanup boundaries.
+
+2. Skill Name: Temporary Artifact Tracker
+
+  Description: Records intermediate files, producing steps, dependencies, last use, and eligibility for cleanup.
+
+3. Skill Name: Cache Lifecycle Manager
+
+  Description: Identifies tool, package, build, render, browser, and data caches and clears only approved, reproducible content.
+
+4. Skill Name: Stale Output Detector
+
+  Description: Finds outputs older than their inputs, abandoned partial files, obsolete renders, and superseded packages.
+
+5. Skill Name: Safe Cleanup Planner
+
+  Description: Produces a deletion candidate list with size savings, risk, dependencies, and retention recommendations before acting.
+
+6. Skill Name: Disk Space Reclaimer
+
+  Description: Recovers space from verified temporary files, duplicate caches, old builds, and logs while protecting source data.
+
+7. Skill Name: Orphaned Artifact Collector
+
+  Description: Finds generated files with no current producer, reference, owner, or delivery purpose and stages them for review.
+
+8. Skill Name: Cleanup Exclusion Manager
+
+  Description: Protects user uploads, final deliverables, active builds, logs under investigation, and referenced assets from cleanup.
+
+9. Skill Name: Post-Task Workspace Sanitizer
+
+  Description: Removes secrets, transient credentials, temporary downloads, debug residue, and unnecessary intermediates after delivery.
+
+10. Skill Name: Cleanup Verification Auditor
+
+  Description: Confirms required files still open, builds still run, outputs remain intact, and reclaimed space matches expectations.
+
+Category 5: Environment Creation and Isolation
+
+1. Skill Name: Task Environment Architect
+
+  Description: Selects local process, virtual environment, container, virtual machine, or sandbox isolation according to dependencies and risk.
+
+2. Skill Name: Python Virtual Environment Manager
+
+  Description: Creates versioned Python environments, installs pinned packages, records interpreters, and validates imports.
+
+3. Skill Name: Node Environment Manager
+
+  Description: Creates isolated Node.js environments with pinned runtime, lockfile-respecting installation, scripts, and package validation.
+
+4. Skill Name: Container Workspace Builder
+
+  Description: Creates reproducible container environments with minimal base images, mounted inputs, controlled outputs, and non-root defaults.
+
+5. Skill Name: Ephemeral Test Environment Creator
+
+  Description: Builds disposable environments for experiments, untrusted inputs, compatibility checks, and failure reproduction.
+
+6. Skill Name: Multi-Version Runtime Manager
+
+  Description: Coordinates side-by-side Python, Node.js, Java, .NET, Ruby, Go, and other runtime versions without global conflicts.
+
+7. Skill Name: Environment Template Designer
+
+  Description: Creates reusable environment blueprints for recurring document, data, code, media, web, and testing workflows.
+
+8. Skill Name: Offline Environment Builder
+
+  Description: Prepares cached dependencies, local package sources, checksums, and instructions for network-restricted execution.
+
+9. Skill Name: GPU and Accelerator Environment Planner
+
+  Description: Detects available accelerators, runtime compatibility, memory limits, drivers, and CPU fallbacks.
+
+10. Skill Name: Environment Isolation Auditor
+
+  Description: Checks mounts, permissions, network access, secrets, user identity, resource limits, and host leakage.
+
+Category 6: Dependency Installation and Package Management
+
+1. Skill Name: Dependency Requirement Resolver
+
+  Description: Interprets manifests, imports, build files, errors, and documentation to identify the smallest required dependency set.
+
+2. Skill Name: Pinned Package Installer
+
+  Description: Installs exact approved versions with lockfiles, hashes when available, and recorded sources.
+
+3. Skill Name: System Package Manager Operator
+
+  Description: Uses apt, dnf, yum, apk, brew, winget, or other approved managers with minimal changes and validation.
+
+4. Skill Name: Language Package Manager Operator
+
+  Description: Uses pip, uv, conda, npm, pnpm, yarn, Maven, Gradle, NuGet, Cargo, Go modules, Composer, or Bundler appropriately.
+
+5. Skill Name: Dependency Conflict Diagnostician
+
+  Description: Identifies incompatible constraints, transitive conflicts, ABI mismatches, and resolver differences and proposes minimal repairs.
+
+6. Skill Name: Build Tool Bootstrapper
+
+  Description: Installs or configures compilers, linkers, SDKs, build systems, renderers, and platform tools required by the task.
+
+7. Skill Name: Optional Dependency Selector
+
+  Description: Installs only feature-relevant extras and avoids unnecessary heavy, risky, or conflicting packages.
+
+8. Skill Name: Package Source and Trust Reviewer
+
+  Description: Checks repository source, signatures, checksums, provenance, maintenance, and license before installation.
+
+9. Skill Name: Dependency Installation Verifier
+
+  Description: Runs import, version, executable, smoke, and minimal workflow checks after installation.
+
+10. Skill Name: Package Rollback and Removal Manager
+
+  Description: Restores previous package state, removes failed additions, and verifies preserved workflows after rollback.
+
+Category 7: Reproducible Environment Management
+
+1. Skill Name: Environment Manifest Author
+
+  Description: Records operating system, architecture, runtime, packages, tools, variables, paths, and required external services.
+
+2. Skill Name: Lockfile and Version Pinning Specialist
+
+  Description: Creates or validates lockfiles and exact tool versions for deterministic rebuilds.
+
+3. Skill Name: Reproducible Build Environment Designer
+
+  Description: Captures compiler, SDK, locale, timezone, environment variables, inputs, and build commands that affect outputs.
+
+4. Skill Name: Clean-State Rebuild Tester
+
+  Description: Recreates the environment from manifests in a fresh location and runs the primary workflow end to end.
+
+5. Skill Name: Environment Drift Detector
+
+  Description: Compares current state with the approved manifest and reports changed packages, tools, variables, files, and permissions.
+
+6. Skill Name: Platform Compatibility Matrix Builder
+
+  Description: Documents supported operating systems, architectures, runtime versions, optional features, and known incompatibilities.
+
+7. Skill Name: Deterministic Locale and Time Manager
+
+  Description: Controls locale, encoding, timezone, clock assumptions, and sorting behavior to reduce environment-dependent results.
+
+8. Skill Name: Seed and Randomness Manager
+
+  Description: Records and controls random seeds, nondeterministic libraries, parallelism, and reproducibility limitations.
+
+9. Skill Name: Environment Export and Import Specialist
+
+  Description: Exports portable declarations and restores them in another approved workspace with validation.
+
+10. Skill Name: Reproducibility Limitation Reporter
+
+  Description: Documents components that cannot be fully pinned, external services, proprietary tools, and expected variation.
+
+Category 8: Tool Discovery and Capability Routing
+
+1. Skill Name: Tool Catalog Builder
+
+  Description: Maintains an inventory of available commands, scripts, libraries, skills, templates, connectors, and supported interfaces.
+
+2. Skill Name: Tool Suitability Router
+
+  Description: Chooses the smallest capable tool chain based on format, task, safety, repeatability, quality, speed, and repair cost.
+
+3. Skill Name: Tool Interface Inspector
+
+  Description: Learns command syntax, inputs, outputs, side effects, dependencies, limits, error signals, and expected artifacts.
+
+4. Skill Name: Toolchain Composition Designer
+
+  Description: Combines discovery, transformation, validation, rendering, packaging, and recovery tools into a checked workflow.
+
+5. Skill Name: Tool Version Compatibility Analyst
+
+  Description: Checks whether connected tool versions can exchange files, schemas, plugins, and runtime artifacts.
+
+6. Skill Name: Fallback Tool Planner
+
+  Description: Defines safe alternatives when a preferred tool is missing, incompatible, unlicensed, or unable to process the artifact.
+
+7. Skill Name: Tool Output Normalizer
+
+  Description: Converts heterogeneous logs, paths, statuses, and reports into consistent records for orchestration.
+
+8. Skill Name: Tool Side-Effect Auditor
+
+  Description: Identifies network access, file writes, caches, global state, services, environment mutation, and cleanup needs.
+
+9. Skill Name: Tool Performance Profiler
+
+  Description: Measures startup, runtime, memory, disk, output size, and scaling behavior on representative workloads.
+
+10. Skill Name: Tool Retirement and Replacement Manager
+
+  Description: Detects obsolete tools, identifies replacements, migrates workflows, and validates equivalent outcomes.
+
+Category 9: Process, Service, and Job Management
+
+1. Skill Name: Process Inventory Inspector
+
+  Description: Lists authorized running processes, commands, owners, resources, parents, ports, and start times.
+
+2. Skill Name: Task Process Launcher
+
+  Description: Starts approved commands with controlled working directory, environment, limits, logs, and exit handling.
+
+3. Skill Name: Long-Running Job Supervisor
+
+  Description: Tracks progress, heartbeat, resource use, checkpoints, timeouts, and completion for lengthy tasks.
+
+4. Skill Name: Background Service Manager
+
+  Description: Starts, stops, restarts, and validates approved local services with explicit ownership and cleanup.
+
+5. Skill Name: Process Tree Controller
+
+  Description: Manages parent and child processes, prevents orphaned workers, and terminates only task-owned process trees.
+
+6. Skill Name: Stuck Process Diagnostician
+
+  Description: Distinguishes slow work, deadlock, blocked I/O, wait state, resource exhaustion, and crashed workers.
+
+7. Skill Name: Graceful Shutdown Coordinator
+
+  Description: Requests orderly stop, saves state, flushes outputs, closes files, and escalates termination only when necessary.
+
+8. Skill Name: Job Queue Manager
+
+  Description: Schedules independent tasks, dependencies, concurrency, priorities, retries, and resource-aware execution.
+
+9. Skill Name: Scheduled Task Manager
+
+  Description: Creates bounded recurring jobs with clear ownership, timing, logging, failure alerts, and safe removal.
+
+10. Skill Name: Process Cleanup Auditor
+
+  Description: Confirms no unwanted services, workers, ports, locks, temporary credentials, or background jobs remain.
+
+Category 10: Resource and Capacity Management
+
+1. Skill Name: Disk Capacity Planner
+
+  Description: Estimates input, temporary, cache, build, render, package, and backup storage before large operations.
+
+2. Skill Name: Memory Budget Manager
+
+  Description: Allocates memory limits, batch sizes, streaming strategies, and spill-to-disk behavior for constrained workloads.
+
+3. Skill Name: CPU and Concurrency Planner
+
+  Description: Chooses worker counts, thread limits, process parallelism, and scheduling to avoid oversubscription.
+
+4. Skill Name: GPU Memory Manager
+
+  Description: Plans model, batch, texture, render, and fallback behavior around available accelerator memory.
+
+5. Skill Name: Network Bandwidth Manager
+
+  Description: Controls downloads, uploads, mirrors, retries, compression, concurrency, and offline caching.
+
+6. Skill Name: File Descriptor and Handle Monitor
+
+  Description: Detects leaks, excessive open files, watcher limits, pipe exhaustion, and platform-specific handle constraints.
+
+7. Skill Name: Quota and Limit Inspector
+
+  Description: Checks filesystem, container, cloud, API, package, process, and user quotas before execution.
+
+8. Skill Name: Resource Contention Diagnostician
+
+  Description: Identifies competing processes, locks, I/O saturation, cache pressure, and throttling.
+
+9. Skill Name: Adaptive Workload Controller
+
+  Description: Adjusts batch size, concurrency, quality, and retry timing within declared limits based on observed capacity.
+
+10. Skill Name: Resource Usage Reporter
+
+  Description: Summarizes measured CPU, memory, disk, GPU, network, duration, peaks, and remaining headroom.
+
+Category 11: Permissions, Ownership, and Access Control
+
+1. Skill Name: Filesystem Permission Inspector
+
+  Description: Reads ownership, mode bits, ACLs, inheritance, mount flags, and effective access for authorized paths.
+
+2. Skill Name: Least-Privilege Workspace Designer
+
+  Description: Grants only required read, write, execute, network, device, and service access to each task.
+
+3. Skill Name: Permission Repair Specialist
+
+  Description: Applies the smallest approved ownership or access correction and verifies both success and non-expansion.
+
+4. Skill Name: Shared Workspace Access Planner
+
+  Description: Defines user, group, service, collaborator, and automation access with clear boundaries and handoff rules.
+
+5. Skill Name: Privilege Escalation Gatekeeper
+
+  Description: Requires explicit necessity and authorization before elevated commands, and limits duration and scope.
+
+6. Skill Name: Read-Only Mount Manager
+
+  Description: Uses read-only mounts or copies for source materials and untrusted artifacts whenever practical.
+
+7. Skill Name: Executable Permission Manager
+
+  Description: Controls which scripts and binaries are executable and prevents accidental execution of data files.
+
+8. Skill Name: Access Inheritance Auditor
+
+  Description: Detects unintended inherited permissions, public exposure, writable parents, and privilege drift.
+
+9. Skill Name: Service Account Workspace Manager
+
+  Description: Assigns isolated directories, credentials, ownership, quotas, and logs to automated identities.
+
+10. Skill Name: Permission Change Ledger
+
+  Description: Records approved access changes, reasons, previous state, affected paths, and rollback instructions.
+
+Category 12: Secrets, Credentials, and Sensitive Data
+
+1. Skill Name: Secret Discovery Scanner
+
+  Description: Finds credentials, tokens, keys, connection strings, cookies, private certificates, and sensitive environment variables in authorized scope.
+
+2. Skill Name: Secret Redaction Operator
+
+  Description: Removes or masks secrets from logs, reports, screenshots, exports, and shared artifacts while preserving diagnostic value.
+
+3. Skill Name: Environment Variable Secret Manager
+
+  Description: Injects temporary credentials through approved environment mechanisms without writing them into source or deliverables.
+
+4. Skill Name: Credential Scope Auditor
+
+  Description: Checks whether credentials have only required permissions, environments, resources, and expiration.
+
+5. Skill Name: Temporary Credential Lifecycle Manager
+
+  Description: Obtains, uses, rotates, expires, and removes short-lived credentials for approved tasks.
+
+6. Skill Name: Secret File Permission Guardian
+
+  Description: Restricts sensitive files, key material, configuration, and backups to authorized identities.
+
+7. Skill Name: Sensitive Dataset Boundary Manager
+
+  Description: Separates confidential, personal, licensed, regulated, and public data into appropriately controlled zones.
+
+8. Skill Name: Log Privacy Filter
+
+  Description: Prevents command arguments, URLs, headers, payloads, stack traces, and debug output from leaking secrets or personal data.
+
+9. Skill Name: Credential Incident Recovery Planner
+
+  Description: Supports revocation, rotation, cache clearing, history review, and affected-artifact cleanup after exposure.
+
+10. Skill Name: Final Artifact Secret Auditor
+
+  Description: Checks final packages, metadata, hidden files, comments, manifests, and embedded content before delivery.
+
+Category 13: Logging, Observability, and Audit Trails
+
+1. Skill Name: Execution Log Architect
+
+  Description: Designs clear timestamped logs for commands, stages, inputs, outputs, statuses, durations, and failures without secrets.
+
+2. Skill Name: Structured Log Normalizer
+
+  Description: Converts mixed text logs into structured events with severity, component, job, correlation ID, and timestamp.
+
+3. Skill Name: Cross-Tool Log Correlator
+
+  Description: Aligns build, render, test, process, service, and system logs to locate the earliest observed mismatch.
+
+4. Skill Name: Workspace Activity Ledger
+
+  Description: Records authorized file operations, environment changes, tool use, checkpoints, and delivery events.
+
+5. Skill Name: Log Rotation and Retention Manager
+
+  Description: Controls log size, compression, retention, deletion, and investigation holds.
+
+6. Skill Name: Progress and Heartbeat Monitor
+
+  Description: Tracks active long-running tasks and detects silent hangs, stalled output, and lost workers.
+
+7. Skill Name: Failure Signal Extractor
+
+  Description: Finds relevant errors, warnings, stack traces, exit codes, and surrounding context from noisy output.
+
+8. Skill Name: Audit Trail Integrity Checker
+
+  Description: Checks ordering, completeness, timestamps, identity, missing intervals, and unexpected modification of records.
+
+9. Skill Name: Human-Readable Run Summary Author
+
+  Description: Creates concise operational summaries of completed steps, outputs, limitations, and recoveries when requested.
+
+10. Skill Name: Logging Cleanup and Privacy Auditor
+
+  Description: Removes debug residue and sensitive logs from deliverables while retaining required operational records.
+
+Category 14: Input Intake and Artifact Staging
+
+1. Skill Name: User Upload Intake Manager
+
+  Description: Inventories uploaded files, preserves originals, checks names and types, and creates isolated working copies.
+
+2. Skill Name: Input Completeness Auditor
+
+  Description: Checks whether required source files, credentials, schemas, assets, versions, and instructions are present.
+
+3. Skill Name: Unknown File Triage Manager
+
+  Description: Uses signatures, metadata, parsers, and safe inspection to classify unfamiliar or mislabeled artifacts.
+
+4. Skill Name: Input Quarantine Controller
+
+  Description: Separates untrusted, executable, malformed, encrypted, or oversized inputs pending safe analysis.
+
+5. Skill Name: Input Naming and Collision Resolver
+
+  Description: Normalizes staging names while preserving original names and preventing overwrites.
+
+6. Skill Name: Input Provenance Recorder
+
+  Description: Tracks source, upload time, owner, license, checksum, and relationship to derived artifacts.
+
+7. Skill Name: Batch Intake Organizer
+
+  Description: Stages large collections by project, format, priority, sensitivity, and processing readiness.
+
+8. Skill Name: Input Decompression Manager
+
+  Description: Extracts authorized archives with path, size, nesting, symlink, and expansion protections.
+
+9. Skill Name: Input Validation Router
+
+  Description: Sends files to appropriate syntax, structural, semantic, or media validation before processing.
+
+10. Skill Name: Staging Area Readiness Auditor
+
+  Description: Confirms originals, working copies, permissions, space, manifests, and processing order before execution.
+
+Category 15: Output, Build, and Deliverable Management
+
+1. Skill Name: Output Path Planner
+
+  Description: Assigns deterministic output names and locations separated from sources, temporary files, and previous versions.
+
+2. Skill Name: Build Artifact Organizer
+
+  Description: Groups binaries, packages, reports, renders, logs, checks, and metadata by target, version, and status.
+
+3. Skill Name: Deliverable Naming Specialist
+
+  Description: Applies requested names, extensions, version rules, and folder structures exactly.
+
+4. Skill Name: Artifact Promotion Manager
+
+  Description: Moves outputs from scratch to candidate to validated final state only after required checks pass.
+
+5. Skill Name: Output Collision Preventer
+
+  Description: Detects existing outputs and applies approved versioning, overwrite, skip, or archive behavior.
+
+6. Skill Name: Deliverable Completeness Auditor
+
+  Description: Maps every direct requirement to a final artifact and checks missing, extra, stale, or duplicate items.
+
+7. Skill Name: Final File Reopen Tester
+
+  Description: Opens, renders, imports, executes, or extracts final artifacts through the recipient’s real use path.
+
+8. Skill Name: Multi-Format Delivery Coordinator
+
+  Description: Keeps DOCX, PDF, PPTX, XLSX, archives, media, code, and metadata variants aligned and verified.
+
+9. Skill Name: Delivery Package Builder
+
+  Description: Creates clean folders and ZIP archives with the requested hierarchy and no scratch or hidden residue.
+
+10. Skill Name: Handoff Readiness Reporter
+
+  Description: Confirms names, locations, openability, editability, completeness, and known limitations before delivery.
+
+Category 16: Backups, Snapshots, and Recovery
+
+1. Skill Name: Workspace Snapshot Manager
+
+  Description: Creates named snapshots before risky changes and verifies snapshot completeness and restore access.
+
+2. Skill Name: Incremental Backup Planner
+
+  Description: Backs up changed data efficiently while preserving base state, retention, and restore points.
+
+3. Skill Name: Versioned File Backup Manager
+
+  Description: Stores prior approved versions of important files with timestamps, notes, and conflict-free naming.
+
+4. Skill Name: Restore Point Validator
+
+  Description: Tests that selected files, folders, environments, and configurations can be restored without damaging current state.
+
+5. Skill Name: Partial Recovery Specialist
+
+  Description: Restores only affected components while preserving newer valid work elsewhere.
+
+6. Skill Name: Corrupt Workspace Recovery Manager
+
+  Description: Uses snapshots, backups, manifests, checksums, and unaffected artifacts to reconstruct a usable state.
+
+7. Skill Name: Accidental Deletion Recovery Specialist
+
+  Description: Searches trash, versions, snapshots, caches, temporary files, and backups within authorized scope.
+
+8. Skill Name: Environment Rollback Manager
+
+  Description: Restores packages, configuration, services, variables, and tool versions after a failed change.
+
+9. Skill Name: Recovery Drill Designer
+
+  Description: Creates safe exercises for backup, restore, corruption, deletion, and environment-loss scenarios.
+
+10. Skill Name: Recovery Evidence Auditor
+
+  Description: Confirms restored content, permissions, references, checksums, openability, and resumed workflow behavior.
+
+Category 17: Build, Compilation, and Execution Workspaces
+
+1. Skill Name: Build Workspace Initializer
+
+  Description: Creates source, build, dependency, cache, test, artifact, and log areas appropriate to the build system.
+
+2. Skill Name: Compiler Toolchain Manager
+
+  Description: Selects compilers, linkers, SDKs, targets, optimization, debug symbols, and architecture settings.
+
+3. Skill Name: Incremental Build Coordinator
+
+  Description: Uses dependency graphs and caches while detecting stale or invalid artifacts.
+
+4. Skill Name: Clean Build Operator
+
+  Description: Removes only generated build state and reconstructs outputs from declared sources and dependencies.
+
+5. Skill Name: Cross-Compilation Environment Planner
+
+  Description: Configures host, target, sysroot, toolchain, libraries, emulators, and artifact validation.
+
+6. Skill Name: Build Cache Manager
+
+  Description: Controls keys, storage, sharing, invalidation, compression, and recovery for build caches.
+
+7. Skill Name: Build Failure Diagnostician
+
+  Description: Separates source, dependency, compiler, linker, environment, permission, path, and resource causes.
+
+8. Skill Name: Artifact Signing Workspace Manager
+
+  Description: Stages approved signing tools and credentials with restricted access and post-signing cleanup.
+
+9. Skill Name: Build Reproducibility Tester
+
+  Description: Compares clean builds for byte, metadata, symbol, manifest, and functional consistency.
+
+10. Skill Name: Execution Workspace Runner
+
+  Description: Runs produced artifacts with controlled arguments, environment, timeouts, logs, and output capture.
+
+Category 18: Test Environment and Fixture Management
+
+1. Skill Name: Test Workspace Architect
+
+  Description: Separates fixtures, generated data, expected results, actual outputs, logs, and reports from production artifacts.
+
+2. Skill Name: Test Fixture Curator
+
+  Description: Creates minimal, representative, boundary, malformed, and regression fixtures with clear ownership and licenses.
+
+3. Skill Name: Test Data Reset Manager
+
+  Description: Restores clean test databases, files, accounts, caches, and state between runs.
+
+4. Skill Name: Isolated Test Run Coordinator
+
+  Description: Assigns unique temporary directories, ports, identifiers, and resources to prevent cross-test interference.
+
+5. Skill Name: Golden Output Manager
+
+  Description: Stores approved expected outputs with versioning, review, and intentional-update procedures.
+
+6. Skill Name: Test Artifact Collector
+
+  Description: Preserves failed-case logs, screenshots, diffs, traces, inputs, and environment state for reproduction.
+
+7. Skill Name: Flaky Test Environment Diagnostician
+
+  Description: Finds shared state, timing, random seed, port, filesystem, locale, resource, and dependency causes.
+
+8. Skill Name: Parallel Test Resource Scheduler
+
+  Description: Allocates workers, devices, databases, ports, files, and quotas safely across concurrent tests.
+
+9. Skill Name: Regression Environment Preserver
+
+  Description: Keeps known failure fixtures and exact tool versions needed to verify future repairs.
+
+10. Skill Name: Test Environment Teardown Auditor
+
+  Description: Confirms temporary accounts, services, ports, files, credentials, and generated state are removed.
+
+Category 19: Data Workspace Management
+
+1. Skill Name: Raw Data Preservation Manager
+
+  Description: Stores immutable raw inputs separately from cleaned, transformed, analytical, and published data.
+
+2. Skill Name: Dataset Directory Architect
+
+  Description: Organizes data by source, date, schema, version, sensitivity, partition, and processing stage.
+
+3. Skill Name: Data Manifest and Schema Manager
+
+  Description: Records files, rows, fields, types, units, identifiers, provenance, and known quality limitations.
+
+4. Skill Name: Large Dataset Staging Planner
+
+  Description: Uses chunking, streaming, partitioning, compression, indexes, and disk-aware processing.
+
+5. Skill Name: Data Cache and Intermediate Manager
+
+  Description: Tracks derived tables, feature stores, query caches, and recomputation rules.
+
+6. Skill Name: Database Workspace Provisioner
+
+  Description: Creates approved local databases, schemas, users, storage, backups, and connection configurations.
+
+7. Skill Name: Data Lineage Organizer
+
+  Description: Maps raw sources through transformations, joins, filters, models, reports, and final exports.
+
+8. Skill Name: Sensitive Data Zone Manager
+
+  Description: Applies separation, permissions, encryption, retention, and redaction rules to restricted datasets.
+
+9. Skill Name: Data Workspace Quality Auditor
+
+  Description: Checks duplicates, partial exports, stale partitions, schema drift, broken references, and inconsistent versions.
+
+10. Skill Name: Data Project Archive Curator
+
+  Description: Packages raw references, transformations, environments, reports, schemas, and reproducibility instructions.
+
+Category 20: Media and Rendering Workspace Management
+
+1. Skill Name: Media Project Workspace Architect
+
+  Description: Organizes source footage, audio, graphics, proxies, caches, project files, renders, and final masters.
+
+2. Skill Name: Proxy and Transcode Manager
+
+  Description: Creates verified editing proxies and links them reliably to high-quality source media.
+
+3. Skill Name: Render Queue Manager
+
+  Description: Schedules document, image, video, audio, 3D, and animation renders with dependencies, priorities, and retries.
+
+4. Skill Name: Render Cache Controller
+
+  Description: Manages preview, shader, waveform, thumbnail, frame, and application caches without deleting needed state.
+
+5. Skill Name: Color and Font Resource Manager
+
+  Description: Tracks profiles, LUTs, fonts, licenses, substitutions, installation, and output consistency.
+
+6. Skill Name: Media Asset Relink Specialist
+
+  Description: Repairs missing, moved, renamed, offline, or variant media references in project files.
+
+7. Skill Name: Frame Sequence Organizer
+
+  Description: Manages numbered frames, gaps, duplicates, naming, ranges, alpha, resolution, and assembly.
+
+8. Skill Name: Media Storage Capacity Planner
+
+  Description: Estimates source, proxy, cache, render, version, and archive requirements for large productions.
+
+9. Skill Name: Render Verification Operator
+
+  Description: Checks rendered frames or pages for completeness, clipping, corruption, color, audio, timing, and expected count.
+
+10. Skill Name: Media Delivery Package Curator
+
+  Description: Packages editable projects, linked assets, fonts, licenses, previews, masters, and platform derivatives.
+
+Category 21: Document and Office Workspace Management
+
+1. Skill Name: Document Project Organizer
+
+  Description: Separates source documents, templates, references, images, intermediate renders, reviews, and final publications.
+
+2. Skill Name: Template and Style Asset Manager
+
+  Description: Curates approved Word, PowerPoint, Excel, PDF, branding, and style resources with versions and usage notes.
+
+3. Skill Name: Document Conversion Workspace Planner
+
+  Description: Creates safe source, converted, rendered, compared, and final areas for format conversion workflows.
+
+4. Skill Name: Office Render and Verification Manager
+
+  Description: Coordinates DOCX, PPTX, XLSX, and PDF rendering, image inspection, corrections, and final export.
+
+5. Skill Name: Linked Asset and Font Manager
+
+  Description: Tracks embedded and linked images, fonts, themes, charts, media, and external data dependencies.
+
+6. Skill Name: Document Review State Organizer
+
+  Description: Separates drafts, comments, tracked changes, clean copies, approved versions, and publication-ready files.
+
+7. Skill Name: Multi-Document Assembly Manager
+
+  Description: Coordinates section order, templates, numbering, styles, cross-references, and source preservation across merged works.
+
+8. Skill Name: Spreadsheet Model Workspace Manager
+
+  Description: Separates inputs, calculations, scenarios, outputs, charts, macros, data connections, and audit copies.
+
+9. Skill Name: Presentation Asset Workspace Manager
+
+  Description: Organizes slides, masters, visual assets, notes, sources, exports, and speaker handoff materials.
+
+10. Skill Name: Office Deliverable Hygiene Auditor
+
+  Description: Checks metadata, comments, hidden sheets, notes, tracked changes, broken links, and unintended private content.
+
+Category 22: Web and Application Development Workspaces
+
+1. Skill Name: Repository Workspace Initializer
+
+  Description: Creates source, configuration, dependencies, tests, docs, public assets, builds, and deployment areas.
+
+2. Skill Name: Development Server Manager
+
+  Description: Starts approved local servers with ports, environment variables, logs, health checks, and cleanup.
+
+3. Skill Name: Environment Configuration Manager
+
+  Description: Separates development, test, staging, and production-like configuration without exposing secrets.
+
+4. Skill Name: Frontend Package Workspace Manager
+
+  Description: Maintains node modules, lockfiles, build caches, static assets, source maps, and bundle outputs.
+
+5. Skill Name: Backend Service Workspace Manager
+
+  Description: Organizes APIs, workers, databases, migrations, queues, logs, fixtures, and service configuration.
+
+6. Skill Name: Port and Endpoint Coordinator
+
+  Description: Allocates ports, hostnames, callback URLs, service discovery, and collision-free local routing.
+
+7. Skill Name: Local Domain and Certificate Manager
+
+  Description: Creates approved local host mappings and development certificates with clear trust and removal procedures.
+
+8. Skill Name: Web Build Artifact Manager
+
+  Description: Organizes static assets, server bundles, source maps, manifests, reports, and deployment packages.
+
+9. Skill Name: Application Workspace Smoke Tester
+
+  Description: Runs install, build, start, tests, critical routes, APIs, uploads, and shutdown from a clean state.
+
+10. Skill Name: Development Workspace Teardown Operator
+
+  Description: Stops services, removes temporary data, clears task-owned credentials, and preserves required project state.
+
+Category 23: Container, VM, and Sandbox Operations
+
+1. Skill Name: Container Image Builder
+
+  Description: Builds minimal, reproducible images with pinned bases, layered dependencies, non-root users, and health checks.
+
+2. Skill Name: Container Runtime Operator
+
+  Description: Runs containers with controlled mounts, ports, networks, environment variables, limits, and cleanup.
+
+3. Skill Name: Container Volume Manager
+
+  Description: Creates, inspects, backs up, restores, and removes task-owned volumes with data safety checks.
+
+4. Skill Name: Container Network Manager
+
+  Description: Creates isolated networks, service aliases, exposed ports, and approved external access.
+
+5. Skill Name: Container Image Cache Manager
+
+  Description: Controls pulls, layers, pruning, provenance, vulnerability information, and disk usage.
+
+6. Skill Name: Virtual Machine Workspace Manager
+
+  Description: Creates snapshots, storage, networking, guest tools, resource limits, and isolated operating environments.
+
+7. Skill Name: Sandbox Policy Designer
+
+  Description: Defines allowed commands, paths, mounts, devices, network destinations, time, memory, and process constraints.
+
+8. Skill Name: Untrusted Artifact Analysis Sandbox
+
+  Description: Runs authorized suspicious or unknown artifacts in an isolated environment with observation and safe teardown.
+
+9. Skill Name: Sandbox Escape Boundary Auditor
+
+  Description: Checks mounts, sockets, devices, privileges, host paths, credentials, and network exposure for isolation weaknesses.
+
+10. Skill Name: Container and VM Teardown Auditor
+
+  Description: Confirms task-owned machines, containers, images, volumes, networks, snapshots, and secrets are handled as intended.
+
+Category 24: Network and Connectivity Environment Management
+
+1. Skill Name: Network Capability Inspector
+
+  Description: Checks authorized DNS, routing, proxy, internet access, local services, ports, and transfer limits.
+
+2. Skill Name: Proxy Configuration Manager
+
+  Description: Configures approved HTTP, HTTPS, SOCKS, package, and application proxies with scoped credentials and cleanup.
+
+3. Skill Name: Offline and Restricted Network Planner
+
+  Description: Prepares mirrors, caches, bundles, allowlists, and alternate workflows for limited connectivity.
+
+4. Skill Name: Local Service Network Designer
+
+  Description: Creates safe loopback, bridge, container, or test networks with documented endpoints and isolation.
+
+5. Skill Name: Port Availability Manager
+
+  Description: Finds and reserves available ports, prevents collisions, and releases them after task completion.
+
+6. Skill Name: Network Download Reliability Manager
+
+  Description: Uses retries, resume, mirrors, checksums, timeouts, and bandwidth limits for approved downloads.
+
+7. Skill Name: Certificate Trust Store Manager
+
+  Description: Adds and removes approved development certificates, records scope, and avoids permanent broad trust changes.
+
+8. Skill Name: Network Failure Simulation Planner
+
+  Description: Applies controlled latency, loss, offline, DNS failure, and reconnect scenarios in test environments.
+
+9. Skill Name: Connectivity Diagnostician
+
+  Description: Separates DNS, proxy, firewall, route, TLS, authentication, service, and application failures.
+
+10. Skill Name: Network State Cleanup Auditor
+
+  Description: Confirms temporary proxies, tunnels, host entries, certificates, ports, and test networks are removed.
+
+Category 25: Cross-Platform and Compatibility Environments
+
+1. Skill Name: Operating System Compatibility Planner
+
+  Description: Defines supported Linux, Windows, macOS, mobile, and container environments and their differences.
+
+2. Skill Name: Architecture Compatibility Manager
+
+  Description: Handles x86, x86-64, ARM, ARM64, emulation, cross-builds, and architecture-specific dependencies.
+
+3. Skill Name: Shell Compatibility Specialist
+
+  Description: Adapts commands across Bash, POSIX shell, Zsh, Fish, PowerShell, CMD, and platform path conventions.
+
+4. Skill Name: Path and Filesystem Compatibility Analyst
+
+  Description: Checks separators, case sensitivity, reserved names, path length, permissions, symlinks, and line endings.
+
+5. Skill Name: Encoding and Locale Compatibility Manager
+
+  Description: Tests Unicode, code pages, sorting, decimal formats, dates, input methods, and multilingual filenames.
+
+6. Skill Name: Runtime Compatibility Tester
+
+  Description: Runs primary workflows across declared runtime and library versions with aligned fixtures.
+
+7. Skill Name: Binary and ABI Compatibility Manager
+
+  Description: Checks shared libraries, loaders, symbols, runtimes, architecture, and platform packaging.
+
+8. Skill Name: Compatibility Shim Workspace Designer
+
+  Description: Creates isolated adapters, wrapper scripts, configuration, and tests for legacy or differing environments.
+
+9. Skill Name: Emulation Environment Manager
+
+  Description: Sets up approved emulators for architecture, operating system, browser, device, or legacy software testing.
+
+10. Skill Name: Compatibility Findings Reporter
+
+  Description: Documents supported combinations, failures, causes, workarounds, and unverified environments.
+
+Category 26: Workspace Security and Supply Chain
+
+1. Skill Name: Workspace Threat Surface Reviewer
+
+  Description: Inventories executable inputs, network access, package sources, credentials, services, permissions, and shared boundaries.
+
+2. Skill Name: Dependency Provenance Inspector
+
+  Description: Checks package source, version, signature, checksum, lockfile, maintainer, and build provenance where available.
+
+3. Skill Name: Malicious Package Risk Gatekeeper
+
+  Description: Blocks suspicious names, unexpected install scripts, typo-squatting indicators, untrusted repositories, and excessive permissions.
+
+4. Skill Name: Executable Intake Safety Reviewer
+
+  Description: Checks file identity, source, signature, hash, permissions, and sandbox requirements before execution.
+
+5. Skill Name: Build Script Safety Inspector
+
+  Description: Reviews authorized setup, install, build, and post-install scripts for destructive or unexpected behavior.
+
+6. Skill Name: Workspace Integrity Baseline Manager
+
+  Description: Creates approved hashes, manifests, permissions, and expected files for later change detection.
+
+7. Skill Name: Unauthorized Change Detector
+
+  Description: Finds unexpected binaries, scripts, startup entries, modified tools, new services, and permission changes.
+
+8. Skill Name: Software Bill of Materials Organizer
+
+  Description: Creates and stores dependency, component, version, license, and provenance records for deliverables.
+
+9. Skill Name: Security Finding Containment Coordinator
+
+  Description: Isolates affected artifacts, preserves evidence, blocks propagation, and prepares remediation steps.
+
+10. Skill Name: Secure Workspace Release Auditor
+
+  Description: Checks secrets, dependencies, permissions, metadata, provenance, tests, and package contents before handoff.
+
+Category 27: Automation, Orchestration, and Workflow Control
+
+1. Skill Name: Workspace Task Orchestrator
+
+  Description: Coordinates discovery, setup, processing, testing, rendering, packaging, cleanup, and recovery with dependency control.
+
+2. Skill Name: Idempotent Workspace Automation Designer
+
+  Description: Creates rerunnable scripts that detect current state and avoid duplicate or destructive actions.
+
+3. Skill Name: Checkpoint and Resume Manager
+
+  Description: Records safe milestones and resumes long workflows without repeating completed or consequential steps.
+
+4. Skill Name: Parallel Work Scheduler
+
+  Description: Runs only independent tasks concurrently and controls shared files, ports, resources, and output joins.
+
+5. Skill Name: Retry and Backoff Controller
+
+  Description: Retries transient failures within limits and stops on deterministic errors or unsafe repeated side effects.
+
+6. Skill Name: Workflow State Machine Designer
+
+  Description: Defines stages, transitions, pass conditions, failures, rollback, and final completion state.
+
+7. Skill Name: Automation Dry-Run Specialist
+
+  Description: Previews file operations, installations, commands, and cleanup without modifying state.
+
+8. Skill Name: Workflow Configuration Manager
+
+  Description: Stores parameters, paths, versions, feature flags, and environment settings in validated configuration.
+
+9. Skill Name: Automation Evidence Collector
+
+  Description: Captures command status, outputs, artifacts, checks, durations, and failures without leaking secrets.
+
+10. Skill Name: Orchestration Recovery Specialist
+
+  Description: Finds the earliest failed stage, preserves passing outputs, repairs the smallest layer, and reruns affected checks.
+
+Category 28: Quality Assurance and Validation
+
+1. Skill Name: Workspace Requirement Coverage Auditor
+
+  Description: Maps every requested environment, file, tool, output, organization, and cleanup requirement to a checked result.
+
+2. Skill Name: Structural Workspace Validator
+
+  Description: Checks directory layout, expected files, manifests, syntax, paths, permissions, and naming.
+
+3. Skill Name: Semantic Workflow Validator
+
+  Description: Confirms that files and environments represent the intended content and behavior, not merely valid structure.
+
+4. Skill Name: Boundary Condition Tester
+
+  Description: Tests empty, missing, oversized, read-only, low-space, long-path, Unicode, duplicate, and interrupted conditions.
+
+5. Skill Name: Join and Integration Tester
+
+  Description: Checks that tools, environments, files, services, and outputs connect correctly across workflow stages.
+
+6. Skill Name: Regression Workspace Tester
+
+  Description: Verifies preserved workflows, source files, outputs, and environment behavior after changes.
+
+7. Skill Name: Clean-State Acceptance Tester
+
+  Description: Recreates the workflow from a fresh workspace using only declared inputs and instructions.
+
+8. Skill Name: Presentation and Deliverable Auditor
+
+  Description: Checks final artifact readability, layout, naming, structure, editability, and requested packaging.
+
+9. Skill Name: Handoff Path Tester
+
+  Description: Opens, runs, edits, imports, extracts, or renders the final result through the recipient’s expected path.
+
+10. Skill Name: Completion Claim Validator
+
+  Description: Allows completion only when outputs exist, checks passed, requested structure matches, and no known material defect remains.
+
+Category 29: Collaboration and Multi-Agent Workspaces
+
+1. Skill Name: Shared Workspace Architect
+
+  Description: Designs clear ownership, boundaries, shared assets, interfaces, outputs, and conflict rules for multiple contributors.
+
+2. Skill Name: Agent Worktree Manager
+
+  Description: Creates isolated branches or worktrees for concurrent agent tasks and prevents overlapping edits.
+
+3. Skill Name: Task Handoff State Packager
+
+  Description: Packages inputs, current state, decisions, dependencies, open issues, and expected outputs for another agent.
+
+4. Skill Name: Concurrent Edit Conflict Resolver
+
+  Description: Detects overlapping changes, preserves both versions, and integrates only validated compatible edits.
+
+5. Skill Name: Shared Resource Lock Manager
+
+  Description: Coordinates access to files, ports, devices, databases, models, and render queues across agents.
+
+6. Skill Name: Multi-Agent Output Integrator
+
+  Description: Validates interfaces, merges compatible parts, resolves naming and style differences, and tests the joined result.
+
+7. Skill Name: Agent Provenance Recorder
+
+  Description: Tracks which agent or process produced each artifact, version, decision, and validation result.
+
+8. Skill Name: Review and Approval Workspace Manager
+
+  Description: Organizes candidate, reviewed, approved, rejected, revised, and final outputs with clear status.
+
+9. Skill Name: Cross-Agent Regression Coordinator
+
+  Description: Reruns affected tests after integration and protects previously accepted behavior.
+
+10. Skill Name: Shared Workspace Cleanup Coordinator
+
+  Description: Removes abandoned branches, temporary outputs, stale locks, and task-owned resources without harming active work.
+
+Category 30: Maintenance, Archiving, and Lifecycle Management
+
+1. Skill Name: Workspace Lifecycle Planner
+
+  Description: Defines creation, active use, review, delivery, retention, archive, restore, and disposal stages.
+
+2. Skill Name: Project Closure Manager
+
+  Description: Confirms deliverables, documentation, licenses, environment manifests, cleanup, backups, and ownership before closure.
+
+3. Skill Name: Long-Term Archive Curator
+
+  Description: Packages sources, editable files, dependencies, checksums, documentation, previews, and restore instructions.
+
+4. Skill Name: Format Longevity Planner
+
+  Description: Selects open or widely supported archival formats and preserves originals plus documented conversions.
+
+5. Skill Name: Environment Deprecation Manager
+
+  Description: Identifies unsupported runtimes and tools, plans migration, and retains reproducible legacy environments when needed.
+
+6. Skill Name: Archive Reopen Tester
+
+  Description: Restores archived projects into clean workspaces and verifies key files, tools, and workflows.
+
+7. Skill Name: Retention Policy Enforcer
+
+  Description: Applies approved retention periods to inputs, outputs, logs, backups, secrets, and temporary data.
+
+8. Skill Name: Workspace Cost and Storage Optimizer
+
+  Description: Balances retention, performance, archive tiers, recomputation cost, and recovery objectives.
+
+9. Skill Name: Dormant Workspace Auditor
+
+  Description: Finds abandoned environments, services, volumes, caches, credentials, and projects for review.
+
+10. Skill Name: Lifecycle Documentation Author
+
+  Description: Records maintenance owners, update procedures, rebuild steps, recovery paths, and known limitations.
+
+Category 31: End-to-End Workspace Governance
+
+1. Skill Name: Workspace Control Plane Designer
+
+  Description: Defines naming, layout, environment, tools, permissions, resources, logs, checks, cleanup, and delivery standards.
+
+2. Skill Name: Workspace Policy Enforcer
+
+  Description: Applies approved rules for source preservation, installations, network access, secrets, outputs, and deletion.
+
+3. Skill Name: Change Approval Gatekeeper
+
+  Description: Requires appropriate approval for global installs, privilege changes, destructive operations, network exposure, and source-of-truth replacement.
+
+4. Skill Name: Workspace Risk Assessor
+
+  Description: Ranks proposed actions by reversibility, blast radius, data sensitivity, dependency impact, and recovery readiness.
+
+5. Skill Name: Operational Runbook Author
+
+  Description: Creates exact setup, execution, validation, recovery, cleanup, and handoff instructions for recurring workflows.
+
+6. Skill Name: Workspace Compliance Evidence Curator
+
+  Description: Collects only requested manifests, approvals, validation reports, and operational records for review.
+
+7. Skill Name: Environment Standards Auditor
+
+  Description: Checks workspaces against declared organizational, security, accessibility, reproducibility, and maintenance standards.
+
+8. Skill Name: Workspace Incident Coordinator
+
+  Description: Preserves evidence, contains affected state, restores service, validates recovery, and documents transferable lessons.
+
+9. Skill Name: Continuous Workspace Improvement Analyst
+
+  Description: Uses observed failures, waste, delays, tool gaps, and repeated manual work to improve templates and automation.
+
+10. Skill Name: Ultimate Workspace Steward
+
+  Description: Combines discovery, organization, environment setup, resource control, validation, cleanup, recovery, and clean delivery as one governed workflow.

@@ -1,0 +1,1156 @@
+AGENT MULTITASKING
+SKILL CATALOG
+
+Instances, Workers, Thought Processors, and Multi-Agent Orchestration
+
+A comprehensive catalog of reusable capability concepts for building agents that can divide work, operate concurrently, coordinate specialized workers, verify results, recover from failure, and deliver unified outcomes.
+
+25 categories | 256 skill concepts
+
+Catalog Guide
+
+Each entry is a proposed reusable skill concept. The catalog describes purpose and scope only; it does not contain executable skill packages. Names can be used as starting points for future SKILL.md packages, worker roles, orchestration modules, or capability registry entries.
+
+Recommended Catalog Fields for Future Builds
+
+- Trigger conditions and example requests
+
+- Expected inputs and output contract
+
+- Allowed tools, connectors, and permissions
+
+- Workflow steps and worker responsibilities
+
+- Quality gates, tests, and failure behavior
+
+- Resource limits, concurrency rules, and escalation path
+
+- Artifacts, references, scripts, and templates
+
+- Observability, audit trail, and versioning
+
+Category Index
+
+1. Core Instance and Worker Orchestration (16 skills)
+
+2. Task Decomposition and Planning (10 skills)
+
+3. Parallel Execution and Concurrency (10 skills)
+
+4. Reasoning Lenses and Thought Operations (10 skills)
+
+5. Task Routing and Scheduling (10 skills)
+
+6. Communication and Coordination (10 skills)
+
+7. Context and Memory Management (10 skills)
+
+8. Collaboration and Team Structures (10 skills)
+
+9. Verification, Review, and Quality (10 skills)
+
+10. Conflict Detection and Resolution (10 skills)
+
+11. Failure Recovery and Resilience (10 skills)
+
+12. Resource, Cost, and Performance (10 skills)
+
+13. Safety, Permissions, and Governance (10 skills)
+
+14. Research and Evidence Operations (10 skills)
+
+15. Data and Analytics Workflows (10 skills)
+
+16. Software and Engineering Coordination (10 skills)
+
+17. Document and Knowledge Production (10 skills)
+
+18. Media and Creative Production Coordination (10 skills)
+
+19. Workflow Automation and Tool Use (10 skills)
+
+20. Decision Support and Strategy (10 skills)
+
+21. Learning and Capability Improvement (10 skills)
+
+22. Human Collaboration and Oversight (10 skills)
+
+23. Monitoring, Observability, and Control (10 skills)
+
+24. Scale, Distribution, and Federation (10 skills)
+
+25. Advanced Adaptive Orchestration (10 skills)
+
+Category 1: Core Instance and Worker Orchestration
+
+1. Skill Name: Instance Manager
+
+Description: Creates, names, starts, pauses, resumes, clones, and retires independent work instances while tracking purpose, state, owner, dependencies, and resource limits.
+
+2. Skill Name: Worker Factory
+
+Description: Creates specialized workers from reusable role templates, gives each worker a bounded mandate, and verifies readiness before assignment.
+
+3. Skill Name: Thought Processor
+
+Description: Runs a defined reasoning lens such as decomposition, critique, synthesis, estimation, or constraint checking and returns structured conclusions rather than hidden chain-of-thought.
+
+4. Skill Name: Multitasking Manager
+
+Description: Splits a goal into parallel-safe workstreams, assigns workers, controls concurrency, resolves dependencies, and merges results into one coherent deliverable.
+
+5. Skill Name: Worker Registry
+
+Description: Maintains a live directory of workers, capabilities, tools, permissions, availability, current assignments, and performance history.
+
+6. Skill Name: Role Blueprint Builder
+
+Description: Defines worker roles with mission, inputs, outputs, allowed actions, quality gates, escalation rules, and completion criteria.
+
+7. Skill Name: Instance Lifecycle Controller
+
+Description: Applies consistent lifecycle states such as proposed, ready, running, blocked, reviewing, completed, failed, and archived.
+
+8. Skill Name: Worker Pool Autoscaler
+
+Description: Expands or contracts worker pools based on queue depth, task complexity, deadlines, cost budgets, and observed throughput.
+
+9. Skill Name: Ephemeral Worker Launcher
+
+Description: Creates short-lived workers for isolated tasks, captures their outputs and lessons, then safely disposes of their transient state.
+
+10. Skill Name: Persistent Specialist Manager
+
+Description: Maintains long-lived specialists with stable domain memory, operating procedures, benchmarks, and controlled updates.
+
+11. Skill Name: Worker Capability Profiler
+
+Description: Tests and records what each worker can reliably do, including limits, tool access, latency, quality, and preferred task types.
+
+12. Skill Name: Assignment Dispatcher
+
+Description: Routes each task to the best available worker using capability fit, urgency, workload, risk, context locality, and expected cost.
+
+13. Skill Name: Worker Supervisor
+
+Description: Monitors worker progress, detects drift or stalls, requests checkpoints, intervenes when thresholds are exceeded, and records outcomes.
+
+14. Skill Name: Coordinator of Coordinators
+
+Description: Organizes multiple team leads or sub-orchestrators so very large goals can be managed hierarchically without losing accountability.
+
+15. Skill Name: Workcell Composer
+
+Description: Builds temporary teams of complementary workers for a specific mission and defines their communication and handoff pattern.
+
+16. Skill Name: Instance Isolation Guard
+
+Description: Keeps worker contexts, files, secrets, and side effects separated unless an explicit, validated handoff authorizes sharing.
+
+Category 2: Task Decomposition and Planning
+
+1. Skill Name: Goal Decomposer
+
+Description: Converts a broad objective into testable deliverables, tasks, subtasks, dependencies, owners, inputs, and acceptance criteria.
+
+2. Skill Name: Work Breakdown Structure Builder
+
+Description: Creates a hierarchical work breakdown that is complete, non-overlapping, estimable, assignable, and traceable to the goal.
+
+3. Skill Name: Dependency Graph Planner
+
+Description: Models prerequisite, parallel, optional, and blocking relationships and identifies the critical path and safe execution order.
+
+4. Skill Name: Milestone Architect
+
+Description: Groups work into observable checkpoints with entry conditions, exit conditions, evidence, dates, and recovery options.
+
+5. Skill Name: Plan Variant Generator
+
+Description: Produces multiple viable execution plans optimized for speed, cost, quality, caution, or available capabilities.
+
+6. Skill Name: Planning Assumption Ledger
+
+Description: Records assumptions, confidence, impact, validation method, owner, and expiry so hidden premises do not silently drive work.
+
+7. Skill Name: Constraint Mapper
+
+Description: Extracts hard limits, preferences, policies, resource ceilings, time windows, compatibility needs, and non-goals.
+
+8. Skill Name: Definition of Done Designer
+
+Description: Creates measurable completion conditions spanning function, quality, safety, presentation, integration, and handoff.
+
+9. Skill Name: Critical Path Optimizer
+
+Description: Shortens completion time by restructuring dependencies, increasing parallelism, front-loading uncertainty, and protecting bottlenecks.
+
+10. Skill Name: Rolling Wave Planner
+
+Description: Plans near-term work in detail while keeping later phases adaptable as evidence and constraints change.
+
+Category 3: Parallel Execution and Concurrency
+
+1. Skill Name: Parallel Workstream Splitter
+
+Description: Separates independent or weakly coupled work into concurrent streams while preserving shared constraints and final integration points.
+
+2. Skill Name: Concurrency Budget Controller
+
+Description: Caps simultaneous work based on compute, tools, rate limits, review capacity, cost, and coordination overhead.
+
+3. Skill Name: Parallel Safety Analyzer
+
+Description: Checks whether tasks can run together without conflicting edits, duplicated actions, inconsistent assumptions, or shared-resource races.
+
+4. Skill Name: Speculative Branch Runner
+
+Description: Runs reversible alternative approaches in parallel, compares observed results, and retains the strongest branch.
+
+5. Skill Name: Map-Reduce Coordinator
+
+Description: Distributes comparable units of work across workers, normalizes partial outputs, and reduces them into a verified aggregate.
+
+6. Skill Name: Fan-Out Fan-In Manager
+
+Description: Broadcasts a bounded assignment to many specialists and gathers their results through a defined merge and validation stage.
+
+7. Skill Name: Race-to-Valid Solver
+
+Description: Runs several independent solution attempts and selects the first result that passes all required checks, not merely the fastest answer.
+
+8. Skill Name: Concurrent Edit Coordinator
+
+Description: Allocates non-overlapping files, sections, records, or components and protects merge boundaries during simultaneous editing.
+
+9. Skill Name: Parallel Research Controller
+
+Description: Assigns distinct questions, source classes, or hypotheses to researchers and prevents redundant or circular evidence gathering.
+
+10. Skill Name: Throughput Optimizer
+
+Description: Balances batch size, worker count, task granularity, and review capacity to maximize useful completed work rather than raw activity.
+
+Category 4: Reasoning Lenses and Thought Operations
+
+1. Skill Name: Decomposition Processor
+
+Description: Breaks a difficult problem into simpler subproblems while preserving interfaces and recombination requirements.
+
+2. Skill Name: Constraint Satisfaction Processor
+
+Description: Searches for solutions that satisfy mandatory conditions and clearly identifies unsatisfied or conflicting constraints.
+
+3. Skill Name: Analogy Processor
+
+Description: Uses structurally similar cases to generate options, then checks where the analogy holds and where it fails.
+
+4. Skill Name: Causal Analysis Processor
+
+Description: Maps causes, mechanisms, mediators, feedback loops, and alternative explanations before proposing interventions.
+
+5. Skill Name: Counterfactual Processor
+
+Description: Tests how conclusions change under alternative conditions to reveal fragile assumptions and decision sensitivity.
+
+6. Skill Name: First-Principles Processor
+
+Description: Separates fundamental requirements from inherited conventions and rebuilds a solution from necessary components.
+
+7. Skill Name: Systems Thinking Processor
+
+Description: Examines interactions, stocks, flows, delays, incentives, feedback, boundaries, and unintended consequences.
+
+8. Skill Name: Probabilistic Judgment Processor
+
+Description: Expresses uncertainty with calibrated ranges, scenarios, confidence drivers, and update rules rather than false precision.
+
+9. Skill Name: Adversarial Critique Processor
+
+Description: Actively searches for contradictions, exploits, omissions, invalid evidence, unsafe behavior, and boundary failures.
+
+10. Skill Name: Synthesis Processor
+
+Description: Combines compatible findings, resolves conflicts transparently, preserves minority evidence, and produces an integrated conclusion.
+
+Category 5: Task Routing and Scheduling
+
+1. Skill Name: Capability-Based Router
+
+Description: Assigns work according to demonstrated capability, necessary tools, context fit, risk tolerance, and output format.
+
+2. Skill Name: Priority Queue Manager
+
+Description: Orders tasks using urgency, value, dependency impact, aging, risk, and cost of delay.
+
+3. Skill Name: Deadline-Aware Scheduler
+
+Description: Builds schedules backward from deadlines, reserves review time, and raises early warnings when slack is consumed.
+
+4. Skill Name: Fairness-Aware Scheduler
+
+Description: Prevents starvation and unhealthy overload by balancing priority with equitable distribution and worker recovery.
+
+5. Skill Name: Locality-Aware Router
+
+Description: Keeps related tasks with workers already holding the relevant context, files, tools, or domain state.
+
+6. Skill Name: Risk-Aware Dispatcher
+
+Description: Routes sensitive or irreversible work to higher-trust workers and stronger review paths.
+
+7. Skill Name: Batching Optimizer
+
+Description: Groups similar tasks to reduce setup overhead while respecting latency, freshness, and isolation requirements.
+
+8. Skill Name: Preemption Manager
+
+Description: Pauses lower-value work safely when urgent tasks arrive and preserves enough state for clean resumption.
+
+9. Skill Name: Calendar Window Scheduler
+
+Description: Places tasks into allowed operating windows and accounts for time zones, dependencies, maintenance periods, and human availability.
+
+10. Skill Name: Work Stealing Coordinator
+
+Description: Lets idle workers accept eligible queued tasks while protecting specialization, ownership, and conflict rules.
+
+Category 6: Communication and Coordination
+
+1. Skill Name: Worker Brief Writer
+
+Description: Creates concise assignment briefs containing objective, context, inputs, limits, output contract, checks, and deadline.
+
+2. Skill Name: Status Protocol Manager
+
+Description: Standardizes progress reports around completed work, next action, blockers, evidence, and forecast.
+
+3. Skill Name: Inter-Worker Message Router
+
+Description: Delivers structured messages to the correct recipient, prevents broadcast noise, and preserves correlation to tasks.
+
+4. Skill Name: Handoff Packet Builder
+
+Description: Packages artifacts, decisions, assumptions, open issues, provenance, and exact next steps for another worker.
+
+5. Skill Name: Shared Vocabulary Manager
+
+Description: Defines canonical terms, identifiers, units, labels, and abbreviations to reduce semantic drift across teams.
+
+6. Skill Name: Decision Broadcast Manager
+
+Description: Communicates approved decisions, scope changes, superseded rules, and effective dates to affected workers.
+
+7. Skill Name: Question Escalation Router
+
+Description: Directs unresolved questions to the smallest appropriate authority and records the resulting answer as reusable guidance.
+
+8. Skill Name: Meeting-Free Sync Manager
+
+Description: Maintains asynchronous checkpoints, decision logs, and targeted requests so teams can coordinate without unnecessary meetings.
+
+9. Skill Name: Conflict Conversation Facilitator
+
+Description: Frames disagreements around evidence, constraints, trade-offs, and decision rights instead of personalities.
+
+10. Skill Name: Communication Load Regulator
+
+Description: Limits unnecessary updates and chooses the right cadence, audience, detail, and channel for each information type.
+
+Category 7: Context and Memory Management
+
+1. Skill Name: Context Packager
+
+Description: Builds task-specific context bundles containing only relevant facts, files, decisions, constraints, and references.
+
+2. Skill Name: Context Window Budgeter
+
+Description: Allocates limited context space among instructions, evidence, examples, working state, and output requirements.
+
+3. Skill Name: Working Memory Curator
+
+Description: Maintains the active facts and intermediate state needed for current work while removing obsolete or distracting material.
+
+4. Skill Name: Long-Term Memory Librarian
+
+Description: Stores reusable knowledge with metadata, ownership, freshness, provenance, sensitivity, and retrieval cues.
+
+5. Skill Name: Memory Consolidator
+
+Description: Combines repeated observations into durable lessons without losing exceptions, uncertainty, or source lineage.
+
+6. Skill Name: Forgetting Policy Manager
+
+Description: Retires stale, low-value, superseded, or prohibited memory according to defined retention and privacy rules.
+
+7. Skill Name: Context Drift Detector
+
+Description: Finds when workers are operating on different versions, assumptions, definitions, or objectives.
+
+8. Skill Name: Checkpoint State Saver
+
+Description: Captures resumable state including completed steps, artifacts, pending actions, environment, and known failures.
+
+9. Skill Name: Cross-Task Memory Firewall
+
+Description: Prevents confidential or irrelevant information from leaking between unrelated tasks or users.
+
+10. Skill Name: Knowledge Freshness Monitor
+
+Description: Flags memory whose validity depends on time, changing systems, policies, prices, versions, or external events.
+
+Category 8: Collaboration and Team Structures
+
+1. Skill Name: Specialist Team Assembler
+
+Description: Selects complementary experts and assigns clear responsibilities based on mission needs and coupling.
+
+2. Skill Name: Leader-Evaluator Team Pattern
+
+Description: Separates creation from evaluation by assigning a lead producer and independent reviewers.
+
+3. Skill Name: Debate Team Manager
+
+Description: Organizes advocates for competing options, requires evidence and rebuttal, then hands findings to a neutral judge.
+
+4. Skill Name: Red Team Blue Team Coordinator
+
+Description: Pairs builders with adversarial testers and manages remediation cycles until defined risks are addressed.
+
+5. Skill Name: Peer Review Circle
+
+Description: Routes outputs through peers with distinct review lenses and consolidates actionable feedback.
+
+6. Skill Name: Expert Panel Synthesizer
+
+Description: Collects independent specialist judgments, surfaces agreement and disagreement, and produces a traceable panel conclusion.
+
+7. Skill Name: Apprentice Mentor Pairing
+
+Description: Pairs lower-confidence workers with experienced supervisors and defines review thresholds for delegated tasks.
+
+8. Skill Name: Swarm Coordinator
+
+Description: Directs many lightweight workers toward a shared objective using local rules, shared signals, and centralized quality gates.
+
+9. Skill Name: Cross-Functional Squad Builder
+
+Description: Combines domain, implementation, quality, security, and communication roles into one accountable delivery unit.
+
+10. Skill Name: Incident Command Team Builder
+
+Description: Creates command, operations, planning, communications, and evidence roles for time-critical response.
+
+Category 9: Verification, Review, and Quality
+
+1. Skill Name: Requirement Traceability Checker
+
+Description: Maps every stated requirement to a deliverable element and an observed verification result.
+
+2. Skill Name: Independent Reviewer
+
+Description: Evaluates an output without relying on the creator's assumptions and reports defects by severity and evidence.
+
+3. Skill Name: Quality Gate Manager
+
+Description: Blocks progression until mandatory structural, semantic, boundary, integration, presentation, and handoff checks pass.
+
+4. Skill Name: Test Case Generator
+
+Description: Creates normal, boundary, negative, repeated-use, and integration tests from requirements and failure risks.
+
+5. Skill Name: Regression Guardian
+
+Description: Rechecks previously passing behavior after changes and identifies exactly which revision introduced a failure.
+
+6. Skill Name: Consistency Auditor
+
+Description: Finds contradictions across outputs, sections, workers, data, terminology, formatting, and decisions.
+
+7. Skill Name: Completeness Auditor
+
+Description: Detects missing requirements, scenarios, dependencies, exceptions, evidence, owners, and next steps.
+
+8. Skill Name: Evidence Verifier
+
+Description: Checks whether each material claim is supported by the cited source or observed result and labels unsupported inference.
+
+9. Skill Name: Presentation QA Reviewer
+
+Description: Inspects readability, layout, hierarchy, accessibility, clipping, naming, and delivery format.
+
+10. Skill Name: Handoff Acceptance Tester
+
+Description: Opens, runs, edits, or continues the deliverable through the recipient's actual use path.
+
+Category 10: Conflict Detection and Resolution
+
+1. Skill Name: Output Conflict Detector
+
+Description: Compares worker results and identifies direct contradictions, incompatible assumptions, and mutually exclusive recommendations.
+
+2. Skill Name: Merge Conflict Resolver
+
+Description: Reconciles overlapping edits using ownership rules, semantic intent, tests, and preserved change history.
+
+3. Skill Name: Assumption Conflict Mediator
+
+Description: Surfaces incompatible premises and determines which can be validated, scoped, or represented as alternatives.
+
+4. Skill Name: Priority Conflict Resolver
+
+Description: Uses declared objectives, deadlines, risk, value, and decision rights to settle competing task priorities.
+
+5. Skill Name: Policy Conflict Analyzer
+
+Description: Detects inconsistent instructions or policies and applies the highest-authority, most specific, current rule.
+
+6. Skill Name: Resource Contention Resolver
+
+Description: Allocates scarce tools, files, compute, reviewers, or time windows and records the trade-off.
+
+7. Skill Name: Consensus Builder
+
+Description: Finds shared ground, preserves material dissent, and produces a decision-ready summary without forcing false agreement.
+
+8. Skill Name: Arbitration Manager
+
+Description: Sends unresolved disputes to a designated judge with a neutral case packet and binding decision criteria.
+
+9. Skill Name: Duplicate Work Reconciler
+
+Description: Combines redundant outputs, keeps the strongest evidence, and prevents double counting or conflicting versions.
+
+10. Skill Name: Semantic Diff Interpreter
+
+Description: Explains whether textual differences change meaning, obligations, behavior, or only wording and style.
+
+Category 11: Failure Recovery and Resilience
+
+1. Skill Name: Failure Triage Manager
+
+Description: Classifies failures by input, state, logic, tool, permission, environment, integration, or output layer.
+
+2. Skill Name: Root Cause Investigator
+
+Description: Finds the earliest repeatable cause, separates symptoms from causes, and records confirming evidence.
+
+3. Skill Name: Retry Policy Controller
+
+Description: Retries only transient failures with bounded attempts, delays, changed conditions, and clear stop rules.
+
+4. Skill Name: Fallback Strategy Selector
+
+Description: Chooses a lower-risk alternative method, tool, worker, format, or scope when the preferred path fails.
+
+5. Skill Name: Partial Result Salvager
+
+Description: Preserves valid completed work, isolates damaged portions, and resumes from the nearest trustworthy checkpoint.
+
+6. Skill Name: Circuit Breaker Manager
+
+Description: Stops repeated failing actions before they consume resources or cause cascading damage.
+
+7. Skill Name: Rollback Coordinator
+
+Description: Restores the last known good state, verifies recovery, and keeps failed changes available for diagnosis.
+
+8. Skill Name: Disaster Recovery Orchestrator
+
+Description: Reconstructs essential state, services, artifacts, and responsibilities after broad disruption.
+
+9. Skill Name: Chaos Scenario Tester
+
+Description: Introduces controlled worker, tool, network, timing, or dependency failures to validate resilience.
+
+10. Skill Name: Recovery Lesson Recorder
+
+Description: Captures failure condition, root cause, minimal repair, verification, and prevention rule for future tasks.
+
+Category 12: Resource, Cost, and Performance
+
+1. Skill Name: Token Budget Manager
+
+Description: Allocates context and generation budget by task value, complexity, evidence needs, and expected return.
+
+2. Skill Name: Compute Budget Scheduler
+
+Description: Distributes compute across exploration, execution, testing, and recovery while enforcing ceilings.
+
+3. Skill Name: Cost Estimator
+
+Description: Forecasts resource use by workstream, uncertainty range, external tools, review cycles, and contingency.
+
+4. Skill Name: Latency Optimizer
+
+Description: Reduces response time through parallel-safe work, caching, smaller handoffs, prefetching, and critical-path focus.
+
+5. Skill Name: Resource Quota Enforcer
+
+Description: Prevents workers from exceeding defined limits for calls, runtime, storage, concurrency, or spend.
+
+6. Skill Name: Performance Profiler
+
+Description: Measures queue time, execution time, review time, retries, throughput, error rate, and bottlenecks.
+
+7. Skill Name: Efficiency Benchmark Runner
+
+Description: Compares worker or workflow performance on shared tasks with equal inputs, limits, and scoring.
+
+8. Skill Name: Cache Strategy Manager
+
+Description: Caches stable, reusable results with validity rules and invalidates them when dependencies change.
+
+9. Skill Name: Capacity Forecaster
+
+Description: Predicts worker and review capacity from demand patterns, service targets, task mix, and historical throughput.
+
+10. Skill Name: Value-of-Work Optimizer
+
+Description: Prioritizes tasks by expected benefit, probability of success, cost, risk, and opportunity cost.
+
+Category 13: Safety, Permissions, and Governance
+
+1. Skill Name: Permission Boundary Manager
+
+Description: Grants each worker only the tools, data, files, and actions required for its assignment.
+
+2. Skill Name: Action Approval Gate
+
+Description: Requires explicit authorization before irreversible, external, financial, security-sensitive, or high-impact actions.
+
+3. Skill Name: Data Sensitivity Classifier
+
+Description: Labels information by sensitivity and applies appropriate access, handling, retention, and sharing controls.
+
+4. Skill Name: Policy Compliance Checker
+
+Description: Evaluates plans and outputs against governing policies and records the rule and disposition.
+
+5. Skill Name: Secret Handling Guard
+
+Description: Prevents credentials and private tokens from entering prompts, logs, outputs, or unauthorized worker contexts.
+
+6. Skill Name: Audit Trail Recorder
+
+Description: Records assignments, decisions, tool actions, artifact versions, approvals, failures, and responsible actors.
+
+7. Skill Name: Separation of Duties Enforcer
+
+Description: Prevents one worker from both initiating and approving sensitive actions without independent review.
+
+8. Skill Name: Sandbox Policy Manager
+
+Description: Runs uncertain code or transformations in isolated environments with restricted access and disposable state.
+
+9. Skill Name: Human Escalation Gate
+
+Description: Routes ambiguous, high-risk, or authority-dependent decisions to a person with a concise evidence packet.
+
+10. Skill Name: Governance Rule Versioner
+
+Description: Tracks rule changes, effective dates, superseded guidance, applicability, and migration requirements.
+
+Category 14: Research and Evidence Operations
+
+1. Skill Name: Research Question Decomposer
+
+Description: Transforms a broad topic into answerable questions, evidence needs, source priorities, and stopping conditions.
+
+2. Skill Name: Source Assignment Manager
+
+Description: Distributes distinct source types, jurisdictions, periods, or viewpoints across research workers.
+
+3. Skill Name: Primary Source Hunter
+
+Description: Prioritizes original records, official documentation, datasets, standards, filings, and direct statements.
+
+4. Skill Name: Claim Evidence Mapper
+
+Description: Links claims to supporting and contradicting evidence and distinguishes fact from interpretation.
+
+5. Skill Name: Source Quality Rater
+
+Description: Assesses authority, proximity, method, currency, independence, completeness, and conflict of interest.
+
+6. Skill Name: Research Deduplicator
+
+Description: Clusters repeated reporting and prevents multiple pages derived from one source from appearing independent.
+
+7. Skill Name: Contradiction Investigator
+
+Description: Investigates conflicting sources and explains differences in definitions, timing, scope, data, or incentives.
+
+8. Skill Name: Evidence Gap Finder
+
+Description: Identifies decisions that lack adequate evidence and specifies the smallest research needed to close each gap.
+
+9. Skill Name: Citation Integrity Checker
+
+Description: Ensures citations point to the correct source and directly support the nearby statement.
+
+10. Skill Name: Research Synthesis Editor
+
+Description: Produces a concise, balanced conclusion with uncertainty, source distinctions, and unresolved questions.
+
+Category 15: Data and Analytics Workflows
+
+1. Skill Name: Data Task Splitter
+
+Description: Partitions datasets or analytical questions into independent units while preserving schema, units, and join keys.
+
+2. Skill Name: Schema Harmonizer
+
+Description: Aligns field names, types, formats, units, categories, and identifiers across worker outputs.
+
+3. Skill Name: Data Quality Inspector
+
+Description: Checks missing values, duplicates, ranges, distributions, invalid categories, leakage, and inconsistent joins.
+
+4. Skill Name: Parallel Data Transformer
+
+Description: Processes safe partitions concurrently and verifies row counts, checksums, and recombination integrity.
+
+5. Skill Name: Metric Definition Manager
+
+Description: Defines formulas, populations, time windows, units, exclusions, and owners for each metric.
+
+6. Skill Name: Statistical Review Worker
+
+Description: Checks method fit, assumptions, sample size, uncertainty, multiple testing, and interpretation.
+
+7. Skill Name: Model Comparison Coordinator
+
+Description: Runs comparable models under shared splits and metrics and records accuracy, robustness, cost, and limitations.
+
+8. Skill Name: Anomaly Investigation Team
+
+Description: Assigns detection, validation, root-cause, and impact analysis to separate workers.
+
+9. Skill Name: Data Provenance Tracker
+
+Description: Records source, extraction time, transformations, versions, owners, and downstream dependencies.
+
+10. Skill Name: Analytical Narrative Synthesizer
+
+Description: Converts verified analysis into a decision-focused explanation without overstating causality or certainty.
+
+Category 16: Software and Engineering Coordination
+
+1. Skill Name: Repository Work Planner
+
+Description: Maps architecture, components, interfaces, tests, ownership, and change boundaries before parallel coding.
+
+2. Skill Name: Issue-to-Task Compiler
+
+Description: Converts a feature or defect report into reproducible conditions, implementation tasks, tests, and acceptance criteria.
+
+3. Skill Name: Code Ownership Router
+
+Description: Assigns changes to workers based on module expertise and prevents unsafe overlapping edits.
+
+4. Skill Name: Interface Contract Manager
+
+Description: Defines APIs, schemas, error behavior, versioning, and compatibility obligations between parallel components.
+
+5. Skill Name: Branch Strategy Coordinator
+
+Description: Creates isolated branches, sets merge order, and protects stable integration points.
+
+6. Skill Name: Test Matrix Orchestrator
+
+Description: Distributes unit, integration, end-to-end, performance, security, and compatibility testing.
+
+7. Skill Name: Build Failure Triage Team
+
+Description: Separates dependency, compiler, environment, test, packaging, and deployment failures for focused repair.
+
+8. Skill Name: Release Readiness Manager
+
+Description: Verifies features, tests, documentation, migration, rollback, observability, security, and handoff before release.
+
+9. Skill Name: Technical Debt Prioritizer
+
+Description: Ranks debt by failure risk, change frequency, maintenance cost, user impact, and remediation effort.
+
+10. Skill Name: Engineering Change Integrator
+
+Description: Merges code, configuration, tests, docs, and release notes and rechecks the joined system.
+
+Category 17: Document and Knowledge Production
+
+1. Skill Name: Document Section Dispatcher
+
+Description: Assigns non-overlapping sections with shared outline, audience, terminology, evidence, and style rules.
+
+2. Skill Name: Outline Integration Manager
+
+Description: Maintains logical hierarchy, coverage, sequence, and cross-references across independently drafted sections.
+
+3. Skill Name: Style Consistency Editor
+
+Description: Normalizes voice, terminology, capitalization, list grammar, citations, and formatting without flattening meaning.
+
+4. Skill Name: Document Fact Checker
+
+Description: Verifies names, dates, figures, claims, references, and internal consistency.
+
+5. Skill Name: Template Compliance Reviewer
+
+Description: Checks required sections, styles, fields, metadata, page elements, and accessibility.
+
+6. Skill Name: Cross-Reference Manager
+
+Description: Maintains links among headings, figures, tables, appendices, definitions, and cited artifacts.
+
+7. Skill Name: Version Consolidator
+
+Description: Reconciles document variants, preserves approved edits, and produces a clean authoritative version.
+
+8. Skill Name: Knowledge Base Publisher
+
+Description: Converts validated content into searchable articles with metadata, ownership, review dates, and related links.
+
+9. Skill Name: Executive Summary Composer
+
+Description: Synthesizes a long document into decisions, key evidence, risks, and recommended actions.
+
+10. Skill Name: Document Handoff Packager
+
+Description: Bundles editable source, final format, attachments, usage notes, and a clean naming structure.
+
+Category 18: Media and Creative Production Coordination
+
+1. Skill Name: Creative Brief Decomposer
+
+Description: Turns a concept into audience, message, format, style, asset, shot, scene, and acceptance requirements.
+
+2. Skill Name: Asset Production Scheduler
+
+Description: Coordinates copy, image, audio, video, motion, review, and export dependencies.
+
+3. Skill Name: Visual Direction Manager
+
+Description: Maintains color, composition, typography, iconography, realism, and brand consistency across creators.
+
+4. Skill Name: Storyboard Workstream Coordinator
+
+Description: Assigns scenes while preserving narrative continuity, pacing, characters, framing, and transitions.
+
+5. Skill Name: Multi-Asset Consistency Checker
+
+Description: Detects mismatched subjects, styles, dimensions, naming, timing, and technical specifications.
+
+6. Skill Name: Render Farm Dispatcher
+
+Description: Distributes render jobs, monitors failures, retries safe segments, and validates frames and codecs.
+
+7. Skill Name: Creative Variant Evaluator
+
+Description: Compares alternatives against the brief, audience fit, clarity, originality, accessibility, and production cost.
+
+8. Skill Name: Rights and Attribution Tracker
+
+Description: Records asset origin, license, permissions, attribution, restrictions, and expiry.
+
+9. Skill Name: Edit Decision Integrator
+
+Description: Combines approved creative selections into a coherent final sequence and verifies transitions and timing.
+
+10. Skill Name: Media Delivery Preflight
+
+Description: Checks dimensions, resolution, frame rate, audio levels, captions, file format, size, and playback.
+
+Category 19: Workflow Automation and Tool Use
+
+1. Skill Name: Tool Capability Router
+
+Description: Selects the smallest suitable tool based on input type, output needs, permissions, reliability, and reversibility.
+
+2. Skill Name: Tool Invocation Planner
+
+Description: Defines call order, parameters, dependencies, expected outputs, failure signals, and retry policy.
+
+3. Skill Name: Automation Pipeline Builder
+
+Description: Links triggers, transformations, decisions, actions, checks, and notifications into a repeatable workflow.
+
+4. Skill Name: Connector Access Manager
+
+Description: Verifies authentication, scopes, source boundaries, rate limits, and permitted operations before use.
+
+5. Skill Name: Tool Output Normalizer
+
+Description: Converts heterogeneous tool responses into stable schemas with errors, provenance, and confidence fields.
+
+6. Skill Name: Idempotency Guard
+
+Description: Prevents duplicate side effects by using unique operation keys, state checks, and safe replay behavior.
+
+7. Skill Name: Rate Limit Coordinator
+
+Description: Schedules calls within service quotas using batching, backoff, caching, and priority rules.
+
+8. Skill Name: Automation Dry-Run Manager
+
+Description: Simulates intended changes and produces a reviewable action set before execution.
+
+9. Skill Name: Tool Failure Fallback Router
+
+Description: Switches to approved alternatives while preserving the output contract and recording degraded behavior.
+
+10. Skill Name: Workflow Observability Manager
+
+Description: Tracks runs, step duration, failures, inputs, outputs, retries, and service-level performance.
+
+Category 20: Decision Support and Strategy
+
+1. Skill Name: Decision Frame Builder
+
+Description: Defines the decision, options, objectives, constraints, stakeholders, horizon, and irreversible consequences.
+
+2. Skill Name: Criteria Weighting Facilitator
+
+Description: Establishes measurable criteria and explicit weights while testing sensitivity to different priorities.
+
+3. Skill Name: Scenario Planning Team
+
+Description: Develops plausible futures, triggers, impacts, no-regret actions, and contingency moves.
+
+4. Skill Name: Option Generation Swarm
+
+Description: Produces diverse alternatives from independent perspectives before evaluation begins.
+
+5. Skill Name: Trade-Off Analyzer
+
+Description: Makes benefits, costs, risks, delays, dependencies, and opportunity costs visible for each option.
+
+6. Skill Name: Decision Pre-Mortem Manager
+
+Description: Assumes a choice failed, gathers likely causes, and converts them into mitigations and monitoring.
+
+7. Skill Name: Reversibility Assessor
+
+Description: Classifies decisions by reversibility, lock-in, switching cost, and need for staged commitment.
+
+8. Skill Name: Evidence-to-Decision Translator
+
+Description: Connects verified findings to practical implications without overstating what the evidence proves.
+
+9. Skill Name: Decision Record Keeper
+
+Description: Documents context, options, evidence, decision, owner, date, assumptions, and review trigger.
+
+10. Skill Name: Portfolio Prioritization Manager
+
+Description: Balances initiatives by strategic fit, value, risk, capacity, dependency, and timing.
+
+Category 21: Learning and Capability Improvement
+
+1. Skill Name: Worker Performance Evaluator
+
+Description: Scores outputs against shared rubrics and separates capability gaps from context, tool, or instruction failures.
+
+2. Skill Name: Skill Gap Mapper
+
+Description: Identifies missing competencies required by upcoming work and prioritizes development by impact.
+
+3. Skill Name: Practice Task Generator
+
+Description: Creates targeted exercises with realistic inputs, expected outputs, difficulty progression, and scoring criteria.
+
+4. Skill Name: Feedback Consolidator
+
+Description: Combines reviewer comments, removes duplicates, resolves contradictions, and produces prioritized improvements.
+
+5. Skill Name: Lesson Transfer Manager
+
+Description: Extracts reusable patterns from one task and applies them cautiously to similar future work.
+
+6. Skill Name: Benchmark Suite Curator
+
+Description: Maintains representative normal, boundary, adversarial, and regression tasks with stable evaluation rules.
+
+7. Skill Name: Prompt and Instruction Optimizer
+
+Description: Improves task briefs based on observed failures while avoiding overfitting to one example.
+
+8. Skill Name: Workflow Improvement Scientist
+
+Description: Runs controlled process changes and measures quality, speed, cost, and recovery effects.
+
+9. Skill Name: Capability Certification Gate
+
+Description: Allows workers to receive sensitive or complex assignments only after passing defined tests.
+
+10. Skill Name: Learning Retrospective Facilitator
+
+Description: Captures what worked, what failed, why, and the smallest durable change for the next cycle.
+
+Category 22: Human Collaboration and Oversight
+
+1. Skill Name: Human-in-the-Loop Planner
+
+Description: Places human review at decisions where judgment, authority, ethics, or irreversible impact requires it.
+
+2. Skill Name: Approval Packet Composer
+
+Description: Presents the proposed action, evidence, alternatives, risks, reversibility, and exact approval requested.
+
+3. Skill Name: Expert Consultation Router
+
+Description: Finds the appropriate subject-matter expert and sends a focused question with necessary context.
+
+4. Skill Name: Reviewer Workload Balancer
+
+Description: Distributes review tasks by expertise, urgency, conflict of interest, and capacity.
+
+5. Skill Name: Feedback Interpretation Manager
+
+Description: Separates required changes, preferences, questions, and contradictions in human feedback.
+
+6. Skill Name: User Intent Reconciler
+
+Description: Checks whether evolving outputs still match the user's underlying outcome, constraints, and audience.
+
+7. Skill Name: Exception Request Manager
+
+Description: Documents why a rule cannot be met, impact, compensating controls, authority, and expiry.
+
+8. Skill Name: Sign-Off Tracker
+
+Description: Records who must approve what, current status, conditions, evidence, and remaining blockers.
+
+9. Skill Name: Escalation Summary Writer
+
+Description: Creates a concise, neutral summary of the issue, attempts, evidence, choices, and requested decision.
+
+10. Skill Name: Human Override Protector
+
+Description: Accepts authorized overrides while recording scope, rationale, duration, and downstream effects.
+
+Category 23: Monitoring, Observability, and Control
+
+1. Skill Name: Mission Control Dashboard
+
+Description: Summarizes active instances, task states, blockers, risks, deadlines, resource use, and quality status.
+
+2. Skill Name: Heartbeat Monitor
+
+Description: Detects silent, stalled, disconnected, or looping workers using expected progress intervals.
+
+3. Skill Name: Service Level Tracker
+
+Description: Measures response, completion, quality, and recovery targets against agreed thresholds.
+
+4. Skill Name: Anomaly Alert Manager
+
+Description: Raises actionable alerts for unusual latency, error rates, cost, concurrency, output drift, or policy events.
+
+5. Skill Name: Progress Evidence Collector
+
+Description: Requires concrete artifacts or check results for claimed progress rather than status-only updates.
+
+6. Skill Name: Dependency Health Monitor
+
+Description: Watches tools, data sources, connectors, reviewers, and upstream tasks that can block execution.
+
+7. Skill Name: Control Loop Tuner
+
+Description: Adjusts scheduling, concurrency, retries, and review intensity using observed system behavior.
+
+8. Skill Name: Drift Monitoring Manager
+
+Description: Tracks changes in task mix, worker quality, data, policies, tools, and user expectations.
+
+9. Skill Name: Operational Event Correlator
+
+Description: Links related logs, failures, messages, and configuration changes into one incident timeline.
+
+10. Skill Name: Completion Integrity Monitor
+
+Description: Prevents tasks from closing until deliverables exist, checks pass, and handoff is usable.
+
+Category 24: Scale, Distribution, and Federation
+
+1. Skill Name: Hierarchical Orchestrator
+
+Description: Coordinates organization-wide work through nested leaders while preserving local autonomy and global constraints.
+
+2. Skill Name: Federated Worker Manager
+
+Description: Coordinates workers across separate environments, teams, or trust domains using explicit contracts and limited data sharing.
+
+3. Skill Name: Cross-Region Scheduler
+
+Description: Places work by data residency, latency, availability, cost, time zone, and continuity requirements.
+
+4. Skill Name: Shard Allocation Manager
+
+Description: Partitions large workloads into balanced shards and manages ownership, retries, and recombination.
+
+5. Skill Name: Distributed Consensus Coordinator
+
+Description: Obtains reliable agreement on state or decisions despite delays, partial failure, or conflicting updates.
+
+6. Skill Name: Global Queue Manager
+
+Description: Balances demand across worker pools while preserving priority, fairness, locality, and quotas.
+
+7. Skill Name: Replication Controller
+
+Description: Maintains redundant workers or state for availability and detects divergence among replicas.
+
+8. Skill Name: Partition Recovery Manager
+
+Description: Continues safe local work during disconnection and reconciles state when connections return.
+
+9. Skill Name: Tenant Isolation Manager
+
+Description: Separates users, teams, data, quotas, logs, and permissions in a shared multi-agent system.
+
+10. Skill Name: Scale Test Orchestrator
+
+Description: Measures behavior under increasing tasks, workers, messages, data volume, and failure rates.
+
+Category 25: Advanced Adaptive Orchestration
+
+1. Skill Name: Dynamic Team Recomposer
+
+Description: Changes team membership and role allocation as task conditions, evidence, and worker performance evolve.
+
+2. Skill Name: Intent-Aware Orchestrator
+
+Description: Continuously aligns work with the desired outcome rather than blindly following an outdated plan.
+
+3. Skill Name: Uncertainty-Driven Explorer
+
+Description: Allocates more parallel effort to high-impact unknowns and reduces effort where evidence is already decisive.
+
+4. Skill Name: Anytime Solution Manager
+
+Description: Maintains a usable current answer and improves it incrementally as more time or resources become available.
+
+5. Skill Name: Adaptive Review Intensity Controller
+
+Description: Raises or lowers review depth based on risk, novelty, worker track record, and detected defects.
+
+6. Skill Name: Meta-Orchestrator Evaluator
+
+Description: Compares orchestration strategies on the same mission and selects the strongest observed operating pattern.
+
+7. Skill Name: Self-Repairing Workflow Manager
+
+Description: Detects broken stages, substitutes compatible components, and revalidates downstream joins.
+
+8. Skill Name: Emergent Bottleneck Resolver
+
+Description: Finds new bottlenecks created by scaling or parallelism and restructures flow around them.
+
+9. Skill Name: Opportunity Discovery Worker
+
+Description: Identifies valuable adjacent tasks, automation opportunities, reusable assets, and unanswered questions without derailing the mission.
+
+10. Skill Name: Mission Evolution Manager
+
+Description: Handles legitimate scope changes by updating requirements, plans, assignments, risks, and acceptance tests coherently.

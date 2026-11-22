@@ -1,0 +1,2684 @@
+A comprehensive capability map for building a local, CPU-compatible, expressive neural text-to-speech agent
+
+Catalog Edition 1.0 • November 2026
+
++------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 18 categories • 626 distinct skill concepts                                                                                                          |
+|                                                                                                                                                      |
+| Designed as a catalog only. Each entry can later become an independent Skill, a sub-skill, or a reusable component in a larger offline voice system. |
++======================================================================================================================================================+
++------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Catalog Scope
+
+This catalog covers the complete offline neural voice lifecycle: licensed model acquisition, air-gapped installation, text and phoneme processing, expressive inference, audio mastering, quality assurance, sandbox operation, safety, fallback behavior, integration, release governance, and the final greeting acceptance scenario.
+
+Every proposed capability is designed around four non-negotiable properties: local execution, CPU compatibility, no required API key, and explicit verification. The catalog intentionally separates small capabilities so an agent can invoke only the minimum tools needed for a task.
+
+The catalog does not bundle model weights, voices, or third-party binaries. Those artifacts must be selected later based on license, redistribution rights, package limits, target CPU, and voice-consent requirements.
+
+Recommended Skill Architecture
+
+Control-plane skill: Routes requests, selects a voice preset and model, enforces rights and safety gates, and coordinates synthesis, mastering, validation, and packaging.
+
+Execution skills: Perform deterministic operations such as normalization, phonemization, ONNX inference, WAV or MP3 export, and quality measurement.
+
+Reference skills: Provide versioned model cards, compatibility matrices, pronunciation lexicons, licenses, and troubleshooting rules without overloading the primary instructions.
+
+Validation skills: Independently test transcript accuracy, duration, loudness, true peak, decoding, offline behavior, and regression against known-good samples.
+
+Fallback skills: Recover from model, memory, or compatibility failures while preserving disclosure, quality thresholds, and user control.
+
+Category Index
+
+  --------------------------------------------------------------------------------------------------------
+  Category                                                Skills                  Primary purpose
+  ------------------------------------------------------- ----------------------- ------------------------
+  1. Neural Models, Weights, and Voice Assets             38                      models and assets
+
+  2. Offline Dependencies and Installation                33                      offline environment
+
+  3. Voice Engine and Neural Inference Tools              43                      inference control
+
+  4. Voice Presets and Performance Direction              34                      delivery presets
+
+  5. Text Preparation, Normalization, and Pronunciation   47                      linguistic preparation
+
+  6. Audio Rendering, Mastering, and Export               43                      waveform and mastering
+
+  7. Quality Assurance and Acceptance Testing             48                      measurable quality
+
+  8. Skill Components, Scripts, and References            41                      skill package parts
+
+  9. Offline Package and Distribution                     34                      distribution
+
+  10. Sandbox, Runtime, and Resource Management           35                      sandbox readiness
+
+  11. Safety, Rights, Consent, and Provenance             38                      rights and safety
+
+  12. Fallbacks, Routing, and Resilience                  31                      resilience
+
+  13. Final Acceptance Scenario: Video Greeting           26                      acceptance fixture
+
+  14. Performance, Benchmarking, and Optimization         25                      performance
+
+  15. Integration, Interfaces, and Automation             30                      interfaces
+
+  16. Diagnostics, Observability, and Support             29                      diagnostics
+
+  17. Accessibility, Localization, and Inclusive Output   23                      inclusive access
+
+  18. Governance, Release, and Lifecycle Management       28                      lifecycle governance
+  --------------------------------------------------------------------------------------------------------
+
+1. Neural Models, Weights, and Voice Assets
+
+38 skill concepts in this category. Each description defines the intended responsibility and quality boundary.
+
+1. Skill Name: CPU-Compatible Neural Text-to-Speech Model
+
+Description: Apply cpu-compatible neural text-to-speech model as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+2. Skill Name: Natural English Male Voice Model
+
+Description: Apply natural english male voice model as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+3. Skill Name: Male Voice Age Style 30s
+
+Description: Load, inspect, or operate male voice age style 30s locally with compatibility checks for architecture, opset, sample rate, tokenizer, speaker data, checksums, version, and CPU execution provider.
+
+4. Skill Name: Expressive Voice Capability
+
+Description: Load, inspect, or operate expressive voice capability locally with compatibility checks for architecture, opset, sample rate, tokenizer, speaker data, checksums, version, and CPU execution provider.
+
+5. Skill Name: Emotion Control Capability
+
+Description: Implement emotion control capability as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+6. Skill Name: Style Control Capability
+
+Description: Implement style control capability as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+7. Skill Name: Local Model Weights Manager
+
+Description: Control local model weights manager through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+8. Skill Name: ONNX Model File Manager
+
+Description: Control onnx model file manager through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+9. Skill Name: Voice Embedding File Manager
+
+Description: Control voice embedding file manager through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+10. Skill Name: Speaker Data File Manager
+
+Description: Control speaker data file manager through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+11. Skill Name: Tokenizer Model Manager
+
+Description: Control tokenizer model manager through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+12. Skill Name: Vocabulary File Manager
+
+Description: Control vocabulary file manager through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+13. Skill Name: Phoneme Data Manager
+
+Description: Control phoneme data manager through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+14. Skill Name: Model Configuration File Manager
+
+Description: Control model configuration file manager through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+15. Skill Name: Voice Configuration File Manager
+
+Description: Control voice configuration file manager through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+16. Skill Name: Language Configuration File Manager
+
+Description: Control language configuration file manager through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+17. Skill Name: Model Checksum Verifier
+
+Description: Evaluate model checksum verifier with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+18. Skill Name: Model Version File Manager
+
+Description: Control model version file manager through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+19. Skill Name: Model License Auditor
+
+Description: Inspect and record the applicable terms for model license auditor, block incompatible use, and emit a machine-readable decision with the source file, version, obligation, and approval status.
+
+20. Skill Name: Voice License Auditor
+
+Description: Inspect and record the applicable terms for voice license auditor, block incompatible use, and emit a machine-readable decision with the source file, version, obligation, and approval status.
+
+21. Skill Name: Redistribution Permission Verifier
+
+Description: Inspect and record the applicable terms for redistribution permission verifier, block incompatible use, and emit a machine-readable decision with the source file, version, obligation, and approval status.
+
+22. Skill Name: Model Quantization Selector
+
+Description: Apply model quantization selector as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+23. Skill Name: INT8 CPU Inference Profile
+
+Description: Apply int8 cpu inference profile as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+24. Skill Name: FP16 Compatibility Guard
+
+Description: Implement fp16 compatibility guard as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+25. Skill Name: Acoustic Model Adapter
+
+Description: Apply acoustic model adapter as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+26. Skill Name: Neural Vocoder Adapter
+
+Description: Load, inspect, or operate neural vocoder adapter locally with compatibility checks for architecture, opset, sample rate, tokenizer, speaker data, checksums, version, and CPU execution provider.
+
+27. Skill Name: Multi-Speaker Model Selector
+
+Description: Apply multi-speaker model selector as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+28. Skill Name: Single-Speaker Model Optimizer
+
+Description: Apply single-speaker model optimizer as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+29. Skill Name: Speaker-Embedding Compatibility Checker
+
+Description: Evaluate speaker-embedding compatibility checker with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+30. Skill Name: Model Architecture Detector
+
+Description: Apply model architecture detector as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+31. Skill Name: Model Warm-Up Runner
+
+Description: Apply model warm-up runner as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+32. Skill Name: Model Footprint Estimator
+
+Description: Measure model footprint estimator on the active CPU and workload, retain reproducible settings, compare against a stored baseline, and recommend the fastest configuration that still passes quality gates.
+
+33. Skill Name: Model Conversion to ONNX
+
+Description: Apply model conversion to onnx as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+34. Skill Name: ONNX Opset Compatibility Checker
+
+Description: Evaluate onnx opset compatibility checker with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+35. Skill Name: Model Rollback Manager
+
+Description: Control model rollback manager through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+36. Skill Name: Voice Asset Deduplicator
+
+Description: Load, inspect, or operate voice asset deduplicator locally with compatibility checks for architecture, opset, sample rate, tokenizer, speaker data, checksums, version, and CPU execution provider.
+
+37. Skill Name: Corrupt Weight Recovery
+
+Description: Implement corrupt weight recovery as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+38. Skill Name: Deterministic Inference Seed Controller
+
+Description: Control deterministic inference seed controller through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+2. Offline Dependencies and Installation
+
+33 skill concepts in this category. Each description defines the intended responsibility and quality boundary.
+
+1. Skill Name: Neural TTS Python Package Resolver
+
+Description: Produce neural tts python package resolver deterministically with validated filenames, metadata, checksums, overwrite protection, atomic writes, and a post-write open or decode test.
+
+2. Skill Name: Compatible Offline Python Wheels Manager
+
+Description: Control compatible offline python wheels manager through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+3. Skill Name: Locked Requirements File Builder
+
+Description: Implement locked requirements file builder as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+4. Skill Name: Phonemizer Python Package Installer
+
+Description: Install and validate phonemizer python package installer from local assets only, with hash checks, rollback support, deterministic paths, non-admin operation where possible, and no hidden network access.
+
+5. Skill Name: Audio Processing Python Package Installer
+
+Description: Install and validate audio processing python package installer from local assets only, with hash checks, rollback support, deterministic paths, non-admin operation where possible, and no hidden network access.
+
+6. Skill Name: MP3 Encoding Support Installer
+
+Description: Install and validate mp3 encoding support installer from local assets only, with hash checks, rollback support, deterministic paths, non-admin operation where possible, and no hidden network access.
+
+7. Skill Name: Model-Specific Native Library Installer
+
+Description: Install and validate model-specific native library installer from local assets only, with hash checks, rollback support, deterministic paths, non-admin operation where possible, and no hidden network access.
+
+8. Skill Name: ONNX Custom Operator Installer
+
+Description: Install and validate onnx custom operator installer from local assets only, with hash checks, rollback support, deterministic paths, non-admin operation where possible, and no hidden network access.
+
+9. Skill Name: Fully Offline Dependency Installer
+
+Description: Install and validate fully offline dependency installer from local assets only, with hash checks, rollback support, deterministic paths, non-admin operation where possible, and no hidden network access.
+
+10. Skill Name: Wheelhouse Builder
+
+Description: Implement wheelhouse builder as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+11. Skill Name: Dependency Hash Locker
+
+Description: Implement dependency hash locker as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+12. Skill Name: Python ABI Compatibility Checker
+
+Description: Evaluate python abi compatibility checker with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+13. Skill Name: Operating System Compatibility Checker
+
+Description: Evaluate operating system compatibility checker with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+14. Skill Name: CPU Architecture Detector
+
+Description: Implement cpu architecture detector as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+15. Skill Name: Virtual Environment Bootstrapper
+
+Description: Install and validate virtual environment bootstrapper from local assets only, with hash checks, rollback support, deterministic paths, non-admin operation where possible, and no hidden network access.
+
+16. Skill Name: Portable Python Environment Builder
+
+Description: Implement portable python environment builder as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+17. Skill Name: Air-Gapped Installation Verifier
+
+Description: Evaluate air-gapped installation verifier with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+18. Skill Name: Dependency License Collector
+
+Description: Inspect and record the applicable terms for dependency license collector, block incompatible use, and emit a machine-readable decision with the source file, version, obligation, and approval status.
+
+19. Skill Name: Dependency Vulnerability Scanner
+
+Description: Implement dependency vulnerability scanner as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+20. Skill Name: Native Binary Integrity Checker
+
+Description: Evaluate native binary integrity checker with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+21. Skill Name: FFmpeg Offline Bundle Manager
+
+Description: Produce ffmpeg offline bundle manager deterministically with validated filenames, metadata, checksums, overwrite protection, atomic writes, and a post-write open or decode test.
+
+22. Skill Name: LAME MP3 Encoder Adapter
+
+Description: Process or verify lame mp3 encoder adapter while preserving intelligibility, preventing clipping and seams, retaining sample accuracy, and recording sample rate, channels, duration, loudness, and true peak.
+
+23. Skill Name: Espeak-NG Phonemizer Adapter
+
+Description: Process or verify espeak-ng phonemizer adapter while preserving intelligibility, preventing clipping and seams, retaining sample accuracy, and recording sample rate, channels, duration, loudness, and true peak.
+
+24. Skill Name: ONNX Runtime CPU Provider Installer
+
+Description: Install and validate onnx runtime cpu provider installer from local assets only, with hash checks, rollback support, deterministic paths, non-admin operation where possible, and no hidden network access.
+
+25. Skill Name: Package Conflict Resolver
+
+Description: Produce package conflict resolver deterministically with validated filenames, metadata, checksums, overwrite protection, atomic writes, and a post-write open or decode test.
+
+26. Skill Name: Reproducible Environment Exporter
+
+Description: Produce reproducible environment exporter deterministically with validated filenames, metadata, checksums, overwrite protection, atomic writes, and a post-write open or decode test.
+
+27. Skill Name: Offline Update Bundle Builder
+
+Description: Produce offline update bundle builder deterministically with validated filenames, metadata, checksums, overwrite protection, atomic writes, and a post-write open or decode test.
+
+28. Skill Name: Uninstall and Cleanup Tool
+
+Description: Install and validate uninstall and cleanup tool from local assets only, with hash checks, rollback support, deterministic paths, non-admin operation where possible, and no hidden network access.
+
+29. Skill Name: Installer Rollback Handler
+
+Description: Install and validate installer rollback handler from local assets only, with hash checks, rollback support, deterministic paths, non-admin operation where possible, and no hidden network access.
+
+30. Skill Name: Installation Log Sanitizer
+
+Description: Install and validate installation log sanitizer from local assets only, with hash checks, rollback support, deterministic paths, non-admin operation where possible, and no hidden network access.
+
+31. Skill Name: Storage Preflight Checker
+
+Description: Evaluate storage preflight checker with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+32. Skill Name: Minimal Installation Profile
+
+Description: Install and validate minimal installation profile from local assets only, with hash checks, rollback support, deterministic paths, non-admin operation where possible, and no hidden network access.
+
+33. Skill Name: Full Installation Profile
+
+Description: Install and validate full installation profile from local assets only, with hash checks, rollback support, deterministic paths, non-admin operation where possible, and no hidden network access.
+
+3. Voice Engine and Neural Inference Tools
+
+43 skill concepts in this category. Each description defines the intended responsibility and quality boundary.
+
+1. Skill Name: Neural Model Loader
+
+Description: Apply neural model loader as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+2. Skill Name: Voice Loader
+
+Description: Load, inspect, or operate voice loader locally with compatibility checks for architecture, opset, sample rate, tokenizer, speaker data, checksums, version, and CPU execution provider.
+
+3. Skill Name: Tokenizer
+
+Description: Load, inspect, or operate tokenizer locally with compatibility checks for architecture, opset, sample rate, tokenizer, speaker data, checksums, version, and CPU execution provider.
+
+4. Skill Name: Text-to-Phoneme Converter
+
+Description: Transform text-to-phoneme converter into synthesis-ready input while preserving intended meaning, exposing every rewrite, supporting overrides, and rejecting ambiguous or unsafe transformations for review.
+
+5. Skill Name: Neural Inference Runner
+
+Description: Implement neural inference runner as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+6. Skill Name: Speech Duration Controller
+
+Description: Control speech duration controller through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+7. Skill Name: Speech Pace Controller
+
+Description: Control speech pace controller through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+8. Skill Name: Pitch Controller
+
+Description: Control pitch controller through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+9. Skill Name: Emotion Controller
+
+Description: Control emotion controller through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+10. Skill Name: Style Controller
+
+Description: Control style controller through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+11. Skill Name: Pause Controller
+
+Description: Control pause controller through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+12. Skill Name: Word Emphasis Controller
+
+Description: Control word emphasis controller through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+13. Skill Name: Sentence Chunker
+
+Description: Implement sentence chunker as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+14. Skill Name: Long-Text Renderer
+
+Description: Transform long-text renderer into synthesis-ready input while preserving intended meaning, exposing every rewrite, supporting overrides, and rejecting ambiguous or unsafe transformations for review.
+
+15. Skill Name: Batch Renderer
+
+Description: Implement batch renderer as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+16. Skill Name: Model Cache
+
+Description: Apply model cache as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+17. Skill Name: CPU Thread Controller
+
+Description: Control cpu thread controller through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+18. Skill Name: Memory Cleanup Handler
+
+Description: Implement memory cleanup handler as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+19. Skill Name: Timeout Handler
+
+Description: Implement timeout handler as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+20. Skill Name: Failure Recovery Handler
+
+Description: Implement failure recovery handler as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+21. Skill Name: Streaming Synthesis Coordinator
+
+Description: Control streaming synthesis coordinator through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+22. Skill Name: Deterministic Synthesis Mode
+
+Description: Apply deterministic synthesis mode as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+23. Skill Name: Inference Session Pool
+
+Description: Implement inference session pool as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+24. Skill Name: Voice Session Manager
+
+Description: Control voice session manager through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+25. Skill Name: Chunk Boundary Smoother
+
+Description: Implement chunk boundary smoother as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+26. Skill Name: Prosody Planner
+
+Description: Implement prosody planner as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+27. Skill Name: Breath Group Planner
+
+Description: Implement breath group planner as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+28. Skill Name: Paragraph Continuity Controller
+
+Description: Control paragraph continuity controller through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+29. Skill Name: Cross-Sentence Intonation Controller
+
+Description: Control cross-sentence intonation controller through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+30. Skill Name: Pronunciation Confidence Router
+
+Description: Control pronunciation confidence router through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+31. Skill Name: CPU Affinity Controller
+
+Description: Control cpu affinity controller through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+32. Skill Name: NUMA Awareness Guard
+
+Description: Implement numa awareness guard as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+33. Skill Name: Low-Memory Inference Mode
+
+Description: Apply low-memory inference mode as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+34. Skill Name: Adaptive Chunk Size Controller
+
+Description: Control adaptive chunk size controller through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+35. Skill Name: Warm Cache Preloader
+
+Description: Implement warm cache preloader as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+36. Skill Name: Cold Start Optimizer
+
+Description: Implement cold start optimizer as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+37. Skill Name: Cancellation Handler
+
+Description: Implement cancellation handler as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+38. Skill Name: Progress Reporter
+
+Description: Create a concise progress reporter containing versions, hashes, paths, decisions, warnings, and timestamps needed for reproducibility, audit, support, and offline handoff.
+
+39. Skill Name: Job Queue Manager
+
+Description: Control job queue manager through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+40. Skill Name: Priority Scheduler
+
+Description: Control priority scheduler through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+41. Skill Name: Parallel Batch Coordinator
+
+Description: Control parallel batch coordinator through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+42. Skill Name: Output Naming Controller
+
+Description: Control output naming controller through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+43. Skill Name: Seeded Variation Controller
+
+Description: Control seeded variation controller through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+4. Voice Presets and Performance Direction
+
+34 skill concepts in this category. Each description defines the intended responsibility and quality boundary.
+
+1. Skill Name: Friendly Male 30s Preset
+
+Description: Apply friendly male 30s preset as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+2. Skill Name: Warm Tone Preset
+
+Description: Apply warm tone preset as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+3. Skill Name: Welcoming Emotion Preset
+
+Description: Apply welcoming emotion preset as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+4. Skill Name: Conversational Style Preset
+
+Description: Apply conversational style preset as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+5. Skill Name: Natural Energy Setting
+
+Description: Apply natural energy setting as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+6. Skill Name: Medium Pace Setting
+
+Description: Apply medium pace setting as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+7. Skill Name: Neutral-to-Low Pitch Setting
+
+Description: Apply neutral-to-low pitch setting as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+8. Skill Name: Brief Pause After Greetings
+
+Description: Implement brief pause after greetings as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+9. Skill Name: Welcome Emphasis Preset
+
+Description: Apply welcome emphasis preset as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+10. Skill Name: English en-US Setting
+
+Description: Apply english en-us setting as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+11. Skill Name: Calm Narrator Preset
+
+Description: Apply calm narrator preset as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+12. Skill Name: Confident Presenter Preset
+
+Description: Apply confident presenter preset as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+13. Skill Name: Helpful Tutor Preset
+
+Description: Apply helpful tutor preset as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+14. Skill Name: Friendly Video Intro Preset
+
+Description: Apply friendly video intro preset as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+15. Skill Name: Professional Explainer Preset
+
+Description: Apply professional explainer preset as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+16. Skill Name: Gentle Storyteller Preset
+
+Description: Apply gentle storyteller preset as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+17. Skill Name: Upbeat Announcement Preset
+
+Description: Apply upbeat announcement preset as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+18. Skill Name: Serious Safety Message Preset
+
+Description: Apply serious safety message preset as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+19. Skill Name: Empathetic Support Preset
+
+Description: Apply empathetic support preset as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+20. Skill Name: Neutral Documentary Preset
+
+Description: Apply neutral documentary preset as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+21. Skill Name: Low-Intensity Late-Night Preset
+
+Description: Apply low-intensity late-night preset as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+22. Skill Name: High-Clarity Instruction Preset
+
+Description: Apply high-clarity instruction preset as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+23. Skill Name: Micro-Pause Pattern Controller
+
+Description: Control micro-pause pattern controller through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+24. Skill Name: Sentence-Final Cadence Preset
+
+Description: Apply sentence-final cadence preset as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+25. Skill Name: Question Intonation Preset
+
+Description: Apply question intonation preset as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+26. Skill Name: List Reading Preset
+
+Description: Apply list reading preset as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+27. Skill Name: Quoted Speech Preset
+
+Description: Apply quoted speech preset as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+28. Skill Name: Call-to-Action Emphasis Preset
+
+Description: Apply call-to-action emphasis preset as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+29. Skill Name: Custom Preset Composer
+
+Description: Apply custom preset composer as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+30. Skill Name: Preset Inheritance Manager
+
+Description: Control preset inheritance manager through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+31. Skill Name: Preset Compatibility Validator
+
+Description: Evaluate preset compatibility validator with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+32. Skill Name: Preset Version Manager
+
+Description: Control preset version manager through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+33. Skill Name: Preset A-B Comparator
+
+Description: Apply preset a-b comparator as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+34. Skill Name: Preset Export and Import
+
+Description: Produce preset export and import deterministically with validated filenames, metadata, checksums, overwrite protection, atomic writes, and a post-write open or decode test.
+
+5. Text Preparation, Normalization, and Pronunciation
+
+47 skill concepts in this category. Each description defines the intended responsibility and quality boundary.
+
+1. Skill Name: Spelling Correction
+
+Description: Implement spelling correction as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+2. Skill Name: Grammar Correction
+
+Description: Implement grammar correction as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+3. Skill Name: Punctuation Correction
+
+Description: Implement punctuation correction as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+4. Skill Name: Text Normalization
+
+Description: Transform text normalization into synthesis-ready input while preserving intended meaning, exposing every rewrite, supporting overrides, and rejecting ambiguous or unsafe transformations for review.
+
+5. Skill Name: Number Normalization
+
+Description: Transform number normalization into synthesis-ready input while preserving intended meaning, exposing every rewrite, supporting overrides, and rejecting ambiguous or unsafe transformations for review.
+
+6. Skill Name: Date Normalization
+
+Description: Transform date normalization into synthesis-ready input while preserving intended meaning, exposing every rewrite, supporting overrides, and rejecting ambiguous or unsafe transformations for review.
+
+7. Skill Name: Currency Normalization
+
+Description: Transform currency normalization into synthesis-ready input while preserving intended meaning, exposing every rewrite, supporting overrides, and rejecting ambiguous or unsafe transformations for review.
+
+8. Skill Name: Acronym Expansion
+
+Description: Implement acronym expansion as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+9. Skill Name: Sentence Segmentation
+
+Description: Transform sentence segmentation into synthesis-ready input while preserving intended meaning, exposing every rewrite, supporting overrides, and rejecting ambiguous or unsafe transformations for review.
+
+10. Skill Name: Pronunciation Dictionary
+
+Description: Transform pronunciation dictionary into synthesis-ready input while preserving intended meaning, exposing every rewrite, supporting overrides, and rejecting ambiguous or unsafe transformations for review.
+
+11. Skill Name: Custom Pronunciation Support
+
+Description: Transform custom pronunciation support into synthesis-ready input while preserving intended meaning, exposing every rewrite, supporting overrides, and rejecting ambiguous or unsafe transformations for review.
+
+12. Skill Name: SSML Support or Local Equivalent
+
+Description: Implement ssml support or local equivalent as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+13. Skill Name: Performance-Direction Parser
+
+Description: Implement performance-direction parser as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+14. Skill Name: Unicode Normalizer
+
+Description: Transform unicode normalizer into synthesis-ready input while preserving intended meaning, exposing every rewrite, supporting overrides, and rejecting ambiguous or unsafe transformations for review.
+
+15. Skill Name: Whitespace Normalizer
+
+Description: Transform whitespace normalizer into synthesis-ready input while preserving intended meaning, exposing every rewrite, supporting overrides, and rejecting ambiguous or unsafe transformations for review.
+
+16. Skill Name: Abbreviation Disambiguator
+
+Description: Implement abbreviation disambiguator as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+17. Skill Name: Ordinal Number Expander
+
+Description: Implement ordinal number expander as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+18. Skill Name: Fraction Reader
+
+Description: Transform fraction reader into synthesis-ready input while preserving intended meaning, exposing every rewrite, supporting overrides, and rejecting ambiguous or unsafe transformations for review.
+
+19. Skill Name: Measurement Unit Expander
+
+Description: Implement measurement unit expander as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+20. Skill Name: Telephone Number Reader
+
+Description: Transform telephone number reader into synthesis-ready input while preserving intended meaning, exposing every rewrite, supporting overrides, and rejecting ambiguous or unsafe transformations for review.
+
+21. Skill Name: Email Address Reader
+
+Description: Transform email address reader into synthesis-ready input while preserving intended meaning, exposing every rewrite, supporting overrides, and rejecting ambiguous or unsafe transformations for review.
+
+22. Skill Name: URL Reader
+
+Description: Transform url reader into synthesis-ready input while preserving intended meaning, exposing every rewrite, supporting overrides, and rejecting ambiguous or unsafe transformations for review.
+
+23. Skill Name: Roman Numeral Reader
+
+Description: Transform roman numeral reader into synthesis-ready input while preserving intended meaning, exposing every rewrite, supporting overrides, and rejecting ambiguous or unsafe transformations for review.
+
+24. Skill Name: Time Expression Normalizer
+
+Description: Transform time expression normalizer into synthesis-ready input while preserving intended meaning, exposing every rewrite, supporting overrides, and rejecting ambiguous or unsafe transformations for review.
+
+25. Skill Name: Mathematical Expression Reader
+
+Description: Transform mathematical expression reader into synthesis-ready input while preserving intended meaning, exposing every rewrite, supporting overrides, and rejecting ambiguous or unsafe transformations for review.
+
+26. Skill Name: Code and Identifier Reader
+
+Description: Transform code and identifier reader into synthesis-ready input while preserving intended meaning, exposing every rewrite, supporting overrides, and rejecting ambiguous or unsafe transformations for review.
+
+27. Skill Name: Emoji Verbalization Controller
+
+Description: Control emoji verbalization controller through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+28. Skill Name: Profanity Handling Policy
+
+Description: Implement profanity handling policy as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+29. Skill Name: Homograph Disambiguator
+
+Description: Implement homograph disambiguator as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+30. Skill Name: Named-Entity Pronunciation Helper
+
+Description: Transform named-entity pronunciation helper into synthesis-ready input while preserving intended meaning, exposing every rewrite, supporting overrides, and rejecting ambiguous or unsafe transformations for review.
+
+31. Skill Name: G2P Fallback Router
+
+Description: Control g2p fallback router through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+32. Skill Name: Lexicon Priority Resolver
+
+Description: Implement lexicon priority resolver as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+33. Skill Name: Phoneme Override Validator
+
+Description: Evaluate phoneme override validator with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+34. Skill Name: IPA Input Adapter
+
+Description: Implement ipa input adapter as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+35. Skill Name: ARPAbet Input Adapter
+
+Description: Implement arpabet input adapter as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+36. Skill Name: Stress Marker Controller
+
+Description: Control stress marker controller through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+37. Skill Name: Syllable Boundary Analyzer
+
+Description: Implement syllable boundary analyzer as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+38. Skill Name: Breath Mark Inserter
+
+Description: Implement breath mark inserter as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+39. Skill Name: Pause Mark Inserter
+
+Description: Implement pause mark inserter as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+40. Skill Name: Emphasis Span Parser
+
+Description: Implement emphasis span parser as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+41. Skill Name: Language Tag Parser
+
+Description: Implement language tag parser as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+42. Skill Name: Mixed-Language Segment Detector
+
+Description: Transform mixed-language segment detector into synthesis-ready input while preserving intended meaning, exposing every rewrite, supporting overrides, and rejecting ambiguous or unsafe transformations for review.
+
+43. Skill Name: Unsupported Character Detector
+
+Description: Implement unsupported character detector as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+44. Skill Name: Text Length Guard
+
+Description: Transform text length guard into synthesis-ready input while preserving intended meaning, exposing every rewrite, supporting overrides, and rejecting ambiguous or unsafe transformations for review.
+
+45. Skill Name: Prompt Injection Neutralizer for Spoken Text
+
+Description: Transform prompt injection neutralizer for spoken text into synthesis-ready input while preserving intended meaning, exposing every rewrite, supporting overrides, and rejecting ambiguous or unsafe transformations for review.
+
+46. Skill Name: Markup Sanitizer
+
+Description: Transform markup sanitizer into synthesis-ready input while preserving intended meaning, exposing every rewrite, supporting overrides, and rejecting ambiguous or unsafe transformations for review.
+
+47. Skill Name: Transcript Preservation Mode
+
+Description: Apply transcript preservation mode as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+6. Audio Rendering, Mastering, and Export
+
+43 skill concepts in this category. Each description defines the intended responsibility and quality boundary.
+
+1. Skill Name: Neural Waveform Generator
+
+Description: Process or verify neural waveform generator while preserving intelligibility, preventing clipping and seams, retaining sample accuracy, and recording sample rate, channels, duration, loudness, and true peak.
+
+2. Skill Name: WAV Exporter
+
+Description: Produce wav exporter deterministically with validated filenames, metadata, checksums, overwrite protection, atomic writes, and a post-write open or decode test.
+
+3. Skill Name: MP3 Exporter
+
+Description: Produce mp3 exporter deterministically with validated filenames, metadata, checksums, overwrite protection, atomic writes, and a post-write open or decode test.
+
+4. Skill Name: Audio Stitcher
+
+Description: Process or verify audio stitcher while preserving intelligibility, preventing clipping and seams, retaining sample accuracy, and recording sample rate, channels, duration, loudness, and true peak.
+
+5. Skill Name: Silence Trimmer
+
+Description: Process or verify silence trimmer while preserving intelligibility, preventing clipping and seams, retaining sample accuracy, and recording sample rate, channels, duration, loudness, and true peak.
+
+6. Skill Name: Fade-In Processor
+
+Description: Process or verify fade-in processor while preserving intelligibility, preventing clipping and seams, retaining sample accuracy, and recording sample rate, channels, duration, loudness, and true peak.
+
+7. Skill Name: Fade-Out Processor
+
+Description: Process or verify fade-out processor while preserving intelligibility, preventing clipping and seams, retaining sample accuracy, and recording sample rate, channels, duration, loudness, and true peak.
+
+8. Skill Name: Loudness Normalizer
+
+Description: Process or verify loudness normalizer while preserving intelligibility, preventing clipping and seams, retaining sample accuracy, and recording sample rate, channels, duration, loudness, and true peak.
+
+9. Skill Name: Peak Limiter
+
+Description: Process or verify peak limiter while preserving intelligibility, preventing clipping and seams, retaining sample accuracy, and recording sample rate, channels, duration, loudness, and true peak.
+
+10. Skill Name: De-Click Processor
+
+Description: Implement de-click processor as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+11. Skill Name: Resampler
+
+Description: Process or verify resampler while preserving intelligibility, preventing clipping and seams, retaining sample accuracy, and recording sample rate, channels, duration, loudness, and true peak.
+
+12. Skill Name: Mono Output Support
+
+Description: Implement mono output support as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+13. Skill Name: 24 kHz Output Support
+
+Description: Implement 24 khz output support as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+14. Skill Name: 44.1 kHz Output Support
+
+Description: Implement 44.1 khz output support as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+15. Skill Name: 48 kHz Output Support
+
+Description: Implement 48 khz output support as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+16. Skill Name: PCM 16-Bit Exporter
+
+Description: Produce pcm 16-bit exporter deterministically with validated filenames, metadata, checksums, overwrite protection, atomic writes, and a post-write open or decode test.
+
+17. Skill Name: PCM 24-Bit Exporter
+
+Description: Produce pcm 24-bit exporter deterministically with validated filenames, metadata, checksums, overwrite protection, atomic writes, and a post-write open or decode test.
+
+18. Skill Name: Float WAV Exporter
+
+Description: Produce float wav exporter deterministically with validated filenames, metadata, checksums, overwrite protection, atomic writes, and a post-write open or decode test.
+
+19. Skill Name: CBR MP3 Exporter
+
+Description: Produce cbr mp3 exporter deterministically with validated filenames, metadata, checksums, overwrite protection, atomic writes, and a post-write open or decode test.
+
+20. Skill Name: VBR MP3 Exporter
+
+Description: Produce vbr mp3 exporter deterministically with validated filenames, metadata, checksums, overwrite protection, atomic writes, and a post-write open or decode test.
+
+21. Skill Name: Metadata Tag Writer
+
+Description: Produce metadata tag writer deterministically with validated filenames, metadata, checksums, overwrite protection, atomic writes, and a post-write open or decode test.
+
+22. Skill Name: Gapless Stitching Processor
+
+Description: Implement gapless stitching processor as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+23. Skill Name: Crossfade Stitcher
+
+Description: Process or verify crossfade stitcher while preserving intelligibility, preventing clipping and seams, retaining sample accuracy, and recording sample rate, channels, duration, loudness, and true peak.
+
+24. Skill Name: Zero-Crossing Editor
+
+Description: Implement zero-crossing editor as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+25. Skill Name: DC Offset Remover
+
+Description: Implement dc offset remover as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+26. Skill Name: High-Pass Cleanup Filter
+
+Description: Implement high-pass cleanup filter as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+27. Skill Name: Low-Pass Safety Filter
+
+Description: Implement low-pass safety filter as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+28. Skill Name: De-Esser
+
+Description: Implement de-esser as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+29. Skill Name: Breath Level Controller
+
+Description: Control breath level controller through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+30. Skill Name: Noise Floor Monitor
+
+Description: Implement noise floor monitor as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+31. Skill Name: Room Tone Inserter
+
+Description: Implement room tone inserter as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+32. Skill Name: Channel Layout Validator
+
+Description: Evaluate channel layout validator with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+33. Skill Name: Sample Rate Validator
+
+Description: Evaluate sample rate validator with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+34. Skill Name: Bit Depth Validator
+
+Description: Evaluate bit depth validator with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+35. Skill Name: Audio Container Validator
+
+Description: Evaluate audio container validator with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+36. Skill Name: Broadcast Loudness Profile
+
+Description: Apply broadcast loudness profile as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+37. Skill Name: Podcast Loudness Profile
+
+Description: Apply podcast loudness profile as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+38. Skill Name: Video Platform Loudness Profile
+
+Description: Apply video platform loudness profile as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+39. Skill Name: True-Peak Limiter
+
+Description: Process or verify true-peak limiter while preserving intelligibility, preventing clipping and seams, retaining sample accuracy, and recording sample rate, channels, duration, loudness, and true peak.
+
+40. Skill Name: Dither Processor
+
+Description: Implement dither processor as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+41. Skill Name: Output File Size Estimator
+
+Description: Measure output file size estimator on the active CPU and workload, retain reproducible settings, compare against a stored baseline, and recommend the fastest configuration that still passes quality gates.
+
+42. Skill Name: Audio Preview Generator
+
+Description: Process or verify audio preview generator while preserving intelligibility, preventing clipping and seams, retaining sample accuracy, and recording sample rate, channels, duration, loudness, and true peak.
+
+43. Skill Name: Cue Sheet Generator
+
+Description: Implement cue sheet generator as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+7. Quality Assurance and Acceptance Testing
+
+48 skill concepts in this category. Each description defines the intended responsibility and quality boundary.
+
+1. Skill Name: Intelligibility Checker
+
+Description: Evaluate intelligibility checker with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+2. Skill Name: Spoken-Text Transcription Checker
+
+Description: Evaluate spoken-text transcription checker with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+3. Skill Name: Missing-Word Checker
+
+Description: Evaluate missing-word checker with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+4. Skill Name: Cut-Off Ending Checker
+
+Description: Evaluate cut-off ending checker with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+5. Skill Name: Opening-Silence Checker
+
+Description: Evaluate opening-silence checker with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+6. Skill Name: Duration Checker
+
+Description: Evaluate duration checker with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+7. Skill Name: Empty-Audio Checker
+
+Description: Evaluate empty-audio checker with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+8. Skill Name: Clipping Checker
+
+Description: Evaluate clipping checker with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+9. Skill Name: True-Peak Checker
+
+Description: Evaluate true-peak checker with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+10. Skill Name: Loudness Checker
+
+Description: Evaluate loudness checker with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+11. Skill Name: Audio Decode Checker
+
+Description: Evaluate audio decode checker with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+12. Skill Name: Robotic-Buzz Rejection Check
+
+Description: Evaluate robotic-buzz rejection check with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+13. Skill Name: Naturalness Listening Test
+
+Description: Implement naturalness listening test as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+14. Skill Name: Regression Test
+
+Description: Implement regression test as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+15. Skill Name: Clean-Sandbox Test
+
+Description: Implement clean-sandbox test as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+16. Skill Name: Offline-Only Test
+
+Description: Implement offline-only test as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+17. Skill Name: Word Error Rate Calculator
+
+Description: Implement word error rate calculator as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+18. Skill Name: Character Error Rate Calculator
+
+Description: Implement character error rate calculator as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+19. Skill Name: Pronunciation Spot Checker
+
+Description: Evaluate pronunciation spot checker with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+20. Skill Name: Phoneme Coverage Checker
+
+Description: Evaluate phoneme coverage checker with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+21. Skill Name: Silence Distribution Checker
+
+Description: Evaluate silence distribution checker with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+22. Skill Name: Long-Pause Checker
+
+Description: Evaluate long-pause checker with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+23. Skill Name: Unexpected Click Detector
+
+Description: Implement unexpected click detector as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+24. Skill Name: Unexpected Tone Detector
+
+Description: Implement unexpected tone detector as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+25. Skill Name: Spectral Artifact Detector
+
+Description: Implement spectral artifact detector as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+26. Skill Name: Repeated-Chunk Detector
+
+Description: Implement repeated-chunk detector as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+27. Skill Name: Dropped-Chunk Detector
+
+Description: Implement dropped-chunk detector as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+28. Skill Name: Chunk Seam Detector
+
+Description: Implement chunk seam detector as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+29. Skill Name: Pacing Consistency Checker
+
+Description: Evaluate pacing consistency checker with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+30. Skill Name: Pitch Range Checker
+
+Description: Evaluate pitch range checker with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+31. Skill Name: Prosody Variation Checker
+
+Description: Evaluate prosody variation checker with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+32. Skill Name: Voice Identity Consistency Checker
+
+Description: Evaluate voice identity consistency checker with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+33. Skill Name: Sample Rate Compliance Checker
+
+Description: Evaluate sample rate compliance checker with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+34. Skill Name: Bitrate Compliance Checker
+
+Description: Evaluate bitrate compliance checker with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+35. Skill Name: File Header Integrity Checker
+
+Description: Evaluate file header integrity checker with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+36. Skill Name: Zero-Length Frame Checker
+
+Description: Evaluate zero-length frame checker with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+37. Skill Name: NaN and Infinity Audio Checker
+
+Description: Evaluate nan and infinity audio checker with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+38. Skill Name: Determinism Checker
+
+Description: Evaluate determinism checker with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+39. Skill Name: Golden Sample Comparator
+
+Description: Implement golden sample comparator as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+40. Skill Name: Model Upgrade Regression Suite
+
+Description: Apply model upgrade regression suite as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+41. Skill Name: Cross-Platform Playback Test
+
+Description: Implement cross-platform playback test as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+42. Skill Name: Headphone Listening Checklist
+
+Description: Evaluate headphone listening checklist with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+43. Skill Name: Speaker Listening Checklist
+
+Description: Evaluate speaker listening checklist with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+44. Skill Name: Human Review Scorecard
+
+Description: Implement human review scorecard as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+45. Skill Name: Blind A-B Listening Test
+
+Description: Implement blind a-b listening test as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+46. Skill Name: MOS Test Coordinator
+
+Description: Control mos test coordinator through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+47. Skill Name: Quality Gate Reporter
+
+Description: Evaluate quality gate reporter with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+48. Skill Name: Acceptance Evidence Packager
+
+Description: Produce acceptance evidence packager deterministically with validated filenames, metadata, checksums, overwrite protection, atomic writes, and a post-write open or decode test.
+
+8. Skill Components, Scripts, and References
+
+41 skill concepts in this category. Each description defines the intended responsibility and quality boundary.
+
+1. Skill Name: Neural Voice SKILL.md
+
+Description: Provide the reusable neural voice skill.md component with concise inputs, outputs, examples, error behavior, offline constraints, and links to only the supporting resources needed at execution time.
+
+2. Skill Name: Offline Installer Script
+
+Description: Install and validate offline installer script from local assets only, with hash checks, rollback support, deterministic paths, non-admin operation where possible, and no hidden network access.
+
+3. Skill Name: Neural Synthesis Script
+
+Description: Provide the reusable neural synthesis script component with concise inputs, outputs, examples, error behavior, offline constraints, and links to only the supporting resources needed at execution time.
+
+4. Skill Name: Model Loader Script
+
+Description: Apply model loader script as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+5. Skill Name: Voice Preset Script
+
+Description: Apply voice preset script as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+6. Skill Name: Text Normalization Script
+
+Description: Provide the reusable text normalization script component with concise inputs, outputs, examples, error behavior, offline constraints, and links to only the supporting resources needed at execution time.
+
+7. Skill Name: Phonemizer Script
+
+Description: Provide the reusable phonemizer script component with concise inputs, outputs, examples, error behavior, offline constraints, and links to only the supporting resources needed at execution time.
+
+8. Skill Name: Pronunciation Script
+
+Description: Provide the reusable pronunciation script component with concise inputs, outputs, examples, error behavior, offline constraints, and links to only the supporting resources needed at execution time.
+
+9. Skill Name: Audio Mastering Script
+
+Description: Provide the reusable audio mastering script component with concise inputs, outputs, examples, error behavior, offline constraints, and links to only the supporting resources needed at execution time.
+
+10. Skill Name: Audio Validation Script
+
+Description: Provide the reusable audio validation script component with concise inputs, outputs, examples, error behavior, offline constraints, and links to only the supporting resources needed at execution time.
+
+11. Skill Name: Self-Test Script
+
+Description: Provide the reusable self-test script component with concise inputs, outputs, examples, error behavior, offline constraints, and links to only the supporting resources needed at execution time.
+
+12. Skill Name: Environment Diagnostic Script
+
+Description: Provide the reusable environment diagnostic script component with concise inputs, outputs, examples, error behavior, offline constraints, and links to only the supporting resources needed at execution time.
+
+13. Skill Name: Model Integrity Checker
+
+Description: Evaluate model integrity checker with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+14. Skill Name: Output Packaging Script
+
+Description: Produce output packaging script deterministically with validated filenames, metadata, checksums, overwrite protection, atomic writes, and a post-write open or decode test.
+
+15. Skill Name: Setup Reference
+
+Description: Provide the reusable setup reference component with concise inputs, outputs, examples, error behavior, offline constraints, and links to only the supporting resources needed at execution time.
+
+16. Skill Name: Troubleshooting Reference
+
+Description: Provide the reusable troubleshooting reference component with concise inputs, outputs, examples, error behavior, offline constraints, and links to only the supporting resources needed at execution time.
+
+17. Skill Name: Model License Reference
+
+Description: Inspect and record the applicable terms for model license reference, block incompatible use, and emit a machine-readable decision with the source file, version, obligation, and approval status.
+
+18. Skill Name: Voice Preset Reference
+
+Description: Apply voice preset reference as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+19. Skill Name: Safety and Consent Reference
+
+Description: Provide the reusable safety and consent reference component with concise inputs, outputs, examples, error behavior, offline constraints, and links to only the supporting resources needed at execution time.
+
+20. Skill Name: Automated Test Suite
+
+Description: Implement automated test suite as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+21. Skill Name: UI Metadata File
+
+Description: Create a concise ui metadata file containing versions, hashes, paths, decisions, warnings, and timestamps needed for reproducibility, audit, support, and offline handoff.
+
+22. Skill Name: Skill Trigger Description Optimizer
+
+Description: Provide the reusable skill trigger description optimizer component with concise inputs, outputs, examples, error behavior, offline constraints, and links to only the supporting resources needed at execution time.
+
+23. Skill Name: Configuration Schema
+
+Description: Provide the reusable configuration schema component with concise inputs, outputs, examples, error behavior, offline constraints, and links to only the supporting resources needed at execution time.
+
+24. Skill Name: Preset JSON Schema
+
+Description: Apply preset json schema as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+25. Skill Name: Manifest Schema
+
+Description: Provide the reusable manifest schema component with concise inputs, outputs, examples, error behavior, offline constraints, and links to only the supporting resources needed at execution time.
+
+26. Skill Name: Error Code Reference
+
+Description: Provide the reusable error code reference component with concise inputs, outputs, examples, error behavior, offline constraints, and links to only the supporting resources needed at execution time.
+
+27. Skill Name: Command-Line Reference
+
+Description: Provide the reusable command-line reference component with concise inputs, outputs, examples, error behavior, offline constraints, and links to only the supporting resources needed at execution time.
+
+28. Skill Name: Python API Reference
+
+Description: Provide the reusable python api reference component with concise inputs, outputs, examples, error behavior, offline constraints, and links to only the supporting resources needed at execution time.
+
+29. Skill Name: Example Input Library
+
+Description: Implement example input library as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+30. Skill Name: Golden Output Fixture
+
+Description: Implement golden output fixture as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+31. Skill Name: Test Text Corpus
+
+Description: Transform test text corpus into synthesis-ready input while preserving intended meaning, exposing every rewrite, supporting overrides, and rejecting ambiguous or unsafe transformations for review.
+
+32. Skill Name: Compatibility Matrix
+
+Description: Implement compatibility matrix as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+33. Skill Name: Performance Benchmark Script
+
+Description: Measure performance benchmark script on the active CPU and workload, retain reproducible settings, compare against a stored baseline, and recommend the fastest configuration that still passes quality gates.
+
+34. Skill Name: Migration Guide
+
+Description: Provide the reusable migration guide component with concise inputs, outputs, examples, error behavior, offline constraints, and links to only the supporting resources needed at execution time.
+
+35. Skill Name: Release Checklist
+
+Description: Evaluate release checklist with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+36. Skill Name: Support Bundle Generator
+
+Description: Produce support bundle generator deterministically with validated filenames, metadata, checksums, overwrite protection, atomic writes, and a post-write open or decode test.
+
+37. Skill Name: Privacy-Safe Diagnostic Report
+
+Description: Create a concise privacy-safe diagnostic report containing versions, hashes, paths, decisions, warnings, and timestamps needed for reproducibility, audit, support, and offline handoff.
+
+38. Skill Name: Skill Package Validator
+
+Description: Evaluate skill package validator with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+39. Skill Name: Skill Version Changelog
+
+Description: Implement skill version changelog as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+40. Skill Name: Operator Quick Start
+
+Description: Implement operator quick start as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+41. Skill Name: Developer Integration Guide
+
+Description: Provide the reusable developer integration guide component with concise inputs, outputs, examples, error behavior, offline constraints, and links to only the supporting resources needed at execution time.
+
+9. Offline Package and Distribution
+
+34 skill concepts in this category. Each description defines the intended responsibility and quality boundary.
+
+1. Skill Name: Complete Offline ZIP Package
+
+Description: Produce complete offline zip package deterministically with validated filenames, metadata, checksums, overwrite protection, atomic writes, and a post-write open or decode test.
+
+2. Skill Name: Local Wheels Folder
+
+Description: Implement local wheels folder as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+3. Skill Name: Local Models Folder
+
+Description: Apply local models folder as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+4. Skill Name: Local Voices Folder
+
+Description: Load, inspect, or operate local voices folder locally with compatibility checks for architecture, opset, sample rate, tokenizer, speaker data, checksums, version, and CPU execution provider.
+
+5. Skill Name: Local Tokenizer Folder
+
+Description: Load, inspect, or operate local tokenizer folder locally with compatibility checks for architecture, opset, sample rate, tokenizer, speaker data, checksums, version, and CPU execution provider.
+
+6. Skill Name: Local Configuration Folder
+
+Description: Implement local configuration folder as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+7. Skill Name: Version Manifest
+
+Description: Create a concise version manifest containing versions, hashes, paths, decisions, warnings, and timestamps needed for reproducibility, audit, support, and offline handoff.
+
+8. Skill Name: License Manifest
+
+Description: Inspect and record the applicable terms for license manifest, block incompatible use, and emit a machine-readable decision with the source file, version, obligation, and approval status.
+
+9. Skill Name: Install Command
+
+Description: Install and validate install command from local assets only, with hash checks, rollback support, deterministic paths, non-admin operation where possible, and no hidden network access.
+
+10. Skill Name: Uninstall Command
+
+Description: Install and validate uninstall command from local assets only, with hash checks, rollback support, deterministic paths, non-admin operation where possible, and no hidden network access.
+
+11. Skill Name: Self-Test Command
+
+Description: Implement self-test command as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+12. Skill Name: No-Download Runtime Configuration
+
+Description: Implement no-download runtime configuration as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+13. Skill Name: No-API Runtime Configuration
+
+Description: Implement no-api runtime configuration as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+14. Skill Name: Portable Package Layout
+
+Description: Produce portable package layout deterministically with validated filenames, metadata, checksums, overwrite protection, atomic writes, and a post-write open or decode test.
+
+15. Skill Name: Split Archive Builder
+
+Description: Produce split archive builder deterministically with validated filenames, metadata, checksums, overwrite protection, atomic writes, and a post-write open or decode test.
+
+16. Skill Name: Archive Integrity Checker
+
+Description: Evaluate archive integrity checker with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+17. Skill Name: Package Size Optimizer
+
+Description: Produce package size optimizer deterministically with validated filenames, metadata, checksums, overwrite protection, atomic writes, and a post-write open or decode test.
+
+18. Skill Name: Delta Update Packager
+
+Description: Produce delta update packager deterministically with validated filenames, metadata, checksums, overwrite protection, atomic writes, and a post-write open or decode test.
+
+19. Skill Name: Air-Gap Transfer Checklist
+
+Description: Evaluate air-gap transfer checklist with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+20. Skill Name: Read-Only Media Installer
+
+Description: Install and validate read-only media installer from local assets only, with hash checks, rollback support, deterministic paths, non-admin operation where possible, and no hidden network access.
+
+21. Skill Name: USB Deployment Profile
+
+Description: Apply usb deployment profile as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+22. Skill Name: Enterprise Software Distribution Adapter
+
+Description: Implement enterprise software distribution adapter as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+23. Skill Name: Checksum Manifest Generator
+
+Description: Evaluate checksum manifest generator with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+24. Skill Name: SBOM Generator
+
+Description: Implement sbom generator as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+25. Skill Name: Offline Documentation Bundle
+
+Description: Produce offline documentation bundle deterministically with validated filenames, metadata, checksums, overwrite protection, atomic writes, and a post-write open or decode test.
+
+26. Skill Name: Offline Example Bundle
+
+Description: Produce offline example bundle deterministically with validated filenames, metadata, checksums, overwrite protection, atomic writes, and a post-write open or decode test.
+
+27. Skill Name: Configuration Template Bundle
+
+Description: Produce configuration template bundle deterministically with validated filenames, metadata, checksums, overwrite protection, atomic writes, and a post-write open or decode test.
+
+28. Skill Name: License Notice Generator
+
+Description: Inspect and record the applicable terms for license notice generator, block incompatible use, and emit a machine-readable decision with the source file, version, obligation, and approval status.
+
+29. Skill Name: Third-Party Notice Generator
+
+Description: Implement third-party notice generator as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+30. Skill Name: Reproducible Package Builder
+
+Description: Produce reproducible package builder deterministically with validated filenames, metadata, checksums, overwrite protection, atomic writes, and a post-write open or decode test.
+
+31. Skill Name: Package Signature Verifier
+
+Description: Evaluate package signature verifier with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+32. Skill Name: Release Channel Manager
+
+Description: Control release channel manager through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+33. Skill Name: Rollback Package Builder
+
+Description: Produce rollback package builder deterministically with validated filenames, metadata, checksums, overwrite protection, atomic writes, and a post-write open or decode test.
+
+34. Skill Name: Disaster Recovery Bundle
+
+Description: Produce disaster recovery bundle deterministically with validated filenames, metadata, checksums, overwrite protection, atomic writes, and a post-write open or decode test.
+
+10. Sandbox, Runtime, and Resource Management
+
+35 skill concepts in this category. Each description defines the intended responsibility and quality boundary.
+
+1. Skill Name: Temporary Disk Space Preflight
+
+Description: Implement temporary disk space preflight as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+2. Skill Name: RAM Capacity Preflight
+
+Description: Implement ram capacity preflight as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+3. Skill Name: CPU Instruction Compatibility Check
+
+Description: Evaluate cpu instruction compatibility check with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+4. Skill Name: ONNX Model Load Permission Check
+
+Description: Inspect and record the applicable terms for onnx model load permission check, block incompatible use, and emit a machine-readable decision with the source file, version, obligation, and approval status.
+
+5. Skill Name: Local Python Execution Permission Check
+
+Description: Inspect and record the applicable terms for local python execution permission check, block incompatible use, and emit a machine-readable decision with the source file, version, obligation, and approval status.
+
+6. Skill Name: WAV and MP3 Write Permission Check
+
+Description: Inspect and record the applicable terms for wav and mp3 write permission check, block incompatible use, and emit a machine-readable decision with the source file, version, obligation, and approval status.
+
+7. Skill Name: Execution Timeout Preflight
+
+Description: Implement execution timeout preflight as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+8. Skill Name: Package Upload Limit Check
+
+Description: Evaluate package upload limit check with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+9. Skill Name: Model Sandbox Limit Check
+
+Description: Evaluate model sandbox limit check with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+10. Skill Name: No First-Run Internet Download Check
+
+Description: Evaluate no first-run internet download check with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+11. Skill Name: No Cloud API Dependency Check
+
+Description: Evaluate no cloud api dependency check with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+12. Skill Name: No GPU Requirement Check
+
+Description: Evaluate no gpu requirement check with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+13. Skill Name: Writable Directory Resolver
+
+Description: Implement writable directory resolver as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+14. Skill Name: Read-Only Filesystem Handler
+
+Description: Implement read-only filesystem handler as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+15. Skill Name: Temporary File Cleanup
+
+Description: Implement temporary file cleanup as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+16. Skill Name: Disk Quota Monitor
+
+Description: Implement disk quota monitor as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+17. Skill Name: Memory Pressure Monitor
+
+Description: Implement memory pressure monitor as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+18. Skill Name: CPU Load Monitor
+
+Description: Implement cpu load monitor as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+19. Skill Name: Thread Limit Guard
+
+Description: Implement thread limit guard as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+20. Skill Name: Process Limit Guard
+
+Description: Implement process limit guard as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+21. Skill Name: File Descriptor Guard
+
+Description: Provide the reusable file descriptor guard component with concise inputs, outputs, examples, error behavior, offline constraints, and links to only the supporting resources needed at execution time.
+
+22. Skill Name: Path Length Guard
+
+Description: Implement path length guard as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+23. Skill Name: Unicode Path Compatibility Check
+
+Description: Evaluate unicode path compatibility check with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+24. Skill Name: Sandbox Escape Prevention
+
+Description: Implement sandbox escape prevention as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+25. Skill Name: Network Access Block Test
+
+Description: Implement network access block test as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+26. Skill Name: Environment Variable Sanitizer
+
+Description: Implement environment variable sanitizer as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+27. Skill Name: Locale Compatibility Check
+
+Description: Evaluate locale compatibility check with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+28. Skill Name: Timezone Independence Check
+
+Description: Evaluate timezone independence check with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+29. Skill Name: Container Compatibility Check
+
+Description: Evaluate container compatibility check with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+30. Skill Name: Non-Admin Installation Mode
+
+Description: Install and validate non-admin installation mode from local assets only, with hash checks, rollback support, deterministic paths, non-admin operation where possible, and no hidden network access.
+
+31. Skill Name: Portable Cache Location
+
+Description: Implement portable cache location as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+32. Skill Name: Crash-Safe Temporary Workspace
+
+Description: Implement crash-safe temporary workspace as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+33. Skill Name: Interrupted Job Recovery
+
+Description: Implement interrupted job recovery as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+34. Skill Name: Resource Budget Planner
+
+Description: Implement resource budget planner as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+35. Skill Name: Benchmark-Based Timeout Estimator
+
+Description: Measure benchmark-based timeout estimator on the active CPU and workload, retain reproducible settings, compare against a stored baseline, and recommend the fastest configuration that still passes quality gates.
+
+11. Safety, Rights, Consent, and Provenance
+
+38 skill concepts in this category. Each description defines the intended responsibility and quality boundary.
+
+1. Skill Name: Synthetic Voice Disclosure
+
+Description: Load, inspect, or operate synthetic voice disclosure locally with compatibility checks for architecture, opset, sample rate, tokenizer, speaker data, checksums, version, and CPU execution provider.
+
+2. Skill Name: Model License Verification
+
+Description: Inspect and record the applicable terms for model license verification, block incompatible use, and emit a machine-readable decision with the source file, version, obligation, and approval status.
+
+3. Skill Name: Voice License Verification
+
+Description: Inspect and record the applicable terms for voice license verification, block incompatible use, and emit a machine-readable decision with the source file, version, obligation, and approval status.
+
+4. Skill Name: Training-Data License Verification
+
+Description: Inspect and record the applicable terms for training-data license verification, block incompatible use, and emit a machine-readable decision with the source file, version, obligation, and approval status.
+
+5. Skill Name: Voice-Cloning Consent Gate
+
+Description: Evaluate voice-cloning consent gate with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+6. Skill Name: Real-Person Impersonation Block
+
+Description: Implement real-person impersonation block as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+7. Skill Name: Allowed-Use Record
+
+Description: Create a concise allowed-use record containing versions, hashes, paths, decisions, warnings, and timestamps needed for reproducibility, audit, support, and offline handoff.
+
+8. Skill Name: Provenance Record
+
+Description: Create a concise provenance record containing versions, hashes, paths, decisions, warnings, and timestamps needed for reproducibility, audit, support, and offline handoff.
+
+9. Skill Name: Output Metadata
+
+Description: Create a concise output metadata containing versions, hashes, paths, decisions, warnings, and timestamps needed for reproducibility, audit, support, and offline handoff.
+
+10. Skill Name: Consent Receipt Manager
+
+Description: Control consent receipt manager through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+11. Skill Name: Speaker Authorization Record
+
+Description: Process or verify speaker authorization record while preserving intelligibility, preventing clipping and seams, retaining sample accuracy, and recording sample rate, channels, duration, loudness, and true peak.
+
+12. Skill Name: Revocation List Checker
+
+Description: Evaluate revocation list checker with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+13. Skill Name: Restricted Voice Registry
+
+Description: Load, inspect, or operate restricted voice registry locally with compatibility checks for architecture, opset, sample rate, tokenizer, speaker data, checksums, version, and CPU execution provider.
+
+14. Skill Name: Celebrity and Public-Figure Guard
+
+Description: Implement celebrity and public-figure guard as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+15. Skill Name: Minor Voice Protection Guard
+
+Description: Load, inspect, or operate minor voice protection guard locally with compatibility checks for architecture, opset, sample rate, tokenizer, speaker data, checksums, version, and CPU execution provider.
+
+16. Skill Name: Sensitive Context Guard
+
+Description: Transform sensitive context guard into synthesis-ready input while preserving intended meaning, exposing every rewrite, supporting overrides, and rejecting ambiguous or unsafe transformations for review.
+
+17. Skill Name: Deceptive Use Risk Classifier
+
+Description: Implement deceptive use risk classifier as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+18. Skill Name: Disclosure Watermark Metadata
+
+Description: Create a concise disclosure watermark metadata containing versions, hashes, paths, decisions, warnings, and timestamps needed for reproducibility, audit, support, and offline handoff.
+
+19. Skill Name: Human Review Escalation
+
+Description: Implement human review escalation as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+20. Skill Name: Jurisdiction Policy Profile
+
+Description: Apply jurisdiction policy profile as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+21. Skill Name: Commercial Use Permission Checker
+
+Description: Inspect and record the applicable terms for commercial use permission checker, block incompatible use, and emit a machine-readable decision with the source file, version, obligation, and approval status.
+
+22. Skill Name: Attribution Requirement Checker
+
+Description: Evaluate attribution requirement checker with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+23. Skill Name: Share-Alike Obligation Checker
+
+Description: Evaluate share-alike obligation checker with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+24. Skill Name: Redistribution Boundary Checker
+
+Description: Evaluate redistribution boundary checker with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+25. Skill Name: Derivative Model Permission Checker
+
+Description: Inspect and record the applicable terms for derivative model permission checker, block incompatible use, and emit a machine-readable decision with the source file, version, obligation, and approval status.
+
+26. Skill Name: Retention Policy Enforcer
+
+Description: Implement retention policy enforcer as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+27. Skill Name: Privacy-Safe Logging
+
+Description: Implement privacy-safe logging as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+28. Skill Name: Personal Data Redactor
+
+Description: Implement personal data redactor as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+29. Skill Name: Prompt and Transcript Minimizer
+
+Description: Provide the reusable prompt and transcript minimizer component with concise inputs, outputs, examples, error behavior, offline constraints, and links to only the supporting resources needed at execution time.
+
+30. Skill Name: Audit Trail Exporter
+
+Description: Produce audit trail exporter deterministically with validated filenames, metadata, checksums, overwrite protection, atomic writes, and a post-write open or decode test.
+
+31. Skill Name: Provenance Chain Verifier
+
+Description: Evaluate provenance chain verifier with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+32. Skill Name: Model Card Reference
+
+Description: Apply model card reference as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+33. Skill Name: Voice Card Reference
+
+Description: Provide the reusable voice card reference component with concise inputs, outputs, examples, error behavior, offline constraints, and links to only the supporting resources needed at execution time.
+
+34. Skill Name: Dataset Card Reference
+
+Description: Provide the reusable dataset card reference component with concise inputs, outputs, examples, error behavior, offline constraints, and links to only the supporting resources needed at execution time.
+
+35. Skill Name: Incident Report Template
+
+Description: Create a concise incident report template containing versions, hashes, paths, decisions, warnings, and timestamps needed for reproducibility, audit, support, and offline handoff.
+
+36. Skill Name: Abuse Report Intake
+
+Description: Create a concise abuse report intake containing versions, hashes, paths, decisions, warnings, and timestamps needed for reproducibility, audit, support, and offline handoff.
+
+37. Skill Name: Policy Exception Record
+
+Description: Create a concise policy exception record containing versions, hashes, paths, decisions, warnings, and timestamps needed for reproducibility, audit, support, and offline handoff.
+
+38. Skill Name: Safety Test Suite
+
+Description: Implement safety test suite as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+12. Fallbacks, Routing, and Resilience
+
+31 skill concepts in this category. Each description defines the intended responsibility and quality boundary.
+
+1. Skill Name: Secondary Lightweight Neural Model
+
+Description: Apply secondary lightweight neural model as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+2. Skill Name: Piper ONNX Fallback Model
+
+Description: Apply piper onnx fallback model as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+3. Skill Name: Fallback Voice File
+
+Description: Load, inspect, or operate fallback voice file locally with compatibility checks for architecture, opset, sample rate, tokenizer, speaker data, checksums, version, and CPU execution provider.
+
+4. Skill Name: Provider Router
+
+Description: Control provider router through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+5. Skill Name: Neural-Engine Failure Message
+
+Description: Implement neural-engine failure message as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+6. Skill Name: Low-Quality Engine Disabled by Default
+
+Description: Implement low-quality engine disabled by default as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+7. Skill Name: Explicit Warning Before Robotic Fallback
+
+Description: Implement explicit warning before robotic fallback as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+8. Skill Name: Primary-to-Fallback Compatibility Check
+
+Description: Evaluate primary-to-fallback compatibility check with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+9. Skill Name: Fallback Quality Gate
+
+Description: Evaluate fallback quality gate with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+10. Skill Name: Fallback License Gate
+
+Description: Inspect and record the applicable terms for fallback license gate, block incompatible use, and emit a machine-readable decision with the source file, version, obligation, and approval status.
+
+11. Skill Name: Automatic Retry Controller
+
+Description: Control automatic retry controller through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+12. Skill Name: Exponential Backoff Controller
+
+Description: Control exponential backoff controller through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+13. Skill Name: Circuit Breaker
+
+Description: Implement circuit breaker as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+14. Skill Name: Model Health Monitor
+
+Description: Apply model health monitor as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+15. Skill Name: Voice Asset Health Monitor
+
+Description: Load, inspect, or operate voice asset health monitor locally with compatibility checks for architecture, opset, sample rate, tokenizer, speaker data, checksums, version, and CPU execution provider.
+
+16. Skill Name: Corruption Recovery Router
+
+Description: Control corruption recovery router through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+17. Skill Name: Partial Output Salvager
+
+Description: Implement partial output salvager as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+18. Skill Name: Resume-from-Chunk Handler
+
+Description: Implement resume-from-chunk handler as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+19. Skill Name: Last-Known-Good Model Selector
+
+Description: Apply last-known-good model selector as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+20. Skill Name: Offline Provider Priority Table
+
+Description: Implement offline provider priority table as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+21. Skill Name: Failure Reason Classifier
+
+Description: Implement failure reason classifier as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+22. Skill Name: User-Friendly Recovery Guidance
+
+Description: Implement user-friendly recovery guidance as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+23. Skill Name: Graceful Degradation Policy
+
+Description: Implement graceful degradation policy as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+24. Skill Name: Silent Failure Blocker
+
+Description: Implement silent failure blocker as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+25. Skill Name: Fallback Output Labeler
+
+Description: Implement fallback output labeler as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+26. Skill Name: Fallback Regression Suite
+
+Description: Implement fallback regression suite as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+27. Skill Name: Multi-Engine A-B Router
+
+Description: Control multi-engine a-b router through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+28. Skill Name: Latency-Aware Router
+
+Description: Control latency-aware router through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+29. Skill Name: Memory-Aware Router
+
+Description: Control memory-aware router through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+30. Skill Name: Quality-First Router
+
+Description: Control quality-first router through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+31. Skill Name: Deterministic Emergency Mode
+
+Description: Apply deterministic emergency mode as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+13. Final Acceptance Scenario: Video Greeting
+
+26 skill concepts in this category. Each description defines the intended responsibility and quality boundary.
+
+1. Skill Name: Greeting Test Text Fixture
+
+Description: Transform greeting test text fixture into synthesis-ready input while preserving intended meaning, exposing every rewrite, supporting overrides, and rejecting ambiguous or unsafe transformations for review.
+
+2. Skill Name: Natural Male-Presenting Voice Gate
+
+Description: Evaluate natural male-presenting voice gate with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+3. Skill Name: 30s Age-Style Gate
+
+Description: Evaluate 30s age-style gate with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+4. Skill Name: Warm Delivery Gate
+
+Description: Evaluate warm delivery gate with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+5. Skill Name: Friendly Delivery Gate
+
+Description: Evaluate friendly delivery gate with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+6. Skill Name: Expressive Delivery Gate
+
+Description: Evaluate expressive delivery gate with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+7. Skill Name: Brief Pause After Friends Gate
+
+Description: Evaluate brief pause after friends gate with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+8. Skill Name: Clear Welcome Emphasis Gate
+
+Description: Evaluate clear welcome emphasis gate with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+9. Skill Name: Robotic Sound Rejection Gate
+
+Description: Evaluate robotic sound rejection gate with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+10. Skill Name: Buzz Rejection Gate
+
+Description: Evaluate buzz rejection gate with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+11. Skill Name: Missing Words Rejection Gate
+
+Description: Evaluate missing words rejection gate with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+12. Skill Name: Cut-Off Words Rejection Gate
+
+Description: Evaluate cut-off words rejection gate with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+13. Skill Name: 2.5-to-4-Second Duration Gate
+
+Description: Evaluate 2.5-to-4-second duration gate with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+14. Skill Name: Peak at or Below Minus 1 dBFS Gate
+
+Description: Evaluate peak at or below minus 1 dbfs gate with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+15. Skill Name: Loudness Near Minus 14 LUFS Gate
+
+Description: Evaluate loudness near minus 14 lufs gate with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+16. Skill Name: Playable WAV Gate
+
+Description: Evaluate playable wav gate with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+17. Skill Name: High-Quality MP3 Optional Gate
+
+Description: Evaluate high-quality mp3 optional gate with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+18. Skill Name: Internet-Disabled Execution Gate
+
+Description: Evaluate internet-disabled execution gate with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+19. Skill Name: No-API-Key Execution Gate
+
+Description: Evaluate no-api-key execution gate with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+20. Skill Name: Exact Transcript Match Gate
+
+Description: Evaluate exact transcript match gate with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+21. Skill Name: Punctuation Performance Gate
+
+Description: Evaluate punctuation performance gate with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+22. Skill Name: Greeting Pause Timing Check
+
+Description: Evaluate greeting pause timing check with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+23. Skill Name: Welcome Stress Timing Check
+
+Description: Evaluate welcome stress timing check with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+24. Skill Name: Final Syllable Completion Check
+
+Description: Evaluate final syllable completion check with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+25. Skill Name: Acceptance Report Generator
+
+Description: Create a concise acceptance report generator containing versions, hashes, paths, decisions, warnings, and timestamps needed for reproducibility, audit, support, and offline handoff.
+
+26. Skill Name: Acceptance Artifact Packager
+
+Description: Produce acceptance artifact packager deterministically with validated filenames, metadata, checksums, overwrite protection, atomic writes, and a post-write open or decode test.
+
+14. Performance, Benchmarking, and Optimization
+
+25 skill concepts in this category. Each description defines the intended responsibility and quality boundary.
+
+1. Skill Name: Real-Time Factor Benchmark
+
+Description: Measure real-time factor benchmark on the active CPU and workload, retain reproducible settings, compare against a stored baseline, and recommend the fastest configuration that still passes quality gates.
+
+2. Skill Name: Cold-Start Latency Benchmark
+
+Description: Measure cold-start latency benchmark on the active CPU and workload, retain reproducible settings, compare against a stored baseline, and recommend the fastest configuration that still passes quality gates.
+
+3. Skill Name: Warm-Start Latency Benchmark
+
+Description: Measure warm-start latency benchmark on the active CPU and workload, retain reproducible settings, compare against a stored baseline, and recommend the fastest configuration that still passes quality gates.
+
+4. Skill Name: Words-per-Minute Benchmark
+
+Description: Measure words-per-minute benchmark on the active CPU and workload, retain reproducible settings, compare against a stored baseline, and recommend the fastest configuration that still passes quality gates.
+
+5. Skill Name: Peak RAM Benchmark
+
+Description: Measure peak ram benchmark on the active CPU and workload, retain reproducible settings, compare against a stored baseline, and recommend the fastest configuration that still passes quality gates.
+
+6. Skill Name: Average CPU Utilization Benchmark
+
+Description: Measure average cpu utilization benchmark on the active CPU and workload, retain reproducible settings, compare against a stored baseline, and recommend the fastest configuration that still passes quality gates.
+
+7. Skill Name: Thread Scaling Benchmark
+
+Description: Measure thread scaling benchmark on the active CPU and workload, retain reproducible settings, compare against a stored baseline, and recommend the fastest configuration that still passes quality gates.
+
+8. Skill Name: Batch Throughput Benchmark
+
+Description: Measure batch throughput benchmark on the active CPU and workload, retain reproducible settings, compare against a stored baseline, and recommend the fastest configuration that still passes quality gates.
+
+9. Skill Name: Long-Text Stability Benchmark
+
+Description: Measure long-text stability benchmark on the active CPU and workload, retain reproducible settings, compare against a stored baseline, and recommend the fastest configuration that still passes quality gates.
+
+10. Skill Name: Model Size Benchmark
+
+Description: Measure model size benchmark on the active CPU and workload, retain reproducible settings, compare against a stored baseline, and recommend the fastest configuration that still passes quality gates.
+
+11. Skill Name: Output Quality versus Speed Profiler
+
+Description: Measure output quality versus speed profiler on the active CPU and workload, retain reproducible settings, compare against a stored baseline, and recommend the fastest configuration that still passes quality gates.
+
+12. Skill Name: Quantization Quality Comparator
+
+Description: Implement quantization quality comparator as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+13. Skill Name: Chunk Size Tuner
+
+Description: Measure chunk size tuner on the active CPU and workload, retain reproducible settings, compare against a stored baseline, and recommend the fastest configuration that still passes quality gates.
+
+14. Skill Name: Thread Count Auto-Tuner
+
+Description: Measure thread count auto-tuner on the active CPU and workload, retain reproducible settings, compare against a stored baseline, and recommend the fastest configuration that still passes quality gates.
+
+15. Skill Name: Cache Size Auto-Tuner
+
+Description: Measure cache size auto-tuner on the active CPU and workload, retain reproducible settings, compare against a stored baseline, and recommend the fastest configuration that still passes quality gates.
+
+16. Skill Name: Latency Budget Enforcer
+
+Description: Implement latency budget enforcer as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+17. Skill Name: Memory Budget Enforcer
+
+Description: Implement memory budget enforcer as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+18. Skill Name: Thermal Throttling Detector
+
+Description: Implement thermal throttling detector as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+19. Skill Name: Laptop Power-Saver Profile
+
+Description: Apply laptop power-saver profile as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+20. Skill Name: Server Throughput Profile
+
+Description: Apply server throughput profile as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+21. Skill Name: Low-End CPU Profile
+
+Description: Apply low-end cpu profile as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+22. Skill Name: Benchmark Result Exporter
+
+Description: Produce benchmark result exporter deterministically with validated filenames, metadata, checksums, overwrite protection, atomic writes, and a post-write open or decode test.
+
+23. Skill Name: Performance Regression Gate
+
+Description: Evaluate performance regression gate with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+24. Skill Name: Hardware Capability Matrix
+
+Description: Implement hardware capability matrix as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+25. Skill Name: Reference CPU Baseline
+
+Description: Provide the reusable reference cpu baseline component with concise inputs, outputs, examples, error behavior, offline constraints, and links to only the supporting resources needed at execution time.
+
+15. Integration, Interfaces, and Automation
+
+30 skill concepts in this category. Each description defines the intended responsibility and quality boundary.
+
+1. Skill Name: Command-Line Interface
+
+Description: Implement command-line interface as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+2. Skill Name: Python Library Interface
+
+Description: Implement python library interface as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+3. Skill Name: Local REST Interface with Network Disabled by Default
+
+Description: Implement local rest interface with network disabled by default as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+4. Skill Name: Standard Input Text Adapter
+
+Description: Transform standard input text adapter into synthesis-ready input while preserving intended meaning, exposing every rewrite, supporting overrides, and rejecting ambiguous or unsafe transformations for review.
+
+5. Skill Name: JSON Job File Adapter
+
+Description: Implement json job file adapter as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+6. Skill Name: Folder Watcher
+
+Description: Implement folder watcher as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+7. Skill Name: Batch CSV Adapter
+
+Description: Implement batch csv adapter as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+8. Skill Name: Subtitle SRT Adapter
+
+Description: Implement subtitle srt adapter as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+9. Skill Name: Subtitle VTT Adapter
+
+Description: Implement subtitle vtt adapter as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+10. Skill Name: Markdown Narration Adapter
+
+Description: Implement markdown narration adapter as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+11. Skill Name: DOCX Text Extraction Adapter
+
+Description: Transform docx text extraction adapter into synthesis-ready input while preserving intended meaning, exposing every rewrite, supporting overrides, and rejecting ambiguous or unsafe transformations for review.
+
+12. Skill Name: PDF Text Extraction Adapter
+
+Description: Transform pdf text extraction adapter into synthesis-ready input while preserving intended meaning, exposing every rewrite, supporting overrides, and rejecting ambiguous or unsafe transformations for review.
+
+13. Skill Name: Presentation Notes Adapter
+
+Description: Implement presentation notes adapter as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+14. Skill Name: Video Editor Audio Handoff
+
+Description: Process or verify video editor audio handoff while preserving intelligibility, preventing clipping and seams, retaining sample accuracy, and recording sample rate, channels, duration, loudness, and true peak.
+
+15. Skill Name: FFmpeg Integration
+
+Description: Implement ffmpeg integration as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+16. Skill Name: DAW Handoff Export
+
+Description: Produce daw handoff export deterministically with validated filenames, metadata, checksums, overwrite protection, atomic writes, and a post-write open or decode test.
+
+17. Skill Name: OBS Media Source Export
+
+Description: Produce obs media source export deterministically with validated filenames, metadata, checksums, overwrite protection, atomic writes, and a post-write open or decode test.
+
+18. Skill Name: Local Automation Hook
+
+Description: Implement local automation hook as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+19. Skill Name: Exit Code Contract
+
+Description: Implement exit code contract as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+20. Skill Name: Structured Error JSON
+
+Description: Implement structured error json as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+21. Skill Name: Progress JSON Stream
+
+Description: Implement progress json stream as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+22. Skill Name: Job Status File
+
+Description: Implement job status file as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+23. Skill Name: Idempotent Job Runner
+
+Description: Implement idempotent job runner as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+24. Skill Name: Atomic Output Writer
+
+Description: Produce atomic output writer deterministically with validated filenames, metadata, checksums, overwrite protection, atomic writes, and a post-write open or decode test.
+
+25. Skill Name: File Naming Template
+
+Description: Implement file naming template as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+26. Skill Name: Metadata Sidecar Writer
+
+Description: Produce metadata sidecar writer deterministically with validated filenames, metadata, checksums, overwrite protection, atomic writes, and a post-write open or decode test.
+
+27. Skill Name: Checksum Sidecar Writer
+
+Description: Evaluate checksum sidecar writer with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+28. Skill Name: Local Queue Directory
+
+Description: Implement local queue directory as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+29. Skill Name: Webhook-Free Completion Signal
+
+Description: Implement webhook-free completion signal as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+30. Skill Name: Scheduler Integration
+
+Description: Control scheduler integration through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+16. Diagnostics, Observability, and Support
+
+29 skill concepts in this category. Each description defines the intended responsibility and quality boundary.
+
+1. Skill Name: Environment Diagnostic Report
+
+Description: Create a concise environment diagnostic report containing versions, hashes, paths, decisions, warnings, and timestamps needed for reproducibility, audit, support, and offline handoff.
+
+2. Skill Name: Dependency Inventory Report
+
+Description: Create a concise dependency inventory report containing versions, hashes, paths, decisions, warnings, and timestamps needed for reproducibility, audit, support, and offline handoff.
+
+3. Skill Name: Model Inventory Report
+
+Description: Apply model inventory report as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+4. Skill Name: Voice Inventory Report
+
+Description: Load, inspect, or operate voice inventory report locally with compatibility checks for architecture, opset, sample rate, tokenizer, speaker data, checksums, version, and CPU execution provider.
+
+5. Skill Name: Configuration Diff Tool
+
+Description: Implement configuration diff tool as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+6. Skill Name: Log Level Controller
+
+Description: Control log level controller through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+7. Skill Name: Structured Local Logger
+
+Description: Implement structured local logger as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+8. Skill Name: Sensitive Data Log Filter
+
+Description: Implement sensitive data log filter as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+9. Skill Name: Inference Timing Trace
+
+Description: Implement inference timing trace as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+10. Skill Name: Chunk Timing Trace
+
+Description: Implement chunk timing trace as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+11. Skill Name: Memory Usage Trace
+
+Description: Implement memory usage trace as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+12. Skill Name: CPU Usage Trace
+
+Description: Implement cpu usage trace as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+13. Skill Name: Crash Dump Minimizer
+
+Description: Implement crash dump minimizer as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+14. Skill Name: Error Signature Matcher
+
+Description: Implement error signature matcher as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+15. Skill Name: Known Issue Resolver
+
+Description: Implement known issue resolver as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+16. Skill Name: Support Bundle Packager
+
+Description: Produce support bundle packager deterministically with validated filenames, metadata, checksums, overwrite protection, atomic writes, and a post-write open or decode test.
+
+17. Skill Name: Reproduction Command Generator
+
+Description: Implement reproduction command generator as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+18. Skill Name: Clean-Room Reproduction Test
+
+Description: Implement clean-room reproduction test as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+19. Skill Name: First-Failure Locator
+
+Description: Implement first-failure locator as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+20. Skill Name: Health Check Command
+
+Description: Evaluate health check command with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+21. Skill Name: Readiness Check Command
+
+Description: Evaluate readiness check command with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+22. Skill Name: Liveness Check Command
+
+Description: Evaluate liveness check command with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+23. Skill Name: Configuration Doctor
+
+Description: Implement configuration doctor as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+24. Skill Name: Model Doctor
+
+Description: Apply model doctor as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+25. Skill Name: Audio Doctor
+
+Description: Process or verify audio doctor while preserving intelligibility, preventing clipping and seams, retaining sample accuracy, and recording sample rate, channels, duration, loudness, and true peak.
+
+26. Skill Name: Phonemizer Doctor
+
+Description: Implement phonemizer doctor as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+27. Skill Name: Installer Doctor
+
+Description: Install and validate installer doctor from local assets only, with hash checks, rollback support, deterministic paths, non-admin operation where possible, and no hidden network access.
+
+28. Skill Name: Exit Code Catalog
+
+Description: Implement exit code catalog as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+29. Skill Name: Troubleshooting Decision Tree
+
+Description: Implement troubleshooting decision tree as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+17. Accessibility, Localization, and Inclusive Output
+
+23 skill concepts in this category. Each description defines the intended responsibility and quality boundary.
+
+1. Skill Name: Screen-Reader-Friendly CLI Output
+
+Description: Transform screen-reader-friendly cli output into synthesis-ready input while preserving intended meaning, exposing every rewrite, supporting overrides, and rejecting ambiguous or unsafe transformations for review.
+
+2. Skill Name: Accessible Error Message Formatter
+
+Description: Implement accessible error message formatter as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+3. Skill Name: Caption Transcript Export
+
+Description: Produce caption transcript export deterministically with validated filenames, metadata, checksums, overwrite protection, atomic writes, and a post-write open or decode test.
+
+4. Skill Name: Plain-Language Mode
+
+Description: Apply plain-language mode as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+5. Skill Name: Pronunciation Review Sheet
+
+Description: Transform pronunciation review sheet into synthesis-ready input while preserving intended meaning, exposing every rewrite, supporting overrides, and rejecting ambiguous or unsafe transformations for review.
+
+6. Skill Name: Internationalization Framework
+
+Description: Implement internationalization framework as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+7. Skill Name: Locale-Aware Number Reading
+
+Description: Implement locale-aware number reading as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+8. Skill Name: Locale-Aware Date Reading
+
+Description: Implement locale-aware date reading as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+9. Skill Name: Locale-Aware Currency Reading
+
+Description: Implement locale-aware currency reading as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+10. Skill Name: English Dialect Selector
+
+Description: Implement english dialect selector as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+11. Skill Name: en-US Pronunciation Profile
+
+Description: Apply en-us pronunciation profile as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+12. Skill Name: en-GB Pronunciation Profile
+
+Description: Apply en-gb pronunciation profile as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+13. Skill Name: en-AU Pronunciation Profile
+
+Description: Apply en-au pronunciation profile as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+14. Skill Name: Code-Switching Guard
+
+Description: Implement code-switching guard as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+15. Skill Name: Unsupported Language Warning
+
+Description: Implement unsupported language warning as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+16. Skill Name: Bilingual Segment Router
+
+Description: Control bilingual segment router through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+17. Skill Name: Slow Speech Accessibility Preset
+
+Description: Apply slow speech accessibility preset as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+18. Skill Name: High-Articulation Preset
+
+Description: Apply high-articulation preset as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+19. Skill Name: Cognitive Accessibility Pause Preset
+
+Description: Apply cognitive accessibility pause preset as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+20. Skill Name: Hearing Review Transcript
+
+Description: Provide the reusable hearing review transcript component with concise inputs, outputs, examples, error behavior, offline constraints, and links to only the supporting resources needed at execution time.
+
+21. Skill Name: WCAG-Aligned Documentation Check
+
+Description: Evaluate wcag-aligned documentation check with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+22. Skill Name: Keyboard-Only Operator Workflow
+
+Description: Implement keyboard-only operator workflow as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+23. Skill Name: Color-Independent Status Output
+
+Description: Implement color-independent status output as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+18. Governance, Release, and Lifecycle Management
+
+28 skill concepts in this category. Each description defines the intended responsibility and quality boundary.
+
+1. Skill Name: Semantic Version Manager
+
+Description: Control semantic version manager through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+2. Skill Name: Model Version Pinning
+
+Description: Apply model version pinning as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+3. Skill Name: Voice Version Pinning
+
+Description: Load, inspect, or operate voice version pinning locally with compatibility checks for architecture, opset, sample rate, tokenizer, speaker data, checksums, version, and CPU execution provider.
+
+4. Skill Name: Dependency Version Pinning
+
+Description: Implement dependency version pinning as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+5. Skill Name: Release Candidate Validator
+
+Description: Evaluate release candidate validator with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+6. Skill Name: Release Notes Generator
+
+Description: Implement release notes generator as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+7. Skill Name: Compatibility Release Gate
+
+Description: Evaluate compatibility release gate with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+8. Skill Name: License Change Detector
+
+Description: Inspect and record the applicable terms for license change detector, block incompatible use, and emit a machine-readable decision with the source file, version, obligation, and approval status.
+
+9. Skill Name: Security Advisory Intake
+
+Description: Implement security advisory intake as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+10. Skill Name: End-of-Life Policy
+
+Description: Implement end-of-life policy as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+11. Skill Name: Deprecation Warning Manager
+
+Description: Control deprecation warning manager through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+12. Skill Name: Migration Assistant
+
+Description: Implement migration assistant as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+13. Skill Name: Backup and Restore Manager
+
+Description: Control backup and restore manager through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+14. Skill Name: Configuration Migration Tool
+
+Description: Implement configuration migration tool as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+15. Skill Name: Model Migration Tool
+
+Description: Apply model migration tool as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+16. Skill Name: Preset Migration Tool
+
+Description: Apply preset migration tool as a versioned, inspectable configuration that defines pace, pitch, energy, pauses, emphasis, and compatible model or voice requirements without altering source assets.
+
+17. Skill Name: Reproducible Build Verifier
+
+Description: Evaluate reproducible build verifier with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+18. Skill Name: Release Artifact Signer
+
+Description: Implement release artifact signer as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+19. Skill Name: Release Approval Checklist
+
+Description: Evaluate release approval checklist with explicit pass, warn, and fail thresholds; report the measured value, expected range, failure cause, and exact remediation without changing the source silently.
+
+20. Skill Name: Change Control Record
+
+Description: Create a concise change control record containing versions, hashes, paths, decisions, warnings, and timestamps needed for reproducibility, audit, support, and offline handoff.
+
+21. Skill Name: Risk Register
+
+Description: Implement risk register as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+22. Skill Name: Operational Runbook
+
+Description: Implement operational runbook as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+23. Skill Name: Maintenance Window Planner
+
+Description: Implement maintenance window planner as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+24. Skill Name: Offline Patch Cadence Manager
+
+Description: Control offline patch cadence manager through validated configuration, safe limits, deterministic state transitions, clear fallbacks, cancellation support, and structured status reporting.
+
+25. Skill Name: Rollback Drill
+
+Description: Implement rollback drill as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+26. Skill Name: Disaster Recovery Drill
+
+Description: Implement disaster recovery drill as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+27. Skill Name: Artifact Retention Policy
+
+Description: Implement artifact retention policy as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+28. Skill Name: Quality Ownership Matrix
+
+Description: Implement quality ownership matrix as a focused offline capability with declared inputs and outputs, deterministic defaults, actionable errors, resource limits, tests, and clean integration with the neural voice pipeline.
+
+Acceptance Reference Case
+
+Canonical text: “Greetings, friends! Welcome to my video.”
+
+- Voice: natural male-presenting English voice with a 30s age style.
+
+- Delivery: warm, friendly, expressive, and conversational.
+
+- Prosody: a brief pause after “friends” and clear emphasis on “Welcome”.
+
+- Integrity: no robotic sound, buzzing, missing words, repeated words, or cut-off phonemes.
+
+- Duration: 2.5 to 4.0 seconds, measured on the final mastered file.
+
+- Peak: at or below -1 dBFS; integrated loudness targeted near -14 LUFS with the measurement method recorded.
+
+- Formats: playable PCM WAV; optional high-quality MP3 that decodes cleanly.
+
+- Environment: succeeds with internet disabled, no API key, no GPU, and no first-run download.
+
+- Evidence: transcript comparison, audio metrics, model and voice versions, checksums, preset version, and pass or fail report.
+
+Catalog Design Notes
+
+- Use one responsibility per Skill wherever practical. Keep the coordinating Skill compact and move detailed rules into references.
+
+- Pin model, voice, tokenizer, runtime, and preset versions together. A voice model is not interchangeable with every tokenizer or vocoder.
+
+- Treat listening tests and automated metrics as complementary. Transcript accuracy and loudness compliance do not prove naturalness.
+
+- Never distribute weights, embeddings, native libraries, or voices until redistribution permission is documented.
+
+- Disable weak or robotic engines by default. If used as an emergency fallback, disclose the downgrade before synthesis and label the output.
+
+- Require clean-sandbox and network-blocked tests before calling a package fully offline.

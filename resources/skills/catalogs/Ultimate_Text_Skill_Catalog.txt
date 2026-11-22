@@ -1,0 +1,1036 @@
+Ultimate Text Skill Catalog
+
+A comprehensive capability map for creating an all-purpose text agent
+
+240 skills across 20 categories
+
+Catalog edition 1.0
+Prepared for skill design, prioritization, and future implementation
+
+Purpose and Scope
+
+This catalog defines a broad family of reusable skills for an “Ultimate Text Editor/Maker/Creator.” It is a capability catalog, not a set of implemented skill packages. Each entry is intentionally scoped so that a future builder can turn it into one focused skill, combine related entries into a suite, or use the catalog as a roadmap for an agent.
+
+The catalog covers text creation, editing, Unicode, ASCII and legacy encodings, symbols, emoji, languages, text art, structured formats, code text, retrieval, professional writing, creative work, analysis, accessibility, security, media text, automation, specialist notation, and orchestration. “All” and “infinite” are treated as extensible goals: the future agent should retrieve current authoritative tables and standards when knowledge is version-sensitive rather than claiming a permanently complete internal list.
+
+Recommended Catalog Fields for Future Builds
+
+- Skill name and trigger description
+
+- Accepted inputs and required context
+
+- Output formats and strict constraints
+
+- Tools, connectors, standards, and reference sources
+
+- Validation checks, edge cases, and failure behavior
+
+- Security, privacy, accessibility, and localization rules
+
+- Examples, test fixtures, and quality rubric
+
+- Dependencies and related skills
+
+Navigation
+
+The catalog is arranged by category. Skill numbering restarts within each category to match the requested example format. Category headings are suitable for a future table of contents or skill-library navigation.
+
+1. Universal Text Creation and Transformation
+
+1. Skill Name: Universal Text Composer
+
+  Description: Create original text for any audience, purpose, length, register, genre, medium, or constraint while preserving the user’s intent and required facts.
+
+2. Skill Name: Text Rewriter and Reframer
+
+  Description: Rewrite supplied text for clarity, brevity, warmth, authority, simplicity, persuasion, neutrality, or a named voice without changing essential meaning.
+
+3. Skill Name: Expansion and Elaboration Engine
+
+  Description: Turn notes, fragments, outlines, captions, or terse prompts into complete explanations, sections, stories, instructions, or polished long-form text.
+
+4. Skill Name: Compression and Condensation Engine
+
+  Description: Reduce long material into abstracts, executive summaries, précis, key points, one-line takeaways, microcopy, or strict character limits.
+
+5. Skill Name: Format-to-Format Text Converter
+
+  Description: Convert prose into lists, tables, FAQs, scripts, dialogue, checklists, templates, flashcards, schemas, or structured records and back again.
+
+6. Skill Name: Constraint-Based Writing Solver
+
+  Description: Produce text that obeys exact word, character, sentence, syllable, vocabulary, rhyme, acrostic, lipogram, casing, or layout constraints.
+
+7. Skill Name: Text Continuation and Completion
+
+  Description: Complete unfinished sentences, paragraphs, documents, code comments, dialogue, patterns, and stylistic fragments using nearby context.
+
+8. Skill Name: Variant and Alternative Generator
+
+  Description: Generate meaningfully different alternatives for titles, openings, endings, calls to action, explanations, phrasings, and full drafts.
+
+9. Skill Name: Tone and Register Controller
+
+  Description: Shift between formal, informal, academic, technical, conversational, diplomatic, playful, solemn, urgent, or culturally appropriate registers.
+
+10. Skill Name: Audience Adaptation Editor
+
+  Description: Rebuild text for children, students, experts, executives, customers, multilingual readers, accessibility needs, or low-literacy audiences.
+
+11. Skill Name: Plain-Language Converter
+
+  Description: Replace jargon, nominalizations, long sentences, and hidden assumptions with direct, readable language while retaining precision.
+
+12. Skill Name: Text Quality Finisher
+
+  Description: Apply a final pass for grammar, coherence, consistency, rhythm, repetition, formatting, and readiness to publish.
+
+2. Editing, Proofreading, and Revision
+
+1. Skill Name: Grammar and Mechanics Editor
+
+  Description: Correct grammar, punctuation, spelling, capitalization, agreement, tense, articles, prepositions, and sentence boundaries with optional explanations.
+
+2. Skill Name: Developmental Editor
+
+  Description: Improve purpose, scope, order, argument, pacing, missing material, and reader journey at document level.
+
+3. Skill Name: Line and Copy Editor
+
+  Description: Refine sentence flow, diction, concision, consistency, transitions, voice, and house-style compliance line by line.
+
+4. Skill Name: Structural Reorganization Editor
+
+  Description: Reorder paragraphs, sections, headings, examples, and evidence into a clearer hierarchy while preserving traceability.
+
+5. Skill Name: Consistency and Terminology Auditor
+
+  Description: Detect inconsistent names, terms, abbreviations, capitalization, numerals, dates, units, labels, and cross-references.
+
+6. Skill Name: Ambiguity and Logic Detector
+
+  Description: Flag unclear pronouns, vague claims, contradictions, missing premises, circular wording, and multiple plausible interpretations.
+
+7. Skill Name: Redundancy and Fluff Trimmer
+
+  Description: Remove repetition, filler, throat-clearing, clichés, hedging, and low-value wording without flattening the voice.
+
+8. Skill Name: Fact-Claim Marker
+
+  Description: Separate factual claims, estimates, opinions, assumptions, instructions, and unsupported assertions for later verification.
+
+9. Skill Name: Sensitive-Tone Reviewer
+
+  Description: Revise difficult messages for empathy, dignity, neutrality, non-accusatory language, and clear boundaries.
+
+10. Skill Name: Change Explanation Editor
+
+  Description: Show improved wording, categorize changes, and explain the effect on grammar, clarity, tone, or structure.
+
+11. Skill Name: Style-Sheet Builder
+
+  Description: Create and apply a reusable editorial style sheet covering spelling, capitalization, numerals, punctuation, terminology, and exceptions.
+
+12. Skill Name: Version Merge Editor
+
+  Description: Combine multiple drafts, preserve the strongest passages, resolve conflicts, and produce a clean unified version with an optional decision log.
+
+3. Unicode, Characters, Symbols, and Encoding
+
+1. Skill Name: Unicode Character Explorer
+
+  Description: Identify, explain, search, and generate Unicode characters by name, block, script, category, code point, or visual function.
+
+2. Skill Name: Character Identity Inspector
+
+  Description: Report a character’s code point, official name, script, general category, combining class, normalization behavior, and likely confusables.
+
+3. Skill Name: Symbol and Glyph Finder
+
+  Description: Find suitable arrows, operators, geometric marks, currency signs, technical symbols, bullets, ornaments, and typographic glyphs for a stated purpose.
+
+4. Skill Name: Combining-Mark Composer
+
+  Description: Construct and analyze base characters with combining marks while warning about rendering, normalization, and search limitations.
+
+5. Skill Name: Unicode Normalization Manager
+
+  Description: Compare and convert NFC, NFD, NFKC, and NFKD forms and explain compatibility or data-integrity consequences.
+
+6. Skill Name: Invisible Character Detector
+
+  Description: Reveal zero-width characters, nonbreaking spaces, bidi controls, soft hyphens, variation selectors, and other hidden code points.
+
+7. Skill Name: Confusable and Homoglyph Auditor
+
+  Description: Detect look-alike Latin, Greek, Cyrillic, mathematical, and full-width characters that may cause spoofing or data mismatches.
+
+8. Skill Name: Bidirectional Text Specialist
+
+  Description: Compose, inspect, and repair mixed left-to-right and right-to-left text using correct isolation and direction controls.
+
+9. Skill Name: Private-Use Character Advisor
+
+  Description: Explain Private Use Area characters, font dependence, interchange risks, and safer standardized alternatives.
+
+10. Skill Name: Unicode Escape Converter
+
+  Description: Convert characters to and from U+ notation, language escapes, HTML entities, XML entities, CSS escapes, and percent-encoded forms.
+
+11. Skill Name: Font Coverage Planner
+
+  Description: Map required scripts and symbols to font coverage needs and prepare fallback recommendations without assuming every glyph will render.
+
+12. Skill Name: Mojibake Repair Assistant
+
+  Description: Diagnose common encoding mismatches such as UTF-8 read as Windows-1252 and propose reversible repair paths.
+
+4. ASCII, ANSI, Legacy Character Sets, and Shortcuts
+
+1. Skill Name: ASCII Table Reference
+
+  Description: Provide decimal, hexadecimal, octal, binary, control-name, printable-character, and keyboard-oriented views of the 7-bit ASCII table.
+
+2. Skill Name: Extended ASCII Clarifier
+
+  Description: Distinguish code pages such as Windows-1252, ISO-8859 families, CP437, MacRoman, and others instead of treating “extended ASCII” as one standard.
+
+3. Skill Name: Control Character Interpreter
+
+  Description: Explain NUL, BEL, BS, HT, LF, VT, FF, CR, ESC, DEL, separators, and their historical or modern uses.
+
+4. Skill Name: Alt-Code and Input Shortcut Guide
+
+  Description: Provide platform-aware character-entry methods for Windows Alt codes, Unicode Hex Input, Linux Compose, mobile keyboards, and application shortcuts.
+
+5. Skill Name: Keyboard Symbol Mapper
+
+  Description: Map symbols to common US and international keyboard layouts, modifiers, compose sequences, and alternative entry methods.
+
+6. Skill Name: Code-Page Converter
+
+  Description: Translate byte values and text among specified legacy encodings with warnings for undefined or lossy mappings.
+
+7. Skill Name: EBCDIC Reference Assistant
+
+  Description: Explain and convert common EBCDIC code pages when working with mainframe text and fixed-width records.
+
+8. Skill Name: Terminal Escape Sequence Author
+
+  Description: Create and explain ANSI/VT terminal styling, cursor movement, clearing, hyperlinks, and safe reset sequences.
+
+9. Skill Name: ASCII-Safe Transliterator
+
+  Description: Convert Unicode text to readable ASCII approximations while preserving identifiers, searchability, or pronunciation as requested.
+
+10. Skill Name: Newline and Tab Normalizer
+
+  Description: Inspect and convert LF, CRLF, CR, tabs, spaces, and line-ending conventions for operating systems and tools.
+
+11. Skill Name: Byte-Level Text Visualizer
+
+  Description: Display text as bytes, code units, hex dumps, binary, offsets, and decoded characters for debugging.
+
+12. Skill Name: Character Table Fetch Planner
+
+  Description: Define authoritative sources and retrieval steps for complete current tables when an external standard or code-page registry must be fetched.
+
+5. Text Art, ASCII Art, and Typographic Design
+
+1. Skill Name: ASCII Art Illustrator
+
+  Description: Create monospaced pictures, banners, mascots, objects, scenes, and diagrams with selectable width, density, and character palette.
+
+2. Skill Name: FIGlet-Style Banner Maker
+
+  Description: Produce large letter banners in block, outline, shadow, slant, compact, and custom text-only styles.
+
+3. Skill Name: Unicode Text Art Designer
+
+  Description: Use box drawing, block elements, braille patterns, geometric forms, and symbols for richer terminal-safe or chat-ready art.
+
+4. Skill Name: Box and Border Builder
+
+  Description: Construct single, double, rounded, heavy, dashed, mixed, and ASCII-safe boxes that remain aligned in monospaced displays.
+
+5. Skill Name: Text Mosaic and Halftone Maker
+
+  Description: Represent images or tonal concepts through character density, dithering patterns, blocks, or braille cells.
+
+6. Skill Name: Kaomoji Composer
+
+  Description: Create culturally aware text faces and reactions from punctuation, Unicode symbols, and expressive character combinations.
+
+7. Skill Name: Emoticon and Text Reaction Maker
+
+  Description: Generate classic sideways emoticons, compact reactions, chat expressions, and platform-safe variants.
+
+8. Skill Name: Typographic Ornament Designer
+
+  Description: Create dividers, flourishes, corner pieces, section breaks, labels, badges, and decorative frames.
+
+9. Skill Name: Text Logo Concept Generator
+
+  Description: Develop wordmarks and letterform concepts expressed through text, spacing, case, repetition, and symbolic motifs.
+
+10. Skill Name: Monospace Alignment Repairer
+
+  Description: Measure display width, tabs, wide characters, combining marks, and emoji behavior to repair broken text art.
+
+11. Skill Name: Text Pattern and Tessellation Maker
+
+  Description: Generate repeating patterns, waves, grids, spirals, checkerboards, and algorithmic motifs in characters.
+
+12. Skill Name: Accessible Text-Art Companion
+
+  Description: Provide alt text, simplified renditions, copy-safe versions, and warnings when art depends on font or display width.
+
+6. Emoji, Pictographs, and Digital Expression
+
+1. Skill Name: Emoji Meaning and Usage Guide
+
+  Description: Explain common meanings, alternate interpretations, tone, cultural differences, and context risks for emoji sequences.
+
+2. Skill Name: Emoji Sequence Composer
+
+  Description: Build valid emoji sequences using modifiers, variation selectors, gender or role components, keycaps, tags, and zero-width joiners.
+
+3. Skill Name: Emoji Translator
+
+  Description: Translate plain text into restrained or expressive emoji-enhanced text and convert emoji-heavy messages back into clear prose.
+
+4. Skill Name: Emoji Accessibility Writer
+
+  Description: Add meaningful words or alt descriptions so emoji do not carry essential information alone.
+
+5. Skill Name: Emoji Compatibility Advisor
+
+  Description: Identify sequences likely to vary across vendors or operating-system versions and suggest simpler fallbacks.
+
+6. Skill Name: Reaction Palette Designer
+
+  Description: Create coherent sets of reactions for communities, classrooms, support teams, streams, or workplace communication.
+
+7. Skill Name: Sticker and Caption Text Planner
+
+  Description: Write concise expressive phrases, emoji pairings, and layout-ready wording for stickers or reaction images.
+
+8. Skill Name: Symbolic Moodboard Maker
+
+  Description: Combine emoji, symbols, punctuation, and short labels into themed palettes for events, brands, stories, or interfaces.
+
+9. Skill Name: Emoji Search by Concept
+
+  Description: Find candidate emoji for emotions, actions, objects, professions, flags, celebrations, warnings, and abstract ideas.
+
+10. Skill Name: Flag Sequence Interpreter
+
+  Description: Explain regional indicator flags, subdivision tag sequences, and the distinction between political identity and technical representation.
+
+11. Skill Name: Emoji Sanitizer
+
+  Description: Remove, replace, limit, or standardize emoji for databases, logs, forms, legal documents, or plain-text systems.
+
+12. Skill Name: Textual Fallback Generator
+
+  Description: Create bracketed labels, shortcodes, or ASCII substitutes for emoji when color glyphs are unavailable.
+
+7. Languages, Scripts, Transliteration, and Localization
+
+1. Skill Name: Multilingual Text Creator
+
+  Description: Create and edit text in requested languages while maintaining purpose, register, and locale-specific conventions.
+
+2. Skill Name: Translation and Localization Editor
+
+  Description: Translate meaning and adapt dates, numbers, units, examples, idioms, politeness, and cultural references for the target locale.
+
+3. Skill Name: Transliteration Engine
+
+  Description: Convert between scripts using a named system or a clearly stated practical approximation, preserving reversible mappings where possible.
+
+4. Skill Name: Romanization System Guide
+
+  Description: Apply and compare systems such as Pinyin, Hepburn, Revised Romanization, ISO schemes, or library transliteration standards.
+
+5. Skill Name: Script Detection and Segmentation
+
+  Description: Identify scripts and language spans in mixed text, including Common and Inherited characters.
+
+6. Skill Name: Diacritic and Accent Restorer
+
+  Description: Restore likely accents or diacritics from context while marking uncertain choices and preserving names carefully.
+
+7. Skill Name: Orthography Converter
+
+  Description: Convert between accepted orthographic variants, spelling reforms, traditional and simplified forms, or locale standards when mappings are valid.
+
+8. Skill Name: Right-to-Left Layout Editor
+
+  Description: Prepare Arabic, Hebrew, Persian, Urdu, and mixed-script text with punctuation, numbers, and direction handled correctly.
+
+9. Skill Name: Input Method Helper
+
+  Description: Explain practical ways to enter characters with IMEs, dead keys, compose keys, phonetic keyboards, handwriting, or Unicode entry.
+
+10. Skill Name: Locale-Aware Casing Specialist
+
+  Description: Handle Turkish dotted I, Greek sigma, German sharp S, title casing, and other language-sensitive case operations.
+
+11. Skill Name: Plural and Inflection Template Builder
+
+  Description: Design localization-ready messages that support plural categories, gender, case, and variable agreement instead of naive string substitution.
+
+12. Skill Name: Language-Learning Text Adapter
+
+  Description: Grade vocabulary and grammar, add glosses, pronunciation, parallel text, exercises, and answer keys for learners.
+
+8. Typography, Punctuation, and Editorial Style
+
+1. Skill Name: Typography Cleaner
+
+  Description: Standardize quotation marks, apostrophes, ellipses, spaces, dashes, primes, multiplication signs, and other semantic typography.
+
+2. Skill Name: Punctuation Style Converter
+
+  Description: Apply US, UK, academic, journalistic, technical, or custom punctuation conventions consistently.
+
+3. Skill Name: Smart Quote Manager
+
+  Description: Convert straight and curly quotes safely, including nested quotations, code, measurements, and apostrophes.
+
+4. Skill Name: Dash and Hyphen Specialist
+
+  Description: Distinguish hyphens, minus signs, figure dashes, en dashes, em dashes, nonbreaking hyphens, and language-specific usage.
+
+5. Skill Name: Whitespace and Line-Break Designer
+
+  Description: Apply normal, nonbreaking, thin, narrow no-break, ideographic, and zero-width spaces or line-break controls intentionally.
+
+6. Skill Name: Numeral and Unit Formatter
+
+  Description: Format decimals, thousands, percentages, currencies, measurements, ranges, ordinals, and scientific notation by locale or style guide.
+
+7. Skill Name: Date and Time Style Editor
+
+  Description: Standardize dates, times, zones, eras, ranges, and ambiguity-resistant formats such as ISO 8601.
+
+8. Skill Name: Citation Style Text Formatter
+
+  Description: Prepare in-text references and bibliography text for a specified style while retaining source data for verification.
+
+9. Skill Name: Headline and Title Case Editor
+
+  Description: Apply sentence case, title case, all caps, small-cap notation, and named editorial rules with exception handling.
+
+10. Skill Name: Widow, Orphan, and Rag Helper
+
+  Description: Suggest nonbreaking spaces, rewrites, or line-break controls to improve line endings in publishing layouts.
+
+11. Skill Name: Readability and Rhythm Analyzer
+
+  Description: Assess sentence length, cadence, paragraph density, transitions, and reading level, then revise for the target audience.
+
+12. Skill Name: House Style Enforcer
+
+  Description: Apply a user-supplied style guide and produce a consistent document plus a concise exception report.
+
+9. Structured Text, Markup, and Data Formats
+
+1. Skill Name: Markdown Author and Repairer
+
+  Description: Create, convert, lint, and repair headings, lists, tables, links, code fences, references, and flavor-specific Markdown.
+
+2. Skill Name: HTML Text and Entity Editor
+
+  Description: Write semantic text markup, escape unsafe characters, decode entities, and preserve intended whitespace and accessibility labels.
+
+3. Skill Name: XML and SGML Text Specialist
+
+  Description: Create well-formed content, escape character data, manage entities, namespaces, CDATA, and text-oriented schemas.
+
+4. Skill Name: JSON String and JSONL Editor
+
+  Description: Create valid JSON strings, escape control characters, format records, validate JSON Lines, and prevent double encoding.
+
+5. Skill Name: YAML Text Safety Editor
+
+  Description: Quote risky scalar values, preserve multiline text, manage indentation, and avoid implicit-type surprises.
+
+6. Skill Name: CSV and Delimited-Text Specialist
+
+  Description: Quote fields, manage embedded delimiters or newlines, normalize headers, and choose encoding and dialect settings.
+
+7. Skill Name: Regular Expression Text Toolkit
+
+  Description: Design, explain, test, and debug regex patterns for extraction, validation, replacement, and segmentation with engine awareness.
+
+8. Skill Name: Template Language Text Builder
+
+  Description: Create safe text templates for Jinja, Mustache, Liquid, Handlebars, or similar systems with clear variables and escaping rules.
+
+9. Skill Name: Diff and Patch Text Creator
+
+  Description: Produce and interpret unified diffs, context diffs, replacement plans, and human-readable change summaries.
+
+10. Skill Name: Schema-to-Text Generator
+
+  Description: Turn fields, types, constraints, and examples into documentation, prompts, forms, or deterministic textual output.
+
+11. Skill Name: Frontmatter and Metadata Editor
+
+  Description: Create and validate YAML, TOML, or JSON metadata blocks while protecting the body content.
+
+12. Skill Name: Structured Text Round-Trip Guardian
+
+  Description: Convert among structured formats while checking ordering, escaping, null values, duplicate keys, comments, and lossiness.
+
+10. Programming, Code Text, and Machine-Readable Content
+
+1. Skill Name: Code Generator and Editor
+
+  Description: Write, revise, explain, and refactor source code from clear requirements while preserving language syntax and project conventions.
+
+2. Skill Name: Code Comment and Documentation Writer
+
+  Description: Create docstrings, inline comments, API references, READMEs, changelogs, and examples that match actual behavior.
+
+3. Skill Name: Identifier Naming Assistant
+
+  Description: Generate consistent variable, function, class, file, database, and API names under language-specific naming rules.
+
+4. Skill Name: String Literal Escaper
+
+  Description: Encode and decode string literals for programming languages, shells, SQL, regex, JSON, URLs, and nested contexts.
+
+5. Skill Name: Prompt and System-Instruction Editor
+
+  Description: Design precise reusable prompts with goals, inputs, constraints, output schemas, examples, and failure behavior.
+
+6. Skill Name: Domain-Specific Language Author
+
+  Description: Create or edit configuration, query, build, automation, and markup languages with syntax-aware formatting.
+
+7. Skill Name: Pseudo-Code and Algorithm Narrator
+
+  Description: Express algorithms as readable pseudocode, step lists, flow descriptions, invariants, and complexity notes.
+
+8. Skill Name: Code-to-Prose Translator
+
+  Description: Explain source code for students, reviewers, operators, or nontechnical stakeholders without inventing behavior.
+
+9. Skill Name: Prose-to-Code Specification Builder
+
+  Description: Convert informal requirements into data contracts, acceptance criteria, interfaces, edge cases, and implementation-ready steps.
+
+10. Skill Name: Command-Line Text Composer
+
+  Description: Create shell-safe commands, arguments, here-documents, pipelines, and cross-platform variants with quoting cautions.
+
+11. Skill Name: Test Data and Fixture Text Maker
+
+  Description: Generate representative strings, edge cases, multilingual samples, malformed inputs, and expected outputs for software tests.
+
+12. Skill Name: Machine Output Formatter
+
+  Description: Produce deterministic, parseable output with exact delimiters, field order, casing, escaping, and no unwanted commentary.
+
+11. Search, Reference, and Text Knowledge Retrieval
+
+1. Skill Name: Character and Symbol Researcher
+
+  Description: Find authoritative names, assignments, aliases, properties, and usage notes for characters and symbols when external references are available.
+
+2. Skill Name: Living Standard Update Checker
+
+  Description: Check current Unicode, emoji, language, markup, or platform documentation before asserting version-sensitive details.
+
+3. Skill Name: Source-Grounded Text Synthesizer
+
+  Description: Combine multiple sources into an attributed explanation while separating quoted facts, paraphrase, inference, and uncertainty.
+
+4. Skill Name: Terminology Researcher
+
+  Description: Find definitions, official names, preferred terms, deprecated terms, and field-specific usage from credible references.
+
+5. Skill Name: Quotation and Attribution Verifier
+
+  Description: Check wording, speaker, date, source, context, and quotation length before publication.
+
+6. Skill Name: Cross-Language Reference Finder
+
+  Description: Locate equivalent names, translations, transliterations, and official terminology across languages and jurisdictions.
+
+7. Skill Name: Text Standard Navigator
+
+  Description: Route questions to standards such as Unicode, ISO 8601, IETF RFCs, W3C specifications, or language authorities as appropriate.
+
+8. Skill Name: Shortcut Documentation Retriever
+
+  Description: Fetch current operating-system or application instructions for entering symbols and distinguish built-in shortcuts from app-specific ones.
+
+9. Skill Name: Corpus Example Finder
+
+  Description: Retrieve authentic usage examples and compare frequency, register, collocations, or contextual meaning without presenting samples as universal rules.
+
+10. Skill Name: Source Conflict Resolver
+
+  Description: Surface disagreements among references, prioritize primary standards, and explain version, locale, or scope differences.
+
+11. Skill Name: Citation-Ready Research Note Maker
+
+  Description: Capture claims, source titles, URLs, dates, excerpts within fair-use limits, and relevance notes in a reusable record.
+
+12. Skill Name: Reference Table Builder
+
+  Description: Compile verified character, symbol, shortcut, code-page, or terminology tables with explicit scope, version, and provenance.
+
+12. Document, Workplace, Academic, and Professional Text
+
+1. Skill Name: Email and Message Writer
+
+  Description: Create concise, actionable emails and messages in distinct tones with subject lines, context, requests, deadlines, and courteous closings.
+
+2. Skill Name: Report and Brief Writer
+
+  Description: Turn evidence and notes into structured reports, executive briefs, recommendations, decision memos, and status updates.
+
+3. Skill Name: Meeting Text Assistant
+
+  Description: Create agendas, pre-reads, minutes, decisions, action items, owner lists, and follow-up summaries.
+
+4. Skill Name: Policy and Procedure Writer
+
+  Description: Draft controlled policies, standard operating procedures, responsibilities, steps, exceptions, definitions, and revision notes.
+
+5. Skill Name: Business Template Builder
+
+  Description: Create reusable templates for proposals, plans, intake forms, incident reports, handoffs, and recurring communications.
+
+6. Skill Name: Academic Writing Editor
+
+  Description: Improve thesis, structure, evidence integration, cautious claims, terminology, transitions, and discipline-appropriate tone.
+
+7. Skill Name: Learning Material Creator
+
+  Description: Build lessons, explanations, examples, quizzes, rubrics, study guides, flashcards, and differentiated practice.
+
+8. Skill Name: Resume and Application Text Editor
+
+  Description: Tailor resumes, cover letters, bios, portfolios, and application responses to supplied evidence without inventing credentials.
+
+9. Skill Name: Customer Support Response Maker
+
+  Description: Create empathetic, accurate, step-based responses with troubleshooting, escalation, and expectation setting.
+
+10. Skill Name: Marketing Copy Studio
+
+  Description: Create value propositions, landing-page text, campaigns, ads, taglines, product descriptions, and calls to action for stated audiences.
+
+11. Skill Name: Legal-Style Plain-Language Assistant
+
+  Description: Clarify complex clauses and draft structured non-authoritative text while preserving defined terms and flagging the need for qualified review.
+
+12. Skill Name: Scientific and Technical Writer
+
+  Description: Write methods, specifications, explanations, abstracts, release notes, manuals, and warnings with measurable language.
+
+13. Creative Writing, Games, and Narrative Text
+
+1. Skill Name: Story and Fiction Composer
+
+  Description: Create stories across genres with controlled viewpoint, setting, conflict, pacing, characterization, and thematic coherence.
+
+2. Skill Name: Poetry and Verse Maker
+
+  Description: Write and edit free verse or formal poetry with specified meter, rhyme, imagery, voice, or constraints.
+
+3. Skill Name: Dialogue and Script Writer
+
+  Description: Create natural dialogue, screen or stage scenes, voice scripts, branching conversations, and performance-ready directions.
+
+4. Skill Name: Worldbuilding Text Architect
+
+  Description: Develop lore, cultures, histories, naming systems, factions, locations, artifacts, and internal consistency guides.
+
+5. Skill Name: Character Voice Designer
+
+  Description: Define and maintain distinct diction, syntax, rhythm, attitudes, taboos, and verbal habits for fictional or branded voices.
+
+6. Skill Name: Interactive Fiction Writer
+
+  Description: Create branching narrative nodes, choices, state variables, consequences, fail states, and replay paths.
+
+7. Skill Name: Riddle and Wordplay Maker
+
+  Description: Generate puns, riddles, rebuses, cryptograms, anagrams, palindromes, spoonerisms, and explanations at requested difficulty.
+
+8. Skill Name: Naming and Neologism Studio
+
+  Description: Create names, coined words, acronyms, backronyms, slogans, and naming systems with pronunciation and connotation checks.
+
+9. Skill Name: Lore and Continuity Editor
+
+  Description: Track canon, timeline, relationships, terminology, unresolved threads, and contradictions across a story universe.
+
+10. Skill Name: Roleplaying Text Generator
+
+  Description: Create quests, encounters, item descriptions, NPC dialogue, handouts, and game-master notes for a specified system or system-neutral play.
+
+11. Skill Name: Lyrics and Chant Designer
+
+  Description: Create original non-infringing lyrics, chants, hooks, refrains, and rhythmic text for a stated mood and structure.
+
+12. Skill Name: Creative Remix Planner
+
+  Description: Transform user-provided or public-domain material into a new genre, perspective, structure, or medium while avoiding excessive imitation.
+
+14. Text Analysis, Extraction, and Classification
+
+1. Skill Name: Key Information Extractor
+
+  Description: Extract names, dates, amounts, actions, requirements, definitions, risks, decisions, and other requested fields from text.
+
+2. Skill Name: Topic and Theme Analyzer
+
+  Description: Identify major topics, subtopics, motifs, recurring concerns, and relationships with supporting passages.
+
+3. Skill Name: Sentiment and Tone Analyzer
+
+  Description: Assess expressed sentiment, emotional cues, politeness, confidence, urgency, and tone while noting ambiguity and context.
+
+4. Skill Name: Argument Mapper
+
+  Description: Identify claims, evidence, warrants, objections, rebuttals, assumptions, and logical gaps in an argument.
+
+5. Skill Name: Document Structure Analyzer
+
+  Description: Map headings, sections, paragraph roles, information flow, and navigation quality.
+
+6. Skill Name: Terminology and Concordance Builder
+
+  Description: Create frequency lists, term indexes, key-word-in-context views, and defined-term inventories.
+
+7. Skill Name: Similarity and Duplicate Detector
+
+  Description: Find exact, near-duplicate, paraphrased, or templated passages and describe material differences.
+
+8. Skill Name: Text Classification Designer
+
+  Description: Define labels, decision rules, examples, edge cases, confidence handling, and abstention behavior for categorization tasks.
+
+9. Skill Name: Requirement and Obligation Extractor
+
+  Description: Identify must, should, may, prohibited, conditional, responsible-party, deadline, and evidence statements.
+
+10. Skill Name: Timeline and Event Extractor
+
+  Description: Turn narrative text into ordered events with dates, actors, dependencies, uncertainty, and source references.
+
+11. Skill Name: Question and Answer Miner
+
+  Description: Generate answerable questions from text, locate supported answers, and distinguish missing information.
+
+12. Skill Name: Text Dataset Annotation Assistant
+
+  Description: Apply or design annotation guidelines for spans, entities, intent, sentiment, relationships, and quality reviews.
+
+15. Accessibility, Safety, Privacy, and Inclusive Language
+
+1. Skill Name: Accessible Language Editor
+
+  Description: Use clear headings, descriptive links, meaningful labels, plain language, and nonvisual references that support assistive technology users.
+
+2. Skill Name: Alternative Text Writer
+
+  Description: Create concise, purpose-aware alt text, long descriptions, captions, and decorative-image decisions from supplied context.
+
+3. Skill Name: Inclusive Language Reviewer
+
+  Description: Identify unnecessary bias, stereotypes, exclusionary idioms, assumptions, and outdated terms, then suggest precise respectful alternatives.
+
+4. Skill Name: Trauma-Informed Text Editor
+
+  Description: Revise sensitive content to emphasize choice, dignity, predictability, nonjudgment, and supportive resources.
+
+5. Skill Name: Privacy and PII Redactor
+
+  Description: Detect and redact requested personal data classes while preserving document usefulness and marking irreversible actions.
+
+6. Skill Name: Secret and Credential Scanner
+
+  Description: Flag likely passwords, tokens, private keys, connection strings, and sensitive identifiers in text or code.
+
+7. Skill Name: Content Warning Composer
+
+  Description: Create specific, non-sensational content notes and place them where readers can make informed choices.
+
+8. Skill Name: Safe Placeholder Generator
+
+  Description: Replace names, addresses, account numbers, and confidential facts with consistent realistic placeholders or tagged variables.
+
+9. Skill Name: Harassment and Abuse De-Escalation Writer
+
+  Description: Create calm boundary-setting, moderation, reporting, and support language without mirroring abusive wording.
+
+10. Skill Name: High-Stakes Disclaimer Editor
+
+  Description: Add appropriately scoped limitations and next-step guidance for medical, legal, financial, safety, or regulatory text.
+
+11. Skill Name: Bias-Aware Dataset Text Reviewer
+
+  Description: Inspect labels, examples, demographic references, imbalance, slurs, and proxy attributes in text datasets.
+
+12. Skill Name: Read-Aloud and Screen-Reader Optimizer
+
+  Description: Improve punctuation, abbreviation expansion, table narration, sequence cues, and symbol pronunciation for spoken output.
+
+16. Text Integrity, Security, and Forensics
+
+1. Skill Name: Encoding Forensics Analyst
+
+  Description: Infer likely encodings from byte patterns, BOMs, replacement characters, and mojibake signatures while preserving originals.
+
+2. Skill Name: Text Corruption Repairer
+
+  Description: Repair broken line wrapping, OCR artifacts, hyphenation, duplicated headers, missing spaces, and copy-paste damage.
+
+3. Skill Name: Prompt Injection and Untrusted Text Marker
+
+  Description: Separate instructions from quoted or retrieved content and label untrusted text so it cannot silently redefine the task.
+
+4. Skill Name: Bidi Spoofing Detector
+
+  Description: Reveal directional overrides and isolates that can make filenames or source code appear different from logical order.
+
+5. Skill Name: Homoglyph Security Scanner
+
+  Description: Detect mixed-script identifiers and confusable characters in domains, usernames, code, and authentication text.
+
+6. Skill Name: Steganographic Text Pattern Checker
+
+  Description: Inspect suspicious zero-width characters, unusual variation selectors, whitespace channels, or encoding patterns without assuming malicious intent.
+
+7. Skill Name: Canonicalization Advisor
+
+  Description: Define a safe comparison pipeline for case, normalization, whitespace, punctuation, locale, and identifier rules.
+
+8. Skill Name: Checksum and Text Fingerprint Helper
+
+  Description: Prepare stable canonical text and compute or document checksum workflows for integrity verification.
+
+9. Skill Name: Redaction Verification Assistant
+
+  Description: Check that sensitive text is removed rather than merely hidden and that copies, metadata, comments, or layers do not retain it.
+
+10. Skill Name: Log Sanitization Editor
+
+  Description: Remove secrets and personal data from logs while preserving timestamps, event sequence, error codes, and diagnostic value.
+
+11. Skill Name: Text Provenance Labeler
+
+  Description: Attach source, author, version, timestamp, transformation, and confidence metadata to derived text.
+
+12. Skill Name: Lossless Transformation Planner
+
+  Description: Design reversible text operations, backups, dry runs, diffs, and rollback checks before bulk changes.
+
+17. Speech, Captions, OCR, and Text Across Media
+
+1. Skill Name: Transcript Cleaner
+
+  Description: Turn raw speech-to-text into readable paragraphs while preserving meaning, speaker turns, uncertainty, and requested verbatim detail.
+
+2. Skill Name: Speaker Diarization Text Editor
+
+  Description: Label speakers consistently, merge split turns, flag uncertain attribution, and create participant keys.
+
+3. Skill Name: Caption and Subtitle Writer
+
+  Description: Create concise timed-caption text with readable line breaks, sound cues, speaker identification, and accessibility conventions.
+
+4. Skill Name: Subtitle Localization Editor
+
+  Description: Adapt subtitle wording to reading speed, timing, culture, humor, and on-screen constraints rather than translating literally.
+
+5. Skill Name: OCR Cleanup Specialist
+
+  Description: Correct recognition errors using layout and language context while retaining uncertain readings for review.
+
+6. Skill Name: Scanned Table Text Reconstructor
+
+  Description: Rebuild rows, columns, headers, merged cells, footnotes, and reading order from extracted text.
+
+7. Skill Name: Audio Script and Pronunciation Writer
+
+  Description: Create speakable scripts with pauses, emphasis, acronym expansion, pronunciation hints, and duration targets.
+
+8. Skill Name: Teleprompter Text Formatter
+
+  Description: Break scripts into comfortable speaking chunks with pacing, cues, emphasis, and eye-line-friendly layout.
+
+9. Skill Name: Text-to-Speech Preparation Editor
+
+  Description: Normalize numbers, abbreviations, symbols, dates, and technical notation for accurate spoken rendering.
+
+10. Skill Name: Video Chapter and Summary Writer
+
+  Description: Turn transcripts into chapter titles, timestamps, descriptions, highlights, and searchable notes.
+
+11. Skill Name: On-Screen Text Planner
+
+  Description: Write short readable titles, lower thirds, callouts, labels, and end cards that fit a visual sequence.
+
+12. Skill Name: Multimodal Text Consistency Checker
+
+  Description: Compare titles, captions, narration, transcript, labels, and descriptions for contradictions or missing information.
+
+18. Automation, Batch Processing, and Quality Assurance
+
+1. Skill Name: Bulk Find-and-Replace Planner
+
+  Description: Design ordered replacements with boundaries, case rules, exclusions, previews, and rollback protection.
+
+2. Skill Name: Batch Rename Text Generator
+
+  Description: Generate deterministic file or record names from metadata with sanitization, collision handling, and platform constraints.
+
+3. Skill Name: Text Pipeline Architect
+
+  Description: Compose ingestion, decoding, normalization, parsing, transformation, validation, and export steps with explicit intermediate formats.
+
+4. Skill Name: Text Linter Rule Designer
+
+  Description: Create automatable rules for style, terminology, forbidden patterns, formatting, inclusivity, and severity levels.
+
+5. Skill Name: Golden Sample and Regression Builder
+
+  Description: Create representative inputs and expected outputs to prevent text-processing regressions after changes.
+
+6. Skill Name: Edge-Case Text Corpus Generator
+
+  Description: Build tests covering empty text, huge text, mixed scripts, control characters, malformed bytes, emoji, RTL text, and unusual whitespace.
+
+7. Skill Name: Text Conversion QA Auditor
+
+  Description: Compare source and output for dropped content, encoding changes, structural loss, reordered text, and rendering defects.
+
+8. Skill Name: Deterministic Output Controller
+
+  Description: Enforce exact schemas, ordering, separators, casing, random-seed behavior, and stable formatting for repeat runs.
+
+9. Skill Name: Human Review Queue Builder
+
+  Description: Route low-confidence, high-risk, ambiguous, or policy-sensitive cases to review with concise evidence and suggested actions.
+
+10. Skill Name: Text Workflow Performance Optimizer
+
+  Description: Improve chunking, caching, streaming, parallelism, memory use, and file handling without changing results.
+
+11. Skill Name: Text Tool Interoperability Adapter
+
+  Description: Bridge editors, command-line tools, APIs, databases, spreadsheets, documents, and chat systems through agreed encodings and formats.
+
+12. Skill Name: Publication Readiness Gate
+
+  Description: Run requirement, grammar, fact-claim, consistency, accessibility, privacy, rendering, link, and handoff checks before release.
+
+19. Specialized Symbolic and Technical Notation
+
+1. Skill Name: Mathematical Notation Editor
+
+  Description: Create and explain plain-text, Unicode, LaTeX, MathML-oriented, and spoken forms of mathematical expressions.
+
+2. Skill Name: Scientific Symbol Specialist
+
+  Description: Handle SI symbols, Greek letters, subscripts, superscripts, chemical notation, units, uncertainty, and scientific typography.
+
+3. Skill Name: Logic and Set Notation Composer
+
+  Description: Create logical operators, quantifiers, set relations, truth tables, proof notation, and readable ASCII fallbacks.
+
+4. Skill Name: Phonetic Alphabet and IPA Editor
+
+  Description: Create, inspect, and explain IPA, stress marks, diacritics, phoneme inventories, and practical pronunciation guides.
+
+5. Skill Name: Music Symbol and Chord Text Editor
+
+  Description: Format chord charts, Nashville numbers, roman numerals, performance symbols, and Unicode music characters with fallbacks.
+
+6. Skill Name: Chess and Game Notation Editor
+
+  Description: Create and validate common textual notations for chess moves, positions, game records, or puzzle solutions.
+
+7. Skill Name: Braille Pattern Text Specialist
+
+  Description: Work with Unicode braille patterns, dot numbering, text-art use, and cautions about literary braille translation.
+
+8. Skill Name: Box-Drawing and Diagram Notation Expert
+
+  Description: Select matching junctions, weights, corners, and ASCII alternatives for diagrams and terminal interfaces.
+
+9. Skill Name: Currency and Financial Symbol Guide
+
+  Description: Distinguish currency signs, ISO currency codes, placement, spacing, decimal conventions, and ambiguous symbols.
+
+10. Skill Name: Legal and Editorial Markup Symbol Guide
+
+  Description: Explain proofreading marks, section and paragraph signs, daggers, reference marks, copyright, trademark, and service marks.
+
+11. Skill Name: Technical Arrow and Relation Selector
+
+  Description: Choose arrows and relation symbols by direction, mapping, implication, transformation, navigation, or process meaning.
+
+12. Skill Name: Symbol Pronunciation and Naming Guide
+
+  Description: Provide readable names and speech-friendly renderings for symbols in teaching, dictation, and screen-reader contexts.
+
+20. Meta-Skills for a Complete Text System
+
+1. Skill Name: Text Task Router
+
+  Description: Classify the request, select the smallest capable text workflow, identify required standards or tools, and avoid unnecessary transformations.
+
+2. Skill Name: Text Requirement Elicitor
+
+  Description: Turn vague requests into explicit purpose, audience, format, constraints, examples, sources, language, and acceptance criteria.
+
+3. Skill Name: Text Output Contract Builder
+
+  Description: Define exact deliverable fields, order, length, encoding, markup, tone, validation rules, and failure responses before generation.
+
+4. Skill Name: Text Tool Selection Advisor
+
+  Description: Choose among direct language reasoning, regex, parser, formatter, spellchecker, transliterator, OCR, search, or code based on risk and repeatability.
+
+5. Skill Name: Text Verification Orchestrator
+
+  Description: Coordinate semantic, structural, encoding, layout, accessibility, privacy, and source checks appropriate to the output.
+
+6. Skill Name: Text Repair and Recovery Manager
+
+  Description: Isolate the earliest bad transformation, preserve passing stages, repair the smallest cause, and rerun linked checks.
+
+7. Skill Name: Text Capability Composer
+
+  Description: Chain specialized skills such as retrieval, Unicode analysis, editing, localization, and QA into one traceable workflow.
+
+8. Skill Name: Text Preference Profiler
+
+  Description: Capture reusable preferences for voice, spelling, punctuation, terminology, formatting, accessibility, and output structure.
+
+9. Skill Name: Text Knowledge Base Curator
+
+  Description: Organize glossaries, style guides, templates, examples, standards, exceptions, and version notes for progressive loading.
+
+10. Skill Name: Text Skill Evaluation Designer
+
+  Description: Create realistic tests, edge cases, scoring rubrics, failure thresholds, and human-review criteria for text skills.
+
+11. Skill Name: Text Skill Catalog Maintainer
+
+  Description: Add, merge, split, deprecate, tag, cross-reference, and version catalog entries as capabilities evolve.
+
+12. Skill Name: End-to-End Text Production Director
+
+  Description: Manage a text deliverable from intake through drafting, revision, verification, formatting, export, and clean handoff.

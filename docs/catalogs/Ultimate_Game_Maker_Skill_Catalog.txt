@@ -1,0 +1,1246 @@
+ULTIMATE
+GAME MAKER
+SKILL CATALOG
+
+A comprehensive capability catalog for game engines, programming languages, editors, compilers, gameplay, graphics, audio, networking, platforms, testing, deployment, and complete game production
+
+33 categories | 330 specialized skills
+
+Prepared for Emmanuel Angelo De Castro
+
+How to Use This Catalog
+
+This catalog is a blueprint for a game-making agent or a coordinated family of specialist agents. It defines capabilities and expected outcomes. It does not implement the skills.
+
+The version-intelligence skills are essential. No single static catalog can safely contain every old and future engine behavior, so an implementation should retrieve official version-specific documentation, lock dependencies, test the actual environment, and preserve compatibility notes.
+
+Each implemented skill should produce editable source, explicit build instructions, tests that can fail, version and dependency data, and a runnable or verifiable result whenever the requested environment supports it.
+
+Recommended Contract for Every Future Skill
+
+  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Contract Area                       Expected Design
+  ----------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Inputs                              Game goal, genre, engine, exact version, language, target platform, assets, references, constraints, repository, build environment, and acceptance criteria.
+
+  Outputs                             Editable project, source code, assets or schemas, tests, build instructions, runnable build when supported, dependency lock, version notes, and handoff.
+
+  Controls                            Mechanics, platform, quality, performance budget, art and audio systems, networking, save behavior, difficulty, content scope, and compatibility targets.
+
+  Checks                              Compilation, static analysis, tests, clean startup, gameplay path, saves, performance, platform behavior, accessibility, security, packaging, and clean-machine build.
+
+  Recovery                            Capture the exact mismatch, isolate the earliest failing layer, preserve passing work, repair the smallest component, and rerun linked tests from clean state.
+
+  Interoperability                    Document engine and editor version, SDKs, compiler, language standard, packages, file formats, coordinate systems, units, input, networking, and build tooling.
+  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Category Index
+
+1.  Game Vision, Design, and Production Planning (10 skills)
+
+2.  Engine Discovery, Documentation, and Version Intelligence (10 skills)
+
+3.  Unity Development (10 skills)
+
+4.  Unreal Engine Development (10 skills)
+
+5.  Godot Engine Development (10 skills)
+
+6.  Web, HTML5, JavaScript, and Browser Games (10 skills)
+
+7.  Python, Pygame, RenPy, and Scripting Games (10 skills)
+
+8.  C, C++, C#, Java, and Native Frameworks (10 skills)
+
+9.  Additional Engines and Creator Platforms (10 skills)
+
+10. Custom Engines, Compilers, IDEs, and Developer Tooling (10 skills)
+
+11. Gameplay Programming and Player Mechanics (10 skills)
+
+12. Game AI, Navigation, and Procedural Behavior (10 skills)
+
+13. Procedural Generation and Simulation (10 skills)
+
+14. 2D Games, Tilemaps, Sprites, and Pixel Systems (10 skills)
+
+15. 3D Worlds, Rendering, Materials, and Shaders (10 skills)
+
+16. Physics, Vehicles, Destruction, and Simulation (10 skills)
+
+17. Animation, Rigging, Cinematics, and Motion (10 skills)
+
+18. UI, UX, HUD, Menus, and Input (10 skills)
+
+19. Audio, Music, Voice, and Interactive Sound (10 skills)
+
+20. Networking, Multiplayer, Online Services, and Backend (10 skills)
+
+21. Databases, Accounts, Cloud, and Live Services (10 skills)
+
+22. Mobile, Console, Desktop, and Platform Integration (10 skills)
+
+23. XR, AR, VR, MR, and Spatial Games (10 skills)
+
+24. Narrative, Dialogue, Visual Novels, and Localization (10 skills)
+
+25. Levels, Worlds, Puzzles, and Content Design (10 skills)
+
+26. Game Economy, Progression, Monetization, and Live Operations (10 skills)
+
+27. Testing, Debugging, QA, and Automation (10 skills)
+
+28. Performance, Memory, Profiling, and Optimization (10 skills)
+
+29. Builds, Packaging, Deployment, CI/CD, and Releases (10 skills)
+
+30. Security, Privacy, Safety, Accessibility, and Compliance (10 skills)
+
+31. Modding, Plugins, Scripting APIs, and User-Generated Content (10 skills)
+
+32. Legacy Games, Reverse Engineering, Ports, and Preservation (10 skills)
+
+33. Autonomous Game Creation and Agent Orchestration (10 skills)
+
+Category 1: Game Vision, Design, and Production Planning
+
+10 specialized capabilities for game vision, design, and production planning.
+
+1. Skill Name: Game Creative Director
+Description: Game Creative Director capability. Defines observable player outcomes, mechanics, content, constraints, dependencies, milestones, risks, acceptance checks, and editable production handoffs.
+
+2. Skill Name: Game Concept Generator
+Description: Game Concept Generator capability. Defines observable player outcomes, mechanics, content, constraints, dependencies, milestones, risks, acceptance checks, and editable production handoffs.
+
+3. Skill Name: Game Design Document Architect
+Description: Game Design Document Architect capability. Defines observable player outcomes, mechanics, content, constraints, dependencies, milestones, risks, acceptance checks, and editable production handoffs.
+
+4. Skill Name: Core Loop Designer
+Description: Core Loop Designer capability. Defines observable player outcomes, mechanics, content, constraints, dependencies, milestones, risks, acceptance checks, and editable production handoffs.
+
+5. Skill Name: Feature Scope Planner
+Description: Feature Scope Planner capability. Defines observable player outcomes, mechanics, content, constraints, dependencies, milestones, risks, acceptance checks, and editable production handoffs.
+
+6. Skill Name: Production Roadmap Builder
+Description: Production Roadmap Builder capability. Defines observable player outcomes, mechanics, content, constraints, dependencies, milestones, risks, acceptance checks, and editable production handoffs.
+
+7. Skill Name: Vertical Slice Planner
+Description: Vertical Slice Planner capability. Defines observable player outcomes, mechanics, content, constraints, dependencies, milestones, risks, acceptance checks, and editable production handoffs.
+
+8. Skill Name: Audience and Platform Strategist
+Description: Audience and Platform Strategist capability. Defines observable player outcomes, mechanics, content, constraints, dependencies, milestones, risks, acceptance checks, and editable production handoffs.
+
+9. Skill Name: Game Feasibility Analyst
+Description: Game Feasibility Analyst capability. Defines observable player outcomes, mechanics, content, constraints, dependencies, milestones, risks, acceptance checks, and editable production handoffs.
+
+10. Skill Name: End-to-End Game Producer
+Description: End-to-End Game Producer capability. Defines observable player outcomes, mechanics, content, constraints, dependencies, milestones, risks, acceptance checks, and editable production handoffs.
+
+Category 2: Engine Discovery, Documentation, and Version Intelligence
+
+10 specialized capabilities for engine discovery, documentation, and version intelligence.
+
+1. Skill Name: Game Engine Capability Router
+Description: Game Engine Capability Router capability. Finds and applies version-correct official engine, editor, API, package, syntax, migration, and build guidance instead of assuming behavior across releases.
+
+2. Skill Name: Official Documentation Researcher
+Description: Official Documentation Researcher capability. Finds and applies version-correct official engine, editor, API, package, syntax, migration, and build guidance instead of assuming behavior across releases.
+
+3. Skill Name: Engine Version Compatibility Analyst
+Description: Engine Version Compatibility Analyst capability. Finds and applies version-correct official engine, editor, API, package, syntax, migration, and build guidance instead of assuming behavior across releases.
+
+4. Skill Name: Legacy Documentation Archivist
+Description: Legacy Documentation Archivist capability. Finds and applies version-correct official engine, editor, API, package, syntax, migration, and build guidance instead of assuming behavior across releases.
+
+5. Skill Name: API and Syntax Diff Analyst
+Description: API and Syntax Diff Analyst capability. Finds and applies version-correct official engine, editor, API, package, syntax, migration, and build guidance instead of assuming behavior across releases.
+
+6. Skill Name: Deprecation Migration Planner
+Description: Deprecation Migration Planner capability. Finds and applies version-correct official engine, editor, API, package, syntax, migration, and build guidance instead of assuming behavior across releases.
+
+7. Skill Name: Editor Feature Cartographer
+Description: Editor Feature Cartographer capability. Finds and applies version-correct official engine, editor, API, package, syntax, migration, and build guidance instead of assuming behavior across releases.
+
+8. Skill Name: Plugin and Package Compatibility Checker
+Description: Plugin and Package Compatibility Checker capability. Finds and applies version-correct official engine, editor, API, package, syntax, migration, and build guidance instead of assuming behavior across releases.
+
+9. Skill Name: Engine Upgrade Risk Assessor
+Description: Engine Upgrade Risk Assessor capability. Finds and applies version-correct official engine, editor, API, package, syntax, migration, and build guidance instead of assuming behavior across releases.
+
+10. Skill Name: Reproducible Engine Environment Builder
+Description: Reproducible Engine Environment Builder capability. Finds and applies version-correct official engine, editor, API, package, syntax, migration, and build guidance instead of assuming behavior across releases.
+
+Category 3: Unity Development
+
+10 specialized capabilities for unity development.
+
+1. Skill Name: Unity Project Architect
+Description: Unity Project Architect capability. Builds, reads, repairs, profiles, and packages Unity projects using version-appropriate C#, scenes, prefabs, packages, rendering pipelines, editor tooling, and player settings.
+
+2. Skill Name: Unity C# Gameplay Programmer
+Description: Unity C# Gameplay Programmer capability. Builds, reads, repairs, profiles, and packages Unity projects using version-appropriate C#, scenes, prefabs, packages, rendering pipelines, editor tooling, and player settings.
+
+3. Skill Name: Unity MonoBehaviour Specialist
+Description: Unity MonoBehaviour Specialist capability. Builds, reads, repairs, profiles, and packages Unity projects using version-appropriate C#, scenes, prefabs, packages, rendering pipelines, editor tooling, and player settings.
+
+4. Skill Name: Unity ScriptableObject Systems Designer
+Description: Unity ScriptableObject Systems Designer capability. Builds, reads, repairs, profiles, and packages Unity projects using version-appropriate C#, scenes, prefabs, packages, rendering pipelines, editor tooling, and player settings.
+
+5. Skill Name: Unity Input System Developer
+Description: Unity Input System Developer capability. Builds, reads, repairs, profiles, and packages Unity projects using version-appropriate C#, scenes, prefabs, packages, rendering pipelines, editor tooling, and player settings.
+
+6. Skill Name: Unity UI Toolkit and UGUI Developer
+Description: Unity UI Toolkit and UGUI Developer capability. Builds, reads, repairs, profiles, and packages Unity projects using version-appropriate C#, scenes, prefabs, packages, rendering pipelines, editor tooling, and player settings.
+
+7. Skill Name: Unity Physics and Animation Integrator
+Description: Unity Physics and Animation Integrator capability. Builds, reads, repairs, profiles, and packages Unity projects using version-appropriate C#, scenes, prefabs, packages, rendering pipelines, editor tooling, and player settings.
+
+8. Skill Name: Unity Addressables and Asset Pipeline Engineer
+Description: Unity Addressables and Asset Pipeline Engineer capability. Builds, reads, repairs, profiles, and packages Unity projects using version-appropriate C#, scenes, prefabs, packages, rendering pipelines, editor tooling, and player settings.
+
+9. Skill Name: Unity URP HDRP Shader Developer
+Description: Unity URP HDRP Shader Developer capability. Builds, reads, repairs, profiles, and packages Unity projects using version-appropriate C#, scenes, prefabs, packages, rendering pipelines, editor tooling, and player settings.
+
+10. Skill Name: Unity Build and Profiler Specialist
+Description: Unity Build and Profiler Specialist capability. Builds, reads, repairs, profiles, and packages Unity projects using version-appropriate C#, scenes, prefabs, packages, rendering pipelines, editor tooling, and player settings.
+
+Category 4: Unreal Engine Development
+
+10 specialized capabilities for unreal engine development.
+
+1. Skill Name: Unreal Project Architect
+Description: Unreal Project Architect capability. Creates production-ready Unreal projects across C++, Blueprints, gameplay frameworks, UI, animation, Niagara, materials, world systems, cooking, and packaging.
+
+2. Skill Name: Unreal C++ Gameplay Programmer
+Description: Unreal C++ Gameplay Programmer capability. Creates production-ready Unreal projects across C++, Blueprints, gameplay frameworks, UI, animation, Niagara, materials, world systems, cooking, and packaging.
+
+3. Skill Name: Blueprint Systems Developer
+Description: Blueprint Systems Developer capability. Creates production-ready Unreal projects across C++, Blueprints, gameplay frameworks, UI, animation, Niagara, materials, world systems, cooking, and packaging.
+
+4. Skill Name: Gameplay Ability System Engineer
+Description: Gameplay Ability System Engineer capability. Creates production-ready Unreal projects across C++, Blueprints, gameplay frameworks, UI, animation, Niagara, materials, world systems, cooking, and packaging.
+
+5. Skill Name: Unreal UMG and CommonUI Developer
+Description: Unreal UMG and CommonUI Developer capability. Creates production-ready Unreal projects across C++, Blueprints, gameplay frameworks, UI, animation, Niagara, materials, world systems, cooking, and packaging.
+
+6. Skill Name: Unreal Niagara VFX Developer
+Description: Unreal Niagara VFX Developer capability. Creates production-ready Unreal projects across C++, Blueprints, gameplay frameworks, UI, animation, Niagara, materials, world systems, cooking, and packaging.
+
+7. Skill Name: Unreal Materials and Shader Developer
+Description: Unreal Materials and Shader Developer capability. Creates production-ready Unreal projects across C++, Blueprints, gameplay frameworks, UI, animation, Niagara, materials, world systems, cooking, and packaging.
+
+8. Skill Name: Unreal Animation Blueprint Engineer
+Description: Unreal Animation Blueprint Engineer capability. Creates production-ready Unreal projects across C++, Blueprints, gameplay frameworks, UI, animation, Niagara, materials, world systems, cooking, and packaging.
+
+9. Skill Name: Unreal World Partition Specialist
+Description: Unreal World Partition Specialist capability. Creates production-ready Unreal projects across C++, Blueprints, gameplay frameworks, UI, animation, Niagara, materials, world systems, cooking, and packaging.
+
+10. Skill Name: Unreal Build Cook and Packaging Engineer
+Description: Unreal Build Cook and Packaging Engineer capability. Creates production-ready Unreal projects across C++, Blueprints, gameplay frameworks, UI, animation, Niagara, materials, world systems, cooking, and packaging.
+
+Category 5: Godot Engine Development
+
+10 specialized capabilities for godot engine development.
+
+1. Skill Name: Godot Project Architect
+Description: Godot Project Architect capability. Builds and migrates Godot games with version-correct nodes, scenes, resources, signals, GDScript or C#, editor extensions, rendering, and export presets.
+
+2. Skill Name: GDScript Gameplay Programmer
+Description: GDScript Gameplay Programmer capability. Builds and migrates Godot games with version-correct nodes, scenes, resources, signals, GDScript or C#, editor extensions, rendering, and export presets.
+
+3. Skill Name: Godot C# Developer
+Description: Godot C# Developer capability. Builds and migrates Godot games with version-correct nodes, scenes, resources, signals, GDScript or C#, editor extensions, rendering, and export presets.
+
+4. Skill Name: Godot Node and Scene Systems Designer
+Description: Godot Node and Scene Systems Designer capability. Builds and migrates Godot games with version-correct nodes, scenes, resources, signals, GDScript or C#, editor extensions, rendering, and export presets.
+
+5. Skill Name: Godot Signal and Resource Architect
+Description: Godot Signal and Resource Architect capability. Builds and migrates Godot games with version-correct nodes, scenes, resources, signals, GDScript or C#, editor extensions, rendering, and export presets.
+
+6. Skill Name: Godot UI and Theme Developer
+Description: Godot UI and Theme Developer capability. Builds and migrates Godot games with version-correct nodes, scenes, resources, signals, GDScript or C#, editor extensions, rendering, and export presets.
+
+7. Skill Name: Godot 2D Physics Specialist
+Description: Godot 2D Physics Specialist capability. Builds and migrates Godot games with version-correct nodes, scenes, resources, signals, GDScript or C#, editor extensions, rendering, and export presets.
+
+8. Skill Name: Godot 3D Rendering Specialist
+Description: Godot 3D Rendering Specialist capability. Builds and migrates Godot games with version-correct nodes, scenes, resources, signals, GDScript or C#, editor extensions, rendering, and export presets.
+
+9. Skill Name: Godot Editor Plugin Developer
+Description: Godot Editor Plugin Developer capability. Builds and migrates Godot games with version-correct nodes, scenes, resources, signals, GDScript or C#, editor extensions, rendering, and export presets.
+
+10. Skill Name: Godot Export and Compatibility Engineer
+Description: Godot Export and Compatibility Engineer capability. Builds and migrates Godot games with version-correct nodes, scenes, resources, signals, GDScript or C#, editor extensions, rendering, and export presets.
+
+Category 6: Web, HTML5, JavaScript, and Browser Games
+
+10 specialized capabilities for web, html5, javascript, and browser games.
+
+1. Skill Name: HTML5 Game Architect
+Description: HTML5 Game Architect capability. Creates browser games using HTML, CSS, JavaScript, TypeScript, Canvas, WebGL, WebAssembly, offline caching, responsive input, optimization, and browser-safe deployment.
+
+2. Skill Name: Canvas 2D Game Developer
+Description: Canvas 2D Game Developer capability. Creates browser games using HTML, CSS, JavaScript, TypeScript, Canvas, WebGL, WebAssembly, offline caching, responsive input, optimization, and browser-safe deployment.
+
+3. Skill Name: WebGL Game Developer
+Description: WebGL Game Developer capability. Creates browser games using HTML, CSS, JavaScript, TypeScript, Canvas, WebGL, WebAssembly, offline caching, responsive input, optimization, and browser-safe deployment.
+
+4. Skill Name: JavaScript Game Systems Programmer
+Description: JavaScript Game Systems Programmer capability. Creates browser games using HTML, CSS, JavaScript, TypeScript, Canvas, WebGL, WebAssembly, offline caching, responsive input, optimization, and browser-safe deployment.
+
+5. Skill Name: TypeScript Game Developer
+Description: TypeScript Game Developer capability. Creates browser games using HTML, CSS, JavaScript, TypeScript, Canvas, WebGL, WebAssembly, offline caching, responsive input, optimization, and browser-safe deployment.
+
+6. Skill Name: Phaser Game Developer
+Description: Phaser Game Developer capability. Creates browser games using HTML, CSS, JavaScript, TypeScript, Canvas, WebGL, WebAssembly, offline caching, responsive input, optimization, and browser-safe deployment.
+
+7. Skill Name: Three.js Game Developer
+Description: Three.js Game Developer capability. Creates browser games using HTML, CSS, JavaScript, TypeScript, Canvas, WebGL, WebAssembly, offline caching, responsive input, optimization, and browser-safe deployment.
+
+8. Skill Name: Babylon.js Game Developer
+Description: Babylon.js Game Developer capability. Creates browser games using HTML, CSS, JavaScript, TypeScript, Canvas, WebGL, WebAssembly, offline caching, responsive input, optimization, and browser-safe deployment.
+
+9. Skill Name: WebAssembly Game Integrator
+Description: WebAssembly Game Integrator capability. Creates browser games using HTML, CSS, JavaScript, TypeScript, Canvas, WebGL, WebAssembly, offline caching, responsive input, optimization, and browser-safe deployment.
+
+10. Skill Name: Progressive Web Game Packager
+Description: Progressive Web Game Packager capability. Creates browser games using HTML, CSS, JavaScript, TypeScript, Canvas, WebGL, WebAssembly, offline caching, responsive input, optimization, and browser-safe deployment.
+
+Category 7: Python, Pygame, RenPy, and Scripting Games
+
+10 specialized capabilities for python, pygame, renpy, and scripting games.
+
+1. Skill Name: Python Game Architect
+Description: Python Game Architect capability. Creates and modernizes Python games and visual novels across legacy and current runtimes, with dependency pinning, save compatibility, packaging, and executable builds.
+
+2. Skill Name: Pygame Developer
+Description: Pygame Developer capability. Creates and modernizes Python games and visual novels across legacy and current runtimes, with dependency pinning, save compatibility, packaging, and executable builds.
+
+3. Skill Name: RenPy Visual Novel Developer
+Description: RenPy Visual Novel Developer capability. Creates and modernizes Python games and visual novels across legacy and current runtimes, with dependency pinning, save compatibility, packaging, and executable builds.
+
+4. Skill Name: RenPy Screen Language Specialist
+Description: RenPy Screen Language Specialist capability. Creates and modernizes Python games and visual novels across legacy and current runtimes, with dependency pinning, save compatibility, packaging, and executable builds.
+
+5. Skill Name: Python Arcade Developer
+Description: Python Arcade Developer capability. Creates and modernizes Python games and visual novels across legacy and current runtimes, with dependency pinning, save compatibility, packaging, and executable builds.
+
+6. Skill Name: Panda3D Developer
+Description: Panda3D Developer capability. Creates and modernizes Python games and visual novels across legacy and current runtimes, with dependency pinning, save compatibility, packaging, and executable builds.
+
+7. Skill Name: Ursina Game Developer
+Description: Ursina Game Developer capability. Creates and modernizes Python games and visual novels across legacy and current runtimes, with dependency pinning, save compatibility, packaging, and executable builds.
+
+8. Skill Name: Kivy Game Developer
+Description: Kivy Game Developer capability. Creates and modernizes Python games and visual novels across legacy and current runtimes, with dependency pinning, save compatibility, packaging, and executable builds.
+
+9. Skill Name: Python Version Compatibility Engineer
+Description: Python Version Compatibility Engineer capability. Creates and modernizes Python games and visual novels across legacy and current runtimes, with dependency pinning, save compatibility, packaging, and executable builds.
+
+10. Skill Name: Python Game Packaging Specialist
+Description: Python Game Packaging Specialist capability. Creates and modernizes Python games and visual novels across legacy and current runtimes, with dependency pinning, save compatibility, packaging, and executable builds.
+
+Category 8: C, C++, C#, Java, and Native Frameworks
+
+10 specialized capabilities for c, c++, c#, java, and native frameworks.
+
+1. Skill Name: C Game Systems Programmer
+Description: C Game Systems Programmer capability. Builds engine-level and framework-based games with explicit memory, rendering, input, audio, assets, portability, build systems, debugging, and performance controls.
+
+2. Skill Name: Modern C++ Game Developer
+Description: Modern C++ Game Developer capability. Builds engine-level and framework-based games with explicit memory, rendering, input, audio, assets, portability, build systems, debugging, and performance controls.
+
+3. Skill Name: C# Game Framework Developer
+Description: C# Game Framework Developer capability. Builds engine-level and framework-based games with explicit memory, rendering, input, audio, assets, portability, build systems, debugging, and performance controls.
+
+4. Skill Name: Java Game Developer
+Description: Java Game Developer capability. Builds engine-level and framework-based games with explicit memory, rendering, input, audio, assets, portability, build systems, debugging, and performance controls.
+
+5. Skill Name: SDL Game Developer
+Description: SDL Game Developer capability. Builds engine-level and framework-based games with explicit memory, rendering, input, audio, assets, portability, build systems, debugging, and performance controls.
+
+6. Skill Name: SFML Game Developer
+Description: SFML Game Developer capability. Builds engine-level and framework-based games with explicit memory, rendering, input, audio, assets, portability, build systems, debugging, and performance controls.
+
+7. Skill Name: MonoGame Developer
+Description: MonoGame Developer capability. Builds engine-level and framework-based games with explicit memory, rendering, input, audio, assets, portability, build systems, debugging, and performance controls.
+
+8. Skill Name: LibGDX Developer
+Description: LibGDX Developer capability. Builds engine-level and framework-based games with explicit memory, rendering, input, audio, assets, portability, build systems, debugging, and performance controls.
+
+9. Skill Name: OpenGL Game Developer
+Description: OpenGL Game Developer capability. Builds engine-level and framework-based games with explicit memory, rendering, input, audio, assets, portability, build systems, debugging, and performance controls.
+
+10. Skill Name: Vulkan Game Developer
+Description: Vulkan Game Developer capability. Builds engine-level and framework-based games with explicit memory, rendering, input, audio, assets, portability, build systems, debugging, and performance controls.
+
+Category 9: Additional Engines and Creator Platforms
+
+10 specialized capabilities for additional engines and creator platforms.
+
+1. Skill Name: GameMaker Studio Developer
+Description: GameMaker Studio Developer capability. Uses each platform’s actual project model, scripting language, editor workflow, extension system, deployment rules, and version-specific constraints.
+
+2. Skill Name: Construct Developer
+Description: Construct Developer capability. Uses each platform’s actual project model, scripting language, editor workflow, extension system, deployment rules, and version-specific constraints.
+
+3. Skill Name: Defold Developer
+Description: Defold Developer capability. Uses each platform’s actual project model, scripting language, editor workflow, extension system, deployment rules, and version-specific constraints.
+
+4. Skill Name: Cocos2d-x Developer
+Description: Cocos2d-x Developer capability. Uses each platform’s actual project model, scripting language, editor workflow, extension system, deployment rules, and version-specific constraints.
+
+5. Skill Name: Cocos Creator Developer
+Description: Cocos Creator Developer capability. Uses each platform’s actual project model, scripting language, editor workflow, extension system, deployment rules, and version-specific constraints.
+
+6. Skill Name: RPG Maker Developer
+Description: RPG Maker Developer capability. Uses each platform’s actual project model, scripting language, editor workflow, extension system, deployment rules, and version-specific constraints.
+
+7. Skill Name: Roblox Studio Luau Developer
+Description: Roblox Studio Luau Developer capability. Uses each platform’s actual project model, scripting language, editor workflow, extension system, deployment rules, and version-specific constraints.
+
+8. Skill Name: CryEngine Developer
+Description: CryEngine Developer capability. Uses each platform’s actual project model, scripting language, editor workflow, extension system, deployment rules, and version-specific constraints.
+
+9. Skill Name: O3DE Developer
+Description: O3DE Developer capability. Uses each platform’s actual project model, scripting language, editor workflow, extension system, deployment rules, and version-specific constraints.
+
+10. Skill Name: Bevy Rust Developer
+Description: Bevy Rust Developer capability. Uses each platform’s actual project model, scripting language, editor workflow, extension system, deployment rules, and version-specific constraints.
+
+Category 10: Custom Engines, Compilers, IDEs, and Developer Tooling
+
+10 specialized capabilities for custom engines, compilers, ides, and developer tooling.
+
+1. Skill Name: Custom Game Engine Architect
+Description: Custom Game Engine Architect capability. Builds game engines, domain-specific languages, compilers, interpreters, editor experiences, diagnostics, debuggers, package systems, and reproducible developer workflows.
+
+2. Skill Name: Compiler Front-End Builder
+Description: Compiler Front-End Builder capability. Builds game engines, domain-specific languages, compilers, interpreters, editor experiences, diagnostics, debuggers, package systems, and reproducible developer workflows.
+
+3. Skill Name: Lexer and Parser Developer
+Description: Lexer and Parser Developer capability. Builds game engines, domain-specific languages, compilers, interpreters, editor experiences, diagnostics, debuggers, package systems, and reproducible developer workflows.
+
+4. Skill Name: Bytecode VM Developer
+Description: Bytecode VM Developer capability. Builds game engines, domain-specific languages, compilers, interpreters, editor experiences, diagnostics, debuggers, package systems, and reproducible developer workflows.
+
+5. Skill Name: Interpreter and Scripting Runtime Builder
+Description: Interpreter and Scripting Runtime Builder capability. Builds game engines, domain-specific languages, compilers, interpreters, editor experiences, diagnostics, debuggers, package systems, and reproducible developer workflows.
+
+6. Skill Name: Language Server Protocol Developer
+Description: Language Server Protocol Developer capability. Builds game engines, domain-specific languages, compilers, interpreters, editor experiences, diagnostics, debuggers, package systems, and reproducible developer workflows.
+
+7. Skill Name: Visual Code Editor Builder
+Description: Visual Code Editor Builder capability. Builds game engines, domain-specific languages, compilers, interpreters, editor experiences, diagnostics, debuggers, package systems, and reproducible developer workflows.
+
+8. Skill Name: Debugger and Profiler Toolsmith
+Description: Debugger and Profiler Toolsmith capability. Builds game engines, domain-specific languages, compilers, interpreters, editor experiences, diagnostics, debuggers, package systems, and reproducible developer workflows.
+
+9. Skill Name: Build System and Package Manager Developer
+Description: Build System and Package Manager Developer capability. Builds game engines, domain-specific languages, compilers, interpreters, editor experiences, diagnostics, debuggers, package systems, and reproducible developer workflows.
+
+10. Skill Name: Hot Reload and Live Coding Engineer
+Description: Hot Reload and Live Coding Engineer capability. Builds game engines, domain-specific languages, compilers, interpreters, editor experiences, diagnostics, debuggers, package systems, and reproducible developer workflows.
+
+Category 11: Gameplay Programming and Player Mechanics
+
+10 specialized capabilities for gameplay programming and player mechanics.
+
+1. Skill Name: Player Controller Developer
+Description: Player Controller Developer capability. Implements responsive, testable mechanics with deterministic state, input buffering, feedback, serialization, failure handling, and designer-editable parameters.
+
+2. Skill Name: Character Movement Engineer
+Description: Character Movement Engineer capability. Implements responsive, testable mechanics with deterministic state, input buffering, feedback, serialization, failure handling, and designer-editable parameters.
+
+3. Skill Name: Camera System Developer
+Description: Camera System Developer capability. Implements responsive, testable mechanics with deterministic state, input buffering, feedback, serialization, failure handling, and designer-editable parameters.
+
+4. Skill Name: Interaction System Designer
+Description: Interaction System Designer capability. Implements responsive, testable mechanics with deterministic state, input buffering, feedback, serialization, failure handling, and designer-editable parameters.
+
+5. Skill Name: Combat Systems Programmer
+Description: Combat Systems Programmer capability. Implements responsive, testable mechanics with deterministic state, input buffering, feedback, serialization, failure handling, and designer-editable parameters.
+
+6. Skill Name: Ability and Skill System Developer
+Description: Ability and Skill System Developer capability. Implements responsive, testable mechanics with deterministic state, input buffering, feedback, serialization, failure handling, and designer-editable parameters.
+
+7. Skill Name: Inventory and Equipment Engineer
+Description: Inventory and Equipment Engineer capability. Implements responsive, testable mechanics with deterministic state, input buffering, feedback, serialization, failure handling, and designer-editable parameters.
+
+8. Skill Name: Crafting and Progression Developer
+Description: Crafting and Progression Developer capability. Implements responsive, testable mechanics with deterministic state, input buffering, feedback, serialization, failure handling, and designer-editable parameters.
+
+9. Skill Name: Quest and Objective System Developer
+Description: Quest and Objective System Developer capability. Implements responsive, testable mechanics with deterministic state, input buffering, feedback, serialization, failure handling, and designer-editable parameters.
+
+10. Skill Name: Save and Checkpoint Engineer
+Description: Save and Checkpoint Engineer capability. Implements responsive, testable mechanics with deterministic state, input buffering, feedback, serialization, failure handling, and designer-editable parameters.
+
+Category 12: Game AI, Navigation, and Procedural Behavior
+
+10 specialized capabilities for game ai, navigation, and procedural behavior.
+
+1. Skill Name: Finite State Machine AI Developer
+Description: Finite State Machine AI Developer capability. Creates observable, tunable, performant agents with perception, planning, navigation, group behavior, fallback states, and debugging tools.
+
+2. Skill Name: Behavior Tree Engineer
+Description: Behavior Tree Engineer capability. Creates observable, tunable, performant agents with perception, planning, navigation, group behavior, fallback states, and debugging tools.
+
+3. Skill Name: Utility AI Designer
+Description: Utility AI Designer capability. Creates observable, tunable, performant agents with perception, planning, navigation, group behavior, fallback states, and debugging tools.
+
+4. Skill Name: GOAP Systems Developer
+Description: GOAP Systems Developer capability. Creates observable, tunable, performant agents with perception, planning, navigation, group behavior, fallback states, and debugging tools.
+
+5. Skill Name: Navigation Mesh Specialist
+Description: Navigation Mesh Specialist capability. Creates observable, tunable, performant agents with perception, planning, navigation, group behavior, fallback states, and debugging tools.
+
+6. Skill Name: Pathfinding Algorithm Engineer
+Description: Pathfinding Algorithm Engineer capability. Creates observable, tunable, performant agents with perception, planning, navigation, group behavior, fallback states, and debugging tools.
+
+7. Skill Name: Steering Behavior Developer
+Description: Steering Behavior Developer capability. Creates observable, tunable, performant agents with perception, planning, navigation, group behavior, fallback states, and debugging tools.
+
+8. Skill Name: Tactical Combat AI Designer
+Description: Tactical Combat AI Designer capability. Creates observable, tunable, performant agents with perception, planning, navigation, group behavior, fallback states, and debugging tools.
+
+9. Skill Name: Crowd Simulation Engineer
+Description: Crowd Simulation Engineer capability. Creates observable, tunable, performant agents with perception, planning, navigation, group behavior, fallback states, and debugging tools.
+
+10. Skill Name: AI Debug Visualization Developer
+Description: AI Debug Visualization Developer capability. Creates observable, tunable, performant agents with perception, planning, navigation, group behavior, fallback states, and debugging tools.
+
+Category 13: Procedural Generation and Simulation
+
+10 specialized capabilities for procedural generation and simulation.
+
+1. Skill Name: Procedural Level Generator
+Description: Procedural Level Generator capability. Generates reproducible worlds and content with constraints, seeds, progression rules, quality metrics, rejection handling, and designer overrides.
+
+2. Skill Name: Terrain Generation Engineer
+Description: Terrain Generation Engineer capability. Generates reproducible worlds and content with constraints, seeds, progression rules, quality metrics, rejection handling, and designer overrides.
+
+3. Skill Name: Dungeon and Maze Generator
+Description: Dungeon and Maze Generator capability. Generates reproducible worlds and content with constraints, seeds, progression rules, quality metrics, rejection handling, and designer overrides.
+
+4. Skill Name: City and Road Generator
+Description: City and Road Generator capability. Generates reproducible worlds and content with constraints, seeds, progression rules, quality metrics, rejection handling, and designer overrides.
+
+5. Skill Name: Loot and Economy Generator
+Description: Loot and Economy Generator capability. Generates reproducible worlds and content with constraints, seeds, progression rules, quality metrics, rejection handling, and designer overrides.
+
+6. Skill Name: Creature and Character Generator
+Description: Creature and Character Generator capability. Generates reproducible worlds and content with constraints, seeds, progression rules, quality metrics, rejection handling, and designer overrides.
+
+7. Skill Name: Wave Function Collapse Developer
+Description: Wave Function Collapse Developer capability. Generates reproducible worlds and content with constraints, seeds, progression rules, quality metrics, rejection handling, and designer overrides.
+
+8. Skill Name: Noise and Fractal Systems Engineer
+Description: Noise and Fractal Systems Engineer capability. Generates reproducible worlds and content with constraints, seeds, progression rules, quality metrics, rejection handling, and designer overrides.
+
+9. Skill Name: Deterministic Seed Manager
+Description: Deterministic Seed Manager capability. Generates reproducible worlds and content with constraints, seeds, progression rules, quality metrics, rejection handling, and designer overrides.
+
+10. Skill Name: Procedural Validation Specialist
+Description: Procedural Validation Specialist capability. Generates reproducible worlds and content with constraints, seeds, progression rules, quality metrics, rejection handling, and designer overrides.
+
+Category 14: 2D Games, Tilemaps, Sprites, and Pixel Systems
+
+10 specialized capabilities for 2d games, tilemaps, sprites, and pixel systems.
+
+1. Skill Name: 2D Game Architect
+Description: 2D Game Architect capability. Builds crisp, scalable 2D games with reliable tile systems, animation, collisions, lighting, sorting, camera behavior, asset packing, and device performance.
+
+2. Skill Name: Tilemap and Autotile Developer
+Description: Tilemap and Autotile Developer capability. Builds crisp, scalable 2D games with reliable tile systems, animation, collisions, lighting, sorting, camera behavior, asset packing, and device performance.
+
+3. Skill Name: Sprite Animation Engineer
+Description: Sprite Animation Engineer capability. Builds crisp, scalable 2D games with reliable tile systems, animation, collisions, lighting, sorting, camera behavior, asset packing, and device performance.
+
+4. Skill Name: Pixel-Perfect Rendering Specialist
+Description: Pixel-Perfect Rendering Specialist capability. Builds crisp, scalable 2D games with reliable tile systems, animation, collisions, lighting, sorting, camera behavior, asset packing, and device performance.
+
+5. Skill Name: 2D Lighting Developer
+Description: 2D Lighting Developer capability. Builds crisp, scalable 2D games with reliable tile systems, animation, collisions, lighting, sorting, camera behavior, asset packing, and device performance.
+
+6. Skill Name: 2D Collision and Physics Engineer
+Description: 2D Collision and Physics Engineer capability. Builds crisp, scalable 2D games with reliable tile systems, animation, collisions, lighting, sorting, camera behavior, asset packing, and device performance.
+
+7. Skill Name: Parallax and Camera Designer
+Description: Parallax and Camera Designer capability. Builds crisp, scalable 2D games with reliable tile systems, animation, collisions, lighting, sorting, camera behavior, asset packing, and device performance.
+
+8. Skill Name: 2D VFX Developer
+Description: 2D VFX Developer capability. Builds crisp, scalable 2D games with reliable tile systems, animation, collisions, lighting, sorting, camera behavior, asset packing, and device performance.
+
+9. Skill Name: Atlas and Sprite Packing Engineer
+Description: Atlas and Sprite Packing Engineer capability. Builds crisp, scalable 2D games with reliable tile systems, animation, collisions, lighting, sorting, camera behavior, asset packing, and device performance.
+
+10. Skill Name: 2D Performance Optimizer
+Description: 2D Performance Optimizer capability. Builds crisp, scalable 2D games with reliable tile systems, animation, collisions, lighting, sorting, camera behavior, asset packing, and device performance.
+
+Category 15: 3D Worlds, Rendering, Materials, and Shaders
+
+10 specialized capabilities for 3d worlds, rendering, materials, and shaders.
+
+1. Skill Name: 3D Game Architect
+Description: 3D Game Architect capability. Creates performant 3D presentation with physically based or stylized materials, shaders, lighting, streaming, culling, LODs, profiling, and platform fallbacks.
+
+2. Skill Name: Scene and World Streaming Engineer
+Description: Scene and World Streaming Engineer capability. Creates performant 3D presentation with physically based or stylized materials, shaders, lighting, streaming, culling, LODs, profiling, and platform fallbacks.
+
+3. Skill Name: PBR Material Developer
+Description: PBR Material Developer capability. Creates performant 3D presentation with physically based or stylized materials, shaders, lighting, streaming, culling, LODs, profiling, and platform fallbacks.
+
+4. Skill Name: Shader Programming Specialist
+Description: Shader Programming Specialist capability. Creates performant 3D presentation with physically based or stylized materials, shaders, lighting, streaming, culling, LODs, profiling, and platform fallbacks.
+
+5. Skill Name: Lighting and Shadow Engineer
+Description: Lighting and Shadow Engineer capability. Creates performant 3D presentation with physically based or stylized materials, shaders, lighting, streaming, culling, LODs, profiling, and platform fallbacks.
+
+6. Skill Name: Post-Processing Developer
+Description: Post-Processing Developer capability. Creates performant 3D presentation with physically based or stylized materials, shaders, lighting, streaming, culling, LODs, profiling, and platform fallbacks.
+
+7. Skill Name: LOD and Occlusion Engineer
+Description: LOD and Occlusion Engineer capability. Creates performant 3D presentation with physically based or stylized materials, shaders, lighting, streaming, culling, LODs, profiling, and platform fallbacks.
+
+8. Skill Name: GPU Instancing Specialist
+Description: GPU Instancing Specialist capability. Creates performant 3D presentation with physically based or stylized materials, shaders, lighting, streaming, culling, LODs, profiling, and platform fallbacks.
+
+9. Skill Name: Ray Tracing Integration Engineer
+Description: Ray Tracing Integration Engineer capability. Creates performant 3D presentation with physically based or stylized materials, shaders, lighting, streaming, culling, LODs, profiling, and platform fallbacks.
+
+10. Skill Name: Render Pipeline Debugger
+Description: Render Pipeline Debugger capability. Creates performant 3D presentation with physically based or stylized materials, shaders, lighting, streaming, culling, LODs, profiling, and platform fallbacks.
+
+Category 16: Physics, Vehicles, Destruction, and Simulation
+
+10 specialized capabilities for physics, vehicles, destruction, and simulation.
+
+1. Skill Name: Rigid Body Physics Engineer
+Description: Rigid Body Physics Engineer capability. Implements stable, tunable simulation with correct units, layers, contacts, constraints, substeps, networking considerations, and failure-resistant debugging.
+
+2. Skill Name: Character Physics Developer
+Description: Character Physics Developer capability. Implements stable, tunable simulation with correct units, layers, contacts, constraints, substeps, networking considerations, and failure-resistant debugging.
+
+3. Skill Name: Vehicle Physics Engineer
+Description: Vehicle Physics Engineer capability. Implements stable, tunable simulation with correct units, layers, contacts, constraints, substeps, networking considerations, and failure-resistant debugging.
+
+4. Skill Name: Ragdoll and Active Physics Developer
+Description: Ragdoll and Active Physics Developer capability. Implements stable, tunable simulation with correct units, layers, contacts, constraints, substeps, networking considerations, and failure-resistant debugging.
+
+5. Skill Name: Cloth and Soft Body Integrator
+Description: Cloth and Soft Body Integrator capability. Implements stable, tunable simulation with correct units, layers, contacts, constraints, substeps, networking considerations, and failure-resistant debugging.
+
+6. Skill Name: Destruction Systems Developer
+Description: Destruction Systems Developer capability. Implements stable, tunable simulation with correct units, layers, contacts, constraints, substeps, networking considerations, and failure-resistant debugging.
+
+7. Skill Name: Water and Fluid Simulation Integrator
+Description: Water and Fluid Simulation Integrator capability. Implements stable, tunable simulation with correct units, layers, contacts, constraints, substeps, networking considerations, and failure-resistant debugging.
+
+8. Skill Name: Projectile and Ballistics Engineer
+Description: Projectile and Ballistics Engineer capability. Implements stable, tunable simulation with correct units, layers, contacts, constraints, substeps, networking considerations, and failure-resistant debugging.
+
+9. Skill Name: Physics Determinism Specialist
+Description: Physics Determinism Specialist capability. Implements stable, tunable simulation with correct units, layers, contacts, constraints, substeps, networking considerations, and failure-resistant debugging.
+
+10. Skill Name: Collision Debugging Engineer
+Description: Collision Debugging Engineer capability. Implements stable, tunable simulation with correct units, layers, contacts, constraints, substeps, networking considerations, and failure-resistant debugging.
+
+Category 17: Animation, Rigging, Cinematics, and Motion
+
+10 specialized capabilities for animation, rigging, cinematics, and motion.
+
+1. Skill Name: Gameplay Animation Engineer
+Description: Gameplay Animation Engineer capability. Builds responsive character and cinematic motion with clean transitions, contacts, retargeting, events, camera synchronization, and runtime budgets.
+
+2. Skill Name: Animation State Machine Developer
+Description: Animation State Machine Developer capability. Builds responsive character and cinematic motion with clean transitions, contacts, retargeting, events, camera synchronization, and runtime budgets.
+
+3. Skill Name: Inverse Kinematics Specialist
+Description: Inverse Kinematics Specialist capability. Builds responsive character and cinematic motion with clean transitions, contacts, retargeting, events, camera synchronization, and runtime budgets.
+
+4. Skill Name: Motion Matching Developer
+Description: Motion Matching Developer capability. Builds responsive character and cinematic motion with clean transitions, contacts, retargeting, events, camera synchronization, and runtime budgets.
+
+5. Skill Name: Root Motion Integrator
+Description: Root Motion Integrator capability. Builds responsive character and cinematic motion with clean transitions, contacts, retargeting, events, camera synchronization, and runtime budgets.
+
+6. Skill Name: Facial Animation Systems Developer
+Description: Facial Animation Systems Developer capability. Builds responsive character and cinematic motion with clean transitions, contacts, retargeting, events, camera synchronization, and runtime budgets.
+
+7. Skill Name: Ragdoll Blend Engineer
+Description: Ragdoll Blend Engineer capability. Builds responsive character and cinematic motion with clean transitions, contacts, retargeting, events, camera synchronization, and runtime budgets.
+
+8. Skill Name: Cutscene and Timeline Developer
+Description: Cutscene and Timeline Developer capability. Builds responsive character and cinematic motion with clean transitions, contacts, retargeting, events, camera synchronization, and runtime budgets.
+
+9. Skill Name: Motion Capture Retargeting Specialist
+Description: Motion Capture Retargeting Specialist capability. Builds responsive character and cinematic motion with clean transitions, contacts, retargeting, events, camera synchronization, and runtime budgets.
+
+10. Skill Name: Animation Optimization Engineer
+Description: Animation Optimization Engineer capability. Builds responsive character and cinematic motion with clean transitions, contacts, retargeting, events, camera synchronization, and runtime budgets.
+
+Category 18: UI, UX, HUD, Menus, and Input
+
+10 specialized capabilities for ui, ux, hud, menus, and input.
+
+1. Skill Name: Game UI Architect
+Description: Game UI Architect capability. Creates readable, responsive interfaces and control systems across devices, aspect ratios, accessibility modes, focus states, localization, and saveable preferences.
+
+2. Skill Name: HUD Systems Developer
+Description: HUD Systems Developer capability. Creates readable, responsive interfaces and control systems across devices, aspect ratios, accessibility modes, focus states, localization, and saveable preferences.
+
+3. Skill Name: Menu and Navigation Engineer
+Description: Menu and Navigation Engineer capability. Creates readable, responsive interfaces and control systems across devices, aspect ratios, accessibility modes, focus states, localization, and saveable preferences.
+
+4. Skill Name: Controller and Gamepad Input Specialist
+Description: Controller and Gamepad Input Specialist capability. Creates readable, responsive interfaces and control systems across devices, aspect ratios, accessibility modes, focus states, localization, and saveable preferences.
+
+5. Skill Name: Keyboard and Mouse Input Developer
+Description: Keyboard and Mouse Input Developer capability. Creates readable, responsive interfaces and control systems across devices, aspect ratios, accessibility modes, focus states, localization, and saveable preferences.
+
+6. Skill Name: Touch and Gesture Developer
+Description: Touch and Gesture Developer capability. Creates readable, responsive interfaces and control systems across devices, aspect ratios, accessibility modes, focus states, localization, and saveable preferences.
+
+7. Skill Name: Rebinding and Input Glyph Engineer
+Description: Rebinding and Input Glyph Engineer capability. Creates readable, responsive interfaces and control systems across devices, aspect ratios, accessibility modes, focus states, localization, and saveable preferences.
+
+8. Skill Name: Resolution and Safe Area Specialist
+Description: Resolution and Safe Area Specialist capability. Creates readable, responsive interfaces and control systems across devices, aspect ratios, accessibility modes, focus states, localization, and saveable preferences.
+
+9. Skill Name: UI Animation and Feedback Designer
+Description: UI Animation and Feedback Designer capability. Creates readable, responsive interfaces and control systems across devices, aspect ratios, accessibility modes, focus states, localization, and saveable preferences.
+
+10. Skill Name: Usability Test Instrumentation Developer
+Description: Usability Test Instrumentation Developer capability. Creates readable, responsive interfaces and control systems across devices, aspect ratios, accessibility modes, focus states, localization, and saveable preferences.
+
+Category 19: Audio, Music, Voice, and Interactive Sound
+
+10 specialized capabilities for audio, music, voice, and interactive sound.
+
+1. Skill Name: Game Audio Systems Developer
+Description: Game Audio Systems Developer capability. Implements event-driven music, SFX, voice, spatialization, mixing, middleware, streaming, variation, loudness, and platform-safe audio delivery.
+
+2. Skill Name: Adaptive Music Engineer
+Description: Adaptive Music Engineer capability. Implements event-driven music, SFX, voice, spatialization, mixing, middleware, streaming, variation, loudness, and platform-safe audio delivery.
+
+3. Skill Name: Sound Effects Integrator
+Description: Sound Effects Integrator capability. Implements event-driven music, SFX, voice, spatialization, mixing, middleware, streaming, variation, loudness, and platform-safe audio delivery.
+
+4. Skill Name: Spatial Audio Developer
+Description: Spatial Audio Developer capability. Implements event-driven music, SFX, voice, spatialization, mixing, middleware, streaming, variation, loudness, and platform-safe audio delivery.
+
+5. Skill Name: Dialogue and Voice Pipeline Engineer
+Description: Dialogue and Voice Pipeline Engineer capability. Implements event-driven music, SFX, voice, spatialization, mixing, middleware, streaming, variation, loudness, and platform-safe audio delivery.
+
+6. Skill Name: Audio Middleware Integrator
+Description: Audio Middleware Integrator capability. Implements event-driven music, SFX, voice, spatialization, mixing, middleware, streaming, variation, loudness, and platform-safe audio delivery.
+
+7. Skill Name: Dynamic Mixing and Snapshot Designer
+Description: Dynamic Mixing and Snapshot Designer capability. Implements event-driven music, SFX, voice, spatialization, mixing, middleware, streaming, variation, loudness, and platform-safe audio delivery.
+
+8. Skill Name: Audio Occlusion Developer
+Description: Audio Occlusion Developer capability. Implements event-driven music, SFX, voice, spatialization, mixing, middleware, streaming, variation, loudness, and platform-safe audio delivery.
+
+9. Skill Name: Game Audio Performance Optimizer
+Description: Game Audio Performance Optimizer capability. Implements event-driven music, SFX, voice, spatialization, mixing, middleware, streaming, variation, loudness, and platform-safe audio delivery.
+
+10. Skill Name: Audio Asset Validation Engineer
+Description: Audio Asset Validation Engineer capability. Implements event-driven music, SFX, voice, spatialization, mixing, middleware, streaming, variation, loudness, and platform-safe audio delivery.
+
+Category 20: Networking, Multiplayer, Online Services, and Backend
+
+10 specialized capabilities for networking, multiplayer, online services, and backend.
+
+1. Skill Name: Multiplayer Architecture Designer
+Description: Multiplayer Architecture Designer capability. Builds authoritative, latency-aware online play with synchronization, prediction, reconciliation, sessions, persistence, scaling, telemetry, abuse controls, and recovery.
+
+2. Skill Name: Client Server Gameplay Engineer
+Description: Client Server Gameplay Engineer capability. Builds authoritative, latency-aware online play with synchronization, prediction, reconciliation, sessions, persistence, scaling, telemetry, abuse controls, and recovery.
+
+3. Skill Name: Replication and Prediction Specialist
+Description: Replication and Prediction Specialist capability. Builds authoritative, latency-aware online play with synchronization, prediction, reconciliation, sessions, persistence, scaling, telemetry, abuse controls, and recovery.
+
+4. Skill Name: Rollback Netcode Developer
+Description: Rollback Netcode Developer capability. Builds authoritative, latency-aware online play with synchronization, prediction, reconciliation, sessions, persistence, scaling, telemetry, abuse controls, and recovery.
+
+5. Skill Name: Matchmaking Systems Engineer
+Description: Matchmaking Systems Engineer capability. Builds authoritative, latency-aware online play with synchronization, prediction, reconciliation, sessions, persistence, scaling, telemetry, abuse controls, and recovery.
+
+6. Skill Name: Lobby and Party Systems Developer
+Description: Lobby and Party Systems Developer capability. Builds authoritative, latency-aware online play with synchronization, prediction, reconciliation, sessions, persistence, scaling, telemetry, abuse controls, and recovery.
+
+7. Skill Name: Dedicated Server Engineer
+Description: Dedicated Server Engineer capability. Builds authoritative, latency-aware online play with synchronization, prediction, reconciliation, sessions, persistence, scaling, telemetry, abuse controls, and recovery.
+
+8. Skill Name: Realtime Backend Developer
+Description: Realtime Backend Developer capability. Builds authoritative, latency-aware online play with synchronization, prediction, reconciliation, sessions, persistence, scaling, telemetry, abuse controls, and recovery.
+
+9. Skill Name: Online Services Integrator
+Description: Online Services Integrator capability. Builds authoritative, latency-aware online play with synchronization, prediction, reconciliation, sessions, persistence, scaling, telemetry, abuse controls, and recovery.
+
+10. Skill Name: Network Security and Cheat Resistance Engineer
+Description: Network Security and Cheat Resistance Engineer capability. Builds authoritative, latency-aware online play with synchronization, prediction, reconciliation, sessions, persistence, scaling, telemetry, abuse controls, and recovery.
+
+Category 21: Databases, Accounts, Cloud, and Live Services
+
+10 specialized capabilities for databases, accounts, cloud, and live services.
+
+1. Skill Name: Player Account Systems Developer
+Description: Player Account Systems Developer capability. Creates durable schemas, APIs, identity, persistence, migrations, observability, backup, rate limits, consistency rules, and operational recovery for live games.
+
+2. Skill Name: Game Database Architect
+Description: Game Database Architect capability. Creates durable schemas, APIs, identity, persistence, migrations, observability, backup, rate limits, consistency rules, and operational recovery for live games.
+
+3. Skill Name: Cloud Save Engineer
+Description: Cloud Save Engineer capability. Creates durable schemas, APIs, identity, persistence, migrations, observability, backup, rate limits, consistency rules, and operational recovery for live games.
+
+4. Skill Name: Inventory Backend Developer
+Description: Inventory Backend Developer capability. Creates durable schemas, APIs, identity, persistence, migrations, observability, backup, rate limits, consistency rules, and operational recovery for live games.
+
+5. Skill Name: Economy Service Engineer
+Description: Economy Service Engineer capability. Creates durable schemas, APIs, identity, persistence, migrations, observability, backup, rate limits, consistency rules, and operational recovery for live games.
+
+6. Skill Name: Leaderboards and Achievements Developer
+Description: Leaderboards and Achievements Developer capability. Creates durable schemas, APIs, identity, persistence, migrations, observability, backup, rate limits, consistency rules, and operational recovery for live games.
+
+7. Skill Name: Remote Configuration Engineer
+Description: Remote Configuration Engineer capability. Creates durable schemas, APIs, identity, persistence, migrations, observability, backup, rate limits, consistency rules, and operational recovery for live games.
+
+8. Skill Name: Live Operations Systems Developer
+Description: Live Operations Systems Developer capability. Creates durable schemas, APIs, identity, persistence, migrations, observability, backup, rate limits, consistency rules, and operational recovery for live games.
+
+9. Skill Name: Serverless Game Backend Developer
+Description: Serverless Game Backend Developer capability. Creates durable schemas, APIs, identity, persistence, migrations, observability, backup, rate limits, consistency rules, and operational recovery for live games.
+
+10. Skill Name: Service Reliability and Incident Engineer
+Description: Service Reliability and Incident Engineer capability. Creates durable schemas, APIs, identity, persistence, migrations, observability, backup, rate limits, consistency rules, and operational recovery for live games.
+
+Category 22: Mobile, Console, Desktop, and Platform Integration
+
+10 specialized capabilities for mobile, console, desktop, and platform integration.
+
+1. Skill Name: Android Game Developer
+Description: Android Game Developer capability. Adapts controls, graphics, memory, storage, services, suspend behavior, permissions, achievements, packaging, and certification requirements to each target platform.
+
+2. Skill Name: iOS and iPadOS Game Developer
+Description: iOS and iPadOS Game Developer capability. Adapts controls, graphics, memory, storage, services, suspend behavior, permissions, achievements, packaging, and certification requirements to each target platform.
+
+3. Skill Name: Windows Game Developer
+Description: Windows Game Developer capability. Adapts controls, graphics, memory, storage, services, suspend behavior, permissions, achievements, packaging, and certification requirements to each target platform.
+
+4. Skill Name: macOS Game Developer
+Description: macOS Game Developer capability. Adapts controls, graphics, memory, storage, services, suspend behavior, permissions, achievements, packaging, and certification requirements to each target platform.
+
+5. Skill Name: Linux Game Developer
+Description: Linux Game Developer capability. Adapts controls, graphics, memory, storage, services, suspend behavior, permissions, achievements, packaging, and certification requirements to each target platform.
+
+6. Skill Name: Xbox Platform Integrator
+Description: Xbox Platform Integrator capability. Adapts controls, graphics, memory, storage, services, suspend behavior, permissions, achievements, packaging, and certification requirements to each target platform.
+
+7. Skill Name: PlayStation Platform Integrator
+Description: PlayStation Platform Integrator capability. Adapts controls, graphics, memory, storage, services, suspend behavior, permissions, achievements, packaging, and certification requirements to each target platform.
+
+8. Skill Name: Nintendo Platform Integrator
+Description: Nintendo Platform Integrator capability. Adapts controls, graphics, memory, storage, services, suspend behavior, permissions, achievements, packaging, and certification requirements to each target platform.
+
+9. Skill Name: Handheld and Steam Deck Optimizer
+Description: Handheld and Steam Deck Optimizer capability. Adapts controls, graphics, memory, storage, services, suspend behavior, permissions, achievements, packaging, and certification requirements to each target platform.
+
+10. Skill Name: Cross-Platform Abstraction Engineer
+Description: Cross-Platform Abstraction Engineer capability. Adapts controls, graphics, memory, storage, services, suspend behavior, permissions, achievements, packaging, and certification requirements to each target platform.
+
+Category 23: XR, AR, VR, MR, and Spatial Games
+
+10 specialized capabilities for xr, ar, vr, mr, and spatial games.
+
+1. Skill Name: VR Game Developer
+Description: VR Game Developer capability. Builds immersive systems with tracked interaction, spatial mapping, comfort, accessibility, latency budgets, rendering optimization, device fallbacks, and safety boundaries.
+
+2. Skill Name: AR Game Developer
+Description: AR Game Developer capability. Builds immersive systems with tracked interaction, spatial mapping, comfort, accessibility, latency budgets, rendering optimization, device fallbacks, and safety boundaries.
+
+3. Skill Name: Mixed Reality Interaction Engineer
+Description: Mixed Reality Interaction Engineer capability. Builds immersive systems with tracked interaction, spatial mapping, comfort, accessibility, latency budgets, rendering optimization, device fallbacks, and safety boundaries.
+
+4. Skill Name: OpenXR Integration Specialist
+Description: OpenXR Integration Specialist capability. Builds immersive systems with tracked interaction, spatial mapping, comfort, accessibility, latency budgets, rendering optimization, device fallbacks, and safety boundaries.
+
+5. Skill Name: Hand Tracking Developer
+Description: Hand Tracking Developer capability. Builds immersive systems with tracked interaction, spatial mapping, comfort, accessibility, latency budgets, rendering optimization, device fallbacks, and safety boundaries.
+
+6. Skill Name: Eye Tracking and Foveation Engineer
+Description: Eye Tracking and Foveation Engineer capability. Builds immersive systems with tracked interaction, spatial mapping, comfort, accessibility, latency budgets, rendering optimization, device fallbacks, and safety boundaries.
+
+7. Skill Name: Room Scale and Boundary Developer
+Description: Room Scale and Boundary Developer capability. Builds immersive systems with tracked interaction, spatial mapping, comfort, accessibility, latency budgets, rendering optimization, device fallbacks, and safety boundaries.
+
+8. Skill Name: Spatial Anchors and Mapping Engineer
+Description: Spatial Anchors and Mapping Engineer capability. Builds immersive systems with tracked interaction, spatial mapping, comfort, accessibility, latency budgets, rendering optimization, device fallbacks, and safety boundaries.
+
+9. Skill Name: XR Comfort and Locomotion Designer
+Description: XR Comfort and Locomotion Designer capability. Builds immersive systems with tracked interaction, spatial mapping, comfort, accessibility, latency budgets, rendering optimization, device fallbacks, and safety boundaries.
+
+10. Skill Name: XR Performance and Device Compatibility Engineer
+Description: XR Performance and Device Compatibility Engineer capability. Builds immersive systems with tracked interaction, spatial mapping, comfort, accessibility, latency budgets, rendering optimization, device fallbacks, and safety boundaries.
+
+Category 24: Narrative, Dialogue, Visual Novels, and Localization
+
+10 specialized capabilities for narrative, dialogue, visual novels, and localization.
+
+1. Skill Name: Narrative Systems Designer
+Description: Narrative Systems Designer capability. Creates data-driven stories with conditions, variables, branching, save compatibility, authoring tools, localization, testing, and content validation.
+
+2. Skill Name: Branching Dialogue Developer
+Description: Branching Dialogue Developer capability. Creates data-driven stories with conditions, variables, branching, save compatibility, authoring tools, localization, testing, and content validation.
+
+3. Skill Name: Visual Novel Systems Developer
+Description: Visual Novel Systems Developer capability. Creates data-driven stories with conditions, variables, branching, save compatibility, authoring tools, localization, testing, and content validation.
+
+4. Skill Name: Quest Narrative Integrator
+Description: Quest Narrative Integrator capability. Creates data-driven stories with conditions, variables, branching, save compatibility, authoring tools, localization, testing, and content validation.
+
+5. Skill Name: Choice and Consequence Engineer
+Description: Choice and Consequence Engineer capability. Creates data-driven stories with conditions, variables, branching, save compatibility, authoring tools, localization, testing, and content validation.
+
+6. Skill Name: Dialogue Tool Developer
+Description: Dialogue Tool Developer capability. Creates data-driven stories with conditions, variables, branching, save compatibility, authoring tools, localization, testing, and content validation.
+
+7. Skill Name: Localization Pipeline Engineer
+Description: Localization Pipeline Engineer capability. Creates data-driven stories with conditions, variables, branching, save compatibility, authoring tools, localization, testing, and content validation.
+
+8. Skill Name: Right-to-Left Game UI Specialist
+Description: Right-to-Left Game UI Specialist capability. Creates data-driven stories with conditions, variables, branching, save compatibility, authoring tools, localization, testing, and content validation.
+
+9. Skill Name: Narrative Consistency Manager
+Description: Narrative Consistency Manager capability. Creates data-driven stories with conditions, variables, branching, save compatibility, authoring tools, localization, testing, and content validation.
+
+10. Skill Name: Content and Script Importer
+Description: Content and Script Importer capability. Creates data-driven stories with conditions, variables, branching, save compatibility, authoring tools, localization, testing, and content validation.
+
+Category 25: Levels, Worlds, Puzzles, and Content Design
+
+10 specialized capabilities for levels, worlds, puzzles, and content design.
+
+1. Skill Name: Level Design Architect
+Description: Level Design Architect capability. Builds readable spaces and challenges using metrics, pacing, landmarks, affordances, encounter logic, checkpoints, progression, playtests, and iteration data.
+
+2. Skill Name: World Layout Designer
+Description: World Layout Designer capability. Builds readable spaces and challenges using metrics, pacing, landmarks, affordances, encounter logic, checkpoints, progression, playtests, and iteration data.
+
+3. Skill Name: Puzzle Systems Designer
+Description: Puzzle Systems Designer capability. Builds readable spaces and challenges using metrics, pacing, landmarks, affordances, encounter logic, checkpoints, progression, playtests, and iteration data.
+
+4. Skill Name: Tutorial and Onboarding Designer
+Description: Tutorial and Onboarding Designer capability. Builds readable spaces and challenges using metrics, pacing, landmarks, affordances, encounter logic, checkpoints, progression, playtests, and iteration data.
+
+5. Skill Name: Encounter Designer
+Description: Encounter Designer capability. Builds readable spaces and challenges using metrics, pacing, landmarks, affordances, encounter logic, checkpoints, progression, playtests, and iteration data.
+
+6. Skill Name: Boss Battle Designer
+Description: Boss Battle Designer capability. Builds readable spaces and challenges using metrics, pacing, landmarks, affordances, encounter logic, checkpoints, progression, playtests, and iteration data.
+
+7. Skill Name: Mission and Scenario Designer
+Description: Mission and Scenario Designer capability. Builds readable spaces and challenges using metrics, pacing, landmarks, affordances, encounter logic, checkpoints, progression, playtests, and iteration data.
+
+8. Skill Name: Open World Content Planner
+Description: Open World Content Planner capability. Builds readable spaces and challenges using metrics, pacing, landmarks, affordances, encounter logic, checkpoints, progression, playtests, and iteration data.
+
+9. Skill Name: Difficulty Curve Designer
+Description: Difficulty Curve Designer capability. Builds readable spaces and challenges using metrics, pacing, landmarks, affordances, encounter logic, checkpoints, progression, playtests, and iteration data.
+
+10. Skill Name: Level Validation and Playtest Analyst
+Description: Level Validation and Playtest Analyst capability. Builds readable spaces and challenges using metrics, pacing, landmarks, affordances, encounter logic, checkpoints, progression, playtests, and iteration data.
+
+Category 26: Game Economy, Progression, Monetization, and Live Operations
+
+10 specialized capabilities for game economy, progression, monetization, and live operations.
+
+1. Skill Name: Game Economy Designer
+Description: Game Economy Designer capability. Designs sustainable rewards and progression with transparent value, simulations, sinks and sources, fraud resistance, age-aware safeguards, regional rules, and rollback plans.
+
+2. Skill Name: Progression Systems Designer
+Description: Progression Systems Designer capability. Designs sustainable rewards and progression with transparent value, simulations, sinks and sources, fraud resistance, age-aware safeguards, regional rules, and rollback plans.
+
+3. Skill Name: Reward Schedule Designer
+Description: Reward Schedule Designer capability. Designs sustainable rewards and progression with transparent value, simulations, sinks and sources, fraud resistance, age-aware safeguards, regional rules, and rollback plans.
+
+4. Skill Name: Virtual Currency Engineer
+Description: Virtual Currency Engineer capability. Designs sustainable rewards and progression with transparent value, simulations, sinks and sources, fraud resistance, age-aware safeguards, regional rules, and rollback plans.
+
+5. Skill Name: Storefront and Catalog Developer
+Description: Storefront and Catalog Developer capability. Designs sustainable rewards and progression with transparent value, simulations, sinks and sources, fraud resistance, age-aware safeguards, regional rules, and rollback plans.
+
+6. Skill Name: Battle Pass Systems Developer
+Description: Battle Pass Systems Developer capability. Designs sustainable rewards and progression with transparent value, simulations, sinks and sources, fraud resistance, age-aware safeguards, regional rules, and rollback plans.
+
+7. Skill Name: Event and Season Designer
+Description: Event and Season Designer capability. Designs sustainable rewards and progression with transparent value, simulations, sinks and sources, fraud resistance, age-aware safeguards, regional rules, and rollback plans.
+
+8. Skill Name: Ethical Monetization Reviewer
+Description: Ethical Monetization Reviewer capability. Designs sustainable rewards and progression with transparent value, simulations, sinks and sources, fraud resistance, age-aware safeguards, regional rules, and rollback plans.
+
+9. Skill Name: Economy Simulation Analyst
+Description: Economy Simulation Analyst capability. Designs sustainable rewards and progression with transparent value, simulations, sinks and sources, fraud resistance, age-aware safeguards, regional rules, and rollback plans.
+
+10. Skill Name: Live Balance and Configuration Manager
+Description: Live Balance and Configuration Manager capability. Designs sustainable rewards and progression with transparent value, simulations, sinks and sources, fraud resistance, age-aware safeguards, regional rules, and rollback plans.
+
+Category 27: Testing, Debugging, QA, and Automation
+
+10 specialized capabilities for testing, debugging, qa, and automation.
+
+1. Skill Name: Game Test Strategy Architect
+Description: Game Test Strategy Architect capability. Creates tests that can fail across mechanics, saves, builds, devices, networking, performance, edge cases, repeated play, clean state, and repaired regressions.
+
+2. Skill Name: Unit and Integration Test Developer
+Description: Unit and Integration Test Developer capability. Creates tests that can fail across mechanics, saves, builds, devices, networking, performance, edge cases, repeated play, clean state, and repaired regressions.
+
+3. Skill Name: Automated Playtest Engineer
+Description: Automated Playtest Engineer capability. Creates tests that can fail across mechanics, saves, builds, devices, networking, performance, edge cases, repeated play, clean state, and repaired regressions.
+
+4. Skill Name: Deterministic Replay Tester
+Description: Deterministic Replay Tester capability. Creates tests that can fail across mechanics, saves, builds, devices, networking, performance, edge cases, repeated play, clean state, and repaired regressions.
+
+5. Skill Name: Save Migration Tester
+Description: Save Migration Tester capability. Creates tests that can fail across mechanics, saves, builds, devices, networking, performance, edge cases, repeated play, clean state, and repaired regressions.
+
+6. Skill Name: Performance Regression Tester
+Description: Performance Regression Tester capability. Creates tests that can fail across mechanics, saves, builds, devices, networking, performance, edge cases, repeated play, clean state, and repaired regressions.
+
+7. Skill Name: Crash Reproduction Specialist
+Description: Crash Reproduction Specialist capability. Creates tests that can fail across mechanics, saves, builds, devices, networking, performance, edge cases, repeated play, clean state, and repaired regressions.
+
+8. Skill Name: Compatibility Matrix Tester
+Description: Compatibility Matrix Tester capability. Creates tests that can fail across mechanics, saves, builds, devices, networking, performance, edge cases, repeated play, clean state, and repaired regressions.
+
+9. Skill Name: Fuzz and Property Test Engineer
+Description: Fuzz and Property Test Engineer capability. Creates tests that can fail across mechanics, saves, builds, devices, networking, performance, edge cases, repeated play, clean state, and repaired regressions.
+
+10. Skill Name: Bug Triage and Root Cause Analyst
+Description: Bug Triage and Root Cause Analyst capability. Creates tests that can fail across mechanics, saves, builds, devices, networking, performance, edge cases, repeated play, clean state, and repaired regressions.
+
+Category 28: Performance, Memory, Profiling, and Optimization
+
+10 specialized capabilities for performance, memory, profiling, and optimization.
+
+1. Skill Name: CPU Performance Optimizer
+Description: CPU Performance Optimizer capability. Measures and improves frame time, memory, loading, bandwidth, storage, heat, battery, stutter, allocation, and worst-case scenes against explicit device budgets.
+
+2. Skill Name: GPU Performance Optimizer
+Description: GPU Performance Optimizer capability. Measures and improves frame time, memory, loading, bandwidth, storage, heat, battery, stutter, allocation, and worst-case scenes against explicit device budgets.
+
+3. Skill Name: Memory and Allocation Specialist
+Description: Memory and Allocation Specialist capability. Measures and improves frame time, memory, loading, bandwidth, storage, heat, battery, stutter, allocation, and worst-case scenes against explicit device budgets.
+
+4. Skill Name: Loading and Streaming Optimizer
+Description: Loading and Streaming Optimizer capability. Measures and improves frame time, memory, loading, bandwidth, storage, heat, battery, stutter, allocation, and worst-case scenes against explicit device budgets.
+
+5. Skill Name: Shader Performance Analyst
+Description: Shader Performance Analyst capability. Measures and improves frame time, memory, loading, bandwidth, storage, heat, battery, stutter, allocation, and worst-case scenes against explicit device budgets.
+
+6. Skill Name: Mobile Thermal and Battery Optimizer
+Description: Mobile Thermal and Battery Optimizer capability. Measures and improves frame time, memory, loading, bandwidth, storage, heat, battery, stutter, allocation, and worst-case scenes against explicit device budgets.
+
+7. Skill Name: Network Bandwidth Optimizer
+Description: Network Bandwidth Optimizer capability. Measures and improves frame time, memory, loading, bandwidth, storage, heat, battery, stutter, allocation, and worst-case scenes against explicit device budgets.
+
+8. Skill Name: Asset Size and Compression Engineer
+Description: Asset Size and Compression Engineer capability. Measures and improves frame time, memory, loading, bandwidth, storage, heat, battery, stutter, allocation, and worst-case scenes against explicit device budgets.
+
+9. Skill Name: Frame Pacing Specialist
+Description: Frame Pacing Specialist capability. Measures and improves frame time, memory, loading, bandwidth, storage, heat, battery, stutter, allocation, and worst-case scenes against explicit device budgets.
+
+10. Skill Name: Performance Budget and Benchmark Manager
+Description: Performance Budget and Benchmark Manager capability. Measures and improves frame time, memory, loading, bandwidth, storage, heat, battery, stutter, allocation, and worst-case scenes against explicit device budgets.
+
+Category 29: Builds, Packaging, Deployment, CI/CD, and Releases
+
+10 specialized capabilities for builds, packaging, deployment, ci/cd, and releases.
+
+1. Skill Name: Game Build Pipeline Engineer
+Description: Game Build Pipeline Engineer capability. Produces signed, versioned, repeatable builds with dependencies, tests, symbols, installers, patches, store metadata, rollback points, and clean-machine verification.
+
+2. Skill Name: Continuous Integration Developer
+Description: Continuous Integration Developer capability. Produces signed, versioned, repeatable builds with dependencies, tests, symbols, installers, patches, store metadata, rollback points, and clean-machine verification.
+
+3. Skill Name: Automated Packaging Specialist
+Description: Automated Packaging Specialist capability. Produces signed, versioned, repeatable builds with dependencies, tests, symbols, installers, patches, store metadata, rollback points, and clean-machine verification.
+
+4. Skill Name: Versioning and Release Manager
+Description: Versioning and Release Manager capability. Produces signed, versioned, repeatable builds with dependencies, tests, symbols, installers, patches, store metadata, rollback points, and clean-machine verification.
+
+5. Skill Name: Patch and Delta Update Engineer
+Description: Patch and Delta Update Engineer capability. Produces signed, versioned, repeatable builds with dependencies, tests, symbols, installers, patches, store metadata, rollback points, and clean-machine verification.
+
+6. Skill Name: Installer and Launcher Developer
+Description: Installer and Launcher Developer capability. Produces signed, versioned, repeatable builds with dependencies, tests, symbols, installers, patches, store metadata, rollback points, and clean-machine verification.
+
+7. Skill Name: Store Submission Packager
+Description: Store Submission Packager capability. Produces signed, versioned, repeatable builds with dependencies, tests, symbols, installers, patches, store metadata, rollback points, and clean-machine verification.
+
+8. Skill Name: Crash Symbol and Diagnostic Publisher
+Description: Crash Symbol and Diagnostic Publisher capability. Produces signed, versioned, repeatable builds with dependencies, tests, symbols, installers, patches, store metadata, rollback points, and clean-machine verification.
+
+9. Skill Name: Release Branch and Hotfix Manager
+Description: Release Branch and Hotfix Manager capability. Produces signed, versioned, repeatable builds with dependencies, tests, symbols, installers, patches, store metadata, rollback points, and clean-machine verification.
+
+10. Skill Name: Reproducible Build Verifier
+Description: Reproducible Build Verifier capability. Produces signed, versioned, repeatable builds with dependencies, tests, symbols, installers, patches, store metadata, rollback points, and clean-machine verification.
+
+Category 30: Security, Privacy, Safety, Accessibility, and Compliance
+
+10 specialized capabilities for security, privacy, safety, accessibility, and compliance.
+
+1. Skill Name: Secure Coding Reviewer
+Description: Secure Coding Reviewer capability. Protects players and systems through threat modeling, least privilege, safe data handling, accessibility options, consent, moderation, platform policies, and auditable controls.
+
+2. Skill Name: Anti-Cheat Systems Developer
+Description: Anti-Cheat Systems Developer capability. Protects players and systems through threat modeling, least privilege, safe data handling, accessibility options, consent, moderation, platform policies, and auditable controls.
+
+3. Skill Name: Privacy and Data Minimization Engineer
+Description: Privacy and Data Minimization Engineer capability. Protects players and systems through threat modeling, least privilege, safe data handling, accessibility options, consent, moderation, platform policies, and auditable controls.
+
+4. Skill Name: Authentication Security Specialist
+Description: Authentication Security Specialist capability. Protects players and systems through threat modeling, least privilege, safe data handling, accessibility options, consent, moderation, platform policies, and auditable controls.
+
+5. Skill Name: Content Safety Systems Developer
+Description: Content Safety Systems Developer capability. Protects players and systems through threat modeling, least privilege, safe data handling, accessibility options, consent, moderation, platform policies, and auditable controls.
+
+6. Skill Name: Accessibility Systems Engineer
+Description: Accessibility Systems Engineer capability. Protects players and systems through threat modeling, least privilege, safe data handling, accessibility options, consent, moderation, platform policies, and auditable controls.
+
+7. Skill Name: Color and Contrast Accessibility Reviewer
+Description: Color and Contrast Accessibility Reviewer capability. Protects players and systems through threat modeling, least privilege, safe data handling, accessibility options, consent, moderation, platform policies, and auditable controls.
+
+8. Skill Name: Subtitle and Audio Accessibility Developer
+Description: Subtitle and Audio Accessibility Developer capability. Protects players and systems through threat modeling, least privilege, safe data handling, accessibility options, consent, moderation, platform policies, and auditable controls.
+
+9. Skill Name: Parental Controls and Age Gate Engineer
+Description: Parental Controls and Age Gate Engineer capability. Protects players and systems through threat modeling, least privilege, safe data handling, accessibility options, consent, moderation, platform policies, and auditable controls.
+
+10. Skill Name: Platform Policy and Compliance Reviewer
+Description: Platform Policy and Compliance Reviewer capability. Protects players and systems through threat modeling, least privilege, safe data handling, accessibility options, consent, moderation, platform policies, and auditable controls.
+
+Category 31: Modding, Plugins, Scripting APIs, and User-Generated Content
+
+10 specialized capabilities for modding, plugins, scripting apis, and user-generated content.
+
+1. Skill Name: Modding Framework Architect
+Description: Modding Framework Architect capability. Enables safe extension through stable APIs, schemas, sandboxes, permissions, versioning, dependency resolution, validation, distribution, and creator documentation.
+
+2. Skill Name: Plugin SDK Developer
+Description: Plugin SDK Developer capability. Enables safe extension through stable APIs, schemas, sandboxes, permissions, versioning, dependency resolution, validation, distribution, and creator documentation.
+
+3. Skill Name: Embedded Scripting API Designer
+Description: Embedded Scripting API Designer capability. Enables safe extension through stable APIs, schemas, sandboxes, permissions, versioning, dependency resolution, validation, distribution, and creator documentation.
+
+4. Skill Name: Lua Game Scripting Developer
+Description: Lua Game Scripting Developer capability. Enables safe extension through stable APIs, schemas, sandboxes, permissions, versioning, dependency resolution, validation, distribution, and creator documentation.
+
+5. Skill Name: Sandbox and Permission Engineer
+Description: Sandbox and Permission Engineer capability. Enables safe extension through stable APIs, schemas, sandboxes, permissions, versioning, dependency resolution, validation, distribution, and creator documentation.
+
+6. Skill Name: User Generated Content Pipeline Developer
+Description: User Generated Content Pipeline Developer capability. Enables safe extension through stable APIs, schemas, sandboxes, permissions, versioning, dependency resolution, validation, distribution, and creator documentation.
+
+7. Skill Name: Mod Browser and Workshop Integrator
+Description: Mod Browser and Workshop Integrator capability. Enables safe extension through stable APIs, schemas, sandboxes, permissions, versioning, dependency resolution, validation, distribution, and creator documentation.
+
+8. Skill Name: Data-Driven Content Schema Designer
+Description: Data-Driven Content Schema Designer capability. Enables safe extension through stable APIs, schemas, sandboxes, permissions, versioning, dependency resolution, validation, distribution, and creator documentation.
+
+9. Skill Name: Mod Compatibility and Load Order Resolver
+Description: Mod Compatibility and Load Order Resolver capability. Enables safe extension through stable APIs, schemas, sandboxes, permissions, versioning, dependency resolution, validation, distribution, and creator documentation.
+
+10. Skill Name: Community Tool Documentation Writer
+Description: Community Tool Documentation Writer capability. Enables safe extension through stable APIs, schemas, sandboxes, permissions, versioning, dependency resolution, validation, distribution, and creator documentation.
+
+Category 32: Legacy Games, Reverse Engineering, Ports, and Preservation
+
+10 specialized capabilities for legacy games, reverse engineering, ports, and preservation.
+
+1. Skill Name: Legacy Game Code Archaeologist
+Description: Legacy Game Code Archaeologist capability. Recovers and migrates lawful projects using controlled analysis, format conversion, compatibility layers, tests, documented assumptions, and preserved original artifacts.
+
+2. Skill Name: Obsolete Engine Migration Specialist
+Description: Obsolete Engine Migration Specialist capability. Recovers and migrates lawful projects using controlled analysis, format conversion, compatibility layers, tests, documented assumptions, and preserved original artifacts.
+
+3. Skill Name: Binary Format and Asset Parser Developer
+Description: Binary Format and Asset Parser Developer capability. Recovers and migrates lawful projects using controlled analysis, format conversion, compatibility layers, tests, documented assumptions, and preserved original artifacts.
+
+4. Skill Name: Legacy Python and Runtime Maintainer
+Description: Legacy Python and Runtime Maintainer capability. Recovers and migrates lawful projects using controlled analysis, format conversion, compatibility layers, tests, documented assumptions, and preserved original artifacts.
+
+5. Skill Name: Old API Compatibility Layer Engineer
+Description: Old API Compatibility Layer Engineer capability. Recovers and migrates lawful projects using controlled analysis, format conversion, compatibility layers, tests, documented assumptions, and preserved original artifacts.
+
+6. Skill Name: Game Porting Specialist
+Description: Game Porting Specialist capability. Recovers and migrates lawful projects using controlled analysis, format conversion, compatibility layers, tests, documented assumptions, and preserved original artifacts.
+
+7. Skill Name: Emulation Integration Developer
+Description: Emulation Integration Developer capability. Recovers and migrates lawful projects using controlled analysis, format conversion, compatibility layers, tests, documented assumptions, and preserved original artifacts.
+
+8. Skill Name: Save Data Conversion Engineer
+Description: Save Data Conversion Engineer capability. Recovers and migrates lawful projects using controlled analysis, format conversion, compatibility layers, tests, documented assumptions, and preserved original artifacts.
+
+9. Skill Name: Source Recovery and Reconstruction Specialist
+Description: Source Recovery and Reconstruction Specialist capability. Recovers and migrates lawful projects using controlled analysis, format conversion, compatibility layers, tests, documented assumptions, and preserved original artifacts.
+
+10. Skill Name: Game Preservation Archivist
+Description: Game Preservation Archivist capability. Recovers and migrates lawful projects using controlled analysis, format conversion, compatibility layers, tests, documented assumptions, and preserved original artifacts.
+
+Category 33: Autonomous Game Creation and Agent Orchestration
+
+10 specialized capabilities for autonomous game creation and agent orchestration.
+
+1. Skill Name: Prompt-to-Game Production Planner
+Description: Prompt-to-Game Production Planner capability. Turns a request into a traceable project, selects the correct engine and language, builds a playable slice, expands checked systems, repairs failures, and packages editable sources plus runnable builds.
+
+2. Skill Name: Multimodal Game Brief Interpreter
+Description: Multimodal Game Brief Interpreter capability. Turns a request into a traceable project, selects the correct engine and language, builds a playable slice, expands checked systems, repairs failures, and packages editable sources plus runnable builds.
+
+3. Skill Name: Autonomous Prototype Builder
+Description: Autonomous Prototype Builder capability. Turns a request into a traceable project, selects the correct engine and language, builds a playable slice, expands checked systems, repairs failures, and packages editable sources plus runnable builds.
+
+4. Skill Name: Autonomous Codebase Repair Agent
+Description: Autonomous Codebase Repair Agent capability. Turns a request into a traceable project, selects the correct engine and language, builds a playable slice, expands checked systems, repairs failures, and packages editable sources plus runnable builds.
+
+5. Skill Name: Game Engine and Language Router
+Description: Game Engine and Language Router capability. Turns a request into a traceable project, selects the correct engine and language, builds a playable slice, expands checked systems, repairs failures, and packages editable sources plus runnable builds.
+
+6. Skill Name: Asset and Dependency Orchestrator
+Description: Asset and Dependency Orchestrator capability. Turns a request into a traceable project, selects the correct engine and language, builds a playable slice, expands checked systems, repairs failures, and packages editable sources plus runnable builds.
+
+7. Skill Name: Adaptive Build and Test Manager
+Description: Adaptive Build and Test Manager capability. Turns a request into a traceable project, selects the correct engine and language, builds a playable slice, expands checked systems, repairs failures, and packages editable sources plus runnable builds.
+
+8. Skill Name: Human Review and Approval Coordinator
+Description: Human Review and Approval Coordinator capability. Turns a request into a traceable project, selects the correct engine and language, builds a playable slice, expands checked systems, repairs failures, and packages editable sources plus runnable builds.
+
+9. Skill Name: Game Project Health Monitor
+Description: Game Project Health Monitor capability. Turns a request into a traceable project, selects the correct engine and language, builds a playable slice, expands checked systems, repairs failures, and packages editable sources plus runnable builds.
+
+10. Skill Name: End-to-End Game Production Orchestrator
+Description: End-to-End Game Production Orchestrator capability. Turns a request into a traceable project, selects the correct engine and language, builds a playable slice, expands checked systems, repairs failures, and packages editable sources plus runnable builds.
+
+Implementation Priority Blueprint
+
+Phase 1: Reliable Foundation
+Version intelligence, project creation, source control, core gameplay, input, UI, saves, tests, builds, and documentation.
+
+Phase 2: Complete Playable Production
+Levels, graphics, animation, audio, AI, physics, progression, deployment, performance, and platform adaptation.
+
+Phase 3: Advanced Systems
+Multiplayer, backend, procedural generation, XR, custom engines, compilers, modding, live services, and specialized platforms.
+
+Phase 4: Scale and Trust
+Security, privacy, accessibility, compliance, certification, CI/CD, telemetry, regression testing, archival, and disaster recovery.
+
+Phase 5: Autonomous Creation
+Multimodal briefs, engine routing, prototype generation, repository repair, adaptive tests, approvals, and end-to-end orchestration.
+
+Catalog Completion Note
+
+The catalog covers mainstream and specialist engines, browser and native games, Python and RenPy, Unity, Unreal, Godot, custom engines, compilers, editor tooling, gameplay, graphics, audio, AI, networking, cloud, platforms, XR, build pipelines, security, accessibility, legacy migration, and autonomous production. Future engine-specific skills should be added when their project model, language, editor, deployment, or validation path differs materially.

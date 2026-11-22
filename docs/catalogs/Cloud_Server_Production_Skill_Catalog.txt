@@ -1,0 +1,1057 @@
+A comprehensive catalog for designing reusable agent skills across cloud infrastructure, production engineering, security, reliability, and operations.
+
+  --------------------------------------------------------------------------------------------------------------------------------------------
+  Categories                          18
+  ----------------------------------- --------------------------------------------------------------------------------------------------------
+  Skills                              249
+
+  Scope                               Cloud accounts through production acceptance, recovery, security, compliance, and lifecycle operations
+  --------------------------------------------------------------------------------------------------------------------------------------------
+
+How to use this catalog
+
+Each entry is a candidate reusable agent skill. A future skill implementation should define trigger conditions, required inputs, safe permissions, provider-specific references, deterministic scripts where useful, validation gates, rollback behavior, and evidence-producing outputs. Skills that can change production should default to preview, least privilege, explicit approvals, bounded scope, and post-change verification.
+
+Catalog design principles
+
+- Provider-aware but portable across AWS, Microsoft Azure, Google Cloud, hybrid, and self-hosted environments.
+
+- Safe by default: preview changes, protect secrets, preserve rollback, and verify the final state.
+
+- Production-ready: include testing, monitoring, ownership, incident response, recovery, and documentation.
+
+- Composable: narrow skills can be combined into larger deployment, migration, audit, or recovery workflows.
+
+- Evidence-driven: produce concise plans, diffs, test results, logs, dashboards, and audit-ready records.
+
+1. Cloud Strategy, Accounts, and Organization
+
+1. Skill Name: Cloud Account Provisioning
+
+  Description: Create and validate cloud accounts, subscriptions, projects, tenants, billing ownership, support plans, and break-glass access across AWS, Microsoft Azure, Google Cloud, Oracle Cloud, or another approved provider.
+
+2. Skill Name: Multi-Account Cloud Organization Design
+
+  Description: Design landing-zone hierarchies, management groups, folders, organizational units, account vending, guardrails, and workload separation for development, staging, production, security, and shared services.
+
+3. Skill Name: Cloud Landing Zone Bootstrap
+
+  Description: Deploy a secure landing zone with centralized identity, logging, policy, networking, security services, and account baselines using Azure Landing Zones, AWS Control Tower, or Google Cloud enterprise foundations.
+
+4. Skill Name: Cloud Provider Selection
+
+  Description: Compare providers against region availability, service maturity, regulatory needs, latency, operational skills, portability, support, and total cost of ownership.
+
+5. Skill Name: Hybrid Cloud Architecture
+
+  Description: Connect on-premises systems and cloud environments through private links, VPNs, dedicated circuits, identity federation, routing, DNS, observability, and shared governance.
+
+6. Skill Name: Multi-Cloud Architecture
+
+  Description: Define which workloads belong on each provider, prevent accidental complexity, standardize identity and telemetry, and establish exit, portability, and failure-isolation strategies.
+
+7. Skill Name: Region and Availability-Zone Selection
+
+  Description: Select regions and zones using latency, residency, service availability, cost, carbon, disaster-risk, and recovery requirements.
+
+8. Skill Name: Cloud Service Quota Management
+
+  Description: Inventory quotas and limits, forecast demand, request increases, and alert before deployments fail from exhausted capacity.
+
+9. Skill Name: Cloud Support Plan Management
+
+  Description: Choose and operate support plans, severity paths, escalation contacts, technical account management, and incident case procedures.
+
+10. Skill Name: Cloud Resource Naming and Tagging
+
+  Description: Enforce consistent names, ownership, environment, cost center, data classification, lifecycle, and compliance tags.
+
+11. Skill Name: Cloud Resource Inventory
+
+  Description: Continuously discover, classify, and reconcile resources, owners, configurations, dependencies, and unsupported assets.
+
+12. Skill Name: Cloud Architecture Decision Records
+
+  Description: Create concise ADRs recording context, options, decision, trade-offs, security impact, cost impact, and rollback conditions.
+
+2. Billing, FinOps, and Capacity Economics
+
+1. Skill Name: Billing Configuration
+
+  Description: Configure payment profiles, invoices, tax settings, billing accounts, cost centers, budgets, permissions, and finance contacts.
+
+2. Skill Name: Cloud Budget Guardrails
+
+  Description: Create monthly and annual budgets with forecast alerts, anomaly thresholds, approval gates, and escalation routes.
+
+3. Skill Name: Cost Allocation and Chargeback
+
+  Description: Map spend to teams, products, tenants, environments, and customers using tags, labels, accounts, and allocation rules.
+
+4. Skill Name: Cloud Cost Anomaly Detection
+
+  Description: Detect unusual spend by service, account, region, SKU, or tag and route actionable alerts with likely causes.
+
+5. Skill Name: Rightsizing Advisor
+
+  Description: Evaluate CPU, memory, storage, network, and request patterns to recommend safer instance, database, and container sizes.
+
+6. Skill Name: Reserved Capacity and Savings Plans
+
+  Description: Model commitment options, utilization risk, break-even points, coverage targets, and purchase timing.
+
+7. Skill Name: Autoscaling Cost Optimization
+
+  Description: Tune scaling signals, cooldowns, minimums, maximums, spot capacity, and schedules without weakening reliability.
+
+8. Skill Name: Storage Lifecycle Cost Optimization
+
+  Description: Move data among hot, cool, archive, and deletion tiers based on access patterns, retention, restore time, and retrieval charges.
+
+9. Skill Name: Data Transfer Cost Control
+
+  Description: Map egress paths, cross-zone traffic, NAT usage, CDN opportunities, replication costs, and private connectivity charges.
+
+10. Skill Name: Unit Economics Dashboard
+
+  Description: Calculate cost per request, active user, tenant, transaction, deployment, model inference, or business outcome.
+
+11. Skill Name: Capacity Forecasting
+
+  Description: Forecast compute, database, network, queue, and storage demand using growth, seasonality, launches, and failure headroom.
+
+12. Skill Name: FinOps Policy Enforcement
+
+  Description: Evaluate resources against budgets, approved SKUs, idle-resource rules, ownership requirements, and disposal schedules.
+
+3. Identity, Access, and Privileged Operations
+
+1. Skill Name: Identity and Access Management
+
+  Description: Design users, groups, roles, service principals, workload identities, federation, conditional access, and least-privilege policies.
+
+2. Skill Name: Single Sign-On Integration
+
+  Description: Integrate cloud consoles and production tools with Microsoft Entra ID, Okta, Google Workspace, SAML, or OIDC.
+
+3. Skill Name: Role-Based Access Control Design
+
+  Description: Create role models aligned to job duties, environments, data classes, approvals, and separation of duties.
+
+4. Skill Name: Policy-as-Code for Access
+
+  Description: Define and test access policies using validated templates, version control, review, simulation, and automated deployment.
+
+5. Skill Name: Privileged Access Management
+
+  Description: Implement just-in-time elevation, approval, session recording, time limits, credential isolation, and emergency access.
+
+6. Skill Name: Break-Glass Access Management
+
+  Description: Create protected emergency identities, offline recovery instructions, monitoring, periodic tests, and post-use review.
+
+7. Skill Name: Workload Identity Federation
+
+  Description: Replace static cloud keys with short-lived identities for CI/CD, Kubernetes, GitHub Actions, and external workloads.
+
+8. Skill Name: Service Account Lifecycle
+
+  Description: Create, scope, rotate, monitor, and retire machine identities while preventing shared credentials and orphaned access.
+
+9. Skill Name: Access Review Automation
+
+  Description: Run periodic owner attestations, detect stale privileges, remove departed-user access, and preserve audit evidence.
+
+10. Skill Name: Authentication Hardening
+
+  Description: Require phishing-resistant MFA, device or location conditions, secure recovery, session limits, and risk-based controls.
+
+11. Skill Name: Authorization Testing
+
+  Description: Test allow and deny paths, tenant isolation, privilege escalation, confused-deputy risks, and policy regressions.
+
+12. Skill Name: Deployment Credentials Management
+
+  Description: Issue short-lived deployment credentials, bind them to environments, restrict actions, rotate safely, and audit every use.
+
+13. Skill Name: Code-Signing Credentials Management
+
+  Description: Protect signing keys through HSM or managed key services, approval workflows, timestamping, rotation, and revocation.
+
+4. Domains, DNS, Certificates, and Edge Routing
+
+1. Skill Name: Domain Name Registration
+
+  Description: Select, register, renew, lock, and document domains with ownership, recovery contacts, and transfer protections.
+
+2. Skill Name: DNS Management
+
+  Description: Create authoritative zones and records, manage TTLs, validate changes, protect DNSSEC, and maintain rollback plans.
+
+3. Skill Name: DNS Migration
+
+  Description: Migrate zones between providers with inventory, low-TTL preparation, parallel validation, cutover, and rollback.
+
+4. Skill Name: Split-Horizon DNS
+
+  Description: Design internal and external DNS views without leaking private records or creating inconsistent resolution.
+
+5. Skill Name: DNS Failover Routing
+
+  Description: Configure health-based, weighted, latency, geolocation, and disaster-recovery routing with tested failure behavior.
+
+6. Skill Name: TLS Certificate Lifecycle
+
+  Description: Request, validate, deploy, renew, inventory, rotate, and revoke TLS certificates using ACME or managed certificate services.
+
+7. Skill Name: Private Certificate Authority
+
+  Description: Operate internal PKI, trust chains, issuance profiles, revocation, renewal, key custody, and certificate policy.
+
+8. Skill Name: Mutual TLS Deployment
+
+  Description: Implement client and service certificates, trust distribution, certificate rotation, and failed-authentication diagnostics.
+
+9. Skill Name: Content Delivery Network
+
+  Description: Configure cache policies, origins, compression, purge, signed access, geo-controls, TLS, and observability for a CDN.
+
+10. Skill Name: Global Traffic Management
+
+  Description: Route users across regions using health, latency, sovereignty, capacity, and controlled failover policies.
+
+11. Skill Name: Reverse Proxy Configuration
+
+  Description: Configure NGINX, Envoy, HAProxy, Apache, or managed proxies for routing, headers, timeouts, buffering, and TLS.
+
+12. Skill Name: Edge Redirect and Header Policy
+
+  Description: Enforce canonical hosts, HTTPS, HSTS, CSP, cache headers, security headers, and safe redirect behavior.
+
+5. Network Architecture and Connectivity
+
+1. Skill Name: Virtual Network Design
+
+  Description: Design CIDR plans, subnets, route tables, network segmentation, private endpoints, gateways, and growth headroom.
+
+2. Skill Name: IP Address Management
+
+  Description: Allocate, document, detect conflicts, reserve, reclaim, and report private and public address space.
+
+3. Skill Name: Security Group and Firewall Rules
+
+  Description: Implement least-privilege ingress and egress rules, ownership, expiration, review, and automated drift checks.
+
+4. Skill Name: Private Service Connectivity
+
+  Description: Connect workloads to managed services without public exposure using private endpoints and service networking.
+
+5. Skill Name: Site-to-Site VPN
+
+  Description: Deploy redundant tunnels, routing, encryption, monitoring, failover, and documented troubleshooting.
+
+6. Skill Name: Dedicated Cloud Interconnect
+
+  Description: Plan and operate ExpressRoute, Direct Connect, Cloud Interconnect, or equivalent circuits with resilient routing.
+
+7. Skill Name: Transit Network Architecture
+
+  Description: Centralize routing, inspection, shared services, and cross-account connectivity while limiting blast radius.
+
+8. Skill Name: Network Address Translation
+
+  Description: Size and monitor NAT gateways or instances, control egress, avoid port exhaustion, and reduce excess cost.
+
+9. Skill Name: Egress Control
+
+  Description: Restrict outbound destinations through proxies, firewalls, DNS policy, allowlists, inspection, and exception workflows.
+
+10. Skill Name: Load Balancer
+
+  Description: Configure Layer 4 or Layer 7 load balancing, listeners, certificates, health probes, algorithms, draining, and access logs.
+
+11. Skill Name: Service Mesh Networking
+
+  Description: Operate service discovery, mTLS, retries, timeouts, circuit breaking, telemetry, and traffic policy with Istio, Linkerd, or equivalent.
+
+12. Skill Name: Network Performance Testing
+
+  Description: Measure latency, throughput, loss, DNS time, connection reuse, TLS overhead, and cross-zone behavior.
+
+13. Skill Name: IPv6 Enablement
+
+  Description: Plan dual-stack addressing, routing, security, DNS, telemetry, and application compatibility.
+
+6. Compute, Hosting, Containers, and Orchestration
+
+1. Skill Name: Production Server or Hosting
+
+  Description: Provision and harden production virtual machines, platform hosting, serverless runtimes, or managed application services.
+
+2. Skill Name: Linux Server Hardening
+
+  Description: Apply secure baselines, patching, SSH controls, host firewall, auditing, time sync, file permissions, and minimal packages.
+
+3. Skill Name: Windows Server Hardening
+
+  Description: Apply Microsoft security baselines, patching, Defender controls, PowerShell logging, RDP restrictions, and service hardening.
+
+4. Skill Name: Golden Image Pipeline
+
+  Description: Build, scan, version, test, sign, and retire machine images using Packer or provider image builders.
+
+5. Skill Name: Container Image Build
+
+  Description: Create reproducible, minimal, multi-stage images with pinned dependencies, non-root users, metadata, and health checks.
+
+6. Skill Name: Container Registry
+
+  Description: Operate ECR, ACR, Artifact Registry, GHCR, or another registry with access controls, retention, replication, and scanning.
+
+7. Skill Name: Container Image Signing
+
+  Description: Sign and verify images and attestations using Cosign, Notary, or a managed signing service.
+
+8. Skill Name: Kubernetes Cluster Provisioning
+
+  Description: Create secure managed or self-managed clusters with node pools, networking, identity, upgrades, and audit logging.
+
+9. Skill Name: Kubernetes Workload Deployment
+
+  Description: Deploy validated manifests, Helm charts, or operators with requests, limits, probes, policies, and rollout safety.
+
+10. Skill Name: Kubernetes Admission Control
+
+  Description: Enforce image, privilege, network, resource, label, and provenance policies using Gatekeeper, Kyverno, or native controls.
+
+11. Skill Name: Kubernetes Upgrade Management
+
+  Description: Assess deprecations, test add-ons, drain nodes, sequence control-plane and worker upgrades, and validate rollback.
+
+12. Skill Name: Serverless Production Deployment
+
+  Description: Configure functions or containers with concurrency, cold-start controls, permissions, networking, retries, and observability.
+
+13. Skill Name: Platform-as-a-Service Deployment
+
+  Description: Operate Azure App Service, Google Cloud Run, AWS App Runner, Render, Fly.io, or equivalent with production safeguards.
+
+14. Skill Name: GPU Workload Hosting
+
+  Description: Provision drivers, orchestration, scheduling, model storage, observability, quotas, and cost controls for GPU workloads.
+
+15. Skill Name: Job and Batch Compute
+
+  Description: Run scheduled or large-scale jobs with queues, idempotency, retries, checkpoints, priorities, and cost-aware capacity.
+
+7. CI/CD, Release Engineering, and Supply Chain
+
+1. Skill Name: CI/CD Service
+
+  Description: Configure GitHub Actions, Azure Pipelines, GitLab CI/CD, Jenkins, CircleCI, or another service with secure runners and approvals.
+
+2. Skill Name: Pipeline Architecture
+
+  Description: Design reusable stages for build, lint, unit test, security scan, package, deploy, verify, promote, and rollback.
+
+3. Skill Name: Self-Hosted Runner Operations
+
+  Description: Isolate, autoscale, patch, monitor, and replace build runners while preventing secret and workspace leakage.
+
+4. Skill Name: Artifact Repository Management
+
+  Description: Store, checksum, sign, replicate, retain, quarantine, and promote immutable build artifacts.
+
+5. Skill Name: Dependency Locking and Reproducible Builds
+
+  Description: Pin dependencies and toolchains, verify checksums, use hermetic builds, and detect non-reproducible outputs.
+
+6. Skill Name: Software Bill of Materials
+
+  Description: Generate and publish CycloneDX or SPDX SBOMs, associate them with releases, and query exposure during incidents.
+
+7. Skill Name: SLSA Provenance
+
+  Description: Produce verifiable build provenance and progressively strengthen source, build, and dependency integrity.
+
+8. Skill Name: Environment Promotion
+
+  Description: Promote the same tested artifact through development, staging, canary, and production with explicit controls.
+
+9. Skill Name: Blue-Green Deployment
+
+  Description: Operate parallel production environments, validate the inactive environment, switch traffic, and preserve fast rollback.
+
+10. Skill Name: Canary Release
+
+  Description: Shift a measured traffic percentage, compare service levels and errors, pause automatically, then expand or roll back.
+
+11. Skill Name: Feature Flag Operations
+
+  Description: Release code separately from features, define owners, safe defaults, targeting, audit, expiry, and kill switches.
+
+12. Skill Name: Database Migration Pipeline
+
+  Description: Apply backward-compatible schema changes, expand-and-contract patterns, locks checks, backups, and rollback procedures.
+
+13. Skill Name: Release Orchestration
+
+  Description: Coordinate application, infrastructure, database, configuration, documentation, support, and stakeholder readiness.
+
+14. Skill Name: Release Notes Automation
+
+  Description: Generate customer and operator release notes from approved changes while excluding secrets and internal-only details.
+
+15. Skill Name: Rollback Automation
+
+  Description: Restore the last known good application, configuration, infrastructure, and database state with verification gates.
+
+16. Skill Name: Deployment Freeze Management
+
+  Description: Enforce risk-based freeze windows, exceptions, approvals, emergency changes, and resumption checks.
+
+8. Databases, Caches, Messaging, and Data Services
+
+1. Skill Name: Production Database
+
+  Description: Provision a resilient managed or self-hosted database with encryption, private networking, backups, monitoring, and access controls.
+
+2. Skill Name: Database Engine Selection
+
+  Description: Choose PostgreSQL, MySQL, SQL Server, Oracle, MongoDB, DynamoDB, Cosmos DB, or alternatives based on workload and operations.
+
+3. Skill Name: Database High Availability
+
+  Description: Configure replication, failover, quorum, fencing, connection behavior, and recovery verification.
+
+4. Skill Name: Database Performance Tuning
+
+  Description: Analyze slow queries, indexes, statistics, locks, buffers, connection pools, vacuuming, and resource constraints.
+
+5. Skill Name: Database Connection Pooling
+
+  Description: Configure PgBouncer, application pools, limits, timeouts, health checks, and leak detection.
+
+6. Skill Name: Database Access Governance
+
+  Description: Separate application, migration, reporting, admin, and break-glass identities with audited privileges.
+
+7. Skill Name: Database Encryption and Key Rotation
+
+  Description: Encrypt storage and connections, manage customer keys where required, and rehearse rotation.
+
+8. Skill Name: Database Backup and Point-in-Time Recovery
+
+  Description: Configure snapshots, logs, retention, cross-region copies, restore points, and restore verification.
+
+9. Skill Name: Read Replica Operations
+
+  Description: Create and monitor replicas, lag, routing, promotion, consistency expectations, and failure behavior.
+
+10. Skill Name: Cache Architecture
+
+  Description: Deploy Redis, Memcached, or managed caches with eviction, persistence, clustering, TLS, and stampede protection.
+
+11. Skill Name: Message Queue Operations
+
+  Description: Operate SQS, Service Bus, Pub/Sub, RabbitMQ, or equivalent with dead-letter handling, retries, ordering, and idempotency.
+
+12. Skill Name: Event Streaming Platform
+
+  Description: Operate Kafka, Event Hubs, Kinesis, or Pub/Sub streams with partitions, schemas, retention, replay, and consumer lag controls.
+
+13. Skill Name: Schema Registry Governance
+
+  Description: Version and validate event schemas, compatibility rules, ownership, evolution, and deprecation.
+
+14. Skill Name: Search Cluster Operations
+
+  Description: Operate Elasticsearch, OpenSearch, or managed search with mappings, shards, snapshots, security, and query monitoring.
+
+15. Skill Name: Vector Database Operations
+
+  Description: Operate vector indexes with embedding-version tracking, metadata filters, recall testing, backup, privacy, and cost controls.
+
+9. Storage, Backup, Retention, and Recovery
+
+1. Skill Name: Object Storage
+
+  Description: Configure buckets or containers with encryption, access policy, versioning, lifecycle, replication, logging, and public-access blocks.
+
+2. Skill Name: Block Storage Operations
+
+  Description: Select volume classes, provision IOPS and throughput, snapshot, resize, encrypt, and monitor attached storage.
+
+3. Skill Name: File Storage Operations
+
+  Description: Deploy NFS, SMB, or managed file systems with permissions, performance tiers, backup, and mount resilience.
+
+4. Skill Name: Backup Storage
+
+  Description: Create isolated, encrypted, immutable, and access-controlled backup repositories separate from production credentials.
+
+5. Skill Name: Backup Policy Design
+
+  Description: Define scope, frequency, retention, immutability, geographic copies, ownership, monitoring, and exceptions.
+
+6. Skill Name: Data-Retention Policy
+
+  Description: Translate legal, privacy, contractual, and operational requirements into system-specific retention and deletion rules.
+
+7. Skill Name: Legal Hold Support
+
+  Description: Suspend deletion for selected identities or records, preserve chain of custody, and audit release of holds.
+
+8. Skill Name: Immutable Backup Protection
+
+  Description: Use object lock, vault lock, WORM, separate accounts, MFA deletion, and ransomware-resistant controls.
+
+9. Skill Name: Backup Restoration Tests
+
+  Description: Run scheduled restores to isolated environments, verify integrity and usability, measure RTO/RPO, and record evidence.
+
+10. Skill Name: Disaster-Recovery Plan
+
+  Description: Document scenarios, dependencies, roles, communication, recovery order, data loss limits, alternate access, and return to normal.
+
+11. Skill Name: Disaster-Recovery Exercise
+
+  Description: Run tabletop, partial, and full failover exercises with injects, timed checkpoints, observers, and corrective actions.
+
+12. Skill Name: Cross-Region Recovery
+
+  Description: Replicate services and data, manage DNS or traffic failover, protect consistency, and validate regional independence.
+
+13. Skill Name: Ransomware Recovery
+
+  Description: Detect destructive activity, isolate access, preserve evidence, recover clean data, rotate credentials, and validate trust.
+
+14. Skill Name: Data Deletion Verification
+
+  Description: Prove deletion from primary, replica, cache, search, analytics, export, and backup paths according to policy.
+
+15. Skill Name: Archive Retrieval Operations
+
+  Description: Catalog archives, estimate retrieval time and charges, restore safely, validate content, and reapply retention.
+
+10. Secrets, Keys, Configuration, and Trust
+
+1. Skill Name: Secrets Manager
+
+  Description: Store, retrieve, scope, audit, rotate, and revoke application secrets using Key Vault, Secrets Manager, Secret Manager, Vault, or equivalent.
+
+2. Skill Name: Secret Rotation Automation
+
+  Description: Rotate database, API, certificate, and service credentials without downtime using staged or dual credentials.
+
+3. Skill Name: Encryption Key Management
+
+  Description: Create, authorize, rotate, disable, schedule deletion, and audit keys in KMS, Key Vault, Cloud KMS, or HSMs.
+
+4. Skill Name: Hardware Security Module Operations
+
+  Description: Provision and operate HSM partitions, ceremonies, quorum, backup, firmware, audit, and disaster recovery.
+
+5. Skill Name: Configuration Management
+
+  Description: Version environment configuration, validate schema, separate secrets, audit changes, and support safe rollback.
+
+6. Skill Name: Dynamic Configuration Delivery
+
+  Description: Distribute runtime configuration with caching, consistency, staged rollout, validation, and failure-safe defaults.
+
+7. Skill Name: Public Key Infrastructure Inventory
+
+  Description: Discover certificates and keys, owners, use, trust chains, algorithms, expiration, and rotation status.
+
+8. Skill Name: Certificate Pinning Governance
+
+  Description: Assess pinning risk, design backup pins or alternatives, rotate safely, and prevent client lockout.
+
+9. Skill Name: Token Signing Key Rotation
+
+  Description: Rotate JWT or session signing keys with overlapping verification, key IDs, revocation, and cache control.
+
+10. Skill Name: Time Synchronization
+
+  Description: Operate NTP or cloud time services, monitor drift, secure sources, and prevent authentication and logging failures.
+
+11. Observability, Monitoring, Logging, and Alerts
+
+1. Skill Name: Monitoring System
+
+  Description: Implement infrastructure, platform, application, dependency, and business telemetry with ownership and actionable thresholds.
+
+2. Skill Name: Logging System
+
+  Description: Centralize structured logs using OpenTelemetry, Azure Monitor, Cloud Logging, CloudWatch, Elastic, Splunk, or equivalent.
+
+3. Skill Name: Alerting System
+
+  Description: Create symptom-based alerts with severity, routing, deduplication, inhibition, runbooks, escalation, and maintenance windows.
+
+4. Skill Name: Error Tracking
+
+  Description: Capture exceptions, stack traces, release context, users affected, breadcrumbs, ownership, and regression signals using Sentry or equivalent.
+
+5. Skill Name: Uptime Monitoring
+
+  Description: Run external HTTP, DNS, TLS, TCP, and API checks from multiple regions with clear availability objectives.
+
+6. Skill Name: Distributed Tracing
+
+  Description: Instrument services with trace context, sampling, baggage controls, dependency spans, and latency analysis.
+
+7. Skill Name: OpenTelemetry Instrumentation
+
+  Description: Standardize traces, metrics, and logs using SDKs, collectors, semantic conventions, processors, and exporters.
+
+8. Skill Name: Metrics Platform Operations
+
+  Description: Operate Prometheus, Grafana, managed metrics, or equivalent with cardinality controls, retention, recording rules, and federation.
+
+9. Skill Name: Log Pipeline Engineering
+
+  Description: Parse, enrich, redact, buffer, route, index, retain, and archive logs while controlling loss and cost.
+
+10. Skill Name: Sensitive Data Log Redaction
+
+  Description: Detect and remove secrets, tokens, personal data, payment data, and regulated identifiers before storage.
+
+11. Skill Name: Service-Level Objectives
+
+  Description: Define SLIs, SLOs, error budgets, windows, burn-rate alerts, exceptions, and decision rules.
+
+12. Skill Name: Synthetic Transaction Monitoring
+
+  Description: Exercise critical user journeys such as sign-in, checkout, upload, API calls, and recovery from outside production.
+
+13. Skill Name: Real User Monitoring
+
+  Description: Measure browser and mobile performance, errors, geography, device experience, and release regressions.
+
+14. Skill Name: Observability Dashboard Design
+
+  Description: Build role-specific dashboards for service health, capacity, dependencies, releases, incidents, and business impact.
+
+15. Skill Name: Telemetry Cost Governance
+
+  Description: Control ingestion, labels, sampling, retention, indexes, and duplicate signals without hiding important failures.
+
+12. Security Engineering and Protection
+
+1. Skill Name: Vulnerability Scanning
+
+  Description: Scan source, dependencies, images, hosts, cloud configuration, APIs, and running workloads; prioritize exploitable risk and verify remediation.
+
+2. Skill Name: Web Application Firewall
+
+  Description: Configure managed and custom WAF rules, exclusions, bot controls, logging, staged enforcement, and false-positive review.
+
+3. Skill Name: DDoS Protection
+
+  Description: Enable network and application DDoS protections, capacity baselines, scrubbing escalation, runbooks, and attack simulations.
+
+4. Skill Name: Rate Limiting
+
+  Description: Implement per-user, tenant, IP, token, route, and cost-based limits with burst handling and clear client responses.
+
+5. Skill Name: Cloud Security Posture Management
+
+  Description: Continuously assess cloud configuration against CIS Benchmarks, provider baselines, custom policy, and risk ownership.
+
+6. Skill Name: Container Runtime Security
+
+  Description: Detect suspicious processes, file changes, privilege use, network behavior, and escape attempts in containers.
+
+7. Skill Name: Endpoint Detection and Response
+
+  Description: Deploy EDR to production hosts, protect agents, tune detections, isolate systems, and validate telemetry.
+
+8. Skill Name: Intrusion Detection
+
+  Description: Monitor network and host events, enrich detections, reduce noise, and connect response playbooks.
+
+9. Skill Name: Security Information and Event Management
+
+  Description: Normalize and correlate security events in Microsoft Sentinel, Splunk, Chronicle, or equivalent with tested detections.
+
+10. Skill Name: API Security Testing
+
+  Description: Test authentication, authorization, object access, input handling, mass assignment, abuse limits, and schema conformance.
+
+11. Skill Name: Penetration Test Coordination
+
+  Description: Define scope and rules, prepare safe access, monitor activity, triage findings, and verify fixes.
+
+12. Skill Name: Threat Modeling
+
+  Description: Model assets, trust boundaries, attackers, abuse cases, mitigations, residual risk, and security requirements.
+
+13. Skill Name: Secure Baseline Compliance
+
+  Description: Assess operating systems, Kubernetes, databases, networks, and cloud services against hardened baselines.
+
+14. Skill Name: Malware Scanning for Uploads
+
+  Description: Quarantine and scan uploads, enforce type and size controls, prevent execution, and manage detection outcomes.
+
+15. Skill Name: Security Patch Management
+
+  Description: Inventory exposure, prioritize critical fixes, test compatibility, deploy by risk window, and verify closure.
+
+16. Skill Name: Attack Surface Discovery
+
+  Description: Find public hosts, domains, certificates, storage, APIs, shadow services, and expired assets.
+
+17. Skill Name: Zero Trust Architecture
+
+  Description: Apply explicit verification, least privilege, device and workload identity, segmentation, continuous evaluation, and assumed breach.
+
+13. Infrastructure as Code and Configuration Automation
+
+1. Skill Name: Infrastructure-as-Code State Storage
+
+  Description: Store Terraform or OpenTofu state in encrypted, versioned, access-controlled backends with locking, backup, and recovery.
+
+2. Skill Name: Terraform Module Engineering
+
+  Description: Create versioned, composable modules with validated inputs, outputs, examples, tests, and upgrade guidance.
+
+3. Skill Name: OpenTofu Deployment
+
+  Description: Operate OpenTofu plans and applies with remote state, provider controls, policy, review, and drift handling.
+
+4. Skill Name: Bicep and ARM Deployment
+
+  Description: Author and validate Azure infrastructure with reusable modules, what-if review, deployment stacks, and safe parameters.
+
+5. Skill Name: CloudFormation Engineering
+
+  Description: Build AWS stacks and StackSets with change sets, drift detection, rollback controls, and policy validation.
+
+6. Skill Name: Pulumi Infrastructure Automation
+
+  Description: Create typed infrastructure programs with protected secrets, previews, testing, and stack governance.
+
+7. Skill Name: Configuration Management Automation
+
+  Description: Use Ansible, Chef, Puppet, Salt, or cloud-native tools for convergent, idempotent, audited configuration.
+
+8. Skill Name: Infrastructure Policy as Code
+
+  Description: Enforce organizational rules with OPA, Conftest, Sentinel, Azure Policy, SCPs, or organization policies.
+
+9. Skill Name: Infrastructure Plan Review
+
+  Description: Summarize additions, changes, replacements, deletions, cost, security impact, dependencies, and rollback risk.
+
+10. Skill Name: Infrastructure Drift Detection
+
+  Description: Compare desired and actual state, classify drift, identify ownership, and remediate safely.
+
+11. Skill Name: Ephemeral Environment Provisioning
+
+  Description: Create short-lived preview or test environments with isolation, seeded data, budgets, TTLs, and automatic cleanup.
+
+12. Skill Name: Resource Import and Adoption
+
+  Description: Bring existing resources under IaC without unintended replacement, downtime, or loss of configuration.
+
+13. Skill Name: IaC Testing
+
+  Description: Run formatting, linting, static analysis, policy tests, unit tests, integration tests, and deployment smoke tests.
+
+14. Reliability, Incidents, and Production Operations
+
+1. Skill Name: Incident Response Coordination
+
+  Description: Declare incidents, set roles, establish communication, stabilize service, track actions, and close with verified recovery.
+
+2. Skill Name: On-Call Program Design
+
+  Description: Define rotations, escalation, access, compensation guidance, training, handoffs, health checks, and sustainable load.
+
+3. Skill Name: Runbook Authoring
+
+  Description: Create executable runbooks with symptoms, prerequisites, safeguards, commands, decision points, rollback, and verification.
+
+4. Skill Name: Automated Incident Remediation
+
+  Description: Automate bounded, reversible responses such as restart, failover, scale-out, queue pause, or certificate renewal.
+
+5. Skill Name: Post-Incident Review
+
+  Description: Produce blameless timelines, contributing factors, detection and response gaps, corrective actions, owners, and due dates.
+
+6. Skill Name: Problem Management
+
+  Description: Identify recurring patterns, maintain known errors, prioritize permanent fixes, and verify recurrence reduction.
+
+7. Skill Name: Chaos Engineering
+
+  Description: Run controlled failure experiments with hypotheses, blast-radius limits, abort conditions, telemetry, and learning capture.
+
+8. Skill Name: Game Day Facilitation
+
+  Description: Exercise teams and systems against realistic outages, degraded dependencies, security events, and communication failures.
+
+9. Skill Name: Capacity Incident Prevention
+
+  Description: Detect saturation, forecast exhaustion, reserve headroom, test scaling, and eliminate hard limits before demand peaks.
+
+10. Skill Name: Dependency Resilience
+
+  Description: Apply timeouts, bounded retries, jitter, circuit breakers, bulkheads, fallbacks, and graceful degradation.
+
+11. Skill Name: Production Readiness Review
+
+  Description: Evaluate architecture, security, observability, capacity, support, deployment, rollback, recovery, and ownership before launch.
+
+12. Skill Name: Operational Maturity Assessment
+
+  Description: Score services across ownership, reliability, automation, security, documentation, testing, recovery, and cost.
+
+13. Skill Name: Maintenance Window Operations
+
+  Description: Plan notifications, backups, access, sequencing, verification, rollback, and completion reporting.
+
+14. Skill Name: Service Decommissioning
+
+  Description: Drain traffic, archive or delete data, revoke access, remove infrastructure, update dependencies, and verify cost cessation.
+
+15. Testing, Validation, and Production Acceptance
+
+1. Skill Name: Production Acceptance Tests
+
+  Description: Run go-live checks covering critical journeys, authentication, authorization, data integrity, performance, monitoring, backups, rollback, and support readiness.
+
+2. Skill Name: Deployment Smoke Testing
+
+  Description: Verify health endpoints, key APIs, dependent services, queues, databases, static assets, and telemetry immediately after deployment.
+
+3. Skill Name: Integration Testing Environment
+
+  Description: Provision representative dependencies, identities, data, network policies, and observability for repeatable integration tests.
+
+4. Skill Name: End-to-End Test Automation
+
+  Description: Automate critical user and operator journeys with stable selectors, seeded data, retries limited to infrastructure noise, and captured evidence.
+
+5. Skill Name: Load Testing
+
+  Description: Measure throughput, latency percentiles, saturation, errors, autoscaling, and recovery using realistic traffic models.
+
+6. Skill Name: Stress Testing
+
+  Description: Increase load beyond expected peaks to identify breaking points, failure modes, and safe operating limits.
+
+7. Skill Name: Soak Testing
+
+  Description: Run sustained workloads long enough to reveal leaks, fragmentation, queue growth, cache drift, and resource exhaustion.
+
+8. Skill Name: Failover Testing
+
+  Description: Trigger component, zone, region, database, route, and dependency failures and verify recovery behavior and data consistency.
+
+9. Skill Name: Backup Restore Validation
+
+  Description: Restore selected and full datasets, run application checks, compare integrity, and document achieved recovery times.
+
+10. Skill Name: Security Regression Testing
+
+  Description: Retest fixed vulnerabilities, authentication, authorization, headers, secrets exposure, and policy controls on every release.
+
+11. Skill Name: Infrastructure Acceptance Testing
+
+  Description: Validate resources, policies, routes, encryption, logging, backups, tags, and ownership after provisioning.
+
+12. Skill Name: Contract Testing
+
+  Description: Verify provider and consumer API or event contracts, compatibility, versioning, and failure responses.
+
+13. Skill Name: Synthetic Data Test Management
+
+  Description: Generate privacy-safe, representative, edge-case data and prevent production data leakage into lower environments.
+
+14. Skill Name: Release Verification and Observation
+
+  Description: Observe service and business metrics after release against baselines, error budgets, and automatic rollback thresholds.
+
+15. Skill Name: Resilience Test Suite
+
+  Description: Continuously test timeout, retry, failover, degraded dependency, quota exhaustion, and partial outage behavior.
+
+16. Privacy, Compliance, Governance, and Documentation
+
+1. Skill Name: Privacy and Security Documentation
+
+  Description: Maintain system descriptions, data flows, controls, policies, risks, recovery procedures, evidence, and accountable owners.
+
+2. Skill Name: Data Classification
+
+  Description: Classify public, internal, confidential, personal, regulated, and secret data and map handling controls.
+
+3. Skill Name: Data Inventory and Flow Mapping
+
+  Description: Document data sources, purposes, fields, processors, transfers, storage, retention, and deletion paths.
+
+4. Skill Name: Privacy Impact Assessment
+
+  Description: Assess necessity, proportionality, risks, safeguards, retention, rights handling, vendors, and residual risk.
+
+5. Skill Name: Compliance Control Mapping
+
+  Description: Map technical and operational controls to ISO 27001, SOC 2, NIST CSF, PCI DSS, HIPAA, GDPR, or applicable frameworks.
+
+6. Skill Name: Evidence Collection Automation
+
+  Description: Collect versioned, time-bounded evidence from cloud, identity, CI/CD, tickets, scans, backups, and monitoring.
+
+7. Skill Name: Policy Exception Management
+
+  Description: Record scope, risk, compensating controls, approver, expiry, owner, and review status for exceptions.
+
+8. Skill Name: Change Management
+
+  Description: Classify changes, assess impact, obtain approvals, schedule work, record evidence, and conduct post-change review.
+
+9. Skill Name: Asset Ownership Governance
+
+  Description: Assign accountable business and technical owners and detect orphaned services, data, credentials, and domains.
+
+10. Skill Name: Third-Party Risk Review
+
+  Description: Assess vendor security, privacy, resilience, data access, subprocessors, contractual controls, and exit strategy.
+
+11. Skill Name: Data Processing Agreement Tracking
+
+  Description: Track contractual privacy obligations, approved purposes, geographies, subprocessors, breach notice, and deletion.
+
+12. Skill Name: Audit Trail Integrity
+
+  Description: Protect, retain, time-synchronize, restrict, and verify audit logs against alteration and unauthorized access.
+
+13. Skill Name: Records of Processing Activities
+
+  Description: Maintain processing purposes, categories, recipients, transfers, retention, safeguards, and responsible parties.
+
+14. Skill Name: Data Subject Request Operations
+
+  Description: Discover, export, correct, restrict, or delete personal data across systems with identity verification and audit.
+
+15. Skill Name: Security Architecture Documentation
+
+  Description: Maintain trust boundaries, data flows, identities, controls, dependencies, assumptions, and approved deviations.
+
+16. Skill Name: Operational Handover Documentation
+
+  Description: Deliver ownership, architecture, dependencies, credentials process, dashboards, alerts, runbooks, recovery, and support contacts.
+
+17. Application Platform and Runtime Engineering
+
+1. Skill Name: Production Environment Configuration
+
+  Description: Create environment-specific settings with validation, safe defaults, feature controls, endpoint mapping, and rollback.
+
+2. Skill Name: Application Health Endpoint Design
+
+  Description: Expose startup, liveness, readiness, dependency, and diagnostic signals without leaking sensitive data.
+
+3. Skill Name: Graceful Shutdown
+
+  Description: Stop accepting work, drain connections, finish or checkpoint jobs, release locks, and exit within platform deadlines.
+
+4. Skill Name: Session Management
+
+  Description: Secure cookies and tokens, rotate identifiers, set expiry, revoke sessions, prevent fixation, and scale session storage.
+
+5. Skill Name: Background Worker Operations
+
+  Description: Run workers with concurrency controls, idempotency, visibility timeouts, retries, dead letters, and safe shutdown.
+
+6. Skill Name: Scheduled Task Operations
+
+  Description: Operate cron or managed schedulers with locking, missed-run policy, observability, retries, and time-zone clarity.
+
+7. Skill Name: File Upload Pipeline
+
+  Description: Validate size and type, quarantine, scan, store privately, transform safely, and issue time-limited access.
+
+8. Skill Name: Outbound Email Production
+
+  Description: Configure verified domains, SPF, DKIM, DMARC, provider credentials, bounce handling, suppression, and deliverability monitoring.
+
+9. Skill Name: Webhook Delivery Platform
+
+  Description: Sign payloads, retry safely, preserve ordering expectations, deduplicate, expose delivery logs, and rotate secrets.
+
+10. Skill Name: API Gateway Operations
+
+  Description: Configure routing, authentication, quotas, transformation, caching, versioning, logging, and staged deployment.
+
+11. Skill Name: API Versioning and Deprecation
+
+  Description: Manage compatibility, sunset notices, usage tracking, migration guides, and controlled retirement.
+
+12. Skill Name: Tenant Isolation
+
+  Description: Enforce identity, data, cache, queue, storage, encryption, and observability boundaries between tenants.
+
+13. Skill Name: Runtime Upgrade Management
+
+  Description: Upgrade language runtimes and frameworks with compatibility tests, dependency audits, canaries, and rollback.
+
+14. Skill Name: Static Asset Delivery
+
+  Description: Fingerprint, compress, cache, invalidate, secure, and monitor JavaScript, CSS, fonts, and media assets.
+
+18. Business Continuity, Communications, and Service Management
+
+1. Skill Name: Business Impact Analysis
+
+  Description: Identify critical services, dependencies, maximum tolerable downtime, recovery priorities, data loss limits, and business consequences.
+
+2. Skill Name: Service Catalog Management
+
+  Description: Maintain service owners, purpose, tier, dependencies, SLAs, SLOs, support path, data class, and lifecycle.
+
+3. Skill Name: Status Page Operations
+
+  Description: Publish accurate component status, incident updates, maintenance notices, subscriptions, and resolution summaries.
+
+4. Skill Name: Incident Communication
+
+  Description: Prepare audience-specific updates with impact, scope, workaround, next update time, and confirmed facts.
+
+5. Skill Name: Stakeholder Escalation
+
+  Description: Route operational, security, privacy, financial, legal, and executive escalations using defined triggers and contacts.
+
+6. Skill Name: Customer Support Readiness
+
+  Description: Provide support teams with release notes, known issues, diagnostics, workarounds, escalation, and incident linkage.
+
+7. Skill Name: SLA and OLA Management
+
+  Description: Define measurable commitments, exclusions, dependencies, reporting, breach handling, and internal operating agreements.
+
+8. Skill Name: Vendor Outage Management
+
+  Description: Detect vendor failures, open priority cases, activate workarounds, communicate impact, and track service credits.
+
+9. Skill Name: Operational Training
+
+  Description: Train operators through labs, shadow rotations, simulated incidents, access checks, and competency verification.
+
+10. Skill Name: Knowledge Base Maintenance
+
+  Description: Keep troubleshooting, architecture, ownership, recovery, and common-failure guidance current and searchable.
+
+11. Skill Name: Continuity Contact Tree
+
+  Description: Maintain primary and alternate contacts, secure offline copies, test notifications, and update departure changes.
+
+12. Skill Name: Production Launch Command Center
+
+  Description: Coordinate go-live owners, checklists, telemetry, support, decisions, rollback authority, and timed status reviews.
